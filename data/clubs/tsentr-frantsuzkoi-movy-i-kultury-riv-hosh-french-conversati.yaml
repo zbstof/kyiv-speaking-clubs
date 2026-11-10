@@ -8,6 +8,10 @@ location:
   venue: Центр французької мови і культури «Рів Гош»
   address: вул. Богдана Хмельницького, 16-22, корп. А, офіс 203-а
   metro: Театральна
+  lat: 50.44521
+  lon: 30.518045
+  geocoded: true
+  near_metro: true
 contacts:
   - type: website
     url: http://francais.kiev.ua

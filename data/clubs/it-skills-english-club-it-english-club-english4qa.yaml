@@ -11,6 +11,10 @@ location:
   venue: Café Олів'є (2017–2018); café on 5th floor of ТРЦ Гуллівер (2016); near Шулявська (early 2016)
   address: вул. Богдана Хмельницького, 16-22 (Олів'є)
   metro: Театральна
+  lat: 50.44521
+  lon: 30.518045
+  geocoded: true
+  near_metro: true
 schedule:
   - day: sun
     frequency: irregular

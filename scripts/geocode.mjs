@@ -19,11 +19,11 @@ let found = 0, missed = [];
 for (const f of files) {
   const club = yaml.load(readFileSync(join(dir, f), "utf8"), { schema: yaml.JSON_SCHEMA });
   const loc = club.location;
-  if (!loc || loc.lat !== undefined || (!loc.address && !loc.venue) || club.format === "online") continue;
+  if (!loc || loc.lat !== undefined || (!loc.address && !loc.venue && !loc.metro) || club.format === "online") continue;
   const hit = await geocode(loc, { wait: () => sleep(1100) });
   await sleep(1100);
   if (!hit) { missed.push(`${club.id}: ${loc.address || loc.venue}`); continue; }
-  club.location = { ...loc, lat: hit.lat, lon: hit.lon, geocoded: true };
+  club.location = { ...loc, lat: hit.lat, lon: hit.lon, geocoded: true, ...(hit.nearMetro ? { near_metro: true } : {}) };
   writeFileSync(join(dir, f), clubToYaml(club));
   found++;
   console.log(`${club.id}\n   query: ${hit.query}\n   match: ${hit.match.slice(0, 110)}`);

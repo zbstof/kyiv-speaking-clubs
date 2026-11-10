@@ -151,6 +151,8 @@ legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 .pin { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--pin); color: var(--pin-ink);
   font: 700 11px/1 system-ui, sans-serif; border: 2px solid var(--surface); box-shadow: 0 1px 3px rgba(0,0,0,.35); }
 .pin.old { opacity: .55; }
+.pin.approx { border: 2px dashed var(--text); }
+.pin-sm.approx { border-width: 1px; }
 .pin-sm { width: 14px; height: 14px; border-width: 1px; box-shadow: none; }
 .pin-uk { --pin: var(--lang-uk); --pin-ink: var(--lang-uk-ink); }
 .pin-en { --pin: var(--lang-en); --pin-ink: var(--lang-en-ink); }

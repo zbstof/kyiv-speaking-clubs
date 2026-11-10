@@ -122,8 +122,11 @@ async function locate(club, old) {
   if (!loc) return;
   const prev = old?.location;
   if (loc.lat !== undefined) {
-    // Unchanged automatic coordinates stay marked as automatic.
-    if (prev?.geocoded && prev.lat === loc.lat && prev.lon === loc.lon) loc.geocoded = true;
+    // Unchanged automatic coordinates stay marked as automatic (and as a metro-station point).
+    if (prev?.geocoded && prev.lat === loc.lat && prev.lon === loc.lon) {
+      loc.geocoded = true;
+      if (prev.near_metro) loc.near_metro = true;
+    }
     return;
   }
   try {
@@ -131,9 +134,9 @@ async function locate(club, old) {
       const c = coordsFromMapUrl(await resolveShortMapUrl(loc.map_url));
       if (c) Object.assign(loc, coords(c.lat, c.lon));
     }
-    if (loc.lat === undefined && loc.address && club.format !== "online") {
+    if (loc.lat === undefined && (loc.address || loc.venue || loc.metro) && club.format !== "online") {
       const hit = await geocode(loc, { wait: async () => {} });
-      if (hit) Object.assign(loc, coords(hit.lat, hit.lon), { geocoded: true });
+      if (hit) Object.assign(loc, coords(hit.lat, hit.lon), { geocoded: true }, hit.nearMetro ? { near_metro: true } : {});
     }
   } catch { /* leave without coordinates */ }
 }

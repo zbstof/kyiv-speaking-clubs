@@ -14,6 +14,10 @@ location:
     Anticafe next to Kyiv-Mohyla Academy (first year: Center of Belarusian Language and Culture,
     Institute of Philology, KNU)
   metro: Контрактова площа
+  lat: 50.465835
+  lon: 30.515081
+  geocoded: true
+  near_metro: true
 schedule:
   - day: tue
     frequency: biweekly

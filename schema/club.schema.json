@@ -31,6 +31,7 @@
         },
         "lat": { "description": "Latitude, WGS84. Kyiv area only.", "type": "number", "minimum": 49.9, "maximum": 50.9 },
         "lon": { "description": "Longitude, WGS84. Kyiv area only.", "type": "number", "minimum": 29.8, "maximum": 31.3 },
+        "near_metro": { "description": "true when lat/lon are the position of the named metro station, because the exact place is unknown.", "type": "boolean" },
         "geocoded": { "description": "true when lat/lon were looked up automatically from the address and nobody checked them on a map.", "type": "boolean" },
         "map_url": { "description": "Link to the place on Google Maps (or another map). Optional: the site builds a link from lat/lon or the address.", "type": "string", "pattern": "^https://", "maxLength": 500 }
       }

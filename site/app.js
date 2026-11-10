@@ -32,6 +32,8 @@
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
+      approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
+      legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
       mapFailed: "Не вдалося завантажити мапу. Перевірте інтернет.",
       mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
@@ -96,6 +98,8 @@
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
+      approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
+      legendApprox: "dashed: dot at the metro station, exact place unknown",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
       mapFailed: "Could not load the map. Check your connection.",
       mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
@@ -437,7 +441,7 @@
     // Visitors never type coordinates. They come from a full map link; otherwise the saved point is kept
     // while venue, address and link are unchanged; otherwise the worker finds the place from the link or address.
     const prev = current?.location || {};
-    const samePlace = prev.lat !== undefined && v("venue") === (prev.venue || "") && v("address") === (prev.address || "") && v("mapUrl") === (prev.map_url || "");
+    const samePlace = prev.lat !== undefined && v("venue") === (prev.venue || "") && v("address") === (prev.address || "") && v("metro") === (prev.metro || "") && v("mapUrl") === (prev.map_url || "");
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
     c.location = { venue: v("venue"), address: v("address"), metro: v("metro"), note: v("locNote"),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
@@ -594,7 +598,7 @@
       ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
       <div>📍 ${esc([loc.venue, loc.address].filter(Boolean).join(", "))}</div>
       ${loc.note ? `<div>🧭 ${esc(loc.note)}</div>` : ""}
-      ${loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
+      ${loc.near_metro ? `<div class="pop-approx">${esc(L.approxMetro(loc.metro))}</div>` : loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
       <div class="pop-links">${href ? `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}
         <button type="button" class="small" data-goto="${esc(c.id)}">${esc(L.more)}</button></div>
     </div>`;
@@ -627,7 +631,7 @@
         const code = c.languages[0].toUpperCase() + (c.languages.length > 1 ? "+" : "");
         const icon = L.divIcon({
           className: "pin-wrap",
-          html: `<span class="pin pin-${key}${isOld(c) ? " old" : ""}" title="${esc(c.languages.map(langName).join(", "))}">${esc(code)}</span>`,
+          html: `<span class="pin pin-${key}${isOld(c) ? " old" : ""}${c.location.near_metro ? " approx" : ""}" title="${esc(c.languages.map(langName).join(", "))}">${esc(code)}</span>`,
           iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14],
         });
         L.marker([c.location.lat + r * Math.sin(a), c.location.lon + r * Math.cos(a) * 1.5], { icon, title: c.name, alt: c.name })
@@ -638,7 +642,8 @@
     if (fit && placed.length) map.fitBounds(L.latLngBounds(placed.map((c) => [c.location.lat, c.location.lon])), { padding: [30, 30], maxZoom: 15 });
 
     $("#map-legend").innerHTML = ["uk", "en", "de", "other"].map((k) =>
-      `<span class="leg"><span class="pin pin-${k} pin-sm"></span>${esc(T_.legend[k])} (${counts[k]})</span>`).join("");
+      `<span class="leg"><span class="pin pin-${k} pin-sm"></span>${esc(T_.legend[k])} (${counts[k]})</span>`).join("") +
+      (placed.some((c) => c.location.near_metro) ? `<span class="leg"><span class="pin pin-other pin-sm approx"></span>${esc(T_.legendApprox)}</span>` : "");
     $("#map-note").textContent = T_.mapNote(placed.length, shown.length);
   }
 

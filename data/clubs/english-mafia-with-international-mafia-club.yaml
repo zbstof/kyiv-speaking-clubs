@@ -8,6 +8,10 @@ location:
   venue: Near FORA supermarket; also 'Petit Paris' school near Мінська
   address: вул. Тимошенка, 19
   metro: Мінська
+  lat: 50.512171
+  lon: 30.498574
+  geocoded: true
+  near_metro: true
 schedule:
   - day: sun
     time: "18:00"

@@ -10,6 +10,10 @@ location:
   venue: L'Kafa Cafe (Mafia); Циферблат (Alias)
   address: бульв. Лесі Українки, 2 (L'Kafa); вул. Володимирська, 49А (Циферблат)
   metro: Кловська
+  lat: 50.436929
+  lon: 30.531921
+  geocoded: true
+  near_metro: true
 schedule:
   - day: fri
     time: "19:00"

@@ -14,6 +14,10 @@ location:
   address: вул. Металістів, 7а, Київ 03056
   metro: Політехнічний інститут
   note: Корпус № 31, кімн. 2-09 (конференц-зал)
+  lat: 50.450793
+  lon: 30.466127
+  geocoded: true
+  near_metro: true
 schedule:
   - day: thu
     time: "16:00"

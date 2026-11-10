@@ -16,6 +16,10 @@ location:
   address: ТРЦ «Піраміда»
   metro: Позняки
   note: 2 поверх, у Пузатій Хаті
+  lat: 50.397897
+  lon: 30.634662
+  geocoded: true
+  near_metro: true
 schedule:
   - day: tue
     time: "19:00"

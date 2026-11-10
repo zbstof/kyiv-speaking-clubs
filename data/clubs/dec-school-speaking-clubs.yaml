@@ -10,6 +10,10 @@ location:
   venue: DEC school (Осокорки branch and others)
   address: Дніпровська набережна
   metro: Осокорки
+  lat: 50.395186
+  lon: 30.616249
+  geocoded: true
+  near_metro: true
 schedule:
   - day: sat
     frequency: weekly

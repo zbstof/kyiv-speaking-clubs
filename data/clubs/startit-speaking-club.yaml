@@ -10,6 +10,10 @@ location:
   venue: StartIT training center
   address: вул. Шота Руставелі, 40/10
   metro: Палац Спорту
+  lat: 50.438289
+  lon: 30.520869
+  geocoded: true
+  near_metro: true
 schedule:
   - day: wed
     time: "19:00"

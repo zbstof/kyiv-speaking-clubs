@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.first_try.outputs.page_url || steps.second_try.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,5 +32,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - id: deployment
+      # deploy-pages sometimes fails with "No artifacts named github-pages were found" right after
+      # a successful upload (seen on 2026-11-10); a second attempt half a minute later succeeds.
+      - id: first_try
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - if: steps.first_try.outcome == 'failure'
+        run: sleep 30
+      - id: second_try
+        if: steps.first_try.outcome == 'failure'
         uses: actions/deploy-pages@v4

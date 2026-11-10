@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Центральна районна бібліотека ЦБС «Свічадо»
   address: бульвар Жуля Верна, 13-в
-  district: Святошинський
   lat: 50.434222
   lon: 30.365432
   geocoded: true

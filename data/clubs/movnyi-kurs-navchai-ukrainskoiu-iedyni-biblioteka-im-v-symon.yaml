@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. В. А. Симоненка для дітей
   address: вул. Антоновича, 25
-  district: Голосіївський
   lat: 50.436327
   lon: 30.513993
   geocoded: true

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. Н. Рибака
   address: вул. Петрицького, 5/9
-  district: Святошинський
   lat: 50.454628
   lon: 30.379835
   geocoded: true

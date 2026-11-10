@@ -9,7 +9,6 @@ format: offline
 location:
   venue: L'Kafa Cafe (Mafia); Циферблат (Alias)
   address: бульв. Лесі Українки, 2 (L'Kafa); вул. Володимирська, 49А (Циферблат)
-  district: Печерський
   metro: Кловська
 schedule:
   - day: fri

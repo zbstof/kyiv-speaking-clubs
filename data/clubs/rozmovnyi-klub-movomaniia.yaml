@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 2 для дітей
   address: вул. Ореста Левицького, 9/21
-  district: Деснянський
   lat: 50.476951
   lon: 30.626621
   geocoded: true

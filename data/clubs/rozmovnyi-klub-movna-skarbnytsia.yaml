@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Центральна районна бібліотека «Печерська»
   address: бульвар Лесі Українки, 7
-  district: Печерський
   lat: 50.434705
   lon: 30.531264
   geocoded: true

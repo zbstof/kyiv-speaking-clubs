@@ -7,7 +7,6 @@ format: offline
 location:
   venue: InnoHub (офіс Innovecs)
   address: бульв. Вацлава Гавела, 6-з
-  district: Солом'янський
   note: 13 поверх
 schedule:
   - day: mon

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Публічна бібліотека «Сузір'я»
   address: вул. Казанська, 20
-  district: Оболонський
   lat: 50.498437
   lon: 30.457515
   geocoded: true

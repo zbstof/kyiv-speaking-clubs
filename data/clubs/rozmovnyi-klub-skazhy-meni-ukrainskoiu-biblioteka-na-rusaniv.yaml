@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека на Русанівці
   address: вул. Ентузіастів, 29
-  district: Дніпровський
   lat: 50.441934
   lon: 30.603281
   geocoded: true

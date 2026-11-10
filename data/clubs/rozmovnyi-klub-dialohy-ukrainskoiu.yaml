@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. Марка Вовчка
   address: проспект Науки, 63
-  district: Голосіївський
   lat: 50.376825
   lon: 30.538639
   geocoded: true

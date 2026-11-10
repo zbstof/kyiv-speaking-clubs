@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека для дітей «Промінець»
   address: вул. Гетьмана Кирила Розумовського, 10-12
-  district: Святошинський
 price:
   free: true
 contacts:

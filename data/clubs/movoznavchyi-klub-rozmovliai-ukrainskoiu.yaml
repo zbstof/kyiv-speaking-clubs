@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 115 для дітей
   address: вул. Оноре де Бальзака, 28
-  district: Деснянський
   lat: 50.509226
   lon: 30.59261
   geocoded: true

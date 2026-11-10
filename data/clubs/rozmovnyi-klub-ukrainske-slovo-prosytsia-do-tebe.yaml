@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 152 сімейного читання
   address: вул. Заболотного, 20-А
-  district: Голосіївський
   lat: 50.366017
   lon: 30.462228
   geocoded: true

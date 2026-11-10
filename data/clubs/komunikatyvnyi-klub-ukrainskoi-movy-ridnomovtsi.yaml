@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека на Дегтярівській
   address: вул. Дегтярівська, 32
-  district: Шевченківський
   lat: 50.462865
   lon: 30.467074
   geocoded: true

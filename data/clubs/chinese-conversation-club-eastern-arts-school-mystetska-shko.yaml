@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Мистецька школа «Східні мистецтва»
   address: вул. В'ячеслава Липинського, 13
-  district: Шевченківський
   lat: 50.44923
   lon: 30.506518
   geocoded: true

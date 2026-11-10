@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Центральна районна бібліотека ім. Г. Сковороди (ЦБС Солом'янського району)
   address: вул. Освіти, 14а
-  district: Солом'янський
   lat: 50.424222
   lon: 30.466434
   geocoded: true

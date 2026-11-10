@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. М. Костомарова
   address: вул. Данила Щербаківського, 51-в
-  district: Шевченківський
   lat: 50.475368
   lon: 30.401863
   geocoded: true

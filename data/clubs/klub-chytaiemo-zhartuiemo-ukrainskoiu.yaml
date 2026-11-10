@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. В. Стефаника
   address: вул. Підлісна, 3
-  district: Святошинський
   lat: 50.472474
   lon: 30.338161
   geocoded: true

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Етнобібліотека
   address: проспект Свободи, 15/1
-  district: Подільський
   lat: 50.513175
   lon: 30.422721
   geocoded: true

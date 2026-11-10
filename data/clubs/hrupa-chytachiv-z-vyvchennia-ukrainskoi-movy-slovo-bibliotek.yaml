@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 16 для дітей (ЦБС Дніпровського району)
   address: вул. Празька, 24
-  district: Дніпровський
   lat: 50.437809
   lon: 30.640654
   geocoded: true

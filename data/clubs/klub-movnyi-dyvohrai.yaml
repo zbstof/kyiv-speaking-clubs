@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 158
   address: вул. Алматинська, 109
-  district: Дніпровський
   lat: 50.452065
   lon: 30.679804
   geocoded: true

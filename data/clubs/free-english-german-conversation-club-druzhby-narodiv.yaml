@@ -9,7 +9,6 @@ levels:
 format: offline
 location:
   address: бульв. Дружби Народів, 18/7, офіс 3
-  district: Печерський
   metro: Дружби народів
 schedule:
   - day: sun

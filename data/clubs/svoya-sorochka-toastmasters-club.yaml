@@ -8,7 +8,6 @@ languages:
 format: offline
 location:
   address: вул. Межигірська, 3/7
-  district: Подільський
   metro: Контрактова площа
   lat: 50.465557
   lon: 30.516792

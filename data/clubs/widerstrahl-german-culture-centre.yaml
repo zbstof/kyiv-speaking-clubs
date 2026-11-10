@@ -10,7 +10,6 @@ format: offline
 location:
   venue: Центр німецької культури «Widerstrahl»
   address: "вул. Володимирська, 37 (2010 also: оф. 14 and вул. Горького/Антоновича, 11)"
-  district: Шевченківський
   lat: 50.449829
   lon: 30.515313
   geocoded: true

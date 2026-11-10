@@ -9,7 +9,6 @@ format: offline
 location:
   venue: StartIT training center
   address: вул. Шота Руставелі, 40/10
-  district: Печерський
   metro: Палац Спорту
 schedule:
   - day: wed

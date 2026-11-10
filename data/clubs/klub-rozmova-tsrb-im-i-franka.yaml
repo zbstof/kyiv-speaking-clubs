@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Центральна районна бібліотека ім. І. Франка (Подільський р-н)
   address: вул. Кирилівська, 117
-  district: Подільський
   lat: 50.489345
   lon: 30.466492
   geocoded: true

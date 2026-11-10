@@ -24,7 +24,6 @@
       "properties": {
         "venue": { "type": "string", "maxLength": 200 },
         "address": { "type": "string", "maxLength": 300 },
-        "district": { "type": "string", "maxLength": 100 },
         "metro": { "type": "string", "maxLength": 100 },
         "note": {
           "description": "How to find the club inside the venue: floor, room, entrance, sign to look for.",

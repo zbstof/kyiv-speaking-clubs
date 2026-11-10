@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. М. Дубова
   address: вул. Рене Декарта, 14
-  district: Святошинський
   lat: 50.454263
   lon: 30.399525
   geocoded: true

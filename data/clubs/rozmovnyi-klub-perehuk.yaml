@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Універсальна публічна бібліотека № 11
   address: вул. Івана Виговського, 20-а
-  district: Подільський
   lat: 50.491446
   lon: 30.407327
   geocoded: true

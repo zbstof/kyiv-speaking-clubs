@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека естетичного виховання
   address: бульвар Миколи Міхновського, 32
-  district: Печерський
   lat: 50.418185
   lon: 30.546444
   geocoded: true

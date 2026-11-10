@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. М. Реріха
   address: вул. Єреванська, 12
-  district: Солом'янський
   lat: 50.43551
   lon: 30.459273
   geocoded: true

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. А. Малишка
   address: вул. Миропільська, 19
-  district: Дніпровський
   lat: 50.467339
   lon: 30.62427
   geocoded: true

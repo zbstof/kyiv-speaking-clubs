@@ -149,7 +149,7 @@ function sanitize(c) {
     format: ["offline", "online", "hybrid"].includes(c.format) ? c.format : undefined,
     location: c.location && {
       venue: str(c.location.venue, 200), address: str(c.location.address, 300),
-      district: str(c.location.district, 100), metro: str(c.location.metro, 100),
+      metro: str(c.location.metro, 100),
       note: str(c.location.note, 300),
       ...coords(c.location.lat, c.location.lon),
       map_url: /^https:\/\//.test(c.location.map_url || "") ? str(c.location.map_url, 500) : undefined,

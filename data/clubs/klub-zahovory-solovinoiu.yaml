@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 134 для юнацтва
   address: вул. Сірожупанників, 28
-  district: Дніпровський
   lat: 50.488059
   lon: 30.589227
   geocoded: true

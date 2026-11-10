@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека сімейного читання ім. О. Гончара
   address: вул. Миколи Шепелєва, 13
-  district: Солом'янський
   lat: 50.419993
   lon: 30.434436
   geocoded: true

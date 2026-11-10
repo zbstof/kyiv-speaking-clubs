@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Державна бібліотека України для юнацтва
   address: Голосіївський проспект, 122
-  district: Голосіївський
   lat: 50.38424
   lon: 30.483725
   geocoded: true

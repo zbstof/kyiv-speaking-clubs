@@ -58,7 +58,7 @@
       closedGroup: "закрита група", inviteLink: "запрошення",
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
-        levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", district: "Район", metro: "Метро",
+        levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", metro: "Метро",
         mapUrl: "Посилання на Google Maps", mapUrlHint: "У Google Maps: «Поділитися» → «Копіювати посилання». Без посилання знайдемо місце за адресою.",
         locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
         schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Тривалість, хв", frequency: "Частота",
@@ -122,7 +122,7 @@
       closedGroup: "closed group", inviteLink: "invite",
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
-        levels: "Levels", format: "Format", venue: "Venue", address: "Address", district: "District", metro: "Metro",
+        levels: "Levels", format: "Format", venue: "Venue", address: "Address", metro: "Metro",
         mapUrl: "Google Maps link", mapUrlHint: "In Google Maps: Share → Copy link. Without a link, we find the place by its address.",
         locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
         schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Length, min", frequency: "Frequency",
@@ -156,7 +156,6 @@
     crh: ["кримськотатарська", "Crimean Tatar"], ukl: ["українська жестова", "Ukrainian Sign Language"],
   };
   const FORM_LANGS = ["uk", "en", "de", "fr", "es", "it", "pl", "pt", "cs", "he", "ja", "zh", "ko", "tr", "ar", "eo", "crh", "ukl", "ru"];
-  const DISTRICTS = ["Голосіївський", "Дарницький", "Деснянський", "Дніпровський", "Оболонський", "Печерський", "Подільський", "Святошинський", "Солом'янський", "Шевченківський"];
   const LEVELS = ["any", "A1", "A2", "B1", "B2", "C1", "C2"];
   const CONTACT_TYPES = ["telegram", "instagram", "facebook", "website", "meetup", "email", "phone", "youtube", "whatsapp", "viber", "discord", "other"];
   // Copy of INVITE_RE in lib/rules.mjs: links that let anyone join a private group.
@@ -308,7 +307,7 @@
     const sched = (c.schedule || []).map((s) =>
       `${L.days[s.day]}${s.time ? " " + s.time : ""}${s.duration_min ? ` (${s.duration_min} ${L.min})` : ""}${s.frequency && s.frequency !== "weekly" ? ", " + L.freq[s.frequency] : ""}`).join("; ");
     const loc = c.location || {};
-    const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro, loc.district && loc.district + " р-н"]
+    const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro]
       .filter(Boolean)
       .filter((part, i, all) => !all.slice(0, i).some((prev) => prev.includes(part))) // address already inside venue text
       .join(", ");
@@ -398,7 +397,6 @@
       `<div class="grid2">
         ${field("venue", F.venue, `<input name="venue" maxlength="200" value="${esc(loc.venue || "")}">`)}
         ${field("address", F.address, `<input name="address" maxlength="300" value="${esc(loc.address || "")}">`)}
-        ${field("district", F.district, `<select name="district">${opt("", F.none, !loc.district)}${DISTRICTS.map((d) => opt(d, d, loc.district === d)).join("")}</select>`)}
         ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(loc.metro || "")}">`)}
       </div>`,
       field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(loc.note || "")}">`, F.locNoteHint),
@@ -441,7 +439,7 @@
     const prev = current?.location || {};
     const samePlace = prev.lat !== undefined && v("venue") === (prev.venue || "") && v("address") === (prev.address || "") && v("mapUrl") === (prev.map_url || "");
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
-    c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote"),
+    c.location = { venue: v("venue"), address: v("address"), metro: v("metro"), note: v("locNote"),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
     const free = form.elements.free.checked;
     c.price = { free, amount: free ? "" : v("amount") }; // a free club never sends a leftover price

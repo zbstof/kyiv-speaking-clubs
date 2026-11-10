@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. П. Буйка для дітей
   address: Воскресенський проспект, 15
-  district: Дніпровський
   lat: 50.48235
   lon: 30.593388
   geocoded: true

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Публічна бібліотека ім. С. Вургуна
   address: вул. Олександра Архипенка, 3
-  district: Оболонський
   lat: 50.494884
   lon: 30.518937
   geocoded: true

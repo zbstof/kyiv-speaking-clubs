@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека № 118 для дітей
   address: вул. Андрія Малишка, 25/1
-  district: Дніпровський
   lat: 50.460812
   lon: 30.623336
   geocoded: true

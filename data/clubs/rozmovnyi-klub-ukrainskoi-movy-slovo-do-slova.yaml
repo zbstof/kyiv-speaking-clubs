@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. І. Котляревського
   address: вул. Берлінського, 4
-  district: Шевченківський
   lat: 50.472796
   lon: 30.440294
   geocoded: true

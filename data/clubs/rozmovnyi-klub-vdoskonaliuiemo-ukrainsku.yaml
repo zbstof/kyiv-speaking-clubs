@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. Ю. Смолича
   address: вул. Здолбунівська, 3а
-  district: Дарницький
   lat: 50.413738
   lon: 30.614401
   geocoded: true

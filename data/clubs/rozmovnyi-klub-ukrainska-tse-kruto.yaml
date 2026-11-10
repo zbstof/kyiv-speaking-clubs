@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека «Світогляд»
   address: вул. Городецького / Франка / Станіславського, 12/2/3
-  district: Печерський
 price:
   free: true
 contacts:

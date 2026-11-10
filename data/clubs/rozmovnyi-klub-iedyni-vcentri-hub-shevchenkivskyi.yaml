@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Громадський простір Vcentri HUB Шевченківський
   address: вул. Володимирська, 51-Б
-  district: Шевченківський
   lat: 50.446747
   lon: 30.514569
   geocoded: true

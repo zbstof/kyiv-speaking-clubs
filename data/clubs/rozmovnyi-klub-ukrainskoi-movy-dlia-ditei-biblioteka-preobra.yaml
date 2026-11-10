@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека «Преображенська»
   address: вул. Максима Кривоноса, 19
-  district: Солом'янський
   lat: 50.424252
   lon: 30.470851
   geocoded: true

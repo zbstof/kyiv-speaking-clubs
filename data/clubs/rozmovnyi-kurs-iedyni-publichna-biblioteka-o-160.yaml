@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Публічна бібліотека № 160 сімейного читання
   address: проспект Петра Григоренка, 22/20
-  district: Дарницький
   lat: 50.409076
   lon: 30.626737
   geocoded: true

@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Центральна районна бібліотека ім. П. Тичини
   address: вул. Митрополита Андрея Шептицького, 24
-  district: Дніпровський
   lat: 50.458076
   lon: 30.59242
   geocoded: true

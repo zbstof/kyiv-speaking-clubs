@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека на Воскресенці
   address: вул. Олександра Дашкевича, 9
-  district: Дніпровський
 price:
   free: true
 contacts:

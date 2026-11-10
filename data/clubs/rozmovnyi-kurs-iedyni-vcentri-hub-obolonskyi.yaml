@@ -7,7 +7,6 @@ format: offline
 location:
   venue: Громадський простір Vcentri HUB Оболонський
   address: Оболонський проспект, 22-А
-  district: Оболонський
   lat: 50.510347
   lon: 30.502027
   geocoded: true

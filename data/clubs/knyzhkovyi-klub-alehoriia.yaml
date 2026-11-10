@@ -7,7 +7,6 @@ format: offline
 location:
   venue: Бібліотека ім. О. Олеся
   address: проспект Леоніда Каденюка, 19/30
-  district: Дніпровський
   lat: 50.450907
   lon: 30.629282
   geocoded: true

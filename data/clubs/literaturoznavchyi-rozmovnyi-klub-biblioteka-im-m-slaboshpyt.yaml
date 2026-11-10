@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. М. Слабошпицького
   address: вул. Новгород-Сіверська, 5
-  district: Солом'янський
   lat: 50.426601
   lon: 30.446181
   geocoded: true

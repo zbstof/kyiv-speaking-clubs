@@ -9,7 +9,6 @@ format: offline
 location:
   venue: Бібліотека ім. Г. Тютюнника для дітей
   address: вул. Бориса Мартоса, 4б
-  district: Дніпровський
   lat: 50.446973
   lon: 30.599468
   geocoded: true

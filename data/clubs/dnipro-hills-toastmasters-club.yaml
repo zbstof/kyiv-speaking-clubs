@@ -32,7 +32,7 @@ contacts:
     url: https://www.facebook.com/DniproHillsToastmastersPage/
   - type: telegram
     access: on_request
-    note: "Закрита група: запрошення в організатора"
+    note: "Запрошення в організатора"
 organizer: Dnipro Hills Toastmasters Club
 status: active
 first_seen: "2002-08-02"

@@ -27,34 +27,35 @@ export default {
 
     if (request.method === "OPTIONS") return new Response(null, { headers: cors });
     const url = new URL(request.url);
-    if (request.method !== "POST" || url.pathname !== "/suggest") return reply(404, { error: "not found" });
-    if (allowed.length && !allowed.includes(origin)) return reply(403, { error: "origin not allowed" });
+    if (request.method !== "POST" || url.pathname !== "/suggest") return reply(404, { error: "not found", code: "bad_request" });
+    if (allowed.length && !allowed.includes(origin)) return reply(403, { error: "origin not allowed", code: "origin" });
 
     if (env.LIMITER) {
       const { success } = await env.LIMITER.limit({ key: request.headers.get("cf-connecting-ip") || "unknown" });
-      if (!success) return reply(429, { error: "too many requests, try again in a minute" });
+      if (!success) return reply(429, { error: "too many requests, try again in a minute", code: "rate_limit" });
     }
 
     const raw = await request.text();
-    if (raw.length > MAX_BODY) return reply(413, { error: "too large" });
+    if (raw.length > MAX_BODY) return reply(413, { error: "too large", code: "too_large" });
     let p;
-    try { p = JSON.parse(raw); } catch { return reply(400, { error: "bad json" }); }
+    try { p = JSON.parse(raw); } catch { return reply(400, { error: "bad json", code: "bad_request" }); }
 
     if (env.TURNSTILE_SECRET) {
       const ok = await verifyTurnstile(p.turnstileToken, env.TURNSTILE_SECRET, request.headers.get("cf-connecting-ip"));
-      if (!ok) return reply(403, { error: "captcha failed" });
+      if (!ok) return reply(403, { error: "captcha failed", code: "captcha" });
     }
 
     try {
       const pr = await handle(p, env);
       return reply(200, { pr });
     } catch (e) {
-      return reply(e.status || 500, { error: e.message });
+      return reply(e.status || 500, { error: e.message, code: e.code || "server" });
     }
   },
 };
 
-class UserError extends Error { constructor(msg, status = 400) { super(msg); this.status = status; } }
+// code is a stable key the site turns into a message in its own language.
+class UserError extends Error { constructor(msg, code = "bad_request", status = 400) { super(msg); this.code = code; this.status = status; } }
 
 async function handle(p, env) {
   if (!ACTIONS.has(p.action)) throw new UserError("unknown action");
@@ -71,7 +72,7 @@ async function handle(p, env) {
     id = String(p.id || "");
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(id)) throw new UserError("bad id");
     const file = await gh.getFile(`data/clubs/${id}.yaml`);
-    if (!file) throw new UserError("club not found", 404);
+    if (!file) throw new UserError("club not found", "not_found", 404);
     sha = file.sha;
     old = yaml.load(file.text, { schema: yaml.JSON_SCHEMA });
   }
@@ -87,10 +88,10 @@ async function handle(p, env) {
   } else {
     club = { ...old, status: "closed" };
   }
-  if (!club.name || club.name.length < 2) throw new UserError("name is required");
-  if (!club.languages?.length) throw new UserError("at least one language is required");
+  if (!club.name || club.name.length < 2) throw new UserError("name is required", "name_required");
+  if (!club.languages?.length) throw new UserError("at least one language is required", "lang_required");
   const problems = extraChecks(club);
-  if (problems.length) throw new UserError(problems.join(" "));
+  if (problems.length) throw new UserError(problems.join(" "), "contacts");
 
   const text = clubToYaml(club);
   const path = `data/clubs/${id}.yaml`;

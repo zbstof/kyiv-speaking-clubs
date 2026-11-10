@@ -54,7 +54,7 @@ function mapRecord(r) {
     const type = contactType(c.type, url);
     if (INVITE_RE.test(url)) {
       // Never publish private invite links from research; the moderator can add them with the admins' consent.
-      contacts.push({ type, access: "on_request", note: "Закрита група: запрошення в організатора" });
+      contacts.push({ type, access: "on_request", note: "Запрошення в організатора" });
     } else {
       contacts.push({ type, url });
     }

@@ -18,18 +18,18 @@
         <p class="sub" id="summary"></p>
       </div>
       <div class="top-actions">
-        <button type="button" id="ui-lang" class="ghost" aria-label="Switch language">EN</button>
+        <button type="button" id="ui-lang" class="ghost" data-i18n-aria="ariaSwitch" aria-label="Switch to English">EN</button>
         <button type="button" id="add-club" class="primary" data-i18n="addClub">+ Додати клуб</button>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="filters" aria-label="Filters">
+    <section class="filters" data-i18n-aria="ariaFilters" aria-label="Фільтри">
       <input type="search" id="q" data-i18n-ph="searchPh" placeholder="Пошук: назва, місце, організатор">
-      <select id="f-lang" aria-label="Language"></select>
-      <select id="f-day" aria-label="Day"></select>
-      <select id="f-format" aria-label="Format"></select>
+      <select id="f-lang" data-i18n-aria="ariaLang" aria-label="Мова клубу"></select>
+      <select id="f-day" data-i18n-aria="ariaDay" aria-label="День тижня"></select>
+      <select id="f-format" data-i18n-aria="ariaFormat" aria-label="Формат"></select>
       <label class="check"><input type="checkbox" id="f-free"> <span data-i18n="freeOnly">Лише безкоштовні</span></label>
       <label class="check"><input type="checkbox" id="f-old"> <span data-i18n="showOld">Показати старі й закриті</span></label>
     </section>
@@ -46,7 +46,7 @@
     <form id="club-form" method="dialog" novalidate>
       <header class="dlg-head">
         <h2 id="dlg-title"></h2>
-        <button type="button" class="ghost close" data-close aria-label="Close">✕</button>
+        <button type="button" class="ghost close" data-close data-i18n-aria="ariaClose" aria-label="Закрити">✕</button>
       </header>
       <div class="dlg-body" id="form-body"></div>
       <footer class="dlg-foot">

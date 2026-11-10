@@ -32,8 +32,23 @@
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
+      loadFailed: "Не вдалося завантажити список клубів. Оновіть сторінку.",
+      ariaFilters: "Фільтри", ariaLang: "Мова клубу", ariaDay: "День тижня", ariaFormat: "Формат", ariaClose: "Закрити", ariaSwitch: "Switch to English",
+      ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Сайт", meetup: "Meetup", email: "Пошта", phone: "Телефон", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Інше" },
+      errors: {
+        rate_limit: "Забагато запитів. Спробуйте за хвилину.",
+        captcha: "Перевірка «я не робот» не пройшла. Спробуйте ще раз.",
+        contacts: "Перевірте контакти. Посилання-запрошення до закритої групи публікуємо лише за згоди адмінів. Для закритої групи оберіть «закрита група» і напишіть, як потрапити.",
+        name_required: "Вкажіть назву.",
+        lang_required: "Оберіть хоча б одну мову.",
+        not_found: "Цього клубу вже немає в списку. Оновіть сторінку.",
+        too_large: "Забагато тексту. Скоротіть опис або примітки.",
+        origin: "Надсилати можна лише зі сторінки клубів.",
+        bad_request: "Сервер не прийняв дані. Оновіть сторінку і спробуйте ще раз.",
+        network: "Немає зʼєднання із сервером. Перевірте інтернет і спробуйте ще раз.",
+        server: "Помилка на сервері. Спробуйте пізніше.",
+      },
       sent: "Дякуємо! Зміну надіслано на перевірку.", sentGh: "Відкрито GitHub з готовим запитом. Надішліть його там.",
-      failed: "Не вдалося надіслати: ",
       needName: "Вкажіть назву.", needLang: "Оберіть хоча б одну мову.", needCaptcha: "Пройдіть перевірку «я не робот».",
       inviteWarn: "Це посилання-запрошення до закритої групи. Оберіть «закрита група» і напишіть у примітці, як потрапити (напр. «напишіть @адмін»). Обирайте «запрошення», лише якщо адміни погодились його опублікувати.",
       closedGroup: "закрита група", inviteLink: "запрошення",
@@ -48,7 +63,7 @@
         accessOpt: { public: "відкрите", on_request: "закрита група", invite: "запрошення (адміни дозволили)" },
         organizer: "Організатор (публічне імʼя або організація)", status: "Статус", notes: "Примітки",
         comment: "Коментар для модератора", commentHint: "Звідки ви знаєте? Буде видно публічно в запиті на зміну.",
-        none: "—",
+        none: "—", remove: "Прибрати рядок", contactType: "Тип контакту",
       },
     },
     en: {
@@ -76,8 +91,23 @@
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
+      loadFailed: "Could not load the list of clubs. Reload the page.",
+      ariaFilters: "Filters", ariaLang: "Club language", ariaDay: "Day of week", ariaFormat: "Format", ariaClose: "Close", ariaSwitch: "Перейти на українську",
+      ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Website", meetup: "Meetup", email: "Email", phone: "Phone", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Other" },
+      errors: {
+        rate_limit: "Too many requests. Try again in a minute.",
+        captcha: "The \"I am human\" check failed. Try again.",
+        contacts: "Check the contacts. We publish an invite link to a private group only if the admins agreed. For a private group, choose \"closed group\" and write how to get in.",
+        name_required: "Enter a name.",
+        lang_required: "Pick at least one language.",
+        not_found: "This club is no longer in the list. Reload the page.",
+        too_large: "Too much text. Shorten the description or notes.",
+        origin: "Suggestions can only be sent from the clubs page.",
+        bad_request: "The server did not accept the data. Reload the page and try again.",
+        network: "Cannot reach the server. Check your connection and try again.",
+        server: "Server error. Try again later.",
+      },
       sent: "Thank you! Your change is waiting for review.", sentGh: "GitHub opened with a ready request. Submit it there.",
-      failed: "Could not send: ",
       needName: "Enter a name.", needLang: "Pick at least one language.", needCaptcha: "Complete the \"I am human\" check.",
       inviteWarn: "This is an invite link to a private group. Choose \"closed group\" and write in the note how to get in (e.g. \"message @admin\"). Choose \"invite\" only if the admins agreed to publish the link.",
       closedGroup: "closed group", inviteLink: "invite",
@@ -92,7 +122,7 @@
         accessOpt: { public: "open", on_request: "closed group", invite: "invite (admins allowed)" },
         organizer: "Organizer (public name or organization)", status: "Status", notes: "Notes",
         comment: "Note for the moderator", commentHint: "How do you know? This is public in the change request.",
-        none: "—",
+        none: "—", remove: "Remove row", contactType: "Contact type",
       },
     },
   };
@@ -123,7 +153,7 @@
   const INVITE_RE = /(?:t\.me|telegram\.me|telegram\.dog)\/(?:\+|joinchat\/)|chat\.whatsapp\.com\/|invite\.viber\.com|discord\.gg\/|discord\.com\/invite\//i;
 
   // ---------- state ----------
-  let ui = /^(uk|ru)/.test(navigator.language || "uk") ? "uk" : "en";
+  let ui = "uk"; // Ukrainian for everyone; English only if the visitor switched to it
   try { ui = localStorage.getItem("sc-ui") || ui; } catch { /* storage blocked */ }
   let clubs = [];
   const $ = (s, el = document) => el.querySelector(s);
@@ -192,6 +222,7 @@
     document.title = t().title;
     document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t()[el.dataset.i18n]; });
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t()[el.dataset.i18nPh]; });
+    document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t()[el.dataset.i18nAria]); });
     $(".foot p").innerHTML = t().footer(esc(CFG.repo || ""));
     $("#ui-lang").textContent = ui === "uk" ? "EN" : "UA";
   }
@@ -238,7 +269,7 @@
       c.last_seen && `${L.lastSeen}: ${fmtDate(c.last_seen)}`,
       c.first_seen && `${L.since} ${fmtDate(c.first_seen)}`,
     ].filter(Boolean).join(" · ");
-    const typeName = (ct) => ct.type[0].toUpperCase() + ct.type.slice(1);
+    const typeName = (ct) => L.ctype[ct.type] || ct.type;
     const contacts = (c.contacts || []).map((ct) => {
       if (ct.access === "on_request" || !ct.url) {
         return `<span>🔒 ${esc(typeName(ct))} (${esc(L.closedGroup)})${ct.note ? ": " + esc(ct.note) : ""}</span>`;
@@ -281,17 +312,17 @@
       <input name="s_time" type="time" aria-label="${esc(F.time)}" value="${esc(s.time || "")}">
       <input name="s_dur" type="number" min="10" max="600" step="5" placeholder="${esc(F.duration)}" aria-label="${esc(F.duration)}" value="${esc(s.duration_min || "")}">
       <select name="s_freq" aria-label="${esc(F.frequency)}">${["weekly", "biweekly", "monthly", "irregular"].map((f) => opt(f, t().freq[f], (s.frequency || "weekly") === f)).join("")}</select>
-      <button type="button" class="ghost small" data-del aria-label="Remove">✕</button>
+      <button type="button" class="ghost small" data-del aria-label="${esc(F.remove)}">✕</button>
     </div>`;
   }
   function contactRow(ct = {}) {
     const F = t().f;
     return `<div class="rep-row" data-rep="contacts">
-      <select name="c_type" aria-label="type">${CONTACT_TYPES.map((x) => opt(x, x, (ct.type || "telegram") === x)).join("")}</select>
+      <select name="c_type" aria-label="${esc(F.contactType)}">${CONTACT_TYPES.map((x) => opt(x, t().ctype[x], (ct.type || "telegram") === x)).join("")}</select>
       <select name="c_access" aria-label="${esc(F.access)}">${["public", "on_request", "invite"].map((x) => opt(x, F.accessOpt[x], (ct.access || "public") === x)).join("")}</select>
       <input name="c_url" placeholder="${esc(F.url)}" aria-label="${esc(F.url)}" value="${esc(ct.url || "")}" style="flex:3 1 180px">
       <input name="c_note" placeholder="${esc(F.contactNote)}" aria-label="${esc(F.contactNote)}" value="${esc(ct.note || "")}" style="flex:3 1 180px">
-      <button type="button" class="ghost small" data-del aria-label="Remove">✕</button>
+      <button type="button" class="ghost small" data-del aria-label="${esc(F.remove)}">✕</button>
     </div>`;
   }
 
@@ -432,10 +463,11 @@
         method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ ...payload, turnstileToken: token }),
       });
       const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data.error || res.status);
+      if (!res.ok) throw Object.assign(new Error(data.error || String(res.status)), { code: data.code || (res.status === 429 ? "rate_limit" : "server") });
       showDone(L.sent, data.pr);
     } catch (err) {
-      showMsg(L.failed + err.message, true);
+      // fetch() throws TypeError with no code when the network is down
+      showMsg(L.errors[err.code || "network"] || L.errors.server, true);
       $("#submit-btn").disabled = false; $("#submit-btn").textContent = L.send;
       if (window.turnstile && turnstileId !== null) window.turnstile.reset(turnstileId);
     }
@@ -449,7 +481,7 @@
 
   // No worker configured: open a pre-filled GitHub issue with the change as YAML.
   function openGithubIssue(p) {
-    const title = { add: "Новий клуб / New club", edit: "Виправлення / Fix", confirm: "Ще працює / Still running", close: "Закрився / Closed" }[p.action] + ": " + (p.club?.name || current?.name || "");
+    const title = { add: "Новий клуб", edit: "Виправлення", confirm: "Ще працює", close: "Закрився" }[p.action] + ": " + (p.club?.name || current?.name || "");
     const yamlText = p.club ? (window.jsyaml ? window.jsyaml.dump(p.club, { lineWidth: 120 }) : JSON.stringify(p.club, null, 2)) : `id: ${p.id}`;
     const body = `action: ${p.action}\n${p.id ? "id: " + p.id + "\n" : ""}\n${p.comment ? p.comment + "\n\n" : ""}\`\`\`yaml\n${yamlText}\`\`\`\n`;
     const url = `https://github.com/${CFG.repo}/issues/new?labels=suggestion&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
@@ -502,7 +534,7 @@
       const res = await fetch("clubs.json", { cache: "no-cache" });
       clubs = (await res.json()).clubs;
     } catch (e) {
-      $("#summary").textContent = "Could not load clubs.json: " + e.message;
+      $("#summary").textContent = t().loadFailed;
       return;
     }
     fillFilters();

@@ -1,13 +1,14 @@
 id: in-conversation-with
 name: In Conversation With
-description: New English speaking club
+description: "Англомовний розмовний клуб: невимушені розмови щосереди."
 languages:
   - en
 format: offline
 location:
-  venue: Porta D`oro Trattoria
-  address: Zolotoviritska 15
-  metro: Zoloti Vorota
+  venue: Porto D’Oro Trattoria
+  address: вул. Золотоворітська, 15
+  metro: Золоті ворота
+  note: Підвальний стендап-клуб навпроти Золотих воріт, працює як укриття
   lat: 50.449173
   lon: 30.513993
   map_url: https://maps.app.goo.gl/18FTLbJTvhVjeVDN8
@@ -15,9 +16,19 @@ schedule:
   - day: wed
     time: "19:00"
     frequency: weekly
+    format: offline
+schedule_note: Щосереди о 19:00. Анонси й теми вечора публікують у групі.
 price:
   free: true
 registration: none
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група; запрошення в організатора @pytor_alexievich
 organizer: "@pytor_alexievich"
 status: active
+last_seen: "2026-11-08"
 last_checked: "2026-11-10"
+notes: >-
+  Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. На цьому місці з середини жовтня
+  2026, раніше місце змінювалося.

@@ -1,0 +1,25 @@
+id: tuesday-english-speaking-club
+name: Tuesday English Speaking Club
+description: >-
+  Онлайн-клуб англійської з ведучою з Києва. Щотижня хтось готує 5–10-хвилинний виступ на обрану
+  разом тему, далі — обговорення. Лише англійською, без запису.
+languages:
+  - en
+format: online
+schedule:
+  - day: tue
+    time: "20:00"
+    frequency: weekly
+    format: online
+schedule_note: "Щовівторка о 20:00 за Києвом у Zoom. До 6 учасників плюс ведуча: напишіть у групі, що прийдете."
+price:
+  free: true
+registration: required
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група; запрошення через учасників або ведучу
+status: active
+first_seen: 2026-10
+last_seen: "2026-11-10"
+notes: Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026.

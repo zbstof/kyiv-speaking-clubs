@@ -1,17 +1,41 @@
 id: psychology-speaking-club
 name: Psychology Speaking Club
+description: >-
+  Англомовний розмовний клуб про психологію: обговорення в малих групах за питаннями до теми вечора.
+  Частина спільноти English Psychology & Art Club (кіновечори, малювання).
 languages:
   - en
 format: offline
 location:
-  venue: Private apartment
-  metro: Zoloti Vorota
-  lat: 50.448246
-  lon: 30.513479
+  venue: Арт-офіс
+  address: вул. Володимирська, 42
+  metro: Золоті ворота
+  note: >-
+    Вхід з боку бічного виходу метро «Золоті ворота», біля капсульного готелю. Поверх, кімнату й код
+    дверей повідомляють після запису.
+  lat: 50.448258
+  lon: 30.513882
   geocoded: true
-  near_metro: true
+schedule:
+  - day: sat
+    time: "17:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: >-
+  Щотижня, зазвичай у суботу (іноді в неділю), початок о 17:00–18:00. Точний час і тему публікують у
+  групі за кілька днів.
 price:
   free: false
+  amount: 300 ₴, оплата наперед підтверджує місце
+registration: required
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група English Psychology & Art Club; запрошення в організатора
 organizer: https://t.me/liohaa
 status: active
+first_seen: 2026-07
+last_seen: "2026-11-07"
 last_checked: "2026-11-10"
+notes: Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. Кількість місць обмежена.

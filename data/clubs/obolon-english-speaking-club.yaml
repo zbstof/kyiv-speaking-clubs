@@ -1,0 +1,41 @@
+id: obolon-english-speaking-club
+name: Obolon English speaking club
+description: >-
+  Англомовний розмовний клуб на Оболоні. Зустрічаються, коли в групі набирається щонайменше троє
+  охочих.
+languages:
+  - en
+format: offline
+location:
+  venue: Пузата Хата, ТРЦ «Оазис»
+  metro: Героїв Дніпра
+  note: 4 поверх, Пузата Хата
+  lat: 50.52267
+  lon: 30.498899
+  geocoded: true
+  near_metro: true
+schedule:
+  - day: wed
+    time: "18:30"
+    duration_min: 90
+    frequency: irregular
+  - day: fri
+    time: "18:30"
+    duration_min: 90
+    frequency: irregular
+schedule_note: >-
+  За описом групи — середа і пʼятниця 18:30–20:00. Насправді зустріч відбувається, якщо в групі
+  щонайменше троє підтвердили участь; останні запрошення — нечасті.
+price:
+  free: true
+registration: optional
+contacts:
+  - type: telegram
+    url: https://t.me/obolon_english
+status: active
+last_seen: "2026-10-30"
+sources:
+  - https://t.me/obolon_english
+notes: >-
+  Публічна Telegram-група, понад 500 учасників. Активність: 30–50 повідомлень на місяць улітку 2026,
+  5–11 з жовтня.

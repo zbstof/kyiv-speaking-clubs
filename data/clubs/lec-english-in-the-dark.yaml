@@ -1,0 +1,29 @@
+id: lec-english-in-the-dark
+name: English in the Dark (open-air walk)
+description: Вечірня прогулянка з розмовами англійською.
+languages:
+  - en
+format: offline
+location:
+  venue: Головний вхід ВДНГ (Національний експоцентр)
+  metro: Виставковий центр
+  lat: 50.382499
+  lon: 30.477584
+  geocoded: true
+  near_metro: true
+schedule:
+  - day: thu
+    time: "18:50"
+    duration_min: 130
+    frequency: weekly
+    format: offline
+schedule_note: Четвер 18:50–21:00, старт біля головного входу ВДНГ.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

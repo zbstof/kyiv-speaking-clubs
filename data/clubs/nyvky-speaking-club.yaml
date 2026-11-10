@@ -5,18 +5,24 @@ languages:
   - en
 format: offline
 location:
-  address: вул. Данила Щербаківського, 5
+  venue: ТЦ «Нивки», кафетерій на 1 поверсі
+  address: вул. Данила Щербаківського, 58
   metro: Нивки
-  lat: 50.460786
-  lon: 30.405386
+  lat: 50.473692
+  lon: 30.407195
   geocoded: true
 schedule:
   - day: fri
-    time: "17:00"
+    time: "18:00"
+    duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: Пʼятниця 17:00 (за переліком клубів, червень 2023).
+schedule_note: Пʼятниця 18:00–20:00 (довідник LEC); у переліку 2023 року — 17:00.
 status: unknown
 first_seen: 2023-06
 last_seen: "2023-06-30"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+sources:
+  - https://lec.link/
+notes: >-
+  За історією Telegram-груп київських клубів (прочитано 10.11.2026). Клуб мережі LEC. Адреса в
+  переліку 2023 року — Щербаківського, 5.

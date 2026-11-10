@@ -1,0 +1,31 @@
+id: lec-book-club
+name: LEC Book Club
+description: "Англомовний книжковий клуб мережі LEC: книгу місяця обирають голосуванням."
+languages:
+  - en
+format: offline
+location:
+  address: вул. Митрополита Андрея Шептицького, 24
+  lat: 50.459245
+  lon: 30.592445
+  geocoded: true
+schedule:
+  - day: sun
+    time: "14:00"
+    duration_min: 120
+    frequency: monthly
+    format: offline
+schedule_note: Раз на місяць у неділю 14:00–16:00.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+  - type: telegram
+    url: https://t.me/lecbookclub
+status: unknown
+first_seen: 2019-01
+last_seen: 2024-10
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

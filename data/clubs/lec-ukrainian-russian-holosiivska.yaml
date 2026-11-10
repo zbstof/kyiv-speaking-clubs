@@ -1,0 +1,25 @@
+id: lec-ukrainian-russian-holosiivska
+name: "LEC: Ukrainian/Russian in Holosiivska"
+description: Розмовні зустрічі українською та російською для іноземців.
+languages:
+  - uk
+  - ru
+format: offline
+location:
+  venue: Книгарня «Довженко Книги.кава.кіно» (Центр Довженка)
+  metro: Голосіївська
+  note: 50 м від метро «Голосіївська»
+  lat: 50.397329
+  lon: 30.508162
+  geocoded: true
+  near_metro: true
+schedule_note: Вечір 18:30–20:30; улітку не щотижня.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

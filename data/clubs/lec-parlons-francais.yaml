@@ -1,0 +1,24 @@
+id: lec-parlons-francais
+name: Parlons français !
+description: Розмовні зустрічі французькою мережі LEC.
+languages:
+  - fr
+format: offline
+location:
+  venue: Пузата Хата
+  address: вул. Петра Сагайдачного, 24
+  metro: Контрактова площа
+  note: Останній поверх, біля бару
+  lat: 50.462883
+  lon: 30.51954
+  geocoded: true
+schedule_note: 19:00–21:00; улітку нерегулярно.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

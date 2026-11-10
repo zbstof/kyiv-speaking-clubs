@@ -6,23 +6,27 @@ languages:
 format: offline
 location:
   venue: Пузата Хата
+  address: вул. Олександра Довженка, 1В
   metro: Шулявська
   note: 3 поверх
-  lat: 50.455075
-  lon: 30.44537
+  lat: 50.456581
+  lon: 30.44617
   geocoded: true
-  near_metro: true
 schedule:
   - day: tue
     time: "19:00"
-    duration_min: 120
+    duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Вівторок 19:00–21:00 (за переліком клубів від 02.10.2026).
+schedule_note: Вівторок 19:00–22:00 (довідник LEC); у переліку 2023 року — 18:00–21:00.
 price:
   free: true
 status: unknown
+first_seen: 2022-10
 last_seen: "2026-10-02"
+sources:
+  - https://lec.link/
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026. Telegram-посилання з переліку (@english_shuliavka) більше не існує.
+  прочитано 10.11.2026. Telegram-посилання з переліку (@english_shuliavka) більше не існує. Клуб
+  мережі LEC; у червні 2023 — у переліку клубів міста.

@@ -9,7 +9,7 @@ format: offline
 location:
   venue: Пузата Хата, ТРЦ «Оазис»
   metro: Героїв Дніпра
-  note: 4 поверх, Пузата Хата
+  note: 3–4 поверх, Пузата Хата
   lat: 50.52267
   lon: 30.498899
   geocoded: true
@@ -17,12 +17,14 @@ location:
 schedule:
   - day: wed
     time: "18:30"
-    duration_min: 90
+    duration_min: 120
     frequency: irregular
+    format: offline
   - day: fri
-    time: "18:30"
+    time: "19:00"
     duration_min: 90
     frequency: irregular
+    format: offline
 schedule_note: >-
   За описом групи — середа і пʼятниця 18:30–20:00. Насправді зустріч відбувається, якщо в групі
   щонайменше троє підтвердили участь; останні запрошення — нечасті.
@@ -37,6 +39,8 @@ first_seen: 2021-02
 last_seen: "2026-10-30"
 sources:
   - https://t.me/obolon_english
+  - https://lec.link/
 notes: >-
   Публічна Telegram-група, понад 500 учасників. Активність: 30–50 повідомлень на місяць улітку 2026,
-  5–11 з жовтня. Найактивніший у 2022 році (~2700 повідомлень), далі щороку менше.
+  5–11 з жовтня. Найактивніший у 2022 році (~2700 повідомлень), далі щороку менше. Клуб мережі LEC
+  (Wednesday і Friday English@Obolon).

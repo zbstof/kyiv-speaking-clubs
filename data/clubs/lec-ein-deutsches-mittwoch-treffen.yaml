@@ -1,0 +1,29 @@
+id: lec-ein-deutsches-mittwoch-treffen
+name: Ein Deutsches Mittwoch Treffen
+description: Німецькомовні зустрічі по середах.
+languages:
+  - de
+format: offline
+location:
+  venue: Кафе «Місто Лева»
+  address: вул. Спаська, 5
+  metro: Контрактова площа
+  lat: 50.465304
+  lon: 30.516335
+  geocoded: true
+schedule:
+  - day: wed
+    time: "19:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: Середа 19:00–22:00.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

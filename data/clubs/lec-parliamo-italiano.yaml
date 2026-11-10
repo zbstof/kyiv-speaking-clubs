@@ -1,0 +1,24 @@
+id: lec-parliamo-italiano
+name: Parliamo italiano
+description: Розмовні зустрічі італійською мережі LEC.
+languages:
+  - it
+format: offline
+location:
+  venue: ТРЦ «Гуллівер», фудкорт
+  address: Спортивна площа, 1а
+  metro: Палац спорту
+  note: 5 поверх
+  lat: 50.438698
+  lon: 30.523171
+  geocoded: true
+schedule_note: 16:00–19:00.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

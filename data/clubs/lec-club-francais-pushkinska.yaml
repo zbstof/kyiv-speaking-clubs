@@ -1,0 +1,24 @@
+id: lec-club-francais-pushkinska
+name: Club français de conversation (Пушкінська)
+description: Франкомовний розмовний клуб у кавʼярні.
+languages:
+  - fr
+format: offline
+location:
+  venue: CityCafe «Віденські булочки»
+  address: вул. Пушкінська, 1-3/5
+  metro: Хрещатик
+  lat: 50.447187
+  lon: 30.522946
+  geocoded: true
+  near_metro: true
+schedule_note: 16:00–18:00; улітку нерегулярно.
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://lec.link/
+status: unknown
+sources:
+  - https://lec.link/
+notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.

@@ -1,0 +1,34 @@
+id: darnytsia-language-exchange-club
+name: Darnytsia Language Exchange Club
+description: >-
+  Офлайн-клуб англійської біля метро «Дарниця». Зміни розкладу публікують у закріпленому
+  повідомленні групи.
+languages:
+  - en
+format: offline
+location:
+  venue: Пузата Хата
+  address: вул. Будівельників, 40
+  metro: Дарниця
+  lat: 50.454593
+  lon: 30.611029
+  geocoded: true
+schedule:
+  - day: thu
+    time: "19:00"
+    duration_min: 120
+    frequency: weekly
+    format: offline
+schedule_note: Зазвичай щочетверга о 19:00; зміни — у закріпленому повідомленні групи.
+price:
+  free: true
+contacts:
+  - type: telegram
+    url: https://t.me/Darnitsa_English
+status: active
+last_seen: 2026-11
+sources:
+  - https://t.me/Darnitsa_English
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026. Публічна група, понад 380 учасників.

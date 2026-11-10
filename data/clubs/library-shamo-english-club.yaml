@@ -1,0 +1,26 @@
+id: library-shamo-english-club
+name: Розмовний клуб англійської у відділі літератури іноземними мовами
+description: Суботня англомовна зустріч у відділі літератури іноземними мовами публічної бібліотеки.
+languages:
+  - en
+format: offline
+location:
+  venue: Публічна бібліотека, відділ літератури іноземними мовами
+  address: бульв. Ігоря Шамо, 2/7
+  lat: 50.435355
+  lon: 30.599689
+  geocoded: true
+schedule:
+  - day: sat
+    time: "11:00"
+    duration_min: 60
+    frequency: weekly
+    format: offline
+schedule_note: Субота 11:00–12:00.
+price:
+  free: true
+status: unknown
+last_seen: "2026-10-02"
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026. Назва бібліотеки в дописі не вказана.

@@ -1,0 +1,34 @@
+id: small-talk-english-speaking-club
+name: Small Talk English Speaking Club
+description: >-
+  Англомовний розмовний клуб на Лівому березі: практика вільної розмови, щоб почуватися впевнено з
+  носіями мови.
+languages:
+  - en
+format: offline
+location:
+  venue: Пузата Хата
+  address: вул. Раїси Окіпної, 3
+  metro: Лівобережна
+  lat: 50.449481
+  lon: 30.596583
+  geocoded: true
+schedule:
+  - day: mon
+    time: "19:00"
+    duration_min: 120
+    frequency: weekly
+    format: offline
+schedule_note: Щопонеділка 19:00–21:00.
+price:
+  free: true
+contacts:
+  - type: telegram
+    url: https://t.me/SmalTalkLevoberezhna
+status: active
+last_seen: 2026-11
+sources:
+  - https://t.me/SmalTalkLevoberezhna
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026. Публічна група, понад 470 учасників.

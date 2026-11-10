@@ -1,0 +1,32 @@
+id: khreshchatyk-wednesday-english-native-speakers
+name: Англомовний клуб з носіями мови біля метро «Хрещатик»
+description: Англомовні зустрічі в Пузатій Хаті біля метро «Хрещатик»; приходять носії мови зі США й Англії.
+languages:
+  - en
+format: offline
+location:
+  venue: Пузата Хата
+  metro: Хрещатик
+  lat: 50.447187
+  lon: 30.522946
+  geocoded: true
+  near_metro: true
+schedule:
+  - day: wed
+    time: "18:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: Середа 18:00–21:00. Можна просто прийти.
+price:
+  free: true
+registration: none
+contacts:
+  - type: viber
+    access: on_request
+    note: "Viber-група: додають за номером телефону, запитайте на зустрічі"
+status: active
+last_seen: "2026-10-02"
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026.

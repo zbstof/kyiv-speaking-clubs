@@ -1,0 +1,36 @@
+id: english-meetup-kyiv-hedonist
+name: English Meetup in Kyiv
+description: >-
+  Платний англомовний нетворкінг: 8 раундів по 10 хвилин з різними співрозмовниками, далі вільне
+  спілкування. Рівень intermediate і вище.
+languages:
+  - en
+levels:
+  - B1
+  - B2
+  - C1
+  - C2
+format: offline
+location:
+  venue: Hedonist Bar
+  address: вул. Антоновича, 45
+  note: Бар-укриття
+  lat: 50.432598
+  lon: 30.514024
+  geocoded: true
+schedule:
+  - day: wed
+    time: "19:00"
+    duration_min: 90
+    frequency: irregular
+    format: offline
+schedule_note: Окремі івенти, приблизно раз на місяць; останній — 28.10.2026, реєстрація з 18:30.
+price:
+  free: false
+  amount: 400 грн (ранній квиток; включає напій)
+registration: required
+status: active
+last_seen: "2026-10-28"
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026.

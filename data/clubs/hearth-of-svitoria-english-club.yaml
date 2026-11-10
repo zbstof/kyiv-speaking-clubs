@@ -1,0 +1,31 @@
+id: hearth-of-svitoria-english-club
+name: English club at Hearth of Svitoria
+description: "Безкоштовний англомовний клуб: розмови, фільми, прогулянки, без уроків і тестів."
+languages:
+  - en
+format: offline
+location:
+  venue: Hearth of Svitoria
+  address: бульв. Тараса Шевченка, 37/122
+  lat: 50.445953
+  lon: 30.495167
+  geocoded: true
+schedule:
+  - day: sat
+    time: "18:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: Щосуботи 18:00–21:00.
+price:
+  free: true
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група; запрошення в учасників
+status: active
+first_seen: 2026-10
+last_seen: "2026-10-06"
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026.

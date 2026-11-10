@@ -1,0 +1,36 @@
+id: conversation-club-kyiv-arcanum
+name: "Conversation club (Kyiv): English at Arcanum"
+description: "Англомовний клуб в антикафе без модераторів і тем: приходьте й говоріть, рівень не важливий."
+languages:
+  - en
+format: offline
+location:
+  venue: Антикафе Arcanum (колишній «Дирижабль»)
+  address: вул. Верхній Вал, 30А
+  metro: Контрактова площа
+  note: Укриття, є резервне живлення й інтернет
+  lat: 50.466806
+  lon: 30.514053
+  geocoded: true
+schedule:
+  - day: sat
+    time: "15:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: "Щосуботи 15:00–18:00. Можна прийти пізніше: шукайте розмову англійською."
+price:
+  free: false
+  amount: Клуб безкоштовний; антикафе 100 ₴/год, максимум 400 ₴ за день
+registration: none
+contacts:
+  - type: telegram
+    url: https://t.me/convoclubkyiv
+status: active
+last_seen: "2026-11-07"
+sources:
+  - https://t.me/convoclubkyiv
+notes: >-
+  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+  прочитано 10.11.2026. Група «Conversation club (Kyiv)» понад 1900 учасників, також анонсує клуби
+  інших мов і онлайн.

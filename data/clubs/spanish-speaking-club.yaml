@@ -1,0 +1,42 @@
+id: spanish-speaking-club
+name: Spanish speaking club
+description: >-
+  Розмовний клуб іспанської для тих, хто вже знає мову й хоче практикувати. На зустрічі приходять і
+  носії мови. Розмовляють лише іспанською; буває кіноклуб.
+languages:
+  - es
+format: offline
+location:
+  venue: Пузата Хата
+  address: вул. Хрещатик, 15/4-А
+  metro: Хрещатик
+  note: Поруч зі станцією метро «Хрещатик»
+  lat: 50.447187
+  lon: 30.522946
+  geocoded: true
+  near_metro: true
+schedule:
+  - day: tue
+    time: "19:00"
+    frequency: weekly
+    format: offline
+  - day: sat
+    time: "19:00"
+    frequency: weekly
+    format: offline
+schedule_note: >-
+  Вівторок 19:00 — Пузата Хата на Хрещатику. Субота 19:00 — місце змінюється (останнім часом «Rumi»,
+  Бессарабська площа, 9, або Hearth of Svitoria), дивіться анонс у групі. Неділя в Buena Vista —
+  лише за домовленістю в чаті.
+price:
+  free: true
+registration: none
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група, понад 1100 учасників; запрошення в учасників
+status: active
+last_seen: "2026-11-10"
+notes: >-
+  Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. Розклад перевірено за анонсами
+  жовтня–листопада 2026.

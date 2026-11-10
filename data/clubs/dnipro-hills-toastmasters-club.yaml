@@ -7,8 +7,8 @@ languages:
   - en
 format: hybrid
 location:
-  venue: X-Lounge (former TIKE) restaurant; in 2010 International Institute of Business
-  address: вул. Петра Сагайдачного, 31 (2020s); вул. Дегтярівська, 51 (2010)
+  venue: X-Lounge (колишній TIKE)
+  address: вул. Петра Сагайдачного, 31
   metro: Поштова площа
   lat: 50.461318
   lon: 30.520958
@@ -18,12 +18,14 @@ schedule:
     time: "12:00"
     duration_min: 120
     frequency: weekly
+    format: offline
 schedule_note: >-
-  Sundays 12:00-14:00 plus optional after-party; 2010: Sundays 10-11 at International Institute of
-  Business, Dehtiarivska 51
+  Щонеділі о 12:00–14:00, потім неформальне спілкування. Зазвичай наживо в ресторані X-Lounge; за
+  словами клубу, приблизно раз на місяць зустріч онлайн або змішана (Zoom). Гостям безкоштовно, клуб
+  просить замовити напій чи їжу в ресторані.
 price:
   free: true
-  amount: guests free; membership $75 per 6 months + $20 new-member fee
+  amount: гостям безкоштовно; членство $25 вступний + $72 і $15 клубний за 6 міс.
 registration: optional
 contacts:
   - type: meetup
@@ -35,6 +37,10 @@ contacts:
   - type: telegram
     access: on_request
     note: Запрошення в організатора
+  - type: website
+    url: https://www.dniprohills.org.ua/
+  - type: instagram
+    url: https://www.instagram.com/dniprohillstoastmasters
 organizer: Dnipro Hills Toastmasters Club
 status: active
 first_seen: "2002-08-02"
@@ -45,6 +51,9 @@ sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
   - https://fr.slideshare.net/innadavidiuk/dnipro-dills-toastmasters-club
   - https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club/
+  - https://www.dniprohills.org.ua/
+  - https://www.dniprohills.org.ua/become-a-member
+  - https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club/events/316448649/
 notes: >-
   Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events, upcoming
   Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193 Meetup members.

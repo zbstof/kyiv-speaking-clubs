@@ -9,7 +9,10 @@ schedule:
     time: "17:00"
     duration_min: 60
     frequency: weekly
-schedule_note: Sun 5:00-6:00 PM EET (event on 2026-11-15)
+    format: online
+schedule_note: >-
+  Щонеділі о 17:00, 1 година, онлайн. Запис на Meetup; опис і посилання бачать лише учасники групи.
+  На всіх подіях у Meetup записаний лише ведучий, тож чи збираються люди, не перевірено.
 registration: required
 contacts:
   - type: meetup
@@ -19,7 +22,7 @@ organizer: >-
   International'
 status: active
 first_seen: 2025-09
-last_seen: "2026-11-15"
+last_seen: "2026-11-08"
 sources:
   - >-
     https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/events/317145351/

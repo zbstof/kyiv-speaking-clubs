@@ -5,20 +5,18 @@ description: >-
   AHK team, discuss American life. Led in 2024–2025 by English Language Resident Charlie.
 languages:
   - en
-format: offline
+format: online
 location:
-  venue: America House Kyiv
-  address: вул. Миколи Пимоненка, 6
-  metro: Лук'янівська
-  lat: 50.457414
-  lon: 30.491543
-  geocoded: true
+  venue: Zoom (організатор — America House Kyiv)
 schedule:
   - day: wed
     time: "19:00"
     duration_min: 90
     frequency: weekly
-schedule_note: Wednesdays 19:00–20:30
+    format: online
+schedule_note: >-
+  Щосереди 19:00–20:30, онлайн у Zoom. Реєстрація через форму на сторінці події до 12:00 того ж дня,
+  посилання на Zoom приходить на пошту в день зустрічі. Ведучий — Charlie, з 11.11.2026 — Patrice.
 price:
   free: true
 registration: required
@@ -27,10 +25,14 @@ contacts:
     url: https://americahousekyiv.org/events
   - type: email
     url: mailto:info@americahousekyiv.org
+  - type: instagram
+    url: https://www.instagram.com/amhousekyiv
+  - type: facebook
+    url: https://www.facebook.com/americahousekyiv
 organizer: America House Kyiv (IREX with the U.S. Embassy in Ukraine)
 status: active
 first_seen: "2016-04-27"
-last_seen: "2026-11-04"
+last_seen: "2026-11-11"
 sources:
   - https://americahousekyiv.org/events?tag=club
   - https://americahousekyiv.org/events/2023/7/12/wednesday-english-chat-with-americans
@@ -43,6 +45,11 @@ sources:
     https://www.americahousekyiv.org/events/2023/5/2/conversation-club-free-press-in-defence-of-democracy
   - https://www.americahousekyiv.org/learn-english
   - https://americahousekyiv.org/about-us
+  - https://americahousekyiv.org/events/2026/11/11/wednesday-english-with-patrice-everyday-heroes
+  - >-
+    https://americahousekyiv.org/events/2026/11/4/wednesday-english-with-charlie-lying-liars-and-the-lies-they-tell
+  - >-
+    https://americahousekyiv.org/events/2026/9/9/wednesday-english-with-charlie-life-in-a-divided-country
 notes: >-
   Registration via Google Form, ID needed at entry. Names over time: 'Wednesday English @America
   House' (WE@AH, 2016–2018), 'Conversation Club' (2022–spring 2023), 'Wednesday English: Chat with

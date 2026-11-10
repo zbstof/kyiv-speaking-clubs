@@ -14,7 +14,20 @@ format: online
 location:
   venue: Online (Zoom); Ukrainian Institute, Kyiv
   address: вул. Велика Житомирська, 2 (office of the organizer)
-schedule_note: Weekly, 90 min, dates announced in advance.
+schedule:
+  - day: thu
+    time: "20:00"
+    duration_min: 90
+    frequency: irregular
+    format: online
+  - day: sat
+    time: "20:00"
+    duration_min: 90
+    frequency: irregular
+    format: online
+schedule_note: >-
+  Раз на тиждень, онлайн у Zoom, 20:00–21:30, дні різні. Найближчі: 12.11 (чт), 21.11 (сб), 26.11
+  (чт). Дати й теми — у формі реєстрації, участь підтверджують протягом 3 днів.
 price:
   free: true
 registration: required
@@ -26,7 +39,11 @@ contacts:
 organizer: Український інститут (Ukrainian Institute)
 status: active
 first_seen: "2026-07-14"
-last_seen: "2026-07-14"
+last_seen: "2026-11-10"
 sources:
   - https://ui.org.ua/?p=59764
+  - >-
+    https://docs.google.com/forms/d/e/1FAIpQLScjcwHwQ8l9dtYWVLekbHv0vWJUtmcBL7T8aODQMsP3FVGVRQ/viewform
+  - >-
+    https://ui.org.ua/en/news-en/the-ukrainian-institute-is-launching-a-ukrainian-language-speaking-club-for-international-learners/
 notes: Launch announced 14 Jul 2026. For international learners; the organizer is based in Kyiv.

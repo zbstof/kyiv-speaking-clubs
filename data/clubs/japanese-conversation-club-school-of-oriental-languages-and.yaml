@@ -12,10 +12,17 @@ format: hybrid
 location:
   venue: Школа східних мов та культури
   address: бульв. Тараса Шевченка, 1-Б, офіс 12-А
+  metro: Театральна / Площа Українських Героїв
+  note: Вхід через арку
   lat: 50.441927
   lon: 30.519344
   geocoded: true
-schedule_note: Not published; administrator Mon-Fri 12:00-19:30, Sat 10:00-17:30
+schedule_note: >-
+  Розклад не опубліковано. Безкоштовний розмовний клуб з носієм мови входить у курс японської (для
+  учнів школи). Деталі — в адміністратора: пн–пт 12:00–19:30, сб 10:00–17:30.
+price:
+  free: true
+  amount: безкоштовно для учнів курсу
 contacts:
   - type: website
     url: https://www.shid.com.ua/
@@ -28,6 +35,8 @@ last_seen: "2026-07-31"
 sources:
   - https://osvita.ua/languages/courses/37590/
   - https://www.shid.com.ua/
+  - https://www.shid.com.ua/studying/japanese
+  - https://www.shid.com.ua/contact
 notes: >-
   School works in Kyiv since 2010 per osvita.ua. 2026-07-31 is the osvita.ua listing update date,
   not proof that the club meets. Clubs may exist for other Eastern languages too (not confirmed).

@@ -3,13 +3,12 @@ name: ArtTalkers Toastmasters Club
 description: Toastmasters club (#00891042) for public speaking, communication, English and creative skills.
 languages:
   - en
-format: hybrid
+format: offline
 location:
-  venue: >-
-    X-Lounge (former TIKE) restaurant (2025–2026); earlier a bar on вул. Межигірська; Art Library
-    near Vokzalna (2010)
-  address: вул. Петра Сагайдачного, 31 (2025–2026); пр. Повітрофлотський, 10 (2010)
+  venue: X-Lounge
+  address: вул. Петра Сагайдачного, 31
   metro: Поштова площа
+  note: 2 поверх
   lat: 50.461318
   lon: 30.520958
   geocoded: true
@@ -18,9 +17,13 @@ schedule:
     time: "12:00"
     duration_min: 120
     frequency: weekly
+    format: offline
 schedule_note: >-
-  Saturdays 12:00–14:00 (Meetup 2025–2026); 'every Saturday at 11.00' (kommunity); Saturdays 10:30
-  in 2010
+  Щосуботи о 12:00–14:00 наживо, після 14:00 охочі лишаються на обід. Гостям безкоштовно, реєстрація
+  не потрібна. На Meetup публікують не всі зустрічі, анонси є в Telegram-чаті.
+price:
+  free: true
+  amount: гостям безкоштовно; членство $60 за 6 міс. + $25 вступний внесок
 registration: none
 contacts:
   - type: website
@@ -45,6 +48,9 @@ sources:
   - https://www.meetup.com/arttalkers-toastmasters-club/events/311563860
   - https://kommunity.com/arttalkers-toastmasters-club-1/events
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+  - https://arttalkers.my.canva.site/
+  - https://t.me/ArtTalkersFriends
+  - https://www.meetup.com/arttalkers-toastmasters-club/events/317202769/
 notes: >-
   English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters page
   (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday matches

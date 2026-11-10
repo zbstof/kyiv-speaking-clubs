@@ -8,11 +8,14 @@ languages:
   - de
 format: offline
 location:
-  venue: Центр німецької культури «Widerstrahl»
-  address: "вул. Володимирська, 37 (2010 also: оф. 14 and вул. Горького/Антоновича, 11)"
+  venue: Німецький Дім Київ — ЦНК «Відерштраль»
+  address: вул. Володимирська, 37
   lat: 50.449829
   lon: 30.515313
   geocoded: true
+schedule_note: >-
+  Розклад клубу не опубліковано. На сайті клуб розмовної практики для дітей, підлітків і дорослих
+  згадано без дат. Деталі — в адміністрації: (097) 346-10-43.
 contacts:
   - type: website
     url: http://www.widerstrahl.org
@@ -20,6 +23,12 @@ contacts:
     url: mailto:widerstrahl@gmail.com
   - type: phone
     url: tel:+380442393145
+  - type: phone
+    url: tel:+380973461043
+  - type: instagram
+    url: https://www.instagram.com/deutsches_haus_kyiv
+  - type: facebook
+    url: https://www.facebook.com/WiderstrahlKyiv
 organizer: Центр німецької культури «Widerstrahl» (charity founded 1992)
 status: active
 first_seen: "2010-08-30"

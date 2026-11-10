@@ -9,6 +9,9 @@ languages:
 levels:
   - any
 format: hybrid
+schedule_note: >-
+  Розкладу немає. Це спільнота, а не розмовний клуб: чати за темами, невеликі зустрічі, велика
+  зустріч щонайменше раз на пів року. Вступ через форму, учасників відбирають координатори.
 contacts:
   - type: other
     url: https://forms.gle/nM3NYdPBrCLcGZTB8
@@ -21,6 +24,7 @@ last_seen: "2026-10-18"
 sources:
   - https://www.kyivpost.com/post/87435
   - https://www.kyivpost.com/topic/language-lab
+  - https://www.kyivpost.com/post/85262
 notes: >-
   A community, not strictly a speaking club; launched at the anniversary event about 3 Oct 2026.
   Kyiv Post partnership content.

@@ -4,17 +4,25 @@ description: Free online English speaking practice booked via langclub.live; Mee
 languages:
   - en
 format: online
+schedule_note: >-
+  Онлайн у Zoom, кілька сесій щодня, запис обов'язковий на langclub.live/sessions (RSVP на Meetup не
+  рахується). За київським часом 10–16.11.2026: щодня о 15:00, увечері о 19:00–21:00 і вночі о
+  03:00, у вихідні ще о 14:00. Meetup-група не публікує подій з 19.09.2026.
 price:
   free: true
 registration: required
 contacts:
   - type: website
     url: https://langclub.live/sessions
+  - type: meetup
+    url: https://www.meetup.com/%EF%B8%8F-speak-english-freely-get-ai-feedback/
 organizer: Langclub (community manager 'Chloe', US English teacher)
 status: active
-last_seen: 2026-11
+last_seen: "2026-11-10"
 sources:
   - https://www.meetup.com/find/?location=ua--kyiv&source=GROUPS&keywords=language%20exchange
+  - https://www.meetup.com/%EF%B8%8F-speak-english-freely-get-ai-feedback/
+  - https://langclub.live/sessions
 notes: >-
   708 members. Looks like a city-branded group of a global online service, not a Kyiv organizer; low
   relevance.

@@ -10,12 +10,11 @@ levels:
   - any
 format: online
 location:
-  venue: Online (Zoom); Language Lab, Kyiv
-schedule:
-  - day: sun
-    time: "19:00"
-    frequency: irregular
-schedule_note: "Independence Day edition: Sun 23 Aug 2026 19:00 Kyiv time."
+  venue: Online (Zoom); Language Lab
+  address: вул. Ярославів Вал, 11
+schedule_note: >-
+  Регулярного розкладу немає, клуби анонсують окремо. Остання зустріч — 23.08.2026, неділя, 19:00, у
+  Zoom (до Дня Незалежності). Реєстрація через форму на сайті, посилання надсилають на пошту.
 price:
   free: true
 registration: required
@@ -38,5 +37,4 @@ notes: >-
   Language Lab teaches Ukrainian to foreigners online and in person in Kyiv; started in 2016 as an
   English school. Regular club schedule not verified. Site: 'Speaking Clubs: online & in-person
   language practice for all levels'; school near Golden Gate. Free online Independence Day edition
-  Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20. Ukrainian slice
-  may hold more.
+  Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20.

@@ -72,7 +72,9 @@
             "description": "public: open link (default). invite: a private invite link that the admins agreed to publish. on_request: closed group; no link is published, 'note' says how to get in.",
             "enum": ["public", "invite", "on_request"]
           },
-          "note": { "type": "string", "maxLength": 300 }
+          "note": { "type": "string", "maxLength": 300 },
+          "members": { "description": "Members or subscribers of this group/channel.", "type": "integer", "minimum": 0 },
+          "members_checked": { "description": "When the member count was read.", "$ref": "#/definitions/partialDate" }
         }
       }
     },

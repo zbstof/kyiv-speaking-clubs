@@ -96,6 +96,7 @@ h1 { margin: 0; font-size: 26px; line-height: 1.2; }
 .desc { margin: 0; font-size: 15px; overflow-wrap: anywhere; }
 .contacts { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 14px; }
 .contacts a { overflow-wrap: anywhere; }
+.members { color: var(--muted); font-size: 13px; white-space: nowrap; }
 details.src { font-size: 13px; color: var(--muted); }
 details.src ul { margin: 4px 0 0; padding-left: 18px; }
 details.src p { margin: 6px 0 0; }

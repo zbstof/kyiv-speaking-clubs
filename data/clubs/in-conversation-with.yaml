@@ -25,6 +25,8 @@ contacts:
   - type: telegram
     access: on_request
     note: Закрита група; запрошення в організатора @pytor_alexievich
+    members: 246
+    members_checked: "2026-11-10"
 organizer: "@pytor_alexievich"
 status: active
 first_seen: 2025-03

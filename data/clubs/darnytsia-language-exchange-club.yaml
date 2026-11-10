@@ -25,6 +25,8 @@ price:
 contacts:
   - type: telegram
     url: https://t.me/Darnitsa_English
+    members: 384
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2019-06
 last_seen: 2026-11

@@ -46,6 +46,8 @@ registration: required
 contacts:
   - type: telegram
     url: https://t.me/osnovy_education
+    members: 119
+    members_checked: "2026-11-10"
   - type: telegram
     url: https://t.me/osnovy_edu
     note: запис на клуби

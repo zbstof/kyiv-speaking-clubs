@@ -36,6 +36,8 @@ contacts:
     url: https://kommunity.com/arttalkers-toastmasters-club-1/events
   - type: telegram
     url: https://t.me/ArtTalkersFriends
+    members: 624
+    members_checked: "2026-11-10"
   - type: website
     url: https://arttalkers.my.canva.site/
 organizer: ArtTalkers Toastmasters Club

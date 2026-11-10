@@ -84,6 +84,13 @@ async function handle(p, env) {
   } else if (p.action === "edit") {
     // Fields the form cannot change stay as they are in the repo.
     club = { ...sanitize(p.club), id, first_seen: old.first_seen, last_seen: old.last_seen, last_checked: old.last_checked, sources: old.sources };
+    // Member counts are not in the form; keep them for contacts that are still there.
+    const key = (x) => (x.url ? x.url.toLowerCase().replace(/\/+$/, "") : `${x.type}:${x.access}`);
+    const counts = new Map((old.contacts || []).filter((x) => x.members !== undefined).map((x) => [key(x), x]));
+    for (const ct of club.contacts || []) {
+      const prev = counts.get(key(ct));
+      if (prev) { ct.members = prev.members; ct.members_checked = prev.members_checked; }
+    }
   } else if (p.action === "confirm") {
     club = { ...old, last_checked: today, status: old.status === "closed" ? "closed" : "active" };
   } else {

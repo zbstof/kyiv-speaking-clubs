@@ -19,6 +19,8 @@ schedule_note: Раз на два тижні в неділю; з вересня 
 contacts:
   - type: telegram
     url: https://t.me/catspeakingclub
+    members: 34
+    members_checked: "2026-11-10"
 status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-14"

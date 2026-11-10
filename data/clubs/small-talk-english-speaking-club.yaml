@@ -25,6 +25,8 @@ price:
 contacts:
   - type: telegram
     url: https://t.me/SmalTalkLevoberezhna
+    members: 472
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2019-10
 last_seen: 2026-11

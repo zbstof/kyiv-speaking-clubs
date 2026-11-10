@@ -20,6 +20,8 @@ schedule_note: Щонеділі о 15:00. Перша зустріч — у «Ц�
 contacts:
   - type: telegram
     url: https://t.me/Ukrainian_speakingclub
+    members: 114
+    members_checked: "2026-11-10"
 status: unknown
 first_seen: 2023-08
 last_seen: "2025-04-02"

@@ -19,6 +19,12 @@ schedule:
 schedule_note: Субота 11:00–12:00.
 price:
   free: true
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група «Speaking Club»; запрошення в учасників
+    members: 113
+    members_checked: "2026-11-10"
 status: unknown
 last_seen: "2026-10-02"
 notes: >-

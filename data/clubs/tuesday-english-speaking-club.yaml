@@ -19,6 +19,8 @@ contacts:
   - type: telegram
     access: on_request
     note: Закрита група; запрошення через учасників або ведучу
+    members: 95
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2026-03
 last_seen: "2026-11-10"

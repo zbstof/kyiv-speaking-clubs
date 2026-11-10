@@ -34,8 +34,12 @@ registration: required
 contacts:
   - type: telegram
     url: https://t.me/nativenuances
+    members: 102
+    members_checked: "2026-11-10"
   - type: telegram
     url: https://t.me/nativenuanceschat
+    members: 220
+    members_checked: "2026-11-10"
   - type: email
     url: mailto:nativenuances@gmail.com
 organizer: Native Nuances (Edward 'Ted' Gibson)

@@ -34,6 +34,8 @@ registration: optional
 contacts:
   - type: telegram
     url: https://t.me/obolon_english
+    members: 502
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2021-02
 last_seen: "2026-10-30"

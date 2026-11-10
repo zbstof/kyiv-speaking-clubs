@@ -33,6 +33,11 @@
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
       slotFormat: { offline: "наживо", online: "онлайн" },
+      members: (n) => {
+        const form = { one: "учасник", few: "учасники", many: "учасників", other: "учасника" }[new Intl.PluralRules("uk").select(n)];
+        return `${n.toLocaleString("uk-UA")} ${form}`;
+      },
+      membersAsOf: (d) => (d ? `станом на ${d}` : ""),
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
@@ -101,6 +106,8 @@
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
       slotFormat: { offline: "in person", online: "online" },
+      members: (n) => `${n.toLocaleString("en-GB")} ${n === 1 ? "member" : "members"}`,
+      membersAsOf: (d) => (d ? `as of ${d}` : ""),
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
@@ -327,13 +334,14 @@
     ].filter(Boolean).join(" · ");
     const typeName = (ct) => L.ctype[ct.type] || ct.type;
     const contacts = (c.contacts || []).map((ct) => {
+      const size = ct.members !== undefined ? `<span class="members" title="${esc(L.membersAsOf(ct.members_checked))}">${esc(L.members(ct.members))}</span>` : "";
       if (ct.access === "on_request" || !ct.url) {
-        return `<span>🔒 ${esc(typeName(ct))} (${esc(L.closedGroup)})${ct.note ? ": " + esc(ct.note) : ""}</span>`;
+        return `<span>🔒 ${esc(typeName(ct))} (${esc(L.closedGroup)})${size ? " " + size : ""}${ct.note ? ": " + esc(ct.note) : ""}</span>`;
       }
       const href = contactHref(ct);
       const label = ct.type === "website" || ct.type === "other" ? contactLabel(ct) : typeName(ct) + (ct.access === "invite" ? ` (${L.inviteLink})` : "");
       const link = href ? `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">${esc(label)}</a>` : `<span>${esc(ct.url)}</span>`;
-      return ct.note ? `<span>${link} — ${esc(ct.note)}</span>` : link;
+      return `<span>${link}${size ? " " + size : ""}${ct.note ? " — " + esc(ct.note) : ""}</span>`;
     }).join("");
     const sources = (c.sources || []).filter((s) => /^https?:\/\//.test(s));
 

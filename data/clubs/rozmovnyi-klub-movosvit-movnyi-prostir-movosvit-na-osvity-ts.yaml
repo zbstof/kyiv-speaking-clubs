@@ -19,6 +19,8 @@ contacts:
     url: (044) 243-84-84
   - type: telegram
     url: https://t.me/movosvit
+    members: 77
+    members_checked: "2026-11-10"
   - type: website
     url: https://yedyni.org/
 organizer: Центральна районна бібліотека ім. Г. Сковороди (ЦБС Солом'янського району)

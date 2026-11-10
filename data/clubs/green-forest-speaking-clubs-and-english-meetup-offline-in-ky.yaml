@@ -37,6 +37,8 @@ contacts:
     url: https://greenforest.com.ua
   - type: telegram
     url: https://t.me/english_sunday_greenforest
+    members: 36344
+    members_checked: "2026-11-10"
 organizer: Green Forest
 status: active
 first_seen: "2013"

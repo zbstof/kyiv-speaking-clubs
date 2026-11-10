@@ -19,6 +19,8 @@ schedule_note: Вівторок 18:45 (тема вечора — у каналі
 contacts:
   - type: telegram
     url: https://t.me/kyivoflight
+    members: 550
+    members_checked: "2026-11-10"
 status: active
 last_seen: "2026-11-10"
 sources:

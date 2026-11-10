@@ -12,8 +12,12 @@ schedule_note: Announced 18 Feb 2026; meeting dates to be announced on the found
 contacts:
   - type: telegram
     url: https://t.me/ukrainemova
+    members: 2750
+    members_checked: "2026-11-10"
   - type: telegram
     url: https://t.me/vadymstolarbf
+    members: 5298
+    members_checked: "2026-11-10"
   - type: facebook
     url: https://www.facebook.com/VadymStolarBF
   - type: instagram

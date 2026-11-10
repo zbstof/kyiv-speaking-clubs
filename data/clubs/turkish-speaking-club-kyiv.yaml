@@ -22,6 +22,8 @@ schedule_note: Щотижневі теми (квітень–травень 2024
 contacts:
   - type: telegram
     url: https://t.me/turkishspeakingclubkyiv
+    members: 31
+    members_checked: "2026-11-10"
 status: unknown
 first_seen: 2024-04
 last_seen: "2024-05-12"

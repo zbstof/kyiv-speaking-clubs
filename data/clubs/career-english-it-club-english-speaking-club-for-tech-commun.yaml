@@ -33,6 +33,8 @@ contacts:
     url: https://career-english.com.ua/it-club
   - type: telegram
     url: https://t.me/speaking_club_for_tech_community
+    members: 43
+    members_checked: "2026-11-10"
 organizer: Career English school (host Dennis D. in 2017; Tetiana Pavlenko in 2025)
 status: unknown
 first_seen: "2017-10-28"

@@ -27,6 +27,8 @@ registration: none
 contacts:
   - type: telegram
     url: https://t.me/LEC_Philosophy_club
+    members: 884
+    members_checked: "2026-11-10"
 organizer: https://t.me/zbstof
 status: active
 first_seen: 2020-06

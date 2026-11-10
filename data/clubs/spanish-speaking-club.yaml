@@ -34,7 +34,9 @@ registration: none
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група, понад 1100 учасників; запрошення в учасників
+    note: Закрита група; запрошення в учасників
+    members: 1185
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2023-10
 last_seen: "2026-11-10"

@@ -26,6 +26,8 @@ registration: none
 contacts:
   - type: telegram
     url: https://t.me/convoclubkyiv
+    members: 1946
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2018-09
 last_seen: "2026-11-07"

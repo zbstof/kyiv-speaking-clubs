@@ -8,6 +8,8 @@ schedule_note: Розклад і місце — в анонсах групи.
 contacts:
   - type: telegram
     url: https://t.me/cinevibe_en
+    members: 309
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2023-07
 last_seen: "2026-11-05"

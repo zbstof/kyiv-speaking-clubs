@@ -28,6 +28,8 @@ contacts:
     url: https://www.facebook.com/ToastmastersUkrainian
   - type: telegram
     url: https://t.me/koma_club
+    members: 480
+    members_checked: "2026-11-10"
 organizer: KOMA club (Toastmasters International)
 status: active
 first_seen: "2003-02-12"

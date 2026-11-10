@@ -17,6 +17,8 @@ schedule_note: Щопонеділка о 19:00. Клуб ораторської 
 contacts:
   - type: telegram
     url: https://t.me/Svoya_Sorochka_Club
+    members: 367
+    members_checked: "2026-11-10"
 organizer: Svoya Sorochka (Toastmasters International)
 status: active
 first_seen: "2013-07-08"

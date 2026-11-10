@@ -21,12 +21,18 @@ schedule:
 schedule_note: Вівторок 19:00–22:00 (довідник LEC); у переліку 2023 року — 18:00–21:00.
 price:
   free: true
-status: unknown
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група «English Speaking Club at Shuliavka»; запрошення в учасників
+    members: 229
+    members_checked: "2026-11-10"
+status: active
 first_seen: 2022-10
-last_seen: "2026-10-02"
+last_seen: "2026-11-07"
 sources:
   - https://lec.link/
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026. Telegram-посилання з переліку (@english_shuliavka) більше не існує. Клуб
-  мережі LEC; у червні 2023 — у переліку клубів міста.
+  прочитано 10.11.2026. Публічне посилання @english_shuliavka більше не існує, але закрита група
+  діє. Клуб мережі LEC; у червні 2023 — у переліку клубів міста.

@@ -19,6 +19,8 @@ price:
 contacts:
   - type: telegram
     url: https://t.me/CouchsurfingKyiv
+    members: 841
+    members_checked: "2026-11-10"
 status: active
 last_seen: "2026-11-09"
 sources:

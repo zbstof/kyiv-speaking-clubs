@@ -117,6 +117,12 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
   - **Station fallback:** when neither address nor venue gives a match, the dot goes on the metro station from `metro`, marked `near_metro: true`. The map draws it with a dashed outline and says the exact place is unknown. Stations come from `lib/metro.mjs`: 53 Kyiv stations from OpenStreetMap, with Ukrainian, English, Russian and old names, so «Дружби народів» finds Звіринецька.
 - **New suggestions:** the Worker reads coordinates from a pasted map link (it also follows `maps.app.goo.gl` short links). Without a link, it geocodes the address.
 
+## Member counts
+
+- **Where counts live:** `contacts[].members` and `members_checked`. The card shows them next to the contact.
+- **Public groups and channels:** `node scripts/update-members.mjs` reads the counts from their public t.me pages. Run it by hand, then commit.
+- **Closed groups:** they have no public page, so their counts are entered by hand, and the script leaves them unchanged.
+
 ## Spam protection
 
 - The Worker accepts at most 5 suggestions per minute from one IP address (Workers rate limiting binding `LIMITER` in `worker/wrangler.toml`).

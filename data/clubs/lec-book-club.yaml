@@ -23,6 +23,8 @@ contacts:
     url: https://lec.link/
   - type: telegram
     url: https://t.me/lecbookclub
+    members: 394
+    members_checked: "2026-11-10"
 status: unknown
 first_seen: 2019-01
 last_seen: 2024-10

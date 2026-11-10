@@ -21,7 +21,9 @@ registration: optional
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група, понад 200 учасників; запрошення в учасників
+    note: Закрита група; запрошення в учасників
+    members: 214
+    members_checked: "2026-11-10"
 status: unknown
 first_seen: 2023-04
 last_seen: "2025-04-26"

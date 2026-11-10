@@ -20,6 +20,8 @@ schedule_note: Події анонсують у групі; останнім ч�
 contacts:
   - type: telegram
     url: https://t.me/SFrenchSLife
+    members: 60
+    members_checked: "2026-11-10"
 status: active
 first_seen: 2025-11
 last_seen: "2026-11-10"

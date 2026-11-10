@@ -33,6 +33,8 @@ contacts:
   - type: telegram
     access: on_request
     note: Закрита група English Psychology & Art Club; запрошення в організатора
+    members: 450
+    members_checked: "2026-11-10"
 organizer: https://t.me/liohaa
 status: active
 first_seen: 2024-08

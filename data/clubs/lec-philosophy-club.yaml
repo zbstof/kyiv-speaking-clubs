@@ -1,0 +1,19 @@
+id: lec-philosophy-club
+name: LEC Philosophy Club
+description: English-speaking philosophy club with Kyiv meetups every Sunday
+languages:
+  - en
+format: offline
+location:
+  venue: Puzata Khata
+  address: 1/2 Baseina Street
+  metro: Ploshcha Ukrainskykh Heroiv
+price:
+  free: true
+registration: none
+contacts:
+  - type: telegram
+    url: "@LEC_Philosophy_club"
+organizer: https://t.me/zbstof
+status: active
+last_checked: "2026-11-10"

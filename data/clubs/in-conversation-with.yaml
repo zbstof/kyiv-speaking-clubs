@@ -1,0 +1,23 @@
+id: in-conversation-with
+name: In Conversation With
+description: New English speaking club
+languages:
+  - en
+format: offline
+location:
+  venue: Porta D`oro Trattoria
+  address: Zolotoviritska 15
+  metro: Zoloti Vorota
+  lat: 50.449173
+  lon: 30.513993
+  map_url: https://maps.app.goo.gl/18FTLbJTvhVjeVDN8
+schedule:
+  - day: wed
+    time: "19:00"
+    frequency: weekly
+price:
+  free: true
+registration: none
+organizer: "@pytor_alexievich"
+status: active
+last_checked: "2026-11-10"

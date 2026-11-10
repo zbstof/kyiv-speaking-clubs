@@ -31,6 +31,7 @@
       confirmText: "Ви бачили, що клуб зустрічався нещодавно? Модератор оновить дату перевірки.",
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
+      closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
       sent: "Дякуємо! Зміну надіслано на перевірку.", sentGh: "Відкрито GitHub з готовим запитом. Надішліть його там.",
       failed: "Не вдалося надіслати: ",
       needName: "Вкажіть назву.", needLang: "Оберіть хоча б одну мову.", needCaptcha: "Пройдіть перевірку «я не робот».",
@@ -74,6 +75,7 @@
       confirmText: "Did you see this club meet recently? The moderator will update the check date.",
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
+      closeBtn: "Close", trackPr: "Follow the review on GitHub",
       sent: "Thank you! Your change is waiting for review.", sentGh: "GitHub opened with a ready request. Submit it there.",
       failed: "Could not send: ",
       needName: "Enter a name.", needLang: "Pick at least one language.", needCaptcha: "Complete the \"I am human\" check.",
@@ -386,7 +388,9 @@
       ? buildForm(club || {})
       : `<p>${esc(m === "confirm" ? L.confirmText : L.closeText)}</p>${field("comment", L.f.comment, `<textarea name="comment" maxlength="1000"></textarea>`, L.f.commentHint)}`;
     $("#form-msg").textContent = ""; $("#form-msg").className = "msg";
-    $("#submit-btn").disabled = false; $("#submit-btn").textContent = L.send;
+    $("#submit-btn").disabled = false; $("#submit-btn").textContent = L.send; $("#submit-btn").hidden = false;
+    $("#cancel-btn").textContent = L.cancel;
+    $("#turnstile").hidden = false;
     $("#dlg").showModal();
     setupTurnstile();
   }
@@ -429,8 +433,7 @@
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || res.status);
-      showMsg(L.sent + (data.pr ? " " : ""), false, data.pr);
-      $("#submit-btn").textContent = "✓";
+      showDone(L.sent, data.pr);
     } catch (err) {
       showMsg(L.failed + err.message, true);
       $("#submit-btn").disabled = false; $("#submit-btn").textContent = L.send;
@@ -451,7 +454,19 @@
     const body = `action: ${p.action}\n${p.id ? "id: " + p.id + "\n" : ""}\n${p.comment ? p.comment + "\n\n" : ""}\`\`\`yaml\n${yamlText}\`\`\`\n`;
     const url = `https://github.com/${CFG.repo}/issues/new?labels=suggestion&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
     window.open(url, "_blank", "noopener");
-    showMsg(t().sentGh, false);
+    showDone(t().sentGh, null);
+  }
+
+  // After sending: replace the form with a thank-you note and leave one "Close" button.
+  function showDone(text, prUrl) {
+    const L = t();
+    $("#form-body").innerHTML = `<p class="done">✓ ${esc(text)}</p>` +
+      (prUrl ? `<p><a href="${esc(prUrl)}" target="_blank" rel="noopener">${esc(L.trackPr)}</a></p>` : "");
+    $("#form-msg").textContent = "";
+    $("#turnstile").hidden = true;
+    $("#submit-btn").hidden = true;
+    $("#cancel-btn").textContent = L.closeBtn;
+    $("#cancel-btn").focus();
   }
 
   // ---------- events ----------

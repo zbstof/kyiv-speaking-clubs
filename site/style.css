@@ -107,6 +107,8 @@ dialog form { display: flex; flex-direction: column; max-height: calc(100vh - 34
 .msg { margin: 0; font-size: 14px; }
 .msg.err { color: var(--off); }
 .msg.ok { color: var(--ok); }
+.done { margin: 0; font-size: 17px; color: var(--ok); }
+[hidden] { display: none !important; }
 
 .field { display: grid; gap: 4px; }
 .field > span { font-size: 14px; font-weight: 600; }

@@ -32,6 +32,7 @@
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
+      slotFormat: { offline: "наживо", online: "онлайн" },
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
@@ -61,6 +62,7 @@
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
         levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", metro: "Метро",
+        slotFormat: "Формат", slotSame: "як у клубу",
         mapUrl: "Посилання на Google Maps", mapUrlHint: "У Google Maps: «Поділитися» → «Копіювати посилання». Без посилання знайдемо місце за адресою.",
         locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
         schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Тривалість, хв", frequency: "Частота",
@@ -98,6 +100,7 @@
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
+      slotFormat: { offline: "in person", online: "online" },
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
@@ -127,6 +130,7 @@
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
         levels: "Levels", format: "Format", venue: "Venue", address: "Address", metro: "Metro",
+        slotFormat: "Format", slotSame: "same as club",
         mapUrl: "Google Maps link", mapUrlHint: "In Google Maps: Share → Copy link. Without a link, we find the place by its address.",
         locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
         schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Length, min", frequency: "Frequency",
@@ -309,7 +313,7 @@
     const st = shownStatus(c);
     const L = t();
     const sched = (c.schedule || []).map((s) =>
-      `${L.days[s.day]}${s.time ? " " + s.time : ""}${s.duration_min ? ` (${s.duration_min} ${L.min})` : ""}${s.frequency && s.frequency !== "weekly" ? ", " + L.freq[s.frequency] : ""}`).join("; ");
+      `${L.days[s.day]}${s.time ? " " + s.time : ""}${s.format ? " " + L.slotFormat[s.format] : ""}${s.duration_min ? ` (${s.duration_min} ${L.min})` : ""}${s.frequency && s.frequency !== "weekly" ? ", " + L.freq[s.frequency] : ""}`).join("; ");
     const loc = c.location || {};
     const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro]
       .filter(Boolean)
@@ -366,6 +370,7 @@
       ${mini(F.time, `<input name="s_time" type="time" value="${esc(s.time || "")}">`)}
       ${mini(F.duration, `<input name="s_dur" type="number" min="10" max="600" step="5" inputmode="numeric" value="${esc(s.duration_min || "")}">`)}
       ${mini(F.frequency, `<select name="s_freq">${["weekly", "biweekly", "monthly", "irregular"].map((f) => opt(f, t().freq[f], (s.frequency || "weekly") === f)).join("")}</select>`)}
+      ${mini(F.slotFormat, `<select name="s_format">${opt("", F.slotSame, !s.format)}${["offline", "online"].map((f) => opt(f, t().format[f], s.format === f)).join("")}</select>`)}
       <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
     </div>`;
   }
@@ -435,6 +440,7 @@
       const time = r.querySelector("[name=s_time]").value; if (time) s.time = time;
       const dur = parseInt(r.querySelector("[name=s_dur]").value, 10); if (dur >= 10 && dur <= 600) s.duration_min = dur;
       s.frequency = r.querySelector("[name=s_freq]").value;
+      const sf = r.querySelector("[name=s_format]").value; if (sf) s.format = sf;
       return s;
     });
     c.schedule_note = v("schedule_note");
@@ -590,7 +596,8 @@
 
   function popupHtml(c) {
     const L = t(), loc = c.location, st = shownStatus(c);
-    const sched = (c.schedule || []).map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
+    // Only slots that happen at this place: online slots of a hybrid club are not at the dot.
+    const sched = (c.schedule || []).filter((s) => s.format !== "online").map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
     const href = mapHref(loc);
     return `<div class="pop">
       <b>${esc(c.name)}</b>

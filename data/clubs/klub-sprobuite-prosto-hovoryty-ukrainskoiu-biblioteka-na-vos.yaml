@@ -9,6 +9,9 @@ format: offline
 location:
   venue: Бібліотека на Воскресенці
   address: вул. Олександра Дашкевича, 9
+  lat: 50.48304
+  lon: 30.603645
+  geocoded: true
 price:
   free: true
 contacts:

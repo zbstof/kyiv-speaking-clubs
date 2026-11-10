@@ -1,8 +1,8 @@
 id: blabla-english-ua
 name: BlaBla English UA
 description: >-
-  Free volunteer-run English speaking club. Mostly Zoom sessions three times a week; a volunteer
-  host also runs in-person meetups in Kyiv (Pozniaky). Camera on, active speaking expected.
+  Безкоштовний розмовний клуб англійської, який ведуть волонтери. Три онлайн-зустрічі в Zoom щотижня
+  і одна зустріч наживо на Позняках. Камери ввімкнені, говорять усі.
 languages:
   - en
 levels:
@@ -12,33 +12,37 @@ levels:
   - C1
 format: hybrid
 location:
-  venue: Пузата Хата
-  address: ТРЦ «Піраміда»
+  venue: Паб «Пивна Дума»
+  address: вул. Михайла Драгоманова, 31г
   metro: Позняки
-  note: 2 поверх, у Пузатій Хаті
-  lat: 50.397897
-  lon: 30.634662
+  note: 2 поверх
+  lat: 50.401182
+  lon: 30.639255
   geocoded: true
-  near_metro: true
 schedule:
   - day: tue
     time: "19:00"
     frequency: weekly
+    format: offline
   - day: wed
     time: "18:45"
     duration_min: 60
     frequency: weekly
+    format: online
   - day: fri
     time: "13:05"
     duration_min: 55
     frequency: weekly
+    format: online
   - day: sun
     time: "15:00"
     duration_min: 60
     frequency: weekly
+    format: online
 schedule_note: >-
-  Online: Wed 18:45–19:45, Fri 13:05–14:00, Sun 15:00–16:00 (Kyiv time). Offline: Tuesday 19:00 near
-  Pozniaky metro (host Vadym).
+  Наживо: щовівторка о 19:00, напишіть ведучому Вадиму (@Dimjuani), щоб забронював стіл. Онлайн:
+  посилання на Zoom публікують у Telegram-каналі за день до зустрічі. Іноді бувають додаткові
+  зустрічі в понеділок.
 price:
   free: true
 registration: none
@@ -47,11 +51,12 @@ contacts:
     url: https://t.me/BlaBla_English_UA
   - type: meetup
     url: https://www.meetup.com/free-online-english-speaking-club-blabla_english_ua
-organizer: BlaBla English UA (volunteer hosts Roman, Vadym)
+organizer: "BlaBla English UA: засновник @Vasiura_R, зустрічі наживо веде Вадим @Dimjuani"
 status: active
 first_seen: "2025"
-last_seen: "2026-08-11"
+last_seen: "2026-11-09"
 sources:
+  - https://t.me/s/BlaBla_English_UA
   - https://dou.ua/calendar/58067/
   - https://dou.ua/calendar/58373/
   - https://dou.ua/calendar/58205/
@@ -62,6 +67,6 @@ sources:
   - https://www.meetup.com/free-online-english-speaking-club-blabla_english_ua
   - https://dou.ua/calendar/55219/
 notes: >-
-  Idealist says over 250 online events held, 15–35 participants per session. Session links posted in
-  Telegram one day before. Outside multi-language slice; English slice likely has more detail.
-  Address street not verified.
+  Розклад перевірено за 7 тижнями дописів у Telegram-каналі (22.09–10.11.2026): онлайн у ср, пт, нд
+  щотижня; наживо щовівторка в «Пивній Думі» (з вересня 2026, раніше біля Пузатої Хати). За даними
+  Idealist, понад 250 онлайн-зустрічей, 15–35 учасників на зустрічі.

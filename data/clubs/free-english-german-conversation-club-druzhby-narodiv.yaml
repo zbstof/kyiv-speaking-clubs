@@ -10,10 +10,9 @@ format: offline
 location:
   address: бульв. Дружби Народів, 18/7, офіс 3
   metro: Дружби народів
-  lat: 50.41825
-  lon: 30.545028
+  lat: 50.415168
+  lon: 30.540139
   geocoded: true
-  near_metro: true
 schedule:
   - day: sun
     frequency: weekly

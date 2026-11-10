@@ -45,7 +45,8 @@
           "day": { "enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] },
           "time": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" },
           "duration_min": { "type": "integer", "minimum": 10, "maximum": 600 },
-          "frequency": { "enum": ["weekly", "biweekly", "monthly", "irregular"] }
+          "frequency": { "enum": ["weekly", "biweekly", "monthly", "irregular"] },
+          "format": { "description": "For a hybrid club: whether this slot is online or in person. Omit when it matches the club's format.", "enum": ["offline", "online"] }
         }
       }
     },

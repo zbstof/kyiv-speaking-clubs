@@ -12,6 +12,9 @@ format: hybrid
 location:
   venue: Школа східних мов та культури
   address: бульв. Тараса Шевченка, 1-Б, офіс 12-А
+  lat: 50.441927
+  lon: 30.519344
+  geocoded: true
 schedule_note: Not published; administrator Mon-Fri 12:00-19:30, Sat 10:00-17:30
 contacts:
   - type: website

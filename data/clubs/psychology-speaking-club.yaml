@@ -6,6 +6,10 @@ format: offline
 location:
   venue: Private apartment
   metro: Zoloti Vorota
+  lat: 50.448246
+  lon: 30.513479
+  geocoded: true
+  near_metro: true
 price:
   free: false
 organizer: https://t.me/liohaa

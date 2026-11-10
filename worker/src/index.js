@@ -162,6 +162,7 @@ function sanitize(c) {
       time: /^([01][0-9]|2[0-3]):[0-5][0-9]$/.test(s.time) ? s.time : undefined,
       duration_min: Number.isInteger(s.duration_min) && s.duration_min >= 10 && s.duration_min <= 600 ? s.duration_min : undefined,
       frequency: ["weekly", "biweekly", "monthly", "irregular"].includes(s.frequency) ? s.frequency : undefined,
+      format: ["offline", "online"].includes(s.format) ? s.format : undefined,
     })),
     schedule_note: str(c.schedule_note, 500),
     price: c.price && { free: typeof c.price.free === "boolean" ? c.price.free : undefined, amount: str(c.price.amount, 100) },

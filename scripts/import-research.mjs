@@ -65,7 +65,8 @@ function mapRecord(r) {
     const time = s(x.time)?.match(/^(\d{1,2}):(\d{2})/);
     const freq = ["weekly", "biweekly", "monthly", "irregular"].includes(x.frequency) ? x.frequency : undefined;
     const dur = parseInt(x.duration_min, 10);
-    return { day, time: time ? `${time[1].padStart(2, "0")}:${time[2]}` : undefined, duration_min: dur >= 10 && dur <= 600 ? dur : undefined, frequency: freq };
+    return { day, time: time ? `${time[1].padStart(2, "0")}:${time[2]}` : undefined, duration_min: dur >= 10 && dur <= 600 ? dur : undefined, frequency: freq,
+      format: ["offline", "online"].includes(x.format) ? x.format : undefined };
   }).filter(Boolean);
   const loc = r.location || {};
   return {

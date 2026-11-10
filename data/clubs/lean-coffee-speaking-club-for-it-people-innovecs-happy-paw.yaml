@@ -8,6 +8,9 @@ location:
   venue: InnoHub (офіс Innovecs)
   address: бульв. Вацлава Гавела, 6-з
   note: 13 поверх
+  lat: 50.447623
+  lon: 30.422971
+  geocoded: true
 schedule:
   - day: mon
     time: "19:30"

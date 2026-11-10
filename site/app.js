@@ -59,9 +59,7 @@
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
         levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", district: "Район", metro: "Метро",
-        mapUrl: "Посилання на мапу", mapUrlHint: "Google Maps: «Поділитися» → «Копіювати посилання».",
-        coords: "Координати", coordsHint: "Широта, довгота. Заповнюються з посилання на мапу.",
-        coordsBad: "Координати мають виглядати як «50.4501, 30.5234» і бути в межах Києва.",
+        mapUrl: "Посилання на Google Maps", mapUrlHint: "У Google Maps: «Поділитися» → «Копіювати посилання». Без посилання знайдемо місце за адресою.",
         locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
         schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Тривалість, хв", frequency: "Частота",
         scheduleNote: "Розклад текстом (якщо складний)", free: "Безкоштовно", amount: "Ціна (текстом)",
@@ -125,9 +123,7 @@
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
         levels: "Levels", format: "Format", venue: "Venue", address: "Address", district: "District", metro: "Metro",
-        mapUrl: "Map link", mapUrlHint: "Google Maps: Share → Copy link.",
-        coords: "Coordinates", coordsHint: "Latitude, longitude. Filled from the map link.",
-        coordsBad: "Coordinates must look like \"50.4501, 30.5234\" and lie in Kyiv.",
+        mapUrl: "Google Maps link", mapUrlHint: "In Google Maps: Share → Copy link. Without a link, we find the place by its address.",
         locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
         schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Length, min", frequency: "Frequency",
         scheduleNote: "Schedule as text (if complex)", free: "Free", amount: "Price (text)",
@@ -224,14 +220,6 @@
     ];
     for (const p of pats) { const m = url.match(p); if (m) return { lat: +m[1], lon: +m[2] }; }
     return null;
-  }
-  // "50.4501, 30.5234" -> {lat, lon}; null when empty; false when it does not parse or lies outside Kyiv.
-  function parseCoords(text) {
-    if (!text.trim()) return null;
-    const m = text.match(/^\s*(-?\d{1,2}\.\d+)\s*[,; ]\s*(-?\d{1,3}\.\d+)\s*$/);
-    if (!m) return false;
-    const lat = +m[1], lon = +m[2];
-    return lat >= 49.9 && lat <= 50.9 && lon >= 29.8 && lon <= 31.3 ? { lat, lon } : false;
   }
   // Link to the place: the stored map link, else a Google Maps pin from coordinates, else a search by address.
   function mapHref(loc) {
@@ -400,10 +388,7 @@
         ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(loc.metro || "")}">`)}
       </div>`,
       field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(loc.note || "")}">`, F.locNoteHint),
-      `<div class="grid2">
-        ${field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint)}
-        ${field("coords", F.coords, `<input name="coords" inputmode="decimal" placeholder="50.4501, 30.5234" value="${loc.lat !== undefined ? esc(loc.lat + ", " + loc.lon) : ""}">`, F.coordsHint)}
-      </div>`,
+      field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint),
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
         ${field("amount", F.amount, `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
@@ -435,7 +420,11 @@
       return s;
     });
     c.schedule_note = v("schedule_note");
-    const ll = parseCoords(v("coords")) || coordsFromMapUrl(v("mapUrl"));
+    // Visitors never type coordinates. They come from a full map link; otherwise the saved point is kept
+    // while venue, address and link are unchanged; otherwise the worker finds the place from the link or address.
+    const prev = current?.location || {};
+    const samePlace = prev.lat !== undefined && v("venue") === (prev.venue || "") && v("address") === (prev.address || "") && v("mapUrl") === (prev.map_url || "");
+    const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
     c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote"),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
     c.price = { free: form.elements.free.checked, amount: v("amount") };
@@ -502,7 +491,6 @@
       const { club, comment } = readForm(form);
       if (!club.name) return showMsg(L.needName, true);
       if (!club.languages?.length) return showMsg(L.needLang, true);
-      if (parseCoords(form.elements.coords?.value || "") === false) return showMsg(L.f.coordsBad, true);
       if ((club.contacts || []).some((ct) => ct.url && INVITE_RE.test(ct.url) && ct.access !== "invite")) return showMsg(L.inviteWarn, true);
       payload = { action: mode, id: current?.id, club, comment };
     } else {
@@ -698,12 +686,6 @@
     $("#map").addEventListener("click", (e) => {
       const b = e.target.closest("[data-goto]");
       if (b) gotoCard(b.dataset.goto);
-    });
-    // Pasting a full Google Maps link fills the coordinates field right away.
-    dlg.addEventListener("input", (e) => {
-      if (e.target.name !== "mapUrl") return;
-      const c = coordsFromMapUrl(e.target.value), field = e.target.form.elements.coords;
-      if (c && field && !field.value.trim()) field.value = `${c.lat}, ${c.lon}`;
     });
   }
 

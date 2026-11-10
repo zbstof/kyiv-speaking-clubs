@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Розмовні клуби Києва</title>
+  <meta name="description" content="Розмовні клуби Києва: мови, розклад, адреси, контакти. Список редагують відвідувачі.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💬</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <div>
+        <h1 data-i18n="title">Розмовні клуби Києва</h1>
+        <p class="sub" id="summary"></p>
+      </div>
+      <div class="top-actions">
+        <button type="button" id="ui-lang" class="ghost" aria-label="Switch language">EN</button>
+        <button type="button" id="add-club" class="primary" data-i18n="addClub">+ Додати клуб</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <input type="search" id="q" data-i18n-ph="searchPh" placeholder="Пошук: назва, місце, організатор">
+      <select id="f-lang" aria-label="Language"></select>
+      <select id="f-day" aria-label="Day"></select>
+      <select id="f-format" aria-label="Format"></select>
+      <label class="check"><input type="checkbox" id="f-free"> <span data-i18n="freeOnly">Лише безкоштовні</span></label>
+      <label class="check"><input type="checkbox" id="f-old"> <span data-i18n="showOld">Показати старі й закриті</span></label>
+    </section>
+
+    <ul id="list" class="list"></ul>
+    <p id="empty" class="empty" hidden data-i18n="empty">Нічого не знайдено. Змініть фільтри або додайте клуб.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p data-i18n-html="footer"></p>
+  </footer>
+
+  <dialog id="dlg">
+    <form id="club-form" method="dialog" novalidate>
+      <header class="dlg-head">
+        <h2 id="dlg-title"></h2>
+        <button type="button" class="ghost close" data-close aria-label="Close">✕</button>
+      </header>
+      <div class="dlg-body" id="form-body"></div>
+      <footer class="dlg-foot">
+        <div id="turnstile"></div>
+        <p id="form-msg" class="msg" role="status"></p>
+        <div class="dlg-buttons">
+          <button type="button" class="ghost" data-close data-i18n="cancel">Скасувати</button>
+          <button type="submit" class="primary" id="submit-btn" data-i18n="send">Надіслати на перевірку</button>
+        </div>
+      </footer>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

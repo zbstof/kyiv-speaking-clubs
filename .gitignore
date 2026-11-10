@@ -1,0 +1,4 @@
+node_modules/
+site/clubs.json
+.wrangler/
+.DS_Store

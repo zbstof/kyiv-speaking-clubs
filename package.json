@@ -1,0 +1,15 @@
+{
+  "name": "kyiv-speaking-clubs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/build.mjs --check",
+    "serve": "node scripts/build.mjs && npx --yes http-server site -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1",
+    "js-yaml": "4.1.0"
+  }
+}

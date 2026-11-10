@@ -32,7 +32,7 @@ registration: required
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група English Psychology & Art Club; запрошення в організатора
+    note: Закрита група English Psychology & Art Club
     members: 450
     members_checked: "2026-11-10"
 organizer: https://t.me/liohaa
@@ -41,5 +41,5 @@ first_seen: 2024-08
 last_seen: "2026-11-07"
 last_checked: "2026-11-10"
 notes: >-
-  Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. Кількість місць обмежена. Спільнота
-  English Psychology & Art Club з серпня 2024; у 2024–2025 зустрічі в Пузатій Хаті.
+  Кількість місць обмежена. Спільнота English Psychology & Art Club з серпня 2024; у 2024–2025
+  зустрічі в Пузатій Хаті.

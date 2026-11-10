@@ -5,10 +5,11 @@ languages:
   - en
 format: offline
 location:
-  venue: CyberBionic Systematics, room 502
+  venue: CyberBionic Systematics
   address: вул. Марини Раскової, 19
   district: Дніпровський
   metro: Лівобережна
+  note: Кімната 502
 schedule:
   - day: sat
     time: "14:00"

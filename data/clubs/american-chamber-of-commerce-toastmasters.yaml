@@ -6,9 +6,10 @@ languages:
 format: offline
 location:
   venue: Microsoft Ukraine office
-  address: вул. Жилянська, 75, 4 поверх
+  address: вул. Жилянська, 75
   district: Голосіївський
   metro: Вокзальна
+  note: 4 поверх
 schedule:
   - day: wed
     time: "19:30"

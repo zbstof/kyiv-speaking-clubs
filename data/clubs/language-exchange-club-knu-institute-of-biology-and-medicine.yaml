@@ -13,9 +13,10 @@ levels:
 format: offline
 location:
   venue: ННЦ «Інститут біології та медицини» КНУ
-  address: вул. Васильківська, 98, 4 поверх, ауд. 77
+  address: вул. Васильківська, 98
   district: Голосіївський
   metro: Васильківська
+  note: 4 поверх, ауд. 77
 schedule:
   - day: mon
     time: "15:40"

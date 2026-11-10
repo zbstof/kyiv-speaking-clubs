@@ -35,6 +35,7 @@ location:
   address: вул. Драгоманова, 1
   district: Дарницький
   metro: Позняки
+  note: 2nd floor, room 116, entrance from the yard   # how to find the club inside a big venue
 schedule:
   - day: sat                    # mon..sun
     time: "12:00"

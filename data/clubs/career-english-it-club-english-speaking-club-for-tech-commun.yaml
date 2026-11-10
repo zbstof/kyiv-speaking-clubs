@@ -11,10 +11,11 @@ levels:
   - C1
 format: hybrid
 location:
-  venue: Career English School, office 405
+  venue: Career English School
   address: просп. Соборності, 7А
   district: Дніпровський
   metro: Лівобережна
+  note: Офіс 405
 schedule:
   - day: tue
     time: "18:00"

@@ -39,6 +39,7 @@
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
         levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", district: "Район", metro: "Метро",
+        locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
         schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Хвилин", frequency: "Частота",
         scheduleNote: "Розклад текстом (якщо складний)", free: "Безкоштовно", amount: "Ціна (текстом)",
         registration: "Реєстрація", contacts: "Контакти", url: "Посилання / @нік / телефон",
@@ -81,6 +82,7 @@
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
         levels: "Levels", format: "Format", venue: "Venue", address: "Address", district: "District", metro: "Metro",
+        locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
         schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Minutes", frequency: "Frequency",
         scheduleNote: "Schedule as text (if complex)", free: "Free", amount: "Price (text)",
         registration: "Registration", contacts: "Contacts", url: "Link / @handle / phone",
@@ -248,7 +250,7 @@
       <h3>${esc(c.name)}</h3>
       ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ""}
       ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
-      ${place ? `<p class="meta"><span class="ico">📍</span>${esc(place)}</p>` : ""}
+      ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(loc.note)}` : ""}</p>` : ""}
       ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && `<span class="ico">💳</span>${esc(price)}`, c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(L.levels + ": " + c.levels.map((l) => (l === "any" ? L.anyLevel : l)).join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
       ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${esc(c.organizer)}</p>` : ""}
       ${contacts ? `<div class="contacts">${contacts}</div>` : ""}
@@ -312,6 +314,7 @@
         ${field("district", F.district, `<select name="district">${opt("", F.none, !loc.district)}${DISTRICTS.map((d) => opt(d, d, loc.district === d)).join("")}</select>`)}
         ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(loc.metro || "")}">`)}
       </div>`,
+      field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(loc.note || "")}">`, F.locNoteHint),
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
         ${field("amount", F.amount, `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
@@ -343,7 +346,7 @@
       return s;
     });
     c.schedule_note = v("schedule_note");
-    c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro") };
+    c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote") };
     c.price = { free: form.elements.free.checked, amount: v("amount") };
     c.registration = v("registration");
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {

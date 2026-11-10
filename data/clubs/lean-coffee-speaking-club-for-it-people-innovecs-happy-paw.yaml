@@ -5,9 +5,10 @@ languages:
   - en
 format: offline
 location:
-  venue: InnoHub (Innovecs office), 13th floor
+  venue: InnoHub (офіс Innovecs)
   address: бульв. Вацлава Гавела, 6-з
   district: Солом'янський
+  note: 13 поверх
 schedule:
   - day: mon
     time: "19:30"

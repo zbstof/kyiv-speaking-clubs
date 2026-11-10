@@ -124,6 +124,7 @@ function sanitize(c) {
     location: c.location && {
       venue: str(c.location.venue, 200), address: str(c.location.address, 300),
       district: str(c.location.district, 100), metro: str(c.location.metro, 100),
+      note: str(c.location.note, 300),
     },
     schedule: arr(c.schedule).slice(0, 14).filter((s) => DAYS.includes(s?.day)).map((s) => ({
       day: s.day,

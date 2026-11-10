@@ -12,10 +12,11 @@ levels:
   - C1
 format: hybrid
 location:
-  venue: Пузата хата, 2nd floor, ТРЦ Піраміда
-  address: ТЦ «Піраміда», Пузата Хата, 2 поверх
+  venue: Пузата Хата, ТРЦ «Піраміда»
+  address: ТРЦ «Піраміда»
   district: Дарницький
   metro: Позняки
+  note: 2 поверх, у Пузатій Хаті
 schedule:
   - day: tue
     time: "19:00"

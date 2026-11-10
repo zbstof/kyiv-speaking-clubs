@@ -8,8 +8,9 @@ languages:
 format: offline
 location:
   venue: Bonjour Français
-  address: вул. Еспланадна, 28-а, 3-й поверх
+  address: вул. Еспланадна, 28-а
   district: Печерський
+  note: 3 поверх
 price:
   free: true
   amount: free for school students

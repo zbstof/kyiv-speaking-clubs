@@ -8,9 +8,10 @@ languages:
 format: offline
 location:
   venue: Phoenix Center
-  address: вул. Немировича-Данченка, 2, 3rd floor
+  address: вул. Немировича-Данченка, 2
   district: Печерський
   metro: Печерська
+  note: 3 поверх
 schedule_note: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
 price:
   free: true

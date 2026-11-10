@@ -9,10 +9,11 @@ levels:
   - any
 format: offline
 location:
-  venue: American Library, NaUKMA, building 4, room 116
+  venue: American Library, NaUKMA
   address: вул. Волоська, 8/5
   district: Подільський
   metro: Контрактова площа
+  note: Корпус 4, кімната 116
 schedule:
   - day: fri
     time: "17:00"

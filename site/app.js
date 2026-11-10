@@ -5,6 +5,14 @@
   const STALE_DAYS = 183; // after this many days without evidence, a club counts as "not confirmed"
   const OLD_DAYS = 365;   // after this many days, a club is hidden unless "show old" is on
 
+  // Member counts are snapshots, not live numbers, so the page shows them rounded:
+  // under 10 as is, under 100 to 10, under 1000 to 50, under 10000 to 100, above that to 1000.
+  const roughCount = (n) => {
+    if (n < 10) return n;
+    const step = n < 100 ? 10 : n < 1000 ? 50 : n < 10000 ? 100 : 1000;
+    return Math.round(n / step) * step;
+  };
+
   // ---------- texts ----------
   const T = {
     uk: {
@@ -34,8 +42,10 @@
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
       slotFormat: { offline: "наживо", online: "онлайн" },
       members: (n) => {
-        const form = { one: "учасник", few: "учасники", many: "учасників", other: "учасника" }[new Intl.PluralRules("uk").select(n)];
-        return `${n.toLocaleString("uk-UA")} ${form}`;
+        const r = roughCount(n);
+        if (r >= 1000) return `≈ ${(r / 1000).toLocaleString("uk-UA", { maximumFractionDigits: 1 })} тис. учасників`;
+        const form = { one: "учасник", few: "учасники", many: "учасників", other: "учасника" }[new Intl.PluralRules("uk").select(r)];
+        return `≈ ${r} ${form}`;
       },
       membersAsOf: (d) => (d ? `станом на ${d}` : ""),
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
@@ -106,7 +116,10 @@
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
       slotFormat: { offline: "in person", online: "online" },
-      members: (n) => `${n.toLocaleString("en-GB")} ${n === 1 ? "member" : "members"}`,
+      members: (n) => {
+        const r = roughCount(n);
+        return r >= 1000 ? `≈ ${(r / 1000).toLocaleString("en-GB", { maximumFractionDigits: 1 })}k members` : `≈ ${r} ${r === 1 ? "member" : "members"}`;
+      },
       membersAsOf: (d) => (d ? `as of ${d}` : ""),
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",

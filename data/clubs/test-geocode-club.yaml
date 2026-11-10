@@ -1,0 +1,13 @@
+id: test-geocode-club
+name: Test geocode club
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека
+  address: вул. Володимирська, 37, офіс 5
+  lat: 50.449829
+  lon: 30.515313
+  geocoded: true
+status: active
+last_checked: "2026-11-10"

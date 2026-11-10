@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. Остапа Вишні
   address: вул. Грушевського, 9
   district: Печерський
+  lat: 50.504437
+  lon: 30.785008
+  geocoded: true
 price:
   free: true
 contacts:

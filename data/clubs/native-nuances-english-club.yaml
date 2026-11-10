@@ -15,6 +15,9 @@ location:
   address: вул. Волоська, 33
   district: Подільський
   metro: Контрактова площа
+  lat: 50.471008
+  lon: 30.512996
+  geocoded: true
 schedule:
   - day: sun
     time: "14:00"

@@ -10,6 +10,9 @@ location:
   venue: Бібліотека № 135
   address: вул. Салютна, 19
   district: Шевченківський
+  lat: 50.472401
+  lon: 30.409874
+  geocoded: true
 price:
   free: true
 contacts:

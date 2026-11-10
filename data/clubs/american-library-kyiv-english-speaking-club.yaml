@@ -14,6 +14,9 @@ location:
   district: Подільський
   metro: Контрактова площа
   note: Корпус 4, кімната 116
+  lat: 50.465567
+  lon: 30.522509
+  geocoded: true
 schedule:
   - day: fri
     time: "17:00"

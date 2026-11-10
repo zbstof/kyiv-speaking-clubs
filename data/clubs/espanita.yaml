@@ -8,6 +8,9 @@ format: offline
 location:
   venue: Espanita
   address: вул. Басейна, 1/2, оф. 40 (2024); earlier вул. Саксаганського, 29, офіс 5
+  lat: 50.44203
+  lon: 30.522755
+  geocoded: true
 contacts:
   - type: website
     url: http://espanita.com.ua

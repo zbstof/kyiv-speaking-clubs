@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. А. Міцкевича
   address: вул. Івана Франка, 16/2
   district: Шевченківський
+  lat: 50.449237
+  lon: 30.509178
+  geocoded: true
 price:
   free: true
 organizer: Всеукраїнський проєкт «Єдині» / Бібліотека ім. А. Міцкевича

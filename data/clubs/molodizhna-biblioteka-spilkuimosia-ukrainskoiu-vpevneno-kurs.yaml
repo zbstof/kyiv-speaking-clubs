@@ -12,6 +12,9 @@ location:
   venue: Спеціалізована молодіжна бібліотека міста Києва
   address: проспект Повітряних Сил (кол. Повітрофлотський), 10
   district: Солом'янський
+  lat: 50.44059
+  lon: 30.478689
+  geocoded: true
 price:
   free: true
 contacts:

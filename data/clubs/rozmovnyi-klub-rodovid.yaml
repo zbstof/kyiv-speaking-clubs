@@ -8,6 +8,9 @@ location:
   venue: Книгарня «Родовід»
   address: вул. Хрещатик, 7/11
   metro: Майдан Незалежності
+  lat: 50.450731
+  lon: 30.526018
+  geocoded: true
 price:
   free: true
 organizer: Книгарня «Родовід»

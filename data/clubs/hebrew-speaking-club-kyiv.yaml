@@ -12,6 +12,9 @@ levels:
 format: hybrid
 location:
   venue: Cafe KAFFA (season 5 opening, 2020-09-02); online on Zoom from March 2020
+  lat: 50.465839
+  lon: 30.520084
+  geocoded: true
 schedule_note: >-
   Seasons run from September; meetings in class/cafe, online since March 2020. Exact day and time
   not published in the sources found.

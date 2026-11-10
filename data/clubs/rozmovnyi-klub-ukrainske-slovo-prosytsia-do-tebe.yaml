@@ -10,6 +10,9 @@ location:
   venue: Бібліотека № 152 сімейного читання
   address: вул. Заболотного, 20-А
   district: Голосіївський
+  lat: 50.366017
+  lon: 30.462228
+  geocoded: true
 schedule_note: >-
   Blog post 29 Apr 2026: conversation club session on the works of Oles Honchar. No regular time
   published.

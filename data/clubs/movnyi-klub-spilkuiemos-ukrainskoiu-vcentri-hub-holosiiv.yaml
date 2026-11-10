@@ -12,6 +12,9 @@ location:
   venue: "Громадський простір Vcentri HUB: Голосіїв"
   address: вул. Велика Китаївська, 83
   district: Голосіївський
+  lat: 50.39906
+  lon: 30.531803
+  geocoded: true
 schedule:
   - day: tue
     time: "13:30"

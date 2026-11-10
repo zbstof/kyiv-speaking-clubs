@@ -12,6 +12,9 @@ location:
   venue: Бібліотека ім. І. Сергієнка для дітей
   address: вул. Шумського, 4а
   district: Дніпровський
+  lat: 50.426009
+  lon: 30.601099
+  geocoded: true
 price:
   free: true
 contacts:

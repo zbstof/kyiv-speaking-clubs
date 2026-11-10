@@ -8,6 +8,9 @@ location:
   venue: Puzata Khata
   address: 1/2 Baseina Street
   metro: Ploshcha Ukrainskykh Heroiv
+  lat: 50.44203
+  lon: 30.522755
+  geocoded: true
 price:
   free: true
 registration: none

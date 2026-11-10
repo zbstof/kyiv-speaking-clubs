@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. Є. Кравченка для юнацтва
   address: вул. Ентузіастів, 51/24
   district: Дніпровський
+  lat: 50.445186
+  lon: 30.592209
+  geocoded: true
 price:
   free: true
 contacts:

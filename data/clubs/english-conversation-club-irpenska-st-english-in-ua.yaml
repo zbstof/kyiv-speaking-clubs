@@ -8,6 +8,9 @@ location:
   address: вул. Ірпінська, 76, оф. 31
   district: Святошинський
   metro: Академмістечко
+  lat: 50.46031
+  lon: 30.348265
+  geocoded: true
 schedule:
   - day: fri
     time: "19:00"

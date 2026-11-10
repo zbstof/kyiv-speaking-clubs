@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Данте Аліг'єрі
   address: вул. Червоноармійська (Велика Васильківська), 71
+  lat: 50.428348
+  lon: 30.516483
+  geocoded: true
 contacts:
   - type: website
     url: http://www.ladante.com.ua

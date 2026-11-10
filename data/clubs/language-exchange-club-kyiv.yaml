@@ -18,6 +18,9 @@ location:
   venue: Puzata Khata (most meetings)
   district: Подільський
   metro: Контрактова площа
+  lat: 50.43742
+  lon: 30.515754
+  geocoded: true
 schedule_note: About 2 hours per meeting; FRI Kyiv post says meetings happen daily, language varies.
 price:
   free: true

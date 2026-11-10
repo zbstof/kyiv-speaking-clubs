@@ -7,6 +7,9 @@ format: offline
 location:
   venue: CHISPA (Центр іспанської мови та культури «ЧІСПА»)
   address: вул. Оболонська, 7
+  lat: 50.469986
+  lon: 30.505278
+  geocoded: true
 contacts:
   - type: website
     url: http://www.chispa.com.ua

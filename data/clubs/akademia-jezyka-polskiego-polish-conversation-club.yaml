@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Akademia Języka Polskiego
   address: вул. Велика Васильківська, 90, офіс 14
+  lat: 50.429122
+  lon: 30.515725
+  geocoded: true
 contacts:
   - type: website
     url: http://akademia-polskiego.com.ua

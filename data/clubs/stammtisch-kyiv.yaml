@@ -16,6 +16,9 @@ location:
   address: вул. Пушкінська, 17
   district: Шевченківський
   metro: Театральна
+  lat: 50.512333
+  lon: 30.238567
+  geocoded: true
 schedule:
   - day: wed
     time: "19:00"

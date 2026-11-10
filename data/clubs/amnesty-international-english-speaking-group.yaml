@@ -9,6 +9,9 @@ location:
   address: вул. Лютеранська, 22
   district: Печерський
   metro: Хрещатик
+  lat: 50.443847
+  lon: 30.526428
+  geocoded: true
 schedule:
   - day: tue
     time: "19:00"

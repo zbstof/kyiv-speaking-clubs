@@ -9,6 +9,9 @@ format: hybrid
 location:
   venue: "Online (earlier: Microsoft Ukraine office, BC Eurasia; EPAM office)"
   address: вул. Жилянська, 75 (2010); вул. Кудряшова, 14б (2012)
+  lat: 50.439005
+  lon: 30.498697
+  geocoded: true
 schedule:
   - day: wed
     time: "19:15"

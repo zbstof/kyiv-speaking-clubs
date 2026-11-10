@@ -10,6 +10,9 @@ location:
   venue: Бібліотека сімейного читання ім. І. Шамо
   address: вул. Героїв Севастополя, 22
   district: Солом'янський
+  lat: 50.440867
+  lon: 30.416561
+  geocoded: true
 price:
   free: true
 contacts:

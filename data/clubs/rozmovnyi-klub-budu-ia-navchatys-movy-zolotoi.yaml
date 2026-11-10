@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. М. Трублаїні для дітей
   address: бульвар Марії Приймаченко, 7
   district: Печерський
+  lat: 50.420476
+  lon: 30.544129
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека ім. М. Трублаїні для дітей

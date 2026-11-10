@@ -14,6 +14,11 @@
   --off-bg: #f6e2e2;
   --chip: #eceae3;
   --radius: 10px;
+  /* Map pin colours: reference dataviz palette slots 1-3 + neutral; validated all-pairs. */
+  --lang-uk: #2a78d6; --lang-uk-ink: #ffffff;
+  --lang-en: #eb6834; --lang-en-ink: #1d1d1b;
+  --lang-de: #1baf7a; --lang-de-ink: #1d1d1b;
+  --lang-other: #7a7974; --lang-other-ink: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -31,12 +36,16 @@
     --off: #f0a3a3;
     --off-bg: #3b2222;
     --chip: #2b2a26;
+    --lang-uk: #3987e5; --lang-en: #d95926; --lang-de: #199e70; --lang-other: #8f8e88;
+    --lang-en-ink: #ffffff; --lang-de-ink: #ffffff; --lang-other-ink: #161614;
   }
 }
 :root[data-theme="dark"] {
   --bg: #161614; --surface: #1f1f1c; --text: #ecebe6; --muted: #a3a29b; --line: #34332e;
   --accent: #7ea2ff; --accent-text: #0d1430; --ok: #7fd79a; --ok-bg: #1d3325; --warn: #f2c66b;
   --warn-bg: #3a2f17; --off: #f0a3a3; --off-bg: #3b2222; --chip: #2b2a26;
+  --lang-uk: #3987e5; --lang-en: #d95926; --lang-de: #199e70; --lang-other: #8f8e88;
+  --lang-en-ink: #ffffff; --lang-de-ink: #ffffff; --lang-other-ink: #161614;
 }
 
 * { box-sizing: border-box; }
@@ -121,6 +130,44 @@ fieldset { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px
 legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 .checks { display: flex; flex-wrap: wrap; gap: 6px 14px; }
 .rep { display: grid; gap: 8px; }
-.rep-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
-.rep-row > * { flex: 1 1 100px; min-width: 0; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
-.rep-row > button { flex: 0 0 auto; }
+.rep-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-end; padding: 10px; border: 1px dashed var(--line); border-radius: 8px; }
+.mini { display: grid; gap: 2px; flex: 1 1 130px; min-width: 0; }
+.mini.wide { flex-basis: 100%; }
+.mini > span { font-size: 13px; color: var(--muted); }
+.mini input, .mini select { width: 100%; min-width: 0; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.rep-row > .del { flex: 0 0 auto; }
+
+/* view tabs */
+.views { display: flex; gap: 4px; margin: 0 0 14px; border-bottom: 1px solid var(--line); }
+.tab { border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: transparent; padding: 8px 14px; color: var(--muted); font-weight: 600; }
+.tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+
+/* map */
+#map { height: min(70vh, 640px); border: 1px solid var(--line); border-radius: var(--radius); background: var(--chip); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 4px; font-size: 14px; }
+.leg { display: inline-flex; align-items: center; gap: 6px; }
+.pin-wrap { background: none; border: 0; }
+.pin { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--pin); color: var(--pin-ink);
+  font: 700 11px/1 system-ui, sans-serif; border: 2px solid var(--surface); box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+.pin.old { opacity: .55; }
+.pin-sm { width: 14px; height: 14px; border-width: 1px; box-shadow: none; }
+.pin-uk { --pin: var(--lang-uk); --pin-ink: var(--lang-uk-ink); }
+.pin-en { --pin: var(--lang-en); --pin-ink: var(--lang-en-ink); }
+.pin-de { --pin: var(--lang-de); --pin-ink: var(--lang-de-ink); }
+.pin-other { --pin: var(--lang-other); --pin-ink: var(--lang-other-ink); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface); color: var(--text); }
+.leaflet-container { font: inherit; }
+.leaflet-container a { color: var(--accent); }
+.pop { display: grid; gap: 4px; font-size: 14px; }
+.pop b { font-size: 15px; }
+.pop-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--muted); }
+.pop-approx { color: var(--muted); font-size: 13px; }
+.pop-links { display: flex; gap: 10px; align-items: center; margin-top: 4px; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
+}
+:root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
+
+/* card highlighted after "Details" on the map */
+@keyframes flash { from { box-shadow: 0 0 0 3px var(--accent); } to { box-shadow: 0 0 0 3px transparent; } }
+.card.flash { animation: flash 2s ease-out; }

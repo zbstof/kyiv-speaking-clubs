@@ -10,6 +10,9 @@ format: offline
 location:
   venue: Клуб Успіху
   address: вул. Бориспільська, 12
+  lat: 50.427497
+  lon: 30.670123
+  geocoded: true
 contacts:
   - type: website
     url: http://www.uspih.club

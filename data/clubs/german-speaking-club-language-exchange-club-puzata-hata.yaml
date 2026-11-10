@@ -15,6 +15,9 @@ location:
   address: вул. Велика Васильківська, 40
   district: Голосіївський
   metro: Палац спорту / Площа Льва Толстого
+  lat: 50.437411
+  lon: 30.515615
+  geocoded: true
 schedule:
   - day: wed
     time: "19:00"

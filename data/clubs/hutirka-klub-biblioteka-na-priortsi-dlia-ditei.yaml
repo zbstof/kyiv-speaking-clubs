@@ -10,6 +10,9 @@ location:
   venue: Бібліотека на Пріорці для дітей
   address: вул. Вишгородська, 38
   district: Подільський
+  lat: 50.510789
+  lon: 30.450993
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека на Пріорці для дітей

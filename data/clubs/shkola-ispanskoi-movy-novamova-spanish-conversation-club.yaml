@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Школа іспанської мови NovaMova
   address: вул. Ярославів Вал, 14В, офіс 28
+  lat: 50.450611
+  lon: 30.511475
+  geocoded: true
 contacts:
   - type: website
     url: https://spanish.kiev.ua/

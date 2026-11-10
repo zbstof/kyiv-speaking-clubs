@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. В. Яна
   address: проспект Миру, 13
   district: Дніпровський
+  lat: 50.444683
+  lon: 30.615942
+  geocoded: true
 price:
   free: true
 contacts:

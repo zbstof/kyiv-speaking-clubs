@@ -10,6 +10,9 @@ location:
   venue: Бібліотека «Книжкова світлиця»
   address: вул. Зодчих, 30/6
   district: Святошинський
+  lat: 50.419799
+  lon: 30.374106
+  geocoded: true
 price:
   free: true
 contacts:

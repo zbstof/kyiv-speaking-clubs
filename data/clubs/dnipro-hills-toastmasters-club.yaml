@@ -11,6 +11,9 @@ location:
   address: вул. Петра Сагайдачного, 31 (2020s); вул. Дегтярівська, 51 (2010)
   district: Подільський
   metro: Поштова площа
+  lat: 50.461318
+  lon: 30.520958
+  geocoded: true
 schedule:
   - day: sun
     time: "12:00"
@@ -32,7 +35,7 @@ contacts:
     url: https://www.facebook.com/DniproHillsToastmastersPage/
   - type: telegram
     access: on_request
-    note: "Запрошення в організатора"
+    note: Запрошення в організатора
 organizer: Dnipro Hills Toastmasters Club
 status: active
 first_seen: "2002-08-02"

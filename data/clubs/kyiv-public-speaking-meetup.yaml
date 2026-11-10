@@ -10,6 +10,9 @@ format: offline
 location:
   venue: Conference hall 'Answer'; Kyiv School of Economics
   address: вул. Володимирська, 49-А; вул. Івана Мазепи, 1
+  lat: 50.44762
+  lon: 30.51598
+  geocoded: true
 schedule_note: Irregular evenings 18:00–19:00; 9 events, e.g. 2015-07-07, 2015-10-09, 2015-11-03, 2015-11-25
 price:
   free: true

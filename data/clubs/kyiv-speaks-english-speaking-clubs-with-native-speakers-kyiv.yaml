@@ -11,6 +11,9 @@ location:
   address: вул. Хрещатик, 36
   district: Шевченківський
   metro: Хрещатик
+  lat: 50.446247
+  lon: 30.520873
+  geocoded: true
 price:
   free: true
 registration: required

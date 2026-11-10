@@ -8,6 +8,9 @@ location:
   venue: English Language Center
   address: вул. Ірпінська, 76, офіс 31; вул. Микільсько-Слобідська, 2Б, офіс 277
   metro: Академмістечко
+  lat: 50.46031
+  lon: 30.348265
+  geocoded: true
 schedule:
   - day: fri
     time: "19:00"

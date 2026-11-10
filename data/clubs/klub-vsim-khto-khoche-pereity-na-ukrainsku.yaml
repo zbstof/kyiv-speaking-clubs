@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. Гната Юри
   address: вул. Гната Юри, 5
   district: Святошинський
+  lat: 50.432967
+  lon: 30.385652
+  geocoded: true
 price:
   free: true
 contacts:

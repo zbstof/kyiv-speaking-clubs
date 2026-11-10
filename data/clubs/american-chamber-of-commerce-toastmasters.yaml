@@ -10,6 +10,9 @@ location:
   district: Голосіївський
   metro: Вокзальна
   note: 4 поверх
+  lat: 50.439005
+  lon: 30.498697
+  geocoded: true
 schedule:
   - day: wed
     time: "19:30"

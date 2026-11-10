@@ -13,6 +13,9 @@ location:
   address: вул. Набережно-Хрещатицька, 39
   district: Подільський
   metro: Поштова площа
+  lat: 50.470872
+  lon: 30.52104
+  geocoded: true
 schedule:
   - day: thu
     time: "19:00"

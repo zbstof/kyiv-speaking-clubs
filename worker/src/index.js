@@ -6,6 +6,7 @@
 import yaml from "js-yaml";
 import { clubToYaml, slugify } from "../../lib/club.mjs";
 import { extraChecks } from "../../lib/rules.mjs";
+import { geocode, coordsFromMapUrl, resolveShortMapUrl } from "../../lib/geo.mjs";
 
 const MAX_BODY = 30_000;
 const ACTIONS = new Set(["add", "edit", "confirm", "close"]);
@@ -88,6 +89,7 @@ async function handle(p, env) {
   } else {
     club = { ...old, status: "closed" };
   }
+  if (p.action === "add" || p.action === "edit") await locate(club, old);
   if (!club.name || club.name.length < 2) throw new UserError("name is required", "name_required");
   if (!club.languages?.length) throw new UserError("at least one language is required", "lang_required");
   const problems = extraChecks(club);
@@ -113,6 +115,29 @@ async function handle(p, env) {
   return pr.html_url;
 }
 
+// Fills location.lat/lon when the visitor gave none: first from a pasted map link, then from the address.
+// Any failure here leaves the club without coordinates; it never blocks the suggestion.
+async function locate(club, old) {
+  const loc = club.location;
+  if (!loc) return;
+  const prev = old?.location;
+  if (loc.lat !== undefined) {
+    // Unchanged automatic coordinates stay marked as automatic.
+    if (prev?.geocoded && prev.lat === loc.lat && prev.lon === loc.lon) loc.geocoded = true;
+    return;
+  }
+  try {
+    if (loc.map_url) {
+      const c = coordsFromMapUrl(await resolveShortMapUrl(loc.map_url));
+      if (c) Object.assign(loc, coords(c.lat, c.lon));
+    }
+    if (loc.lat === undefined && loc.address && club.format !== "online") {
+      const hit = await geocode(loc, { wait: async () => {} });
+      if (hit) Object.assign(loc, coords(hit.lat, hit.lon), { geocoded: true });
+    }
+  } catch { /* leave without coordinates */ }
+}
+
 // Copies only known fields, with types and lengths checked. CI validates the full schema on the PR.
 function sanitize(c) {
   if (!c || typeof c !== "object") throw new UserError("missing club");
@@ -126,6 +151,8 @@ function sanitize(c) {
       venue: str(c.location.venue, 200), address: str(c.location.address, 300),
       district: str(c.location.district, 100), metro: str(c.location.metro, 100),
       note: str(c.location.note, 300),
+      ...coords(c.location.lat, c.location.lon),
+      map_url: /^https:\/\//.test(c.location.map_url || "") ? str(c.location.map_url, 500) : undefined,
     },
     schedule: arr(c.schedule).slice(0, 14).filter((s) => DAYS.includes(s?.day)).map((s) => ({
       day: s.day,
@@ -155,6 +182,13 @@ function str(v, max) {
   return s ? s.slice(0, max) : undefined;
 }
 const arr = (v) => (Array.isArray(v) ? v : []);
+
+// Keeps coordinates only when both are numbers inside the Kyiv area (same bounds as the schema).
+function coords(lat, lon) {
+  lat = Number(lat); lon = Number(lon);
+  if (!(lat >= 49.9 && lat <= 50.9 && lon >= 29.8 && lon <= 31.3)) return {};
+  return { lat: Math.round(lat * 1e6) / 1e6, lon: Math.round(lon * 1e6) / 1e6 };
+}
 
 async function verifyTurnstile(token, secret, ip) {
   if (!token) return false;

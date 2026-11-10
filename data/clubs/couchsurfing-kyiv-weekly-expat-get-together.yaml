@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Sao Miguel (near St. Michael's)
   district: Шевченківський
+  lat: 50.455772
+  lon: 30.522897
+  geocoded: true
 schedule_note: Weekly
 price:
   free: true

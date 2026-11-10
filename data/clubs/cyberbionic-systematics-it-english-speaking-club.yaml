@@ -10,6 +10,9 @@ location:
   district: Дніпровський
   metro: Лівобережна
   note: Кімната 502
+  lat: 50.448542
+  lon: 30.602889
+  geocoded: true
 schedule:
   - day: sat
     time: "14:00"

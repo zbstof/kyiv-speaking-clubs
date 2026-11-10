@@ -10,6 +10,9 @@ location:
   venue: Institut français d'Ukraine, Медіатека
   address: вул. Олеся Гончара, 84
   district: Шевченківський
+  lat: 50.44837
+  lon: 30.496979
+  geocoded: true
 schedule_note: Weekly; day not given
 contacts:
   - type: website

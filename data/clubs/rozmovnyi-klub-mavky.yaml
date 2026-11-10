@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. О. Теліги
   address: вул. Данила Щербаківського, 33
   district: Шевченківський
+  lat: 50.466271
+  lon: 30.405254
+  geocoded: true
 price:
   free: true
 contacts:

@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Germannika
   address: просп. Миколи Бажана, 16, офіс 229
+  lat: 50.395677
+  lon: 30.625214
+  geocoded: true
 contacts:
   - type: website
     url: http://www.deutschesprache.com.ua

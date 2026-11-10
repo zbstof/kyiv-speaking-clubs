@@ -36,6 +36,10 @@ location:
   district: Дарницький
   metro: Позняки
   note: 2nd floor, room 116, entrance from the yard   # how to find the club inside a big venue
+  lat: 50.464612                # WGS84, Kyiv area only
+  lon: 30.519411
+  geocoded: true                # set when lat/lon came from the address automatically; remove after checking the dot
+  map_url: https://maps.app.goo.gl/...   # optional; without it the site links to Google Maps by lat/lon or address
 schedule:
   - day: sat                    # mon..sun
     time: "12:00"
@@ -102,6 +106,15 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 `node scripts/import-research.mjs a.yaml b.yaml` reads lists of research records, merges records with the same name and writes new club files. Existing files are kept unless you pass `--force`. Research records use the club fields above, plus `status_guess` (`active` | `likely_closed` | `unknown`) instead of `status`.
 
 `node scripts/merge-clubs.mjs <keep-id> <dup-id>... [--id new-id]` merges duplicate club files into one. It keeps the first club's fields, fills gaps from the others, joins languages, contacts and sources, and deletes the duplicates.
+
+## Map and coordinates
+
+- The "Мапа" tab shows every club with `lat`/`lon` that is not online-only, using Leaflet and OpenStreetMap tiles.
+- **Colors:** pins are colored by the club's first language. Ukrainian is blue, English orange, German aqua, and all other languages gray. More colors could not be told apart on a map, according to the dataviz palette check. Each pin also shows the language code, so nobody has to rely on color alone.
+- **Bulk geocoding:** `node scripts/geocode.mjs [id...]` fills missing coordinates from the address through OpenStreetMap Nominatim, at 1 request per second, and marks each result `geocoded: true`.
+  - Street-only matches are rejected: on a long street, the street's middle can be kilometers off.
+  - The venue name is used only when there is no address, because chain venues match the wrong branch.
+- **New suggestions:** the Worker reads coordinates from a pasted map link (it also follows `maps.app.goo.gl` short links). Without a link, it geocodes the address.
 
 ## Spam protection
 

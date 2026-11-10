@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Курси польської мови Posvita
   address: вул. Богдана Хмельницького, 17/52
+  lat: 50.445607
+  lon: 30.512736
+  geocoded: true
 price:
   free: false
   amount: від 89 грн/год (курси)

@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. М. Руденка
   address: вул. Ревуцького, 6
   district: Дарницький
+  lat: 50.41571
+  lon: 30.642784
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека ім. М. Руденка

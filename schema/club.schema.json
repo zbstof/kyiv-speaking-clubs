@@ -20,6 +20,7 @@
     "format": { "enum": ["offline", "online", "hybrid"] },
     "location": {
       "type": "object", "additionalProperties": false,
+      "dependencies": { "lat": ["lon"], "lon": ["lat"] },
       "properties": {
         "venue": { "type": "string", "maxLength": 200 },
         "address": { "type": "string", "maxLength": 300 },
@@ -28,7 +29,11 @@
         "note": {
           "description": "How to find the club inside the venue: floor, room, entrance, sign to look for.",
           "type": "string", "maxLength": 300
-        }
+        },
+        "lat": { "description": "Latitude, WGS84. Kyiv area only.", "type": "number", "minimum": 49.9, "maximum": 50.9 },
+        "lon": { "description": "Longitude, WGS84. Kyiv area only.", "type": "number", "minimum": 29.8, "maximum": 31.3 },
+        "geocoded": { "description": "true when lat/lon were looked up automatically from the address and nobody checked them on a map.", "type": "boolean" },
+        "map_url": { "description": "Link to the place on Google Maps (or another map). Optional: the site builds a link from lat/lon or the address.", "type": "string", "pattern": "^https://", "maxLength": 500 }
       }
     },
     "schedule": {

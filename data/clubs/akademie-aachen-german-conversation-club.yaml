@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Akademie Aachen
   address: пров. Івана Козловського, 3
+  lat: 50.441969
+  lon: 30.527297
+  geocoded: true
 contacts:
   - type: website
     url: https://spraachen.kiev.ua/deutsch.html

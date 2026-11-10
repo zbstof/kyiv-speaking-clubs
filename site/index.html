@@ -34,6 +34,17 @@
       <label class="check"><input type="checkbox" id="f-old"> <span data-i18n="showOld">Показати старі й закриті</span></label>
     </section>
 
+    <div class="views" role="tablist">
+      <button type="button" role="tab" id="v-list" class="tab" aria-selected="true" data-i18n="viewList">Список</button>
+      <button type="button" role="tab" id="v-map" class="tab" aria-selected="false" data-i18n="viewMap">Мапа</button>
+    </div>
+
+    <section id="map-view" hidden>
+      <div id="map"></div>
+      <div id="map-legend" class="legend"></div>
+      <p id="map-note" class="meta"></p>
+    </section>
+
     <ul id="list" class="list"></ul>
     <p id="empty" class="empty" hidden data-i18n="empty">Нічого не знайдено. Змініть фільтри або додайте клуб.</p>
   </main>

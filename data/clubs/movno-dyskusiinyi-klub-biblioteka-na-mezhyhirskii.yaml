@@ -10,6 +10,9 @@ location:
   venue: Бібліотека на Межигірській
   address: вул. Межигірська, 25
   district: Подільський
+  lat: 50.468921
+  lon: 30.511812
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека на Межигірській

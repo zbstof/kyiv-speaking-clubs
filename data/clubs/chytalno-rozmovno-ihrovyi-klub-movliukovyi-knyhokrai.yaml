@@ -10,6 +10,9 @@ location:
   venue: Бібліотека № 9 для дітей
   address: вул. Білоруська, 34
   district: Шевченківський
+  lat: 50.464788
+  lon: 30.473145
+  geocoded: true
 price:
   free: true
 contacts:

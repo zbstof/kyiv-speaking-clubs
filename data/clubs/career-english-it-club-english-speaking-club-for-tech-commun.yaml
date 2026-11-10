@@ -16,6 +16,9 @@ location:
   district: Дніпровський
   metro: Лівобережна
   note: Офіс 405
+  lat: 50.439118
+  lon: 30.61886
+  geocoded: true
 schedule:
   - day: tue
     time: "18:00"

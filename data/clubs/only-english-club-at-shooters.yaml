@@ -9,6 +9,9 @@ location:
   address: вул. Московська (now Князів Острозьких), 22
   district: Печерський
   metro: Арсенальна
+  lat: 50.437251
+  lon: 30.544468
+  geocoded: true
 schedule:
   - day: thu
     time: "20:00"

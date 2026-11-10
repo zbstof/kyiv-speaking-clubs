@@ -11,6 +11,9 @@ location:
   address: вул. Петра Сагайдачного, 31 (2025–2026); пр. Повітрофлотський, 10 (2010)
   district: Подільський
   metro: Поштова площа
+  lat: 50.461318
+  lon: 30.520958
+  geocoded: true
 schedule:
   - day: sat
     time: "12:00"

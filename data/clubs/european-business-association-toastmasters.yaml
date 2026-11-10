@@ -9,6 +9,9 @@ location:
   address: вул. Мельникова, 63
   district: Шевченківський
   metro: Лук'янівська
+  lat: 50.466251
+  lon: 30.473878
+  geocoded: true
 schedule:
   - day: mon
     time: "19:30"

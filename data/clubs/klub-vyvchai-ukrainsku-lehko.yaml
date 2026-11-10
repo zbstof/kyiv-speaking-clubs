@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. Махтумкулі
   address: вул. Зодчих, 6
   district: Святошинський
+  lat: 50.415158
+  lon: 30.385025
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека ім. Махтумкулі

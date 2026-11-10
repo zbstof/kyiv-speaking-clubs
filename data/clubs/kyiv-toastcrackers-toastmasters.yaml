@@ -9,6 +9,9 @@ location:
   address: вул. Володимирська, 45а
   district: Шевченківський
   metro: Золоті ворота
+  lat: 50.447971
+  lon: 30.515502
+  geocoded: true
 schedule:
   - day: wed
     time: "19:00"

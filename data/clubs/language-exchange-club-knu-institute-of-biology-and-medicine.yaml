@@ -17,6 +17,9 @@ location:
   district: Голосіївський
   metro: Васильківська
   note: 4 поверх, ауд. 77
+  lat: 50.384516
+  lon: 30.477964
+  geocoded: true
 schedule:
   - day: mon
     time: "15:40"

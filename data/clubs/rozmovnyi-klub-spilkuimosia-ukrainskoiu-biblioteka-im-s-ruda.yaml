@@ -10,6 +10,9 @@ location:
   venue: Бібліотека ім. С. Руданського
   address: вул. Привокзальна, 12
   district: Дарницький
+  lat: 50.429066
+  lon: 30.642513
+  geocoded: true
 price:
   free: true
 organizer: Бібліотека ім. С. Руданського

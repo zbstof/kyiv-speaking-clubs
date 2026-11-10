@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Курси польської мови PO POLSKU!
   address: вул. Антоновича, 14-Б
+  lat: 50.437836
+  lon: 30.512706
+  geocoded: true
 contacts:
   - type: website
     url: https://popolsku.org.ua/

@@ -10,6 +10,9 @@ location:
   venue: Бібліотека для дітей ім. І. Світличного
   address: проспект Повітряних Сил (кол. Повітрофлотський), 12
   district: Солом'янський
+  lat: 50.439963
+  lon: 30.478123
+  geocoded: true
 price:
   free: true
 contacts:

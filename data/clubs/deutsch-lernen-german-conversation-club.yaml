@@ -7,6 +7,9 @@ format: offline
 location:
   venue: Deutsch lernen
   address: вул. Метрологічна, 44
+  lat: 50.348967
+  lon: 30.476445
+  geocoded: true
 contacts:
   - type: facebook
     url: https://www.facebook.com/deutsch.kiew

@@ -32,6 +32,10 @@
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
+      viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
+      mapFailed: "Не вдалося завантажити мапу. Перевірте інтернет.",
+      mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
+      legend: { uk: "українська", en: "англійська", de: "німецька", other: "інші мови" },
       loadFailed: "Не вдалося завантажити список клубів. Оновіть сторінку.",
       ariaFilters: "Фільтри", ariaLang: "Мова клубу", ariaDay: "День тижня", ariaFormat: "Формат", ariaClose: "Закрити", ariaSwitch: "Switch to English",
       ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Сайт", meetup: "Meetup", email: "Пошта", phone: "Телефон", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Інше" },
@@ -55,8 +59,11 @@
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
         levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", district: "Район", metro: "Метро",
+        mapUrl: "Посилання на мапу", mapUrlHint: "Google Maps: «Поділитися» → «Копіювати посилання».",
+        coords: "Координати", coordsHint: "Широта, довгота. Заповнюються з посилання на мапу.",
+        coordsBad: "Координати мають виглядати як «50.4501, 30.5234» і бути в межах Києва.",
         locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
-        schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Хвилин", frequency: "Частота",
+        schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Тривалість, хв", frequency: "Частота",
         scheduleNote: "Розклад текстом (якщо складний)", free: "Безкоштовно", amount: "Ціна (текстом)",
         registration: "Реєстрація", contacts: "Контакти", url: "Посилання / @нік / телефон",
         access: "Доступ", contactNote: "Як потрапити (для закритих груп)",
@@ -91,6 +98,10 @@
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
+      viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
+      mapFailed: "Could not load the map. Check your connection.",
+      mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
+      legend: { uk: "Ukrainian", en: "English", de: "German", other: "other languages" },
       loadFailed: "Could not load the list of clubs. Reload the page.",
       ariaFilters: "Filters", ariaLang: "Club language", ariaDay: "Day of week", ariaFormat: "Format", ariaClose: "Close", ariaSwitch: "Перейти на українську",
       ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Website", meetup: "Meetup", email: "Email", phone: "Phone", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Other" },
@@ -114,8 +125,11 @@
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
         levels: "Levels", format: "Format", venue: "Venue", address: "Address", district: "District", metro: "Metro",
+        mapUrl: "Map link", mapUrlHint: "Google Maps: Share → Copy link.",
+        coords: "Coordinates", coordsHint: "Latitude, longitude. Filled from the map link.",
+        coordsBad: "Coordinates must look like \"50.4501, 30.5234\" and lie in Kyiv.",
         locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
-        schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Minutes", frequency: "Frequency",
+        schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Length, min", frequency: "Frequency",
         scheduleNote: "Schedule as text (if complex)", free: "Free", amount: "Price (text)",
         registration: "Registration", contacts: "Contacts", url: "Link / @handle / phone",
         access: "Access", contactNote: "How to get in (for closed groups)",
@@ -198,6 +212,37 @@
     if (/^[\w-]+(\.[\w-]+)+(\/\S*)?$/.test(u)) return "https://" + u;
     return null;
   };
+  // Copy of coordsFromMapUrl in lib/geo.mjs; keep the two in sync.
+  function coordsFromMapUrl(url) {
+    if (!url) return null;
+    const pats = [
+      /!3d(-?\d{1,2}\.\d+)!4d(-?\d{1,3}\.\d+)/,
+      /[?&](?:q|query|ll|destination|center)=(-?\d{1,2}\.\d+)(?:,|%2C)\s*(-?\d{1,3}\.\d+)/i,
+      /@(-?\d{1,2}\.\d+),(-?\d{1,3}\.\d+)/,
+      /[?&]mlat=(-?\d{1,2}\.\d+)&mlon=(-?\d{1,3}\.\d+)/,
+      /#map=\d+\/(-?\d{1,2}\.\d+)\/(-?\d{1,3}\.\d+)/,
+    ];
+    for (const p of pats) { const m = url.match(p); if (m) return { lat: +m[1], lon: +m[2] }; }
+    return null;
+  }
+  // "50.4501, 30.5234" -> {lat, lon}; null when empty; false when it does not parse or lies outside Kyiv.
+  function parseCoords(text) {
+    if (!text.trim()) return null;
+    const m = text.match(/^\s*(-?\d{1,2}\.\d+)\s*[,; ]\s*(-?\d{1,3}\.\d+)\s*$/);
+    if (!m) return false;
+    const lat = +m[1], lon = +m[2];
+    return lat >= 49.9 && lat <= 50.9 && lon >= 29.8 && lon <= 31.3 ? { lat, lon } : false;
+  }
+  // Link to the place: the stored map link, else a Google Maps pin from coordinates, else a search by address.
+  function mapHref(loc) {
+    if (!loc) return null;
+    if (loc.map_url) return loc.map_url;
+    const base = "https://www.google.com/maps/search/?api=1&query=";
+    if (loc.lat !== undefined) return base + `${loc.lat},${loc.lon}`;
+    if (loc.address) return base + encodeURIComponent([loc.venue, loc.address, "Київ"].filter(Boolean).join(", "));
+    return null;
+  }
+
   const contactLabel = (ct) => {
     const u = ct.url.replace(/^https?:\/\/(www\.)?/i, "").replace(/\/$/, "");
     return u.length > 40 ? u.slice(0, 38) + "…" : u;
@@ -248,9 +293,11 @@
       return order[shownStatus(a)] - order[shownStatus(b)] || (freshest(b) || 0) - (freshest(a) || 0) || a.name.localeCompare(b.name);
     });
 
+    shown = list;
     $("#list").innerHTML = list.map(card).join("");
-    $("#empty").hidden = list.length > 0;
+    $("#empty").hidden = list.length > 0 || view === "map";
     $("#summary").textContent = t().summary(list.length, clubs.length);
+    if (view === "map") drawMap(true);
   }
 
   function card(c) {
@@ -286,7 +333,7 @@
       <h3>${esc(c.name)}</h3>
       ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ""}
       ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
-      ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(loc.note)}` : ""}</p>` : ""}
+      ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${mapHref(loc) ? ` · <a href="${esc(mapHref(loc))}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(loc.note)}` : ""}</p>` : ""}
       ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && `<span class="ico">💳</span>${esc(price)}`, c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(L.levels + ": " + c.levels.map((l) => (l === "any" ? L.anyLevel : l)).join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
       ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${esc(c.organizer)}</p>` : ""}
       ${contacts ? `<div class="contacts">${contacts}</div>` : ""}
@@ -305,24 +352,26 @@
   const opt = (v, label, sel) => `<option value="${esc(v)}"${sel ? " selected" : ""}>${esc(label)}</option>`;
   const field = (name, label, inner, hint) => `<label class="field"><span>${esc(label)}</span>${inner}${hint ? `<small>${esc(hint)}</small>` : ""}</label>`;
 
+  // Each input in a repeated row has a small visible label above it; placeholders got cut off on phones.
+  const mini = (label, inner, wide) => `<label class="mini${wide ? " wide" : ""}"><span>${esc(label)}</span>${inner}</label>`;
   function scheduleRow(s = {}) {
     const F = t().f;
     return `<div class="rep-row" data-rep="schedule">
-      <select name="s_day" aria-label="${esc(F.day)}">${DAYS.map((d) => opt(d, t().daysLong[d], s.day === d)).join("")}</select>
-      <input name="s_time" type="time" aria-label="${esc(F.time)}" value="${esc(s.time || "")}">
-      <input name="s_dur" type="number" min="10" max="600" step="5" placeholder="${esc(F.duration)}" aria-label="${esc(F.duration)}" value="${esc(s.duration_min || "")}">
-      <select name="s_freq" aria-label="${esc(F.frequency)}">${["weekly", "biweekly", "monthly", "irregular"].map((f) => opt(f, t().freq[f], (s.frequency || "weekly") === f)).join("")}</select>
-      <button type="button" class="ghost small" data-del aria-label="${esc(F.remove)}">✕</button>
+      ${mini(F.day, `<select name="s_day">${DAYS.map((d) => opt(d, t().daysLong[d], s.day === d)).join("")}</select>`)}
+      ${mini(F.time, `<input name="s_time" type="time" value="${esc(s.time || "")}">`)}
+      ${mini(F.duration, `<input name="s_dur" type="number" min="10" max="600" step="5" inputmode="numeric" value="${esc(s.duration_min || "")}">`)}
+      ${mini(F.frequency, `<select name="s_freq">${["weekly", "biweekly", "monthly", "irregular"].map((f) => opt(f, t().freq[f], (s.frequency || "weekly") === f)).join("")}</select>`)}
+      <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
     </div>`;
   }
   function contactRow(ct = {}) {
     const F = t().f;
     return `<div class="rep-row" data-rep="contacts">
-      <select name="c_type" aria-label="${esc(F.contactType)}">${CONTACT_TYPES.map((x) => opt(x, t().ctype[x], (ct.type || "telegram") === x)).join("")}</select>
-      <select name="c_access" aria-label="${esc(F.access)}">${["public", "on_request", "invite"].map((x) => opt(x, F.accessOpt[x], (ct.access || "public") === x)).join("")}</select>
-      <input name="c_url" placeholder="${esc(F.url)}" aria-label="${esc(F.url)}" value="${esc(ct.url || "")}" style="flex:3 1 180px">
-      <input name="c_note" placeholder="${esc(F.contactNote)}" aria-label="${esc(F.contactNote)}" value="${esc(ct.note || "")}" style="flex:3 1 180px">
-      <button type="button" class="ghost small" data-del aria-label="${esc(F.remove)}">✕</button>
+      ${mini(F.contactType, `<select name="c_type">${CONTACT_TYPES.map((x) => opt(x, t().ctype[x], (ct.type || "telegram") === x)).join("")}</select>`)}
+      ${mini(F.access, `<select name="c_access">${["public", "on_request", "invite"].map((x) => opt(x, F.accessOpt[x], (ct.access || "public") === x)).join("")}</select>`)}
+      <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
+      ${mini(F.url, `<input name="c_url" value="${esc(ct.url || "")}">`, true)}
+      ${mini(F.contactNote, `<input name="c_note" value="${esc(ct.note || "")}">`, true)}
     </div>`;
   }
 
@@ -351,6 +400,10 @@
         ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(loc.metro || "")}">`)}
       </div>`,
       field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(loc.note || "")}">`, F.locNoteHint),
+      `<div class="grid2">
+        ${field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint)}
+        ${field("coords", F.coords, `<input name="coords" inputmode="decimal" placeholder="50.4501, 30.5234" value="${loc.lat !== undefined ? esc(loc.lat + ", " + loc.lon) : ""}">`, F.coordsHint)}
+      </div>`,
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
         ${field("amount", F.amount, `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
@@ -382,7 +435,9 @@
       return s;
     });
     c.schedule_note = v("schedule_note");
-    c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote") };
+    const ll = parseCoords(v("coords")) || coordsFromMapUrl(v("mapUrl"));
+    c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote"),
+      map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
     c.price = { free: form.elements.free.checked, amount: v("amount") };
     c.registration = v("registration");
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
@@ -447,6 +502,7 @@
       const { club, comment } = readForm(form);
       if (!club.name) return showMsg(L.needName, true);
       if (!club.languages?.length) return showMsg(L.needLang, true);
+      if (parseCoords(form.elements.coords?.value || "") === false) return showMsg(L.f.coordsBad, true);
       if ((club.contacts || []).some((ct) => ct.url && INVITE_RE.test(ct.url) && ct.access !== "invite")) return showMsg(L.inviteWarn, true);
       payload = { action: mode, id: current?.id, club, comment };
     } else {
@@ -501,6 +557,118 @@
     $("#cancel-btn").focus();
   }
 
+  // ---------- map ----------
+  // Fixed order: a language keeps its colour whatever the filters show. Only three colours plus grey,
+  // because more hues cannot be told apart on a map (checked with the dataviz palette validator).
+  const MAP_LANGS = ["uk", "en", "de"];
+  let view = location.hash === "#map" ? "map" : "list";
+  let shown = [];
+  let map = null, markers = null, leafletPromise = null;
+
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve();
+    leafletPromise ||= new Promise((resolve, reject) => {
+      const css = document.createElement("link");
+      css.rel = "stylesheet"; css.href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css";
+      document.head.appendChild(css);
+      const js = document.createElement("script");
+      js.src = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js";
+      js.onload = resolve; js.onerror = reject;
+      document.head.appendChild(js);
+    });
+    return leafletPromise;
+  }
+
+  const pinKey = (c) => (MAP_LANGS.includes(c.languages[0]) ? c.languages[0] : "other");
+
+  function popupHtml(c) {
+    const L = t(), loc = c.location, st = shownStatus(c);
+    const sched = (c.schedule || []).map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
+    const href = mapHref(loc);
+    return `<div class="pop">
+      <b>${esc(c.name)}</b>
+      <div class="pop-meta"><span class="badge ${st}">${esc(L.status[st])}</span> ${esc(c.languages.map(langName).join(", "))}</div>
+      ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
+      <div>📍 ${esc([loc.venue, loc.address].filter(Boolean).join(", "))}</div>
+      ${loc.note ? `<div>🧭 ${esc(loc.note)}</div>` : ""}
+      ${loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
+      <div class="pop-links">${href ? `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}
+        <button type="button" class="small" data-goto="${esc(c.id)}">${esc(L.more)}</button></div>
+    </div>`;
+  }
+
+  async function drawMap(fit) {
+    try { await loadLeaflet(); } catch { $("#map-note").textContent = t().mapFailed; return; }
+    const L = window.L, T_ = t();
+    if (!map) {
+      map = L.map("map", { scrollWheelZoom: true }).setView([50.45, 30.52], 11);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(map);
+      markers = L.layerGroup().addTo(map);
+    }
+    snapMap();
+    map.invalidateSize();
+    markers.clearLayers();
+
+    const placed = shown.filter((c) => c.location?.lat !== undefined && c.format !== "online");
+    // Clubs at the same address would hide each other: spread them on a small circle (~25 m).
+    const byPoint = {};
+    placed.forEach((c) => { (byPoint[`${c.location.lat},${c.location.lon}`] ||= []).push(c); });
+    const counts = { uk: 0, en: 0, de: 0, other: 0 };
+    for (const group of Object.values(byPoint)) {
+      group.forEach((c, i) => {
+        const a = (2 * Math.PI * i) / group.length, r = group.length > 1 ? 0.00025 : 0;
+        const key = pinKey(c);
+        counts[key]++;
+        const code = c.languages[0].toUpperCase() + (c.languages.length > 1 ? "+" : "");
+        const icon = L.divIcon({
+          className: "pin-wrap",
+          html: `<span class="pin pin-${key}${isOld(c) ? " old" : ""}" title="${esc(c.languages.map(langName).join(", "))}">${esc(code)}</span>`,
+          iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14],
+        });
+        L.marker([c.location.lat + r * Math.sin(a), c.location.lon + r * Math.cos(a) * 1.5], { icon, title: c.name, alt: c.name })
+          .bindPopup(() => popupHtml(c), { maxWidth: 280 })
+          .addTo(markers);
+      });
+    }
+    if (fit && placed.length) map.fitBounds(L.latLngBounds(placed.map((c) => [c.location.lat, c.location.lon])), { padding: [30, 30], maxZoom: 15 });
+
+    $("#map-legend").innerHTML = ["uk", "en", "de", "other"].map((k) =>
+      `<span class="leg"><span class="pin pin-${k} pin-sm"></span>${esc(T_.legend[k])} (${counts[k]})</span>`).join("");
+    $("#map-note").textContent = T_.mapNote(placed.length, shown.length);
+  }
+
+  // The centred page can put the map box at a fractional pixel (e.g. x = 58.5). Tiles then sit
+  // between pixels and the browser draws hairline seams between them. Shift the box onto whole pixels.
+  function snapMap() {
+    const el = $("#map");
+    el.style.transform = "";
+    const r = el.getBoundingClientRect();
+    const dx = Math.round(r.left) - r.left, dy = Math.round(r.top) - r.top;
+    if (dx || dy) el.style.transform = `translate(${dx}px, ${dy}px)`;
+  }
+  window.addEventListener("resize", () => { if (view === "map" && map) snapMap(); });
+
+  function setView(v) {
+    view = v;
+    $("#v-list").setAttribute("aria-selected", v === "list");
+    $("#v-map").setAttribute("aria-selected", v === "map");
+    $("#list").hidden = v !== "list";
+    $("#map-view").hidden = v !== "map";
+    $("#empty").hidden = v === "map" || shown.length > 0;
+    history.replaceState(null, "", v === "map" ? "#map" : location.pathname + location.search);
+    if (v === "map") drawMap(true);
+  }
+
+  function gotoCard(id) {
+    setView("list");
+    const el = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+  }
+
   // ---------- events ----------
   function bind() {
     ["#q", "#f-lang", "#f-day", "#f-format", "#f-free", "#f-old"].forEach((s) => $(s).addEventListener("input", render));
@@ -525,6 +693,18 @@
       if (del) del.closest(".rep-row").remove();
     });
     $("#club-form").addEventListener("submit", submit);
+    $("#v-list").addEventListener("click", () => setView("list"));
+    $("#v-map").addEventListener("click", () => setView("map"));
+    $("#map").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-goto]");
+      if (b) gotoCard(b.dataset.goto);
+    });
+    // Pasting a full Google Maps link fills the coordinates field right away.
+    dlg.addEventListener("input", (e) => {
+      if (e.target.name !== "mapUrl") return;
+      const c = coordsFromMapUrl(e.target.value), field = e.target.form.elements.coords;
+      if (c && field && !field.value.trim()) field.value = `${c.lat}, ${c.lon}`;
+    });
   }
 
   async function init() {
@@ -539,6 +719,7 @@
     }
     fillFilters();
     render();
+    setView(view);
   }
   init();
 })();

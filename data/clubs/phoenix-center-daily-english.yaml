@@ -12,6 +12,9 @@ location:
   district: Печерський
   metro: Печерська
   note: 3 поверх
+  lat: 50.432142
+  lon: 30.54002
+  geocoded: true
 schedule_note: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
 price:
   free: true

@@ -4,8 +4,8 @@ description: >-
   Вечори настільних ігор англійською й українською: Alias, Dixit, Codenames, Catan, Monopoly та
   інші. Малі групи, кількість місць обмежена.
 languages:
-  - en
   - uk
+  - en
 format: offline
 location:
   venue: Арт-простір біля Золотих воріт
@@ -31,12 +31,13 @@ registration: required
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в організаторів
+    note: Закрита група
     members: 356
     members_checked: "2026-11-10"
+organizer: "@liohaa"
 status: active
 first_seen: 2025-10
 last_seen: "2026-11-10"
 notes: >-
   Той самий простір, що й Psychology & Art Club; по неділях там же — Мафія українською
-  (15:30–20:00). Telegram-група клубу, прочитано 10.11.2026.
+  (15:30–20:00).

@@ -1,0 +1,13 @@
+id: psychology-speaking-club
+name: Psychology Speaking Club
+languages:
+  - en
+format: offline
+location:
+  venue: Private apartment
+  metro: Zoloti Vorota
+price:
+  free: false
+organizer: https://t.me/liohaa
+status: active
+last_checked: "2026-11-10"

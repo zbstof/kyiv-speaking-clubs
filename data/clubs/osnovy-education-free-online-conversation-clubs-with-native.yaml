@@ -1,0 +1,27 @@
+id: osnovy-education-free-online-conversation-clubs-with-native
+name: "Osnovy Education: free online conversation clubs with native speakers"
+description: >-
+  Kyiv language school (English, German, Polish, Spanish, Portuguese) that gives its course students
+  free online conversation clubs with native speakers.
+languages:
+  - de
+  - pl
+  - es
+  - pt
+  - en
+format: online
+location:
+  venue: Osnovy Education
+  address: просп. Європейського Союзу, 41-є; вул. Родини Крістерів, 18/6; вул. Вишгородська, 12
+price:
+  free: true
+  amount: free for course students (group course from 2650 грн/міс)
+organizer: Osnovy Education
+status: active
+first_seen: "2026-08-19"
+last_seen: "2026-08-19"
+sources:
+  - https://www.education.ua/courses/47394/
+notes: >-
+  Club is a bonus for paying students; schedule not published. Which languages have clubs is not
+  stated per language.

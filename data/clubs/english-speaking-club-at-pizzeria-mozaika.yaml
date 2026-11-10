@@ -1,0 +1,16 @@
+id: english-speaking-club-at-pizzeria-mozaika
+name: English Speaking Club at pizzeria Mozaika
+description: English speaking club at a pizzeria, meeting at a convenient time.
+languages:
+  - en
+format: offline
+location:
+  venue: Pizzeria Mozaika
+schedule_note: Any convenient time (2010)
+organizer: Tanya (as listed)
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

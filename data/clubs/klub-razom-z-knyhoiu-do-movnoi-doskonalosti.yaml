@@ -1,0 +1,26 @@
+id: klub-razom-z-knyhoiu-do-movnoi-doskonalosti
+name: Клуб «Разом з книгою до мовної досконалості»
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека ім. А. Малишка
+  address: вул. Миропільська, 19
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 513-31-18
+organizer: Бібліотека ім. А. Малишка
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

@@ -1,0 +1,28 @@
+id: kyiv-public-speaking-meetup
+name: Kyiv Public Speaking Meetup
+description: >-
+  Free public-speaking trainings ('anti-lectures') in English or Ukrainian for language learners who
+  want to beat stage fright.
+languages:
+  - en
+  - uk
+format: offline
+location:
+  venue: Conference hall 'Answer'; Kyiv School of Economics
+  address: вул. Володимирська, 49-А; вул. Івана Мазепи, 1
+schedule_note: Irregular evenings 18:00–19:00; 9 events, e.g. 2015-07-07, 2015-10-09, 2015-11-03, 2015-11-25
+price:
+  free: true
+registration: optional
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/kyiv-public-speaking-meetup/
+organizer: Speaker Ua
+status: unknown
+first_seen: "2015-07-07"
+last_seen: "2015-11-25"
+sources:
+  - https://www.meetup.com/kyiv-public-speaking-meetup/
+  - https://www.meetup.com/topics/esl/ua
+  - https://meetup.com/topics/esl/ua
+notes: 155 members ('Polyglot speakers').

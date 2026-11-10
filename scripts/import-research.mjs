@@ -1,6 +1,6 @@
 // Bulk import: node scripts/import-research.mjs file1.yaml file2.yaml ...
 // Each input is a YAML (or JSON) list of research records (see README "Research record format").
-// Merges duplicates, maps fields to the club schema, and writes data/clubs/<id>.yaml.
+// Merges records with the same name, maps fields to the club schema, and writes data/clubs/<id>.yaml.
 // Existing files are not overwritten unless --force is given.
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -89,8 +89,8 @@ function mapRecord(r) {
   };
 }
 
-// Two records are the same club if they share a non-generic contact URL or the same normalized name.
-const GENERIC = /^(t\.me|instagram\.com|facebook\.com|www\.facebook\.com|meetup\.com)$/;
+// Two records are the same club if their normalized names match. Contact URLs are not used:
+// one Meetup or Facebook group often announces several different clubs.
 function merge(a, b) {
   const pick = (x, y) => (x === undefined || x === "" || (Array.isArray(x) && !x.length) ? y : x);
   const longer = (x, y) => ((y || "").length > (x || "").length ? y : x);
@@ -129,8 +129,7 @@ for (const f of files) {
 
 const merged = [];
 for (const r of records) {
-  const urls = new Set(r.contacts.filter((c) => c.url).map((c) => normUrl(c.url)).filter((u) => !GENERIC.test(u)));
-  const hit = merged.find((m) => normName(m.name) === normName(r.name) || m.contacts.some((c) => c.url && urls.has(normUrl(c.url))));
+  const hit = merged.find((m) => normName(m.name) === normName(r.name));
   if (hit) Object.assign(hit, merge(hit, r));
   else merged.push(r);
 }

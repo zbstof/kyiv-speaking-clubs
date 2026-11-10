@@ -1,0 +1,21 @@
+id: germannika-german-conversation-club
+name: "Germannika: German conversation club"
+description: Paid language school in Kyiv that lists a German conversation club among its courses.
+languages:
+  - de
+format: offline
+location:
+  venue: Germannika
+  address: просп. Миколи Бажана, 16, офіс 229
+contacts:
+  - type: website
+    url: http://www.deutschesprache.com.ua
+organizer: Germannika
+status: unknown
+first_seen: "2025-01-28"
+last_seen: "2025-01-28"
+sources:
+  - https://osvita.ua/languages/courses/37045/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  28.01.2025). No schedule or format given. Phones on card: (099) 493-65-70.

@@ -1,0 +1,26 @@
+id: klub-frankomovnoho-kino-borys-grinchenko-kyiv-metropolitan-u
+name: Клуб франкомовного кіно (Borys Grinchenko Kyiv Metropolitan University)
+description: >-
+  Student French-language film club: watching francophone films and discussing them in a discussion
+  club, writing short reviews.
+languages:
+  - fr
+format: offline
+location:
+  venue: Київський столичний університет імені Бориса Грінченка, факультет романо-германської філології
+schedule:
+  - day: thu
+    time: "15:00"
+    frequency: monthly
+schedule_note: 3rd Thursday of the month, 15:00
+price:
+  free: true
+organizer: Кафедра романської філології та порівняльно-типологічного мовознавства (керівник Лягіна І.А.)
+status: unknown
+first_seen: "2024-02-23"
+last_seen: "2024-02-23"
+sources:
+  - https://www.frgf.kubg.edu.ua/images/FRGF/Studentam/2023-2024/Hurtky_Studii.pdf
+notes: >-
+  For university students; 20 participants in 2023-2024. Same list has a Spanish culture club
+  'Фламенко' (3rd Thursday 15:00) that is not a speaking club.

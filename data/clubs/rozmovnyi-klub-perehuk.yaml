@@ -1,0 +1,23 @@
+id: rozmovnyi-klub-perehuk
+name: Розмовний клуб «Перегук»
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Універсальна публічна бібліотека № 11
+  address: вул. Івана Виговського, 20-а
+  district: Подільський
+price:
+  free: true
+organizer: Універсальна публічна бібліотека № 11
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

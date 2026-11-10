@@ -1,0 +1,34 @@
+id: dec-school-speaking-clubs
+name: DEC school thematic speaking clubs
+description: >-
+  Weekly themed Saturday speaking clubs at DEC school language school; free for DEC students, paid
+  for others.
+languages:
+  - en
+format: offline
+location:
+  venue: DEC school (Осокорки branch and others)
+  address: Дніпровська набережна
+  district: Дарницький
+  metro: Осокорки
+schedule:
+  - day: sat
+    frequency: weekly
+schedule_note: Once a week on Saturdays; topics for the year on dec-school.com
+price:
+  free: true
+  amount: free for DEC school students
+contacts:
+  - type: website
+    url: https://dec-school.com
+organizer: DEC school
+status: unknown
+first_seen: "2012-08-16"
+last_seen: "2012-08-16"
+sources:
+  - https://osvita.ua/languages/speak_club/30759/
+  - https://osvita.ua/languages/8636/
+notes: >-
+  Open to students only (not verified whether public can join). City and language not stated on the
+  osvita page; DEC school is a Kyiv language school (assumption, not verified on page). Language
+  assumed English.

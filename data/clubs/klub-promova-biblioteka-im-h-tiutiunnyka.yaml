@@ -1,0 +1,26 @@
+id: klub-promova-biblioteka-im-h-tiutiunnyka
+name: Клуб «ПроМОВА» (бібліотека ім. Г. Тютюнника)
+description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Бібліотека ім. Г. Тютюнника для дітей
+  address: вул. Бориса Мартоса, 4б
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 517-02-74
+organizer: Бібліотека ім. Г. Тютюнника для дітей
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

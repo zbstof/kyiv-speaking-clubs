@@ -1,0 +1,33 @@
+id: rozmovnyi-klub-ukrainska-iednaie-knu-im-t-shevchenka-kafedra
+name: >-
+  Розмовний клуб «Українська єднає» (КНУ ім. Т. Шевченка, кафедра української філології для
+  іноземних громадян)
+description: >-
+  Online conversation club in Ukrainian for foreign students (A2-B1) of the KNU Institute of
+  Philology; the documented session on 31 May 2023 joined 9 Chinese students of KNU and 4 University
+  of Washington students on Zoom, using group work, Take Turns, improv games and Kahoot.
+languages:
+  - uk
+levels:
+  - A2
+  - B1
+format: online
+location:
+  venue: Online (Zoom); Навчально-науковий інститут філології КНУ
+  address: бульвар Тараса Шевченка, 14 (institute building)
+  district: Шевченківський
+schedule_note: "Documented session: 31 May 2023, 06:00 Kyiv time. No regular schedule published."
+price:
+  free: true
+organizer: >-
+  Кафедра української філології для іноземних громадян, ННІ філології КНУ ім. Т. Шевченка
+  (moderators O. Kasianova, S. Fedzhora)
+status: unknown
+first_seen: "2023-05-31"
+last_seen: "2023-05-31"
+sources:
+  - https://ir.library.knu.ua/bitstreams/446b8b71-de7f-4232-8caf-e6bf56aee898/download
+notes: >-
+  Source: S. Derba, O. Kasianova, 'Тарас Шевченко: розмовний клуб української мови як іноземної',
+  KNU journal 2026 no. 1(29). The paper says Ukrainian speaking clubs for foreigners are rare in
+  Ukraine. Institute address is general knowledge, not from the source.

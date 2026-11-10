@@ -1,0 +1,22 @@
+id: priority-language-school-spanish-conversation-club
+name: "Priority Language School: Spanish conversation club"
+description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+languages:
+  - es
+format: offline
+location:
+  venue: Priority Language School
+  address: вул. Велика Васильківська, 42Б
+  metro: Площа Льва Толстого
+contacts:
+  - type: website
+    url: https://priority-school.com/
+organizer: Priority Language School
+status: unknown
+first_seen: "2019-10-15"
+last_seen: "2019-10-15"
+sources:
+  - https://osvita.ua/languages/courses/37163/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.

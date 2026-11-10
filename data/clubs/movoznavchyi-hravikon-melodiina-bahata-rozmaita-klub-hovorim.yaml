@@ -1,0 +1,30 @@
+id: movoznavchyi-hravikon-melodiina-bahata-rozmaita-klub-hovorim
+name: >-
+  Мовознавчий гравікон «Мелодійна, багата, розмаїта» / клуб «Говорімо українською» (бібліотека ім.
+  І. Сергієнка)
+description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Бібліотека ім. І. Сергієнка для дітей
+  address: вул. Шумського, 4а
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 294-14-99
+organizer: Бібліотека ім. І. Сергієнка для дітей
+status: unknown
+first_seen: 2023-09
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+  - https://fs05.vseosvita.ua/o/0500xgo3-ad40.pdf
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified. A Sept 2023 paper says the «Говорімо
+  українською» club moderated by Olha Maksymenko also meets here.

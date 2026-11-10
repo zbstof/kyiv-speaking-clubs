@@ -1,0 +1,22 @@
+id: english-empire-english-native-speakers-meetup
+name: English Empire — English native speakers MeetUp
+description: Speaking clubs and lessons with a CELTA teacher from the UK and a programmer from the US.
+languages:
+  - en
+format: offline
+location:
+  address: вул. Миколи Гоголя (Голего), 7В
+schedule_note: 2019-03-22 (no regular schedule given)
+price:
+  free: false
+  amount: $10 per session; first free after site registration
+registration: required
+contacts:
+  - type: website
+    url: http://englishempire.com.ua
+organizer: English Empire (Jamie Warren, Josh Walus)
+status: unknown
+first_seen: "2019-03-22"
+last_seen: "2019-03-22"
+sources:
+  - https://dou.ua/calendar/25590/

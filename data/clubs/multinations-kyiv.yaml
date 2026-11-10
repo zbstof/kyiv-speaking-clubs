@@ -1,0 +1,16 @@
+id: multinations-kyiv
+name: MultiNations Kyiv
+description: Almost-weekly social meetups for expats and locals in Kyiv.
+languages:
+  - en
+format: offline
+schedule_note: Almost every week
+contacts:
+  - type: facebook
+    url: https://www.facebook.com/MultiNations-Kyiv-396168490570761/
+organizer: MultiNations
+status: unknown
+last_seen: "2017-01-13"
+sources:
+  - https://destinations.ua/travel/best-places-to-meet-expats-in-kyiv
+notes: Social mixer; language practice not stated explicitly.

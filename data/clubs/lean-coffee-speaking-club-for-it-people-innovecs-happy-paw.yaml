@@ -1,0 +1,27 @@
+id: lean-coffee-speaking-club-for-it-people-innovecs-happy-paw
+name: Lean Coffee Speaking Club for IT people (Innovecs & Happy Paw)
+description: Weekly English speaking club for IT people at InnoHub; fee goes to Happy Paw animal charity.
+languages:
+  - en
+format: offline
+location:
+  venue: InnoHub (Innovecs office), 13th floor
+  address: бульв. Вацлава Гавела, 6-з
+  district: Солом'янський
+schedule:
+  - day: mon
+    time: "19:30"
+    duration_min: 90
+    frequency: weekly
+schedule_note: Every Monday 19:30
+price:
+  free: false
+  amount: from 50 грн (charity donation)
+registration: required
+organizer: Innovecs and Happy Paw; mentor Scott Stephenson (English For IT)
+status: unknown
+first_seen: 2021-02
+last_seen: "2021-02-15"
+sources:
+  - https://dou.ua/calendar/36262/
+  - https://dou.ua/calendar/36469/

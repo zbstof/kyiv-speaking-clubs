@@ -1,0 +1,63 @@
+id: blabla-english-ua
+name: BlaBla English UA
+description: >-
+  Free volunteer-run English speaking club. Mostly Zoom sessions three times a week; a volunteer
+  host also runs in-person meetups in Kyiv (Pozniaky). Camera on, active speaking expected.
+languages:
+  - en
+levels:
+  - A2
+  - B1
+  - B2
+  - C1
+format: hybrid
+location:
+  venue: Пузата хата, 2nd floor, ТРЦ Піраміда
+  address: ТЦ «Піраміда», Пузата Хата, 2 поверх
+  district: Дарницький
+  metro: Позняки
+schedule:
+  - day: tue
+    time: "19:00"
+    frequency: weekly
+  - day: wed
+    time: "18:45"
+    duration_min: 60
+    frequency: weekly
+  - day: fri
+    time: "13:05"
+    duration_min: 55
+    frequency: weekly
+  - day: sun
+    time: "15:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: >-
+  Online: Wed 18:45–19:45, Fri 13:05–14:00, Sun 15:00–16:00 (Kyiv time). Offline: Tuesday 19:00 near
+  Pozniaky metro (host Vadym).
+price:
+  free: true
+registration: none
+contacts:
+  - type: telegram
+    url: https://t.me/BlaBla_English_UA
+  - type: meetup
+    url: https://www.meetup.com/free-online-english-speaking-club-blabla_english_ua
+organizer: BlaBla English UA (volunteer hosts Roman, Vadym)
+status: active
+first_seen: "2025"
+last_seen: "2026-08-11"
+sources:
+  - https://dou.ua/calendar/58067/
+  - https://dou.ua/calendar/58373/
+  - https://dou.ua/calendar/58205/
+  - https://dou.ua/calendar/55635/
+  - https://dou.ua/calendar/55932/
+  - https://dou.ua/calendar/54413/
+  - https://www.idealist.org/en/community/2fdcea18f0984183a823eae170a77e62-blablaenglishua-kyiv
+  - https://www.meetup.com/free-online-english-speaking-club-blabla_english_ua
+  - https://dou.ua/calendar/55219/
+notes: >-
+  Idealist says over 250 online events held, 15–35 participants per session. Session links posted in
+  Telegram one day before. Outside multi-language slice; English slice likely has more detail.
+  Address street not verified.

@@ -1,0 +1,22 @@
+id: deutsch-lernen-german-conversation-club
+name: "Deutsch lernen: German conversation club"
+description: Paid language school in Kyiv that lists a German conversation club among its courses.
+languages:
+  - de
+format: offline
+location:
+  venue: Deutsch lernen
+  address: вул. Метрологічна, 44
+contacts:
+  - type: facebook
+    url: https://www.facebook.com/deutsch.kiew
+organizer: Deutsch lernen
+status: unknown
+first_seen: "2020-05-25"
+last_seen: "2020-05-25"
+sources:
+  - https://osvita.ua/languages/courses/37227/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says anyone can
+  attend the club and the school's events.

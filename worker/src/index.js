@@ -30,6 +30,11 @@ export default {
     if (request.method !== "POST" || url.pathname !== "/suggest") return reply(404, { error: "not found" });
     if (allowed.length && !allowed.includes(origin)) return reply(403, { error: "origin not allowed" });
 
+    if (env.LIMITER) {
+      const { success } = await env.LIMITER.limit({ key: request.headers.get("cf-connecting-ip") || "unknown" });
+      if (!success) return reply(429, { error: "too many requests, try again in a minute" });
+    }
+
     const raw = await request.text();
     if (raw.length > MAX_BODY) return reply(413, { error: "too large" });
     let p;

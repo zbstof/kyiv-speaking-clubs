@@ -1,0 +1,26 @@
+id: rozmovnyi-klub-rodovid
+name: Розмовний клуб «Родовід»
+description: Ukrainian conversation club at the Rodovid bookshop.
+languages:
+  - uk
+format: offline
+location:
+  venue: Книгарня «Родовід»
+  address: вул. Хрещатик, 7/11
+  metro: Майдан Незалежності
+price:
+  free: true
+organizer: Книгарня «Родовід»
+status: unknown
+first_seen: 2023-08
+last_seen: "2023-08-17"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+notes: >-
+  Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
+  libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on 2023-09-20).
+  The list gives no meeting times. District inferred from the address, not verified. Listed in the
+  2023 city list; not in the Dec 2025 library list (which covers libraries only).

@@ -1,0 +1,49 @@
+id: america-house-kyiv-wednesday-english-chat-with-americans-eng
+name: America House Kyiv — Wednesday English (Chat with Americans / English with Charlie)
+description: >-
+  Weekly free English speaking club at America House Kyiv: practise English with Americans and the
+  AHK team, discuss American life. Led in 2024–2025 by English Language Resident Charlie.
+languages:
+  - en
+format: offline
+location:
+  venue: America House Kyiv
+  address: вул. Миколи Пимоненка, 6
+  district: Шевченківський
+  metro: Лук'янівська
+schedule:
+  - day: wed
+    time: "19:00"
+    duration_min: 90
+    frequency: weekly
+schedule_note: Wednesdays 19:00–20:30
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://americahousekyiv.org/events
+  - type: email
+    url: mailto:info@americahousekyiv.org
+organizer: America House Kyiv (IREX with the U.S. Embassy in Ukraine)
+status: active
+first_seen: "2016-04-27"
+last_seen: "2026-11-04"
+sources:
+  - https://americahousekyiv.org/events?tag=club
+  - https://americahousekyiv.org/events/2023/7/12/wednesday-english-chat-with-americans
+  - https://www.americahousekyiv.org/events/2022/5/31/conversation-club-introducing-ourselves
+  - https://dou.ua/calendar/11067/
+  - https://www.americahousekyiv.org/events/2024/1/31/wednesday-english-chat-with-americans
+  - https://www.americahousekyiv.org/events/2024/7/2/wednesday-english-with-charlie
+  - https://www.americahousekyiv.org/events/2024/5/21/life-in-ukraine-2025
+  - >-
+    https://www.americahousekyiv.org/events/2023/5/2/conversation-club-free-press-in-defence-of-democracy
+  - https://www.americahousekyiv.org/learn-english
+  - https://americahousekyiv.org/about-us
+notes: >-
+  Registration via Google Form, ID needed at entry. Names over time: 'Wednesday English @America
+  House' (WE@AH, 2016–2018), 'Conversation Club' (2022–spring 2023), 'Wednesday English: Chat with
+  Americans' (2023–2024), 'Wednesday English with Charlie' (2024–2026). Sessions seen weekly Sep–Nov
+  2026. AHK also ran an American Lit Club, American Studies Club and 'Between the Lines' book club,
+  and hosted the 2016-05-28 'largest English lesson in the world' conversation-club event.

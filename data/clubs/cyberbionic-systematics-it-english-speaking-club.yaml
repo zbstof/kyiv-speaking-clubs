@@ -1,0 +1,27 @@
+id: cyberbionic-systematics-it-english-speaking-club
+name: CyberBionic Systematics IT English speaking club
+description: English speaking club for IT specialists; moderator introduces new vocabulary each session.
+languages:
+  - en
+format: offline
+location:
+  venue: CyberBionic Systematics, room 502
+  address: вул. Марини Раскової, 19
+  district: Дніпровський
+  metro: Лівобережна
+schedule:
+  - day: sat
+    time: "14:00"
+    duration_min: 120
+    frequency: irregular
+schedule_note: "Saturdays 14:00, 2 hours: 2015-07-04, 07-18, 07-25"
+price:
+  free: false
+  amount: 50 грн
+registration: required
+organizer: CyberBionic Systematics (moderator Sofia Ermolaeva)
+status: unknown
+first_seen: "2015-07-04"
+last_seen: "2015-07-25"
+sources:
+  - https://www.education.ua/blog/18825/

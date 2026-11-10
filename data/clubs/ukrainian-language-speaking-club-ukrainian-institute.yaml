@@ -1,0 +1,33 @@
+id: ukrainian-language-speaking-club-ukrainian-institute
+name: Ukrainian Language Speaking Club (Ukrainian Institute)
+description: >-
+  Free online Ukrainian conversation club for international learners at B1+; weekly 90-minute Zoom
+  sessions, dates announced in advance.
+languages:
+  - uk
+levels:
+  - B1
+  - B2
+  - C1
+  - C2
+format: online
+location:
+  venue: Online (Zoom); Ukrainian Institute, Kyiv
+  address: вул. Велика Житомирська, 2 (office of the organizer)
+  district: Шевченківський
+schedule_note: Weekly, 90 min, dates announced in advance.
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://ui.org.ua/?p=59764
+  - type: other
+    url: https://docs.google.com/forms/d/1sRAHG8ne56BDE5jVeXSa_SuwOcu_Phjl_8kKxuGLa8g/edit
+organizer: Український інститут (Ukrainian Institute)
+status: active
+first_seen: "2026-07-14"
+last_seen: "2026-07-14"
+sources:
+  - https://ui.org.ua/?p=59764
+notes: Launch announced 14 Jul 2026. For international learners; the organizer is based in Kyiv.

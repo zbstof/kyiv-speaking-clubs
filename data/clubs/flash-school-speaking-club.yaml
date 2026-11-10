@@ -1,0 +1,27 @@
+id: flash-school-speaking-club
+name: FLASH school Speaking Club
+description: >-
+  Conversation club over tea at FLASH English school; topic chosen by students in advance;
+  native-speaker guests.
+languages:
+  - en
+levels:
+  - any
+format: offline
+schedule:
+  - day: sat
+    time: "13:00"
+    duration_min: 60
+    frequency: irregular
+schedule_note: e.g. Sat 2015-10-17 13:00, 1 hour
+price:
+  free: false
+  amount: 50 грн
+registration: required
+organizer: FLASH, школа англійської мови
+status: unknown
+first_seen: "2015-10-17"
+last_seen: "2015-10-17"
+sources:
+  - https://www.education.ua/blog/20446/
+notes: City inferred from 044 phone codes (not stated on page).

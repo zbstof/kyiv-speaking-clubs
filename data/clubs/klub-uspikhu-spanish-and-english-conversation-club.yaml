@@ -1,0 +1,24 @@
+id: klub-uspikhu-spanish-and-english-conversation-club
+name: "Клуб Успіху: Spanish (and English) conversation club"
+description: >-
+  Paid language school in Kyiv that lists a Spanish (and English) conversation club among its
+  courses.
+languages:
+  - es
+  - en
+format: offline
+location:
+  venue: Клуб Успіху
+  address: вул. Бориспільська, 12
+contacts:
+  - type: website
+    url: http://www.uspih.club
+organizer: Клуб Успіху
+status: unknown
+first_seen: "2017-08-22"
+last_seen: "2017-08-22"
+sources:
+  - https://osvita.ua/languages/courses/36818/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  22.08.2017). No schedule or format given. Phones on card: (068) 523-92-86.

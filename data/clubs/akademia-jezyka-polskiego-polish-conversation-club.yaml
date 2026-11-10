@@ -1,0 +1,21 @@
+id: akademia-jezyka-polskiego-polish-conversation-club
+name: "Akademia Języka Polskiego: Polish conversation club"
+description: Paid language school in Kyiv that lists a Polish conversation club among its courses.
+languages:
+  - pl
+format: offline
+location:
+  venue: Akademia Języka Polskiego
+  address: вул. Велика Васильківська, 90, офіс 14
+contacts:
+  - type: website
+    url: http://akademia-polskiego.com.ua
+organizer: Akademia Języka Polskiego
+status: unknown
+first_seen: "2017-01-31"
+last_seen: "2017-01-31"
+sources:
+  - https://osvita.ua/languages/courses/36669/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  31.01.2017). No schedule or format given. Phones on card: (044) 592-50-94.

@@ -1,0 +1,48 @@
+id: native-nuances-english-club
+name: Native Nuances English Club
+description: >-
+  Moderated English speaking club in a coffee shop, led by a native-speaker English coach; everyone
+  answers questions on the topic of the day in turn.
+languages:
+  - en
+levels:
+  - B1
+  - B2
+  - C1
+format: offline
+location:
+  venue: Set Coffee Hub
+  address: вул. Волоська, 33
+  district: Подільський
+  metro: Контрактова площа
+schedule:
+  - day: sun
+    time: "14:00"
+    duration_min: 120
+    frequency: weekly
+  - day: sat
+    time: "14:00"
+    duration_min: 120
+    frequency: weekly
+schedule_note: Usually Saturday or Sunday 14:00–16:00; times vary by event (13:00, 15:00, 16:30, 17:00 seen).
+price:
+  free: true
+  amount: free; order at least a drink or snack
+registration: required
+contacts:
+  - type: telegram
+    url: https://t.me/nativenuances
+  - type: telegram
+    url: https://t.me/nativenuanceschat
+  - type: email
+    url: mailto:nativenuances@gmail.com
+organizer: Native Nuances (Edward 'Ted' Gibson)
+status: active
+first_seen: "2025-06-22"
+last_seen: 2026-06
+sources:
+  - https://t.me/s/nativenuances
+notes: >-
+  Register by replying '+' in the chat. Telegram preview shows no years; years inferred from
+  weekdays: Jun–Jul and Nov dates match 2025, Apr–Jun dates (Sat 18 Apr … Sat 6 Jun) match 2026.
+  Post dates show only weekday+day; 'Sunday 24 May' and 'Saturday 06 June' fit 2026 (not verified).

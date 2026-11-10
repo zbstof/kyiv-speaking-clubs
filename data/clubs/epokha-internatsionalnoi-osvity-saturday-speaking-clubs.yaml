@@ -1,0 +1,49 @@
+id: epokha-internatsionalnoi-osvity-saturday-speaking-clubs
+name: Epokha Internatsionalnoi Osvity Saturday speaking clubs
+description: >-
+  Saturday conversation clubs led by Ukrainian teachers and native speakers in German, French,
+  Italian, English, and Russian/Ukrainian for foreigners. 2-hour sessions.
+languages:
+  - en
+  - de
+  - fr
+  - it
+  - ru
+  - uk
+  - es
+format: offline
+location:
+  venue: Епоха Інтернаціональної Освіти
+schedule:
+  - day: sat
+    duration_min: 120
+    frequency: weekly
+schedule_note: Every Saturday; English club 14:00-16:00 (2010). Two hours. Register by Friday.
+price:
+  free: false
+  amount: 50 грн (Ukrainian trainer) / 70 грн (native speaker), 2010
+registration: required
+contacts:
+  - type: phone
+    url: tel:+380442784712
+  - type: phone
+    url: tel:+380503802081
+  - type: website
+    url: http://www.epoch.ua/school/speaking-club
+  - type: website
+    url: http://www.epoch.ua
+  - type: phone
+    url: (044) 278-47-12
+organizer: Група компаній «Епоха Інтернаціональної Освіти»
+status: unknown
+first_seen: "2010-04-07"
+last_seen: "2011-12-02"
+sources:
+  - https://osvita.ua/languages/22500/
+  - https://osvita.ua/languages/speak_club/7181/
+  - https://osvita.ua/languages/15211/
+  - https://osvita.ua/languages/25557/
+notes: >-
+  French, Italian and German clubs launched March 2011. Price not stated. Phones are the company's
+  public numbers. Spanish club announced as newly opened on 2011-12-02. Address not given in
+  sources. Price not stated.

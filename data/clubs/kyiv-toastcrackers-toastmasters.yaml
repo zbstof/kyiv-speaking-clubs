@@ -1,0 +1,26 @@
+id: kyiv-toastcrackers-toastmasters
+name: Kyiv Toastcrackers (Toastmasters)
+description: Toastmasters International club meeting at the House of Scientists.
+languages:
+  - en
+format: offline
+location:
+  venue: Будинок вчених
+  address: вул. Володимирська, 45а
+  district: Шевченківський
+  metro: Золоті ворота
+schedule:
+  - day: wed
+    time: "19:00"
+    frequency: weekly
+schedule_note: Wednesdays 7 p.m. (2010)
+contacts:
+  - type: website
+    url: http://toastcrackers.kiev.ua
+organizer: Kyiv Toastcrackers (contact Olga Pogorelova, 2010)
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

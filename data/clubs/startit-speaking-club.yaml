@@ -1,0 +1,41 @@
+id: startit-speaking-club
+name: StartIT. Speaking Club
+description: >-
+  English speaking evenings for IT people at StartIT training center; topics set in advance, teams
+  rotate; moderated by a mentor.
+languages:
+  - en
+format: offline
+location:
+  venue: StartIT training center
+  address: вул. Шота Руставелі, 40/10
+  district: Печерський
+  metro: Палац Спорту
+schedule:
+  - day: wed
+    time: "19:00"
+    duration_min: 120
+    frequency: irregular
+schedule_note: "Numbered meetups #1–#10, roughly monthly; e.g. Fri 2016-07-01 19:00–21:00, Wed 2017-04-26 19:00"
+price:
+  free: false
+  amount: 100 грн (2016), 50–70 грн (2017); free for StartIT students
+registration: required
+contacts:
+  - type: website
+    url: https://2event.com/uk/events/832013
+  - type: other
+    url: https://2event.com/ru/events/986837
+organizer: StartIT (mentor Yuliana Drobyazko)
+status: unknown
+first_seen: "2016-07-01"
+last_seen: "2017-09-27"
+sources:
+  - https://dou.ua/calendar/11404/
+  - https://dou.ua/calendar/13856/
+  - https://dou.ua/calendar/14648/
+  - https://dou.ua/calendar/15057/
+  - https://dou.ua/calendar/15684/
+  - https://dou.ua/calendar/15977/
+  - https://dou.ua/calendar/16626/
+  - https://dou.ua/calendar/17422/

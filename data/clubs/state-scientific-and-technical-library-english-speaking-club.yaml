@@ -1,0 +1,32 @@
+id: state-scientific-and-technical-library-english-speaking-club
+name: State Scientific and Technical Library — English speaking club for scientists
+description: Free online English conversation club aimed at researchers, run by ДНТБ України.
+languages:
+  - en
+format: online
+location:
+  venue: ДНТБ України (online via Google Meet)
+  address: вул. Антоновича, 180
+  district: Голосіївський
+  metro: Деміївська
+schedule:
+  - day: mon
+    time: "15:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: Mondays 15:00–16:00, sessions listed 2024-01-02 to 2024-02-26
+price:
+  free: true
+registration: none
+contacts:
+  - type: email
+    url: mailto:dntb@dntb.gov.ua
+organizer: Державна науково-технічна бібліотека України (ДНТБ)
+status: unknown
+first_seen: 2023-12
+last_seen: "2024-02-26"
+sources:
+  - https://nauka.gov.ua/opportunities/rozmovnyi-klub-anhliiskoi-movy-dlia-naukovtsiv
+notes: >-
+  Post of 2023-12-28 says the library 'continues' the club, so it started earlier. Open to anyone,
+  aimed at researchers.

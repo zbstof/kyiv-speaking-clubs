@@ -1,0 +1,19 @@
+id: akademie-aachen-german-conversation-club
+name: "Akademie Aachen: German conversation club"
+description: Paid language school in Kyiv that lists a German conversation club among its courses.
+languages:
+  - de
+format: offline
+location:
+  venue: Akademie Aachen
+  address: пров. Івана Козловського, 3
+contacts:
+  - type: website
+    url: https://spraachen.kiev.ua/deutsch.html
+organizer: Akademie Aachen
+status: unknown
+sources:
+  - https://osvita.ua/languages/courses/37185/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update date.

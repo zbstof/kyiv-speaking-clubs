@@ -1,0 +1,24 @@
+id: japanese-language-club-at-kyiv-national-linguistic-universit
+name: Japanese Language Club at Kyiv National Linguistic University
+description: >-
+  Monthly Japanese club for KNLU students of years 1-5 who want more speaking practice; Japanese
+  exchange students join; songs and games in Japanese.
+languages:
+  - ja
+levels:
+  - any
+format: offline
+location:
+  venue: Kyiv National Linguistic University
+schedule_note: Once a month (2017 report)
+price:
+  free: true
+organizer: >-
+  SAITO Chika, Japanese-Language Assistant dispatched by the Japan Foundation (as described in her
+  report)
+status: unknown
+first_seen: "2017"
+last_seen: 2017-09
+sources:
+  - https://www.jpf.go.jp/e/project/japanese/teach/dispatch/voice/assistant/report/2017_09.html
+notes: University-internal club for KNLU students.

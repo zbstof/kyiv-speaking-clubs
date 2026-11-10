@@ -1,0 +1,25 @@
+id: tsentr-frantsuzkoi-movy-i-kultury-riv-hosh-french-conversati
+name: "Центр французької мови і культури «Рів Гош»: French conversation club"
+description: Paid language school in Kyiv that lists a French conversation club among its courses.
+languages:
+  - fr
+format: offline
+location:
+  venue: Центр французької мови і культури «Рів Гош»
+  address: вул. Богдана Хмельницького, 16-22, корп. А, офіс 203-а
+  metro: Театральна
+contacts:
+  - type: website
+    url: http://francais.kiev.ua
+organizer: Центр французької мови і культури «Рів Гош»
+status: unknown
+first_seen: "2013-05-26"
+last_seen: "2017-05-25"
+sources:
+  - https://osvita.ua/languages/courses/17885/
+  - https://osvita.ua/languages/courses/36764/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  26.05.2013). No schedule or format given. Phones on card: (044) 361-37-69. Second card
+  (https://osvita.ua/languages/courses/36764/, updated 25.05.2017) also lists the club; near metro
+  Театральна; native-speaker individual lessons 150 грн/год.

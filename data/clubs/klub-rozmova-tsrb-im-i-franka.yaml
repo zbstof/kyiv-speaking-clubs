@@ -1,0 +1,23 @@
+id: klub-rozmova-tsrb-im-i-franka
+name: Клуб «РозМова» (ЦРБ ім. І. Франка)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Центральна районна бібліотека ім. І. Франка (Подільський р-н)
+  address: вул. Кирилівська, 117
+  district: Подільський
+price:
+  free: true
+organizer: Центральна районна бібліотека ім. І. Франка (Подільський р-н)
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

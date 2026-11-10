@@ -1,0 +1,27 @@
+id: english-language-center-free-international-conversation-club
+name: English Language Center free international conversation club
+description: Free conversation club with native English speakers, two venues.
+languages:
+  - en
+format: offline
+location:
+  venue: English Language Center
+  address: вул. Ірпінська, 76, офіс 31; вул. Микільсько-Слобідська, 2Б, офіс 277
+  metro: Академмістечко
+schedule:
+  - day: fri
+    time: "19:00"
+    frequency: weekly
+schedule_note: Fridays 7 p.m. (2010)
+price:
+  free: true
+contacts:
+  - type: website
+    url: http://english.in.ua
+organizer: English Language Center (english.in.ua)
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

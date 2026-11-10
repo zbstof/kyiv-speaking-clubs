@@ -1,0 +1,14 @@
+id: vamos-a-platicar-spanish-conversation-club
+name: Vamos a platicar (Spanish Conversation Club)
+description: "Spanish conversation club on Meetup: stories, experiences, opinions, games, in Spanish."
+languages:
+  - es
+format: offline
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/Vamos-a-platicar/
+organizer: Jesús Rosas (Meetup organizer)
+status: unknown
+sources:
+  - https://www.meetup.com/Vamos-a-platicar/
+notes: Meetup group, city Kyiv, 41 members (2026-11); no upcoming or dated past events visible.

@@ -1,0 +1,31 @@
+id: movnyi-klub-numo-publichna-biblioteka-im-lesi-ukrainky-kraie
+name: Мовний клуб «НУМО» (Публічна бібліотека ім. Лесі Українки, краєзнавчий відділ)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Публічна бібліотека імені Лесі Українки для дорослих - відділ краєзнавчої літератури
+  address: вул. Володимира Винниченка, 16
+  district: Шевченківський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 486-00-77
+organizer: Публічна бібліотека імені Лесі Українки для дорослих - відділ краєзнавчої літератури
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified. Hybrid: in person plus Zoom.
+  2023: a «Єдині» conversation course at this branch.

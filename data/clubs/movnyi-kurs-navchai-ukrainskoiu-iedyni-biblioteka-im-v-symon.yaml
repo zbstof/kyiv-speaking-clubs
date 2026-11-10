@@ -1,0 +1,43 @@
+id: movnyi-kurs-navchai-ukrainskoiu-iedyni-biblioteka-im-v-symon
+name: Мовний курс «Навчай українською» («Єдині») — бібліотека ім. В. Симоненка
+description: >-
+  Free Ukrainian conversation course/club of the «Єдині» movement (initiative «Навчай українською»)
+  at a Kyiv public library.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека ім. В. А. Симоненка для дітей
+  address: вул. Антоновича, 25
+  district: Голосіївський
+schedule:
+  - day: sat
+    frequency: irregular
+schedule_note: >-
+  Blog: «Розмовний клуб «Єдині»: аж дві групи в бібліотеці» (10 Sep 2022); sessions 29 Jul 2023
+  (Sat), 11 May 2024 (Sat, moderator Marharyta Samoiliuk). Listed again in Dec 2025 city list.
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 287-10-02
+  - type: website
+    url: https://simonenkobibl.blogspot.com/
+  - type: website
+    url: https://yedyni.org/
+  - type: email
+    url: simonenko2011@ukr.net
+organizer: Всеукраїнський проєкт «Єдині» / Бібліотека ім. В. А. Симоненка для дітей
+status: unknown
+first_seen: "2022-09-10"
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+  - https://simonenkobibl.blogspot.com/search?q=%D0%84%D0%B4%D0%B8%D0%BD%D1%96
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified.

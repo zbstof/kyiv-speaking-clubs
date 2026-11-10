@@ -24,6 +24,7 @@
       status: { active: "Діє", stale: "Не підтверджено", paused: "Пауза", closed: "Закрито", unknown: "Невідомо" },
       reg: { required: "Потрібна реєстрація", optional: "Реєстрація бажана", none: "Без реєстрації" },
       free: "Безкоштовно", paid: "Платно", min: "хв",
+      levels: "Рівень", anyLevel: "будь-який", notesOnly: "Примітки", andNotes: " і примітки",
       lastSeen: "Остання згадка", checked: "Підтверджено", since: "З", organizer: "Організатор",
       sources: "Джерела", edit: "Виправити", confirm: "Ще працює ✓", close: "Закрився",
       dlgAdd: "Новий клуб", dlgEdit: "Виправити клуб", dlgConfirm: "Клуб ще працює?", dlgClose: "Клуб закрився?",
@@ -65,6 +66,7 @@
       status: { active: "Active", stale: "Not confirmed", paused: "Paused", closed: "Closed", unknown: "Unknown" },
       reg: { required: "Registration required", optional: "Registration recommended", none: "No registration" },
       free: "Free", paid: "Paid", min: "min",
+      levels: "Level", anyLevel: "any", notesOnly: "Notes", andNotes: " and notes",
       lastSeen: "Last seen", checked: "Confirmed", since: "Since", organizer: "Organizer",
       sources: "Sources", edit: "Fix", confirm: "Still running ✓", close: "Closed",
       dlgAdd: "New club", dlgEdit: "Fix club", dlgConfirm: "Is the club still running?", dlgClose: "Has the club closed?",
@@ -128,10 +130,9 @@
   const langName = (code) => (LANGS[code] ? LANGS[code][ui === "uk" ? 0 : 1] : code);
   const toDate = (s) => {
     if (!s) return null;
-    const [y, m = "12", d] = s.split("-");
-    // A bare year or month counts as its last day, so "2024" is not older than "2024-06".
-    const day = d || new Date(Date.UTC(+y, +m, 0)).getUTCDate();
-    return new Date(Date.UTC(+y, +m - 1, +day));
+    // A bare year or month counts from its first day: "2026" proves activity only on 1 Jan 2026.
+    const [y, m = "1", d = "1"] = s.split("-");
+    return new Date(Date.UTC(+y, +m - 1, +d));
   };
   const fmtDate = (s) => {
     if (!s) return "";
@@ -246,14 +247,13 @@
       <div class="row"><span class="badge ${st}">${esc(L.status[st])}</span>${c.languages.map((l) => `<span class="chip">${esc(langName(l))}</span>`).join("")}${c.format ? `<span class="chip">${esc(L.format[c.format])}</span>` : ""}</div>
       <h3>${esc(c.name)}</h3>
       ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ""}
-      ${sched || c.schedule_note ? `<p class="meta">🗓 <b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
-      ${place ? `<p class="meta">📍 ${esc(place)}</p>` : ""}
-      ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && "💳 " + esc(price), c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(c.levels.join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
+      ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
+      ${place ? `<p class="meta"><span class="ico">📍</span>${esc(place)}</p>` : ""}
+      ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && `<span class="ico">💳</span>${esc(price)}`, c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(L.levels + ": " + c.levels.map((l) => (l === "any" ? L.anyLevel : l)).join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
       ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${esc(c.organizer)}</p>` : ""}
       ${contacts ? `<div class="contacts">${contacts}</div>` : ""}
-      ${c.notes ? `<p class="meta">${esc(c.notes)}</p>` : ""}
       ${dates ? `<p class="meta">${esc(dates)}</p>` : ""}
-      ${sources.length ? `<details class="src"><summary>${esc(L.sources)} (${sources.length})</summary><ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul></details>` : ""}
+      ${sources.length || c.notes ? `<details class="src"><summary>${esc(sources.length ? `${L.sources} (${sources.length})` : L.notesOnly)}${sources.length && c.notes ? esc(L.andNotes) : ""}</summary>${c.notes ? `<p>${esc(c.notes)}</p>` : ""}${sources.length ? `<ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul>` : ""}</details>` : ""}
       <div class="card-actions">
         <button type="button" class="small" data-act="edit">${esc(L.edit)}</button>
         ${c.status !== "closed" ? `<button type="button" class="small" data-act="confirm">${esc(L.confirm)}</button><button type="button" class="small" data-act="close">${esc(L.close)}</button>` : ""}

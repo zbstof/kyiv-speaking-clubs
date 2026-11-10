@@ -1,0 +1,19 @@
+id: french-speaking-club-svetlana
+name: French-speaking club (Svetlana)
+description: French conversation practice plus movie sessions, once a week on a weekend day.
+languages:
+  - fr
+format: offline
+schedule:
+  - day: sat
+    frequency: weekly
+schedule_note: Once weekly, Saturday or Sunday
+organizer: Svetlana (private host, contact via Kyiv Post listing)
+status: unknown
+first_seen: "2010-04-08"
+last_seen: "2010-04-08"
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: >-
+  Listed in Kyiv Post community listings, 2010-04-08. Day is Saturday or Sunday. Listed in Kyiv Post
+  'Community listings' bulletin board, 2010-04-08.

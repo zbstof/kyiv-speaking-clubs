@@ -1,0 +1,24 @@
+id: osvitnii-proiekt-mova-dnk-natsii-bezkoshtovni-kursy-ukrainsk
+name: Освітній проєкт «Мова — ДНК нації» (безкоштовні курси української мови, Київ)
+description: >-
+  Free Ukrainian language courses in Kyiv and online; per a 2020 article, training lasted 5-6
+  months, once a week for 2 hours, and was described as the first such project in Ukraine.
+languages:
+  - uk
+levels:
+  - any
+format: hybrid
+schedule_note: Once a week, 2 hours, 5-6 months (as of Feb 2020).
+price:
+  free: true
+organizer: Освітній проєкт «Мова — ДНК нації»
+status: unknown
+first_seen: "2020-02-25"
+last_seen: "2020-02-25"
+sources:
+  - >-
+    https://gazeta.ua/articles/chistota-movlennya/_de-bezkoshtovno-mozhna-pidtyagnuti-ukrayinsku/952958
+notes: >-
+  A course rather than a club; details from a search snippet, the gazeta.ua page returned 403. The
+  Dec 2025 city library list has a «Розмовний клуб «Мова. ДНК нації»» at the I. Shamo library (вул.
+  Героїв Севастополя, 22); a link between the two is not verified.

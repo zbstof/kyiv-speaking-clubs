@@ -1,0 +1,36 @@
+id: language-exchange-club-knu-institute-of-biology-and-medicine
+name: Language Exchange Club (KNU Institute of Biology and Medicine)
+description: >-
+  Free tandem club: 30 min Ukrainian practice, then 30 min Persian/Hindi/English, for foreign
+  medical students and Ukrainian students.
+languages:
+  - uk
+  - en
+  - fa
+  - hi
+levels:
+  - any
+format: offline
+location:
+  venue: ННЦ «Інститут біології та медицини» КНУ
+  address: вул. Васильківська, 98, 4 поверх, ауд. 77
+  district: Голосіївський
+  metro: Васильківська
+schedule:
+  - day: mon
+    time: "15:40"
+    duration_min: 95
+    frequency: weekly
+  - day: thu
+    time: "14:50"
+    duration_min: 95
+    frequency: weekly
+schedule_note: Every Monday 15:40-17:15 and every Thursday 14:50-16:25
+price:
+  free: true
+organizer: Project coordinator Maryna Kapas-Romaniuk (KNU)
+status: unknown
+first_seen: "2019-03-13"
+last_seen: "2019-03-13"
+sources:
+  - https://biomed.knu.ua/medicine/bulletin-board/1420-meeting-of-language-exchange-club.html

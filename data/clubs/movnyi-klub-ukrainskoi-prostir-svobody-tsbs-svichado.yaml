@@ -1,0 +1,29 @@
+id: movnyi-klub-ukrainskoi-prostir-svobody-tsbs-svichado
+name: Мовний клуб української «Простір свободи» (ЦБС «Свічадо»)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Центральна районна бібліотека ЦБС «Свічадо»
+  address: бульвар Жуля Верна, 13-в
+  district: Святошинський
+price:
+  free: true
+organizer: Центральна районна бібліотека ЦБС «Свічадо»
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified. 2023: «Мовний клуб «Навчай
+  українську»» and a literary club with Olha Babchuk; 2025: literary club and language club «Простір
+  свободи».

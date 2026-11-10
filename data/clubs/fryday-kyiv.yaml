@@ -1,0 +1,18 @@
+id: fryday-kyiv
+name: Fryday Kyiv
+description: >-
+  Free networking community of expats and locals in downtown bars/hotels; members practise languages
+  alongside business and social exchange.
+languages:
+  - en
+format: offline
+price:
+  free: true
+organizer: Fryday (founded in Kyiv April 2010 by three Swedes)
+status: unknown
+first_seen: 2010-04
+last_seen: "2017-01-13"
+sources:
+  - https://destinations.ua/travel/best-places-to-meet-expats-in-kyiv
+  - https://destinations.ua/travel/connecting-expats-in-ukraine
+notes: Networking events, not a structured language club; venues announced on LinkedIn/Facebook.

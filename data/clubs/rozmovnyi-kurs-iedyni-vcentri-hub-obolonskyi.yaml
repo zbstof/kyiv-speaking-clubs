@@ -1,0 +1,30 @@
+id: rozmovnyi-kurs-iedyni-vcentri-hub-obolonskyi
+name: Розмовний курс «Єдині» — Vcentri HUB Оболонський
+description: «Єдині» conversation course location at Vcentri HUB Obolonskyi.
+languages:
+  - uk
+format: offline
+location:
+  venue: Громадський простір Vcentri HUB Оболонський
+  address: Оболонський проспект, 22-А
+  district: Оболонський
+price:
+  free: true
+contacts:
+  - type: website
+    url: https://yedyni.org/
+  - type: phone
+    url: "+380509270544"
+organizer: Україномовний проєкт «Єдині»
+status: unknown
+first_seen: 2023-08
+last_seen: "2023-08-17"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+notes: >-
+  Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
+  libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on 2023-09-20).
+  The list gives no meeting times. District inferred from the address, not verified.

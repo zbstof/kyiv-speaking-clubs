@@ -1,0 +1,26 @@
+id: klub-skarby-ukrainskoi-movy
+name: Клуб «Скарби української мови»
+description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Бібліотека № 118 для дітей
+  address: вул. Андрія Малишка, 25/1
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 513-61-54
+organizer: Бібліотека № 118 для дітей
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

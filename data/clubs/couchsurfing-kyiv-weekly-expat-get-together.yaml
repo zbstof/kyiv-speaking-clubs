@@ -1,0 +1,21 @@
+id: couchsurfing-kyiv-weekly-expat-get-together
+name: Couchsurfing Kyiv weekly expat get-together
+description: Weekly Couchsurfing get-together of expats and locals; Couchsurfing app sends notifications.
+languages:
+  - en
+format: offline
+location:
+  venue: Sao Miguel (near St. Michael's)
+  district: Шевченківський
+schedule_note: Weekly
+price:
+  free: true
+status: unknown
+last_seen: 2026-05
+sources:
+  - https://reddit.sentinel-team.org/posts/1t53th1/snapshots/2026-05-09T02%3A17%3A47.694395Z
+  - https://archive.kyivpost.com/lifestyle/meet-ukraines-ambassadors-at-couchsurfingcom-79067.html
+notes: >-
+  Single Reddit comment (2026 snapshot) says it 'used to' meet at Sao Miguel; not verified; a social
+  meetup with language exchange as a side activity. 2010 Kyiv Post: Couchsurfing/Hospitality Club
+  hosts offered coffee and language exchange.

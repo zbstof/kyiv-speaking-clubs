@@ -1,0 +1,29 @@
+id: ukrainglish-speaking-club
+name: Ukraïnglish Speaking Club
+description: >-
+  Small, relaxed English–Ukrainian conversation meetup, switching between the two languages; themed
+  sessions (movies, books, storytelling).
+languages:
+  - en
+  - uk
+levels:
+  - any
+format: online
+schedule:
+  - day: sun
+    time: "20:00"
+    frequency: weekly
+schedule_note: Sundays 8 pm Kyiv time (Google Meet); one session at 4 pm
+registration: optional
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/ukrainglish-networking-club/
+organizer: Marko Nykoliuk
+status: active
+last_seen: "2026"
+sources:
+  - https://www.meetup.com/ukrainglish-networking-club/
+notes: >-
+  Meetup city is Kyiv; 54 members. Next event 'Sunday, Jun 28' fits 2026. Kyiv base of organizer not
+  verified. Meetup group listed under Kyiv, 54 members; events Apr 12, May 3, May 17, Oct 18,
+  upcoming Sun June 28 — years not shown (June 28 is a Sunday in 2026).

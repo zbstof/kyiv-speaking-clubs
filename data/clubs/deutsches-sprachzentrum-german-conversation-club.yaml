@@ -1,0 +1,23 @@
+id: deutsches-sprachzentrum-german-conversation-club
+name: "Deutsches Sprachzentrum: German conversation club"
+description: Paid language school in Kyiv that lists a German conversation club among its courses.
+languages:
+  - de
+format: offline
+location:
+  venue: Deutsches Sprachzentrum
+  address: вул. Лютеранська, 5, оф. 312; вул. Кропивницького, 6, офіс 9
+contacts:
+  - type: website
+    url: https://dszentrum.com.ua/
+organizer: Deutsches Sprachzentrum
+status: unknown
+first_seen: "2019-07-04"
+last_seen: "2019-07-04"
+sources:
+  - https://osvita.ua/languages/courses/37089/
+  - https://osvita.ua/languages/courses/37142/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  04.07.2019). No schedule or format given. Phones on card: (044) 383-45-00. Second card with the
+  Kropyvnytskoho address: https://osvita.ua/languages/courses/37142/.

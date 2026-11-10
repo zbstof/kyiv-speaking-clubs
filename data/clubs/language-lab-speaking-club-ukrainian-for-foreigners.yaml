@@ -1,0 +1,43 @@
+id: language-lab-speaking-club-ukrainian-for-foreigners
+name: Language Lab Speaking Club (Ukrainian for foreigners)
+description: >-
+  Free online Ukrainian speaking-club sessions on Zoom run by the Kyiv school Language Lab, led by
+  native-speaking facilitators; mix of Ukrainian and English. Kyiv Post partner content.
+languages:
+  - uk
+  - en
+levels:
+  - any
+format: online
+location:
+  venue: Online (Zoom); Language Lab, Kyiv
+  district: Шевченківський (Золоті ворота)
+schedule:
+  - day: sun
+    time: "19:00"
+    frequency: irregular
+schedule_note: "Independence Day edition: Sun 23 Aug 2026 19:00 Kyiv time."
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://lngglab.com/speaking-club
+  - type: email
+    url: info@languagelab.ua
+  - type: website
+    url: https://lngglab.com/
+organizer: Language Lab (founder Ksenia Golubytska)
+status: active
+last_seen: "2026-08-23"
+sources:
+  - https://www.kyivpost.com/post/82766
+  - https://www.kyivpost.com/post/76320
+  - https://www.kyivpost.com/post/85262
+  - https://lngglab.com/
+notes: >-
+  Language Lab teaches Ukrainian to foreigners online and in person in Kyiv; started in 2016 as an
+  English school. Regular club schedule not verified. Site: 'Speaking Clubs: online & in-person
+  language practice for all levels'; school near Golden Gate. Free online Independence Day edition
+  Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20. Ukrainian slice
+  may hold more.

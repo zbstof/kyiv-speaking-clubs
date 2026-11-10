@@ -1,0 +1,24 @@
+id: kursy-polskoi-movy-posvita-polish-conversation-club
+name: "Курси польської мови Posvita: Polish conversation club"
+description: Paid language school in Kyiv that lists a Polish conversation club among its courses.
+languages:
+  - pl
+format: offline
+location:
+  venue: Курси польської мови Posvita
+  address: вул. Богдана Хмельницького, 17/52
+price:
+  free: false
+  amount: від 89 грн/год (курси)
+contacts:
+  - type: website
+    url: https://posvita.com.ua/
+organizer: Курси польської мови Posvita
+status: unknown
+sources:
+  - https://osvita.ua/languages/courses/36609/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  ). No schedule or format given. Phones on card: (097) 528-02-02. Club includes conversations,
+  role-play and themed seminars. Course price from 89 UAH/hour (club price not separate). Card has
+  no update date.

@@ -1,0 +1,49 @@
+id: dnipro-hills-toastmasters-club
+name: Dnipro Hills Toastmasters Club
+description: >-
+  English public speaking and leadership club, part of Toastmasters International; founded August
+  2002.
+languages:
+  - en
+format: hybrid
+location:
+  venue: X-Lounge (former TIKE) restaurant; in 2010 International Institute of Business
+  address: вул. Петра Сагайдачного, 31 (2020s); вул. Дегтярівська, 51 (2010)
+  district: Подільський
+  metro: Поштова площа
+schedule:
+  - day: sun
+    time: "12:00"
+    duration_min: 120
+    frequency: weekly
+schedule_note: >-
+  Sundays 12:00-14:00 plus optional after-party; 2010: Sundays 10-11 at International Institute of
+  Business, Dehtiarivska 51
+price:
+  free: true
+  amount: guests free; membership $75 per 6 months + $20 new-member fee
+registration: optional
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club/
+  - type: website
+    url: https://www.toastmasters.org/Find-a-Club/00008466-dnipro-hills-club
+  - type: facebook
+    url: https://www.facebook.com/DniproHillsToastmastersPage/
+  - type: telegram
+    access: on_request
+    note: "Закрита група: запрошення в організатора"
+organizer: Dnipro Hills Toastmasters Club
+status: active
+first_seen: "2002-08-02"
+last_seen: "2026-11-08"
+sources:
+  - https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club
+  - https://www.toastmasters.org/Find-a-Club/00008466-dnipro-hills-club
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+  - https://fr.slideshare.net/innadavidiuk/dnipro-dills-toastmasters-club
+  - https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club/
+notes: >-
+  Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events, upcoming
+  Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193 Meetup members.
+  Upcoming events listed to Sun Dec 6 (2026).

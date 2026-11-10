@@ -1,0 +1,35 @@
+id: projector-speaking-club
+name: Speaking Club for Designers and IT (Projector)
+description: >-
+  English speaking club for designers and IT people at Projector design school, led by the 'English
+  for Designers' course teacher.
+languages:
+  - en
+format: offline
+location:
+  venue: Projector design space
+  address: вул. Верхній Вал, 22
+  district: Подільський
+  metro: Контрактова площа
+schedule:
+  - day: sat
+    time: "11:00"
+    duration_min: 90
+    frequency: irregular
+schedule_note: Series of sessions; one on Tue 2015-08-18, previous one on a Saturday
+price:
+  free: false
+  amount: 55 грн (space entry)
+registration: required
+contacts:
+  - type: website
+    url: http://prjctr.com.ua/
+  - type: facebook
+    url: https://www.facebook.com/prjctrcomua
+organizer: Irina Nalivaiko / Projector
+status: unknown
+first_seen: 2015-08
+last_seen: "2015-09-12"
+sources:
+  - https://dou.ua/calendar/8012/
+  - https://dou.ua/calendar/8249/

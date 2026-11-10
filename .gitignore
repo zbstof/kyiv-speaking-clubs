@@ -2,3 +2,7 @@ node_modules/
 site/clubs.json
 .wrangler/
 .DS_Store
+.env
+.env.*
+.dev.vars
+.playwright-mcp/

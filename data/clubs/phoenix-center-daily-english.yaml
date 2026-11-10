@@ -1,0 +1,25 @@
+id: phoenix-center-daily-english
+name: Phoenix Center Daily English
+description: >-
+  Free English conversation classes with American and British native speakers; also a book and DVD
+  exchange.
+languages:
+  - en
+format: offline
+location:
+  venue: Phoenix Center
+  address: вул. Немировича-Данченка, 2, 3rd floor
+  district: Печерський
+  metro: Печерська
+schedule_note: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
+price:
+  free: true
+organizer: Phoenix Center
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: >-
+  Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Likely a church-linked
+  ministry (not verified).

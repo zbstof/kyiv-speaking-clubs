@@ -1,0 +1,32 @@
+id: aiesec-kyiv-language-school
+name: AIESEC Kyiv Language School
+description: >-
+  Six-week summer language program with native-speaker teachers; included speaking clubs, master
+  classes and films.
+languages:
+  - en
+  - es
+  - fr
+  - de
+  - zh
+format: offline
+schedule_note: "Summer, 6 weeks (2013: 3 Jun-15 Jul; 2014: from June)"
+price:
+  free: false
+  amount: "2013: 470-580 грн; 2014: 350-450 грн per course"
+registration: required
+contacts:
+  - type: website
+    url: http://kyiv.aiesec.ua
+  - type: facebook
+    url: https://www.facebook.com/language.school.aiesec
+  - type: other
+    url: https://vk.com/ls_kyiv2013
+organizer: AIESEC Kyiv
+status: unknown
+first_seen: "2011"
+last_seen: "2014-05-13"
+sources:
+  - https://osvita.ua/languages/35912/
+  - https://osvita.ua/languages/41186/
+notes: A paid summer course with a speaking-club part, not a standing club. 2013 was the 3rd year.

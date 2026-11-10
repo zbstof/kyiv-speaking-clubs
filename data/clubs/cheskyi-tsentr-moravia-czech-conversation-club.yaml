@@ -1,0 +1,21 @@
+id: cheskyi-tsentr-moravia-czech-conversation-club
+name: "Чеський центр Moravia: Czech conversation club"
+description: Paid language school in Kyiv that lists a Czech conversation club among its courses.
+languages:
+  - cs
+format: offline
+location:
+  venue: Чеський центр Moravia
+  address: вул. М. Краснова, 8/2
+contacts:
+  - type: website
+    url: http://www.czemoravia.com
+organizer: Чеський центр Moravia
+status: unknown
+first_seen: "2017-06-02"
+last_seen: "2017-06-02"
+sources:
+  - https://osvita.ua/languages/courses/36770/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  02.06.2017). No schedule or format given. Phones on card: (097) 768-34-12.

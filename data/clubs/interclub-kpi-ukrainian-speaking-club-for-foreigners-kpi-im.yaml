@@ -1,0 +1,34 @@
+id: interclub-kpi-ukrainian-speaking-club-for-foreigners-kpi-im
+name: Interclub KPI / Ukrainian Speaking Club for foreigners (КПІ ім. Ігоря Сікорського)
+description: >-
+  Student support club for foreign students at Igor Sikorsky Kyiv Polytechnic Institute: weekly
+  meetings to learn about Ukrainian language and culture; the Students' Social Service of KPI
+  described free group sessions for foreigners on Thursdays as a «Ukrainian Speaking Club».
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: КПІ, корпус № 31, кімн. 2-09 (конференц-зал)
+  address: вул. Металістів, 7а, Київ 03056
+  district: Солом'янський
+  metro: Політехнічний інститут
+schedule:
+  - day: thu
+    time: "16:00"
+    frequency: weekly
+schedule_note: «at 16-00 on Thursdays every week» (kpi.ua/en/interclub).
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 453-36-58
+organizer: Interclub; Students' Social Service of NTUU «KPI»
+status: unknown
+sources:
+  - https://kpi.ua/en/interclub
+  - https://vpi.kpi.ua/index.php/en/239-ukrainian-speaking-club.html
+notes: >-
+  The vpi.kpi.ua page about the «Ukrainian speaking club» now returns 404; its content is known only
+  from a search snippet. Neither page shows a date. Metro and district inferred.

@@ -1,0 +1,16 @@
+id: kyiv-english-club-language-exchange-and-drinks-telegram
+name: Kyiv English Club - Language Exchange and Drinks (Telegram)
+description: Telegram group named as a language exchange and drinks meetup in Kyiv.
+languages:
+  - en
+format: offline
+contacts:
+  - type: telegram
+    url: https://t.me/kyivlanguageexchange
+status: unknown
+last_seen: 2026-11
+sources:
+  - https://t.me/kyivlanguageexchange
+notes: >-
+  Found by probing t.me names; group with 6 members (2026-11-10); no public message preview, no
+  schedule known.

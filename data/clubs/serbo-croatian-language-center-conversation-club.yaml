@@ -1,0 +1,18 @@
+id: serbo-croatian-language-center-conversation-club
+name: Serbo-Croatian Language Center conversation club
+description: >-
+  Conversation club at a Serbo-Croatian language centre that also offers courses and a video/book
+  library.
+languages:
+  - sr
+  - hr
+format: offline
+location:
+  venue: Serbo-Croatian Language Center
+organizer: "Serbo-Croatian Language Center (contact: Stefan)"
+status: unknown
+first_seen: "2010-04-08"
+last_seen: "2010-04-08"
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

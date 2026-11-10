@@ -1,0 +1,31 @@
+id: vadym-stolar-foundation-language-club
+name: Vadim Stolar Foundation Language Club (Ukrainian Language Course project)
+description: >-
+  Language club inside the charity project «Курс української мови» for people who want to speak
+  Ukrainian freely but fear mistakes; announced with online and offline (Kyiv) meetings.
+languages:
+  - uk
+levels:
+  - any
+format: hybrid
+schedule_note: Announced 18 Feb 2026; meeting dates to be announced on the foundation's pages.
+contacts:
+  - type: telegram
+    url: https://t.me/ukrainemova
+  - type: telegram
+    url: https://t.me/vadymstolarbf
+  - type: facebook
+    url: https://www.facebook.com/VadymStolarBF
+  - type: instagram
+    url: https://www.instagram.com/stolar.fund/
+organizer: Vadim Stolar Foundation
+status: unknown
+first_seen: "2026-02-18"
+last_seen: "2026-02-18"
+sources:
+  - >-
+    https://stolarfund.com/en/news/we-are-preparing-to-launch-a-language-club-within-the-ukrainian-language-course-project
+notes: >-
+  Announced as in preparation in Feb 2026; launch not verified. Telegram channel t.me/ukrainemova
+  had 2,756 members (Nov 2026); the public web preview showed no club posts. Price not stated; the
+  course project is charitable.

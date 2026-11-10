@@ -1,0 +1,24 @@
+id: only-english-club-at-shooters
+name: "\"Only English\" Club at Shooters"
+description: Monthly English-only evening at Shooters bar, organized by NAI Pickard.
+languages:
+  - en
+format: offline
+location:
+  venue: Shooters
+  address: вул. Московська (now Князів Острозьких), 22
+  district: Печерський
+  metro: Арсенальна
+schedule:
+  - day: thu
+    time: "20:00"
+    duration_min: 120
+    frequency: monthly
+schedule_note: First Thursday of each month, 8–10 p.m. (2010)
+organizer: NAI Pickard
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

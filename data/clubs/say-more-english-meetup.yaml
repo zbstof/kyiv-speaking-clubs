@@ -1,0 +1,18 @@
+id: say-more-english-meetup
+name: Say More — English speaking meetup
+description: Casual English-speaking event in Kyiv run by native speakers, open to everyone.
+languages:
+  - en
+format: offline
+schedule_note: First meetup 'coming soon'; date and venue not announced
+registration: required
+contacts:
+  - type: website
+    url: https://tally.so/r/3yRj9g
+organizer: Not stated (native speakers)
+status: unknown
+sources:
+  - https://tally.so/r/3yRj9g
+notes: >-
+  Sign-up form for 'Say More #1 – The First Meetup'; date and venue not announced when read. Sign-up
+  form only; launch not verified; date of form unknown.

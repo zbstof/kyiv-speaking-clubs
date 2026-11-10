@@ -1,0 +1,44 @@
+id: career-english-it-club-english-speaking-club-for-tech-commun
+name: Career English IT club / English Speaking Club for Tech Community
+description: >-
+  Career English school's conversation club for IT people. Offline 'IT English Meetup' in Kyiv in
+  2017 with a native-speaker host; from 2024 an online club in seasons of four weekly sessions.
+languages:
+  - en
+levels:
+  - B1
+  - B2
+  - C1
+format: hybrid
+location:
+  venue: Career English School, office 405
+  address: просп. Соборності, 7А
+  district: Дніпровський
+  metro: Лівобережна
+schedule:
+  - day: tue
+    time: "18:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: "2017: Saturday 11:00 meetups in office; 2024–2025: Tuesdays 18:00 Kyiv time online, 1 hour"
+price:
+  free: false
+  amount: 150 грн (2017); 370 грн (2024); 270 грн per session (2025)
+registration: required
+contacts:
+  - type: website
+    url: https://career-english.com.ua/it-club
+  - type: telegram
+    url: https://t.me/speaking_club_for_tech_community
+organizer: Career English school (host Dennis D. in 2017; Tetiana Pavlenko in 2025)
+status: unknown
+first_seen: "2017-10-28"
+last_seen: "2025-06-10"
+sources:
+  - https://dou.ua/calendar/18178/
+  - https://dou.ua/calendar/49598/
+  - https://dou.ua/calendar/50140/
+  - https://dou.ua/calendar/51041/
+  - https://dou.ua/calendar/51556/
+  - https://dou.ua/calendar/53703/
+notes: "Level: Intermediate+ (2017), B1+/B2 (2025)."

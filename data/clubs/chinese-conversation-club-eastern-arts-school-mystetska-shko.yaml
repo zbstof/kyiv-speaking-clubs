@@ -1,0 +1,24 @@
+id: chinese-conversation-club-eastern-arts-school-mystetska-shko
+name: Chinese conversation club, Eastern Arts School (Мистецька школа «Східні мистецтва»)
+description: >-
+  Private Chinese-language school; lists a Chinese conversation club and free conversation practice
+  among its advantages.
+languages:
+  - zh
+format: offline
+location:
+  venue: Мистецька школа «Східні мистецтва»
+  address: вул. В'ячеслава Липинського, 13
+  district: Шевченківський
+contacts:
+  - type: website
+    url: https://www.easternarts.net
+organizer: Мистецька школа «Східні мистецтва»
+status: unknown
+first_seen: "2022-02-03"
+last_seen: "2022-02-03"
+sources:
+  - https://osvita.ua/languages/courses/37375/
+notes: >-
+  Dates are the osvita.ua listing update date (03.02.2022). Probably for the school's students. On
+  2026-11-10 the school's domain easternarts.net did not resolve (DNS ENOTFOUND).

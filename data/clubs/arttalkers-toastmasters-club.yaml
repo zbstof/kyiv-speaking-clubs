@@ -1,0 +1,50 @@
+id: arttalkers-toastmasters-club
+name: ArtTalkers Toastmasters Club
+description: Toastmasters club (#00891042) for public speaking, communication, English and creative skills.
+languages:
+  - en
+format: hybrid
+location:
+  venue: >-
+    X-Lounge (former TIKE) restaurant (2025–2026); earlier a bar on вул. Межигірська; Art Library
+    near Vokzalna (2010)
+  address: вул. Петра Сагайдачного, 31 (2025–2026); пр. Повітрофлотський, 10 (2010)
+  district: Подільський
+  metro: Поштова площа
+schedule:
+  - day: sat
+    time: "12:00"
+    duration_min: 120
+    frequency: weekly
+schedule_note: >-
+  Saturdays 12:00–14:00 (Meetup 2025–2026); 'every Saturday at 11.00' (kommunity); Saturdays 10:30
+  in 2010
+registration: none
+contacts:
+  - type: website
+    url: https://toastmasters.org/Find-a-Club/00891042-arttalkers
+  - type: meetup
+    url: https://www.meetup.com/arttalkers-toastmasters-club/
+  - type: website
+    url: https://arttalkers.wordpress.com
+  - type: other
+    url: https://kommunity.com/arttalkers-toastmasters-club-1/events
+  - type: telegram
+    url: https://t.me/ArtTalkersFriends
+  - type: website
+    url: https://arttalkers.my.canva.site/
+organizer: ArtTalkers Toastmasters Club
+status: active
+first_seen: "2006-11-17"
+last_seen: "2026-10-31"
+sources:
+  - https://toastmasters.org/Find-a-Club/00891042-arttalkers
+  - https://www.meetup.com/arttalkers-toastmasters-club/
+  - https://www.meetup.com/arttalkers-toastmasters-club/events/311563860
+  - https://kommunity.com/arttalkers-toastmasters-club-1/events
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: >-
+  English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters page
+  (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday matches
+  2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct 31 (2026 by
+  weekday).

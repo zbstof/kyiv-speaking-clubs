@@ -1,0 +1,28 @@
+id: russian-speaking-club-konechno-ideal-international-benjamin
+name: Russian speaking club 'Конечно'! (Ideal International / Benjamin Z Miller's Kyiv Group)
+description: Russian speaking club for expats, posted on a Kyiv Meetup group for expats and Ukrainians.
+languages:
+  - ru
+format: offline
+schedule:
+  - day: wed
+    time: "16:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: Every Wed 4:00-5:00 PM EET
+registration: required
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+organizer: Benjamin Z Miller's Kyiv Group - for Expats & Ukrainians (Meetup); 'Ideal International'
+status: active
+last_seen: "2026-11-11"
+sources:
+  - >-
+    https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/events/317088452/
+  - https://www.meetup.com/find/ua--kyiv/networking/
+  - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+  - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
+notes: >-
+  Meetup lists it as 'Every Wed'. Location 'visible to members', not tagged online, so probably in
+  person. Price not stated.

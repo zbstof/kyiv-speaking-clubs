@@ -1,0 +1,27 @@
+id: mohylingo-speaking-club-naukma
+name: MohyLingo Speaking Club (NaUKMA)
+description: >-
+  Speaking club run by the MohyLingo student initiative at Kyiv-Mohyla Academy, announced via the
+  American Library.
+languages:
+  - en
+format: online
+schedule_note: e.g. 21 May, 18:00, topic 'Migration. All aspects' (year likely 2023)
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: >-
+      https://docs.google.com/forms/d/e/1FAIpQLSdAIz-C5rp7-t1qb9dEQIxubKE7Dz2eZHONEVLj3Fw48LR5xA/viewform
+organizer: MohyLingo (NaUKMA student initiative)
+status: unknown
+first_seen: "2023"
+last_seen: "2023-05-21"
+sources:
+  - https://al.ukma.edu.ua/news
+  - >-
+    https://docs.google.com/forms/d/e/1FAIpQLSdAIz-C5rp7-t1qb9dEQIxubKE7Dz2eZHONEVLj3Fw48LR5xA/viewform
+notes: >-
+  Year not stated on news item; also an undated session 'Connecting Sports and Personal Growth',
+  Monday 16:00.

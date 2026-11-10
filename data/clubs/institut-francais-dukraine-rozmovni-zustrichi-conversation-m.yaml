@@ -1,0 +1,30 @@
+id: institut-francais-dukraine-rozmovni-zustrichi-conversation-m
+name: "Institut français d'Ukraine: Розмовні зустрічі (conversation meetings)"
+description: >-
+  Weekly French conversation meetings at the IFU médiathèque, led by native-speaking teachers, for
+  course students and library readers: news, society, cinema, music, everyday life.
+languages:
+  - fr
+format: offline
+location:
+  venue: Institut français d'Ukraine, Медіатека
+  address: вул. Олеся Гончара, 84
+  district: Шевченківський
+schedule_note: Weekly; day not given
+contacts:
+  - type: website
+    url: https://institutfrancais-ukraine.com/mediatheque/activites
+  - type: email
+    url: mailto:contact@ifu.kiev.ua
+  - type: phone
+    url: tel:+380444822371
+organizer: Institut français d'Ukraine
+status: unknown
+sources:
+  - https://institutfrancais-ukraine.com/mediatheque/activites
+  - https://institutfrancais-ukraine.com/
+  - https://institutfrancais-ukraine.com/uploads/files/kalendar_vesna_Leto 2018.pdf
+notes: >-
+  Page marks the activity 'Тимчасово недоступно' (temporarily unavailable) as of 2026-11. Same page
+  lists literary meetings 1-2 times a month on Friday evenings, also suspended. A 2018 IFU calendar
+  listed a 'Club de conversation' for ages 11-13 (sign-up 21.05-20.06.2018).

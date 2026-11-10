@@ -1,0 +1,22 @@
+id: linhvistychnyi-tsentr-zhako-polish-conversation-club
+name: "Лінгвістичний центр «Жако»: Polish conversation club"
+description: Paid language school in Kyiv that lists a Polish conversation club among its courses.
+languages:
+  - pl
+format: offline
+location:
+  venue: Лінгвістичний центр «Жако»
+  address: вул. Горького (Антоновича), 166
+contacts:
+  - type: website
+    url: http://polski.kiev.ua
+organizer: Лінгвістичний центр «Жако»
+status: unknown
+first_seen: "2013-05-25"
+last_seen: "2013-05-25"
+sources:
+  - https://osvita.ua/languages/courses/17878/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  25.05.2013). No schedule or format given. Phones on card: (044) 531-95-17. Native speakers lead
+  the clubs; for learners with enough Polish.

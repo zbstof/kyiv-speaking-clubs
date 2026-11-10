@@ -1,0 +1,33 @@
+id: uajs-yiddish-speaking-club
+name: UAJS Yiddish Speaking Club
+description: >-
+  Yiddish speaking club of the UAJS Yiddish Project, run with the Omeljan Pritsak Research Center
+  for Oriental Studies at NaUKMA and the Jewish Theological Seminary of America, alongside academic
+  Yiddish courses. Aimed at learners who already know some Yiddish.
+languages:
+  - yi
+format: online
+location:
+  venue: National University of Kyiv-Mohyla Academy (partner); meetings online during the pandemic
+schedule_note: >-
+  Registration each academic year (announcements 2020-11-05 and October 2021 for 2021-2022).
+  Schedule not published in sources found.
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://uajs.org.ua/en/node/671
+  - type: facebook
+    url: https://www.facebook.com/ukrainianjewishstudies/
+organizer: Ukrainian Association for Jewish Studies (UAJS); instructor Oleksandra Uralova
+status: unknown
+first_seen: "2020-11-05"
+last_seen: 2021-10
+sources:
+  - https://uajs.org.ua/en/taxonomy/term/668
+  - https://uajs.org.ua/en/node/671
+  - https://uajs.org.ua/en/node/812
+notes: >-
+  Format of the club itself is not stated explicitly; it is listed next to online courses. Free
+  participation per search snippet of UAJS page.

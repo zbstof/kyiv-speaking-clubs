@@ -1,0 +1,46 @@
+id: movnyi-klub-spilkuiemos-ukrainskoiu-vcentri-hub-holosiiv
+name: Мовний клуб «Спілкуємось українською» (Vcentri HUB Голосіїв)
+description: >-
+  Free Ukrainian language club for internally displaced people and Kyiv residents at the city
+  community space Vcentri HUB.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: "Громадський простір Vcentri HUB: Голосіїв"
+  address: вул. Велика Китаївська, 83
+  district: Голосіївський
+schedule:
+  - day: tue
+    time: "13:30"
+    duration_min: 90
+    frequency: weekly
+schedule_note: >-
+  Wed 15 Jan 2025 13:30-15:00; Tue 19 Aug 2025, Tue 18 Nov 2025, Tue 16 Dec 2025, Tue 12 May 2026 -
+  all 13:30-15:00.
+price:
+  free: true
+registration: required
+contacts:
+  - type: phone
+    url: 093-549-69-85 (Vcentri HUB Голосіїв registration line)
+organizer: КНП «Центр комунікації» (KMDA)
+status: active
+first_seen: "2025-01-15"
+last_seen: "2026-05-12"
+sources:
+  - >-
+    https://kyivcity.gov.ua/news/iz_13_do_19_sichnya_u_Vcentri_HUB_zaplanovani_psikhologichni_treningi_movniy_klub_yuridichni_konsultatsi_toscho/
+  - >-
+    https://kyivcity.gov.ua/news/iz_18_do_24_serpnya_u_Vcentri_HUB_zaplanovani_konsultatsi_z_tsifrovo_gramotnosti_nastilni_igri_movniy_klub_ta_inshe/
+  - >-
+    https://kyivcity.gov.ua/news/iz_17_do_23_listopada_u_Vcentri_HUB_zaplanovani_zanyattya_z_ukransko_ta_angliysko_mov_konsultatsi_z_tsifrovo_gramotnosti/
+  - >-
+    https://kyivcity.gov.ua/news/iz_15_do_21_grudnya_u_Vcentri_HUB_zaplanovani_konsultatsi_lektsi_movniy_klub_ta_inshe/
+  - >-
+    https://kyivcity.gov.ua/news/iz_11_do_17_travnya_u_Vcentri_HUB_proydut_yuridichni_konsultatsi_kursi_tsifrovo_gramotnosti_movniy_klub_ta_inshe/
+notes: >-
+  Seen in KMDA weekly Vcentri HUB digests; weekly frequency inferred from repeated Tuesday slots.
+  Not verified after May 2026.

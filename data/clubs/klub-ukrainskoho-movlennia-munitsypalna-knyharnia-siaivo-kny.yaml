@@ -1,0 +1,50 @@
+id: klub-ukrainskoho-movlennia-munitsypalna-knyharnia-siaivo-kny
+name: Клуб українського мовлення (муніципальна книгарня «Сяйво книги»)
+description: >-
+  Free Ukrainian conversation club at the municipal bookshop; first meeting gathered almost 200
+  people; participants split into groups after a questionnaire. Led by Svitlana Lukach, PhD in
+  pedagogy.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Муніципальна книгарня «Сяйво книги»
+  address: вул. Велика Васильківська, 6
+  district: Печерський
+  metro: Площа Українських Героїв
+schedule:
+  - day: wed
+    time: "16:00"
+    duration_min: 60
+    frequency: weekly
+  - day: thu
+    time: "17:00"
+    duration_min: 60
+    frequency: weekly
+  - day: sat
+    time: "14:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: >-
+  First meeting 14 Jul 2022 18:00. From 20 Jul 2022 groups: Wed 16:00, 17:00, 18:00; Thu 17:00,
+  18:00, 19:00; Sat 14:00, 15:00.
+price:
+  free: true
+registration: required
+contacts:
+  - type: facebook
+    url: Facebook page of КП «Міський магазин» (registration by direct message)
+organizer: >-
+  КП «Міський магазин» (Департамент промисловості та розвитку підприємництва КМДА); host Світлана
+  Лукач
+status: unknown
+first_seen: "2022-07-14"
+last_seen: "2022-07-20"
+sources:
+  - >-
+    https://kyivcity.gov.ua/news/u_munitsipalniy_knigarni_syayvo_knigi_14_lipnya_startuye_klub_ukranskogo_movlennya/
+  - >-
+    https://kyivcity.gov.ua/news/u_munitsipalniy_knigarni_syayvo_knigi_sogodni_rozpochinayutsya_zustrichi_klubu_ukranskogo_movlennya/
+notes: Metro guessed from address. Group durations assumed 60 min from the hourly slots.

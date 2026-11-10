@@ -1,0 +1,24 @@
+id: european-business-association-toastmasters
+name: European Business Association Toastmasters
+description: Toastmasters club linked to the European Business Association.
+languages:
+  - en
+format: offline
+location:
+  venue: American Councils
+  address: вул. Мельникова, 63
+  district: Шевченківський
+  metro: Лук'янівська
+schedule:
+  - day: mon
+    time: "19:30"
+    frequency: weekly
+schedule_note: Mondays 7:30 p.m. (2010)
+organizer: European Business Association
+status: unknown
+first_seen: "2008-09-24"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+  - https://dengi.ua/articles/1793524-yazykovye-razgovornye-klubyhtml
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Also quoted in dengi.ua 2008.

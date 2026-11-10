@@ -1,0 +1,23 @@
+id: speak-up-weekly-speaking-clubs
+name: Speak Up weekly speaking clubs
+description: >-
+  Speak Up English school network (about 11 Kyiv branches) lists weekly speaking clubs with a native
+  speaker.
+languages:
+  - en
+format: offline
+location:
+  venue: Speak Up branches, e.g. бульв. Лесі Українки, 26
+schedule_note: Weekly
+contacts:
+  - type: website
+    url: https://speak-up.com.ua
+organizer: Speak Up
+status: unknown
+first_seen: "2017"
+last_seen: "2021"
+sources:
+  - https://osvita.ua/languages/courses/36628/
+  - https://osvita.ua/languages/courses/36630/
+  - https://www.education.ua/trainings/companies/11956/
+notes: Mainly for enrolled students (not verified whether open to public).

@@ -1,0 +1,26 @@
+id: klub-vsim-khto-khoche-pereity-na-ukrainsku
+name: Клуб «Всім, хто хоче перейти на українську…»
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека ім. Гната Юри
+  address: вул. Гната Юри, 5
+  district: Святошинський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 403-01-04
+organizer: Бібліотека ім. Гната Юри
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

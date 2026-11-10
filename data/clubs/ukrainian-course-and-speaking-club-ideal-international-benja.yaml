@@ -1,0 +1,28 @@
+id: ukrainian-course-and-speaking-club-ideal-international-benja
+name: Ukrainian Course and Speaking club (Ideal International / Benjamin Z Miller's Kyiv Group)
+description: Ukrainian course plus speaking club for expats, posted on a Kyiv Meetup group.
+languages:
+  - uk
+format: offline
+schedule:
+  - day: wed
+    time: "18:30"
+    frequency: weekly
+  - day: sat
+    time: "18:30"
+    frequency: weekly
+schedule_note: Every Wed and Sat, 6:30 PM EET
+registration: required
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+organizer: Benjamin Z Miller's Kyiv Group - for Expats & Ukrainians (Meetup); 'Ideal International'
+status: active
+last_seen: "2026-11-11"
+sources:
+  - >-
+    https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/events/317090349/
+  - https://www.meetup.com/find/ua--kyiv/networking/
+  - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+  - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
+notes: Outside the European slice; recorded because found.

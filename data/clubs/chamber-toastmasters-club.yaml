@@ -1,0 +1,37 @@
+id: chamber-toastmasters-club
+name: CHAMBER Toastmasters Club
+description: >-
+  Toastmasters International club (#00007226), English-language public speaking and leadership.
+  Started under the American Chamber of Commerce.
+languages:
+  - en
+format: hybrid
+location:
+  venue: "Online (earlier: Microsoft Ukraine office, BC Eurasia; EPAM office)"
+  address: вул. Жилянська, 75 (2010); вул. Кудряшова, 14б (2012)
+schedule:
+  - day: wed
+    time: "19:15"
+    frequency: weekly
+schedule_note: Wednesdays 7:15 p.m. (Toastmasters listing); Wednesdays 7:30 p.m. in 2010
+registration: none
+contacts:
+  - type: website
+    url: https://www.chambertoastmasters.club/
+  - type: telegram
+    url: https://t.me/ChamberToastmastersKyivEnglish
+  - type: website
+    url: https://www.toastmasters.org/Find-a-Club/00007226-chamber-toastmasters-club
+organizer: CHAMBER Toastmasters Club (Toastmasters International, District 231? area C01)
+status: active
+first_seen: "1999-09-01"
+last_seen: "2026"
+sources:
+  - https://www.toastmasters.org/Find-a-Club/00007226-chamber-toastmasters-club
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+  - https://dou.ua/calendar/1423/
+  - https://t.me/s/ChamberToastmastersKyivEnglish
+notes: >-
+  Chartered 1999-09-01. In 2012 met weekly at EPAM office. Telegram channel says 392 members (90
+  online). No dated 2026 meeting seen; status based on the live Toastmasters listing. Website
+  returned 403.

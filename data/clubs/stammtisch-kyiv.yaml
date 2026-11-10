@@ -1,0 +1,42 @@
+id: stammtisch-kyiv
+name: Stammtisch (German-speaking club, Dom Bergonie)
+description: >-
+  Weekly free German-language meetup of Ukrainians and Germans: news talk, knowledge sharing.
+  Members need to follow a German conversation, fluency not required.
+languages:
+  - de
+levels:
+  - B1
+  - B2
+  - C1
+  - C2
+format: offline
+location:
+  venue: Dom Bergonie art café
+  address: вул. Пушкінська, 17
+  district: Шевченківський
+  metro: Театральна
+schedule:
+  - day: wed
+    time: "19:00"
+    frequency: weekly
+schedule_note: Wednesday, 7 p.m.
+price:
+  free: true
+registration: none
+contacts:
+  - type: facebook
+    url: https://www.facebook.com/groups/1725996007727870
+organizer: Daniel M. Porcedda (reorganized the club about 2016); club has a curator
+status: unknown
+first_seen: "1997"
+last_seen: "2017-09-29"
+sources:
+  - https://www.kyivpost.com/lifestyle/language-unites-ukrainians-germans-meet-weekly.html
+notes: >-
+  Kyiv Post (2017-09-29) says the club has met since at least 1997; Facebook group (now named
+  'Deutscher Mittwochs-Stammtisch Kyjiw', public, 608 members when fetched 2026-11) had over 200
+  members in 2017; about 15 people per meeting. A Telegram handle @stammtisch_kyiv exists but its
+  link to this group is not verified. Levels are a guess from 'must follow conversations'. Meetings
+  documented since at least 1997. Earlier venue: Muka restaurant on Khreshchatyk (closed fall 2016).
+  200+ FB group members, ~15 per meeting. German slice may hold newer data.

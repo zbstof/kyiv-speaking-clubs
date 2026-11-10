@@ -1,0 +1,23 @@
+id: rozmovnyi-klub-zhyva
+name: Розмовний клуб «Жива»
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Публічна бібліотека «Сузір'я»
+  address: вул. Казанська, 20
+  district: Оболонський
+price:
+  free: true
+organizer: Публічна бібліотека «Сузір'я»
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

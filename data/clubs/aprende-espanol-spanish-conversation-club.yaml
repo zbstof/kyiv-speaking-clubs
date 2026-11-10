@@ -1,0 +1,21 @@
+id: aprende-espanol-spanish-conversation-club
+name: "Aprende Español: Spanish conversation club"
+description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+languages:
+  - es
+format: offline
+location:
+  venue: Aprende Español
+  address: вул. Антоновича, 48А, офіс 9
+contacts:
+  - type: website
+    url: https://apesp.club
+organizer: Aprende Español
+status: unknown
+first_seen: "2017-12-08"
+last_seen: "2017-12-08"
+sources:
+  - https://osvita.ua/languages/courses/36888/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  08.12.2017). No schedule or format given. Phones on card: (099) 402-13-94.

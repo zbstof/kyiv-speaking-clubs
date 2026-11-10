@@ -1,0 +1,33 @@
+id: green-forest-speaking-clubs-and-english-meetup-offline-in-ky
+name: Green Forest speaking clubs and English Meetup Offline in Kyiv
+description: >-
+  Language school Green Forest runs speaking clubs for students and public events: offline 'English
+  Meetup' networking in Kyiv, free online clubs 'Sharing is Caring', 'English Sunday'.
+languages:
+  - en
+levels:
+  - B1
+  - B2
+  - C1
+format: hybrid
+location:
+  venue: Green Forest branches (Позняки, Поділ, Шота Руставелі historically)
+schedule:
+  - day: sun
+    frequency: weekly
+schedule_note: English Sunday Online every Sunday; Kyiv meetups irregular
+price:
+  free: false
+  amount: English Meetup Offline 250 грн; online clubs free
+registration: required
+contacts:
+  - type: website
+    url: https://greenforest.com.ua
+organizer: Green Forest
+status: unknown
+first_seen: "2013"
+last_seen: 2024-09
+sources:
+  - https://www.education.ua/blog/48918/
+  - https://osvita.ua/languages/courses/17966/
+  - https://www.vidhuk.ua/green-forest/review-1750983

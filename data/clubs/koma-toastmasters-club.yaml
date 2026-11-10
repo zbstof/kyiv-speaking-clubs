@@ -1,0 +1,34 @@
+id: koma-toastmasters-club
+name: KOMA Toastmasters Club
+description: >-
+  Toastmasters club (#00005715); its listing links to the 'Toastmasters Ukrainian' Facebook page, so
+  it is likely Ukrainian-language.
+languages:
+  - uk
+format: offline
+location:
+  venue: >-
+    Art Village Cafe (current listing); earlier Центр української культури та мистецтва, вул.
+    Хорива, 19Б
+  address: вул. Набережно-Хрещатицька, 39
+  district: Подільський
+  metro: Поштова площа
+schedule:
+  - day: thu
+    time: "19:00"
+    frequency: weekly
+schedule_note: Thursdays 7:00 pm
+contacts:
+  - type: website
+    url: https://www.toastmasters.org/Find-a-Club/00005715-koma
+  - type: facebook
+    url: https://www.facebook.com/ToastmastersUkrainian
+organizer: KOMA club (Toastmasters International)
+status: unknown
+first_seen: "2003-02-12"
+last_seen: "2026"
+sources:
+  - https://www.toastmasters.org/Find-a-Club/00005715-koma
+notes: >-
+  Charter date 2003-02-12. Outside the English slice if Ukrainian-language (language not stated on
+  listing). 'last_seen' is the date the live listing was read, not a dated meeting.

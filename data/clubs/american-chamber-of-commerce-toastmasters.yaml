@@ -1,0 +1,26 @@
+id: american-chamber-of-commerce-toastmasters
+name: American Chamber of Commerce Toastmasters
+description: Toastmasters club for English-speaking professionals.
+languages:
+  - en
+format: offline
+location:
+  venue: Microsoft Ukraine office
+  address: вул. Жилянська, 75, 4 поверх
+  district: Голосіївський
+  metro: Вокзальна
+schedule:
+  - day: wed
+    time: "19:30"
+    frequency: weekly
+schedule_note: Wednesdays 7:30 p.m.
+contacts:
+  - type: website
+    url: http://chambertoastmasters.org
+organizer: American Chamber of Commerce in Ukraine
+status: unknown
+first_seen: "2010-04-08"
+last_seen: "2010-04-08"
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

@@ -1,0 +1,41 @@
+id: american-library-kyiv-english-speaking-club
+name: American Library Kyiv — English Speaking Club
+description: >-
+  Free weekly English speaking club at the American Library (department of the NaUKMA library);
+  topics from art and debates to relationships.
+languages:
+  - en
+levels:
+  - any
+format: offline
+location:
+  venue: American Library, NaUKMA, building 4, room 116
+  address: вул. Волоська, 8/5
+  district: Подільський
+  metro: Контрактова площа
+schedule:
+  - day: fri
+    time: "17:00"
+    duration_min: 120
+    frequency: weekly
+schedule_note: Fridays 17:00–19:00 (2016–2017); Thursdays 16:30 (2014)
+price:
+  free: true
+registration: none
+contacts:
+  - type: website
+    url: https://al.ukma.edu.ua/
+  - type: website
+    url: https://americanlibrarykyiv.blogspot.com/
+organizer: American Library Kyiv (NaUKMA); moderator Michael Kuzko
+status: unknown
+first_seen: "2014"
+last_seen: "2017"
+sources:
+  - https://al.ukma.edu.ua/aboutal/news/1073-english-speaking-club-each-friday
+  - https://al.ukma.edu.ua/aboutal/news/941-english-speaking-club-a-language-or-a-skill-2017
+  - https://al.ukma.edu.ua/aboutal/news/854-english-speaking-club-october-7
+  - https://americanlibrarykyiv.blogspot.com/2016/06
+  - >-
+    https://archive.kyivpost.com/article/guide/about-kyiv/three-english-language-libraries-to-visit-in-kyiv-406415.html
+notes: No age restriction.

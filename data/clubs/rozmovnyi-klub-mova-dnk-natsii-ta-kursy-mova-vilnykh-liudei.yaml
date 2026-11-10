@@ -1,0 +1,32 @@
+id: rozmovnyi-klub-mova-dnk-natsii-ta-kursy-mova-vilnykh-liudei
+name: Розмовний клуб «Мова. ДНК нації» та курси «Мова вільних людей» (бібліотека ім. І. Шамо)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека сімейного читання ім. І. Шамо
+  address: вул. Героїв Севастополя, 22
+  district: Солом'янський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 455-21-41
+organizer: Бібліотека сімейного читання ім. І. Шамо
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified. Courses «Мова вільних людей»
+  run in partnership with charity foundation «Рокада». 2023: a «Єдині» conversation course at this
+  library.

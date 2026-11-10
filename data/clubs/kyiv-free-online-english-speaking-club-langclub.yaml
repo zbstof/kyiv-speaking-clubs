@@ -1,0 +1,20 @@
+id: kyiv-free-online-english-speaking-club-langclub
+name: Kyiv Free Online English Speaking Club (Langclub)
+description: Free online English speaking practice booked via langclub.live; Meetup group named for Kyiv.
+languages:
+  - en
+format: online
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://langclub.live/sessions
+organizer: Langclub (community manager 'Chloe', US English teacher)
+status: active
+last_seen: 2026-11
+sources:
+  - https://www.meetup.com/find/?location=ua--kyiv&source=GROUPS&keywords=language%20exchange
+notes: >-
+  708 members. Looks like a city-branded group of a global online service, not a Kyiv organizer; low
+  relevance.

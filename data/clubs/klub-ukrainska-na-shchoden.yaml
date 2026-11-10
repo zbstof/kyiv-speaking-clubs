@@ -1,0 +1,26 @@
+id: klub-ukrainska-na-shchoden
+name: Клуб «Українська на щодень»
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека ім. В. Яна
+  address: проспект Миру, 13
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 573-38-97
+organizer: Бібліотека ім. В. Яна
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

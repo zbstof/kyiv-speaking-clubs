@@ -1,0 +1,25 @@
+id: svoya-sorochka-toastmasters-club
+name: Svoya Sorochka Toastmasters Club
+description: >-
+  Toastmasters club (#03084412) in Kyiv; the name ('Своя сорочка') suggests a Ukrainian-language
+  club.
+languages:
+  - uk
+format: offline
+location:
+  address: вул. Межигірська, 3/7
+  district: Подільський
+  metro: Контрактова площа
+schedule:
+  - day: mon
+    time: "19:00"
+    frequency: weekly
+schedule_note: Mondays 19:00 (search snippet)
+organizer: Svoya Sorochka (Toastmasters International)
+status: unknown
+first_seen: "2013-07-08"
+sources:
+  - https://toastmasters.org/Find-a-Club/03084412-svoya-sorochka
+notes: >-
+  Charter 2013-07-08 per search snippet; the Toastmasters page now says 'couldn't find the club', so
+  it is probably closed. Language not verified.

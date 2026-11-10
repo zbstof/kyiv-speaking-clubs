@@ -1,0 +1,31 @@
+id: online-spanish-club-vamos-benjamin-z-millers-kyiv-group
+name: Online Spanish Club 'Vamos'! (Benjamin Z Miller's Kyiv Group)
+description: Online Spanish conversation club run by a Kyiv Meetup group for expats and Ukrainians.
+languages:
+  - es
+format: online
+schedule:
+  - day: sun
+    time: "17:00"
+    duration_min: 60
+    frequency: weekly
+schedule_note: Sun 5:00-6:00 PM EET (event on 2026-11-15)
+registration: required
+contacts:
+  - type: meetup
+    url: https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+organizer: >-
+  Benjamin Z Miller's Kyiv Group - for Expats & Ukrainians (Meetup); events branded 'Ideal
+  International'
+status: active
+first_seen: 2025-09
+last_seen: "2026-11-15"
+sources:
+  - >-
+    https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/events/317145351/
+  - https://www.meetup.com/find/ua--kyiv/networking/
+  - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
+  - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
+notes: >-
+  Meetup lists it as 'Every Sun'. Event details members-only. A search snippet showed the same event
+  on Sun Sep 14 (2025). Group has 773 members. Price not stated.

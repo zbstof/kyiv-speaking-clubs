@@ -1,0 +1,25 @@
+id: hurtok-mit-deutschland-im-herzen-borys-grinchenko-kyiv-metro
+name: Гурток «Mit Deutschland im Herzen» (Borys Grinchenko Kyiv Metropolitan University)
+description: >-
+  Student German area-studies circle: discussions, talks and round tables in German to build
+  communication skills; German as a second foreign language.
+languages:
+  - de
+format: online
+location:
+  venue: Zoom
+schedule:
+  - day: wed
+    frequency: monthly
+schedule_note: 2nd Wednesday of the month, on Zoom
+price:
+  free: true
+organizer: Кафедра германської філології КСУ ім. Бориса Грінченка (керівник Попова С.Г.)
+status: unknown
+first_seen: "2021-01-13"
+last_seen: "2021"
+sources:
+  - https://frgf.kubg.edu.ua/images/FRGF/Naukovi_hurtky/Linhvist_tsentr_hermanskykh_mov/Звіт.pdf
+notes: >-
+  For university students. Running since 13 January 2021 per the report of the Linguistic Centre of
+  Germanic Languages (report undated, about 2021-2022).

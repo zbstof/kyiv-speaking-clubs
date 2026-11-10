@@ -1,0 +1,21 @@
+id: kursy-polskoi-movy-po-polsku-polish-conversation-club
+name: "Курси польської мови PO POLSKU!: Polish conversation club"
+description: Paid language school in Kyiv that lists a Polish conversation club among its courses.
+languages:
+  - pl
+format: offline
+location:
+  venue: Курси польської мови PO POLSKU!
+  address: вул. Антоновича, 14-Б
+contacts:
+  - type: website
+    url: https://popolsku.org.ua/
+organizer: Курси польської мови PO POLSKU!
+status: unknown
+first_seen: "2017-12-11"
+last_seen: "2017-12-11"
+sources:
+  - https://osvita.ua/languages/courses/36889/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  11.12.2017). No schedule or format given. Phones on card: +38 (073) 044-88-58.

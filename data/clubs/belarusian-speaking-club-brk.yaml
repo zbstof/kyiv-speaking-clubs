@@ -1,0 +1,39 @@
+id: belarusian-speaking-club-brk
+name: Belarusian Speaking Club in Kyiv (Беларускі размоўны клуб, БРК)
+description: >-
+  Belarusian language speaking club in Kyiv; studied in a 2019 academic article as a model for
+  organizing speaking clubs; Hromadske Radio covered it in 2017 as a place to see what is similar
+  and different between Belarusians and Ukrainians.
+languages:
+  - be
+levels:
+  - any
+format: offline
+location:
+  venue: >-
+    Anticafe next to Kyiv-Mohyla Academy (first year: Center of Belarusian Language and Culture,
+    Institute of Philology, KNU)
+  district: Подільський
+  metro: Контрактова площа
+schedule:
+  - day: tue
+    frequency: biweekly
+schedule_note: Every other Tuesday
+organizer: Founder and moderator Andrii Buhai (Андрій Бугай), engineer
+status: unknown
+first_seen: "2009"
+last_seen: "2019-02-15"
+sources:
+  - >-
+    https://ijbg.uw.edu.pl/en/issues/2/history-and-practice-of-organizing-speaking-clubs-based-on-the-experience-of-the-belarusian-speaking-club-in-kyiv
+  - >-
+    https://api.publisphere.edu.pl/open/journal_article_files/019fb79e-d929-7183-b7c9-e08829a4e6f2/download?v=1
+  - >-
+    https://hromadske.radio/programs/kyiv-donbas/klub-biloruskoyi-movy-vkyyevi-dopomagaye-zrozumity-shozhe-i-vidminne-mizhdvoma-narodamy
+notes: >-
+  Article: Staravojtava & Teadarovich, 'Беларуская мова як замежная' 2/2018. Also cited: Hromadske
+  Radio piece 2017-05-04 'Клуб білоруської мови в Києві'. Article by Nadzieja Staravojtava and
+  Artsyom Teadarovich (IJBG, published 2019-02-15). Hromadske Radio page (2017) now returns 404.
+  Outside this slice (European language); recorded because found incidentally. Article authors:
+  Nadzieja Staravojtava, Artsyom Teadarovich (International Journal of Belarusian Studies, vol. 2,
+  2018, published 2019-02-15). Dates are the publication date, not club activity dates.

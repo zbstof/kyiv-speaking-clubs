@@ -1,0 +1,33 @@
+id: klub-zustrich-z-ukrainskoiu-ukrainski-posydenky-tsrb-im-p-ty
+name: Клуб «Зустріч з українською» / «Українські посиденьки» (ЦРБ ім. П. Тичини)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Центральна районна бібліотека ім. П. Тичини
+  address: вул. Митрополита Андрея Шептицького, 24
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 517-42-38
+organizer: Центральна районна бібліотека ім. П. Тичини
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+  - https://fs05.vseosvita.ua/o/0500xgo3-ad40.pdf
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified. 2023 list: «Розмовний клуб
+  української мови». A Sept 2023 conference paper names the club «Українські посиденьки», founded by
+  poet and volunteer Olena Tatianchenko. Dec 2025 list: «Зустріч з українською».

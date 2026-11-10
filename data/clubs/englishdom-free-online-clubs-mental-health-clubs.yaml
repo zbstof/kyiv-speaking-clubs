@@ -1,0 +1,23 @@
+id: englishdom-free-online-clubs-mental-health-clubs
+name: Englishdom free online clubs (Mental Health clubs)
+description: >-
+  Free online English conversation clubs by Englishdom on Zoom with a teacher; topic chosen by
+  Instagram vote.
+languages:
+  - en
+format: online
+schedule:
+  - day: wed
+    time: "19:00"
+    frequency: weekly
+schedule_note: Wednesdays 19:00
+price:
+  free: true
+registration: required
+organizer: Englishdom
+status: unknown
+first_seen: 2025-06
+last_seen: "2025-06-11"
+sources:
+  - https://dou.ua/calendar/53781/
+notes: Online only; Englishdom is a Kyiv-founded online school.

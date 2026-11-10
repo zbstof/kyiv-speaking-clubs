@@ -1,0 +1,27 @@
+id: rozmovnyi-klub-budu-ia-navchatys-movy-zolotoi
+name: Розмовний клуб «Буду я навчатись мови золотої»
+description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Бібліотека ім. М. Трублаїні для дітей
+  address: бульвар Марії Приймаченко, 7
+  district: Печерський
+price:
+  free: true
+organizer: Бібліотека ім. М. Трублаїні для дітей
+status: unknown
+first_seen: 2023-08
+last_seen: "2023-08-17"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+notes: >-
+  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+  list. The lists give no meeting times. District inferred from the address, not verified. Not in
+  the Dec 2025 list.

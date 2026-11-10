@@ -1,0 +1,32 @@
+id: english-mafia-with-international-mafia-club
+name: English Mafia with International Mafia Club
+description: Weekly Mafia game evenings in English.
+languages:
+  - en
+format: offline
+location:
+  venue: Near FORA supermarket; also 'Petit Paris' school near Мінська
+  address: вул. Тимошенка, 19
+  district: Оболонський
+  metro: Мінська
+schedule:
+  - day: sun
+    time: "18:00"
+    duration_min: 300
+    frequency: weekly
+schedule_note: Sundays 18:00–23:00 (2016)
+price:
+  free: false
+  amount: 30 грн per game or 70 грн per evening
+registration: none
+organizer: International Mafia Club (contact Oxana, as listed)
+status: unknown
+first_seen: "2016-02-07"
+last_seen: "2016-10-09"
+sources:
+  - https://dou.ua/calendar/9715/
+  - https://dou.ua/calendar/10992/
+  - https://dou.ua/calendar/11448/
+  - https://dou.ua/calendar/12202/
+  - https://dou.ua/calendar/12653/
+notes: Game format rather than a classic speaking club.

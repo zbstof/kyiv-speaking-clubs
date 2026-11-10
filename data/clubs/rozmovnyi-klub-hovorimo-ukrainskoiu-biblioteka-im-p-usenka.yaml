@@ -1,0 +1,34 @@
+id: rozmovnyi-klub-hovorimo-ukrainskoiu-biblioteka-im-p-usenka
+name: Розмовний клуб «Говорімо українською» (бібліотека ім. П. Усенка)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека ім. П. Усенка для дітей
+  address: вул. Івана Миколайчука, 7
+  district: Дніпровський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 295-07-15
+organizer: Бібліотека ім. П. Усенка для дітей
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+  - https://fs05.vseosvita.ua/o/0500xgo3-ad40.pdf
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified. For children and adults.
+  Organiser and moderator: Olha Maksymenko (sociologist, Institute of Sociology NASU), per her Sept
+  2023 conference paper; each session has a published lesson plan; topics include Crimean Tatar
+  history. Also runs practicum «Наша мова — українська».

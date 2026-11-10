@@ -1,0 +1,21 @@
+id: dante-alihieri-italian-conversation-club
+name: "Данте Аліг'єрі: Italian conversation club"
+description: Paid language school in Kyiv that lists a Italian conversation club among its courses.
+languages:
+  - it
+format: offline
+location:
+  venue: Данте Аліг'єрі
+  address: вул. Червоноармійська (Велика Васильківська), 71
+contacts:
+  - type: website
+    url: http://www.ladante.com.ua
+organizer: Данте Аліг'єрі
+status: unknown
+first_seen: "2013-08-29"
+last_seen: "2013-08-29"
+sources:
+  - https://osvita.ua/languages/courses/18007/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  29.08.2013). No schedule or format given. Phones on card: (044) 221-42-12.

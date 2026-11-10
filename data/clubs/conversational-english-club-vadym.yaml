@@ -1,0 +1,13 @@
+id: conversational-english-club-vadym
+name: Conversational English club (Vadym)
+description: Thematic English discussions at weekends.
+languages:
+  - en
+format: offline
+schedule_note: Weekends (2010)
+organizer: Vadym
+status: unknown
+first_seen: 2010-04
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html

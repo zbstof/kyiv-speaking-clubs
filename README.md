@@ -98,4 +98,12 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 
 ## Bulk import
 
-`node scripts/import-research.mjs a.yaml b.yaml` reads lists of research records, merges duplicates (same name or same contact URL) and writes new club files. Existing files are kept unless you pass `--force`. Research records use the club fields above, plus `status_guess` (`active` | `likely_closed` | `unknown`) instead of `status`.
+`node scripts/import-research.mjs a.yaml b.yaml` reads lists of research records, merges records with the same name and writes new club files. Existing files are kept unless you pass `--force`. Research records use the club fields above, plus `status_guess` (`active` | `likely_closed` | `unknown`) instead of `status`.
+
+`node scripts/merge-clubs.mjs <keep-id> <dup-id>... [--id new-id]` merges duplicate club files into one. It keeps the first club's fields, fills gaps from the others, joins languages, contacts and sources, and deletes the duplicates.
+
+## Spam protection
+
+- The Worker accepts at most 5 suggestions per minute from one IP address (Workers rate limiting binding `LIMITER` in `worker/wrangler.toml`).
+- Turnstile is checked only when `TURNSTILE_SECRET` is set on the Worker and `turnstileSiteKey` is set in `site/config.js`.
+- Nothing is published without a merge, so spam costs you closing pull requests, not a broken page.

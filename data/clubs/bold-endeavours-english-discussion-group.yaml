@@ -1,0 +1,24 @@
+id: bold-endeavours-english-discussion-group
+name: Bold Endeavours English discussion group
+description: "Monthly English discussion group (topic in 2010: internet marketing)."
+languages:
+  - en
+format: offline
+schedule:
+  - day: sat
+    time: "12:00"
+    frequency: monthly
+schedule_note: First Saturday of each month, noon (2010)
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: http://bold.com.ua
+organizer: Bold Endeavours
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

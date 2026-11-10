@@ -1,0 +1,23 @@
+id: hutirka-klub-biblioteka-na-priortsi-dlia-ditei
+name: «Гутірка - клуб» (бібліотека на Пріорці для дітей)
+description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+languages:
+  - uk
+levels:
+  - any
+format: offline
+location:
+  venue: Бібліотека на Пріорці для дітей
+  address: вул. Вишгородська, 38
+  district: Подільський
+price:
+  free: true
+organizer: Бібліотека на Пріорці для дітей
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

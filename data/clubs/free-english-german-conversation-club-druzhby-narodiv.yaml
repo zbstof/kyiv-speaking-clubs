@@ -1,0 +1,27 @@
+id: free-english-german-conversation-club-druzhby-narodiv
+name: Free English/German conversation club (Druzhby Narodiv)
+description: Free English and German conversation club open to everyone.
+languages:
+  - en
+  - de
+levels:
+  - any
+format: offline
+location:
+  address: бульв. Дружби Народів, 18/7, офіс 3
+  district: Печерський
+  metro: Дружби народів
+schedule:
+  - day: sun
+    frequency: weekly
+schedule_note: Sundays (2010)
+price:
+  free: true
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: >-
+  Phone in source: 529-75-77 (Kyiv landline). Listed in Kyiv Post 'Community listings' bulletin
+  board, 2010-04-08.

@@ -1,0 +1,23 @@
+id: ve-are-meeting-english-discussion-club
+name: Ve aRe meeting — English discussion club
+description: >-
+  Weekly English discussion/brainstorm club on virtual reality for tech students (KPI, KNU, NaUKMA)
+  and others; entry by Skype interview.
+languages:
+  - en
+format: offline
+location:
+  venue: Room arranged with KNU administration (tentative)
+schedule_note: Weekly, March–June 2017
+price:
+  free: true
+registration: required
+contacts:
+  - type: other
+    url: https://vk.com/ve_are_meeting
+organizer: Ve aRe meeting (student initiative)
+status: unknown
+first_seen: "2017-02-01"
+last_seen: "2017-02-01"
+sources:
+  - https://dou.ua/calendar/13730/

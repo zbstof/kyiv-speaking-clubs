@@ -1,0 +1,31 @@
+id: japanese-conversation-club-school-of-oriental-languages-and
+name: >-
+  Japanese conversation club, School of Oriental Languages and Culture (Школа східних мов та
+  культури, ШСМК)
+description: >-
+  Private school teaching 8 Eastern languages (Japanese, Chinese, Korean, Arabic, Turkish, Farsi,
+  Hindi, Indonesian). Lists a Japanese conversation club; the school site also mentions speaking
+  clubs and master classes in general.
+languages:
+  - ja
+format: hybrid
+location:
+  venue: Школа східних мов та культури
+  address: бульв. Тараса Шевченка, 1-Б, офіс 12-А
+  district: Шевченківський
+schedule_note: Not published; administrator Mon-Fri 12:00-19:30, Sat 10:00-17:30
+contacts:
+  - type: website
+    url: https://www.shid.com.ua/
+  - type: telegram
+    url: https://t.me/schoooflorientallculture
+organizer: Школа східних мов та культури
+status: active
+first_seen: "2010"
+last_seen: "2026-07-31"
+sources:
+  - https://osvita.ua/languages/courses/37590/
+  - https://www.shid.com.ua/
+notes: >-
+  School works in Kyiv since 2010 per osvita.ua. 2026-07-31 is the osvita.ua listing update date,
+  not proof that the club meets. Clubs may exist for other Eastern languages too (not confirmed).

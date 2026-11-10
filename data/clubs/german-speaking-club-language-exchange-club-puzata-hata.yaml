@@ -1,0 +1,37 @@
+id: german-speaking-club-language-exchange-club-puzata-hata
+name: German speaking club (Language Exchange Club, Puzata Hata)
+description: >-
+  Free German conversation club for beginners and people shy to speak with native speakers; part of
+  the Language Exchange Club community.
+languages:
+  - de
+levels:
+  - A1
+  - A2
+  - B1
+format: offline
+location:
+  venue: Puzata Hata restaurant
+  address: вул. Велика Васильківська, 40
+  district: Голосіївський
+  metro: Палац спорту / Площа Льва Толстого
+schedule:
+  - day: wed
+    time: "19:00"
+    frequency: weekly
+schedule_note: Wednesday, 7 p.m.
+price:
+  free: true
+registration: none
+contacts:
+  - type: facebook
+    url: https://www.facebook.com/groups/82542151162
+organizer: Language Exchange Club community
+status: unknown
+first_seen: 2009-05
+last_seen: "2017-09-29"
+sources:
+  - https://www.kyivpost.com/lifestyle/language-unites-ukrainians-germans-meet-weekly.html
+notes: >-
+  Founded May 2009 by the Language Exchange Club community, which coordinated many speaking clubs
+  around Kyiv.

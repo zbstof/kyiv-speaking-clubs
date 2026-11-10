@@ -1,0 +1,40 @@
+id: in-english-community-mafia-in-english-alias-in-english
+name: In English community — Mafia In English / Alias In English
+description: >-
+  English-only social game nights (Mafia, Alias) for practising spoken English; native speakers play
+  free.
+languages:
+  - en
+format: offline
+location:
+  venue: L'Kafa Cafe (Mafia); Циферблат (Alias)
+  address: бульв. Лесі Українки, 2 (L'Kafa); вул. Володимирська, 49А (Циферблат)
+  district: Печерський
+  metro: Кловська
+schedule:
+  - day: fri
+    time: "19:00"
+    frequency: weekly
+schedule_note: >-
+  Mafia In English: Fridays from 19:00 'till the last survivor' (2016); Alias In English: Tue
+  2017-11-14 19:00–22:30
+price:
+  free: false
+  amount: 20–30 грн per game, 50–70 грн per evening; Alias 50 грн + venue fee
+registration: none
+contacts:
+  - type: telegram
+    url: https://t.me/inenglishclub
+  - type: facebook
+    url: https://m.me/inenglish.community
+organizer: In English community (contact Oleksandr Kyetov, as listed)
+status: unknown
+first_seen: "2016-09-02"
+last_seen: "2017-11-25"
+sources:
+  - https://dou.ua/calendar/12043/
+  - https://dou.ua/calendar/12394/
+  - https://dou.ua/calendar/13147/
+  - https://dou.ua/calendar/18562/
+  - https://dou.ua/calendar/18747/
+notes: Game format rather than a classic speaking club.

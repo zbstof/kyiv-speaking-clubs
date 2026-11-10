@@ -1,0 +1,26 @@
+id: english-conversation-club-irpenska-st-english-in-ua
+name: English conversation club, Irpenska St. (english.in.ua)
+description: Friday English conversation club with native speakers.
+languages:
+  - en
+format: offline
+location:
+  address: вул. Ірпінська, 76, оф. 31
+  district: Святошинський
+  metro: Академмістечко
+schedule:
+  - day: fri
+    time: "19:00"
+    frequency: weekly
+schedule_note: Fridays 7 p.m.
+contacts:
+  - type: website
+    url: http://english.in.ua
+status: unknown
+first_seen: "2010-04-08"
+last_seen: "2010-04-08"
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: >-
+  Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. May be the same organizer as
+  'English Language Center free international conversation club'.

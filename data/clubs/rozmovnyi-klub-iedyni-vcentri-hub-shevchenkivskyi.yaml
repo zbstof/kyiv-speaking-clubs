@@ -1,0 +1,44 @@
+id: rozmovnyi-klub-iedyni-vcentri-hub-shevchenkivskyi
+name: Розмовний клуб «Єдині» — Vcentri HUB Шевченківський
+description: >-
+  Free Ukrainian conversation club of the «Єдині» project (initiative «Навчай українською») at the
+  city community space Vcentri HUB.
+languages:
+  - uk
+format: offline
+location:
+  venue: Громадський простір Vcentri HUB Шевченківський
+  address: вул. Володимирська, 51-Б
+  district: Шевченківський
+schedule:
+  - day: fri
+    time: "17:30"
+    duration_min: 90
+    frequency: weekly
+schedule_note: >-
+  Fri 3 Mar 2023 17:30-19:00; Fri 12 May 2023 17:30-19:00; Fri 9 Aug 2024 18:00-19:00 (KMDA weekly
+  digests).
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://yedyni.org/
+  - type: phone
+    url: "+380509270544"
+organizer: >-
+  Україномовний проєкт «Єдині»; КНП «Центр комунікації»; ГО «Українська гуманітарна платформа»
+  (2024)
+status: unknown
+first_seen: "2023-03-03"
+last_seen: "2024-08-09"
+sources:
+  - >-
+    https://kyivcity.gov.ua/news/psikhologichni_konsultatsi_movni_ta_bezpekovi_treningi_podi_i_zakhodi_yaki_vidbuvatimutsya_u_Vcentri_HUB_iz_27_lyutogo_do_5_bereznya/
+  - >-
+    https://kyivcity.gov.ua/news/Vcentri_HUB_iz_8_do_14_travnya_zaproshuye_na_navchannya_z_taktichno_meditsini_shashkovi_trenuvannya_rozmovni_klubi_ta_tvorchi_zakhodi/
+  - >-
+    https://kyivcity.gov.ua/news/iz_5_do_11_serpnya_u_Vcentri_HUB_zaplanovani_rozmovniy_klub_lektsiya_den_donora_ta_kesh-flou_dlya_pidlitkiv/
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+notes: Weekly event digests of Vcentri HUB published on kyivcity.gov.ua.

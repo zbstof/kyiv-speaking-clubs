@@ -1,0 +1,52 @@
+id: it-skills-english-club-it-english-club-english4qa
+name: IT Skills English club / IT English club (english4qa)
+description: >-
+  Free English speaking club for IT people and newcomers to IT: themed discussions, games
+  ('Scrumathon', 'Interview or be interviewed', 'Negotiations in IT', 'GitHub-mafia'). Same contact
+  phone across all listings.
+languages:
+  - en
+format: offline
+location:
+  venue: Café Олів'є (2017–2018); café on 5th floor of ТРЦ Гуллівер (2016); near Шулявська (early 2016)
+  address: вул. Богдана Хмельницького, 16-22 (Олів'є)
+  district: Шевченківський
+  metro: Театральна
+schedule:
+  - day: sun
+    frequency: irregular
+schedule_note: >-
+  Roughly weekly, weekends or weekday evenings; e.g. Sun 2016-01-17 11:30, Tue 2016-09-20 19:00, Sun
+  2017-04-02 18:00–21:00, Sat 2018-01-27 18:00
+price:
+  free: true
+registration: required
+contacts:
+  - type: facebook
+    url: https://www.facebook.com/groups/english4qa
+organizer: IT Skills English club (contact Vitaliy, as listed on DOU)
+status: unknown
+first_seen: "2016-01-02"
+last_seen: "2018-07-29"
+sources:
+  - https://dou.ua/calendar/9401/
+  - https://dou.ua/calendar/9504/
+  - https://dou.ua/calendar/9785/
+  - https://dou.ua/calendar/12362/
+  - https://dou.ua/calendar/12177/
+  - https://dou.ua/calendar/12548/
+  - https://dou.ua/calendar/12690/
+  - https://dou.ua/calendar/14959/
+  - https://dou.ua/calendar/15090/
+  - https://dou.ua/calendar/15160/
+  - https://dou.ua/calendar/15289/
+  - https://dou.ua/calendar/15423/
+  - https://dou.ua/calendar/15495/
+  - https://dou.ua/calendar/17530/
+  - https://dou.ua/calendar/19146/
+  - https://dou.ua/calendar/19514/
+  - https://dou.ua/calendar/22479/
+notes: >-
+  Dozens of DOU listings 2016–2018 (archive pages 26–37 of tag 'English'). Grouped as one club by
+  the shared phone number; the 2018-07-29 'English Club: sysadmin, devops, developer' (address sent
+  after registration) is attributed to it by style only (not verified).

@@ -1,0 +1,23 @@
+id: movno-dyskusiinyi-klub-biblioteka-na-mezhyhirskii
+name: Мовно-дискусійний клуб (бібліотека на Межигірській)
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека на Межигірській
+  address: вул. Межигірська, 25
+  district: Подільський
+price:
+  free: true
+organizer: Бібліотека на Межигірській
+status: unknown
+first_seen: 2025-12
+last_seen: "2025-12-01"
+sources:
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+  times. District inferred from the address, not verified.

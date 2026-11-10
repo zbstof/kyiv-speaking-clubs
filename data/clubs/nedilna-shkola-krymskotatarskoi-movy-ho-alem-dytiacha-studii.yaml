@@ -1,0 +1,28 @@
+id: nedilna-shkola-krymskotatarskoi-movy-ho-alem-dytiacha-studii
+name: Недільна школа кримськотатарської мови ГО «Алем» / дитяча студія «Фідан»
+description: >-
+  Sunday school in Kyiv for children to learn Crimean Tatar language, history and culture (studio
+  «Фідан»); interactive lessons and excursions. Closest Crimean Tatar language-practice group found
+  in Kyiv; not a speaking club for adults.
+languages:
+  - crh
+levels:
+  - any
+format: offline
+location:
+  venue: Таврійський національний університет ім. В. І. Вернадського (у Києві)
+schedule:
+  - day: sun
+    frequency: weekly
+schedule_note: Sundays; new academic year opened Oct 2019.
+organizer: Кримськотатарська ГО «Алем» (голова правління Есма Аджиєва)
+status: unknown
+first_seen: "2019-10-29"
+last_seen: "2019-10-29"
+sources:
+  - >-
+    https://www.ukrinform.ua/rubric-crimea/2807554-nedilna-skola-v-kievi-de-vivcaut-krimskotatarsku-movu-pocala-navcalnij-rik.html
+notes: >-
+  Language code crh = Crimean Tatar (ISO 639-3; no ISO 639-1 code). No Crimean Tatar speaking club
+  for adults in Kyiv was found. Related: NaUKMA offers Crimean Tatar as an elective from 2025/26;
+  KNU has had a Crimean Tatar language and literature programme since 2014 (courses, not clubs).

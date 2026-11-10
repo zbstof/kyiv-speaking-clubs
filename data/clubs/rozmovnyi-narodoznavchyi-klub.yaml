@@ -1,0 +1,30 @@
+id: rozmovnyi-narodoznavchyi-klub
+name: Розмовний народознавчий клуб
+description: >-
+  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+  improving it.
+languages:
+  - uk
+format: offline
+location:
+  venue: Бібліотека сімейного читання ім. О. Гончара
+  address: вул. Миколи Шепелєва, 13
+  district: Солом'янський
+price:
+  free: true
+contacts:
+  - type: phone
+    url: (044) 404-63-31
+organizer: Бібліотека сімейного читання ім. О. Гончара
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-12-01"
+sources:
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+  - >-
+    https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
+  - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
+notes: >-
+  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+  no meeting times. District inferred from the address, not verified.

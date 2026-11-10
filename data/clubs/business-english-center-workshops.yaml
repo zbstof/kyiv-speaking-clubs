@@ -1,0 +1,21 @@
+id: business-english-center-workshops
+name: Business-English Center workshops
+description: Business English skills workshops on Sundays.
+languages:
+  - en
+format: offline
+schedule:
+  - day: sun
+    time: "15:00"
+    frequency: weekly
+schedule_note: Sundays 3 p.m. (2010)
+contacts:
+  - type: website
+    url: http://etcentre.com.ua
+organizer: Business-English Center
+status: unknown
+first_seen: "2010-04-08"
+last_seen: 2010-04
+sources:
+  - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

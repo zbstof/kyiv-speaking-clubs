@@ -1,0 +1,21 @@
+id: frankofonnyi-tsentr-linhvatus-french-conversation-club
+name: "Франкофонний центр «Лінгватус»: French conversation club"
+description: Paid language school in Kyiv that lists a French conversation club among its courses.
+languages:
+  - fr
+format: offline
+location:
+  venue: Франкофонний центр «Лінгватус»
+  address: вул. Шота Руставелі, 15А, офіс 3
+contacts:
+  - type: website
+    url: http://linguatus.com.ua
+organizer: Франкофонний центр «Лінгватус»
+status: unknown
+first_seen: "2013-05-31"
+last_seen: "2013-05-31"
+sources:
+  - https://osvita.ua/languages/courses/17948/
+notes: >-
+  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
+  31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.

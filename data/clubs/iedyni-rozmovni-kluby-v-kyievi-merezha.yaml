@@ -1,0 +1,37 @@
+id: iedyni-rozmovni-kluby-v-kyievi-merezha
+name: «Єдині» — розмовні клуби в Києві (мережа)
+description: >-
+  Umbrella record for the «Єдині» movement: free 28-day online courses for switching to Ukrainian
+  plus offline conversation clubs. In July 2022 the language ombudsman listed 10 Kyiv locations of
+  the «Єдині» club of ГО «Навчай українською». Partners included the Kyiv Department of Youth and
+  Sport and the support centre «Я – Маріуполь».
+languages:
+  - uk
+levels:
+  - any
+format: hybrid
+price:
+  free: true
+registration: required
+contacts:
+  - type: website
+    url: https://yedyni.org/
+  - type: phone
+    url: "+380509270544"
+organizer: Всеукраїнський проєкт «Єдині» (ініціатива / ГО «Навчай українською»)
+status: unknown
+first_seen: 2022-07
+last_seen: "2024-08-09"
+sources:
+  - https://life.pravda.com.ua/society/2022/07/28/249767/
+  - https://kyivcity.gov.ua/news/News_4_veresnya_startuye_17-y_kurs_iz_perekhodu_na_ukransku_yedini/
+  - >-
+    https://texty.org.ua/articles/107339/perejty-na-ukrayinsku-za-28-dniv-jak-rosijskomovni-ukrayintsi-vidmovljajutsja-vid-rosijskoyi/
+  - >-
+    https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
+notes: >-
+  Life.pravda (28 Jul 2022, from ombudsman Taras Kremin's list): Kyiv had only 3 entries -
+  Duolingo-based course for English speakers (European University), Avramenko video lessons, and the
+  «Єдині» club with 10 locations. KMDA (1 Sep 2023): 17th course starts 4 Sep 2023; clubs in 28
+  cities. Individual Kyiv locations are listed as separate records. The yedyni.org site (checked Nov
+  2026) lists no Kyiv club addresses; its last listed past event is 19 Dec 2024.

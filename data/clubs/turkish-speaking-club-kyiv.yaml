@@ -1,0 +1,28 @@
+id: turkish-speaking-club-kyiv
+name: Turkish speaking club
+description: Розмовний клуб турецької для рівня A1 і вище.
+languages:
+  - tr
+levels:
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+format: offline
+location:
+  venue: Кафе «Krendel»
+  address: вул. Хрещатик
+  metro: Хрещатик
+  lat: 50.447187
+  lon: 30.522946
+  geocoded: true
+  near_metro: true
+schedule_note: Щотижневі теми (квітень–травень 2024).
+contacts:
+  - type: telegram
+    url: https://t.me/turkishspeakingclubkyiv
+status: unknown
+first_seen: 2024-04
+last_seen: "2024-05-12"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

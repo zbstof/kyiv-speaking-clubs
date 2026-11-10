@@ -1,0 +1,25 @@
+id: cat-speaking-club
+name: Speaking Club “CAT” (Come And Talk)
+description: Розмовний клуб англійської в бібліотеці на Лівому березі.
+languages:
+  - en
+format: offline
+location:
+  venue: Бібліотека ім. Миколи Куліша
+  address: вул. Бориса Мартоса, 4Б
+  metro: Лівобережна
+  lat: 50.446973
+  lon: 30.599468
+  geocoded: true
+schedule:
+  - day: sun
+    frequency: biweekly
+    format: offline
+schedule_note: Раз на два тижні в неділю; з вересня 2025 — нерегулярно.
+contacts:
+  - type: telegram
+    url: https://t.me/catspeakingclub
+status: unknown
+first_seen: 2025-05
+last_seen: "2025-09-14"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

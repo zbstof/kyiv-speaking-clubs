@@ -1,0 +1,28 @@
+id: fayna-speaking-club
+name: Fayna Speaking Club (Thepeach.eng)
+description: Клуб для тих, хто тільки починає говорити англійською (A2–B1), з викладачем.
+languages:
+  - en
+levels:
+  - A2
+  - B1
+format: offline
+location:
+  venue: Кавʼярня «Cactus»
+schedule:
+  - day: sat
+    time: "18:00"
+    frequency: irregular
+    format: offline
+schedule_note: Окремі зустрічі в суботу о 18:00 (листопад 2025).
+price:
+  free: false
+  amount: Донат 400 грн на допомогу пораненим
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група
+status: unknown
+first_seen: 2025-10
+last_seen: "2025-11-22"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

@@ -1,0 +1,25 @@
+id: pets-and-talks-english-club
+name: Pets and Talks English Speaking Club
+description: Розмовний клуб англійської в центрі Patron з тваринами поруч.
+languages:
+  - en
+format: offline
+location:
+  venue: Центр Patron
+  address: просп. Академіка Глушкова, 1
+  lat: 50.376873
+  lon: 30.474972
+  geocoded: true
+schedule:
+  - day: sun
+    time: "15:00"
+    frequency: weekly
+    format: offline
+schedule_note: Щонеділі о 15:00 (за анонсом листопада 2024).
+price:
+  free: false
+  amount: Донат, рекомендовано 100 грн
+status: unknown
+first_seen: 2024-11
+last_seen: "2024-11-28"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

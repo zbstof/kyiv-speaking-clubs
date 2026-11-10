@@ -1,0 +1,30 @@
+id: chinese-speaking-club-khreshchatyk
+name: Офлайн-клуб китайської мови
+description: Безкоштовний розмовний клуб китайської (中文口语俱乐部).
+languages:
+  - zh
+format: offline
+location:
+  venue: Пузата Хата
+  address: вул. Хрещатик, 15/4-А
+  metro: Хрещатик
+  lat: 50.447187
+  lon: 30.522946
+  geocoded: true
+  near_metro: true
+schedule:
+  - day: sat
+    time: "13:00"
+    frequency: irregular
+    format: offline
+schedule_note: Зустрічі в суботу об 13:00 (грудень 2023); пізніше — за анонсами в групі.
+price:
+  free: true
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група; запрошення в організаторки
+status: unknown
+first_seen: 2023-12
+last_seen: 2025-01
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

@@ -1,0 +1,18 @@
+id: international-movie-club-proenglish
+name: International Movie club
+description: Кіноклуб англійською.
+languages:
+  - en
+format: offline
+location:
+  venue: ProEnglish Theatre
+schedule:
+  - day: tue
+    time: "19:00"
+    frequency: weekly
+    format: offline
+schedule_note: Вівторок 19:00 (за переліком клубів, червень 2023).
+status: unknown
+first_seen: 2023-06
+last_seen: "2023-06-30"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

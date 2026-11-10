@@ -9,15 +9,22 @@ location:
   lat: 50.455772
   lon: 30.522897
   geocoded: true
-schedule_note: Weekly
+schedule:
+  - day: wed
+    frequency: weekly
+    format: offline
+schedule_note: Щосереди зустріч Couchsurfing; час і місце — у групі.
 price:
   free: true
-status: unknown
-last_seen: 2026-05
+contacts:
+  - type: telegram
+    url: https://t.me/CouchsurfingKyiv
+status: active
+last_seen: "2026-11-09"
 sources:
   - https://reddit.sentinel-team.org/posts/1t53th1/snapshots/2026-05-09T02%3A17%3A47.694395Z
   - https://archive.kyivpost.com/lifestyle/meet-ukraines-ambassadors-at-couchsurfingcom-79067.html
 notes: >-
   Single Reddit comment (2026 snapshot) says it 'used to' meet at Sao Miguel; not verified; a social
   meetup with language exchange as a side activity. 2010 Kyiv Post: Couchsurfing/Hospitality Club
-  hosts offered coffee and language exchange.
+  hosts offered coffee and language exchange. Публічна група, понад 800 учасників.

@@ -1,0 +1,22 @@
+id: nyvky-speaking-club
+name: Nivki speaking club
+description: Розмовний клуб англійської на Нивках.
+languages:
+  - en
+format: offline
+location:
+  address: вул. Данила Щербаківського, 5
+  metro: Нивки
+  lat: 50.460786
+  lon: 30.405386
+  geocoded: true
+schedule:
+  - day: fri
+    time: "17:00"
+    frequency: weekly
+    format: offline
+schedule_note: Пʼятниця 17:00 (за переліком клубів, червень 2023).
+status: unknown
+first_seen: 2023-06
+last_seen: "2023-06-30"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

@@ -1,0 +1,24 @@
+id: walk-n-talk-mondays
+name: Walk ’n’ Talk Mondays
+description: Розмови англійською на прогулянці просто неба.
+languages:
+  - en
+format: offline
+location:
+  venue: Парк Шевченка
+  metro: Університет
+  lat: 50.441908
+  lon: 30.513242
+  geocoded: true
+schedule:
+  - day: mon
+    time: "18:30"
+    frequency: weekly
+    format: offline
+schedule_note: Понеділок 18:30, у теплу пору року (травень–вересень 2025).
+price:
+  free: true
+status: unknown
+first_seen: 2025-05
+last_seen: "2025-09-15"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

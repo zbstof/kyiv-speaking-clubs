@@ -7,19 +7,20 @@ languages:
   - uk
 format: offline
 location:
-  address: вул. Межигірська, 3/7
-  metro: Контрактова площа
-  lat: 50.465557
-  lon: 30.516792
-  geocoded: true
+  venue: Українсько-данський дім
 schedule:
   - day: mon
     time: "19:00"
     frequency: weekly
-schedule_note: Mondays 19:00 (search snippet)
+    format: offline
+schedule_note: Щопонеділка о 19:00. Клуб ораторської майстерності українською.
+contacts:
+  - type: telegram
+    url: https://t.me/Svoya_Sorochka_Club
 organizer: Svoya Sorochka (Toastmasters International)
-status: unknown
+status: active
 first_seen: "2013-07-08"
+last_seen: "2026-11-09"
 sources:
   - https://toastmasters.org/Find-a-Club/03084412-svoya-sorochka
 notes: >-

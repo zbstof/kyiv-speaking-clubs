@@ -1,0 +1,28 @@
+id: speak-french-speak-life
+name: Speak french, speak life
+description: "Франкомовна спільнота: розмовні вечори, караоке французькою та інші події."
+languages:
+  - fr
+format: offline
+location:
+  venue: X Lounge
+  address: вул. Петра Сагайдачного, 31
+  metro: Поштова площа
+  lat: 50.461318
+  lon: 30.520958
+  geocoded: true
+schedule:
+  - day: thu
+    time: "18:00"
+    frequency: irregular
+    format: offline
+schedule_note: Події анонсують у групі; останнім часом — у четвер з 18:00 в X Lounge.
+contacts:
+  - type: telegram
+    url: https://t.me/SFrenchSLife
+status: active
+first_seen: 2025-11
+last_seen: "2026-11-10"
+sources:
+  - https://t.me/SFrenchSLife
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

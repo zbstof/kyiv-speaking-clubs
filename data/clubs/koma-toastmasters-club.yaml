@@ -19,16 +19,19 @@ schedule:
   - day: thu
     time: "19:00"
     frequency: weekly
-schedule_note: Thursdays 7:00 pm
+    format: offline
+schedule_note: Щочетверга о 19:00. Клуб ораторської майстерності українською.
 contacts:
   - type: website
     url: https://www.toastmasters.org/Find-a-Club/00005715-koma
   - type: facebook
     url: https://www.facebook.com/ToastmastersUkrainian
+  - type: telegram
+    url: https://t.me/koma_club
 organizer: KOMA club (Toastmasters International)
-status: unknown
+status: active
 first_seen: "2003-02-12"
-last_seen: "2026"
+last_seen: "2026-11-05"
 sources:
   - https://www.toastmasters.org/Find-a-Club/00005715-koma
 notes: Charter date 2003-02-12. 'last_seen' is the date the live listing was read, not a dated meeting.

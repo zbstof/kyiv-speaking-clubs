@@ -1,0 +1,26 @@
+id: ukrainian-speaking-club-kharms
+name: Розмовний клуб української мови
+description: Простір для практики розмовної української для всіх охочих.
+languages:
+  - uk
+format: offline
+location:
+  venue: Хармс
+  address: вул. Володимирська, 45А
+  metro: Золоті ворота
+  lat: 50.447971
+  lon: 30.515502
+  geocoded: true
+schedule:
+  - day: sun
+    time: "15:00"
+    frequency: weekly
+    format: offline
+schedule_note: Щонеділі о 15:00. Перша зустріч — у «Циферблаті» (серпень 2023).
+contacts:
+  - type: telegram
+    url: https://t.me/Ukrainian_speakingclub
+status: unknown
+first_seen: 2023-08
+last_seen: "2025-04-02"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

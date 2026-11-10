@@ -1,0 +1,31 @@
+id: meetup-group-kyiv-international
+name: Meetup group 🌍 (міжнародні зустрічі)
+description: >-
+  Соціальна група іноземців і українців у Києві: суботні зустрічі англійською в кафе, щоразу в
+  іншому (Первак, Чорноморка, 74 urbanfood, Breakfast Club та інші).
+languages:
+  - en
+format: offline
+schedule:
+  - day: sat
+    time: "15:00"
+    duration_min: 180
+    frequency: biweekly
+    format: offline
+schedule_note: >-
+  У 2023–2025 — приблизно раз на два тижні в суботу о 15:00; кафе оголошували в групі. Після квітня
+  2025 власних зустрічей не було, лише анонси інших подій.
+price:
+  free: true
+registration: optional
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група, понад 200 учасників; запрошення в учасників
+status: unknown
+first_seen: 2023-04
+last_seen: "2025-04-26"
+notes: >-
+  Telegram-група (папка «🗣️Київ»), прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень
+  2023 — квітень 2025, у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in English.
+  New friends», субота 15:00, кафе на Костянтинівській, 20.

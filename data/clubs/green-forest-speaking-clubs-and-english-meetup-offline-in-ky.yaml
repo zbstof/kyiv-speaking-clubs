@@ -14,8 +14,20 @@ location:
   venue: Green Forest branches (Позняки, Поділ, Шота Руставелі historically)
 schedule:
   - day: sun
+    time: "11:00"
     frequency: weekly
-schedule_note: English Sunday Online every Sunday; Kyiv meetups irregular
+    format: online
+  - day: sun
+    time: "13:00"
+    frequency: weekly
+    format: online
+  - day: sun
+    time: "15:00"
+    frequency: weekly
+    format: online
+schedule_note: >-
+  English Sunday Online: щонеділі в Zoom об 11:00, 13:00 і 15:00, безкоштовно, від 16 років. Також
+  Book Talk та офлайн-зустрічі.
 price:
   free: false
   amount: English Meetup Offline 250 грн; online clubs free
@@ -23,10 +35,12 @@ registration: required
 contacts:
   - type: website
     url: https://greenforest.com.ua
+  - type: telegram
+    url: https://t.me/english_sunday_greenforest
 organizer: Green Forest
-status: unknown
+status: active
 first_seen: "2013"
-last_seen: 2024-09
+last_seen: "2026-11-09"
 sources:
   - https://www.education.ua/blog/48918/
   - https://osvita.ua/languages/courses/17966/

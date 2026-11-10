@@ -1,0 +1,26 @@
+id: dlight-kyiv
+name: D’light Kyiv
+description: Англомовні дискусійні групи й події з носіями мови.
+languages:
+  - en
+format: offline
+location:
+  venue: Genesis Cafe
+  metro: Лук’янівська
+  lat: 50.457996
+  lon: 30.480595
+  geocoded: true
+schedule:
+  - day: tue
+    time: "18:45"
+    frequency: weekly
+    format: offline
+schedule_note: Вівторок 18:45 (тема вечора — у каналі). Бувають інші програми й події.
+contacts:
+  - type: telegram
+    url: https://t.me/kyivoflight
+status: active
+last_seen: "2026-11-10"
+sources:
+  - https://t.me/kyivoflight
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

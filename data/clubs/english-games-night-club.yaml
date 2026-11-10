@@ -1,0 +1,28 @@
+id: english-games-night-club
+name: English Games Night Club
+description: "Практика англійської через настільні ігри: Alias, Dixit, Codenames та інші."
+languages:
+  - en
+format: offline
+location:
+  venue: Арт-простір біля Золотих воріт
+  address: вул. Володимирська, 42
+  metro: Золоті ворота
+  lat: 50.448258
+  lon: 30.513882
+  geocoded: true
+schedule:
+  - day: wed
+    time: "18:00"
+    duration_min: 180
+    frequency: weekly
+    format: offline
+schedule_note: Щосереди 18:00–21:00, у просторі Psychology & Art Club.
+contacts:
+  - type: telegram
+    access: on_request
+    note: Закрита група; запрошення в організаторів Psychology & Art Club
+status: active
+first_seen: 2025-10
+last_seen: "2026-08-27"
+notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).

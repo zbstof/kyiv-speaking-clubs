@@ -124,6 +124,7 @@ dialog form { display: flex; flex-direction: column; max-height: calc(100vh - 34
 .field small { color: var(--muted); font-size: 13px; }
 .field input, .field select, .field textarea { width: 100%; min-width: 0; }
 .field textarea { min-height: 70px; resize: vertical; }
+.field input:disabled { background: var(--chip); color: var(--muted); cursor: not-allowed; opacity: .6; }
 .grid2 { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
 @media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } }
 fieldset { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 0; min-width: 0; }

@@ -231,6 +231,20 @@
     return null;
   }
 
+  // Escapes text and turns web addresses and Telegram @nicknames into links.
+  // "@" right after a letter is an email address, not a nickname, so it stays text.
+  function linkify(text) {
+    const re = /(https?:\/\/[^\s<>"'«»]*[^\s<>"'«».,;:!?)\]])|(?<![\p{L}\p{N}_@.])@([A-Za-z][A-Za-z0-9_]{3,31})(?![A-Za-z0-9_@])/gu;
+    let out = "", last = 0;
+    for (const m of String(text).matchAll(re)) {
+      out += esc(text.slice(last, m.index));
+      const href = m[1] || `https://t.me/${m[2]}`;
+      out += `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">${esc(m[0].replace(/^https?:\/\/(www\.)?/, ""))}</a>`;
+      last = m.index + m[0].length;
+    }
+    return out + esc(text.slice(last));
+  }
+
   const contactLabel = (ct) => {
     const u = ct.url.replace(/^https?:\/\/(www\.)?/i, "").replace(/\/$/, "");
     return u.length > 40 ? u.slice(0, 38) + "…" : u;
@@ -323,7 +337,7 @@
       ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
       ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${mapHref(loc) ? ` · <a href="${esc(mapHref(loc))}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(loc.note)}` : ""}</p>` : ""}
       ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && `<span class="ico">💳</span>${esc(price)}`, c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(L.levels + ": " + c.levels.map((l) => (l === "any" ? L.anyLevel : l)).join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
-      ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${esc(c.organizer)}</p>` : ""}
+      ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${linkify(c.organizer)}</p>` : ""}
       ${contacts ? `<div class="contacts">${contacts}</div>` : ""}
       ${dates ? `<p class="meta">${esc(dates)}</p>` : ""}
       ${sources.length || c.notes ? `<details class="src"><summary>${esc(sources.length ? `${L.sources} (${sources.length})` : L.notesOnly)}${sources.length && c.notes ? esc(L.andNotes) : ""}</summary>${c.notes ? `<p>${esc(c.notes)}</p>` : ""}${sources.length ? `<ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul>` : ""}</details>` : ""}
@@ -391,7 +405,9 @@
       field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint),
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
-        ${field("amount", F.amount, `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
+        ${field("amount", F.amount, c.price?.free
+          ? `<input name="amount" maxlength="100" value="" disabled>`
+          : `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
         ${field("registration", F.registration, `<select name="registration">${opt("", F.none, !c.registration)}${["required", "optional", "none"].map((x) => opt(x, L.reg[x], c.registration === x)).join("")}</select>`)}
       </div>`,
       `<fieldset><legend>${esc(F.contacts)}</legend><div class="rep" id="rep-contacts">${(c.contacts?.length ? c.contacts : [{}]).map(contactRow).join("")}</div>
@@ -427,7 +443,8 @@
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
     c.location = { venue: v("venue"), address: v("address"), district: v("district"), metro: v("metro"), note: v("locNote"),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
-    c.price = { free: form.elements.free.checked, amount: v("amount") };
+    const free = form.elements.free.checked;
+    c.price = { free, amount: free ? "" : v("amount") }; // a free club never sends a leftover price
     c.registration = v("registration");
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
       const ct = { type: r.querySelector("[name=c_type]").value, url: r.querySelector("[name=c_url]").value.trim(), access: r.querySelector("[name=c_access]").value, note: r.querySelector("[name=c_note]").value.trim() };
@@ -673,6 +690,13 @@
       openDialog(btn.dataset.act, club);
     });
     const dlg = $("#dlg");
+    // "Безкоштовно" clears the price and locks the field; unticking unlocks it, still empty.
+    dlg.addEventListener("change", (e) => {
+      if (e.target.name !== "free") return;
+      const amount = e.target.form.elements.amount;
+      amount.value = "";
+      amount.disabled = e.target.checked;
+    });
     dlg.addEventListener("click", (e) => {
       if (e.target.closest("[data-close]")) dlg.close();
       const add = e.target.closest("[data-add]");

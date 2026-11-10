@@ -1,5 +1,5 @@
 id: english-shuliavka
-name: English speaking club біля метро «Шулявська»
+name: English Speaking Club at Shuliavka
 description: Англомовний клуб у Пузатій Хаті біля метро «Шулявська».
 languages:
   - en
@@ -8,24 +8,24 @@ location:
   venue: Пузата Хата
   address: вул. Олександра Довженка, 1В
   metro: Шулявська
-  note: 3 поверх
+  note: 3 поверх, довгий стіл біля входу
   lat: 50.456581
   lon: 30.44617
   geocoded: true
 schedule:
   - day: tue
     time: "19:00"
-    duration_min: 180
+    duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: Вівторок 19:00–22:00 (довідник LEC); у переліку 2023 року — 18:00–21:00.
+schedule_note: Щовівторка 19:00–21:00.
 price:
   free: true
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група «English Speaking Club at Shuliavka»; запрошення в учасників
-    members: 229
+    note: Закрита група; запрошення в учасників
+    members: 230
     members_checked: "2026-11-10"
 status: active
 first_seen: 2022-10
@@ -35,4 +35,5 @@ sources:
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
   прочитано 10.11.2026. Публічне посилання @english_shuliavka більше не існує, але закрита група
-  діє. Клуб мережі LEC; у червні 2023 — у переліку клубів міста.
+  діє. Клуб мережі LEC; у червні 2023 — у переліку клубів міста. Опис групи підтверджує розклад;
+  історію повідомлень новим учасникам не видно. Telegram-група клубу, прочитано 10.11.2026.

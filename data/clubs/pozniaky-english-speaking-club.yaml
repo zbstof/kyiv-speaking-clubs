@@ -22,13 +22,13 @@ location:
 schedule:
   - day: tue
     time: "19:00"
-    duration_min: 120
+    duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Щовівторка о 19:00. Напишіть ведучому Вадиму (@Dimjuani), щоб забронював стіл.
+schedule_note: Щовівторка 19:00–22:00. Ведучий бронює стіл; у групі пишуть, за яким столом.
 price:
   free: true
-registration: required
+registration: optional
 contacts:
   - type: telegram
     access: on_request
@@ -37,12 +37,13 @@ contacts:
     members_checked: "2026-11-10"
 organizer: Ведучий Вадим @Dimjuani
 status: active
-first_seen: 2023-05
-last_seen: "2026-11-03"
+first_seen: "2011"
+last_seen: "2026-11-10"
 sources:
   - https://t.me/s/BlaBla_English_UA
   - https://lec.link/
 notes: >-
   Відновив роботу в травні 2023: вівторок 19:00–22:00, Пузата Хата в ТРЦ «Піраміда» (Мишуги, 4). У
   довіднику LEC раніше — понеділок і четвер там само. З вересня 2026 з безпекових причин — паб
-  «Пивна Дума», 2 поверх.
+  «Пивна Дума», 2 поверх. За словами організаторів (03.11.2026), клуб існує 15 років; Telegram-група
+  — з травня 2023. Telegram-група клубу, прочитано 10.11.2026.

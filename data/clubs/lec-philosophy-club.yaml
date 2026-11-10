@@ -26,7 +26,13 @@ price:
 registration: none
 contacts:
   - type: telegram
+    url: https://t.me/lec_philosophy
+    note: "канал: анонси, теми й опитування"
+    members: 51
+    members_checked: "2026-11-10"
+  - type: telegram
     url: https://t.me/LEC_Philosophy_club
+    note: чат клубу
     members: 884
     members_checked: "2026-11-10"
 organizer: https://t.me/zbstof
@@ -36,6 +42,7 @@ last_seen: "2026-11-08"
 last_checked: "2026-11-10"
 sources:
   - https://lec.link/
+  - https://t.me/lec_philosophy
 notes: >-
   Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026 У 2023 — неділя 17:00, теж Басейна
   1/2. Частина мережі Language Exchange Club (LEC): «Philosophy Meeting in English».

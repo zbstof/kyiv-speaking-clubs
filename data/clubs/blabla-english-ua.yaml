@@ -1,8 +1,8 @@
 id: blabla-english-ua
 name: BlaBla English UA
 description: >-
-  Безкоштовний розмовний клуб англійської, який ведуть волонтери. Три онлайн-зустрічі в Zoom щотижня
-  і одна зустріч наживо на Позняках. Камери ввімкнені, говорять усі.
+  Безкоштовний онлайн-клуб англійської, який ведуть волонтери: три зустрічі в Zoom щотижня. Камери
+  ввімкнені, говорять усі. Канал також анонсує офлайн-зустрічі Poznіaky English Speaking Club.
 languages:
   - en
 levels:
@@ -10,20 +10,8 @@ levels:
   - B1
   - B2
   - C1
-format: hybrid
-location:
-  venue: Паб «Пивна Дума»
-  address: вул. Михайла Драгоманова, 31г
-  metro: Позняки
-  note: 2 поверх
-  lat: 50.401182
-  lon: 30.639255
-  geocoded: true
+format: online
 schedule:
-  - day: tue
-    time: "19:00"
-    frequency: weekly
-    format: offline
   - day: wed
     time: "18:45"
     duration_min: 60
@@ -40,9 +28,9 @@ schedule:
     frequency: weekly
     format: online
 schedule_note: >-
-  Наживо: щовівторка о 19:00, напишіть ведучому Вадиму (@Dimjuani), щоб забронював стіл. Онлайн:
-  посилання на Zoom публікують у Telegram-каналі за день до зустрічі. Іноді бувають додаткові
-  зустрічі в понеділок.
+  Онлайн: посилання на Zoom публікують у Telegram-каналі за день до зустрічі. Іноді бувають
+  додаткові зустрічі в понеділок. Офлайн-зустрічі по вівторках — окремий клуб Poznіaky English
+  Speaking Club.
 price:
   free: true
 registration: none
@@ -53,14 +41,9 @@ contacts:
     members_checked: "2026-11-10"
   - type: meetup
     url: https://www.meetup.com/free-online-english-speaking-club-blabla_english_ua
-  - type: telegram
-    access: on_request
-    note: Група офлайн-зустрічей «Poznіaky English Speaking Club»; запрошення у ведучого
-    members: 494
-    members_checked: "2026-11-10"
-organizer: "BlaBla English UA: засновник @Vasiura_R, зустрічі наживо веде Вадим @Dimjuani"
+organizer: Засновник @Vasiura_R і волонтери-ведучі
 status: active
-first_seen: "2025"
+first_seen: 2023-11
 last_seen: "2026-11-09"
 sources:
   - https://t.me/s/BlaBla_English_UA
@@ -76,8 +59,6 @@ sources:
   - https://lec.link/
 notes: >-
   Розклад перевірено за 7 тижнями дописів у Telegram-каналі (22.09–10.11.2026): онлайн у ср, пт, нд
-  щотижня; наживо щовівторка в «Пивній Думі» (з вересня 2026, раніше біля Пузатої Хати). За даними
-  Idealist, понад 250 онлайн-зустрічей, 15–35 учасників на зустрічі. Офлайн-клуб на Позняках
-  відновив роботу в травні 2023: вівторок 19:00–22:00, Пузата Хата в ТРЦ «Піраміда». У довіднику
-  LEC: «English on Monday/Thursdays in Pozniaky», Мишуги 4, Пузата Хата в ТРЦ «Піраміда»,
-  19:00–22:00.
+  щотижня. Канал також анонсує вівторкові офлайн-зустрічі Poznіaky English Speaking Club. За даними
+  Idealist, понад 250 онлайн-зустрічей, 15–35 учасників на зустрічі. Перша онлайн-зустріч — листопад
+  2023 (допис каналу «три роки» від 07.11.2026).

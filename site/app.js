@@ -226,7 +226,10 @@
     const sched = (c.schedule || []).map((s) =>
       `${L.days[s.day]}${s.time ? " " + s.time : ""}${s.duration_min ? ` (${s.duration_min} ${L.min})` : ""}${s.frequency && s.frequency !== "weekly" ? ", " + L.freq[s.frequency] : ""}`).join("; ");
     const loc = c.location || {};
-    const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro, loc.district && loc.district + " р-н"].filter(Boolean).join(", ");
+    const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro, loc.district && loc.district + " р-н"]
+      .filter(Boolean)
+      .filter((part, i, all) => !all.slice(0, i).some((prev) => prev.includes(part))) // address already inside venue text
+      .join(", ");
     const price = c.price ? (c.price.free ? L.free : (c.price.amount || L.paid)) : "";
     const dates = [
       c.last_checked && `${L.checked}: ${fmtDate(c.last_checked)}`,

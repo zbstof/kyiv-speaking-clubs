@@ -90,7 +90,7 @@ h1 { margin: 0; font-size: 26px; line-height: 1.2; }
 details.src { font-size: 13px; color: var(--muted); }
 details.src ul { margin: 4px 0 0; padding-left: 18px; }
 details.src p { margin: 6px 0 0; }
-.ico { display: inline-block; margin-right: 6px; }
+.ico { display: inline-block; width: 1.5em; }
 details.src a { overflow-wrap: anywhere; }
 .card-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }

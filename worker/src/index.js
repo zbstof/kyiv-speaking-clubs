@@ -182,7 +182,7 @@ function sanitize(c) {
       format: ["offline", "online"].includes(s.format) ? s.format : undefined,
     })),
     schedule_note: text(c.schedule_note, 500),
-    price: c.price && { free: typeof c.price.free === "boolean" ? c.price.free : undefined, amount: text(c.price.amount, 100) },
+    price: c.price && { free: typeof c.price.free === "boolean" ? c.price.free : undefined, amount: text(c.price.amount, 300) },
     registration: ["required", "optional", "none"].includes(c.registration) ? c.registration : undefined,
     contacts: arr(c.contacts).slice(0, 12).filter((x) => CONTACT_TYPES.includes(x?.type)).map((x) => ({
       type: x.type,

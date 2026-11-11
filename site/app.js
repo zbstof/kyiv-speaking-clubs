@@ -367,7 +367,8 @@
       .filter(Boolean)
       .filter((part, i, all) => !all.slice(0, i).some((prev) => prev.includes(part))) // address already inside venue text
       .join(", ");
-    const price = c.price ? (c.price.free ? L.free : (tx(c, "price.amount", c.price.amount) || L.paid)) : "";
+    // The price text, when there is one, says more than the free/paid flag (e.g. Toastmasters: guests free, members pay).
+    const price = c.price ? (tx(c, "price.amount", c.price.amount) || (c.price.free ? L.free : L.paid)) : "";
     const dates = [
       c.last_checked && `${L.checked}: ${fmtDate(c.last_checked)}`,
       c.last_seen && `${L.lastSeen}: ${fmtDate(c.last_seen)}`,
@@ -471,8 +472,8 @@
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
         ${field("amount", F.amount, c.price?.free
-          ? `<input name="amount" maxlength="100" value="" disabled>`
-          : `<input name="amount" maxlength="100" value="${esc(lf("price.amount", c.price?.amount))}">`)}
+          ? `<input name="amount" maxlength="300" value="" disabled>`
+          : `<input name="amount" maxlength="300" value="${esc(lf("price.amount", c.price?.amount))}">`)}
         ${field("registration", F.registration, `<select name="registration">${opt("", F.none, !c.registration)}${["required", "optional", "none"].map((x) => opt(x, L.reg[x], c.registration === x)).join("")}</select>`)}
       </div>`,
       `<fieldset><legend>${esc(F.contacts)}</legend><div class="rep" id="rep-contacts">${(c.contacts?.length ? c.contacts : [{}]).map(contactRow).join("")}</div>

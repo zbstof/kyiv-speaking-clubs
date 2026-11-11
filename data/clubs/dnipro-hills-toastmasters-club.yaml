@@ -41,10 +41,14 @@ schedule_note:
     restaurant; according to the club, about once a month the meeting is online or hybrid (Zoom).
     Free for guests; the club asks attendees to order a drink or food at the restaurant.
 price:
-  free: true
+  free: false
   amount:
-    uk: гостям безкоштовно; членство $25 вступний + $72 і $15 клубний за 6 міс.
-    en: "free for guests; membership: $25 joining fee + $72 and a $15 club fee per 6 months."
+    uk: >-
+      Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь
+      — членство: $25 вступний + $72 і $15 клубний внесок за 6 міс..
+    en: >-
+      Guests attend free, but only for introductions and Table Topics (impromptu speaking); full
+      participation needs membership: $25 joining fee + $72 and a $15 club fee per 6 months.
 registration: optional
 contacts:
   - type: meetup

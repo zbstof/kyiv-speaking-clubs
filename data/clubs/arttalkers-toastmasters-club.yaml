@@ -41,10 +41,14 @@ schedule_note:
     guests, no registration required. Not all meetings are posted on Meetup; announcements are in
     the Telegram chat.
 price:
-  free: true
+  free: false
   amount:
-    uk: гостям безкоштовно; членство $60 за 6 міс. + $25 вступний внесок
-    en: free for guests; membership $60 for 6 months + $25 joining fee
+    uk: >-
+      Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь
+      — членство $60 за 6 міс. + $25 вступний внесок.
+    en: >-
+      Guests attend free, but only for introductions and Table Topics (impromptu speaking); full
+      participation needs membership $60 per 6 months + $25 joining fee.
 registration: none
 contacts:
   - type: website

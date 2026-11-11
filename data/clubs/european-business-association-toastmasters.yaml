@@ -28,6 +28,15 @@ schedule:
 schedule_note:
   uk: Щопонеділка о 7:30 p.m. (2010)
   en: Mondays 7:30 p.m. (2010)
+price:
+  free: false
+  amount:
+    uk: >-
+      Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь
+      — за членським внеском.
+    en: >-
+      Guests attend free, but only for introductions and Table Topics (impromptu speaking); full
+      participation needs membership fees.
 organizer: European Business Association
 status: unknown
 first_seen: "2008-09-24"

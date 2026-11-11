@@ -163,7 +163,7 @@
           "type": "boolean"
         },
         "amount": {
-          "$ref": "#/definitions/text100"
+          "$ref": "#/definitions/text300"
         }
       }
     },

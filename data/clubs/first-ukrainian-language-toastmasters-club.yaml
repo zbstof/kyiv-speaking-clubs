@@ -24,6 +24,15 @@ schedule:
 schedule_note:
   uk: Відвідано зустріч у чт 2012-10-18; регулярний розклад не вказано
   en: Meeting attended Thu 2012-10-18; regular schedule not stated
+price:
+  free: false
+  amount:
+    uk: >-
+      Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь
+      — за членським внеском.
+    en: >-
+      Guests attend free, but only for introductions and Table Topics (impromptu speaking); full
+      participation needs membership fees.
 contacts:
   - type: website
     url: http://toastmasters-ua.blogspot.com

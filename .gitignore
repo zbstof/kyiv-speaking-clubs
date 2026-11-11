@@ -6,3 +6,4 @@ site/clubs.json
 .env.*
 .dev.vars
 .playwright-mcp/
+site/en/

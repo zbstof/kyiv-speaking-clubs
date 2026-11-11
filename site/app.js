@@ -198,8 +198,11 @@
   const INVITE_RE = /(?:t\.me|telegram\.me|telegram\.dog)\/(?:\+|joinchat\/)|chat\.whatsapp\.com\/|invite\.viber\.com|discord\.gg\/|discord\.com\/invite\//i;
 
   // ---------- state ----------
-  let ui = "uk"; // Ukrainian for everyone; English only if the visitor switched to it
-  try { ui = localStorage.getItem("sc-ui") || ui; } catch { /* storage blocked */ }
+  // The address decides the language: "/" is Ukrainian, "/en/" is English, so links and search results
+  // point to a specific version.
+  const LANG_PATHS = { uk: "/", en: "/en/" };
+  const langFromPath = () => (/^\/en(\/|$)/.test(location.pathname) ? "en" : "uk");
+  let ui = langFromPath();
   let clubs = [];
   const $ = (s, el = document) => el.querySelector(s);
   const t = () => T[ui];
@@ -321,7 +324,11 @@
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t()[el.dataset.i18nPh]; });
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t()[el.dataset.i18nAria]); });
     $(".foot p").innerHTML = t().footer(esc(CFG.repo || ""));
-    document.querySelectorAll(".lang-switch [data-ui]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.ui === ui)));
+    document.querySelectorAll(".lang-switch [data-ui]").forEach((a) => {
+      if (a.dataset.ui === ui) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+      a.href = LANG_PATHS[a.dataset.ui] + location.search + location.hash;   // keep filters and #map
+    });
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", "https://speaking-clubs.zbstof.me" + LANG_PATHS[ui]);
   }
 
   function render() {
@@ -762,9 +769,11 @@
     $("#add-club").addEventListener("click", () => openDialog("add", null));
     document.querySelector(".lang-switch").addEventListener("click", (e) => {
       const b = e.target.closest("[data-ui]");
-      if (!b || b.dataset.ui === ui) return;
+      if (!b || e.metaKey || e.ctrlKey || e.shiftKey) return;   // let "open in new tab" work as a normal link
+      e.preventDefault();
+      if (b.dataset.ui === ui) return;
       ui = b.dataset.ui;
-      try { localStorage.setItem("sc-ui", ui); } catch { /* ignore */ }
+      history.pushState(null, "", LANG_PATHS[ui] + location.search + location.hash);
       applyTexts(); fillFilters(); render();
     });
     $("#list").addEventListener("click", (e) => {
@@ -799,11 +808,17 @@
     });
   }
 
+  window.addEventListener("popstate", () => {
+    if (langFromPath() === ui) return;
+    ui = langFromPath();
+    applyTexts(); fillFilters(); render();
+  });
+
   async function init() {
     applyTexts();
     bind();
     try {
-      const res = await fetch("clubs.json", { cache: "no-cache" });
+      const res = await fetch("/clubs.json", { cache: "no-cache" });
       clubs = (await res.json()).clubs;
     } catch (e) {
       $("#summary").textContent = t().loadFailed;

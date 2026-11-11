@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Розмовні клуби Києва</title>
   <meta name="description" content="Розмовні клуби Києва: мови, розклад, адреси, контакти. Список редагують відвідувачі.">
+  <link rel="canonical" href="https://speaking-clubs.zbstof.me/">
+  <link rel="alternate" hreflang="uk" href="https://speaking-clubs.zbstof.me/">
+  <link rel="alternate" hreflang="en" href="https://speaking-clubs.zbstof.me/en/">
+  <link rel="alternate" hreflang="x-default" href="https://speaking-clubs.zbstof.me/">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💬</text></svg>">
-  <link rel="stylesheet" href="style.css">
-  <script src="config.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/config.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js" defer></script>
 </head>
 <body>
@@ -19,8 +23,8 @@
       </div>
       <div class="top-actions">
         <div class="lang-switch" role="group" aria-label="Мова / Language">
-          <button type="button" data-ui="uk" aria-pressed="true" lang="uk">UA</button>
-          <button type="button" data-ui="en" aria-pressed="false" lang="en">EN</button>
+          <a href="/" data-ui="uk" hreflang="uk" lang="uk" aria-current="true">UA</a>
+          <a href="/en/" data-ui="en" hreflang="en" lang="en">EN</a>
         </div>
         <button type="button" id="add-club" class="primary" data-i18n="addClub">+ Додати клуб</button>
       </div>
@@ -74,6 +78,6 @@
     </form>
   </dialog>
 
-  <script src="app.js"></script>
+  <script src="/app.js"></script>
 </body>
 </html>

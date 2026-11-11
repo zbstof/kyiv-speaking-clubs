@@ -1,0 +1,21 @@
+id: testovyi-klub-perekladu
+name: Тестовий клуб перекладу
+description: Розмовний клуб для перевірки автоматичного перекладу. Зустрічі щочетверга біля метро.
+languages:
+  - uk
+format: offline
+location:
+  venue: Кав’ярня біля Золотих воріт
+  metro: Золоті ворота
+  lat: 50.448246
+  lon: 30.513479
+  geocoded: true
+  near_metro: true
+schedule_note: Щочетверга о 19:00.
+status: active
+last_checked: "2026-11-11"
+i18n:
+  en:
+    location.metro: Zoloti Vorota
+i18n_src:
+  location.metro: e4cb2047

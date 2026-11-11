@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import Ajv from "ajv";
 import { extraChecks } from "../lib/rules.mjs";
+import { pick } from "../lib/i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const clubsDir = join(root, "data", "clubs");
@@ -69,7 +70,7 @@ function writePages(clubs) {
   const template = readFileSync(join(site, "index.html"), "utf8");
   const path = (lang, id) => (lang === "en" ? "/en/" : "/") + (id ? `clubs/${id}/` : "");
   const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
-  const tx = (c, lang, p, v) => (v ? c.i18n?.[lang]?.[p] || v : "");
+  const tx = (c, lang, p, v) => pick(v, lang);   // text fields hold { uk, en }
   const T = {
     uk: { site: "Розмовні клуби Києва", desc: "Розмовні клуби Києва: мови, розклад, адреси, контакти. Список редагують відвідувачі.",
       days: { mon: "Пн", tue: "Вт", wed: "Ср", thu: "Чт", fri: "Пт", sat: "Сб", sun: "Нд" }, metro: "м.", back: "Усі клуби" },

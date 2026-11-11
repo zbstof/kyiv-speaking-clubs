@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-iedyni-vcentri-hub-shevchenkivskyi
-name: Розмовний клуб «Єдині» — Vcentri HUB Шевченківський
-description: >-
-  Free Ukrainian conversation club of the «Єдині» project (initiative «Навчай українською») at the
-  city community space Vcentri HUB.
+name:
+  uk: Розмовний клуб «Єдині» — Vcentri HUB Шевченківський
+  en: Speaking club "Yedyni" — Vcentri HUB Shevchenkivskyi
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови проєкту «Єдині» (ініціатива «Навчай українською») у
+    міському громадському просторі Vcentri HUB.
+  en: >-
+    Free Ukrainian conversation club of the "Yedyni" project ("Navchai ukrainskoiu" initiative) at
+    the city community space Vcentri HUB.
 languages:
   - uk
 format: offline
 location:
-  venue: Громадський простір Vcentri HUB Шевченківський
-  address: вул. Володимирська, 51-Б
+  venue:
+    uk: Громадський простір Vcentri HUB Шевченківський
+    en: Vcentri HUB Shevchenkivskyi community space
+  address:
+    uk: вул. Володимирська, 51-Б
+    en: 51-B Volodymyrska St
   lat: 50.446747
   lon: 30.514569
   geocoded: true
@@ -17,9 +27,13 @@ schedule:
     time: "17:30"
     duration_min: 90
     frequency: weekly
-schedule_note: >-
-  Fri 3 Mar 2023 17:30-19:00; Fri 12 May 2023 17:30-19:00; Fri 9 Aug 2024 18:00-19:00 (KMDA weekly
-  digests).
+schedule_note:
+  uk: >-
+    Fri 3 Mar 2023 17:30-19:00; Fri 12 May 2023 17:30-19:00; Fri 9 Aug 2024 18:00-19:00 (щотижневі
+    дайджести КМДА).
+  en: >-
+    Fri 3 Mar 2023 17:30-19:00; Fri 12 May 2023 17:30-19:00; Fri 9 Aug 2024 18:00-19:00 (KMDA weekly
+    digests).
 price:
   free: true
 registration: required
@@ -43,27 +57,6 @@ sources:
     https://kyivcity.gov.ua/news/iz_5_do_11_serpnya_u_Vcentri_HUB_zaplanovani_rozmovniy_klub_lektsiya_den_donora_ta_kesh-flou_dlya_pidlitkiv/
   - >-
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
-notes: Weekly event digests of Vcentri HUB published on kyivcity.gov.ua.
-i18n:
-  en:
-    location.address: 51-B Volodymyrska St
-    name: Speaking club "Yedyni" — Vcentri HUB Shevchenkivskyi
-    description: >-
-      Free Ukrainian conversation club of the "Yedyni" project ("Navchai ukrainskoiu" initiative) at
-      the city community space Vcentri HUB.
-    location.venue: Vcentri HUB Shevchenkivskyi community space
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови проєкту «Єдині» (ініціатива «Навчай українською»)
-      у міському громадському просторі Vcentri HUB.
-    schedule_note: >-
-      Fri 3 Mar 2023 17:30-19:00; Fri 12 May 2023 17:30-19:00; Fri 9 Aug 2024 18:00-19:00 (щотижневі
-      дайджести КМДА).
-    notes: Щотижневі дайджести подій Vcentri HUB, опубліковані на kyivcity.gov.ua.
-i18n_src:
-  location.address: 523adb7f
-  name: a57edcce
-  description: 8fc22332
-  schedule_note: c5f7bbcf
-  notes: 1c3f91b7
-  location.venue: f660d490
+notes:
+  uk: Щотижневі дайджести подій Vcentri HUB, опубліковані на kyivcity.gov.ua.
+  en: Weekly event digests of Vcentri HUB published on kyivcity.gov.ua.

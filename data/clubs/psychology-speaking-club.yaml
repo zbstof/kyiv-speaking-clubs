@@ -1,18 +1,34 @@
 id: psychology-speaking-club
-name: Psychology Speaking Club
-description: >-
-  Англомовний розмовний клуб про психологію: обговорення в малих групах за питаннями до теми вечора.
-  Частина спільноти English Psychology & Art Club (кіновечори, малювання).
+name:
+  uk: Розмовний клуб про психологію
+  en: Psychology Speaking Club
+description:
+  uk: >-
+    Англомовний розмовний клуб про психологію: обговорення в малих групах за питаннями до теми
+    вечора. Частина спільноти English Psychology & Art Club (кіновечори, малювання).
+  en: >-
+    An English-speaking club about psychology: small-group discussions guided by questions on the
+    evening’s topic. Part of the English Psychology & Art Club community (film nights, drawing).
 languages:
   - en
 format: offline
 location:
-  venue: Арт-офіс
-  address: вул. Володимирська, 42
-  metro: Золоті ворота
-  note: >-
-    Вхід з боку бічного виходу метро «Золоті ворота», біля капсульного готелю. Поверх, кімнату й код
-    дверей повідомляють після запису.
+  venue:
+    uk: Арт-офіс
+    en: Art office
+  address:
+    uk: вул. Володимирська, 42
+    en: 42 Volodymyrska St
+  metro:
+    uk: Золоті ворота
+    en: Zoloti Vorota
+  note:
+    uk: >-
+      Вхід з боку бічного виходу метро «Золоті ворота», біля капсульного готелю. Поверх, кімнату й
+      код дверей повідомляють після запису.
+    en: >-
+      Entrance by the side exit of "Zoloti Vorota" metro station, near the capsule hotel. The floor,
+      room and door code are provided after registration.
   lat: 50.448258
   lon: 30.513882
   geocoded: true
@@ -22,18 +38,26 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: >-
-  Щотижня, зазвичай у суботу (іноді в неділю), початок о 17:00–18:00. Точний час і тему публікують у
-  групі за кілька днів.
+schedule_note:
+  uk: >-
+    Щотижня, зазвичай у суботу (іноді в неділю), початок о 17:00–18:00. Точний час і тему публікують
+    у групі за кілька днів.
+  en: >-
+    Weekly, usually on Saturday (sometimes Sunday), starting at 17:00–18:00. The exact time and
+    topic are posted in the group a few days in advance.
 price:
   free: false
-  amount: 300 ₴, оплата наперед підтверджує місце
+  amount:
+    uk: 300 ₴, оплата наперед підтверджує місце
+    en: 300 ₴, advance payment confirms your place
 registration: required
 contacts:
   - type: telegram
     url: https://t.me/+N785EKQkn7dmYmEy
     access: invite
-    note: Група English Psychology & Art Club; організатор погодився на публікацію посилання
+    note:
+      uk: Група English Psychology & Art Club; організатор погодився на публікацію посилання
+      en: English Psychology & Art Club group; the organizer agreed to the publication of the link
     members: 450
     members_checked: "2026-11-10"
 organizer: https://t.me/liohaa
@@ -41,41 +65,10 @@ status: active
 first_seen: 2024-08
 last_seen: "2026-11-07"
 last_checked: "2026-11-10"
-notes: >-
-  Кількість місць обмежена. Спільнота English Psychology & Art Club з серпня 2024; у 2024–2025
-  зустрічі в Пузатій Хаті.
-i18n:
-  en:
-    location.address: 42 Volodymyrska St
-    location.metro: Zoloti Vorota
-    description: >-
-      An English-speaking club about psychology: small-group discussions guided by questions on the
-      evening’s topic. Part of the English Psychology & Art Club community (film nights, drawing).
-    schedule_note: >-
-      Weekly, usually on Saturday (sometimes Sunday), starting at 17:00–18:00. The exact time and
-      topic are posted in the group a few days in advance.
-    notes: >-
-      Places are limited. The English Psychology & Art Club community has been active since August
-      2024; meetings in 2024–2025 were held at Puzata Khata.
-    location.venue: Art office
-    location.note: >-
-      Entrance by the side exit of "Zoloti Vorota" metro station, near the capsule hotel. The floor,
-      room and door code are provided after registration.
-    price.amount: 300 ₴, advance payment confirms your place
-    contacts.0.note: English Psychology & Art Club group; the organizer agreed to the publication of the link
-  uk:
-    name: Розмовний клуб про психологію
-    notes: >-
-      Кількість місць обмежена. Спільнота English Psychology & Art Club діє з серпня 2024; у
-      2024–2025 зустрічі проходили в Пузатій Хаті.
-i18n_src:
-  location.address: 87dd5365
-  location.metro: e4cb2047
-  name: 96e3655e
-  description: fdb65f36
-  schedule_note: 097980b2
-  notes: 874a5630
-  location.venue: fc260668
-  location.note: 13d7c42e
-  price.amount: 1a805b91
-  contacts.0.note: 6bb0f29e
+notes:
+  uk: >-
+    Кількість місць обмежена. Спільнота English Psychology & Art Club діє з серпня 2024; у 2024–2025
+    зустрічі проходили в Пузатій Хаті.
+  en: >-
+    Places are limited. The English Psychology & Art Club community has been active since August
+    2024; meetings in 2024–2025 were held at Puzata Khata.

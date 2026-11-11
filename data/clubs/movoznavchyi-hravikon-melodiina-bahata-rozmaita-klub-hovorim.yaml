@@ -1,16 +1,26 @@
 id: movoznavchyi-hravikon-melodiina-bahata-rozmaita-klub-hovorim
-name: >-
-  Мовознавчий гравікон «Мелодійна, багата, розмаїта» / клуб «Говорімо українською» (бібліотека ім.
-  І. Сергієнка)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: >-
+    Мовознавчий гравікон «Мелодійна, багата, розмаїта» / клуб «Говорімо українською» (бібліотека ім.
+    І. Сергієнка)
+  en: >-
+    Linguistic game event "Melodiina, bahata, rozmaita" / "Hovorimo ukrainskoiu" club (I. Serhiienko
+    Library)
+description:
+  uk: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека ім. І. Сергієнка для дітей
-  address: вул. Шумського, 4а
+  venue:
+    uk: Бібліотека ім. І. Сергієнка для дітей
+    en: I. Serhiienko Children's Library
+  address:
+    uk: вул. Шумського, 4а
+    en: 4A Shumskoho St
   lat: 50.426009
   lon: 30.601099
   geocoded: true
@@ -26,31 +36,12 @@ last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
   - https://fs05.vseosvita.ua/o/0500xgo3-ad40.pdf
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified. A Sept 2023 paper says the «Говорімо
-  українською» club moderated by Olha Maksymenko also meets here.
-i18n:
-  en:
-    location.address: 4A Shumskoho St
-    name: >-
-      Linguistic game event "Melodiina, bahata, rozmaita" / "Hovorimo ukrainskoiu" club (I.
-      Serhiienko Library)
-    notes: >-
-      Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-      times. District inferred from the address, not verified. A Sept 2023 paper says the "Hovorimo
-      ukrainskoiu" club moderated by Olha Maksymenko also meets here.
-    location.venue: I. Serhiienko Children's Library
-  uk:
-    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, але не перевірено. У публікації за Sept
-      2023 зазначено, що клуб «Говорімо українською», який модерує Ольга Максименко, також
-      збирається тут.
-i18n_src:
-  location.address: d72706e4
-  name: fe838a0f
-  description: 0402dd7e
-  notes: b5d6013f
-  location.venue: 1e5e1b19
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, але не перевірено. У публікації за Sept 2023
+    зазначено, що клуб «Говорімо українською», який модерує Ольга Максименко, також збирається тут.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified. A Sept 2023 paper says the "Hovorimo
+    ukrainskoiu" club moderated by Olha Maksymenko also meets here.

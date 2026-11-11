@@ -1,12 +1,20 @@
 id: frankofonnyi-tsentr-linhvatus-french-conversation-club
-name: "Франкофонний центр «Лінгватус»: French conversation club"
-description: Paid language school in Kyiv that lists a French conversation club among its courses.
+name:
+  uk: "Франкофонний центр «Лінгватус»: розмовний клуб французької мови"
+  en: "Francophone Centre \"Linhvatus\": French conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб французької мови.
+  en: Paid language school in Kyiv that lists a French conversation club among its courses.
 languages:
   - fr
 format: offline
 location:
-  venue: Франкофонний центр «Лінгватус»
-  address: вул. Шота Руставелі, 15А, офіс 3
+  venue:
+    uk: Франкофонний центр «Лінгватус»
+    en: Francophone Centre "Linhvatus"
+  address:
+    uk: вул. Шота Руставелі, 15А, офіс 3
+    en: 15A Shota Rustaveli St, office 3
 contacts:
   - type: website
     url: http://linguatus.com.ua
@@ -16,27 +24,10 @@ first_seen: "2013-05-31"
 last_seen: "2013-05-31"
 sources:
   - https://osvita.ua/languages/courses/17948/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.
-i18n:
-  uk:
-    name: "Франкофонний центр «Лінгватус»: розмовний клуб французької мови"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб французької мови.
-    notes: >-
-      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
-      osvita.ua (картку оновлено 31.05.2013). Розклад і формат не вказані. Телефони в картці: (044)
-      246-77-76.
-  en:
-    name: "Francophone Centre \"Linhvatus\": French conversation club"
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.
-    location.venue: Francophone Centre "Linhvatus"
-    location.address: 15A Shota Rustaveli St, office 3
-i18n_src:
-  name: 5d1e5028
-  description: "02267447"
-  notes: 87554eeb
-  location.venue: 0e60d12b
-  location.address: ec3dd808
+notes:
+  uk: >-
+    Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі osvita.ua
+    (картку оновлено 31.05.2013). Розклад і формат не вказані. Телефони в картці: (044) 246-77-76.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.

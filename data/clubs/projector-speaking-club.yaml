@@ -1,15 +1,27 @@
 id: projector-speaking-club
-name: Speaking Club for Designers and IT (Projector)
-description: >-
-  English speaking club for designers and IT people at Projector design school, led by the 'English
-  for Designers' course teacher.
+name:
+  uk: Розмовний клуб для дизайнерів та ІТ-фахівців (Projector)
+  en: Speaking Club for Designers and IT (Projector)
+description:
+  uk: >-
+    Англійський розмовний клуб для дизайнерів та ІТ-фахівців у школі дизайну Projector, який веде
+    викладач курсу «English for Designers».
+  en: >-
+    English speaking club for designers and IT people at Projector design school, led by the
+    'English for Designers' course teacher.
 languages:
   - en
 format: offline
 location:
-  venue: Projector design space
-  address: вул. Верхній Вал, 22
-  metro: Контрактова площа
+  venue:
+    uk: Дизайн-простір Projector
+    en: Projector design space
+  address:
+    uk: вул. Верхній Вал, 22
+    en: 22 Verkhnii Val St
+  metro:
+    uk: Контрактова площа
+    en: Kontraktova Ploshcha
   lat: 50.465614
   lon: 30.512213
   geocoded: true
@@ -18,10 +30,14 @@ schedule:
     time: "11:00"
     duration_min: 90
     frequency: irregular
-schedule_note: Series of sessions; one on Tue 2015-08-18, previous one on a Saturday
+schedule_note:
+  uk: Серія зустрічей; одна — у вівторок 2015-08-18, попередня — у суботу
+  en: Series of sessions; one on Tue 2015-08-18, previous one on a Saturday
 price:
   free: false
-  amount: 55 грн (space entry)
+  amount:
+    uk: 55 грн (вхід до простору)
+    en: 55 UAH (space entry)
 registration: required
 contacts:
   - type: website
@@ -35,24 +51,3 @@ last_seen: "2015-09-12"
 sources:
   - https://dou.ua/calendar/8012/
   - https://dou.ua/calendar/8249/
-i18n:
-  en:
-    location.address: 22 Verkhnii Val St
-    location.metro: Kontraktova Ploshcha
-    price.amount: 55 UAH (space entry)
-  uk:
-    name: Розмовний клуб для дизайнерів та ІТ-фахівців (Projector)
-    description: >-
-      Англійський розмовний клуб для дизайнерів та ІТ-фахівців у школі дизайну Projector, який веде
-      викладач курсу «English for Designers».
-    schedule_note: Серія зустрічей; одна — у вівторок 2015-08-18, попередня — у суботу
-    location.venue: Дизайн-простір Projector
-    price.amount: 55 грн (вхід до простору)
-i18n_src:
-  location.address: 8f9df768
-  location.metro: 377d7953
-  name: f3ba8aa1
-  description: b57ecac9
-  schedule_note: ebe65f05
-  location.venue: "8e307499"
-  price.amount: fa0835bf

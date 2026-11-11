@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-pro-tsikave-i-korysne-kalynovoiu-zvuchyt-bibl
-name: Розмовний клуб «Про цікаве і корисне калиновою звучить» (бібліотека ім. І. Світличного)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб «Про цікаве і корисне калиновою звучить» (бібліотека ім. І. Світличного)
+  en: Speaking club "Pro tsikave i korysne kalynovoiu zvuchyt" (I. Svitlychnyi Library)
+description:
+  uk: Безкоштовний мовний/розмовний клуб української мови для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека для дітей ім. І. Світличного
-  address: проспект Повітряних Сил (кол. Повітрофлотський), 12
+  venue:
+    uk: Бібліотека для дітей ім. І. Світличного
+    en: I. Svitlychnyi Children's Library
+  address:
+    uk: проспект Повітряних Сил (кол. Повітрофлотський), 12
+    en: 12 Povitrianykh Syl (kol. Povitroflotskyi) Ave
   lat: 50.439963
   lon: 30.478123
   geocoded: true
@@ -27,24 +35,12 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. For preschool and
-  primary-school children.
-i18n:
-  en:
-    location.address: 12 Povitrianykh Syl (kol. Povitroflotskyi) Ave
-    name: Speaking club "Pro tsikave i korysne kalynovoiu zvuchyt" (I. Svitlychnyi Library)
-    location.venue: I. Svitlychnyi Children's Library
-  uk:
-    description: Безкоштовний мовний/розмовний клуб української мови для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
-      Час зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. Для
-      дошкільнят і дітей молодшого шкільного віку.
-i18n_src:
-  location.address: 728e0a9b
-  name: dd6e0212
-  description: 0402dd7e
-  notes: a4f40ee9
-  location.venue: c42196ba
+notes:
+  uk: >-
+    Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. Для дошкільнят
+    і дітей молодшого шкільного віку.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. For preschool and
+    primary-school children.

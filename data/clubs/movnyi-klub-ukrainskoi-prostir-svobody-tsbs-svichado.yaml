@@ -1,14 +1,24 @@
 id: movnyi-klub-ukrainskoi-prostir-svobody-tsbs-svichado
-name: Мовний клуб української «Простір свободи» (ЦБС «Свічадо»)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Мовний клуб української «Простір свободи» (ЦБС «Свічадо»)
+  en: Ukrainian language club "Prostir svobody" ("Svichado" Centralized Library System)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Центральна районна бібліотека ЦБС «Свічадо»
-  address: бульвар Жуля Верна, 13-в
+  venue:
+    uk: Центральна районна бібліотека ЦБС «Свічадо»
+    en: Central District Library of the "Svichado" Centralized Library System
+  address:
+    uk: бульвар Жуля Верна, 13-в
+    en: 13-V Zhulia Verna Blvd
   lat: 50.434222
   lon: 30.365432
   geocoded: true
@@ -24,33 +34,14 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: «Мовний клуб «Навчай
-  українську»» and a literary club with Olha Babchuk; 2025: literary club and language club «Простір
-  свободи».
-i18n:
-  en:
-    location.address: 13-V Zhulia Verna Blvd
-    name: Ukrainian language club "Prostir svobody" ("Svichado" Centralized Library System)
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: language club
-      "Navchai ukrainsku" and a literary club with Olha Babchuk; 2025: literary club and language
-      club "Prostir svobody".
-    location.venue: Central District Library of the "Svichado" Centralized Library System
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох бібліотечних переліках Департаменту культури Києва (2023-08-17 та 2025-12-01). У
-      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено. 2023:
-      мовний клуб «Навчай українську» та літературний клуб з Ольгою Бабчук; 2025: літературний клуб
-      і мовний клуб «Простір свободи».
-i18n_src:
-  location.address: 9b72430c
-  name: 6bf8e6f1
-  description: d15e99c9
-  notes: 29d71d23
-  location.venue: cc0339a9
+notes:
+  uk: >-
+    Є в обох бібліотечних переліках Департаменту культури Києва (2023-08-17 та 2025-12-01). У
+    переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено. 2023: мовний
+    клуб «Навчай українську» та літературний клуб з Ольгою Бабчук; 2025: літературний клуб і мовний
+    клуб «Простір свободи».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: language club "Navchai
+    ukrainsku" and a literary club with Olha Babchuk; 2025: literary club and language club "Prostir
+    svobody".

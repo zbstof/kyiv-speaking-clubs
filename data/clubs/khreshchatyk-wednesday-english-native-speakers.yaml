@@ -1,12 +1,22 @@
 id: khreshchatyk-wednesday-english-native-speakers
-name: Англомовний клуб з носіями мови біля метро «Хрещатик»
-description: Англомовні зустрічі в Пузатій Хаті біля метро «Хрещатик»; приходять носії мови зі США й Англії.
+name:
+  uk: Англомовний клуб з носіями мови біля метро «Хрещатик»
+  en: English speaking club with native speakers near "Khreshchatyk" metro station
+description:
+  uk: Англомовні зустрічі в Пузатій Хаті біля метро «Хрещатик»; приходять носії мови зі США й Англії.
+  en: >-
+    English speaking meetups at Puzata Khata near "Khreshchatyk" metro station; native speakers from
+    the USA and England attend.
 languages:
   - en
 format: offline
 location:
-  venue: Пузата Хата
-  metro: Хрещатик
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.447187
   lon: 30.522946
   geocoded: true
@@ -17,37 +27,24 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Середа 18:00–21:00. Можна просто прийти.
+schedule_note:
+  uk: Середа 18:00–21:00. Можна просто прийти.
+  en: Wednesday 18:00–21:00. Just turn up.
 price:
   free: true
 registration: none
 contacts:
   - type: viber
     access: on_request
-    note: "Viber-група: додають за номером телефону, запитайте на зустрічі"
+    note:
+      uk: "Viber-група: додають за номером телефону, запитайте на зустрічі"
+      en: "Viber group: you can be added by phone number; ask at the meetup"
 status: active
 last_seen: "2026-10-02"
-notes: >-
-  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026.
-i18n:
-  en:
-    location.metro: Khreshchatyk
-    name: English speaking club with native speakers near "Khreshchatyk" metro station
-    description: >-
-      English speaking meetups at Puzata Khata near "Khreshchatyk" metro station; native speakers
-      from the USA and England attend.
-    schedule_note: Wednesday 18:00–21:00. Just turn up.
-    notes: >-
-      Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
-      announcements; read on 10.11.2026.
-    location.venue: Puzata Khata
-    contacts.0.note: "Viber group: you can be added by phone number; ask at the meetup"
-i18n_src:
-  location.metro: 9f2c4b77
-  name: cce05be9
-  description: 14ca3488
-  schedule_note: 88ba39fe
-  notes: 06a4e503
-  location.venue: be30a852
-  contacts.0.note: 40709a50
+notes:
+  uk: >-
+    Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+    прочитано 10.11.2026.
+  en: >-
+    Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
+    announcements; read on 10.11.2026.

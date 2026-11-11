@@ -1,14 +1,24 @@
 id: tvorcha-studiia-svitanok-oratorske-mystetstvo-ta-udoskonalen
-name: Творча студія «Світанок» (ораторське мистецтво та удосконалення української мови)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Творча студія «Світанок» (ораторське мистецтво та удосконалення української мови)
+  en: Creative studio "Svitanok" (public speaking and improving Ukrainian)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Етнобібліотека
-  address: проспект Свободи, 15/1
+  venue:
+    uk: Етнобібліотека
+    en: Ethno Library
+  address:
+    uk: проспект Свободи, 15/1
+    en: 15/1 Svobody Ave
   lat: 50.513175
   lon: 30.422721
   geocoded: true
@@ -20,26 +30,12 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified. Studio of public speaking, stage speech
-  and improving Ukrainian.
-i18n:
-  en:
-    location.address: 15/1 Svobody Ave
-    name: Creative studio "Svitanok" (public speaking and improving Ukrainian)
-    location.venue: Ethno Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено. Студія ораторського
-      мистецтва, сценічного мовлення та вдосконалення української мови.
-i18n_src:
-  location.address: f8ee459e
-  name: d346dcb1
-  description: d15e99c9
-  notes: b9b6a817
-  location.venue: 27d342f1
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено. Студія ораторського мистецтва,
+    сценічного мовлення та вдосконалення української мови.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified. Studio of public speaking, stage speech
+    and improving Ukrainian.

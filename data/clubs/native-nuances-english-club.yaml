@@ -1,8 +1,14 @@
 id: native-nuances-english-club
-name: Native Nuances English Club
-description: >-
-  Moderated English speaking club in a coffee shop, led by a native-speaker English coach; everyone
-  answers questions on the topic of the day in turn.
+name:
+  uk: Native Nuances English Club
+  en: Native Nuances English Club
+description:
+  uk: >-
+    Модерований розмовний клуб англійської в кав’ярні, який веде тренер з англійської — носій мови;
+    усі по черзі відповідають на запитання за темою дня.
+  en: >-
+    Moderated English speaking club in a coffee shop, led by a native-speaker English coach;
+    everyone answers questions on the topic of the day in turn.
 languages:
   - en
 levels:
@@ -11,9 +17,15 @@ levels:
   - C1
 format: offline
 location:
-  venue: Set Coffee Hub
-  address: вул. Волоська, 33
-  metro: Контрактова площа
+  venue:
+    uk: Set Coffee Hub
+    en: Set Coffee Hub
+  address:
+    uk: вул. Волоська, 33
+    en: 33 Voloska St
+  metro:
+    uk: Контрактова площа
+    en: Kontraktova Ploshcha
   lat: 50.471008
   lon: 30.512996
   geocoded: true
@@ -23,13 +35,20 @@ schedule:
     duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: >-
-  Сезонно: навесні 2026 щосуботи (18 квітня – 30 травня), час змінювався від 13:00 до 17:00; у 2025
-  — по неділях 14:00–16:00. Зустріч 6 червня 2026 скасували, відтоді нових анонсів немає. Щоб
-  прийти, напишіть «+» під анонсом у чаті.
+schedule_note:
+  uk: >-
+    Сезонно: навесні 2026 щосуботи (18 квітня – 30 травня), час змінювався від 13:00 до 17:00; у
+    2025 — по неділях 14:00–16:00. Зустріч 6 червня 2026 скасували, відтоді нових анонсів немає. Щоб
+    прийти, напишіть «+» під анонсом у чаті.
+  en: >-
+    Seasonal: in spring 2026, every Saturday (18 April – 30 May), with times varying from 13:00 to
+    17:00; in 2025, on Sundays 14:00–16:00. The meeting on 6 June 2026 was cancelled, and there have
+    been no new announcements since. To attend, reply with "+" under the announcement in the chat.
 price:
   free: true
-  amount: free; order at least a drink or snack
+  amount:
+    uk: безкоштовно; замовте принаймні напій або перекус
+    en: free; order at least a drink or snack
 registration: required
 contacts:
   - type: telegram
@@ -50,36 +69,15 @@ sources:
   - https://t.me/s/nativenuances
   - https://t.me/nativenuances/1443
   - https://t.me/nativenuanceschat/1454
-notes: >-
-  Register by replying '+' in the chat. Telegram preview shows no years; years inferred from
-  weekdays: Jun–Jul and Nov dates match 2025, Apr–Jun dates (Sat 18 Apr … Sat 6 Jun) match 2026.
-  Post dates show only weekday+day; 'Sunday 24 May' and 'Saturday 06 June' fit 2026 (not verified).
-i18n:
-  en:
-    location.address: 33 Voloska St
-    location.metro: Kontraktova Ploshcha
-    schedule_note: >-
-      Seasonal: in spring 2026, every Saturday (18 April – 30 May), with times varying from 13:00 to
-      17:00; in 2025, on Sundays 14:00–16:00. The meeting on 6 June 2026 was cancelled, and there
-      have been no new announcements since. To attend, reply with "+" under the announcement in the
-      chat.
-  uk:
-    description: >-
-      Модерований розмовний клуб англійської в кав’ярні, який веде тренер з англійської — носій
-      мови; усі по черзі відповідають на запитання за темою дня.
-    notes: >-
-      Щоб зареєструватися, напишіть «+» у відповідь у чаті. У попередньому перегляді Telegram роки
-      не відображаються; їх визначено за днями тижня: дати за червень–липень і листопад відповідають
-      2025 року, а за квітень–червень (сб 18 квітня … сб 6 червня) — 2026 року. У датах дописів
-      зазначено лише день тижня й число; «неділя 24 травня» та «субота 06 червня» відповідають 2026
-      року (не перевірено).
-    price.amount: безкоштовно; замовте принаймні напій або перекус
-i18n_src:
-  location.address: 13f58e98
-  location.metro: 377d7953
-  name: 7150cff3
-  description: acb8d43d
-  schedule_note: 05aea85a
-  notes: c693eaac
-  location.venue: 4b75f9ae
-  price.amount: 3d1c7cc8
+notes:
+  uk: >-
+    Щоб зареєструватися, напишіть «+» у відповідь у чаті. У попередньому перегляді Telegram роки не
+    відображаються; їх визначено за днями тижня: дати за червень–липень і листопад відповідають 2025
+    року, а за квітень–червень (сб 18 квітня … сб 6 червня) — 2026 року. У датах дописів зазначено
+    лише день тижня й число; «неділя 24 травня» та «субота 06 червня» відповідають 2026 року (не
+    перевірено).
+  en: >-
+    Register by replying '+' in the chat. Telegram preview shows no years; years inferred from
+    weekdays: Jun–Jul and Nov dates match 2025, Apr–Jun dates (Sat 18 Apr … Sat 6 Jun) match 2026.
+    Post dates show only weekday+day; 'Sunday 24 May' and 'Saturday 06 June' fit 2026 (not
+    verified).

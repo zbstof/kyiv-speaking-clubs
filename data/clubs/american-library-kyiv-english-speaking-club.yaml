@@ -1,18 +1,32 @@
 id: american-library-kyiv-english-speaking-club
-name: American Library Kyiv — English Speaking Club
-description: >-
-  Free weekly English speaking club at the American Library (department of the NaUKMA library);
-  topics from art and debates to relationships.
+name:
+  uk: Американська бібліотека в Києві — розмовний клуб англійської
+  en: American Library Kyiv — English Speaking Club
+description:
+  uk: >-
+    Безкоштовний щотижневий розмовний клуб англійської в Американській бібліотеці (відділі
+    бібліотеки НаУКМА); теми — від мистецтва й дебатів до стосунків.
+  en: >-
+    Free weekly English speaking club at the American Library (department of the NaUKMA library);
+    topics from art and debates to relationships.
 languages:
   - en
 levels:
   - any
 format: offline
 location:
-  venue: American Library, NaUKMA
-  address: вул. Волоська, 8/5
-  metro: Контрактова площа
-  note: Корпус 4, кімната 116
+  venue:
+    uk: Американська бібліотека, НаУКМА
+    en: American Library, NaUKMA
+  address:
+    uk: вул. Волоська, 8/5
+    en: 8/5 Voloska St
+  metro:
+    uk: Контрактова площа
+    en: Kontraktova Ploshcha
+  note:
+    uk: Корпус 4, кімната 116
+    en: Building 4, room 116
   lat: 50.465567
   lon: 30.522509
   geocoded: true
@@ -21,7 +35,9 @@ schedule:
     time: "17:00"
     duration_min: 120
     frequency: weekly
-schedule_note: Fridays 17:00–19:00 (2016–2017); Thursdays 16:30 (2014)
+schedule_note:
+  uk: Щоп’ятниці 17:00–19:00 (2016–2017); щочетверга 16:30 (2014)
+  en: Fridays 17:00–19:00 (2016–2017); Thursdays 16:30 (2014)
 price:
   free: true
 registration: none
@@ -41,26 +57,6 @@ sources:
   - https://americanlibrarykyiv.blogspot.com/2016/06
   - >-
     https://archive.kyivpost.com/article/guide/about-kyiv/three-english-language-libraries-to-visit-in-kyiv-406415.html
-notes: No age restriction.
-i18n:
-  en:
-    location.address: 8/5 Voloska St
-    location.metro: Kontraktova Ploshcha
-    location.note: Building 4, room 116
-  uk:
-    name: Американська бібліотека в Києві — розмовний клуб англійської
-    description: >-
-      Безкоштовний щотижневий розмовний клуб англійської в Американській бібліотеці (відділі
-      бібліотеки НаУКМА); теми — від мистецтва й дебатів до стосунків.
-    schedule_note: Щоп’ятниці 17:00–19:00 (2016–2017); щочетверга 16:30 (2014)
-    notes: Без вікових обмежень.
-    location.venue: Американська бібліотека, НаУКМА
-i18n_src:
-  location.address: a277352a
-  location.metro: 377d7953
-  name: d87a286f
-  description: 8e7630d1
-  schedule_note: 3f8bdc99
-  notes: 763d5f2b
-  location.venue: b8f9fe57
-  location.note: 9ea6c362
+notes:
+  uk: Без вікових обмежень.
+  en: No age restriction.

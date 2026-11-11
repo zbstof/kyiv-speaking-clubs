@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { clubToYaml, slugify } from "../lib/club.mjs";
 import { INVITE_RE } from "../lib/rules.mjs";
+import { textPaths, getPath, detectLang } from "../lib/i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -147,6 +148,14 @@ for (const m of merged) {
   const club = { id, ...rest, status };
   const path = join(root, "data", "clubs", `${id}.yaml`);
   if (existsSync(path) && !force) { skipped++; continue; }
+  // Research gives plain strings; file each under its language (Russian under uk, to be checked) and let
+  // scripts/translate.mjs fill the other language.
+  for (const p of textPaths(club)) {
+    const v = getPath(club, p);
+    if (typeof v !== "string" || !v.trim()) continue;
+    const ks = p.split("."); let o = club; for (const k of ks.slice(0, -1)) o = o[/^\d+$/.test(k) ? +k : k];
+    o[ks.at(-1)] = { [detectLang(v) === "en" ? "en" : "uk"]: v };
+  }
   writeFileSync(path, clubToYaml(club));
   written++;
 }

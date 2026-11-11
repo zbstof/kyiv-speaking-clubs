@@ -1,28 +1,50 @@
 id: japanese-conversation-club-school-of-oriental-languages-and
-name: >-
-  Japanese conversation club, School of Oriental Languages and Culture (Школа східних мов та
-  культури, ШСМК)
-description: >-
-  Private school teaching 8 Eastern languages (Japanese, Chinese, Korean, Arabic, Turkish, Farsi,
-  Hindi, Indonesian). Lists a Japanese conversation club; the school site also mentions speaking
-  clubs and master classes in general.
+name:
+  uk: Розмовний клуб японської мови, Школа східних мов та культури (ШСМК)
+  en: >-
+    Japanese conversation club, School of Oriental Languages and Culture (Shkola skhidnykh mov ta
+    kultury, ShSMK)
+description:
+  uk: >-
+    Приватна школа, де викладають 8 східних мов (японську, китайську, корейську, арабську, турецьку,
+    фарсі, гінді, індонезійську). У переліку є розмовний клуб японської мови; на сайті школи також
+    згадуються розмовні клуби та майстер-класи загалом.
+  en: >-
+    Private school teaching 8 Eastern languages (Japanese, Chinese, Korean, Arabic, Turkish, Farsi,
+    Hindi, Indonesian). Lists a Japanese conversation club; the school site also mentions speaking
+    clubs and master classes in general.
 languages:
   - ja
 format: hybrid
 location:
-  venue: Школа східних мов та культури
-  address: бульв. Тараса Шевченка, 1-Б, офіс 12-А
-  metro: Театральна / Площа Українських Героїв
-  note: Вхід через арку
+  venue:
+    uk: Школа східних мов та культури
+    en: School of Oriental Languages and Culture
+  address:
+    uk: бульв. Тараса Шевченка, 1-Б, офіс 12-А
+    en: 1-B Tarasa Shevchenka Blvd, office 12-A
+  metro:
+    uk: Театральна / Площа Українських Героїв
+    en: Teatralna
+  note:
+    uk: Вхід через арку
+    en: Entrance through the archway
   lat: 50.441927
   lon: 30.519344
   geocoded: true
-schedule_note: >-
-  Розклад не опубліковано. Безкоштовний розмовний клуб з носієм мови входить у курс японської (для
-  учнів школи). Деталі — в адміністратора: пн–пт 12:00–19:30, сб 10:00–17:30.
+schedule_note:
+  uk: >-
+    Розклад не опубліковано. Безкоштовний розмовний клуб з носієм мови входить у курс японської (для
+    учнів школи). Деталі — в адміністратора: пн–пт 12:00–19:30, сб 10:00–17:30.
+  en: >-
+    The schedule has not been published. A free conversation club with a native speaker is included
+    in the Japanese course (for the school's students). For details, contact the administrator:
+    Mon–Fri 12:00–19:30, Sat 10:00–17:30.
 price:
   free: true
-  amount: безкоштовно для учнів курсу
+  amount:
+    uk: безкоштовно для учнів курсу
+    en: free for students enrolled in the course
 contacts:
   - type: website
     url: https://www.shid.com.ua/
@@ -37,40 +59,11 @@ sources:
   - https://www.shid.com.ua/
   - https://www.shid.com.ua/studying/japanese
   - https://www.shid.com.ua/contact
-notes: >-
-  School works in Kyiv since 2010 per osvita.ua. 2026-07-31 is the osvita.ua listing update date,
-  not proof that the club meets. Clubs may exist for other Eastern languages too (not confirmed).
-i18n:
-  en:
-    location.metro: Teatralna
-    name: >-
-      Japanese conversation club, School of Oriental Languages and Culture (Shkola skhidnykh mov ta
-      kultury, ShSMK)
-    schedule_note: >-
-      The schedule has not been published. A free conversation club with a native speaker is
-      included in the Japanese course (for the school's students). For details, contact the
-      administrator: Mon–Fri 12:00–19:30, Sat 10:00–17:30.
-    location.venue: School of Oriental Languages and Culture
-    location.address: 1-B Tarasa Shevchenka Blvd, office 12-A
-    location.note: Entrance through the archway
-    price.amount: free for students enrolled in the course
-  uk:
-    name: Розмовний клуб японської мови, Школа східних мов та культури (ШСМК)
-    description: >-
-      Приватна школа, де викладають 8 східних мов (японську, китайську, корейську, арабську,
-      турецьку, фарсі, гінді, індонезійську). У переліку є розмовний клуб японської мови; на сайті
-      школи також згадуються розмовні клуби та майстер-класи загалом.
-    notes: >-
-      За даними osvita.ua, школа працює в Києві з 2010 року. 2026-07-31 — дата оновлення запису на
-      osvita.ua, а не підтвердження того, що клуб проводить зустрічі. Можливо, є клуби й для інших
-      східних мов (не підтверджено).
-i18n_src:
-  location.metro: ac047789
-  name: a30c4782
-  description: f77ccd2a
-  schedule_note: 2b87caae
-  notes: 8242f1b5
-  location.venue: 220ba00b
-  location.address: 92056cc3
-  location.note: a9383525
-  price.amount: adca151f
+notes:
+  uk: >-
+    За даними osvita.ua, школа працює в Києві з 2010 року. 2026-07-31 — дата оновлення запису на
+    osvita.ua, а не підтвердження того, що клуб проводить зустрічі. Можливо, є клуби й для інших
+    східних мов (не підтверджено).
+  en: >-
+    School works in Kyiv since 2010 per osvita.ua. 2026-07-31 is the osvita.ua listing update date,
+    not proof that the club meets. Clubs may exist for other Eastern languages too (not confirmed).

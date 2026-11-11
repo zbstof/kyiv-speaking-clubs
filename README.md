@@ -110,7 +110,7 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 
 ## Bulk import
 
-`node scripts/import-research.mjs a.yaml b.yaml` reads lists of research records, merges records with the same name and writes new club files. Existing files are kept unless you pass `--force`. Research records use the club fields above, plus `status_guess` (`active` | `likely_closed` | `unknown`) instead of `status`.
+`node scripts/import-research.mjs a.yaml b.yaml` reads lists of research records, merges records with the same name and writes new club files. Existing files are kept unless you pass `--force`. Research records use the club fields above as plain strings (each is filed under its detected language), plus `status_guess` (`active` | `likely_closed` | `unknown`) instead of `status`.
 
 `node scripts/merge-clubs.mjs <keep-id> <dup-id>... [--id new-id]` merges duplicate club files into one. It keeps the first club's fields, fills gaps from the others, joins languages, contacts and sources, and deletes the duplicates.
 
@@ -133,11 +133,24 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 
 ## Ukrainian and English
 
-- **The original stays as written:** each club keeps its text in the language it was written in.
-- **Where translations live:** `i18n.uk` and `i18n.en`, keyed by field path (`description`, `location.note`, `contacts.0.note`, …). The page shows the stored translation for the chosen interface language when there is one, otherwise the original.
-- **How changes are noticed:** `i18n_src` keeps a hash of each source text. When the source changes, the field gets translated again.
-- **Bulk translation:** `node scripts/translate.mjs [--force] [id...]` fills missing or outdated translations with the OpenAI API (`OPENAI_API_KEY` and `OPENAI_MODEL` from `.env`, default `gpt-6.1-sol`; metro names and plain Ukrainian street addresses are transliterated by fixed rules (2010 national system), not by the model). Proper names stay as they are; into English, Ukrainian names and addresses are transliterated.
-- **New suggestions:** if the Worker has an `OPENAI_API_KEY` secret, it translates new and changed fields before opening the pull request. Without the secret, run the script after merging.
+- **Every text field holds both languages side by side:**
+  ```yaml
+  description:
+    uk: Англомовний філософський клуб…
+    en: An English-language philosophy club…
+  location:
+    address:
+      uk: вул. Басейна, 1/2
+      en: 1/2 Baseina Street
+  ```
+- **The text fields:** `name`, `description`, `schedule_note`, `notes`, `location.venue`, `location.address`, `location.metro`, `location.note`, `price.amount` and `contacts[].note`. The page shows the interface language and falls back to the other.
+- **What gets translated** is decided by comparing a club with its previous version:
+  - only one language present: the missing one is translated;
+  - an edit changed only one language: the other is translated from it;
+  - both changed: both stay as written.
+- **Metro names and plain Ukrainian street addresses** go into English by fixed rules: the station table and the 2010 national transliteration. Everything else goes through the OpenAI API (`gpt-6.1-sol`).
+- **New suggestions:** the Worker compares with the file on `main` and translates before opening the pull request. It needs the `OPENAI_API_KEY` secret.
+- **Local and GitHub edits:** `node scripts/translate.mjs` compares with the last commit, so it handles your uncommitted edits. After editing files on GitHub, use `--since <commit>` with a commit from before the edits. Reads `OPENAI_API_KEY` from `.env`.
 
 ## Member counts
 

@@ -1,14 +1,26 @@
 id: in-conversation-with
-name: In Conversation With
-description: "Англомовний розмовний клуб: невимушені розмови щосереди."
+name:
+  uk: In Conversation With
+  en: In Conversation With
+description:
+  uk: "Англомовний розмовний клуб: невимушені розмови щосереди."
+  en: "English speaking club: relaxed conversations every Wednesday."
 languages:
   - en
 format: offline
 location:
-  venue: Porto D’Oro Trattoria
-  address: вул. Золотоворітська, 17
-  metro: Золоті ворота
-  note: Підвальний стендап-клуб навпроти Золотих воріт, працює як укриття
+  venue:
+    uk: Porto D’Oro Trattoria
+    en: Porto D’Oro Trattoria
+  address:
+    uk: вул. Золотоворітська, 17
+    en: 17 Zolotovoritska St
+  metro:
+    uk: Золоті ворота
+    en: Zoloti Vorota
+  note:
+    uk: Підвальний стендап-клуб навпроти Золотих воріт, працює як укриття
+    en: Basement stand-up club opposite the Golden Gate, also serves as a shelter
   lat: 50.449173
   lon: 30.513993
   map_url: https://maps.app.goo.gl/18FTLbJTvhVjeVDN8
@@ -17,14 +29,18 @@ schedule:
     time: "19:00"
     frequency: weekly
     format: offline
-schedule_note: Щосереди о 19:00. Анонси й теми вечора публікують у групі.
+schedule_note:
+  uk: Щосереди о 19:00. Анонси й теми вечора публікують у групі.
+  en: Every Wednesday at 19:00. Announcements and evening topics are posted in the group.
 price:
   free: true
 registration: none
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в організатора @pytor_alexievich
+    note:
+      uk: Закрита група; запрошення в організатора @pytor_alexievich
+      en: Private group; ask the organizer @pytor_alexievich for an invitation
     members: 246
     members_checked: "2026-11-10"
 organizer: "@pytor_alexievich"
@@ -32,40 +48,17 @@ status: active
 first_seen: 2025-03
 last_seen: "2026-11-08"
 last_checked: "2026-11-10"
-notes: >-
-  Telegram-група клубу, прочитано 10.11.2026. На цьому місці з середини жовтня 2026, раніше місце
-  змінювалося. Організатор 08.11.2026 вказав адресу Золотоворітська, 17 (раніше в анонсах — 15).
-  Улітку 2026 місце змінювалося, зокрема Arcanum. Почався в лютому–березні 2025 як заміна розмовного
-  клубу America House, коли та призупинила роботу; задум — розмови українців і американців.
-i18n:
-  en:
-    location.address: 17 Zolotovoritska St
-    location.metro: Zoloti Vorota
-    description: "English speaking club: relaxed conversations every Wednesday."
-    schedule_note: Every Wednesday at 19:00. Announcements and evening topics are posted in the group.
-    location.note: Basement stand-up club opposite the Golden Gate, also serves as a shelter
-    contacts.0.note: Private group; ask the organizer @pytor_alexievich for an invitation
-    notes: >-
-      Club Telegram group, read on 10.11.2026. At this location since mid-October 2026; previously,
-      the venue changed. On 08.11.2026, the organizer gave the address as 17 Zolotovoritska St
-      (previously 15 in announcements). In summer 2026, the venue changed, with meetings held at
-      Arcanum among other places. The club started in February–March 2025 as a replacement for the
-      America House speaking club when it suspended operations; the idea was to bring Ukrainians and
-      Americans together for conversation.
-  uk:
-    notes: >-
-      Telegram-група клубу, прочитано 10.11.2026. На цьому місці із середини жовтня 2026, раніше
-      місце змінювалося. Організатор 08.11.2026 вказав адресу: вул. Золотоворітська, 17 (раніше в
-      анонсах — 15). Улітку 2026 місце змінювалося, зокрема зустрічі проходили в Arcanum. Клуб почав
-      працювати в лютому–березні 2025 як заміна розмовного клубу America House, коли той призупинив
-      роботу; задум — спілкування українців і американців.
-i18n_src:
-  location.address: c2c2e29d
-  location.metro: e4cb2047
-  name: 154a7b63
-  description: 92f0cedd
-  schedule_note: 74f0b73b
-  location.venue: 8d3c516c
-  location.note: 44ba91e4
-  contacts.0.note: a386b4eb
-  notes: 202586a5
+notes:
+  uk: >-
+    Telegram-група клубу, прочитано 10.11.2026. На цьому місці із середини жовтня 2026, раніше місце
+    змінювалося. Організатор 08.11.2026 вказав адресу: вул. Золотоворітська, 17 (раніше в анонсах —
+    15). Улітку 2026 місце змінювалося, зокрема зустрічі проходили в Arcanum. Клуб почав працювати в
+    лютому–березні 2025 як заміна розмовного клубу America House, коли той призупинив роботу; задум
+    — спілкування українців і американців.
+  en: >-
+    Club Telegram group, read on 10.11.2026. At this location since mid-October 2026; previously,
+    the venue changed. On 08.11.2026, the organizer gave the address as 17 Zolotovoritska St
+    (previously 15 in announcements). In summer 2026, the venue changed, with meetings held at
+    Arcanum among other places. The club started in February–March 2025 as a replacement for the
+    America House speaking club when it suspended operations; the idea was to bring Ukrainians and
+    Americans together for conversation.

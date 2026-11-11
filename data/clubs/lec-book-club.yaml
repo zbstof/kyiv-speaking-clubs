@@ -1,11 +1,17 @@
 id: lec-book-club
-name: LEC Book Club
-description: "Англомовний книжковий клуб мережі LEC: книгу місяця обирають голосуванням."
+name:
+  uk: LEC Book Club
+  en: LEC Book Club
+description:
+  uk: "Англомовний книжковий клуб мережі LEC: книгу місяця обирають голосуванням."
+  en: "An English-language book club in the LEC network: the book of the month is chosen by vote."
 languages:
   - en
 format: offline
 location:
-  address: вул. Митрополита Андрея Шептицького, 24
+  address:
+    uk: вул. Митрополита Андрея Шептицького, 24
+    en: 24 Mytropolyta Andreia Sheptytskoho St
   lat: 50.459245
   lon: 30.592445
   geocoded: true
@@ -15,7 +21,9 @@ schedule:
     duration_min: 120
     frequency: monthly
     format: offline
-schedule_note: Раз на місяць у неділю 14:00–16:00.
+schedule_note:
+  uk: Раз на місяць у неділю 14:00–16:00.
+  en: Once a month on Sunday, 14:00–16:00.
 price:
   free: true
 contacts:
@@ -30,16 +38,6 @@ first_seen: 2019-01
 last_seen: 2024-10
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 24 Mytropolyta Andreia Sheptytskoho St
-    description: "An English-language book club in the LEC network: the book of the month is chosen by vote."
-    schedule_note: Once a month on Sunday, 14:00–16:00.
-    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
-i18n_src:
-  location.address: ddb602e0
-  name: 401af160
-  description: e00a07c5
-  schedule_note: 4a244aae
-  notes: 158955cd
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.

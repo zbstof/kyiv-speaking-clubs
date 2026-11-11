@@ -1,12 +1,20 @@
 id: akademie-aachen-german-conversation-club
-name: "Akademie Aachen: German conversation club"
-description: Paid language school in Kyiv that lists a German conversation club among its courses.
+name:
+  uk: "Akademie Aachen: розмовний клуб німецької мови"
+  en: "Akademie Aachen: German conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+  en: Paid language school in Kyiv that lists a German conversation club among its courses.
 languages:
   - de
 format: offline
 location:
-  venue: Akademie Aachen
-  address: пров. Івана Козловського, 3
+  venue:
+    uk: Akademie Aachen
+    en: Akademie Aachen
+  address:
+    uk: пров. Івана Козловського, 3
+    en: 3 Ivana Kozlovskoho Ln
   lat: 50.441969
   lon: 30.527297
   geocoded: true
@@ -17,26 +25,12 @@ organizer: Akademie Aachen
 status: unknown
 sources:
   - https://osvita.ua/languages/courses/37185/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update date.
-i18n:
-  en:
-    location.address: 3 Ivana Kozlovskoho Ln
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update
-      date.
-  uk:
-    name: "Akademie Aachen: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
-    notes: >-
-      Зазначений лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      ). Розклад і формат не вказані. Телефони в картці: (098) 923-78-03. У картці немає дати
-      оновлення.
-i18n_src:
-  location.address: cac51ba1
-  name: 9f728b2f
-  description: 69ecb131
-  notes: 2fb728e8
-  location.venue: 555a2b9a
+notes:
+  uk: >-
+    Зазначений лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    ). Розклад і формат не вказані. Телефони в картці: (098) 923-78-03. У картці немає дати
+    оновлення.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update
+    date.

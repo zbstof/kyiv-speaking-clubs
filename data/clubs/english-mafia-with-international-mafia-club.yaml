@@ -1,13 +1,23 @@
 id: english-mafia-with-international-mafia-club
-name: English Mafia with International Mafia Club
-description: Weekly Mafia game evenings in English.
+name:
+  uk: «Мафія» англійською з International Mafia Club
+  en: English Mafia with International Mafia Club
+description:
+  uk: Щотижневі вечори гри в «Мафію» англійською.
+  en: Weekly Mafia game evenings in English.
 languages:
   - en
 format: offline
 location:
-  venue: Near FORA supermarket; also 'Petit Paris' school near Мінська
-  address: вул. Тимошенка, 19
-  metro: Мінська
+  venue:
+    uk: Біля супермаркету «Фора»; також у школі «Petit Paris» біля «Мінської»
+    en: Near FORA supermarket; also at "Petit Paris" school near Minska
+  address:
+    uk: вул. Тимошенка, 19
+    en: 19 Tymoshenka St
+  metro:
+    uk: Мінська
+    en: Minska
   lat: 50.512171
   lon: 30.498574
   geocoded: true
@@ -17,10 +27,14 @@ schedule:
     time: "18:00"
     duration_min: 300
     frequency: weekly
-schedule_note: Sundays 18:00–23:00 (2016)
+schedule_note:
+  uk: Щонеділі 18:00–23:00 (2016)
+  en: Sundays 18:00–23:00 (2016)
 price:
   free: false
-  amount: 30 грн per game or 70 грн per evening
+  amount:
+    uk: 30 грн за гру або 70 грн за вечір
+    en: 30 UAH per game or 70 UAH per evening
 registration: none
 organizer: International Mafia Club (contact Oxana, as listed)
 status: unknown
@@ -32,26 +46,6 @@ sources:
   - https://dou.ua/calendar/11448/
   - https://dou.ua/calendar/12202/
   - https://dou.ua/calendar/12653/
-notes: Game format rather than a classic speaking club.
-i18n:
-  en:
-    location.address: 19 Tymoshenka St
-    location.metro: Minska
-    location.venue: Near FORA supermarket; also at "Petit Paris" school near Minska
-    price.amount: 30 UAH per game or 70 UAH per evening
-  uk:
-    name: «Мафія» англійською з International Mafia Club
-    description: Щотижневі вечори гри в «Мафію» англійською.
-    schedule_note: Щонеділі 18:00–23:00 (2016)
-    notes: Ігровий формат, а не класичний розмовний клуб.
-    location.venue: Біля супермаркету «Фора»; також у школі «Petit Paris» біля «Мінської»
-    price.amount: 30 грн за гру або 70 грн за вечір
-i18n_src:
-  location.address: d0503401
-  location.metro: 4ed22f78
-  name: 2dc12f67
-  description: 87cd77d0
-  schedule_note: 4a98943f
-  notes: 880ea264
-  location.venue: 65d1a9e8
-  price.amount: e6282a60
+notes:
+  uk: Ігровий формат, а не класичний розмовний клуб.
+  en: Game format rather than a classic speaking club.

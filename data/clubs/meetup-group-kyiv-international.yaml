@@ -1,8 +1,14 @@
 id: meetup-group-kyiv-international
-name: Meetup group 🌍 (міжнародні зустрічі)
-description: >-
-  Соціальна група іноземців і українців у Києві: суботні зустрічі англійською в кафе, щоразу в
-  іншому (Первак, Чорноморка, 74 urbanfood, Breakfast Club та інші).
+name:
+  uk: Meetup group 🌍 (міжнародні зустрічі)
+  en: Meetup group 🌍 (international meetups)
+description:
+  uk: >-
+    Соціальна група іноземців і українців у Києві: суботні зустрічі англійською в кафе, щоразу в
+    іншому (Первак, Чорноморка, 74 urbanfood, Breakfast Club та інші).
+  en: >-
+    A social group for foreigners and Ukrainians in Kyiv: Saturday meetups in English at a different
+    café each time (Pervak, Chornomorka, 74 urbanfood, Breakfast Club and others).
 languages:
   - en
 format: offline
@@ -12,42 +18,33 @@ schedule:
     duration_min: 180
     frequency: biweekly
     format: offline
-schedule_note: >-
-  У 2023–2025 — приблизно раз на два тижні в суботу о 15:00; кафе оголошували в групі. Після квітня
-  2025 власних зустрічей не було, лише анонси інших подій.
+schedule_note:
+  uk: >-
+    У 2023–2025 — приблизно раз на два тижні в суботу о 15:00; кафе оголошували в групі. Після
+    квітня 2025 власних зустрічей не було, лише анонси інших подій.
+  en: >-
+    In 2023–2025, roughly every other Saturday at 15:00; the café was announced in the group. After
+    April 2025, there were no meetups of their own, only announcements of other events.
 price:
   free: true
 registration: optional
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в учасників
+    note:
+      uk: Закрита група; запрошення в учасників
+      en: Private group; invitations available from members
     members: 214
     members_checked: "2026-11-10"
 status: unknown
 first_seen: 2023-04
 last_seen: "2025-04-26"
-notes: >-
-  Telegram-група, прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень 2023 — квітень 2025,
-  у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in English. New friends», субота
-  15:00, кафе на Костянтинівській, 20.
-i18n:
-  en:
-    name: Meetup group 🌍 (international meetups)
-    description: >-
-      A social group for foreigners and Ukrainians in Kyiv: Saturday meetups in English at a
-      different café each time (Pervak, Chornomorka, 74 urbanfood, Breakfast Club and others).
-    schedule_note: >-
-      In 2023–2025, roughly every other Saturday at 15:00; the café was announced in the group.
-      After April 2025, there were no meetups of their own, only announcements of other events.
-    contacts.0.note: Private group; invitations available from members
-    notes: >-
-      Telegram group, read on 10.11.2026: 39 announcements of its own meetups, September 2023 —
-      April 2025, at 35 different venues. In the 2023 club listings: "Kyiv Meetup in English. New
-      friends", Saturday 15:00, a cafe at 20 Kostiantynivska St.
-i18n_src:
-  name: dd5690b7
-  description: 1ce5ad87
-  schedule_note: 11a48548
-  contacts.0.note: 836a931f
-  notes: "1e691945"
+notes:
+  uk: >-
+    Telegram-група, прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень 2023 — квітень
+    2025, у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in English. New
+    friends», субота 15:00, кафе на Костянтинівській, 20.
+  en: >-
+    Telegram group, read on 10.11.2026: 39 announcements of its own meetups, September 2023 — April
+    2025, at 35 different venues. In the 2023 club listings: "Kyiv Meetup in English. New friends",
+    Saturday 15:00, a cafe at 20 Kostiantynivska St.

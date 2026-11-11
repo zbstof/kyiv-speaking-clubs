@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-ukrainskoi-movy-dlia-ditei-biblioteka-preobra
-name: Розмовний клуб української мови для дітей (бібліотека «Преображенська»)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб української мови для дітей (бібліотека «Преображенська»)
+  en: Ukrainian speaking club for children ("Preobrazhenska" Library)
+description:
+  uk: Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека «Преображенська»
-  address: вул. Максима Кривоноса, 19
+  venue:
+    uk: Бібліотека «Преображенська»
+    en: "\"Preobrazhenska\" Library"
+  address:
+    uk: вул. Максима Кривоноса, 19
+    en: 19 Maksyma Kryvonosa St
   lat: 50.424252
   lon: 30.470851
   geocoded: true
@@ -23,24 +31,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 19 Maksyma Kryvonosa St
-    name: Ukrainian speaking club for children ("Preobrazhenska" Library)
-    location.venue: "\"Preobrazhenska\" Library"
-  uk:
-    description: >-
-      Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці
-      Києва.
-    notes: >-
-      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках
-      не вказано час зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: 6e98eb8a
-  name: 43cdf0f6
-  description: 0402dd7e
-  notes: "80762585"
-  location.venue: 3c9282a8
+notes:
+  uk: >-
+    Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+    вказано час зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

@@ -1,14 +1,24 @@
 id: speak-up-weekly-speaking-clubs
-name: Speak Up weekly speaking clubs
-description: >-
-  Speak Up English school network (about 11 Kyiv branches) lists weekly speaking clubs with a native
-  speaker.
+name:
+  uk: Щотижневі розмовні клуби Speak Up
+  en: Speak Up weekly speaking clubs
+description:
+  uk: >-
+    Мережа шкіл англійської мови Speak Up (близько 11 філій у Києві) пропонує щотижневі розмовні
+    клуби з носієм мови.
+  en: >-
+    Speak Up English school network (about 11 Kyiv branches) lists weekly speaking clubs with a
+    native speaker.
 languages:
   - en
 format: offline
 location:
-  venue: Speak Up branches, e.g. бульв. Лесі Українки, 26
-schedule_note: Weekly
+  venue:
+    uk: Філії Speak Up, наприклад, бульв. Лесі Українки, 26
+    en: Speak Up branches, e.g. 26 Lesi Ukrainky Blvd
+schedule_note:
+  uk: Щотижня
+  en: Weekly
 contacts:
   - type: website
     url: https://speak-up.com.ua
@@ -20,21 +30,6 @@ sources:
   - https://osvita.ua/languages/courses/36628/
   - https://osvita.ua/languages/courses/36630/
   - https://www.education.ua/trainings/companies/11956/
-notes: Mainly for enrolled students (not verified whether open to public).
-i18n:
-  uk:
-    name: Щотижневі розмовні клуби Speak Up
-    description: >-
-      Мережа шкіл англійської мови Speak Up (близько 11 філій у Києві) пропонує щотижневі розмовні
-      клуби з носієм мови.
-    schedule_note: Щотижня
-    notes: Переважно для учнів школи (чи відкриті для всіх охочих — не перевірено).
-    location.venue: Філії Speak Up, наприклад, бульв. Лесі Українки, 26
-  en:
-    location.venue: Speak Up branches, e.g. 26 Lesi Ukrainky Blvd
-i18n_src:
-  name: 77fa3c38
-  description: 249b62bb
-  schedule_note: 417cc4ce
-  notes: c7363c2e
-  location.venue: 7f0f8667
+notes:
+  uk: Переважно для учнів школи (чи відкриті для всіх охочих — не перевірено).
+  en: Mainly for enrolled students (not verified whether open to public).

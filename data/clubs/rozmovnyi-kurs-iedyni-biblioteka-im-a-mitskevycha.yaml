@@ -1,14 +1,24 @@
 id: rozmovnyi-kurs-iedyni-biblioteka-im-a-mitskevycha
-name: Розмовний курс «Єдині» — Бібліотека ім. А. Міцкевича
-description: >-
-  Free Ukrainian conversation course/club of the «Єдині» movement (initiative «Навчай українською»)
-  at a Kyiv public library.
+name:
+  uk: Розмовний курс «Єдині» — Бібліотека ім. А. Міцкевича
+  en: Conversation course "Yedyni" — A. Mickiewicz Library
+description:
+  uk: >-
+    Безплатний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+    українською») у публічній бібліотеці Києва.
+  en: >-
+    Free Ukrainian conversation course/club of the "Yedyni" movement (initiative "Navchai
+    ukrainskoiu") at a Kyiv public library.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. А. Міцкевича
-  address: вул. Івана Франка, 16/2
+  venue:
+    uk: Бібліотека ім. А. Міцкевича
+    en: A. Mickiewicz Library
+  address:
+    uk: вул. Івана Франка, 16/2
+    en: 16/2 Ivana Franka St
   lat: 50.449237
   lon: 30.509178
   geocoded: true
@@ -23,28 +33,11 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 16/2 Ivana Franka St
-    name: Conversation course "Yedyni" — A. Mickiewicz Library
-    description: >-
-      Free Ukrainian conversation course/club of the "Yedyni" movement (initiative "Navchai
-      ukrainskoiu") at a Kyiv public library.
-    location.venue: A. Mickiewicz Library
-  uk:
-    description: >-
-      Безплатний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
-      українською») у публічній бібліотеці Києва.
-    notes: >-
-      Згадується лише в переліку бібліотек київського департаменту культури від 2023-08-17; у
-      переліку від 2025-12-01 відсутній. У переліках не вказано часу зустрічей. Район визначено за
-      адресою, але не перевірено.
-i18n_src:
-  location.address: dee21b03
-  name: 9868f070
-  description: 519a53f7
-  notes: 52736ebd
-  location.venue: 56b91090
+notes:
+  uk: >-
+    Згадується лише в переліку бібліотек київського департаменту культури від 2023-08-17; у переліку
+    від 2025-12-01 відсутній. У переліках не вказано часу зустрічей. Район визначено за адресою, але
+    не перевірено.
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified.

@@ -263,20 +263,11 @@
     for (const p of pats) { const m = url.match(p); if (m) return { lat: +m[1], lon: +m[2] }; }
     return null;
   }
-  // Copy of detectLang in lib/i18n.mjs: "uk", "ru", "en" or null.
-  function detectLang(text) {
-    const cyr = (text.match(/[\u0400-\u04FF]/g) || []).length;
-    const lat = (text.match(/[A-Za-z]/g) || []).length;
-    if (!cyr && !lat) return null;
-    if (cyr >= lat) return /[ыэъё]/i.test(text) && !/[іїєґ]/i.test(text) ? "ru" : "uk";
-    return "en";
-  }
-  // A club text field in the interface language: the stored translation if there is one (translations
-  // are stored only when they differ from the original), otherwise the original.
-  function tx(c, path, value) {
-    if (!value) return value || "";
-    return c.i18n?.[ui]?.[path] || value;
-  }
+  // Text fields hold { uk, en }. pick() returns one language, falling back to the other (or a plain string).
+  const pick = (v, lang = ui) => (v == null ? "" : typeof v === "string" ? v : v[lang] || v[lang === "uk" ? "en" : "uk"] || "");
+  const allText = (v) => (v == null ? "" : typeof v === "string" ? v : Object.values(v).join(" "));
+  // Kept as tx(club, path, value) at the call sites: the value itself now holds both languages.
+  function tx(c, path, value) { return pick(value); }
 
   // Link to the place: the stored map link, else a Google Maps pin from coordinates, else a search by address.
   function mapHref(loc) {
@@ -284,7 +275,7 @@
     if (loc.map_url) return loc.map_url;
     const base = "https://www.google.com/maps/search/?api=1&query=";
     if (loc.lat !== undefined) return base + `${loc.lat},${loc.lon}`;
-    if (loc.address) return base + encodeURIComponent([loc.venue, loc.address, "Київ"].filter(Boolean).join(", "));
+    if (loc.address) return base + encodeURIComponent([pick(loc.venue, "uk"), pick(loc.address, "uk"), "Київ"].filter(Boolean).join(", "));
     return null;
   }
 
@@ -348,8 +339,8 @@
       if (fmt && c.format !== fmt && !(c.format === "hybrid" && fmt !== "hybrid")) return false;
       if (freeOnly && !(c.price && c.price.free)) return false;
       if (q) {
-        const hay = [c.name, c.description, c.organizer, c.notes, c.schedule_note, c.location && Object.values(c.location).join(" "), c.languages.map(langName).join(" "),
-          ...Object.values(c.i18n || {}).flatMap((m) => Object.values(m))].join(" ").toLowerCase();
+        const hay = [c.name, c.description, c.organizer, c.notes, c.schedule_note, ...Object.values(c.location || {}), ...(c.contacts || []).map((x) => x.note)]
+          .map(allText).concat(c.languages.map((l) => LANGS[l] ? LANGS[l].join(" ") : l)).join(" ").toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -436,13 +427,13 @@
   function contactRow(ct = {}, i) {
     const F = t().f;
     // Existing contacts show their note in the interface language; readForm puts the original back if unchanged.
-    const shownNote = i === undefined || !current ? ct.note || "" : tx(current, `contacts.${i}.note`, ct.note);
+    const shownNote = pick(ct.note);
     return `<div class="rep-row" data-rep="contacts">
       ${mini(F.contactType, `<select name="c_type">${CONTACT_TYPES.map((x) => opt(x, t().ctype[x], (ct.type || "telegram") === x)).join("")}</select>`)}
       ${mini(F.access, `<select name="c_access">${["public", "on_request", "invite"].map((x) => opt(x, F.accessOpt[x], (ct.access || "public") === x)).join("")}</select>`)}
       <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
       ${mini(F.url, `<input name="c_url" value="${esc(ct.url || "")}">`, true)}
-      ${mini(F.contactNote, `<input name="c_note" value="${esc(shownNote)}" data-shown="${esc(shownNote)}" data-orig="${esc(ct.note || "")}">`, true)}
+      ${mini(F.contactNote, `<input name="c_note" value="${esc(shownNote)}" data-shown="${esc(shownNote)}" data-orig="${esc(JSON.stringify(ct.note ?? ""))}">`, true)}
     </div>`;
   }
 
@@ -452,7 +443,7 @@
   function buildForm(c) {
     const F = t().f, L = t();
     formShown = {};
-    const lf = (path, value) => { const shown = tx(c, path, value); formShown[path] = { shown: (shown || "").trim(), original: value || "" }; return shown || ""; };
+    const lf = (path, value) => { const shown = pick(value); formShown[path] = { shown: shown.trim(), original: value }; return shown; };
     const loc = c.location || {};
     const known = new Set(FORM_LANGS);
     const other = (c.languages || []).filter((l) => !known.has(l)).join(", ");
@@ -496,7 +487,14 @@
     const c = { ...(current || {}) };
     // A field left as shown keeps its original (any language); an edited field becomes the new original,
     // and the worker translates it into the other language.
-    const keep = (path, val) => (formShown[path] && val === formShown[path].shown ? formShown[path].original : val);
+    // Unchanged: the field stays as it was (both languages). Edited: only the interface language is replaced;
+    // the worker sees that one language changed and translates it into the other.
+    const keep = (path, val) => {
+      const f = formShown[path];
+      if (f && val === f.shown) return f.original;
+      const base = f && f.original && typeof f.original === "object" ? { ...f.original } : {};
+      return val ? { ...base, [ui]: val } : "";   // emptied: the field goes away in both languages
+    };
     c.name = keep("name", v("name"));
     const otherLangs = v("otherLangs").toLowerCase().split(/[\s,;]+/).filter((x) => /^[a-z]{2,3}$/.test(x));
     c.languages = [...new Set([...[...form.querySelectorAll("input[name=lang]:checked")].map((x) => x.value), ...otherLangs])];
@@ -517,7 +515,8 @@
     // while venue, address and link are unchanged; otherwise the worker finds the place from the link or address.
     const prev = current?.location || {};
     const venue = keep("location.venue", v("venue")), address = keep("location.address", v("address")), metro = keep("location.metro", v("metro"));
-    const samePlace = prev.lat !== undefined && venue === (prev.venue || "") && address === (prev.address || "") && metro === (prev.metro || "") && v("mapUrl") === (prev.map_url || "");
+    const same = (a, b) => JSON.stringify(a || "") === JSON.stringify(b || "");
+    const samePlace = prev.lat !== undefined && same(venue, prev.venue) && same(address, prev.address) && same(metro, prev.metro) && v("mapUrl") === (prev.map_url || "");
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
     c.location = { venue, address, metro, note: keep("location.note", v("locNote")),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
@@ -527,7 +526,9 @@
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
       const noteEl = r.querySelector("[name=c_note]"), note = noteEl.value.trim();
       const ct = { type: r.querySelector("[name=c_type]").value, url: r.querySelector("[name=c_url]").value.trim(), access: r.querySelector("[name=c_access]").value,
-        note: noteEl.dataset.shown !== undefined && note === noteEl.dataset.shown.trim() ? noteEl.dataset.orig : note };
+        note: noteEl.dataset.orig === undefined ? (note ? { [ui]: note } : "")
+          : note === noteEl.dataset.shown.trim() ? JSON.parse(noteEl.dataset.orig)
+          : (() => { const o = JSON.parse(noteEl.dataset.orig); return { ...(o && typeof o === "object" ? o : {}), [ui]: note }; })() };
       if (ct.access === "public") delete ct.access;
       // A closed group never publishes a link; submit() stops with a message instead of dropping it silently.
       return ct;
@@ -555,7 +556,7 @@
   function openDialog(m, club) {
     mode = m; current = club ? JSON.parse(JSON.stringify(club)) : null;
     const L = t();
-    $("#dlg-title").textContent = { add: L.dlgAdd, edit: L.dlgEdit, confirm: L.dlgConfirm, close: L.dlgClose }[m] + (club && m !== "add" ? `: ${club.name}` : "");
+    $("#dlg-title").textContent = { add: L.dlgAdd, edit: L.dlgEdit, confirm: L.dlgConfirm, close: L.dlgClose }[m] + (club && m !== "add" ? `: ${pick(club.name)}` : "");
     $("#form-body").innerHTML = m === "add" || m === "edit"
       ? buildForm(club || {})
       : `<p>${esc(m === "confirm" ? L.confirmText : L.closeText)}</p>${field("comment", L.f.comment, `<textarea name="comment" maxlength="1000"></textarea>`, L.f.commentHint)}`;
@@ -586,7 +587,7 @@
     let payload;
     if (mode === "add" || mode === "edit") {
       const { club, comment } = readForm(form);
-      if (!club.name) return showMsg(L.needName, true);
+      if (!pick(club.name).trim()) return showMsg(L.needName, true);
       if (!club.languages?.length) return showMsg(L.needLang, true);
       if ((club.contacts || []).some((ct) => ct.access === "on_request" && ct.url)) return showMsg(L.closedWithLink, true);
       if ((club.contacts || []).some((ct) => ct.url && INVITE_RE.test(ct.url) && ct.access !== "invite")) return showMsg(L.inviteWarn, true);
@@ -685,7 +686,7 @@
       ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
       <div>📍 ${esc([tx(c, "location.venue", loc.venue), tx(c, "location.address", loc.address)].filter(Boolean).join(", "))}</div>
       ${loc.note ? `<div>🧭 ${esc(tx(c, "location.note", loc.note))}</div>` : ""}
-      ${loc.near_metro ? `<div class="pop-approx">${esc(L.approxMetro(loc.metro))}</div>` : loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
+      ${loc.near_metro ? `<div class="pop-approx">${esc(L.approxMetro(pick(loc.metro)))}</div>` : loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
       <div class="pop-links">${href ? `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}
         <button type="button" class="small" data-goto="${esc(c.id)}">${esc(L.more)}</button></div>
     </div>`;

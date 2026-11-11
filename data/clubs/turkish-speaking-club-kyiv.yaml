@@ -1,6 +1,10 @@
 id: turkish-speaking-club-kyiv
-name: Turkish speaking club
-description: Розмовний клуб турецької для рівня A1 і вище.
+name:
+  uk: Розмовний клуб турецької
+  en: Turkish speaking club
+description:
+  uk: Розмовний клуб турецької для рівня A1 і вище.
+  en: Turkish speaking club for level A1 and above.
 languages:
   - tr
 levels:
@@ -11,14 +15,22 @@ levels:
   - C1
 format: offline
 location:
-  venue: Кафе «Krendel»
-  address: вул. Хрещатик
-  metro: Хрещатик
+  venue:
+    uk: Кафе «Krendel»
+    en: Cafe "Krendel"
+  address:
+    uk: вул. Хрещатик
+    en: Khreshchatyk St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.447187
   lon: 30.522946
   geocoded: true
   near_metro: true
-schedule_note: Щотижневі теми (квітень–травень 2024).
+schedule_note:
+  uk: Щотижневі теми (квітень–травень 2024).
+  en: Weekly topics (April–May 2024).
 contacts:
   - type: telegram
     url: https://t.me/turkishspeakingclubkyiv
@@ -27,22 +39,6 @@ contacts:
 status: unknown
 first_seen: 2024-04
 last_seen: "2024-05-12"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.metro: Khreshchatyk
-    description: Turkish speaking club for level A1 and above.
-    schedule_note: Weekly topics (April–May 2024).
-    notes: Based on Kyiv clubs' Telegram group histories (accessed 10.11.2026).
-    location.venue: Cafe "Krendel"
-    location.address: Khreshchatyk St
-  uk:
-    name: Розмовний клуб турецької
-i18n_src:
-  location.metro: 9f2c4b77
-  name: 8ff2e4d9
-  description: da24130b
-  schedule_note: a091b13c
-  notes: dd841777
-  location.venue: b5ffa07c
-  location.address: 34faea66
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on Kyiv clubs' Telegram group histories (accessed 10.11.2026).

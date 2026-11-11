@@ -1,13 +1,23 @@
 id: only-english-club-at-shooters
-name: "\"Only English\" Club at Shooters"
-description: Monthly English-only evening at Shooters bar, organized by NAI Pickard.
+name:
+  uk: Клуб «Only English» у Shooters
+  en: "\"Only English\" Club at Shooters"
+description:
+  uk: Щомісячний вечір спілкування лише англійською в барі Shooters, організований NAI Pickard.
+  en: Monthly English-only evening at Shooters bar, organized by NAI Pickard.
 languages:
   - en
 format: offline
 location:
-  venue: Shooters
-  address: вул. Московська (now Князів Острозьких), 22
-  metro: Арсенальна
+  venue:
+    uk: Shooters
+    en: Shooters
+  address:
+    uk: вул. Московська (нині Князів Острозьких), 22
+    en: 22 Moskovska St (now Kniaziv Ostrozkykh St)
+  metro:
+    uk: Арсенальна
+    en: Arsenalna
   lat: 50.437251
   lon: 30.544468
   geocoded: true
@@ -16,29 +26,15 @@ schedule:
     time: "20:00"
     duration_min: 120
     frequency: monthly
-schedule_note: First Thursday of each month, 8–10 p.m. (2010)
+schedule_note:
+  uk: Першого четверга кожного місяця, 8–10 p.m. (2010)
+  en: First Thursday of each month, 8–10 p.m. (2010)
 organizer: NAI Pickard
 status: unknown
 first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  en:
-    location.metro: Arsenalna
-    location.address: 22 Moskovska St (now Kniaziv Ostrozkykh St)
-  uk:
-    name: Клуб «Only English» у Shooters
-    description: Щомісячний вечір спілкування лише англійською в барі Shooters, організований NAI Pickard.
-    schedule_note: Першого четверга кожного місяця, 8–10 p.m. (2010)
-    notes: Оголошення на дошці «Community listings» у Kyiv Post, 2010-04-08.
-    location.address: вул. Московська (нині Князів Острозьких), 22
-i18n_src:
-  location.metro: 11812dd1
-  name: 5835bf83
-  description: aedb3d90
-  schedule_note: 3f0a4ade
-  notes: 0150c68c
-  location.venue: e9b6c57c
-  location.address: 4adf3ddd
+notes:
+  uk: Оголошення на дошці «Community listings» у Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

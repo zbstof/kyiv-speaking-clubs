@@ -1,12 +1,20 @@
 id: aprende-espanol-spanish-conversation-club
-name: "Aprende Español: Spanish conversation club"
-description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+name:
+  uk: "Aprende Español: розмовний клуб іспанської"
+  en: "Aprende Español: Spanish conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської.
+  en: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
 languages:
   - es
 format: offline
 location:
-  venue: Aprende Español
-  address: вул. Антоновича, 48А, офіс 9
+  venue:
+    uk: Aprende Español
+    en: Aprende Español
+  address:
+    uk: вул. Антоновича, 48А, офіс 9
+    en: 48A Antonovycha St, office 9
 contacts:
   - type: website
     url: https://apesp.club
@@ -16,24 +24,10 @@ first_seen: "2017-12-08"
 last_seen: "2017-12-08"
 sources:
   - https://osvita.ua/languages/courses/36888/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  08.12.2017). No schedule or format given. Phones on card: (099) 402-13-94.
-i18n:
-  uk:
-    name: "Aprende Español: розмовний клуб іспанської"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської.
-    notes: >-
-      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      08.12.2017). Розклад і формат не вказані. Телефони в картці: (099) 402-13-94.
-  en:
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 08.12.2017). No schedule or format given. Phones on card: (099) 402-13-94.
-    location.address: 48A Antonovycha St, office 9
-i18n_src:
-  name: 6a3ef6a5
-  description: 579e5f8f
-  notes: be494099
-  location.venue: "57357882"
-  location.address: b128c488
+notes:
+  uk: >-
+    Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    08.12.2017). Розклад і формат не вказані. Телефони в картці: (099) 402-13-94.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 08.12.2017). No schedule or format given. Phones on card: (099) 402-13-94.

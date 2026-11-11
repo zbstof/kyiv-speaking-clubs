@@ -1,6 +1,12 @@
 id: ukrainian-course-and-speaking-club-ideal-international-benja
-name: Ukrainian Course and Speaking club (Ideal International / Benjamin Z Miller's Kyiv Group)
-description: Ukrainian course plus speaking club for expats, posted on a Kyiv Meetup group.
+name:
+  uk: Курс української мови та розмовний клуб (Ideal International / Benjamin Z Miller's Kyiv Group)
+  en: Ukrainian Course and Speaking club (Ideal International / Benjamin Z Miller's Kyiv Group)
+description:
+  uk: >-
+    Курс української мови та розмовний клуб для експатів, оголошення про який розміщено в київській
+    Meetup-групі.
+  en: Ukrainian course plus speaking club for expats, posted on a Kyiv Meetup group.
 languages:
   - uk
 schedule:
@@ -12,10 +18,15 @@ schedule:
     time: "18:30"
     duration_min: 60
     frequency: weekly
-schedule_note: >-
-  Щосереди і щосуботи о 18:30, 1 година. Місце бачать лише учасники Meetup-групи, тому не
-  перевірено, наживо це чи онлайн. На всіх подіях у Meetup записаний лише ведучий, тож чи збираються
-  люди, не перевірено.
+schedule_note:
+  uk: >-
+    Щосереди й щосуботи о 18:30, тривалість — 1 година. Місце проведення бачать лише учасники
+    Meetup-групи, тому не перевірено, чи зустрічі відбуваються наживо, чи онлайн. На всі події в
+    Meetup записаний лише ведучий, тож чи збираються люди — не перевірено.
+  en: >-
+    Every Wednesday and Saturday at 18:30, for 1 hour. The location is visible only to Meetup group
+    members, so it has not been verified whether meetings are in person or online. Only the host is
+    signed up for each event on Meetup, so actual attendance has not been verified.
 registration: required
 contacts:
   - type: meetup
@@ -29,22 +40,3 @@ sources:
   - https://www.meetup.com/find/ua--kyiv/networking/
   - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
   - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
-i18n:
-  uk:
-    name: Курс української мови та розмовний клуб (Ideal International / Benjamin Z Miller's Kyiv Group)
-    description: >-
-      Курс української мови та розмовний клуб для експатів, оголошення про який розміщено в
-      київській Meetup-групі.
-    schedule_note: >-
-      Щосереди й щосуботи о 18:30, тривалість — 1 година. Місце проведення бачать лише учасники
-      Meetup-групи, тому не перевірено, чи зустрічі відбуваються наживо, чи онлайн. На всі події в
-      Meetup записаний лише ведучий, тож чи збираються люди — не перевірено.
-  en:
-    schedule_note: >-
-      Every Wednesday and Saturday at 18:30, for 1 hour. The location is visible only to Meetup
-      group members, so it has not been verified whether meetings are in person or online. Only the
-      host is signed up for each event on Meetup, so actual attendance has not been verified.
-i18n_src:
-  name: 8b21ca71
-  description: 60f2fcb1
-  schedule_note: 7a216df5

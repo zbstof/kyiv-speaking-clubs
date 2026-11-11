@@ -1,13 +1,25 @@
 id: priority-language-school-spanish-conversation-club
-name: "Priority Language School: Spanish conversation club"
-description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+name:
+  uk: "Priority Language School: розмовний клуб іспанської"
+  en: "Priority Language School: Spanish conversation club"
+description:
+  uk: >-
+    Мовна школа в Києві з платним навчанням, яка пропонує серед своїх курсів розмовний клуб
+    іспанської.
+  en: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
 languages:
   - es
 format: offline
 location:
-  venue: Priority Language School
-  address: вул. Велика Васильківська, 42Б
-  metro: Площа Льва Толстого
+  venue:
+    uk: Priority Language School
+    en: Priority Language School
+  address:
+    uk: вул. Велика Васильківська, 42Б
+    en: 42B Velyka Vasylkivska St
+  metro:
+    uk: Площа Льва Толстого
+    en: Ploshcha Ukrainskykh Heroiv
   lat: 50.437252
   lon: 30.515186
   geocoded: true
@@ -20,29 +32,10 @@ first_seen: "2019-10-15"
 last_seen: "2019-10-15"
 sources:
   - https://osvita.ua/languages/courses/37163/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.
-i18n:
-  en:
-    location.address: 42B Velyka Vasylkivska St
-    location.metro: Ploshcha Ukrainskykh Heroiv
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.
-  uk:
-    name: "Priority Language School: розмовний клуб іспанської"
-    description: >-
-      Мовна школа в Києві з платним навчанням, яка пропонує серед своїх курсів розмовний клуб
-      іспанської.
-    notes: >-
-      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
-      osvita.ua (картку оновлено 15.10.2019). Розклад і формат не вказані. Телефони в картці: (068)
-      265-46-55.
-i18n_src:
-  location.address: b1a019ed
-  location.metro: 631376ee
-  name: c887b93e
-  description: 579e5f8f
-  notes: 59235acf
-  location.venue: cecdaa13
+notes:
+  uk: >-
+    Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі osvita.ua
+    (картку оновлено 15.10.2019). Розклад і формат не вказані. Телефони в картці: (068) 265-46-55.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.

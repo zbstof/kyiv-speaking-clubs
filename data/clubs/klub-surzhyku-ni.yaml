@@ -1,14 +1,24 @@
 id: klub-surzhyku-ni
-name: Клуб «Суржику – ні!»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Суржику – ні!»
+  en: "\"Surzhyku – ni!\" Club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. М. Куліша
-  address: вул. Бориса Мартоса, 4б
+  venue:
+    uk: Бібліотека ім. М. Куліша
+    en: M. Kulish Library
+  address:
+    uk: вул. Бориса Мартоса, 4б
+    en: 4B Borysa Martosa St
   lat: 50.446973
   lon: 30.599468
   geocoded: true
@@ -23,24 +33,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 4B Borysa Martosa St
-    name: "\"Surzhyku – ni!\" Club"
-    location.venue: M. Kulish Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: 7464ea1f
-  name: "73881985"
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: f0a36312
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

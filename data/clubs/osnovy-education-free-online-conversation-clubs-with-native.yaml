@@ -1,8 +1,14 @@
 id: osnovy-education-free-online-conversation-clubs-with-native
-name: "Osnovy Education: онлайн-клуби з носіями мови"
-description: >-
-  Kyiv language school (English, German, Polish, Spanish, Portuguese) that gives its course students
-  free online conversation clubs with native speakers.
+name:
+  uk: "Osnovy Education: онлайн-клуби з носіями мови"
+  en: "Osnovy Education: online clubs with native speakers"
+description:
+  uk: >-
+    Київська мовна школа (англійська, німецька, польська, іспанська, португальська), яка пропонує
+    слухачам своїх курсів безкоштовні онлайн-розмовні клуби з носіями мови.
+  en: >-
+    Kyiv language school (English, German, Polish, Spanish, Portuguese) that gives its course
+    students free online conversation clubs with native speakers.
 languages:
   - en
   - pl
@@ -12,8 +18,12 @@ levels:
   - any
 format: online
 location:
-  venue: Osnovy Education
-  address: просп. Європейського Союзу, 41-є; вул. Родини Крістерів, 18/6; вул. Вишгородська, 12
+  venue:
+    uk: Osnovy Education
+    en: Osnovy Education
+  address:
+    uk: просп. Європейського Союзу, 41-є; вул. Родини Крістерів, 18/6; вул. Вишгородська, 12
+    en: 41-ye Yevropeiskoho Soiuzu Ave; 18/6 Rodyny Kristeriv St; 12 Vyshhorodska St
 schedule:
   - day: sat
     time: "12:00"
@@ -35,13 +45,20 @@ schedule:
     duration_min: 60
     frequency: irregular
     format: online
-schedule_note: >-
-  Онлайн, 1 година, до 10 людей, з носіями мови. Дати анонсують у Telegram-каналі раз на місяць.
-  Англійська — сб 12:00 або 13:00 (14 і 28.11), польська — сб 11:00 (28.11), німецька — нд 10:00
-  (25.10). Запис — @osnovy_edu.
+schedule_note:
+  uk: >-
+    Онлайн, 1 година, до 10 людей, з носіями мови. Дати анонсують у Telegram-каналі раз на місяць.
+    Англійська — сб 12:00 або 13:00 (14 і 28.11), польська — сб 11:00 (28.11), німецька — нд 10:00
+    (25.10). Запис — @osnovy_edu.
+  en: >-
+    Online, 1 hour, up to 10 people, with native speakers. Dates are announced in the Telegram
+    channel once a month. English — Sat 12:00 or 13:00 (14 and 28.11), Polish — Sat 11:00 (28.11),
+    German — Sun 10:00 (25.10). Sign up — @osnovy_edu.
 price:
   free: false
-  amount: 250 грн (у березні–липні 2026)
+  amount:
+    uk: 250 грн (у березні–липні 2026)
+    en: 250 UAH (in March–July 2026)
 registration: required
 contacts:
   - type: telegram
@@ -50,7 +67,9 @@ contacts:
     members_checked: "2026-11-10"
   - type: telegram
     url: https://t.me/osnovy_edu
-    note: запис на клуби
+    note:
+      uk: запис на клуби
+      en: sign up for clubs
   - type: website
     url: https://osnovy.education
   - type: instagram
@@ -63,32 +82,10 @@ sources:
   - https://www.education.ua/courses/47394/
   - https://t.me/s/osnovy_education
   - https://osnovy.education
-notes: >-
-  Club is a bonus for paying students; schedule not published. Which languages have clubs is not
-  stated per language.
-i18n:
-  en:
-    name: "Osnovy Education: online clubs with native speakers"
-    schedule_note: >-
-      Online, 1 hour, up to 10 people, with native speakers. Dates are announced in the Telegram
-      channel once a month. English — Sat 12:00 or 13:00 (14 and 28.11), Polish — Sat 11:00 (28.11),
-      German — Sun 10:00 (25.10). Sign up — @osnovy_edu.
-    location.address: 41-ye Yevropeiskoho Soiuzu Ave; 18/6 Rodyny Kristeriv St; 12 Vyshhorodska St
-    price.amount: 250 UAH (in March–July 2026)
-    contacts.1.note: sign up for clubs
-  uk:
-    description: >-
-      Київська мовна школа (англійська, німецька, польська, іспанська, португальська), яка пропонує
-      слухачам своїх курсів безкоштовні онлайн-розмовні клуби з носіями мови.
-    notes: >-
-      Клуб — бонус для студентів, які оплачують навчання; розклад не опубліковано. Не вказано, для
-      яких саме мов є клуби.
-i18n_src:
-  name: 14c66871
-  description: 6bf6e2e3
-  schedule_note: aa3f9f02
-  notes: de63a58f
-  location.venue: 099f7067
-  location.address: 858c2144
-  price.amount: 8e7fec5c
-  contacts.1.note: bd46fe1a
+notes:
+  uk: >-
+    Клуб — бонус для студентів, які оплачують навчання; розклад не опубліковано. Не вказано, для
+    яких саме мов є клуби.
+  en: >-
+    Club is a bonus for paying students; schedule not published. Which languages have clubs is not
+    stated per language.

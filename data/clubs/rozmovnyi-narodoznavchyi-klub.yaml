@@ -1,14 +1,24 @@
 id: rozmovnyi-narodoznavchyi-klub
-name: Розмовний народознавчий клуб
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний народознавчий клуб
+  en: Folk culture conversation club
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека сімейного читання ім. О. Гончара
-  address: вул. Миколи Шепелєва, 13
+  venue:
+    uk: Бібліотека сімейного читання ім. О. Гончара
+    en: O. Honchar Family Reading Library
+  address:
+    uk: вул. Миколи Шепелєва, 13
+    en: 13 Mykoly Shepelieva St
   lat: 50.419993
   lon: 30.434436
   geocoded: true
@@ -27,24 +37,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 13 Mykoly Shepelieva St
-    name: Folk culture conversation club
-    location.venue: O. Honchar Family Reading Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
-      зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: e27023a0
-  name: 99ed7d65
-  description: d15e99c9
-  notes: 35f55f76
-  location.venue: 3dde1c0e
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

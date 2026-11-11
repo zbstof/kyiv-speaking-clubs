@@ -1,20 +1,31 @@
 id: nedilna-shkola-krymskotatarskoi-movy-ho-alem-dytiacha-studii
-name: Недільна школа кримськотатарської мови ГО «Алем» / дитяча студія «Фідан»
-description: >-
-  Sunday school in Kyiv for children to learn Crimean Tatar language, history and culture (studio
-  «Фідан»); interactive lessons and excursions. Closest Crimean Tatar language-practice group found
-  in Kyiv; not a speaking club for adults.
+name:
+  uk: Недільна школа кримськотатарської мови ГО «Алем» / дитяча студія «Фідан»
+  en: Crimean Tatar language Sunday school run by the NGO "Alem" / children's studio "Fidan"
+description:
+  uk: >-
+    Недільна школа в Києві, де діти вивчають кримськотатарську мову, історію та культуру (студія
+    «Фідан»); інтерактивні заняття та екскурсії. Найближчий знайдений у Києві варіант групи для
+    практики кримськотатарської мови; не розмовний клуб для дорослих.
+  en: >-
+    Sunday school in Kyiv for children to learn Crimean Tatar language, history and culture (studio
+    "Fidan"); interactive lessons and excursions. Closest Crimean Tatar language-practice group
+    found in Kyiv; not a speaking club for adults.
 languages:
   - crh
 levels:
   - any
 format: offline
 location:
-  venue: Таврійський національний університет ім. В. І. Вернадського (у Києві)
+  venue:
+    uk: Таврійський національний університет ім. В. І. Вернадського (у Києві)
+    en: V. I. Vernadsky Taurida National University (in Kyiv)
 schedule:
   - day: sun
     frequency: weekly
-schedule_note: Sundays; new academic year opened Oct 2019.
+schedule_note:
+  uk: Щонеділі; початок нового навчального року — Oct 2019.
+  en: Sundays; new academic year opened Oct 2019.
 organizer: Кримськотатарська ГО «Алем» (голова правління Есма Аджиєва)
 status: unknown
 first_seen: "2019-10-29"
@@ -22,32 +33,13 @@ last_seen: "2019-10-29"
 sources:
   - >-
     https://www.ukrinform.ua/rubric-crimea/2807554-nedilna-skola-v-kievi-de-vivcaut-krimskotatarsku-movu-pocala-navcalnij-rik.html
-notes: >-
-  Language code crh = Crimean Tatar (ISO 639-3; no ISO 639-1 code). No Crimean Tatar speaking club
-  for adults in Kyiv was found. Related: NaUKMA offers Crimean Tatar as an elective from 2025/26;
-  KNU has had a Crimean Tatar language and literature programme since 2014 (courses, not clubs).
-i18n:
-  en:
-    name: Crimean Tatar language Sunday school run by the NGO "Alem" / children's studio "Fidan"
-    description: >-
-      Sunday school in Kyiv for children to learn Crimean Tatar language, history and culture
-      (studio "Fidan"); interactive lessons and excursions. Closest Crimean Tatar language-practice
-      group found in Kyiv; not a speaking club for adults.
-    location.venue: V. I. Vernadsky Taurida National University (in Kyiv)
-  uk:
-    description: >-
-      Недільна школа в Києві, де діти вивчають кримськотатарську мову, історію та культуру (студія
-      «Фідан»); інтерактивні заняття та екскурсії. Найближчий знайдений у Києві варіант групи для
-      практики кримськотатарської мови; не розмовний клуб для дорослих.
-    schedule_note: Щонеділі; початок нового навчального року — Oct 2019.
-    notes: >-
-      Код мови crh = кримськотатарська (ISO 639-3; коду ISO 639-1 немає). Розмовного клубу
-      кримськотатарської мови для дорослих у Києві не знайдено. Також: НаУКМА пропонує
-      кримськотатарську як вибіркову дисципліну з 2025/26; у КНУ з 2014 є освітня програма з
-      кримськотатарської мови та літератури (навчальні курси, не клуби).
-i18n_src:
-  name: a2e02418
-  description: 3fd1609b
-  schedule_note: "46311992"
-  notes: ee862468
-  location.venue: 33fedcfc
+notes:
+  uk: >-
+    Код мови crh = кримськотатарська (ISO 639-3; коду ISO 639-1 немає). Розмовного клубу
+    кримськотатарської мови для дорослих у Києві не знайдено. Також: НаУКМА пропонує
+    кримськотатарську як вибіркову дисципліну з 2025/26; у КНУ з 2014 є освітня програма з
+    кримськотатарської мови та літератури (навчальні курси, не клуби).
+  en: >-
+    Language code crh = Crimean Tatar (ISO 639-3; no ISO 639-1 code). No Crimean Tatar speaking club
+    for adults in Kyiv was found. Related: NaUKMA offers Crimean Tatar as an elective from 2025/26;
+    KNU has had a Crimean Tatar language and literature programme since 2014 (courses, not clubs).

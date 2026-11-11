@@ -1,6 +1,10 @@
 id: online-spanish-club-vamos-benjamin-z-millers-kyiv-group
-name: Online Spanish Club 'Vamos'! (Benjamin Z Miller's Kyiv Group)
-description: Online Spanish conversation club run by a Kyiv Meetup group for expats and Ukrainians.
+name:
+  uk: Онлайн-клуб іспанської «Vamos»! (Київська група Бенджаміна З. Міллера)
+  en: Online Spanish Club 'Vamos'! (Benjamin Z Miller's Kyiv Group)
+description:
+  uk: Онлайн-розмовний клуб іспанської від київської Meetup-групи для експатів та українців.
+  en: Online Spanish conversation club run by a Kyiv Meetup group for expats and Ukrainians.
 languages:
   - es
 format: online
@@ -10,9 +14,14 @@ schedule:
     duration_min: 60
     frequency: weekly
     format: online
-schedule_note: >-
-  Щонеділі о 17:00, 1 година, онлайн. Запис на Meetup; опис і посилання бачать лише учасники групи.
-  На всіх подіях у Meetup записаний лише ведучий, тож чи збираються люди, не перевірено.
+schedule_note:
+  uk: >-
+    Щонеділі о 17:00, 1 година, онлайн. Запис на Meetup; опис і посилання бачать лише учасники
+    групи. На всіх подіях у Meetup записаний лише ведучий, тож чи збираються люди, не перевірено.
+  en: >-
+    Every Sunday at 17:00, 1 hour, online. Sign up on Meetup; only group members can see the
+    description and link. Only the host is signed up for any of the Meetup events, so whether people
+    actually attend has not been verified.
 registration: required
 contacts:
   - type: meetup
@@ -29,24 +38,10 @@ sources:
   - https://www.meetup.com/find/ua--kyiv/networking/
   - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
   - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
-notes: >-
-  Meetup lists it as 'Every Sun'. Event details members-only. A search snippet showed the same event
-  on Sun Sep 14 (2025). Group has 773 members. Price not stated.
-i18n:
-  uk:
-    name: Онлайн-клуб іспанської «Vamos»! (Київська група Бенджаміна З. Міллера)
-    description: Онлайн-розмовний клуб іспанської від київської Meetup-групи для експатів та українців.
-    notes: >-
-      На Meetup зазначено «Щонеділі». Подробиці події доступні лише учасникам групи. У фрагменті
-      пошукової видачі була та сама подія на Sun Sep 14 (2025). У групі 773 учасники. Ціну не
-      вказано.
-  en:
-    schedule_note: >-
-      Every Sunday at 17:00, 1 hour, online. Sign up on Meetup; only group members can see the
-      description and link. Only the host is signed up for any of the Meetup events, so whether
-      people actually attend has not been verified.
-i18n_src:
-  name: d86874f7
-  description: 45cfdae4
-  schedule_note: a00fd600
-  notes: 7f6f32c1
+notes:
+  uk: >-
+    На Meetup зазначено «Щонеділі». Подробиці події доступні лише учасникам групи. У фрагменті
+    пошукової видачі була та сама подія на Sun Sep 14 (2025). У групі 773 учасники. Ціну не вказано.
+  en: >-
+    Meetup lists it as 'Every Sun'. Event details members-only. A search snippet showed the same
+    event on Sun Sep 14 (2025). Group has 773 members. Price not stated.

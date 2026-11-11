@@ -1,20 +1,34 @@
 id: rozmovnyi-klub-ukrainske-slovo-prosytsia-do-tebe
-name: Розмовний клуб «Українське слово проситься до тебе»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Українське слово проситься до тебе»
+  en: Conversation club "Ukrainske slovo prosytsia do tebe"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека № 152 сімейного читання
-  address: вул. Заболотного, 20-А
+  venue:
+    uk: Бібліотека № 152 сімейного читання
+    en: Family Reading Library No. 152
+  address:
+    uk: вул. Заболотного, 20-А
+    en: 20-A Zabolotnoho St
   lat: 50.366017
   lon: 30.462228
   geocoded: true
-schedule_note: >-
-  Blog post 29 Apr 2026: conversation club session on the works of Oles Honchar. No regular time
-  published.
+schedule_note:
+  uk: >-
+    Допис у блозі 29 Apr 2026: зустріч розмовного клубу, присвячена творчості Олеся Гончара.
+    Постійного розкладу не опубліковано.
+  en: >-
+    Blog post 29 Apr 2026: conversation club session on the works of Oles Honchar. No regular time
+    published.
 price:
   free: true
 contacts:
@@ -33,28 +47,10 @@ sources:
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
   - https://bibl152.blogspot.com/search?q=%D1%80%D0%BE%D0%B7%D0%BC%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 20-A Zabolotnoho St
-    name: Conversation club "Ukrainske slovo prosytsia do tebe"
-    location.venue: Family Reading Library No. 152
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    schedule_note: >-
-      Допис у блозі 29 Apr 2026: зустріч розмовного клубу, присвячена творчості Олеся Гончара.
-      Постійного розкладу не опубліковано.
-    notes: >-
-      Зазначено в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: "27e62963"
-  name: 6341b628
-  description: d15e99c9
-  schedule_note: f928d2a5
-  notes: 35f55f76
-  location.venue: 1afc0e06
+notes:
+  uk: >-
+    Зазначено в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
+    переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

@@ -1,18 +1,31 @@
 id: klub-ukrainskoho-movlennia-munitsypalna-knyharnia-siaivo-kny
-name: Клуб українського мовлення (муніципальна книгарня «Сяйво книги»)
-description: >-
-  Free Ukrainian conversation club at the municipal bookshop; first meeting gathered almost 200
-  people; participants split into groups after a questionnaire. Led by Svitlana Lukach, PhD in
-  pedagogy.
+name:
+  uk: Клуб українського мовлення (муніципальна книгарня «Сяйво книги»)
+  en: Ukrainian speaking club ("Siaivo knyhy" municipal bookshop)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в муніципальній книгарні; перша зустріч зібрала
+    майже 200 людей; після анкетування учасників розподілили на групи. Веде Світлана Лукач, докторка
+    філософії в галузі педагогіки.
+  en: >-
+    Free Ukrainian conversation club at the municipal bookshop; first meeting gathered almost 200
+    people; participants split into groups after a questionnaire. Led by Svitlana Lukach, PhD in
+    pedagogy.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Муніципальна книгарня «Сяйво книги»
-  address: вул. Велика Васильківська, 6
-  metro: Площа Українських Героїв
+  venue:
+    uk: Муніципальна книгарня «Сяйво книги»
+    en: "\"Siaivo knyhy\" municipal bookshop"
+  address:
+    uk: вул. Велика Васильківська, 6
+    en: 6 Velyka Vasylkivska St
+  metro:
+    uk: Площа Українських Героїв
+    en: Ploshcha Ukrainskykh Heroiv
   lat: 50.441511
   lon: 30.519609
   geocoded: true
@@ -29,9 +42,13 @@ schedule:
     time: "14:00"
     duration_min: 60
     frequency: weekly
-schedule_note: >-
-  First meeting 14 Jul 2022 18:00. From 20 Jul 2022 groups: Wed 16:00, 17:00, 18:00; Thu 17:00,
-  18:00, 19:00; Sat 14:00, 15:00.
+schedule_note:
+  uk: >-
+    Перша зустріч 14 Jul 2022 18:00. З 20 Jul 2022 групи: ср 16:00, 17:00, 18:00; чт 17:00, 18:00,
+    19:00; сб 14:00, 15:00.
+  en: >-
+    First meeting 14 Jul 2022 18:00. From 20 Jul 2022 groups: Wed 16:00, 17:00, 18:00; Thu 17:00,
+    18:00, 19:00; Sat 14:00, 15:00.
 price:
   free: true
 registration: required
@@ -49,29 +66,8 @@ sources:
     https://kyivcity.gov.ua/news/u_munitsipalniy_knigarni_syayvo_knigi_14_lipnya_startuye_klub_ukranskogo_movlennya/
   - >-
     https://kyivcity.gov.ua/news/u_munitsipalniy_knigarni_syayvo_knigi_sogodni_rozpochinayutsya_zustrichi_klubu_ukranskogo_movlennya/
-notes: Metro guessed from address. Group durations assumed 60 min from the hourly slots.
-i18n:
-  en:
-    location.address: 6 Velyka Vasylkivska St
-    location.metro: Ploshcha Ukrainskykh Heroiv
-    name: Ukrainian speaking club ("Siaivo knyhy" municipal bookshop)
-    location.venue: "\"Siaivo knyhy\" municipal bookshop"
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в муніципальній книгарні; перша зустріч зібрала
-      майже 200 людей; після анкетування учасників розподілили на групи. Веде Світлана Лукач,
-      докторка філософії в галузі педагогіки.
-    schedule_note: >-
-      Перша зустріч 14 Jul 2022 18:00. З 20 Jul 2022 групи: ср 16:00, 17:00, 18:00; чт 17:00, 18:00,
-      19:00; сб 14:00, 15:00.
-    notes: >-
-      Станцію метро визначено орієнтовно за адресою. Тривалість занять у групах умовно визначено як
-      60 хв за годинними інтервалами в розкладі.
-i18n_src:
-  location.address: 855cf3a2
-  location.metro: 904765f0
-  name: 614c77a5
-  description: 4816e24a
-  schedule_note: 5418dc67
-  notes: 7c395333
-  location.venue: "07607768"
+notes:
+  uk: >-
+    Станцію метро визначено орієнтовно за адресою. Тривалість занять у групах умовно визначено як 60
+    хв за годинними інтервалами в розкладі.
+  en: Metro guessed from address. Group durations assumed 60 min from the hourly slots.

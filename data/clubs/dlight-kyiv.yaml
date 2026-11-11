@@ -1,12 +1,20 @@
 id: dlight-kyiv
-name: D’light Kyiv
-description: Англомовні дискусійні групи й події з носіями мови.
+name:
+  uk: D’light Kyiv
+  en: D’light Kyiv
+description:
+  uk: Англомовні дискусійні групи й події з носіями мови.
+  en: English-language discussion groups and events with native speakers.
 languages:
   - en
 format: offline
 location:
-  venue: Genesis Cafe
-  metro: Лук’янівська
+  venue:
+    uk: Genesis Cafe
+    en: Genesis Cafe
+  metro:
+    uk: Лук’янівська
+    en: Lukianivska
   lat: 50.457996
   lon: 30.480595
   geocoded: true
@@ -15,7 +23,9 @@ schedule:
     time: "18:45"
     frequency: weekly
     format: offline
-schedule_note: Вівторок 18:45 (тема вечора — у каналі). Бувають інші програми й події.
+schedule_note:
+  uk: Вівторок 18:45 (тема вечора — у каналі). Бувають інші програми й події.
+  en: Tuesday 18:45 (the evening’s topic is in the channel). Other programs and events are also held.
 contacts:
   - type: telegram
     url: https://t.me/kyivoflight
@@ -25,19 +35,6 @@ status: active
 last_seen: "2026-11-10"
 sources:
   - https://t.me/kyivoflight
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.metro: Lukianivska
-    description: English-language discussion groups and events with native speakers.
-    schedule_note: >-
-      Tuesday 18:45 (the evening’s topic is in the channel). Other programs and events are also
-      held.
-    notes: Based on the message history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
-i18n_src:
-  location.metro: 3010b2a8
-  name: 492788d3
-  description: 1c3663cf
-  schedule_note: 7496307d
-  notes: dd841777
-  location.venue: 3f5d4f76
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the message history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).

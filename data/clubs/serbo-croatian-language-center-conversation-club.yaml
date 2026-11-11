@@ -1,31 +1,28 @@
 id: serbo-croatian-language-center-conversation-club
-name: Serbo-Croatian Language Center conversation club
-description: >-
-  Conversation club at a Serbo-Croatian language centre that also offers courses and a video/book
-  library.
+name:
+  uk: Розмовний клуб Центру сербсько-хорватської мови
+  en: Serbo-Croatian Language Center conversation club
+description:
+  uk: >-
+    Розмовний клуб при центрі сербсько-хорватської мови, який також пропонує курси та має відеотеку
+    й бібліотеку.
+  en: >-
+    Conversation club at a Serbo-Croatian language centre that also offers courses and a video/book
+    library.
 languages:
   - sr
   - hr
 format: offline
 location:
-  venue: Serbo-Croatian Language Center
+  venue:
+    uk: Центр сербсько-хорватської мови
+    en: Serbo-Croatian Language Center
 organizer: "Serbo-Croatian Language Center (contact: Stefan)"
 status: unknown
 first_seen: "2010-04-08"
 last_seen: "2010-04-08"
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Розмовний клуб Центру сербсько-хорватської мови
-    description: >-
-      Розмовний клуб при центрі сербсько-хорватської мови, який також пропонує курси та має
-      відеотеку й бібліотеку.
-    notes: Зазначено на дошці оголошень Kyiv Post у рубриці «Оголошення спільноти», 2010-04-08.
-    location.venue: Центр сербсько-хорватської мови
-i18n_src:
-  name: 8f63cec6
-  description: b47d966f
-  notes: 0150c68c
-  location.venue: c18ed37f
+notes:
+  uk: Зазначено на дошці оголошень Kyiv Post у рубриці «Оголошення спільноти», 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

@@ -1,12 +1,20 @@
 id: lec-english-in-the-dark
-name: English in the Dark (open-air walk)
-description: Вечірня прогулянка з розмовами англійською.
+name:
+  uk: English in the Dark (прогулянка просто неба)
+  en: English in the Dark (open-air walk)
+description:
+  uk: Вечірня прогулянка з розмовами англійською.
+  en: An evening walk with conversations in English.
 languages:
   - en
 format: offline
 location:
-  venue: Головний вхід ВДНГ (Національний експоцентр)
-  metro: Виставковий центр
+  venue:
+    uk: Головний вхід ВДНГ (Національний експоцентр)
+    en: Main entrance to VDNH (National Expocentre)
+  metro:
+    uk: Виставковий центр
+    en: Vystavkovyi Tsentr
   lat: 50.382499
   lon: 30.477584
   geocoded: true
@@ -17,7 +25,9 @@ schedule:
     duration_min: 130
     frequency: weekly
     format: offline
-schedule_note: Четвер 18:50–21:00, старт біля головного входу ВДНГ.
+schedule_note:
+  uk: Четвер 18:50–21:00, старт біля головного входу ВДНГ.
+  en: Thursday 18:50–21:00, starting at the main entrance to VDNH.
 price:
   free: true
 contacts:
@@ -26,20 +36,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.metro: Vystavkovyi Tsentr
-    description: An evening walk with conversations in English.
-    schedule_note: Thursday 18:50–21:00, starting at the main entrance to VDNH.
-    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
-    location.venue: Main entrance to VDNH (National Expocentre)
-  uk:
-    name: English in the Dark (прогулянка просто неба)
-i18n_src:
-  location.metro: ad9faf4e
-  name: 611ae1ae
-  description: fe66258a
-  schedule_note: d71d829c
-  notes: 158955cd
-  location.venue: a993c0b8
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.

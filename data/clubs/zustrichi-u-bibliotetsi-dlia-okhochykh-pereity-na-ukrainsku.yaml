@@ -1,14 +1,24 @@
 id: zustrichi-u-bibliotetsi-dlia-okhochykh-pereity-na-ukrainsku
-name: Зустрічі у бібліотеці для охочих перейти на українську (бібліотека ім. Н. Рибака)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Зустрічі у бібліотеці для охочих перейти на українську (бібліотека ім. Н. Рибака)
+  en: Library meetings for those wishing to switch to Ukrainian (N. Rybak Library)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. Н. Рибака
-  address: вул. Петрицького, 5/9
+  venue:
+    uk: Бібліотека ім. Н. Рибака
+    en: N. Rybak Library
+  address:
+    uk: вул. Петрицького, 5/9
+    en: 5/9 Petrytskoho St
   lat: 50.454628
   lon: 30.379835
   geocoded: true
@@ -27,29 +37,11 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: «Розмовний клуб».
-i18n:
-  en:
-    location.address: 5/9 Petrytskoho St
-    name: Library meetings for those wishing to switch to Ukrainian (N. Rybak Library)
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: "Conversation
-      club".
-    location.venue: N. Rybak Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
-      зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023: «Розмовний
-      клуб».
-i18n_src:
-  location.address: ae74ec14
-  name: 5c6a31bd
-  description: d15e99c9
-  notes: 13d2737a
-  location.venue: e522d269
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023: «Розмовний
+    клуб».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: "Conversation club".

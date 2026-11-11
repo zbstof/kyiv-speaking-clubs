@@ -1,19 +1,31 @@
 id: lec-ukrainian-russian-holosiivska
-name: "LEC: Ukrainian/Russian in Holosiivska"
-description: Розмовні зустрічі українською та російською для іноземців.
+name:
+  uk: "LEC: українська/російська на Голосіївській"
+  en: "LEC: Ukrainian/Russian in Holosiivska"
+description:
+  uk: Розмовні зустрічі українською та російською для іноземців.
+  en: Ukrainian and Russian conversation meetups for foreigners.
 languages:
   - uk
   - ru
 format: offline
 location:
-  venue: Книгарня «Довженко Книги.кава.кіно» (Центр Довженка)
-  metro: Голосіївська
-  note: 50 м від метро «Голосіївська»
+  venue:
+    uk: Книгарня «Довженко Книги.кава.кіно» (Центр Довженка)
+    en: "\"Dovzhenko Knyhy.kava.kino\" bookstore (Dovzhenko Centre)"
+  metro:
+    uk: Голосіївська
+    en: Holosiivska
+  note:
+    uk: 50 м від метро «Голосіївська»
+    en: 50 m from Holosiivska metro station
   lat: 50.397329
   lon: 30.508162
   geocoded: true
   near_metro: true
-schedule_note: Вечір 18:30–20:30; улітку не щотижня.
+schedule_note:
+  uk: Вечір 18:30–20:30; улітку не щотижня.
+  en: Evenings 18:30–20:30; not every week in summer.
 price:
   free: true
 contacts:
@@ -22,22 +34,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.metro: Holosiivska
-    description: Ukrainian and Russian conversation meetups for foreigners.
-    schedule_note: Evenings 18:30–20:30; not every week in summer.
-    notes: Listed in the Language Exchange Club network directory (lec.link); listing date unknown.
-    location.venue: "\"Dovzhenko Knyhy.kava.kino\" bookstore (Dovzhenko Centre)"
-    location.note: 50 m from Holosiivska metro station
-  uk:
-    name: "LEC: українська/російська на Голосіївській"
-i18n_src:
-  location.metro: 5dac3b3b
-  name: fb89b27a
-  description: 6e6d09d2
-  schedule_note: 2fb6583a
-  notes: 158955cd
-  location.venue: cfcc874c
-  location.note: afc52632
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); listing date unknown.

@@ -1,13 +1,23 @@
 id: speak-french-speak-life
-name: Speak french, speak life
-description: "Франкомовна спільнота: розмовні вечори, караоке французькою та інші події."
+name:
+  uk: Speak french, speak life
+  en: Speak french, speak life
+description:
+  uk: "Франкомовна спільнота: розмовні вечори, караоке французькою та інші події."
+  en: "A French-speaking community: conversation evenings, karaoke in French and other events."
 languages:
   - fr
 format: offline
 location:
-  venue: X Lounge
-  address: вул. Петра Сагайдачного, 31
-  metro: Поштова площа
+  venue:
+    uk: X Lounge
+    en: X Lounge
+  address:
+    uk: вул. Петра Сагайдачного, 31
+    en: 31 Petra Sahaidachnoho St
+  metro:
+    uk: Поштова площа
+    en: Poshtova Ploshcha
   lat: 50.461318
   lon: 30.520958
   geocoded: true
@@ -16,7 +26,9 @@ schedule:
     time: "18:00"
     frequency: irregular
     format: offline
-schedule_note: Події анонсують у групі; останнім часом — у четвер з 18:00 в X Lounge.
+schedule_note:
+  uk: Події анонсують у групі; останнім часом — у четвер з 18:00 в X Lounge.
+  en: Events are announced in the group; lately, on Thursdays from 18:00 at X Lounge.
 contacts:
   - type: telegram
     url: https://t.me/SFrenchSLife
@@ -27,19 +39,6 @@ first_seen: 2025-11
 last_seen: "2026-11-10"
 sources:
   - https://t.me/SFrenchSLife
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.address: 31 Petra Sahaidachnoho St
-    location.metro: Poshtova Ploshcha
-    description: "A French-speaking community: conversation evenings, karaoke in French and other events."
-    schedule_note: Events are announced in the group; lately, on Thursdays from 18:00 at X Lounge.
-    notes: Based on the Telegram group histories of Kyiv clubs (accessed 10.11.2026).
-i18n_src:
-  location.address: 2ba9f8b7
-  location.metro: "12217794"
-  name: 6ebe65df
-  description: 75b9af8a
-  schedule_note: 35f224e1
-  notes: dd841777
-  location.venue: 5e4b45a7
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the Telegram group histories of Kyiv clubs (accessed 10.11.2026).

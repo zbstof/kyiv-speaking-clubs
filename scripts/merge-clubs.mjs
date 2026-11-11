@@ -8,6 +8,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { clubToYaml } from "../lib/club.mjs";
+import { pick } from "../lib/i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "data", "clubs");
@@ -27,14 +28,17 @@ const clubs = ids.map(load);
 const out = { ...clubs[0] };
 for (const c of clubs.slice(1)) {
   for (const k of ["format", "price", "registration", "organizer", "schedule"]) if (empty(out[k]) && !empty(c[k])) out[k] = c[k];
-  for (const k of ["description", "schedule_note"]) if ((c[k] || "").length > (out[k] || "").length) out[k] = c[k];
+  for (const k of ["description", "schedule_note"]) if (pick(c[k]).length > pick(out[k]).length) out[k] = c[k];
   out.location = { ...(c.location || {}), ...(out.location || {}) };
   out.languages = [...new Set([...(out.languages || []), ...(c.languages || [])])];
   out.levels = [...new Set([...(out.levels || []), ...(c.levels || [])])];
-  const key = (x) => (x.url ? x.url.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/+$/, "") : `${x.type}:${x.note}`);
+  const key = (x) => (x.url ? x.url.toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/\/+$/, "") : `${x.type}:${pick(x.note)}`);
   out.contacts = [...new Map([...(out.contacts || []), ...(c.contacts || [])].map((x) => [key(x), x])).values()];
   out.sources = [...new Set([...(out.sources || []), ...(c.sources || [])])];
-  out.notes = [...new Set([out.notes, c.notes].filter(Boolean))].join(" ").slice(0, 2000) || undefined;
+  // Notes: join per language.
+  const notes = {};
+  for (const l of ["uk", "en"]) { const t = [...new Set([pick(out.notes, l), pick(c.notes, l)].filter(Boolean))].join(" ").slice(0, 2000); if (t) notes[l] = t; }
+  out.notes = Object.keys(notes).length ? notes : undefined;
   if (STATUS_RANK[c.status] < STATUS_RANK[out.status]) out.status = c.status;
 }
 out.first_seen = pickDate(clubs.map((c) => c.first_seen), false);

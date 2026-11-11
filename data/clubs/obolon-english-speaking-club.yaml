@@ -1,16 +1,30 @@
 id: obolon-english-speaking-club
-name: Obolon English speaking club
-description: >-
-  Англомовний розмовний клуб на Оболоні. Зустрічаються, коли в групі набирається щонайменше троє
-  охочих.
+name:
+  uk: Розмовний клуб англійської на Оболоні
+  en: Obolon English speaking club
+description:
+  uk: >-
+    Англомовний розмовний клуб на Оболоні. Зустрічаються, коли в групі набирається щонайменше троє
+    охочих.
+  en: >-
+    An English speaking club in Obolon. Meetings take place when at least three people in the group
+    are interested.
 languages:
   - en
 format: offline
 location:
-  venue: Пузата Хата, ТРЦ «Оазис»
-  address: Оболонський просп., 47/42
-  metro: Героїв Дніпра
-  note: 3–4 поверх, Пузата Хата
+  venue:
+    uk: Пузата Хата, ТРЦ «Оазис»
+    en: Puzata Khata, "Oasis" shopping mall
+  address:
+    uk: Оболонський просп., 47/42
+    en: 47/42 Obolonskyi Ave
+  metro:
+    uk: Героїв Дніпра
+    en: Heroiv Dnipra
+  note:
+    uk: 3–4 поверх, Пузата Хата
+    en: 3rd–4th floors, Puzata Khata
   lat: 50.52267
   lon: 30.498899
   geocoded: true
@@ -25,9 +39,14 @@ schedule:
     duration_min: 90
     frequency: irregular
     format: offline
-schedule_note: >-
-  За описом групи — середа і пʼятниця 18:30–20:00. Насправді зустріч відбувається, якщо в групі
-  щонайменше троє підтвердили участь; останні запрошення — нечасті.
+schedule_note:
+  uk: >-
+    За описом групи — середа і пʼятниця 18:30–20:00. Насправді зустріч відбувається, якщо в групі
+    щонайменше троє підтвердили участь; останні запрошення — нечасті.
+  en: >-
+    According to the group description, Wednesdays and Fridays, 18:30–20:00. In practice, meetings
+    take place if at least three people in the group confirm attendance; recent invitations have
+    been infrequent.
 price:
   free: true
 registration: optional
@@ -42,35 +61,12 @@ last_seen: "2026-10-30"
 sources:
   - https://t.me/obolon_english
   - https://lec.link/
-notes: >-
-  Публічна Telegram-група, понад 500 учасників. Активність: 30–50 повідомлень на місяць улітку 2026,
-  5–11 з жовтня. Найактивніший у 2022 році (~2700 повідомлень), далі щороку менше. Клуб мережі LEC
-  (Wednesday і Friday English@Obolon).
-i18n:
-  en:
-    location.address: 47/42 Obolonskyi Ave
-    location.metro: Heroiv Dnipra
-    description: >-
-      An English speaking club in Obolon. Meetings take place when at least three people in the
-      group are interested.
-    schedule_note: >-
-      According to the group description, Wednesdays and Fridays, 18:30–20:00. In practice, meetings
-      take place if at least three people in the group confirm attendance; recent invitations have
-      been infrequent.
-    notes: >-
-      Public Telegram group with over 500 members. Activity: 30–50 messages per month in summer
-      2026, 5–11 since October. Most active in 2022 (~2700 messages), with fewer each year since.
-      Part of the LEC club network (Wednesday and Friday English@Obolon).
-    location.venue: Puzata Khata, "Oasis" shopping mall
-    location.note: 3rd–4th floors, Puzata Khata
-  uk:
-    name: Розмовний клуб англійської на Оболоні
-i18n_src:
-  location.address: 062415c7
-  location.metro: 915b87ba
-  name: f3dc1a10
-  description: cab56516
-  schedule_note: 5de4d9b3
-  notes: "1e997921"
-  location.venue: 7896393f
-  location.note: e4d56b41
+notes:
+  uk: >-
+    Публічна Telegram-група, понад 500 учасників. Активність: 30–50 повідомлень на місяць улітку
+    2026, 5–11 з жовтня. Найактивніший у 2022 році (~2700 повідомлень), далі щороку менше. Клуб
+    мережі LEC (Wednesday і Friday English@Obolon).
+  en: >-
+    Public Telegram group with over 500 members. Activity: 30–50 messages per month in summer 2026,
+    5–11 since October. Most active in 2022 (~2700 messages), with fewer each year since. Part of
+    the LEC club network (Wednesday and Friday English@Obolon).

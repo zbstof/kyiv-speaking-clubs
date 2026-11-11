@@ -7,7 +7,7 @@ import yaml from "js-yaml";
 import { clubToYaml, slugify } from "../../lib/club.mjs";
 import { extraChecks } from "../../lib/rules.mjs";
 import { geocode, coordsFromMapUrl, resolveShortMapUrl } from "../../lib/geo.mjs";
-import { translateClub, DEFAULT_MODEL } from "../../lib/i18n.mjs";
+import { translateClub, DEFAULT_MODEL, pick } from "../../lib/i18n.mjs";
 
 const MAX_BODY = 30_000;
 const ACTIONS = new Set(["add", "edit", "confirm", "close"]);
@@ -99,15 +99,14 @@ async function handle(p, env) {
   }
   if (p.action === "add" || p.action === "edit") {
     await locate(club, old);
-    // Keep existing translations; translate only new or changed fields. Failure never blocks the suggestion.
-    if (old?.i18n) club.i18n = structuredClone(old.i18n);
-    if (old?.i18n_src) club.i18n_src = { ...old.i18n_src };
+    // Fill a missing language, and redo the other language where an edit changed only one.
+    // Failure never blocks the suggestion.
     if (env.OPENAI_API_KEY) {
-      try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || DEFAULT_MODEL }); }
+      try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || DEFAULT_MODEL, old }); }
       catch (e) { console.error("translate failed:", e.message); /* left for scripts/translate.mjs */ }
     }
   }
-  if (!club.name || club.name.length < 2) throw new UserError("name is required", "name_required");
+  if (pick(club.name).trim().length < 2) throw new UserError("name is required", "name_required");
   if (!club.languages?.length) throw new UserError("at least one language is required", "lang_required");
   const problems = extraChecks(club);
   if (problems.length) throw new UserError(problems.join(" "), "contacts");
@@ -116,7 +115,7 @@ async function handle(p, env) {
   const path = `data/clubs/${id}.yaml`;
   const branch = `suggest/${id}-${Date.now().toString(36)}`;
   const titles = { add: "Add", edit: "Edit", confirm: "Still running", close: "Mark closed" };
-  const title = `${titles[p.action]}: ${club.name}`.slice(0, 200);
+  const title = `${titles[p.action]}: ${pick(club.name)}`.slice(0, 200);
 
   await gh.createBranch(branch);
   await gh.putFile(path, text, `${title}\n\nSuggested through the site.`, branch, sha);
@@ -151,8 +150,9 @@ async function locate(club, old) {
       const c = coordsFromMapUrl(await resolveShortMapUrl(loc.map_url));
       if (c) Object.assign(loc, coords(c.lat, c.lon));
     }
-    if (loc.lat === undefined && (loc.address || loc.venue || loc.metro) && club.format !== "online") {
-      const hit = await geocode(loc, { wait: async () => {} });
+    const plain = { address: pick(loc.address, "uk"), venue: pick(loc.venue, "uk"), metro: pick(loc.metro, "uk") };
+    if (loc.lat === undefined && (plain.address || plain.venue || plain.metro) && club.format !== "online") {
+      const hit = await geocode(plain, { wait: async () => {} });
       if (hit) Object.assign(loc, coords(hit.lat, hit.lon), { geocoded: true }, hit.nearMetro ? { near_metro: true } : {});
     }
   } catch { /* leave without coordinates */ }
@@ -162,15 +162,15 @@ async function locate(club, old) {
 function sanitize(c) {
   if (!c || typeof c !== "object") throw new UserError("missing club");
   const out = {
-    name: str(c.name, 150),
-    description: str(c.description, 2000),
+    name: text(c.name, 150),
+    description: text(c.description, 2000),
     languages: arr(c.languages).map((x) => String(x).toLowerCase()).filter((x) => /^[a-z]{2,3}$/.test(x)).slice(0, 20),
     levels: arr(c.levels).filter((x) => LEVELS.includes(x)),
     format: ["offline", "online", "hybrid"].includes(c.format) ? c.format : undefined,
     location: c.location && {
-      venue: str(c.location.venue, 200), address: str(c.location.address, 300),
-      metro: str(c.location.metro, 100),
-      note: str(c.location.note, 300),
+      venue: text(c.location.venue, 200), address: text(c.location.address, 300),
+      metro: text(c.location.metro, 100),
+      note: text(c.location.note, 300),
       ...coords(c.location.lat, c.location.lon),
       map_url: /^https:\/\//.test(c.location.map_url || "") ? str(c.location.map_url, 500) : undefined,
     },
@@ -181,20 +181,28 @@ function sanitize(c) {
       frequency: ["weekly", "biweekly", "monthly", "irregular"].includes(s.frequency) ? s.frequency : undefined,
       format: ["offline", "online"].includes(s.format) ? s.format : undefined,
     })),
-    schedule_note: str(c.schedule_note, 500),
-    price: c.price && { free: typeof c.price.free === "boolean" ? c.price.free : undefined, amount: str(c.price.amount, 100) },
+    schedule_note: text(c.schedule_note, 500),
+    price: c.price && { free: typeof c.price.free === "boolean" ? c.price.free : undefined, amount: text(c.price.amount, 100) },
     registration: ["required", "optional", "none"].includes(c.registration) ? c.registration : undefined,
     contacts: arr(c.contacts).slice(0, 12).filter((x) => CONTACT_TYPES.includes(x?.type)).map((x) => ({
       type: x.type,
       url: x.access === "on_request" ? undefined : str(x.url, 500),
       access: ["invite", "on_request"].includes(x.access) ? x.access : undefined,
-      note: str(x.note, 300),
+      note: text(x.note, 300),
     })).filter((x) => x.url || x.note),
     organizer: str(c.organizer, 200),
     status: ["active", "paused", "closed", "unknown"].includes(c.status) ? c.status : "active",
-    notes: str(c.notes, 2000),
+    notes: text(c.notes, 2000),
   };
   return out;
+}
+
+// A text field: { uk, en } (either may be missing). A plain string is filed under no language and dropped.
+function text(v, max) {
+  if (!v || typeof v !== "object" || Array.isArray(v)) return undefined;
+  const out = {};
+  for (const l of ["uk", "en"]) { const t = str(v[l], max); if (t) out[l] = t; }
+  return Object.keys(out).length ? out : undefined;
 }
 
 function str(v, max) {

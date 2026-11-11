@@ -1,13 +1,23 @@
 id: cat-speaking-club
-name: Speaking Club “CAT” (Come And Talk)
-description: Розмовний клуб англійської в бібліотеці на Лівому березі.
+name:
+  uk: Розмовний клуб «CAT» (Come And Talk)
+  en: Speaking Club “CAT” (Come And Talk)
+description:
+  uk: Розмовний клуб англійської в бібліотеці на Лівому березі.
+  en: English speaking club at a library on the Left Bank.
 languages:
   - en
 format: offline
 location:
-  venue: Бібліотека ім. Миколи Куліша
-  address: вул. Бориса Мартоса, 4Б
-  metro: Лівобережна
+  venue:
+    uk: Бібліотека ім. Миколи Куліша
+    en: Mykola Kulish Library
+  address:
+    uk: вул. Бориса Мартоса, 4Б
+    en: 4B Borysa Martosa St
+  metro:
+    uk: Лівобережна
+    en: Livoberezhna
   lat: 50.446973
   lon: 30.599468
   geocoded: true
@@ -15,7 +25,9 @@ schedule:
   - day: sun
     frequency: biweekly
     format: offline
-schedule_note: Раз на два тижні в неділю; з вересня 2025 — нерегулярно.
+schedule_note:
+  uk: Раз на два тижні в неділю; з вересня 2025 — нерегулярно.
+  en: Every other Sunday; irregularly since September 2025.
 contacts:
   - type: telegram
     url: https://t.me/catspeakingclub
@@ -24,22 +36,6 @@ contacts:
 status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-14"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.address: 4B Borysa Martosa St
-    location.metro: Livoberezhna
-    description: English speaking club at a library on the Left Bank.
-    schedule_note: Every other Sunday; irregularly since September 2025.
-    notes: Based on the chat histories of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
-    location.venue: Mykola Kulish Library
-  uk:
-    name: Розмовний клуб «CAT» (Come And Talk)
-i18n_src:
-  location.address: 94651c7f
-  location.metro: a7ee73f8
-  name: "8e660486"
-  description: 97a3cfce
-  schedule_note: a3908c86
-  notes: dd841777
-  location.venue: 9a6cd831
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat histories of Kyiv clubs’ Telegram groups (accessed 10.11.2026).

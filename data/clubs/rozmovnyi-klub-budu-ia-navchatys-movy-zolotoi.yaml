@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-budu-ia-navchatys-movy-zolotoi
-name: Розмовний клуб «Буду я навчатись мови золотої»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб «Буду я навчатись мови золотої»
+  en: Conversation club "Budu ya navchatys movy zolotoi"
+description:
+  uk: Безкоштовний мовно-розмовний клуб української мови для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека ім. М. Трублаїні для дітей
-  address: бульвар Марії Приймаченко, 7
+  venue:
+    uk: Бібліотека ім. М. Трублаїні для дітей
+    en: M. Trublaini Children's Library
+  address:
+    uk: бульвар Марії Приймаченко, 7
+    en: 7 Marii Pryimachenko Blvd
   lat: 50.420476
   lon: 30.544129
   geocoded: true
@@ -23,24 +31,12 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified. Not in
-  the Dec 2025 list.
-i18n:
-  en:
-    location.address: 7 Marii Pryimachenko Blvd
-    name: Conversation club "Budu ya navchatys movy zolotoi"
-    location.venue: M. Trublaini Children's Library
-  uk:
-    description: Безкоштовний мовно-розмовний клуб української мови для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку
-      від 2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою,
-      але не перевірено. У переліку за грудень 2025 року відсутній.
-i18n_src:
-  location.address: 30a7cd39
-  name: 86afa331
-  description: 0402dd7e
-  notes: 8e6d1c21
-  location.venue: a7831715
+notes:
+  uk: >-
+    Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+    перевірено. У переліку за грудень 2025 року відсутній.
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified. Not in
+    the Dec 2025 list.

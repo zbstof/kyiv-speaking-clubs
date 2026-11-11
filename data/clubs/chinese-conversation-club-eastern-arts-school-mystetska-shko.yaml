@@ -1,14 +1,24 @@
 id: chinese-conversation-club-eastern-arts-school-mystetska-shko
-name: Chinese conversation club, Eastern Arts School (Мистецька школа «Східні мистецтва»)
-description: >-
-  Private Chinese-language school; lists a Chinese conversation club and free conversation practice
-  among its advantages.
+name:
+  uk: Розмовний клуб китайської мови, школа «Східні мистецтва» (Мистецька школа «Східні мистецтва»)
+  en: Chinese conversation club, Eastern Arts School ("Eastern Arts" Art School)
+description:
+  uk: >-
+    Приватна школа китайської мови; серед своїх переваг зазначає розмовний клуб китайської мови та
+    безкоштовну розмовну практику.
+  en: >-
+    Private Chinese-language school; lists a Chinese conversation club and free conversation
+    practice among its advantages.
 languages:
   - zh
 format: offline
 location:
-  venue: Мистецька школа «Східні мистецтва»
-  address: вул. В'ячеслава Липинського, 13
+  venue:
+    uk: Мистецька школа «Східні мистецтва»
+    en: "\"Eastern Arts\" Art School"
+  address:
+    uk: вул. В'ячеслава Липинського, 13
+    en: 13 Viacheslava Lypynskoho St
   lat: 50.44923
   lon: 30.506518
   geocoded: true
@@ -21,25 +31,10 @@ first_seen: "2022-02-03"
 last_seen: "2022-02-03"
 sources:
   - https://osvita.ua/languages/courses/37375/
-notes: >-
-  Dates are the osvita.ua listing update date (03.02.2022). Probably for the school's students. On
-  2026-11-10 the school's domain easternarts.net did not resolve (DNS ENOTFOUND).
-i18n:
-  en:
-    location.address: 13 Viacheslava Lypynskoho St
-    name: Chinese conversation club, Eastern Arts School ("Eastern Arts" Art School)
-    location.venue: "\"Eastern Arts\" Art School"
-  uk:
-    name: Розмовний клуб китайської мови, школа «Східні мистецтва» (Мистецька школа «Східні мистецтва»)
-    description: >-
-      Приватна школа китайської мови; серед своїх переваг зазначає розмовний клуб китайської мови та
-      безкоштовну розмовну практику.
-    notes: >-
-      Дати відповідають даті оновлення запису на osvita.ua (03.02.2022). Імовірно, для учнів школи.
-      Станом на 2026-11-10 домен школи easternarts.net не визначався через DNS (DNS ENOTFOUND).
-i18n_src:
-  location.address: 171057b8
-  name: 67fe4b78
-  description: 224036b0
-  notes: 4474b65b
-  location.venue: 76bb838d
+notes:
+  uk: >-
+    Дати відповідають даті оновлення запису на osvita.ua (03.02.2022). Імовірно, для учнів школи.
+    Станом на 2026-11-10 домен школи easternarts.net не визначався через DNS (DNS ENOTFOUND).
+  en: >-
+    Dates are the osvita.ua listing update date (03.02.2022). Probably for the school's students. On
+    2026-11-10 the school's domain easternarts.net did not resolve (DNS ENOTFOUND).

@@ -1,6 +1,10 @@
 id: business-english-center-workshops
-name: Business-English Center workshops
-description: Business English skills workshops on Sundays.
+name:
+  uk: Практичні заняття Business-English Center
+  en: Business-English Center workshops
+description:
+  uk: Практичні заняття з ділової англійської щонеділі.
+  en: Business English skills workshops on Sundays.
 languages:
   - en
 format: offline
@@ -8,7 +12,9 @@ schedule:
   - day: sun
     time: "15:00"
     frequency: weekly
-schedule_note: Sundays 3 p.m. (2010)
+schedule_note:
+  uk: Щонеділі о 3 p.m. (2010)
+  en: Sundays 3 p.m. (2010)
 contacts:
   - type: website
     url: http://etcentre.com.ua
@@ -18,15 +24,6 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Практичні заняття Business-English Center
-    description: Практичні заняття з ділової англійської щонеділі.
-    schedule_note: Щонеділі о 3 p.m. (2010)
-    notes: Зазначено на дошці оголошень «Оголошення громади» у Kyiv Post, 2010-04-08.
-i18n_src:
-  name: 8fe88cf9
-  description: e37ff90f
-  schedule_note: f3944f4e
-  notes: 0150c68c
+notes:
+  uk: Зазначено на дошці оголошень «Оголошення громади» у Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

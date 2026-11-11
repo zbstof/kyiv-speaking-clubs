@@ -1,14 +1,22 @@
 id: klub-skarby-ukrainskoi-movy
-name: Клуб «Скарби української мови»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Клуб «Скарби української мови»
+  en: Club "Skarby ukrainskoi movy"
+description:
+  uk: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека № 118 для дітей
-  address: вул. Андрія Малишка, 25/1
+  venue:
+    uk: Бібліотека № 118 для дітей
+    en: Library No. 118 for Children
+  address:
+    uk: вул. Андрія Малишка, 25/1
+    en: 25/1 Andriia Malyshka St
   lat: 50.460812
   lon: 30.623336
   geocoded: true
@@ -23,22 +31,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 25/1 Andriia Malyshka St
-    name: Club "Skarby ukrainskoi movy"
-    location.venue: Library No. 118 for Children
-  uk:
-    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано час зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: 1cd94ecc
-  name: 0611f515
-  description: 0402dd7e
-  notes: "80762585"
-  location.venue: 8b486ce5
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    час зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

@@ -1,18 +1,32 @@
 id: lec-parlons-francais
-name: Parlons français !
-description: Розмовні зустрічі французькою мережі LEC.
+name:
+  uk: Parlons français !
+  en: Parlons français !
+description:
+  uk: Розмовні зустрічі французькою мережі LEC.
+  en: French conversation meetups in the LEC network.
 languages:
   - fr
 format: offline
 location:
-  venue: Пузата Хата
-  address: вул. Петра Сагайдачного, 24
-  metro: Контрактова площа
-  note: Останній поверх, біля бару
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Петра Сагайдачного, 24
+    en: 24 Petra Sahaidachnoho St
+  metro:
+    uk: Контрактова площа
+    en: Kontraktova Ploshcha
+  note:
+    uk: Останній поверх, біля бару
+    en: Top floor, near the bar
   lat: 50.462883
   lon: 30.51954
   geocoded: true
-schedule_note: 19:00–21:00; улітку нерегулярно.
+schedule_note:
+  uk: 19:00–21:00; улітку нерегулярно.
+  en: 19:00–21:00; irregularly in summer.
 price:
   free: true
 contacts:
@@ -21,22 +35,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 24 Petra Sahaidachnoho St
-    location.metro: Kontraktova Ploshcha
-    description: French conversation meetups in the LEC network.
-    schedule_note: 19:00–21:00; irregularly in summer.
-    notes: In the Language Exchange Club network directory (lec.link); listing date unknown.
-    location.venue: Puzata Khata
-    location.note: Top floor, near the bar
-i18n_src:
-  location.address: acad0261
-  location.metro: 377d7953
-  name: d1d895cd
-  description: 5885c36c
-  schedule_note: 1c2c3f4f
-  notes: 158955cd
-  location.venue: be30a852
-  location.note: cfeaa3ac
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: In the Language Exchange Club network directory (lec.link); listing date unknown.

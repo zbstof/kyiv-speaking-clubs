@@ -1,19 +1,29 @@
 id: svoya-sorochka-toastmasters-club
-name: Svoya Sorochka Toastmasters Club
-description: >-
-  Toastmasters club (#03084412) in Kyiv; the name ('Своя сорочка') suggests a Ukrainian-language
-  club.
+name:
+  uk: Svoya Sorochka Toastmasters Club
+  en: Svoya Sorochka Toastmasters Club
+description:
+  uk: >-
+    Клуб Toastmasters (#03084412) у Києві; назва («Своя сорочка») дає підстави припускати, що клуб
+    україномовний.
+  en: >-
+    Toastmasters club (#03084412) in Kyiv; the name ("Svoya Sorochka") suggests a Ukrainian-language
+    club.
 languages:
   - uk
 format: offline
 location:
-  venue: Українсько-данський дім
+  venue:
+    uk: Українсько-данський дім
+    en: Ukrainian-Danish House
 schedule:
   - day: mon
     time: "19:00"
     frequency: weekly
     format: offline
-schedule_note: Щопонеділка о 19:00. Клуб ораторської майстерності українською.
+schedule_note:
+  uk: Щопонеділка о 19:00. Клуб ораторської майстерності українською.
+  en: Every Monday at 19:00. A Ukrainian-language public speaking club.
 contacts:
   - type: telegram
     url: https://t.me/Svoya_Sorochka_Club
@@ -25,26 +35,10 @@ first_seen: "2013-07-08"
 last_seen: "2026-11-09"
 sources:
   - https://toastmasters.org/Find-a-Club/03084412-svoya-sorochka
-notes: >-
-  Charter 2013-07-08 per search snippet; the Toastmasters page now says 'couldn't find the club', so
-  it is probably closed. Language not verified.
-i18n:
-  uk:
-    description: >-
-      Клуб Toastmasters (#03084412) у Києві; назва («Своя сорочка») дає підстави припускати, що клуб
-      україномовний.
-    notes: >-
-      За фрагментом результатів пошуку, клуб засновано 2013-07-08; на сторінці Toastmasters тепер
-      написано «не вдалося знайти клуб», тож він, імовірно, закритий. Мову не перевірено.
-  en:
-    description: >-
-      Toastmasters club (#03084412) in Kyiv; the name ("Svoya Sorochka") suggests a
-      Ukrainian-language club.
-    schedule_note: Every Monday at 19:00. A Ukrainian-language public speaking club.
-    location.venue: Ukrainian-Danish House
-i18n_src:
-  name: 602dbe9d
-  description: 59bd4522
-  schedule_note: d733d3c0
-  notes: b663d49b
-  location.venue: 1ad6ab46
+notes:
+  uk: >-
+    За фрагментом результатів пошуку, клуб засновано 2013-07-08; на сторінці Toastmasters тепер
+    написано «не вдалося знайти клуб», тож він, імовірно, закритий. Мову не перевірено.
+  en: >-
+    Charter 2013-07-08 per search snippet; the Toastmasters page now says 'couldn't find the club',
+    so it is probably closed. Language not verified.

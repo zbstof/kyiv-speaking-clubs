@@ -1,14 +1,24 @@
 id: klub-poetyka-biblioteka-na-vul-hetmana-kyryla-rozumovskoho
-name: Клуб «Поетика» (бібліотека на вул. Гетьмана Кирила Розумовського)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Поетика» (бібліотека на вул. Гетьмана Кирила Розумовського)
+  en: "\"Poetyka\" Club (library on Hetmana Kyryla Rozumovskoho St)"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека на вул. Гетьмана Кирила Розумовського (кол. Краснова)
-  address: вул. Гетьмана Кирила Розумовського (кол. Краснова), 12
+  venue:
+    uk: Бібліотека на вул. Гетьмана Кирила Розумовського (кол. Краснова)
+    en: Library on Hetmana Kyryla Rozumovskoho St (formerly Krasnova St)
+  address:
+    uk: вул. Гетьмана Кирила Розумовського (кол. Краснова), 12
+    en: 12 Hetmana Kyryla Rozumovskoho (kol. Krasnova) St
   lat: 50.459222
   lon: 30.37273
   geocoded: true
@@ -23,34 +33,14 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified. Popularises Ukrainian ethnic culture. The
-  2023 list had a «Розмовний клуб» at «бібліотека на вул. Краснова, 10» (tel. (044) 424-33-07); the
-  street was renamed, so it is probably the same library - not verified.
-i18n:
-  en:
-    location.address: 12 Hetmana Kyryla Rozumovskoho (kol. Krasnova) St
-    name: "\"Poetyka\" Club (library on Hetmana Kyryla Rozumovskoho St)"
-    notes: >-
-      Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-      times. District inferred from the address, not verified. Popularises Ukrainian ethnic culture.
-      The 2023 list had a "Conversation club" at the "library at 10 Krasnova St" (tel. (044)
-      424-33-07); the street was renamed, so it is probably the same library - not verified.
-    location.venue: Library on Hetmana Kyryla Rozumovskoho St (formerly Krasnova St)
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено. Популяризує українську
-      етнічну культуру. У переліку за 2023 рік був «Розмовний клуб» у «бібліотеці на вул. Краснова,
-      10» (тел. (044) 424-33-07); вулицю перейменували, тож, імовірно, це та сама бібліотека — не
-      перевірено.
-i18n_src:
-  location.address: 914e0be5
-  name: d152b1b4
-  description: d15e99c9
-  notes: f55f6923
-  location.venue: "99506e72"
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено. Популяризує українську етнічну
+    культуру. У переліку за 2023 рік був «Розмовний клуб» у «бібліотеці на вул. Краснова, 10» (тел.
+    (044) 424-33-07); вулицю перейменували, тож, імовірно, це та сама бібліотека — не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified. Popularises Ukrainian ethnic culture.
+    The 2023 list had a "Conversation club" at the "library at 10 Krasnova St" (tel. (044)
+    424-33-07); the street was renamed, so it is probably the same library - not verified.

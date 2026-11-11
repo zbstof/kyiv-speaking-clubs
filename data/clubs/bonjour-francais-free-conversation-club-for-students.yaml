@@ -1,38 +1,35 @@
 id: bonjour-francais-free-conversation-club-for-students
-name: "Bonjour Français: free conversation club for students"
-description: >-
-  Free French conversation club for the school's students: meet other learners and talk on any
-  topic.
+name:
+  uk: "Bonjour Français: безкоштовний розмовний клуб французької для учнів"
+  en: "Bonjour Français: free conversation club for students"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб французької для учнів школи: знайомтеся з іншими учнями та
+    спілкуйтеся на будь-які теми.
+  en: >-
+    Free French conversation club for the school's students: meet other learners and talk on any
+    topic.
 languages:
   - fr
 format: offline
 location:
-  venue: Bonjour Français
-  address: вул. Еспланадна, 28-а
-  note: 3 поверх
+  venue:
+    uk: Bonjour Français
+    en: Bonjour Français
+  address:
+    uk: вул. Еспланадна, 28-а
+    en: 28-A Esplanadna St
+  note:
+    uk: 3 поверх
+    en: 3rd floor
 price:
   free: true
-  amount: free for school students
+  amount:
+    uk: безкоштовно для учнів школи
+    en: free for school students
 organizer: Bonjour Français (language school)
 status: unknown
 first_seen: "2018-10-05"
 last_seen: "2018-10-05"
 sources:
   - https://dengi.ua/amp-page/career/1817098-francuzskij-kak-vtoroj-inostrannyj-jazyk
-i18n:
-  en:
-    location.address: 28-A Esplanadna St
-    location.note: 3rd floor
-  uk:
-    name: "Bonjour Français: безкоштовний розмовний клуб французької для учнів"
-    description: >-
-      Безкоштовний розмовний клуб французької для учнів школи: знайомтеся з іншими учнями та
-      спілкуйтеся на будь-які теми.
-    price.amount: безкоштовно для учнів школи
-i18n_src:
-  location.address: 71a9e896
-  name: f902ab62
-  description: 3680b80c
-  location.venue: e7705df8
-  location.note: 6c1e1693
-  price.amount: d863ddd0

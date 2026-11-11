@@ -1,8 +1,14 @@
 id: pozniaky-english-speaking-club
-name: Poznіaky English Speaking Club
-description: >-
-  Офлайн-клуб англійської на Позняках. Зустрічі анонсує також онлайн-клуб BlaBla English UA, де
-  ведучий Вадим теж волонтер.
+name:
+  uk: Розмовний клуб англійської на Позняках
+  en: Poznіaky English Speaking Club
+description:
+  uk: >-
+    Офлайн-клуб англійської на Позняках. Зустрічі анонсує також онлайн-клуб BlaBla English UA, де
+    ведучий Вадим теж волонтер.
+  en: >-
+    An offline English club in Pozniaky. Meetings are also announced by the online club BlaBla
+    English UA, where the host, Vadym, also volunteers.
 languages:
   - en
 levels:
@@ -12,10 +18,18 @@ levels:
   - C1
 format: offline
 location:
-  venue: Паб «Пивна Дума»
-  address: вул. Михайла Драгоманова, 31г
-  metro: Позняки
-  note: 2 поверх
+  venue:
+    uk: Паб «Пивна Дума»
+    en: "\"Pyvna Duma\" pub"
+  address:
+    uk: вул. Михайла Драгоманова, 31г
+    en: 31H Mykhaila Drahomanova St
+  metro:
+    uk: Позняки
+    en: Pozniaky
+  note:
+    uk: 2 поверх
+    en: 2nd floor
   lat: 50.401182
   lon: 30.639255
   geocoded: true
@@ -25,14 +39,18 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Щовівторка 19:00–22:00. Ведучий бронює стіл; у групі пишуть, за яким столом.
+schedule_note:
+  uk: Щовівторка 19:00–22:00. Ведучий бронює стіл; у групі пишуть, за яким столом.
+  en: Every Tuesday, 19:00–22:00. The host reserves a table; the group chat specifies which table.
 price:
   free: true
 registration: optional
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення у ведучого
+    note:
+      uk: Закрита група; запрошення у ведучого
+      en: Private group; ask the host for an invitation
     members: 494
     members_checked: "2026-11-10"
 organizer: Ведучий Вадим @Dimjuani
@@ -42,42 +60,15 @@ last_seen: "2026-11-10"
 sources:
   - https://t.me/s/BlaBla_English_UA
   - https://lec.link/
-notes: >-
-  Відновив роботу в травні 2023: вівторок 19:00–22:00, Пузата Хата в ТРЦ «Піраміда» (Мишуги, 4). У
-  довіднику LEC раніше — понеділок і четвер там само. З вересня 2026 з безпекових причин — паб
-  «Пивна Дума», 2 поверх. За словами організаторів (03.11.2026), клуб існує 15 років; Telegram-група
-  — з травня 2023. Telegram-група клубу, прочитано 10.11.2026.
-i18n:
-  en:
-    location.address: 31H Mykhaila Drahomanova St
-    location.metro: Pozniaky
-    description: >-
-      An offline English club in Pozniaky. Meetings are also announced by the online club BlaBla
-      English UA, where the host, Vadym, also volunteers.
-    schedule_note: Every Tuesday, 19:00–22:00. The host reserves a table; the group chat specifies which table.
-    notes: >-
-      Resumed in May 2023: Tuesdays 19:00–22:00, Puzata Khata in the "Piramida" shopping mall (4
-      Myshuhy St). Previously listed in the LEC directory as Mondays and Thursdays at the same
-      venue. Since September 2026, at the "Pyvna Duma" pub, 2nd floor, for safety reasons. According
-      to the organizers (03.11.2026), the club has existed for 15 years; the Telegram group dates
-      back to May 2023. Club's Telegram group, accessed 10.11.2026.
-    location.venue: "\"Pyvna Duma\" pub"
-    location.note: 2nd floor
-    contacts.0.note: Private group; ask the host for an invitation
-  uk:
-    name: Розмовний клуб англійської на Позняках
-    notes: >-
-      Відновив роботу в травні 2023: вівторок 19:00–22:00, Пузата Хата в ТРЦ «Піраміда» (вул.
-      Мишуги, 4). У довіднику LEC раніше — понеділок і четвер там само. З вересня 2026 з безпекових
-      причин — паб «Пивна Дума», 2-й поверх. За словами організаторів (03.11.2026), клуб існує 15
-      років; Telegram-група — з травня 2023. Telegram-група клубу, прочитано 10.11.2026.
-i18n_src:
-  location.address: fefb140c
-  location.metro: 3e80bfe6
-  name: f62bf404
-  description: fbb49e9e
-  schedule_note: 1b9bf2e8
-  notes: 9b15f227
-  location.venue: 5368df05
-  location.note: a5c75482
-  contacts.0.note: 0c72adbb
+notes:
+  uk: >-
+    Відновив роботу в травні 2023: вівторок 19:00–22:00, Пузата Хата в ТРЦ «Піраміда» (вул. Мишуги,
+    4). У довіднику LEC раніше — понеділок і четвер там само. З вересня 2026 з безпекових причин —
+    паб «Пивна Дума», 2-й поверх. За словами організаторів (03.11.2026), клуб існує 15 років;
+    Telegram-група — з травня 2023. Telegram-група клубу, прочитано 10.11.2026.
+  en: >-
+    Resumed in May 2023: Tuesdays 19:00–22:00, Puzata Khata in the "Piramida" shopping mall (4
+    Myshuhy St). Previously listed in the LEC directory as Mondays and Thursdays at the same venue.
+    Since September 2026, at the "Pyvna Duma" pub, 2nd floor, for safety reasons. According to the
+    organizers (03.11.2026), the club has existed for 15 years; the Telegram group dates back to May
+    2023. Club's Telegram group, accessed 10.11.2026.

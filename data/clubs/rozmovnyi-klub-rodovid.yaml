@@ -1,13 +1,23 @@
 id: rozmovnyi-klub-rodovid
-name: Розмовний клуб «Родовід»
-description: Ukrainian conversation club at the Rodovid bookshop.
+name:
+  uk: Розмовний клуб «Родовід»
+  en: "\"Rodovid\" conversation club"
+description:
+  uk: Розмовний клуб української мови у книгарні «Родовід».
+  en: Ukrainian conversation club at the Rodovid bookshop.
 languages:
   - uk
 format: offline
 location:
-  venue: Книгарня «Родовід»
-  address: вул. Хрещатик, 7/11
-  metro: Майдан Незалежності
+  venue:
+    uk: Книгарня «Родовід»
+    en: "\"Rodovid\" bookshop"
+  address:
+    uk: вул. Хрещатик, 7/11
+    en: 7/11 Khreshchatyk St
+  metro:
+    uk: Майдан Незалежності
+    en: Maidan Nezalezhnosti
   lat: 50.450731
   lon: 30.526018
   geocoded: true
@@ -22,29 +32,15 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
-  libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on 2023-09-20).
-  The list gives no meeting times. District inferred from the address, not verified. Listed in the
-  2023 city list; not in the Dec 2025 library list (which covers libraries only).
-i18n:
-  en:
-    location.address: 7/11 Khreshchatyk St
-    location.metro: Maidan Nezalezhnosti
-    name: "\"Rodovid\" conversation club"
-    location.venue: "\"Rodovid\" bookshop"
-  uk:
-    description: Розмовний клуб української мови у книгарні «Родовід».
-    notes: >-
-      Є в переліку розмовних клубів і курсів української мови в міських бібліотеках від Департаменту
-      культури Києва, опублікованому 2023-08-17 (50 позицій; КМДА повідомила про «50 клубів і
-      курсів» 2023-09-20). Час зустрічей у переліку не вказано. Район визначено за адресою, не
-      перевірено. Є в міському переліку за 2023 рік; немає в бібліотечному переліку за Dec 2025
-      (який охоплює лише бібліотеки).
-i18n_src:
-  location.address: cd86a47e
-  location.metro: 81a8b171
-  name: e6b1e763
-  description: 5889829a
-  notes: c991e990
-  location.venue: 7f483490
+notes:
+  uk: >-
+    Є в переліку розмовних клубів і курсів української мови в міських бібліотеках від Департаменту
+    культури Києва, опублікованому 2023-08-17 (50 позицій; КМДА повідомила про «50 клубів і курсів»
+    2023-09-20). Час зустрічей у переліку не вказано. Район визначено за адресою, не перевірено. Є в
+    міському переліку за 2023 рік; немає в бібліотечному переліку за Dec 2025 (який охоплює лише
+    бібліотеки).
+  en: >-
+    Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
+    libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on
+    2023-09-20). The list gives no meeting times. District inferred from the address, not verified.
+    Listed in the 2023 city list; not in the Dec 2025 library list (which covers libraries only).

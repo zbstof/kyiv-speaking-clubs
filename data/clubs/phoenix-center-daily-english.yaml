@@ -1,20 +1,36 @@
 id: phoenix-center-daily-english
-name: Phoenix Center Daily English
-description: >-
-  Free English conversation classes with American and British native speakers; also a book and DVD
-  exchange.
+name:
+  uk: Phoenix Center Daily English
+  en: Phoenix Center Daily English
+description:
+  uk: >-
+    Безкоштовні розмовні заняття з англійської з носіями мови зі США та Великої Британії; також
+    обмін книжками та DVD.
+  en: >-
+    Free English conversation classes with American and British native speakers; also a book and DVD
+    exchange.
 languages:
   - en
 format: offline
 location:
-  venue: Phoenix Center
-  address: вул. Немировича-Данченка, 2
-  metro: Печерська
-  note: 3 поверх
+  venue:
+    uk: Phoenix Center
+    en: Phoenix Center
+  address:
+    uk: вул. Немировича-Данченка, 2
+    en: 2 Nemyrovycha-Danchenka St
+  metro:
+    uk: Печерська
+    en: Pecherska
+  note:
+    uk: 3 поверх
+    en: 3rd floor
   lat: 50.432142
   lon: 30.54002
   geocoded: true
-schedule_note: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
+schedule_note:
+  uk: У будні; обмін книжками пн–пт 18:00–19:30, сб 12:00–13:30 (2010)
+  en: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
 price:
   free: true
 organizer: Phoenix Center
@@ -23,28 +39,10 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: >-
-  Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Likely a church-linked
-  ministry (not verified).
-i18n:
-  en:
-    location.address: 2 Nemyrovycha-Danchenka St
-    location.metro: Pecherska
-    location.note: 3rd floor
-  uk:
-    description: >-
-      Безкоштовні розмовні заняття з англійської з носіями мови зі США та Великої Британії; також
-      обмін книжками та DVD.
-    schedule_note: У будні; обмін книжками пн–пт 18:00–19:30, сб 12:00–13:30 (2010)
-    notes: >-
-      Зазначено на дошці оголошень «Community listings» у Kyiv Post, 2010-04-08. Імовірно, служіння,
-      пов’язане з церквою (не підтверджено).
-i18n_src:
-  location.address: a475bc65
-  location.metro: 139a4a38
-  name: e7049a0c
-  description: 7828d1ed
-  schedule_note: 3567c1f9
-  notes: 3e722c1d
-  location.venue: 8c36d6cd
-  location.note: 6c1e1693
+notes:
+  uk: >-
+    Зазначено на дошці оголошень «Community listings» у Kyiv Post, 2010-04-08. Імовірно, служіння,
+    пов’язане з церквою (не підтверджено).
+  en: >-
+    Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Likely a church-linked
+    ministry (not verified).

@@ -1,14 +1,24 @@
 id: klub-moia-mova
-name: Клуб «Моя мова»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Моя мова»
+  en: "\"Moia mova\" Club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. В. Сосюри
-  address: Харківське шосе, 13
+  venue:
+    uk: Бібліотека ім. В. Сосюри
+    en: V. Sosiura Library
+  address:
+    uk: Харківське шосе, 13
+    en: 13 Kharkivske Shose St
   lat: 50.435586
   lon: 30.631807
   geocoded: true
@@ -20,24 +30,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 13 Kharkivske Shose St
-    name: "\"Moia mova\" Club"
-    location.venue: V. Sosiura Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: 144db278
-  name: 2bca0591
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: b6810ab4
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

@@ -1,14 +1,26 @@
 id: american-chamber-of-commerce-toastmasters
-name: American Chamber of Commerce Toastmasters
-description: Toastmasters club for English-speaking professionals.
+name:
+  uk: American Chamber of Commerce Toastmasters
+  en: American Chamber of Commerce Toastmasters
+description:
+  uk: Клуб Toastmasters для англомовних фахівців.
+  en: Toastmasters club for English-speaking professionals.
 languages:
   - en
 format: offline
 location:
-  venue: Microsoft Ukraine office
-  address: вул. Жилянська, 75
-  metro: Вокзальна
-  note: 4 поверх
+  venue:
+    uk: Офіс Microsoft в Україні
+    en: Microsoft Ukraine office
+  address:
+    uk: вул. Жилянська, 75
+    en: 75 Zhylianska St
+  metro:
+    uk: Вокзальна
+    en: Vokzalna
+  note:
+    uk: 4 поверх
+    en: 4th floor
   lat: 50.439005
   lon: 30.498697
   geocoded: true
@@ -16,7 +28,9 @@ schedule:
   - day: wed
     time: "19:30"
     frequency: weekly
-schedule_note: Wednesdays 7:30 p.m.
+schedule_note:
+  uk: Щосереди о 7:30 p.m.
+  en: Wednesdays 7:30 p.m.
 contacts:
   - type: website
     url: http://chambertoastmasters.org
@@ -26,23 +40,6 @@ first_seen: "2010-04-08"
 last_seen: "2010-04-08"
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  en:
-    location.address: 75 Zhylianska St
-    location.metro: Vokzalna
-    location.note: 4th floor
-  uk:
-    description: Клуб Toastmasters для англомовних фахівців.
-    schedule_note: Щосереди о 7:30 p.m.
-    notes: Зазначено в рубриці «Оголошення громади» газети Kyiv Post, 2010-04-08.
-    location.venue: Офіс Microsoft в Україні
-i18n_src:
-  location.address: b301f809
-  location.metro: ede8c3f1
-  name: 4a5588f5
-  description: 98ec53ab
-  schedule_note: 67bebb37
-  notes: 0150c68c
-  location.venue: f8010f02
-  location.note: dcce9ac0
+notes:
+  uk: Зазначено в рубриці «Оголошення громади» газети Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

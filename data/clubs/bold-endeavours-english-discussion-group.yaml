@@ -1,6 +1,10 @@
 id: bold-endeavours-english-discussion-group
-name: Bold Endeavours English discussion group
-description: "Monthly English discussion group (topic in 2010: internet marketing)."
+name:
+  uk: Англомовна дискусійна група Bold Endeavours
+  en: Bold Endeavours English discussion group
+description:
+  uk: "Щомісячна англомовна дискусійна група (тема у 2010 році: інтернет-маркетинг)."
+  en: "Monthly English discussion group (topic in 2010: internet marketing)."
 languages:
   - en
 format: offline
@@ -8,7 +12,9 @@ schedule:
   - day: sat
     time: "12:00"
     frequency: monthly
-schedule_note: First Saturday of each month, noon (2010)
+schedule_note:
+  uk: Перша субота кожного місяця, опівдні (2010)
+  en: First Saturday of each month, noon (2010)
 price:
   free: true
 registration: required
@@ -21,15 +27,6 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Англомовна дискусійна група Bold Endeavours
-    description: "Щомісячна англомовна дискусійна група (тема у 2010 році: інтернет-маркетинг)."
-    schedule_note: Перша субота кожного місяця, опівдні (2010)
-    notes: Зазначено в рубриці «Оголошення спільноти» газети Kyiv Post, 2010-04-08.
-i18n_src:
-  name: 4c9dec31
-  description: 36cc451e
-  schedule_note: 49f69150
-  notes: 0150c68c
+notes:
+  uk: Зазначено в рубриці «Оголошення спільноти» газети Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

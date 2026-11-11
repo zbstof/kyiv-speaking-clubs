@@ -1,14 +1,25 @@
 id: ve-are-meeting-english-discussion-club
-name: Ve aRe meeting — English discussion club
-description: >-
-  Weekly English discussion/brainstorm club on virtual reality for tech students (KPI, KNU, NaUKMA)
-  and others; entry by Skype interview.
+name:
+  uk: Ve aRe meeting — англомовний дискусійний клуб
+  en: Ve aRe meeting — English discussion club
+description:
+  uk: >-
+    Щотижневий англомовний клуб дискусій і мозкових штурмів про віртуальну реальність для студентів
+    технічних спеціальностей (КПІ, КНУ, НаУКМА) та інших; участь — за результатами співбесіди у
+    Skype.
+  en: >-
+    Weekly English discussion/brainstorm club on virtual reality for tech students (KPI, KNU,
+    NaUKMA) and others; entry by Skype interview.
 languages:
   - en
 format: offline
 location:
-  venue: Room arranged with KNU administration (tentative)
-schedule_note: Weekly, March–June 2017
+  venue:
+    uk: Приміщення за домовленістю з адміністрацією КНУ (попередньо)
+    en: Room arranged with KNU administration (tentative)
+schedule_note:
+  uk: Щотижня, March–June 2017
+  en: Weekly, March–June 2017
 price:
   free: true
 registration: required
@@ -21,17 +32,3 @@ first_seen: "2017-02-01"
 last_seen: "2017-02-01"
 sources:
   - https://dou.ua/calendar/13730/
-i18n:
-  uk:
-    name: Ve aRe meeting — англомовний дискусійний клуб
-    description: >-
-      Щотижневий англомовний клуб дискусій і мозкових штурмів про віртуальну реальність для
-      студентів технічних спеціальностей (КПІ, КНУ, НаУКМА) та інших; участь — за результатами
-      співбесіди у Skype.
-    schedule_note: Щотижня, March–June 2017
-    location.venue: Приміщення за домовленістю з адміністрацією КНУ (попередньо)
-i18n_src:
-  name: "09929265"
-  description: 7524ebda
-  schedule_note: 2406229a
-  location.venue: 870bc919

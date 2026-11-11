@@ -1,19 +1,33 @@
 id: state-scientific-and-technical-library-english-speaking-club
-name: State Scientific and Technical Library — English speaking club for scientists
-description: Free online English conversation club aimed at researchers, run by ДНТБ України.
+name:
+  uk: Державна науково-технічна бібліотека — розмовний клуб англійської для науковців
+  en: State Scientific and Technical Library — English speaking club for scientists
+description:
+  uk: Безкоштовний онлайн-клуб розмовної англійської для науковців, який проводить ДНТБ України.
+  en: >-
+    Free online English conversation club aimed at researchers, run by the State Scientific and
+    Technical Library of Ukraine.
 languages:
   - en
 format: online
 location:
-  venue: ДНТБ України (online via Google Meet)
-  address: вул. Антоновича, 180
-  metro: Деміївська
+  venue:
+    uk: ДНТБ України (онлайн через Google Meet)
+    en: State Scientific and Technical Library of Ukraine (online via Google Meet)
+  address:
+    uk: вул. Антоновича, 180
+    en: 180 Antonovycha St
+  metro:
+    uk: Деміївська
+    en: Demiivska
 schedule:
   - day: mon
     time: "15:00"
     duration_min: 60
     frequency: weekly
-schedule_note: Mondays 15:00–16:00, sessions listed 2024-01-02 to 2024-02-26
+schedule_note:
+  uk: Щопонеділка 15:00–16:00, зазначені зустрічі з 2024-01-02 до 2024-02-26
+  en: Mondays 15:00–16:00, sessions listed 2024-01-02 to 2024-02-26
 price:
   free: true
 registration: none
@@ -26,30 +40,10 @@ first_seen: 2023-12
 last_seen: "2024-02-26"
 sources:
   - https://nauka.gov.ua/opportunities/rozmovnyi-klub-anhliiskoi-movy-dlia-naukovtsiv
-notes: >-
-  Post of 2023-12-28 says the library 'continues' the club, so it started earlier. Open to anyone,
-  aimed at researchers.
-i18n:
-  en:
-    location.address: 180 Antonovycha St
-    location.metro: Demiivska
-    description: >-
-      Free online English conversation club aimed at researchers, run by the State Scientific and
-      Technical Library of Ukraine.
-    location.venue: State Scientific and Technical Library of Ukraine (online via Google Meet)
-  uk:
-    name: Державна науково-технічна бібліотека — розмовний клуб англійської для науковців
-    description: Безкоштовний онлайн-клуб розмовної англійської для науковців, який проводить ДНТБ України.
-    schedule_note: Щопонеділка 15:00–16:00, зазначені зустрічі з 2024-01-02 до 2024-02-26
-    notes: >-
-      У дописі від 2023-12-28 йдеться, що бібліотека «продовжує» клуб, тож він почав діяти раніше.
-      Відкритий для всіх, орієнтований на науковців.
-    location.venue: ДНТБ України (онлайн через Google Meet)
-i18n_src:
-  location.address: 0158c95c
-  location.metro: 66cf73fa
-  name: c998ddb0
-  description: "98897990"
-  schedule_note: d94d6418
-  notes: 6b110428
-  location.venue: "892e9274"
+notes:
+  uk: >-
+    У дописі від 2023-12-28 йдеться, що бібліотека «продовжує» клуб, тож він почав діяти раніше.
+    Відкритий для всіх, орієнтований на науковців.
+  en: >-
+    Post of 2023-12-28 says the library 'continues' the club, so it started earlier. Open to anyone,
+    aimed at researchers.

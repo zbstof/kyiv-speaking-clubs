@@ -1,15 +1,27 @@
 id: dec-school-speaking-clubs
-name: DEC school thematic speaking clubs
-description: >-
-  Weekly themed Saturday speaking clubs at DEC school language school; free for DEC students, paid
-  for others.
+name:
+  uk: Тематичні розмовні клуби DEC school
+  en: DEC school thematic speaking clubs
+description:
+  uk: >-
+    Щотижневі тематичні розмовні клуби щосуботи в мовній школі DEC school; безкоштовно для учнів
+    DEC, платно для інших.
+  en: >-
+    Weekly themed Saturday speaking clubs at DEC school language school; free for DEC students, paid
+    for others.
 languages:
   - en
 format: offline
 location:
-  venue: DEC school (Осокорки branch and others)
-  address: Дніпровська набережна
-  metro: Осокорки
+  venue:
+    uk: DEC school (філія на Осокорках та інші)
+    en: DEC school (Osokorky branch and others)
+  address:
+    uk: Дніпровська набережна
+    en: Dniprovska Naberezhna
+  metro:
+    uk: Осокорки
+    en: Osokorky
   lat: 50.395186
   lon: 30.616249
   geocoded: true
@@ -17,10 +29,14 @@ location:
 schedule:
   - day: sat
     frequency: weekly
-schedule_note: Once a week on Saturdays; topics for the year on dec-school.com
+schedule_note:
+  uk: Раз на тиждень щосуботи; теми на рік — на dec-school.com
+  en: Once a week on Saturdays; topics for the year on dec-school.com
 price:
   free: true
-  amount: free for DEC school students
+  amount:
+    uk: безкоштовно для учнів DEC school
+    en: free for DEC school students
 contacts:
   - type: website
     url: https://dec-school.com
@@ -31,33 +47,12 @@ last_seen: "2012-08-16"
 sources:
   - https://osvita.ua/languages/speak_club/30759/
   - https://osvita.ua/languages/8636/
-notes: >-
-  Open to students only (not verified whether public can join). City and language not stated on the
-  osvita page; DEC school is a Kyiv language school (assumption, not verified on page). Language
-  assumed English.
-i18n:
-  en:
-    location.metro: Osokorky
-    location.venue: DEC school (Osokorky branch and others)
-    location.address: Dniprovska Naberezhna
-  uk:
-    name: Тематичні розмовні клуби DEC school
-    description: >-
-      Щотижневі тематичні розмовні клуби щосуботи в мовній школі DEC school; безкоштовно для учнів
-      DEC, платно для інших.
-    schedule_note: Раз на тиждень щосуботи; теми на рік — на dec-school.com
-    notes: >-
-      Лише для учнів (чи можуть долучитися інші — не перевірено). Місто та мову на сторінці osvita
-      не вказано; DEC school — київська мовна школа (припущення, не підтверджене на сторінці).
-      Імовірна мова — англійська.
-    location.venue: DEC school (філія на Осокорках та інші)
-    price.amount: безкоштовно для учнів DEC school
-i18n_src:
-  location.metro: 820f2c78
-  name: b5f35813
-  description: 4db5622a
-  schedule_note: 977eabc1
-  notes: 17421f13
-  location.venue: 379b6257
-  location.address: 54427d84
-  price.amount: 75a6dec8
+notes:
+  uk: >-
+    Лише для учнів (чи можуть долучитися інші — не перевірено). Місто та мову на сторінці osvita не
+    вказано; DEC school — київська мовна школа (припущення, не підтверджене на сторінці). Імовірна
+    мова — англійська.
+  en: >-
+    Open to students only (not verified whether public can join). City and language not stated on
+    the osvita page; DEC school is a Kyiv language school (assumption, not verified on page).
+    Language assumed English.

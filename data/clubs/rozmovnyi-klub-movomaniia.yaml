@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-movomaniia
-name: Розмовний клуб «Мовоманія»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб «Мовоманія»
+  en: "\"Movomaniia\" conversation club"
+description:
+  uk: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека № 2 для дітей
-  address: вул. Ореста Левицького, 9/21
+  venue:
+    uk: Бібліотека № 2 для дітей
+    en: Children's Library No. 2
+  address:
+    uk: вул. Ореста Левицького, 9/21
+    en: 9/21 Oresta Levytskoho St
   lat: 50.476951
   lon: 30.626621
   geocoded: true
@@ -27,22 +35,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 9/21 Oresta Levytskoho St
-    name: "\"Movomaniia\" conversation club"
-    location.venue: Children's Library No. 2
-  uk:
-    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Зазначений в обох списках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: 615829c3
-  name: d82d490c
-  description: 0402dd7e
-  notes: 35f55f76
-  location.venue: fe139759
+notes:
+  uk: >-
+    Зазначений в обох списках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
+    списках не вказано часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

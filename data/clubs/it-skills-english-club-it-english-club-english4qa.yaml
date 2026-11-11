@@ -1,16 +1,33 @@
 id: it-skills-english-club-it-english-club-english4qa
-name: IT Skills English club / IT English club (english4qa)
-description: >-
-  Free English speaking club for IT people and newcomers to IT: themed discussions, games
-  ('Scrumathon', 'Interview or be interviewed', 'Negotiations in IT', 'GitHub-mafia'). Same contact
-  phone across all listings.
+name:
+  uk: IT Skills English club / IT English club (english4qa)
+  en: IT Skills English club / IT English club (english4qa)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб англійської для ІТ-фахівців і новачків в ІТ: тематичні обговорення,
+    ігри («Скраматон», «Проведи співбесіду або пройди її», «Переговори в ІТ», «GitHub-мафія»). У
+    всіх оголошеннях той самий контактний номер телефону.
+  en: >-
+    Free English speaking club for IT people and newcomers to IT: themed discussions, games
+    ('Scrumathon', 'Interview or be interviewed', 'Negotiations in IT', 'GitHub-mafia'). Same
+    contact phone across all listings.
 languages:
   - en
 format: offline
 location:
-  venue: Café Олів'є (2017–2018); café on 5th floor of ТРЦ Гуллівер (2016); near Шулявська (early 2016)
-  address: вул. Богдана Хмельницького, 16-22 (Олів'є)
-  metro: Театральна
+  venue:
+    uk: >-
+      Кафе «Олів'є» (2017–2018); кафе на 5-му поверсі ТРЦ «Гуллівер» (2016); поблизу «Шулявської»
+      (початок 2016)
+    en: >-
+      Olivie Café (2017–2018); café on the 5th floor of Gulliver shopping mall (2016); near
+      Shuliavska (early 2016)
+  address:
+    uk: вул. Богдана Хмельницького, 16-22 (Олів'є)
+    en: 16-22 Bohdana Khmelnytskoho St (Olivie)
+  metro:
+    uk: Театральна
+    en: Teatralna
   lat: 50.44521
   lon: 30.518045
   geocoded: true
@@ -18,9 +35,13 @@ location:
 schedule:
   - day: sun
     frequency: irregular
-schedule_note: >-
-  Roughly weekly, weekends or weekday evenings; e.g. Sun 2016-01-17 11:30, Tue 2016-09-20 19:00, Sun
-  2017-04-02 18:00–21:00, Sat 2018-01-27 18:00
+schedule_note:
+  uk: >-
+    Приблизно щотижня, у вихідні або ввечері в будні; наприклад, нд 2016-01-17 11:30, вт 2016-09-20
+    19:00, нд 2017-04-02 18:00–21:00, сб 2018-01-27 18:00
+  en: >-
+    Roughly weekly, weekends or weekday evenings; e.g. Sun 2016-01-17 11:30, Tue 2016-09-20 19:00,
+    Sun 2017-04-02 18:00–21:00, Sat 2018-01-27 18:00
 price:
   free: true
 registration: required
@@ -49,38 +70,13 @@ sources:
   - https://dou.ua/calendar/19146/
   - https://dou.ua/calendar/19514/
   - https://dou.ua/calendar/22479/
-notes: >-
-  Dozens of DOU listings 2016–2018 (archive pages 26–37 of tag 'English'). Grouped as one club by
-  the shared phone number; the 2018-07-29 'English Club: sysadmin, devops, developer' (address sent
-  after registration) is attributed to it by style only (not verified).
-i18n:
-  en:
-    location.metro: Teatralna
-    location.venue: >-
-      Olivie Café (2017–2018); café on the 5th floor of Gulliver shopping mall (2016); near
-      Shuliavska (early 2016)
-    location.address: 16-22 Bohdana Khmelnytskoho St (Olivie)
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб англійської для ІТ-фахівців і новачків в ІТ: тематичні
-      обговорення, ігри («Скраматон», «Проведи співбесіду або пройди її», «Переговори в ІТ»,
-      «GitHub-мафія»). У всіх оголошеннях той самий контактний номер телефону.
-    schedule_note: >-
-      Приблизно щотижня, у вихідні або ввечері в будні; наприклад, нд 2016-01-17 11:30, вт
-      2016-09-20 19:00, нд 2017-04-02 18:00–21:00, сб 2018-01-27 18:00
-    notes: >-
-      Десятки оголошень на DOU за 2016–2018 роки (архівні сторінки 26–37 за тегом «English»).
-      Об’єднані в один клуб за спільним номером телефону; захід «English Club: sysadmin, devops,
-      developer» від 2018-07-29 (адресу надсилають після реєстрації) зараховано до нього лише за
-      стилем оголошення (не перевірено).
-    location.venue: >-
-      Кафе «Олів'є» (2017–2018); кафе на 5-му поверсі ТРЦ «Гуллівер» (2016); поблизу «Шулявської»
-      (початок 2016)
-i18n_src:
-  location.metro: a3cccf71
-  name: 6d7ec635
-  description: c92dd1ea
-  schedule_note: 198c6b87
-  notes: d18778f2
-  location.venue: 4f41b326
-  location.address: f103182e
+notes:
+  uk: >-
+    Десятки оголошень на DOU за 2016–2018 роки (архівні сторінки 26–37 за тегом «English»).
+    Об’єднані в один клуб за спільним номером телефону; захід «English Club: sysadmin, devops,
+    developer» від 2018-07-29 (адресу надсилають після реєстрації) зараховано до нього лише за
+    стилем оголошення (не перевірено).
+  en: >-
+    Dozens of DOU listings 2016–2018 (archive pages 26–37 of tag 'English'). Grouped as one club by
+    the shared phone number; the 2018-07-29 'English Club: sysadmin, devops, developer' (address
+    sent after registration) is attributed to it by style only (not verified).

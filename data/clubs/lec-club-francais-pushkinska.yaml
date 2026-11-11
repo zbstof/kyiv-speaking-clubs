@@ -1,18 +1,30 @@
 id: lec-club-francais-pushkinska
-name: Club français de conversation (Пушкінська)
-description: Франкомовний розмовний клуб у кавʼярні.
+name:
+  uk: Французький розмовний клуб (Пушкінська)
+  en: French conversation club (Pushkinska)
+description:
+  uk: Франкомовний розмовний клуб у кавʼярні.
+  en: French-speaking conversation club at a café.
 languages:
   - fr
 format: offline
 location:
-  venue: CityCafe «Віденські булочки»
-  address: вул. Пушкінська, 1-3/5
-  metro: Хрещатик
+  venue:
+    uk: CityCafe «Віденські булочки»
+    en: CityCafe "Videnski bulochky"
+  address:
+    uk: вул. Пушкінська, 1-3/5
+    en: 1-3/5 Pushkinska St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.447187
   lon: 30.522946
   geocoded: true
   near_metro: true
-schedule_note: 16:00–18:00; улітку нерегулярно.
+schedule_note:
+  uk: 16:00–18:00; улітку нерегулярно.
+  en: 16:00–18:00; irregular in summer.
 price:
   free: true
 contacts:
@@ -21,23 +33,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 1-3/5 Pushkinska St
-    location.metro: Khreshchatyk
-    name: French conversation club (Pushkinska)
-    description: French-speaking conversation club at a café.
-    schedule_note: 16:00–18:00; irregular in summer.
-    notes: In the Language Exchange Club network directory (lec.link); entry date unknown.
-    location.venue: CityCafe "Videnski bulochky"
-  uk:
-    name: Французький розмовний клуб (Пушкінська)
-i18n_src:
-  location.address: d4fc3de6
-  location.metro: 9f2c4b77
-  name: 6cef6f23
-  description: dfd6a1e8
-  schedule_note: 0089d52c
-  notes: 158955cd
-  location.venue: b3baf80e
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: In the Language Exchange Club network directory (lec.link); entry date unknown.

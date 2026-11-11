@@ -1,10 +1,18 @@
 id: cinevibe-movie-club
-name: MovieClub CineVIBE
-description: "Кіноклуб англійською: дивляться фільми разом і обговорюють їх англійською. Є онлайн-версія."
+name:
+  uk: MovieClub CineVIBE
+  en: MovieClub CineVIBE
+description:
+  uk: "Кіноклуб англійською: дивляться фільми разом і обговорюють їх англійською. Є онлайн-версія."
+  en: >-
+    English-language film club: watch films together and discuss them in English. An online version
+    is available.
 languages:
   - en
 format: offline
-schedule_note: Розклад і місце — в анонсах групи.
+schedule_note:
+  uk: Розклад і місце — в анонсах групи.
+  en: Schedule and location are in the group's announcements.
 contacts:
   - type: telegram
     url: https://t.me/cinevibe_en
@@ -15,16 +23,6 @@ first_seen: 2023-07
 last_seen: "2026-11-05"
 sources:
   - https://t.me/cinevibe_en
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    description: >-
-      English-language film club: watch films together and discuss them in English. An online
-      version is available.
-    schedule_note: Schedule and location are in the group's announcements.
-    notes: Based on the chat history of Kyiv clubs' Telegram groups (read on 10.11.2026).
-i18n_src:
-  name: 88e6cb64
-  description: 61229ee6
-  schedule_note: cb52221a
-  notes: dd841777
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat history of Kyiv clubs' Telegram groups (read on 10.11.2026).

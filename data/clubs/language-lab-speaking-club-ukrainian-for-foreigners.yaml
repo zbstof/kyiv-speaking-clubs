@@ -1,8 +1,15 @@
 id: language-lab-speaking-club-ukrainian-for-foreigners
-name: Language Lab Speaking Club (Ukrainian for foreigners)
-description: >-
-  Free online Ukrainian speaking-club sessions on Zoom run by the Kyiv school Language Lab, led by
-  native-speaking facilitators; mix of Ukrainian and English. Kyiv Post partner content.
+name:
+  uk: Language Lab Speaking Club (українська для іноземців)
+  en: Language Lab Speaking Club (Ukrainian for foreigners)
+description:
+  uk: >-
+    Безкоштовні онлайн-зустрічі розмовного клубу української мови в Zoom від київської школи
+    Language Lab із модераторами — носіями мови; спілкування українською та англійською.
+    Партнерський матеріал Kyiv Post.
+  en: >-
+    Free online Ukrainian speaking-club sessions on Zoom run by the Kyiv school Language Lab, led by
+    native-speaking facilitators; mix of Ukrainian and English. Kyiv Post partner content.
 languages:
   - uk
   - en
@@ -10,11 +17,20 @@ levels:
   - any
 format: online
 location:
-  venue: Online (Zoom); Language Lab
-  address: вул. Ярославів Вал, 11
-schedule_note: >-
-  Регулярного розкладу немає, клуби анонсують окремо. Остання зустріч — 23.08.2026, неділя, 19:00, у
-  Zoom (до Дня Незалежності). Реєстрація через форму на сайті, посилання надсилають на пошту.
+  venue:
+    uk: Онлайн (Zoom); Language Lab
+    en: Online (Zoom); Language Lab
+  address:
+    uk: вул. Ярославів Вал, 11
+    en: 11 Yaroslaviv Val St
+schedule_note:
+  uk: >-
+    Регулярного розкладу немає, клуби анонсують окремо. Остання зустріч — 23.08.2026, неділя, 19:00,
+    у Zoom (до Дня Незалежності). Реєстрація через форму на сайті, посилання надсилають на пошту.
+  en: >-
+    There is no regular schedule; club sessions are announced individually. The latest meeting was
+    on 23.08.2026, Sunday, at 19:00 on Zoom (for Independence Day). Register via the form on the
+    website; the link is sent by email.
 price:
   free: true
 registration: required
@@ -33,35 +49,15 @@ sources:
   - https://www.kyivpost.com/post/76320
   - https://www.kyivpost.com/post/85262
   - https://lngglab.com/
-notes: >-
-  Language Lab teaches Ukrainian to foreigners online and in person in Kyiv; started in 2016 as an
-  English school. Regular club schedule not verified. Site: 'Speaking Clubs: online & in-person
-  language practice for all levels'; school near Golden Gate. Free online Independence Day edition
-  Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20.
-i18n:
-  en:
-    location.address: 11 Yaroslaviv Val St
-    schedule_note: >-
-      There is no regular schedule; club sessions are announced individually. The latest meeting was
-      on 23.08.2026, Sunday, at 19:00 on Zoom (for Independence Day). Register via the form on the
-      website; the link is sent by email.
-  uk:
-    name: Language Lab Speaking Club (українська для іноземців)
-    description: >-
-      Безкоштовні онлайн-зустрічі розмовного клубу української мови в Zoom від київської школи
-      Language Lab із модераторами — носіями мови; спілкування українською та англійською.
-      Партнерський матеріал Kyiv Post.
-    notes: >-
-      Language Lab навчає іноземців української онлайн та очно в Києві; школа почала працювати у
-      2016 році як школа англійської. Регулярний розклад клубу не підтверджено. На сайті: «Розмовні
-      клуби: мовна практика онлайн та очно для всіх рівнів»; школа біля Золотих воріт. Безкоштовна
-      онлайн-зустріч до Дня Незалежності — неділя, 2026-08-23, 19:00 (Zoom). Матеріал Kyiv Post
-      «Більше про Language Lab» від 2026-08-20.
-    location.venue: Онлайн (Zoom); Language Lab
-i18n_src:
-  location.address: 34de9867
-  name: 25aada38
-  description: a7186787
-  schedule_note: f5475f10
-  notes: fd0589e2
-  location.venue: 0598718e
+notes:
+  uk: >-
+    Language Lab навчає іноземців української онлайн та очно в Києві; школа почала працювати у 2016
+    році як школа англійської. Регулярний розклад клубу не підтверджено. На сайті: «Розмовні клуби:
+    мовна практика онлайн та очно для всіх рівнів»; школа біля Золотих воріт. Безкоштовна
+    онлайн-зустріч до Дня Незалежності — неділя, 2026-08-23, 19:00 (Zoom). Матеріал Kyiv Post
+    «Більше про Language Lab» від 2026-08-20.
+  en: >-
+    Language Lab teaches Ukrainian to foreigners online and in person in Kyiv; started in 2016 as an
+    English school. Regular club schedule not verified. Site: 'Speaking Clubs: online & in-person
+    language practice for all levels'; school near Golden Gate. Free online Independence Day edition
+    Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20.

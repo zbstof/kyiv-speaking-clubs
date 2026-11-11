@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-chytaiemo-ridnoiu-movoiu
-name: Розмовний клуб «Читаємо рідною мовою»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Читаємо рідною мовою»
+  en: Conversation club "Chytaiemo ridnoiu movoiu"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека естетичного виховання
-  address: бульвар Миколи Міхновського, 32
+  venue:
+    uk: Бібліотека естетичного виховання
+    en: Library of Aesthetic Education
+  address:
+    uk: бульвар Миколи Міхновського, 32
+    en: 32 Mykoly Mikhnovskoho Blvd
   lat: 50.418185
   lon: 30.546444
   geocoded: true
@@ -27,24 +37,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 32 Mykoly Mikhnovskoho Blvd
-    name: Conversation club "Chytaiemo ridnoiu movoiu"
-    location.venue: Library of Aesthetic Education
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений в обох списках бібліотек київського департаменту культури (2023-08-17 і
-      2025-12-01). У списках немає часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: f241be29
-  name: b162552a
-  description: d15e99c9
-  notes: 35f55f76
-  location.venue: 2cf0f1f0
+notes:
+  uk: >-
+    Зазначений в обох списках бібліотек київського департаменту культури (2023-08-17 і 2025-12-01).
+    У списках немає часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

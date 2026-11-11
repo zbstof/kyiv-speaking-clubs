@@ -1,12 +1,20 @@
 id: knyzhkovyi-klub-alehoriia
-name: Книжковий клуб «Алегорія»
-description: Book club listed among Ukrainian language clubs at a Kyiv public library.
+name:
+  uk: Книжковий клуб «Алегорія»
+  en: "\"Alehoriia\" book club"
+description:
+  uk: Книжковий клуб, зазначений серед українськомовних клубів у публічній бібліотеці Києва.
+  en: Book club listed among Ukrainian language clubs at a Kyiv public library.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. О. Олеся
-  address: проспект Леоніда Каденюка, 19/30
+  venue:
+    uk: Бібліотека ім. О. Олеся
+    en: O. Oles Library
+  address:
+    uk: проспект Леоніда Каденюка, 19/30
+    en: 19/30 Leonida Kadeniuka Ave
   lat: 50.450907
   lon: 30.629282
   geocoded: true
@@ -21,24 +29,12 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified. Book club included in the city list of
-  Ukrainian language clubs.
-i18n:
-  en:
-    location.address: 19/30 Leonida Kadeniuka Ave
-    name: "\"Alehoriia\" book club"
-    location.venue: O. Oles Library
-  uk:
-    description: Книжковий клуб, зазначений серед українськомовних клубів у публічній бібліотеці Києва.
-    notes: >-
-      Зазначено в переліку бібліотек київського департаменту культури станом на 2025-12-01. У
-      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено. Книжковий
-      клуб включено до міського переліку українськомовних клубів.
-i18n_src:
-  location.address: a4d27a47
-  name: c6f2b288
-  description: a641d7ff
-  notes: 86a20439
-  location.venue: 707aaf77
+notes:
+  uk: >-
+    Зазначено в переліку бібліотек київського департаменту культури станом на 2025-12-01. У
+    переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено. Книжковий
+    клуб включено до міського переліку українськомовних клубів.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified. Book club included in the city list of
+    Ukrainian language clubs.

@@ -1,32 +1,29 @@
 id: french-speaking-club-svetlana
-name: French-speaking club (Svetlana)
-description: French conversation practice plus movie sessions, once a week on a weekend day.
+name:
+  uk: Розмовний клуб французької (Світлана)
+  en: French-speaking club (Svetlana)
+description:
+  uk: Практика розмовної французької та кіноперегляди раз на тиждень у вихідний день.
+  en: French conversation practice plus movie sessions, once a week on a weekend day.
 languages:
   - fr
 format: offline
 schedule:
   - day: sat
     frequency: weekly
-schedule_note: Once weekly, Saturday or Sunday
+schedule_note:
+  uk: Раз на тиждень, у суботу або неділю
+  en: Once weekly, Saturday or Sunday
 organizer: Svetlana (private host, contact via Kyiv Post listing)
 status: unknown
 first_seen: "2010-04-08"
 last_seen: "2010-04-08"
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: >-
-  Listed in Kyiv Post community listings, 2010-04-08. Day is Saturday or Sunday. Listed in Kyiv Post
-  'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Розмовний клуб французької (Світлана)
-    description: Практика розмовної французької та кіноперегляди раз на тиждень у вихідний день.
-    schedule_note: Раз на тиждень, у суботу або неділю
-    notes: >-
-      Опубліковано в оголошеннях спільноти Kyiv Post, 2010-04-08. День проведення — субота або
-      неділя. Опубліковано на дошці оголошень Kyiv Post «Оголошення спільноти», 2010-04-08.
-i18n_src:
-  name: 017e587b
-  description: 36fd712b
-  schedule_note: 1d3ecfaf
-  notes: e01d897e
+notes:
+  uk: >-
+    Опубліковано в оголошеннях спільноти Kyiv Post, 2010-04-08. День проведення — субота або неділя.
+    Опубліковано на дошці оголошень Kyiv Post «Оголошення спільноти», 2010-04-08.
+  en: >-
+    Listed in Kyiv Post community listings, 2010-04-08. Day is Saturday or Sunday. Listed in Kyiv
+    Post 'Community listings' bulletin board, 2010-04-08.

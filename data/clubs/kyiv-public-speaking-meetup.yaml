@@ -1,19 +1,33 @@
 id: kyiv-public-speaking-meetup
-name: Kyiv Public Speaking Meetup
-description: >-
-  Free public-speaking trainings ('anti-lectures') in English or Ukrainian for language learners who
-  want to beat stage fright.
+name:
+  uk: Kyiv Public Speaking Meetup
+  en: Kyiv Public Speaking Meetup
+description:
+  uk: >-
+    Безкоштовні тренінги з публічних виступів («антилекції») англійською або українською для тих,
+    хто вивчає мови й хоче подолати страх сцени.
+  en: >-
+    Free public-speaking trainings ('anti-lectures') in English or Ukrainian for language learners
+    who want to beat stage fright.
 languages:
   - en
   - uk
 format: offline
 location:
-  venue: Conference hall 'Answer'; Kyiv School of Economics
-  address: вул. Володимирська, 49-А; вул. Івана Мазепи, 1
+  venue:
+    uk: Конференц-зал «Answer»; Київська школа економіки
+    en: Conference hall 'Answer'; Kyiv School of Economics
+  address:
+    uk: вул. Володимирська, 49-А; вул. Івана Мазепи, 1
+    en: 49-A Volodymyrska St; 1 Ivana Mazepy St
   lat: 50.44762
   lon: 30.51598
   geocoded: true
-schedule_note: Irregular evenings 18:00–19:00; 9 events, e.g. 2015-07-07, 2015-10-09, 2015-11-03, 2015-11-25
+schedule_note:
+  uk: >-
+    Нерегулярно ввечері, 18:00–19:00; 9 подій, наприклад 2015-07-07, 2015-10-09, 2015-11-03,
+    2015-11-25
+  en: Irregular evenings 18:00–19:00; 9 events, e.g. 2015-07-07, 2015-10-09, 2015-11-03, 2015-11-25
 price:
   free: true
 registration: optional
@@ -28,23 +42,6 @@ sources:
   - https://www.meetup.com/kyiv-public-speaking-meetup/
   - https://www.meetup.com/topics/esl/ua
   - https://meetup.com/topics/esl/ua
-notes: 155 members ('Polyglot speakers').
-i18n:
-  uk:
-    description: >-
-      Безкоштовні тренінги з публічних виступів («антилекції») англійською або українською для тих,
-      хто вивчає мови й хоче подолати страх сцени.
-    schedule_note: >-
-      Нерегулярно ввечері, 18:00–19:00; 9 подій, наприклад 2015-07-07, 2015-10-09, 2015-11-03,
-      2015-11-25
-    notes: 155 учасників («Промовці-поліглоти»).
-    location.venue: Конференц-зал «Answer»; Київська школа економіки
-  en:
-    location.address: 49-A Volodymyrska St; 1 Ivana Mazepy St
-i18n_src:
-  name: 24be2383
-  description: be78b695
-  schedule_note: ac905488
-  notes: 4796fc04
-  location.venue: 51f55cb9
-  location.address: 973cafa0
+notes:
+  uk: 155 учасників («Промовці-поліглоти»).
+  en: 155 members ('Polyglot speakers').

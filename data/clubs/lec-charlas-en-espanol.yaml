@@ -1,18 +1,32 @@
 id: lec-charlas-en-espanol
-name: Charlas en español
-description: Розмовні зустрічі іспанською мережі LEC.
+name:
+  uk: Charlas en español
+  en: Charlas en español
+description:
+  uk: Розмовні зустрічі іспанською мережі LEC.
+  en: Spanish conversation meetups in the LEC network.
 languages:
   - es
 format: offline
 location:
-  venue: ТРЦ «Гуллівер», фудкорт
-  address: Спортивна площа, 1а
-  metro: Палац спорту
-  note: 5 поверх, навпроти боулінгу
+  venue:
+    uk: ТРЦ «Гуллівер», фудкорт
+    en: Gulliver shopping and entertainment centre, food court
+  address:
+    uk: Спортивна площа, 1а
+    en: 1A Sportyvna Sq
+  metro:
+    uk: Палац спорту
+    en: Palats Sportu
+  note:
+    uk: 5 поверх, навпроти боулінгу
+    en: 5th floor, opposite the bowling alley
   lat: 50.438698
   lon: 30.523171
   geocoded: true
-schedule_note: 17:30–20:30; улітку нерегулярно.
+schedule_note:
+  uk: 17:30–20:30; улітку нерегулярно.
+  en: 17:30–20:30; irregularly in summer.
 price:
   free: true
 contacts:
@@ -21,22 +35,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 1A Sportyvna Sq
-    location.metro: Palats Sportu
-    description: Spanish conversation meetups in the LEC network.
-    schedule_note: 17:30–20:30; irregularly in summer.
-    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
-    location.venue: Gulliver shopping and entertainment centre, food court
-    location.note: 5th floor, opposite the bowling alley
-i18n_src:
-  location.address: ad99c7ad
-  location.metro: 3dbc4bb5
-  name: 725b2206
-  description: dd2ad43c
-  schedule_note: fff8fc08
-  notes: 158955cd
-  location.venue: 62df18f6
-  location.note: c5515ed2
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.

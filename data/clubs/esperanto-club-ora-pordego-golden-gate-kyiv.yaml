@@ -1,8 +1,14 @@
 id: esperanto-club-ora-pordego-golden-gate-kyiv
-name: Esperanto club "Ora Pordego" (Golden Gate), Kyiv
-description: >-
-  Best-known of several Esperanto groups in Kyiv in the 2000s, per the Esperanto Society of Chicago
-  bulletin.
+name:
+  uk: Есперанто-клуб «Ora Pordego» («Золоті ворота»), Київ
+  en: Esperanto club "Ora Pordego" (Golden Gate), Kyiv
+description:
+  uk: >-
+    Найвідоміший із кількох есперанто-гуртів у Києві у 2000-х роках, за даними бюлетеня
+    Есперанто-товариства Чикаго.
+  en: >-
+    Best-known of several Esperanto groups in Kyiv in the 2000s, per the Esperanto Society of
+    Chicago bulletin.
 languages:
   - eo
 format: offline
@@ -15,22 +21,13 @@ last_seen: 2008-11
 sources:
   - https://tempa.bitarkivo.org/gazetoj/SalutonShikago/03_05.pdf
   - https://tempa.bitarkivo.org/gazetoj/SalutonShikago/11_08.pdf
-notes: >-
-  Bulletins (March 2005, November 2008) say 'several E-collectives work in the city, the most famous
-  being E-club Ora pordego'. 2008 issue also mentions the charitable fund 'Espero' named after V.
-  Eroshenko (pres. E. Kovtoniuk). No meeting place or schedule found.
-i18n:
-  uk:
-    name: Есперанто-клуб «Ora Pordego» («Золоті ворота»), Київ
-    description: >-
-      Найвідоміший із кількох есперанто-гуртів у Києві у 2000-х роках, за даними бюлетеня
-      Есперанто-товариства Чикаго.
-    notes: >-
-      У бюлетенях (March 2005, November 2008) зазначено: «У місті працює кілька
-      есперанто-колективів, найвідоміший із них — есперанто-клуб Ora pordego». У випуску за 2008 рік
-      також згадано благодійний фонд «Espero» імені В. Єрошенка (голова — Е. Ковтонюк). Місце
-      зустрічей і розклад не знайдено.
-i18n_src:
-  name: 504f845a
-  description: e6a2adc1
-  notes: 711852f8
+notes:
+  uk: >-
+    У бюлетенях (March 2005, November 2008) зазначено: «У місті працює кілька есперанто-колективів,
+    найвідоміший із них — есперанто-клуб Ora pordego». У випуску за 2008 рік також згадано
+    благодійний фонд «Espero» імені В. Єрошенка (голова — Е. Ковтонюк). Місце зустрічей і розклад не
+    знайдено.
+  en: >-
+    Bulletins (March 2005, November 2008) say 'several E-collectives work in the city, the most
+    famous being E-club Ora pordego'. 2008 issue also mentions the charitable fund 'Espero' named
+    after V. Eroshenko (pres. E. Kovtoniuk). No meeting place or schedule found.

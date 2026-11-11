@@ -1,8 +1,15 @@
 id: career-english-it-club-english-speaking-club-for-tech-commun
-name: Career English IT club / English Speaking Club for Tech Community
-description: >-
-  Career English school's conversation club for IT people. Offline 'IT English Meetup' in Kyiv in
-  2017 with a native-speaker host; from 2024 an online club in seasons of four weekly sessions.
+name:
+  uk: Career English IT club / Розмовний клуб англійської для ІТ-спільноти
+  en: Career English IT club / English Speaking Club for Tech Community
+description:
+  uk: >-
+    Розмовний клуб школи Career English для ІТ-фахівців. У 2017 році — офлайн-зустрічі «IT English
+    Meetup» у Києві з ведучим — носієм мови; з 2024 року — онлайн-клуб із сезонами по чотири
+    щотижневі заняття.
+  en: >-
+    Career English school's conversation club for IT people. Offline 'IT English Meetup' in Kyiv in
+    2017 with a native-speaker host; from 2024 an online club in seasons of four weekly sessions.
 languages:
   - en
 levels:
@@ -11,10 +18,18 @@ levels:
   - C1
 format: hybrid
 location:
-  venue: Career English School
-  address: просп. Соборності, 7А
-  metro: Лівобережна
-  note: Офіс 405
+  venue:
+    uk: Career English School
+    en: Career English School
+  address:
+    uk: просп. Соборності, 7А
+    en: 7A Sobornosti Ave
+  metro:
+    uk: Лівобережна
+    en: Livoberezhna
+  note:
+    uk: Офіс 405
+    en: Office 405
   lat: 50.439118
   lon: 30.61886
   geocoded: true
@@ -23,10 +38,16 @@ schedule:
     time: "18:00"
     duration_min: 60
     frequency: weekly
-schedule_note: "2017: Saturday 11:00 meetups in office; 2024–2025: Tuesdays 18:00 Kyiv time online, 1 hour"
+schedule_note:
+  uk: >-
+    2017: зустрічі в офісі щосуботи об 11:00; 2024–2025: онлайн щовівторка о 18:00 за київським
+    часом, 1 година
+  en: "2017: Saturday 11:00 meetups in office; 2024–2025: Tuesdays 18:00 Kyiv time online, 1 hour"
 price:
   free: false
-  amount: 150 грн (2017); 370 грн (2024); 270 грн per session (2025)
+  amount:
+    uk: 150 грн (2017); 370 грн (2024); 270 грн за заняття (2025)
+    en: 150 UAH (2017); 370 UAH (2024); 270 UAH per session (2025)
 registration: required
 contacts:
   - type: website
@@ -46,31 +67,6 @@ sources:
   - https://dou.ua/calendar/51041/
   - https://dou.ua/calendar/51556/
   - https://dou.ua/calendar/53703/
-notes: "Level: Intermediate+ (2017), B1+/B2 (2025)."
-i18n:
-  en:
-    location.address: 7A Sobornosti Ave
-    location.metro: Livoberezhna
-    location.note: Office 405
-    price.amount: 150 UAH (2017); 370 UAH (2024); 270 UAH per session (2025)
-  uk:
-    name: Career English IT club / Розмовний клуб англійської для ІТ-спільноти
-    description: >-
-      Розмовний клуб школи Career English для ІТ-фахівців. У 2017 році — офлайн-зустрічі «IT English
-      Meetup» у Києві з ведучим — носієм мови; з 2024 року — онлайн-клуб із сезонами по чотири
-      щотижневі заняття.
-    schedule_note: >-
-      2017: зустрічі в офісі щосуботи об 11:00; 2024–2025: онлайн щовівторка о 18:00 за київським
-      часом, 1 година
-    notes: "Рівень: середній і вище (2017), B1+/B2 (2025)."
-    price.amount: 150 грн (2017); 370 грн (2024); 270 грн за заняття (2025)
-i18n_src:
-  location.address: 5f8ca02d
-  location.metro: a7ee73f8
-  name: 0803586d
-  description: 609af435
-  schedule_note: "270968e6"
-  notes: 02a8db83
-  location.venue: e20b78d1
-  location.note: 5c6db1d8
-  price.amount: b084470c
+notes:
+  uk: "Рівень: середній і вище (2017), B1+/B2 (2025)."
+  en: "Level: Intermediate+ (2017), B1+/B2 (2025)."

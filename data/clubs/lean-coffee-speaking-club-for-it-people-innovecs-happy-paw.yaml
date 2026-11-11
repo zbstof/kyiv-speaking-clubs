@@ -1,13 +1,25 @@
 id: lean-coffee-speaking-club-for-it-people-innovecs-happy-paw
-name: Lean Coffee Speaking Club for IT people (Innovecs & Happy Paw)
-description: Weekly English speaking club for IT people at InnoHub; fee goes to Happy Paw animal charity.
+name:
+  uk: Lean Coffee Speaking Club для ІТ-фахівців (Innovecs & Happy Paw)
+  en: Lean Coffee Speaking Club for IT people (Innovecs & Happy Paw)
+description:
+  uk: >-
+    Щотижневий англійський розмовний клуб для ІТ-фахівців в InnoHub; внески йдуть на допомогу
+    тваринам через благодійний фонд Happy Paw.
+  en: Weekly English speaking club for IT people at InnoHub; fee goes to Happy Paw animal charity.
 languages:
   - en
 format: offline
 location:
-  venue: InnoHub (офіс Innovecs)
-  address: бульв. Вацлава Гавела, 6-з
-  note: 13 поверх
+  venue:
+    uk: InnoHub (офіс Innovecs)
+    en: InnoHub (Innovecs office)
+  address:
+    uk: бульв. Вацлава Гавела, 6-з
+    en: 6-Z Vatslava Havela Blvd
+  note:
+    uk: 13 поверх
+    en: 13th floor
   lat: 50.447623
   lon: 30.422971
   geocoded: true
@@ -16,10 +28,14 @@ schedule:
     time: "19:30"
     duration_min: 90
     frequency: weekly
-schedule_note: Every Monday 19:30
+schedule_note:
+  uk: Щопонеділка 19:30
+  en: Every Monday 19:30
 price:
   free: false
-  amount: from 50 грн (charity donation)
+  amount:
+    uk: від 50 грн (благодійний внесок)
+    en: from 50 UAH (charity donation)
 registration: required
 organizer: Innovecs and Happy Paw; mentor Scott Stephenson (English For IT)
 status: unknown
@@ -28,24 +44,3 @@ last_seen: "2021-02-15"
 sources:
   - https://dou.ua/calendar/36262/
   - https://dou.ua/calendar/36469/
-i18n:
-  en:
-    location.address: 6-Z Vatslava Havela Blvd
-    location.venue: InnoHub (Innovecs office)
-    location.note: 13th floor
-    price.amount: from 50 UAH (charity donation)
-  uk:
-    name: Lean Coffee Speaking Club для ІТ-фахівців (Innovecs & Happy Paw)
-    description: >-
-      Щотижневий англійський розмовний клуб для ІТ-фахівців в InnoHub; внески йдуть на допомогу
-      тваринам через благодійний фонд Happy Paw.
-    schedule_note: Щопонеділка 19:30
-    price.amount: від 50 грн (благодійний внесок)
-i18n_src:
-  location.address: "81099309"
-  name: 7a4ae4f8
-  description: 934bf29b
-  schedule_note: 1a955bf3
-  location.venue: 2b30fa20
-  location.note: 8a63cb1a
-  price.amount: 0e6316c2

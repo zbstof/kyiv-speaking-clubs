@@ -1,13 +1,21 @@
 id: espanita
-name: "Espanita: Spanish and Italian conversation clubs"
-description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+name:
+  uk: "Espanita: розмовні клуби іспанської та італійської мов"
+  en: "Espanita: Spanish and Italian conversation clubs"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської мови.
+  en: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
 languages:
   - es
   - it
 format: offline
 location:
-  venue: Espanita
-  address: вул. Басейна, 1/2, оф. 40 (2024); earlier вул. Саксаганського, 29, офіс 5
+  venue:
+    uk: Espanita
+    en: Espanita
+  address:
+    uk: вул. Басейна, 1/2, оф. 40 (2024); раніше — вул. Саксаганського, 29, офіс 5
+    en: 1/2 Baseina St, office 40 (2024); previously 29 Saksahanskoho St, office 5
   lat: 50.44203
   lon: 30.522755
   geocoded: true
@@ -21,38 +29,19 @@ last_seen: "2024-03-05"
 sources:
   - https://osvita.ua/languages/courses/18539/
   - https://www.education.ua/courses/company/5087/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  09.09.2013). No schedule or format given. Phones on card: (063) 812-12-12. education.ua card
-  (updated 2024-03-05, https://www.education.ua/courses/company/5087/) still lists conversation
-  clubs, themed meetings, film screenings; Spanish A1 course 3490 грн/міс. Listed only as a course
-  item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated 09.09.2013). No
-  schedule or format given. Phones on card: (044) 287-21-16.
-i18n:
-  uk:
-    name: "Espanita: розмовні клуби іспанської та італійської мов"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської мови.
-    notes: >-
-      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
-      osvita.ua (картку оновлено 09.09.2013). Розклад і формат не вказані. Телефони в картці: (063)
-      812-12-12. У картці на education.ua (оновлено 2024-03-05,
-      https://www.education.ua/courses/company/5087/) досі зазначені розмовні клуби, тематичні
-      зустрічі, кінопокази; курс іспанської A1 — 3490 грн/міс. Зазначений лише як пункт «Розмовний
-      клуб» у переліку курсів у картці школи в каталозі osvita.ua (картку оновлено 09.09.2013).
-      Розклад і формат не вказані. Телефони в картці: (044) 287-21-16.
-    location.address: вул. Басейна, 1/2, оф. 40 (2024); раніше — вул. Саксаганського, 29, офіс 5
-  en:
-    notes: >-
-      Listed only as a course item "Conversation Club" in the school's osvita.ua catalog card (card
-      updated 09.09.2013). No schedule or format given. Phones on card: (063) 812-12-12.
-      education.ua card (updated 2024-03-05, https://www.education.ua/courses/company/5087/) still
-      lists conversation clubs, themed meetings, film screenings; Spanish A1 course 3490 UAH/month.
-      Listed only as a course item "Conversation Club" in the school's osvita.ua catalog card (card
-      updated 09.09.2013). No schedule or format given. Phones on card: (044) 287-21-16.
-    location.address: 1/2 Baseina St, office 40 (2024); previously 29 Saksahanskoho St, office 5
-i18n_src:
-  name: e3022bdf
-  description: 579e5f8f
-  notes: ca1ebcb1
-  location.venue: 43b4c2a4
-  location.address: 4c2dc6a3
+notes:
+  uk: >-
+    Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі osvita.ua
+    (картку оновлено 09.09.2013). Розклад і формат не вказані. Телефони в картці: (063) 812-12-12. У
+    картці на education.ua (оновлено 2024-03-05, https://www.education.ua/courses/company/5087/)
+    досі зазначені розмовні клуби, тематичні зустрічі, кінопокази; курс іспанської A1 — 3490
+    грн/міс. Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
+    osvita.ua (картку оновлено 09.09.2013). Розклад і формат не вказані. Телефони в картці: (044)
+    287-21-16.
+  en: >-
+    Listed only as a course item "Conversation Club" in the school's osvita.ua catalog card (card
+    updated 09.09.2013). No schedule or format given. Phones on card: (063) 812-12-12. education.ua
+    card (updated 2024-03-05, https://www.education.ua/courses/company/5087/) still lists
+    conversation clubs, themed meetings, film screenings; Spanish A1 course 3490 UAH/month. Listed
+    only as a course item "Conversation Club" in the school's osvita.ua catalog card (card updated
+    09.09.2013). No schedule or format given. Phones on card: (044) 287-21-16.

@@ -1,14 +1,24 @@
 id: komunikatyvnyi-klub-ukrainskoi-movy-mova-dlia-zhyttia
-name: Комунікативний клуб української мови «Мова для життя»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Комунікативний клуб української мови «Мова для життя»
+  en: Ukrainian conversation club "Mova dlia zhyttia"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. М. Костомарова
-  address: вул. Данила Щербаківського, 51-в
+  venue:
+    uk: Бібліотека ім. М. Костомарова
+    en: M. Kostomarov Library
+  address:
+    uk: вул. Данила Щербаківського, 51-в
+    en: 51-V Danyla Shcherbakivskoho St
   lat: 50.475368
   lon: 30.401863
   geocoded: true
@@ -29,30 +39,12 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: also a «Єдині» course at
-  this library.
-i18n:
-  en:
-    location.address: 51-V Danyla Shcherbakivskoho St
-    name: Ukrainian conversation club "Mova dlia zhyttia"
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: also a "Yedyni"
-      course at this library.
-    location.venue: M. Kostomarov Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
-      Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023: у цій
-      бібліотеці також був курс «Єдині».
-i18n_src:
-  location.address: f57698a2
-  name: 1ed290a4
-  description: d15e99c9
-  notes: de9ccd7a
-  location.venue: 043ba7b1
+notes:
+  uk: >-
+    Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023: у цій
+    бібліотеці також був курс «Єдині».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: also a "Yedyni" course
+    at this library.

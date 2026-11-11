@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { clubToYaml } from "../lib/club.mjs";
 import { geocode } from "../lib/geo.mjs";
+import { pick } from "../lib/i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dir = join(root, "data", "clubs");
@@ -19,10 +20,13 @@ let found = 0, missed = [];
 for (const f of files) {
   const club = yaml.load(readFileSync(join(dir, f), "utf8"), { schema: yaml.JSON_SCHEMA });
   const loc = club.location;
-  if (!loc || loc.lat !== undefined || (!loc.address && !loc.venue && !loc.metro) || club.format === "online") continue;
-  const hit = await geocode(loc, { wait: () => sleep(1100) });
+  if (!loc || loc.lat !== undefined || club.format === "online") continue;
+  // Text fields hold { uk, en }; the geocoder gets the Ukrainian text.
+  const plain = { address: pick(loc.address, "uk"), venue: pick(loc.venue, "uk"), metro: pick(loc.metro, "uk") };
+  if (!plain.address && !plain.venue && !plain.metro) continue;
+  const hit = await geocode(plain, { wait: () => sleep(1100) });
   await sleep(1100);
-  if (!hit) { missed.push(`${club.id}: ${loc.address || loc.venue}`); continue; }
+  if (!hit) { missed.push(`${club.id}: ${plain.address || plain.venue}`); continue; }
   club.location = { ...loc, lat: hit.lat, lon: hit.lon, geocoded: true, ...(hit.nearMetro ? { near_metro: true } : {}) };
   writeFileSync(join(dir, f), clubToYaml(club));
   found++;

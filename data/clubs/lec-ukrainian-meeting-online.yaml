@@ -1,6 +1,10 @@
 id: lec-ukrainian-meeting-online
-name: "LEC: Ukrainian meeting (online)"
-description: Онлайн-зустріч для практики української (з англійською як допоміжною).
+name:
+  uk: "LEC: зустріч українською (онлайн)"
+  en: "LEC: Ukrainian meeting (online)"
+description:
+  uk: Онлайн-зустріч для практики української (з англійською як допоміжною).
+  en: An online meeting to practise Ukrainian (with English as a supporting language).
 languages:
   - uk
   - en
@@ -11,7 +15,9 @@ schedule:
     duration_min: 60
     frequency: weekly
     format: online
-schedule_note: Вівторок 20:00–21:00, Google Meet.
+schedule_note:
+  uk: Вівторок 20:00–21:00, Google Meet.
+  en: Tuesday 20:00–21:00, Google Meet.
 price:
   free: true
 contacts:
@@ -20,16 +26,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  uk:
-    name: "LEC: зустріч українською (онлайн)"
-  en:
-    description: An online meeting to practise Ukrainian (with English as a supporting language).
-    schedule_note: Tuesday 20:00–21:00, Google Meet.
-    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
-i18n_src:
-  name: ea9dcbba
-  description: 43b4134c
-  schedule_note: 5bb37f5e
-  notes: 158955cd
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.

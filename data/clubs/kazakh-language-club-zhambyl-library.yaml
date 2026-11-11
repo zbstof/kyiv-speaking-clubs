@@ -1,40 +1,37 @@
 id: kazakh-language-club-zhambyl-library
-name: Kazakh language club at the Zhambyl Zhabayev Public Library
-description: >-
-  Club for studying Kazakh for the Kazakh diaspora in Ukraine: grammar and vocabulary, works of
-  Kazakh thinkers, lectures on Kazakh history, economy and modern life.
+name:
+  uk: Клуб казахської мови в Публічній бібліотеці імені Жамбила Жабаєва
+  en: Kazakh language club at the Zhambyl Zhabayev Public Library
+description:
+  uk: >-
+    Клуб вивчення казахської мови для казахської діаспори в Україні: граматика й лексика, твори
+    казахських мислителів, лекції з історії, економіки та сучасного життя Казахстану.
+  en: >-
+    Club for studying Kazakh for the Kazakh diaspora in Ukraine: grammar and vocabulary, works of
+    Kazakh thinkers, lectures on Kazakh history, economy and modern life.
 languages:
   - kk
 levels:
   - any
 format: offline
 location:
-  venue: Kyiv Public Library named after Zhambyl Zhabayev
+  venue:
+    uk: Київська публічна бібліотека імені Жамбила Жабаєва
+    en: Kyiv Public Library named after Zhambyl Zhabayev
 organizer: Embassy of Kazakhstan in Ukraine (initiator and patron)
 status: unknown
 first_seen: "2017-03-07"
 last_seen: "2017-03-07"
 sources:
   - https://newtimes.kz/obshchestvo/48274-v-kieve-otkrylsya-klub-po-izucheniyu-kazakhskogo-yazyka
-notes: >-
-  More a study club than a pure speaking club. A separate inform.kz article (403, not read) mentions
-  weekly Kazakh classes at the 'Dostyk' cultural centre in central Kyiv:
-  https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Closer to a course than
-  a speaking club.
-i18n:
-  uk:
-    name: Клуб казахської мови в Публічній бібліотеці імені Жамбила Жабаєва
-    description: >-
-      Клуб вивчення казахської мови для казахської діаспори в Україні: граматика й лексика, твори
-      казахських мислителів, лекції з історії, економіки та сучасного життя Казахстану.
-    notes: >-
-      Радше навчальний, ніж суто розмовний клуб. В окремій статті inform.kz (403, не прочитано)
-      згадуються щотижневі заняття з казахської мови в культурному центрі «Достик» у центрі Києва:
-      https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Ближче до курсу,
-      ніж до розмовного клубу.
-    location.venue: Київська публічна бібліотека імені Жамбила Жабаєва
-i18n_src:
-  name: 3e48be28
-  description: e8210527
-  notes: a2b11495
-  location.venue: b5da6754
+notes:
+  uk: >-
+    Радше навчальний, ніж суто розмовний клуб. В окремій статті inform.kz (403, не прочитано)
+    згадуються щотижневі заняття з казахської мови в культурному центрі «Достик» у центрі Києва:
+    https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Ближче до курсу, ніж
+    до розмовного клубу.
+  en: >-
+    More a study club than a pure speaking club. A separate inform.kz article (403, not read)
+    mentions weekly Kazakh classes at the 'Dostyk' cultural centre in central Kyiv:
+    https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Closer to a course
+    than a speaking club.

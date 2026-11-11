@@ -1,13 +1,23 @@
 id: amnesty-international-english-speaking-group
-name: Amnesty International English Speaking Group
-description: English speaking group run by Amnesty International supporters.
+name:
+  uk: Розмовна група англійської мови Amnesty International
+  en: Amnesty International English Speaking Group
+description:
+  uk: Розмовна група англійської мови, яку організовують прихильники Amnesty International.
+  en: English speaking group run by Amnesty International supporters.
 languages:
   - en
 format: offline
 location:
-  venue: German Lutheran Church (Lutheran Church of St. Catherine)
-  address: вул. Лютеранська, 22
-  metro: Хрещатик
+  venue:
+    uk: Німецька лютеранська церква (лютеранська церква Святої Катерини)
+    en: German Lutheran Church (Lutheran Church of St. Catherine)
+  address:
+    uk: вул. Лютеранська, 22
+    en: 22 Liuteranska St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.443847
   lon: 30.526428
   geocoded: true
@@ -15,29 +25,15 @@ schedule:
   - day: tue
     time: "19:00"
     frequency: biweekly
-schedule_note: Every other Tuesday 7 p.m. (2010)
+schedule_note:
+  uk: Раз на два тижні у вівторок о 7 p.m. (2010)
+  en: Every other Tuesday 7 p.m. (2010)
 organizer: Amnesty International (Kyiv group)
 status: unknown
 first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  en:
-    location.address: 22 Liuteranska St
-    location.metro: Khreshchatyk
-  uk:
-    name: Розмовна група англійської мови Amnesty International
-    description: Розмовна група англійської мови, яку організовують прихильники Amnesty International.
-    schedule_note: Раз на два тижні у вівторок о 7 p.m. (2010)
-    notes: Зазначено в рубриці оголошень «Оголошення громади» газети Kyiv Post, 2010-04-08.
-    location.venue: Німецька лютеранська церква (лютеранська церква Святої Катерини)
-i18n_src:
-  location.address: 21efd709
-  location.metro: 9f2c4b77
-  name: f2bca2b5
-  description: 6bb22588
-  schedule_note: "5e390295"
-  notes: 0150c68c
-  location.venue: 9d7d23e9
+notes:
+  uk: Зазначено в рубриці оголошень «Оголошення громади» газети Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

@@ -1,24 +1,21 @@
 id: native-english-speakers-social-group-mark-taylor
-name: Native English speakers social group (Mark Taylor)
-description: Social group with native English speakers for ages 20–30, five days a week at different places.
+name:
+  uk: Група для спілкування з носіями англійської мови (Марк Тейлор)
+  en: Native English speakers social group (Mark Taylor)
+description:
+  uk: >-
+    Група для спілкування з носіями англійської мови для людей віком 20–30 років, п’ять днів на
+    тиждень у різних місцях.
+  en: Social group with native English speakers for ages 20–30, five days a week at different places.
 languages:
   - en
 format: offline
-schedule_note: Five days a week, different locations (2010)
+schedule_note:
+  uk: П’ять днів на тиждень, різні локації (2010)
+  en: Five days a week, different locations (2010)
 organizer: Mark Taylor
 status: unknown
 first_seen: 2010-04
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-i18n:
-  uk:
-    name: Група для спілкування з носіями англійської мови (Марк Тейлор)
-    description: >-
-      Група для спілкування з носіями англійської мови для людей віком 20–30 років, п’ять днів на
-      тиждень у різних місцях.
-    schedule_note: П’ять днів на тиждень, різні локації (2010)
-i18n_src:
-  name: 1bb7c3cb
-  description: 7283bc27
-  schedule_note: "04615250"

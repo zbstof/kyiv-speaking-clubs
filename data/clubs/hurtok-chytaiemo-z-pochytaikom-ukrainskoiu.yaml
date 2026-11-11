@@ -1,14 +1,22 @@
 id: hurtok-chytaiemo-z-pochytaikom-ukrainskoiu
-name: Гурток «Читаємо з Почитайком українською»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Гурток «Читаємо з Почитайком українською»
+  en: "\"Reading in Ukrainian with Pochytaiko\" club"
+description:
+  uk: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека ім. П. Буйка для дітей
-  address: Воскресенський проспект, 15
+  venue:
+    uk: Бібліотека ім. П. Буйка для дітей
+    en: P. Buiko Library for Children
+  address:
+    uk: Воскресенський проспект, 15
+    en: 15 Voskresenskyi Ave
   lat: 50.48235
   lon: 30.593388
   geocoded: true
@@ -23,22 +31,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 15 Voskresenskyi Ave
-    name: "\"Reading in Ukrainian with Pochytaiko\" club"
-    location.venue: P. Buiko Library for Children
-  uk:
-    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: f5240f38
-  name: cdd9e767
-  description: 0402dd7e
-  notes: "80762585"
-  location.venue: e7e6659b
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

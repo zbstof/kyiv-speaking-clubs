@@ -1,16 +1,30 @@
 id: spanish-speaking-club
-name: Spanish speaking club
-description: >-
-  Розмовний клуб іспанської для тих, хто вже знає мову й хоче практикувати. На зустрічі приходять і
-  носії мови. Розмовляють лише іспанською; буває кіноклуб.
+name:
+  uk: Розмовний клуб іспанської
+  en: Spanish speaking club
+description:
+  uk: >-
+    Розмовний клуб іспанської для тих, хто вже знає мову й хоче практикувати. На зустрічі приходять
+    і носії мови. Розмовляють лише іспанською; буває кіноклуб.
+  en: >-
+    A Spanish speaking club for those who already know the language and want to practise. Native
+    speakers also attend. Only Spanish is spoken; there are occasional film club sessions.
 languages:
   - es
 format: offline
 location:
-  venue: Пузата Хата
-  address: вул. Хрещатик, 15/4-А
-  metro: Хрещатик
-  note: Поруч зі станцією метро «Хрещатик»
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Хрещатик, 15/4-А
+    en: 15/4-A Khreshchatyk St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
+  note:
+    uk: Поруч зі станцією метро «Хрещатик»
+    en: Near "Khreshchatyk" metro station
   lat: 50.447379
   lon: 30.525838
   geocoded: true
@@ -23,52 +37,34 @@ schedule:
     time: "19:00"
     frequency: weekly
     format: offline
-schedule_note: >-
-  Вівторок 19:00 — Пузата Хата на Хрещатику. Субота 19:00 — місце змінюється (останнім часом «Rumi»,
-  Бессарабська площа, 9, або Hearth of Svitoria), дивіться анонс у групі. Неділя в Buena Vista —
-  лише за домовленістю в чаті.
+schedule_note:
+  uk: >-
+    Вівторок 19:00 — Пузата Хата на Хрещатику. Субота 19:00 — місце змінюється (останнім часом
+    «Rumi», Бессарабська площа, 9, або Hearth of Svitoria), дивіться анонс у групі. Неділя в Buena
+    Vista — лише за домовленістю в чаті.
+  en: >-
+    Tuesday 19:00 — Puzata Khata on Khreshchatyk. Saturday 19:00 — the venue varies (recently
+    "Rumi", 9 Bessarabska Square, or Hearth of Svitoria); check the announcement in the group.
+    Sunday at Buena Vista — only by arrangement in the chat.
 price:
   free: true
 registration: none
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в учасників
+    note:
+      uk: Закрита група; запрошення в учасників
+      en: Private group; invitations available from members
     members: 1185
     members_checked: "2026-11-10"
 status: active
 first_seen: 2023-10
 last_seen: "2026-11-10"
-notes: >-
-  Telegram-група клубу, прочитано 10.11.2026. Розклад перевірено за анонсами жовтня–листопада 2026.
-  Від початку — переважно Пузата Хата; у 2023–2024 також «Циферблат» і Buena Vista.
-i18n:
-  en:
-    location.address: 15/4-A Khreshchatyk St
-    location.metro: Khreshchatyk
-    description: >-
-      A Spanish speaking club for those who already know the language and want to practise. Native
-      speakers also attend. Only Spanish is spoken; there are occasional film club sessions.
-    schedule_note: >-
-      Tuesday 19:00 — Puzata Khata on Khreshchatyk. Saturday 19:00 — the venue varies (recently
-      "Rumi", 9 Bessarabska Square, or Hearth of Svitoria); check the announcement in the group.
-      Sunday at Buena Vista — only by arrangement in the chat.
-    location.venue: Puzata Khata
-    location.note: Near "Khreshchatyk" metro station
-    contacts.0.note: Private group; invitations available from members
-    notes: >-
-      Club Telegram group, read on 10.11.2026. Schedule checked against October–November 2026
-      announcements. From the start — mostly Puzata Khata; in 2023–2024 also "Tsyferblat" and Buena
-      Vista.
-  uk:
-    name: Розмовний клуб іспанської
-i18n_src:
-  location.address: 74b8437e
-  location.metro: 9f2c4b77
-  name: 235893d9
-  description: 3cc8318e
-  schedule_note: e548b367
-  location.venue: be30a852
-  location.note: 953aee76
-  contacts.0.note: 836a931f
-  notes: d97f2c80
+notes:
+  uk: >-
+    Telegram-група клубу, прочитано 10.11.2026. Розклад перевірено за анонсами жовтня–листопада
+    2026. Від початку — переважно Пузата Хата; у 2023–2024 також «Циферблат» і Buena Vista.
+  en: >-
+    Club Telegram group, read on 10.11.2026. Schedule checked against October–November 2026
+    announcements. From the start — mostly Puzata Khata; in 2023–2024 also "Tsyferblat" and Buena
+    Vista.

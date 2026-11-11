@@ -1,21 +1,37 @@
 id: widerstrahl-german-culture-centre
-name: Widerstrahl German Culture Centre speaking clubs (ЦНК «Widerstrahl»)
-description: >-
-  German culture centre of Kyiv ethnic Germans; runs German conversation clubs for children, an
-  adult discussion club by level, video clubs, guide-interpreter club; led by native speakers.
-  Includes German study club 'August'.
+name:
+  uk: Розмовні клуби Центру німецької культури «Widerstrahl» (ЦНК «Widerstrahl»)
+  en: Widerstrahl German Culture Centre speaking clubs (GCC "Widerstrahl")
+description:
+  uk: >-
+    Центр німецької культури київських етнічних німців; проводить розмовні клуби німецької мови для
+    дітей, дискусійний клуб для дорослих за рівнями, відеоклуби, клуб гідів-перекладачів; заняття
+    ведуть носії мови. Також діє клуб вивчення німецької мови «August».
+  en: >-
+    German culture centre of Kyiv ethnic Germans; runs German conversation clubs for children, an
+    adult discussion club by level, video clubs, guide-interpreter club; led by native speakers.
+    Includes German study club 'August'.
 languages:
   - de
 format: offline
 location:
-  venue: Німецький Дім Київ — ЦНК «Відерштраль»
-  address: вул. Володимирська, 37
+  venue:
+    uk: Німецький Дім Київ — ЦНК «Відерштраль»
+    en: German House Kyiv — German Culture Centre "Widerstrahl"
+  address:
+    uk: вул. Володимирська, 37
+    en: 37 Volodymyrska St
   lat: 50.449829
   lon: 30.515313
   geocoded: true
-schedule_note: >-
-  Розклад клубу не опубліковано. На сайті клуб розмовної практики для дітей, підлітків і дорослих
-  згадано без дат. Деталі — в адміністрації: (097) 346-10-43.
+schedule_note:
+  uk: >-
+    Розклад клубу не опубліковано. На сайті клуб розмовної практики для дітей, підлітків і дорослих
+    згадано без дат. Деталі — в адміністрації: (097) 346-10-43.
+  en: >-
+    The club schedule has not been published. The website mentions a conversation practice club for
+    children, teenagers and adults without dates. For details, contact the administration: (097)
+    346-10-43.
 contacts:
   - type: website
     url: http://www.widerstrahl.org
@@ -39,47 +55,19 @@ sources:
   - https://osvita.ua/languages/speak_club/
   - https://osvita.ua/languages/courses/8863/
   - https://www.education.ua/courses/company/2484/
-notes: >-
-  Website (checked 2026-11) lists 'клуб розмовної практики для дітей, підлітків, дорослих'; latest
-  site news 2026-10-23. No club schedule on site. Second osvita card (updated 2013-08-21,
-  https://osvita.ua/languages/courses/8863/) lists: conversation club for children, discussion club
-  for adults by level, video clubs, guide-interpreter club. The centre now trades as Deutsches
-  Haus-Kyjiw (education.ua card updated 2026-08-26 lists courses, no club). Phone is the centre's
-  public office line.
-i18n:
-  en:
-    location.address: 37 Volodymyrska St
-    name: Widerstrahl German Culture Centre speaking clubs (GCC "Widerstrahl")
-    schedule_note: >-
-      The club schedule has not been published. The website mentions a conversation practice club
-      for children, teenagers and adults without dates. For details, contact the administration:
-      (097) 346-10-43.
-    notes: >-
-      Website (checked 2026-11) lists a "conversation practice club for children, teenagers and
-      adults"; latest site news 2026-10-23. No club schedule on site. Second osvita card (updated
-      2013-08-21, https://osvita.ua/languages/courses/8863/) lists: conversation club for children,
-      discussion club for adults by level, video clubs, guide-interpreter club. The centre now
-      trades as Deutsches Haus-Kyjiw (education.ua card updated 2026-08-26 lists courses, no club).
-      Phone is the centre's public office line.
-    location.venue: German House Kyiv — German Culture Centre "Widerstrahl"
-  uk:
-    name: Розмовні клуби Центру німецької культури «Widerstrahl» (ЦНК «Widerstrahl»)
-    description: >-
-      Центр німецької культури київських етнічних німців; проводить розмовні клуби німецької мови
-      для дітей, дискусійний клуб для дорослих за рівнями, відеоклуби, клуб гідів-перекладачів;
-      заняття ведуть носії мови. Також діє клуб вивчення німецької мови «August».
-    notes: >-
-      На сайті (перевірено 2026-11) зазначено «клуб розмовної практики для дітей, підлітків,
-      дорослих»; остання новина на сайті — 2026-10-23. Розкладу клубу на сайті немає. Друга картка
-      на osvita (оновлена 2013-08-21, https://osvita.ua/languages/courses/8863/) містить перелік:
-      розмовний клуб для дітей, дискусійний клуб для дорослих за рівнями, відеоклуби, клуб
-      гідів-перекладачів. Зараз центр працює під назвою Deutsches Haus-Kyjiw (картка на
-      education.ua, оновлена 2026-08-26, містить курси, але не клуб). Телефон — загальнодоступний
-      номер адміністрації центру.
-i18n_src:
-  location.address: 82cc0265
-  name: "9933e233"
-  description: 6cd53835
-  schedule_note: b5fb731e
-  notes: 5d785023
-  location.venue: 9d3aa673
+notes:
+  uk: >-
+    На сайті (перевірено 2026-11) зазначено «клуб розмовної практики для дітей, підлітків,
+    дорослих»; остання новина на сайті — 2026-10-23. Розкладу клубу на сайті немає. Друга картка на
+    osvita (оновлена 2013-08-21, https://osvita.ua/languages/courses/8863/) містить перелік:
+    розмовний клуб для дітей, дискусійний клуб для дорослих за рівнями, відеоклуби, клуб
+    гідів-перекладачів. Зараз центр працює під назвою Deutsches Haus-Kyjiw (картка на education.ua,
+    оновлена 2026-08-26, містить курси, але не клуб). Телефон — загальнодоступний номер
+    адміністрації центру.
+  en: >-
+    Website (checked 2026-11) lists a "conversation practice club for children, teenagers and
+    adults"; latest site news 2026-10-23. No club schedule on site. Second osvita card (updated
+    2013-08-21, https://osvita.ua/languages/courses/8863/) lists: conversation club for children,
+    discussion club for adults by level, video clubs, guide-interpreter club. The centre now trades
+    as Deutsches Haus-Kyjiw (education.ua card updated 2026-08-26 lists courses, no club). Phone is
+    the centre's public office line.

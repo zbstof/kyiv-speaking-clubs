@@ -1,14 +1,28 @@
 id: arttalkers-toastmasters-club
-name: ArtTalkers Toastmasters Club
-description: Toastmasters club (#00891042) for public speaking, communication, English and creative skills.
+name:
+  uk: ArtTalkers Toastmasters Club
+  en: ArtTalkers Toastmasters Club
+description:
+  uk: >-
+    Клуб Toastmasters (#00891042) для розвитку навичок публічних виступів, спілкування, англійської
+    мови та творчості.
+  en: Toastmasters club (#00891042) for public speaking, communication, English and creative skills.
 languages:
   - en
 format: offline
 location:
-  venue: X-Lounge
-  address: вул. Петра Сагайдачного, 31
-  metro: Поштова площа
-  note: 2 поверх
+  venue:
+    uk: X-Lounge
+    en: X-Lounge
+  address:
+    uk: вул. Петра Сагайдачного, 31
+    en: 31 Petra Sahaidachnoho St
+  metro:
+    uk: Поштова площа
+    en: Poshtova Ploshcha
+  note:
+    uk: 2 поверх
+    en: 2nd floor
   lat: 50.461318
   lon: 30.520958
   geocoded: true
@@ -18,12 +32,19 @@ schedule:
     duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: >-
-  Щосуботи о 12:00–14:00 наживо, після 14:00 охочі лишаються на обід. Гостям безкоштовно, реєстрація
-  не потрібна. На Meetup публікують не всі зустрічі, анонси є в Telegram-чаті.
+schedule_note:
+  uk: >-
+    Щосуботи о 12:00–14:00 наживо, після 14:00 охочі залишаються на обід. Для гостей безкоштовно,
+    реєстрація не потрібна. На Meetup публікують не всі зустрічі, анонси є в Telegram-чаті.
+  en: >-
+    In person every Saturday at 12:00–14:00; after 14:00, those who wish stay for lunch. Free for
+    guests, no registration required. Not all meetings are posted on Meetup; announcements are in
+    the Telegram chat.
 price:
   free: true
-  amount: гостям безкоштовно; членство $60 за 6 міс. + $25 вступний внесок
+  amount:
+    uk: гостям безкоштовно; членство $60 за 6 міс. + $25 вступний внесок
+    en: free for guests; membership $60 for 6 months + $25 joining fee
 registration: none
 contacts:
   - type: website
@@ -53,46 +74,15 @@ sources:
   - https://arttalkers.my.canva.site/
   - https://t.me/ArtTalkersFriends
   - https://www.meetup.com/arttalkers-toastmasters-club/events/317202769/
-notes: >-
-  English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters page
-  (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday matches
-  2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct 31 (2026 by
-  weekday). У 2023 зустрічалися в просторі Vrebro.
-i18n:
-  en:
-    location.address: 31 Petra Sahaidachnoho St
-    location.metro: Poshtova Ploshcha
-    schedule_note: >-
-      In person every Saturday at 12:00–14:00; after 14:00, those who wish stay for lunch. Free for
-      guests, no registration required. Not all meetings are posted on Meetup; announcements are in
-      the Telegram chat.
-    notes: >-
-      English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters
-      page (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday
-      matches 2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct
-      31 (2026 by weekday). In 2023, meetings were held at the Vrebro space.
-    location.note: 2nd floor
-    price.amount: free for guests; membership $60 for 6 months + $25 joining fee
-  uk:
-    description: >-
-      Клуб Toastmasters (#00891042) для розвитку навичок публічних виступів, спілкування,
-      англійської мови та творчості.
-    schedule_note: >-
-      Щосуботи о 12:00–14:00 наживо, після 14:00 охочі залишаються на обід. Для гостей безкоштовно,
-      реєстрація не потрібна. На Meetup публікують не всі зустрічі, анонси є в Telegram-чаті.
-    notes: >-
-      Англомовний (Meetup). Дата заснування — 2006-11-17, за пошуковим фрагментом сторінки
-      Toastmasters (не перевірено). Meetup: 116 учасників, 65 минулих подій; остання помічена — Sat
-      Oct 31 (день тижня відповідає 2026 року). Згаданий у переліку спільнот Kyiv Post від
-      2010-04-08. Остання подія на Meetup — Sat Oct 31 (2026 рік за днем тижня). У 2023 зустрічалися
-      в просторі Vrebro.
-i18n_src:
-  location.address: 2ba9f8b7
-  location.metro: "12217794"
-  name: 4c233f52
-  description: 0c6bb59f
-  schedule_note: fecd6347
-  notes: 93d2c0da
-  location.venue: c2ac423c
-  location.note: a5c75482
-  price.amount: "94536026"
+notes:
+  uk: >-
+    Англомовний (Meetup). Дата заснування — 2006-11-17, за пошуковим фрагментом сторінки
+    Toastmasters (не перевірено). Meetup: 116 учасників, 65 минулих подій; остання помічена — Sat
+    Oct 31 (день тижня відповідає 2026 року). Згаданий у переліку спільнот Kyiv Post від 2010-04-08.
+    Остання подія на Meetup — Sat Oct 31 (2026 рік за днем тижня). У 2023 зустрічалися в просторі
+    Vrebro.
+  en: >-
+    English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters
+    page (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday
+    matches 2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct 31
+    (2026 by weekday). In 2023, meetings were held at the Vrebro space.

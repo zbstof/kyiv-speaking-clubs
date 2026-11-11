@@ -1,14 +1,22 @@
 id: hutirka-klub-biblioteka-na-priortsi-dlia-ditei
-name: «Гутірка - клуб» (бібліотека на Пріорці для дітей)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: «Гутірка - клуб» (бібліотека на Пріорці для дітей)
+  en: "\"Hutirka - klub\" (Children's Library in Priorka)"
+description:
+  uk: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека на Пріорці для дітей
-  address: вул. Вишгородська, 38
+  venue:
+    uk: Бібліотека на Пріорці для дітей
+    en: Children's Library in Priorka
+  address:
+    uk: вул. Вишгородська, 38
+    en: 38 Vyshhorodska St
   lat: 50.510789
   lon: 30.450993
   geocoded: true
@@ -20,22 +28,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 38 Vyshhorodska St
-    name: "\"Hutirka - klub\" (Children's Library in Priorka)"
-    location.venue: Children's Library in Priorka
-  uk:
-    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Зазначений у переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках
-      не вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: e50699c1
-  name: 5c5afb10
-  description: 0402dd7e
-  notes: "80762585"
-  location.venue: 53fb4122
+notes:
+  uk: >-
+    Зазначений у переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках не
+    вказано часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

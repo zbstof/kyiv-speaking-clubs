@@ -1,15 +1,27 @@
 id: startit-speaking-club
-name: StartIT. Speaking Club
-description: >-
-  English speaking evenings for IT people at StartIT training center; topics set in advance, teams
-  rotate; moderated by a mentor.
+name:
+  uk: StartIT. Speaking Club
+  en: StartIT. Speaking Club
+description:
+  uk: >-
+    Англомовні розмовні вечори для ІТ-фахівців у навчальному центрі StartIT; теми визначають
+    заздалегідь, склад команд змінюється; модерує ментор.
+  en: >-
+    English speaking evenings for IT people at StartIT training center; topics set in advance, teams
+    rotate; moderated by a mentor.
 languages:
   - en
 format: offline
 location:
-  venue: StartIT training center
-  address: вул. Шота Руставелі, 40/10
-  metro: Палац Спорту
+  venue:
+    uk: Навчальний центр StartIT
+    en: StartIT training center
+  address:
+    uk: вул. Шота Руставелі, 40/10
+    en: 40/10 Shota Rustaveli St
+  metro:
+    uk: Палац Спорту
+    en: Palats Sportu
   lat: 50.438289
   lon: 30.520869
   geocoded: true
@@ -19,10 +31,16 @@ schedule:
     time: "19:00"
     duration_min: 120
     frequency: irregular
-schedule_note: "Numbered meetups #1–#10, roughly monthly; e.g. Fri 2016-07-01 19:00–21:00, Wed 2017-04-26 19:00"
+schedule_note:
+  uk: >-
+    Нумеровані зустрічі #1–#10, приблизно щомісяця; наприклад, пт 2016-07-01 19:00–21:00, ср
+    2017-04-26 19:00
+  en: "Numbered meetups #1–#10, roughly monthly; e.g. Fri 2016-07-01 19:00–21:00, Wed 2017-04-26 19:00"
 price:
   free: false
-  amount: 100 грн (2016), 50–70 грн (2017); free for StartIT students
+  amount:
+    uk: 100 грн (2016), 50–70 грн (2017); безкоштовно для студентів StartIT
+    en: 100 UAH (2016), 50–70 UAH (2017); free for StartIT students
 registration: required
 contacts:
   - type: website
@@ -42,25 +60,3 @@ sources:
   - https://dou.ua/calendar/15977/
   - https://dou.ua/calendar/16626/
   - https://dou.ua/calendar/17422/
-i18n:
-  en:
-    location.address: 40/10 Shota Rustaveli St
-    location.metro: Palats Sportu
-    price.amount: 100 UAH (2016), 50–70 UAH (2017); free for StartIT students
-  uk:
-    description: >-
-      Англомовні розмовні вечори для ІТ-фахівців у навчальному центрі StartIT; теми визначають
-      заздалегідь, склад команд змінюється; модерує ментор.
-    schedule_note: >-
-      Нумеровані зустрічі #1–#10, приблизно щомісяця; наприклад, пт 2016-07-01 19:00–21:00, ср
-      2017-04-26 19:00
-    location.venue: Навчальний центр StartIT
-    price.amount: 100 грн (2016), 50–70 грн (2017); безкоштовно для студентів StartIT
-i18n_src:
-  location.address: 9f0532df
-  location.metro: 118fc088
-  name: 86c06a7e
-  description: df83904a
-  schedule_note: f6135ea7
-  location.venue: 81b7acbd
-  price.amount: 77744f25

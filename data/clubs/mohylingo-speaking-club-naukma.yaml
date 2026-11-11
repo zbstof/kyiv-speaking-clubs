@@ -1,12 +1,20 @@
 id: mohylingo-speaking-club-naukma
-name: MohyLingo Speaking Club (NaUKMA)
-description: >-
-  Speaking club run by the MohyLingo student initiative at Kyiv-Mohyla Academy, announced via the
-  American Library.
+name:
+  uk: MohyLingo Speaking Club (НаУКМА)
+  en: MohyLingo Speaking Club (NaUKMA)
+description:
+  uk: >-
+    Розмовний клуб студентської ініціативи MohyLingo в Києво-Могилянській академії, анонсований
+    через Американську бібліотеку.
+  en: >-
+    Speaking club run by the MohyLingo student initiative at Kyiv-Mohyla Academy, announced via the
+    American Library.
 languages:
   - en
 format: online
-schedule_note: e.g. 21 May, 18:00, topic 'Migration. All aspects' (year likely 2023)
+schedule_note:
+  uk: Наприклад, 21 May, 18:00, тема «Міграція. Усі аспекти» (імовірно, 2023 рік)
+  en: e.g. 21 May, 18:00, topic 'Migration. All aspects' (year likely 2023)
 price:
   free: true
 registration: required
@@ -22,21 +30,10 @@ sources:
   - https://al.ukma.edu.ua/news
   - >-
     https://docs.google.com/forms/d/e/1FAIpQLSdAIz-C5rp7-t1qb9dEQIxubKE7Dz2eZHONEVLj3Fw48LR5xA/viewform
-notes: >-
-  Year not stated on news item; also an undated session 'Connecting Sports and Personal Growth',
-  Monday 16:00.
-i18n:
-  uk:
-    name: MohyLingo Speaking Club (НаУКМА)
-    description: >-
-      Розмовний клуб студентської ініціативи MohyLingo в Києво-Могилянській академії, анонсований
-      через Американську бібліотеку.
-    schedule_note: Наприклад, 21 May, 18:00, тема «Міграція. Усі аспекти» (імовірно, 2023 рік)
-    notes: >-
-      Рік у новині не зазначено; також є зустріч без дати «Зв’язок спорту й особистісного
-      зростання», понеділок, 16:00.
-i18n_src:
-  name: "15403e89"
-  description: 827e76e9
-  schedule_note: dcb951f8
-  notes: "70672e29"
+notes:
+  uk: >-
+    Рік у новині не зазначено; також є зустріч без дати «Зв’язок спорту й особистісного зростання»,
+    понеділок, 16:00.
+  en: >-
+    Year not stated on news item; also an undated session 'Connecting Sports and Personal Growth',
+    Monday 16:00.

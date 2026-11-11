@@ -1,14 +1,24 @@
 id: chamber-toastmasters-club
-name: CHAMBER Toastmasters Club
-description: >-
-  Toastmasters International club (#00007226), English-language public speaking and leadership.
-  Started under the American Chamber of Commerce.
+name:
+  uk: CHAMBER Toastmasters Club
+  en: CHAMBER Toastmasters Club
+description:
+  uk: >-
+    Клуб Toastmasters International (#00007226): ораторське мистецтво та лідерство англійською.
+    Заснований при Американській торговельній палаті.
+  en: >-
+    Toastmasters International club (#00007226), English-language public speaking and leadership.
+    Started under the American Chamber of Commerce.
 languages:
   - en
 format: hybrid
 location:
-  venue: "Online (earlier: Microsoft Ukraine office, BC Eurasia; EPAM office)"
-  address: вул. Жилянська, 75 (2010); вул. Кудряшова, 14б (2012)
+  venue:
+    uk: "Онлайн (раніше: офіс Microsoft в Україні, БЦ «Євразія»; офіс EPAM)"
+    en: "Online (earlier: Microsoft Ukraine office, BC Eurasia; EPAM office)"
+  address:
+    uk: вул. Жилянська, 75 (2010); вул. Кудряшова, 14б (2012)
+    en: 75 Zhylianska St (2010); 14b Kudriashova St (2012)
   lat: 50.439005
   lon: 30.498697
   geocoded: true
@@ -16,7 +26,9 @@ schedule:
   - day: wed
     time: "19:15"
     frequency: weekly
-schedule_note: Wednesdays 7:15 p.m. (Toastmasters listing); Wednesdays 7:30 p.m. in 2010
+schedule_note:
+  uk: Щосереди о 7:15 p.m. (за даними каталогу Toastmasters); щосереди о 7:30 p.m. у 2010 році
+  en: Wednesdays 7:15 p.m. (Toastmasters listing); Wednesdays 7:30 p.m. in 2010
 registration: none
 contacts:
   - type: website
@@ -36,27 +48,12 @@ sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
   - https://dou.ua/calendar/1423/
   - https://t.me/s/ChamberToastmastersKyivEnglish
-notes: >-
-  Chartered 1999-09-01. In 2012 met weekly at EPAM office. Telegram channel says 392 members (90
-  online). No dated 2026 meeting seen; status based on the live Toastmasters listing. Website
-  returned 403.
-i18n:
-  uk:
-    description: >-
-      Клуб Toastmasters International (#00007226): ораторське мистецтво та лідерство англійською.
-      Заснований при Американській торговельній палаті.
-    schedule_note: Щосереди о 7:15 p.m. (за даними каталогу Toastmasters); щосереди о 7:30 p.m. у 2010 році
-    notes: >-
-      Офіційно зареєстрований 1999-09-01. У 2012 році зустрічі відбувалися щотижня в офісі EPAM. У
-      Telegram-каналі вказано 392 учасники (90 онлайн). Не знайдено зустрічей із датами у 2026 році;
-      статус визначено за чинним записом у каталозі Toastmasters. Сайт повернув помилку 403.
-    location.venue: "Онлайн (раніше: офіс Microsoft в Україні, БЦ «Євразія»; офіс EPAM)"
-  en:
-    location.address: 75 Zhylianska St (2010); 14b Kudriashova St (2012)
-i18n_src:
-  name: e6d2e913
-  description: f13b416e
-  schedule_note: d77b9b4a
-  notes: 31d3e91c
-  location.venue: 9ad25119
-  location.address: 22da4991
+notes:
+  uk: >-
+    Офіційно зареєстрований 1999-09-01. У 2012 році зустрічі відбувалися щотижня в офісі EPAM. У
+    Telegram-каналі вказано 392 учасники (90 онлайн). Не знайдено зустрічей із датами у 2026 році;
+    статус визначено за чинним записом у каталозі Toastmasters. Сайт повернув помилку 403.
+  en: >-
+    Chartered 1999-09-01. In 2012 met weekly at EPAM office. Telegram channel says 392 members (90
+    online). No dated 2026 meeting seen; status based on the live Toastmasters listing. Website
+    returned 403.

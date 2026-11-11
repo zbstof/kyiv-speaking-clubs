@@ -1,13 +1,23 @@
 id: polish-speaking-club-khreshchatyk
-name: Розмовний клуб польської
-description: Безкоштовний клуб польської мови.
+name:
+  uk: Розмовний клуб польської
+  en: Polish speaking club
+description:
+  uk: Безкоштовний клуб польської мови.
+  en: Free Polish language club.
 languages:
   - pl
 format: offline
 location:
-  venue: Пузата Хата
-  address: вул. Хрещатик, 15/4-А
-  metro: Хрещатик
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Хрещатик, 15/4-А
+    en: 15/4-A Khreshchatyk St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.447379
   lon: 30.525838
   geocoded: true
@@ -17,35 +27,20 @@ schedule:
     duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: Пʼятниця 19:00–21:00 (за анонсом червня 2025).
+schedule_note:
+  uk: Пʼятниця 19:00–21:00 (за анонсом червня 2025).
+  en: Friday 19:00–21:00 (according to the June 2025 announcement).
 price:
   free: true
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в учасників
+    note:
+      uk: Закрита група; запрошення в учасників
+      en: Private group; invitations available from members
 status: unknown
 first_seen: 2025-06
 last_seen: "2025-06-23"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.address: 15/4-A Khreshchatyk St
-    location.metro: Khreshchatyk
-    name: Polish speaking club
-    description: Free Polish language club.
-    schedule_note: Friday 19:00–21:00 (according to the June 2025 announcement).
-    notes: Based on the chat history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
-    location.venue: Puzata Khata
-    contacts.0.note: Private group; invitations available from members
-  uk:
-    notes: За історією Telegram-груп київських клубів (переглянуто 10.11.2026).
-i18n_src:
-  location.address: 74b8437e
-  location.metro: 9f2c4b77
-  name: 7118a626
-  description: 93aaf0a4
-  schedule_note: fa08f263
-  notes: dd841777
-  location.venue: be30a852
-  contacts.0.note: 836a931f
+notes:
+  uk: За історією Telegram-груп київських клубів (переглянуто 10.11.2026).
+  en: Based on the chat history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).

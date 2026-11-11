@@ -1,7 +1,11 @@
-// Fills missing or outdated translations for all clubs (or the given ids).
-//   OPENAI_API_KEY=... node scripts/translate.mjs [--force] [id...]
+// Fills the missing language of every text field, and redoes the other language where only one changed.
+//   node scripts/translate.mjs                  # compare with the last commit (HEAD): your uncommitted edits
+//   node scripts/translate.mjs --since main~3   # compare with an older commit, e.g. after editing on GitHub
+//   node scripts/translate.mjs [--since ref] id1 id2
 // Reads OPENAI_API_KEY and OPENAI_MODEL from .env when they are not in the environment.
+// Metro names and plain Ukrainian street addresses need no key: fixed transliteration rules.
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
@@ -13,22 +17,28 @@ if (existsSync(join(root, ".env"))) for (const line of readFileSync(join(root, "
   const m = line.match(/^([A-Z_]+)=(.*)$/); if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
 }
 const apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL || DEFAULT_MODEL;
-if (!apiKey) { console.error("OPENAI_API_KEY is not set"); process.exit(1); }
 
+const args = process.argv.slice(2);
+const sinceAt = args.indexOf("--since");
+const since = sinceAt >= 0 ? args.splice(sinceAt, 2)[1] : "HEAD";
 const dir = join(root, "data", "clubs");
-const force = process.argv.includes("--force");   // re-translate even if translations look current
-const ids = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-const files = ids.length ? ids.map((id) => `${id}.yaml`) : readdirSync(dir).filter((f) => f.endsWith(".yaml"));
-const todo = files.map((f) => ({ f, club: yaml.load(readFileSync(join(dir, f), "utf8"), { schema: yaml.JSON_SCHEMA }) }))
-  .map((j) => { if (force) { delete j.club.i18n; delete j.club.i18n_src; } return j; })
-  .filter(({ club }) => pending(club).length);
-console.log(`${todo.length} clubs need translations (model ${model})`);
+const files = args.length ? args.map((id) => `${id}.yaml`) : readdirSync(dir).filter((f) => f.endsWith(".yaml"));
+const load = (text) => yaml.load(text, { schema: yaml.JSON_SCHEMA });
+// The same file at `since`, or null if it did not exist then.
+const before = (f) => {
+  try { return load(execFileSync("git", ["show", `${since}:data/clubs/${f}`], { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })); }
+  catch { return null; }
+};
+
+const todo = files.map((f) => ({ f, club: load(readFileSync(join(dir, f), "utf8")), old: before(f) }))
+  .filter((j) => pending(j.club, j.old).length);
+console.log(`${todo.length} clubs need translations (compared with ${since}; model ${model})`);
 
 let done = 0, strings = 0, failed = 0;
 const worker = async () => {
   for (let job; (job = todo.shift()); ) {
     try {
-      const n = await translateClub(job.club, { apiKey, model });
+      const n = await translateClub(job.club, { apiKey, model, old: job.old });
       strings += n;
       writeFileSync(join(dir, job.f), clubToYaml(job.club));
     } catch (e) { failed++; console.error(`${job.f}: ${e.message}`); }

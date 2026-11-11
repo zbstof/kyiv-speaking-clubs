@@ -1,15 +1,27 @@
 id: dnipro-hills-toastmasters-club
-name: Dnipro Hills Toastmasters Club
-description: >-
-  English public speaking and leadership club, part of Toastmasters International; founded August
-  2002.
+name:
+  uk: Dnipro Hills Toastmasters Club
+  en: Dnipro Hills Toastmasters Club
+description:
+  uk: >-
+    Англомовний клуб ораторського мистецтва та лідерства, що входить до Toastmasters International;
+    дата заснування — August 2002.
+  en: >-
+    English public speaking and leadership club, part of Toastmasters International; founded August
+    2002.
 languages:
   - en
 format: hybrid
 location:
-  venue: X-Lounge (колишній TIKE)
-  address: вул. Петра Сагайдачного, 31
-  metro: Поштова площа
+  venue:
+    uk: X-Lounge (колишній TIKE)
+    en: X-Lounge (formerly TIKE)
+  address:
+    uk: вул. Петра Сагайдачного, 31
+    en: 31 Petra Sahaidachnoho St
+  metro:
+    uk: Поштова площа
+    en: Poshtova Ploshcha
   lat: 50.461318
   lon: 30.520958
   geocoded: true
@@ -19,13 +31,20 @@ schedule:
     duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: >-
-  Щонеділі о 12:00–14:00, потім неформальне спілкування. Зазвичай наживо в ресторані X-Lounge; за
-  словами клубу, приблизно раз на місяць зустріч онлайн або змішана (Zoom). Гостям безкоштовно, клуб
-  просить замовити напій чи їжу в ресторані.
+schedule_note:
+  uk: >-
+    Щонеділі о 12:00–14:00, потім неформальне спілкування. Зазвичай наживо в ресторані X-Lounge; за
+    словами клубу, приблизно раз на місяць зустріч онлайн або змішана (Zoom). Гостям безкоштовно,
+    клуб просить замовити напій чи їжу в ресторані.
+  en: >-
+    Every Sunday at 12:00–14:00, followed by informal socializing. Usually in person at X-Lounge
+    restaurant; according to the club, about once a month the meeting is online or hybrid (Zoom).
+    Free for guests; the club asks attendees to order a drink or food at the restaurant.
 price:
   free: true
-  amount: гостям безкоштовно; членство $25 вступний + $72 і $15 клубний за 6 міс.
+  amount:
+    uk: гостям безкоштовно; членство $25 вступний + $72 і $15 клубний за 6 міс.
+    en: "free for guests; membership: $25 joining fee + $72 and a $15 club fee per 6 months."
 registration: optional
 contacts:
   - type: meetup
@@ -36,7 +55,9 @@ contacts:
     url: https://www.facebook.com/DniproHillsToastmastersPage/
   - type: telegram
     access: on_request
-    note: Запрошення в організатора
+    note:
+      uk: Запрошення в організатора
+      en: Invitation available from the organizer
   - type: website
     url: https://www.dniprohills.org.ua/
   - type: instagram
@@ -54,42 +75,14 @@ sources:
   - https://www.dniprohills.org.ua/
   - https://www.dniprohills.org.ua/become-a-member
   - https://www.meetup.com/welcome-to-dnipro-hills-toastmasters-club/events/316448649/
-notes: >-
-  Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events, upcoming
-  Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193 Meetup members.
-  Upcoming events listed to Sun Dec 6 (2026). У 2023 — онлайн/гібрид/наживо у Vrebro.
-i18n:
-  en:
-    location.address: 31 Petra Sahaidachnoho St
-    location.metro: Poshtova Ploshcha
-    schedule_note: >-
-      Every Sunday at 12:00–14:00, followed by informal socializing. Usually in person at X-Lounge
-      restaurant; according to the club, about once a month the meeting is online or hybrid (Zoom).
-      Free for guests; the club asks attendees to order a drink or food at the restaurant.
-    notes: >-
-      Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events,
-      upcoming Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193
-      Meetup members. Upcoming events listed to Sun Dec 6 (2026). In 2023 — online/hybrid/in person
-      at Vrebro.
-    location.venue: X-Lounge (formerly TIKE)
-    price.amount: "free for guests; membership: $25 joining fee + $72 and a $15 club fee per 6 months."
-    contacts.3.note: Invitation available from the organizer
-  uk:
-    description: >-
-      Англомовний клуб ораторського мистецтва та лідерства, що входить до Toastmasters
-      International; дата заснування — August 2002.
-    notes: >-
-      Офіційно зареєстровано 2002-08 (Meetup: дата заснування — August 2002). Meetup: 1,193
-      учасники, 387 минулих подій, майбутні зустрічі щонеділі Nov 15 – Dec 6 2026. Також у переліку
-      спільнот Kyiv Post від 2010-04-08. 1193 учасники Meetup. Майбутні події вказані до неділі Dec
-      6 (2026). У 2023 — онлайн/гібрид/наживо у Vrebro.
-i18n_src:
-  location.address: 2ba9f8b7
-  location.metro: "12217794"
-  name: acff3d3b
-  description: 4ec6bb19
-  schedule_note: 63b1f2cf
-  notes: bf88a8a4
-  location.venue: 52eef4c5
-  price.amount: 1425aebc
-  contacts.3.note: b666f239
+notes:
+  uk: >-
+    Офіційно зареєстровано 2002-08 (Meetup: дата заснування — August 2002). Meetup: 1,193 учасники,
+    387 минулих подій, майбутні зустрічі щонеділі Nov 15 – Dec 6 2026. Також у переліку спільнот
+    Kyiv Post від 2010-04-08. 1193 учасники Meetup. Майбутні події вказані до неділі Dec 6 (2026). У
+    2023 — онлайн/гібрид/наживо у Vrebro.
+  en: >-
+    Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events,
+    upcoming Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193
+    Meetup members. Upcoming events listed to Sun Dec 6 (2026). In 2023 — online/hybrid/in person at
+    Vrebro.

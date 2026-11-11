@@ -1,8 +1,14 @@
 id: language-exchange-club-knu-institute-of-biology-and-medicine
-name: Language Exchange Club (KNU Institute of Biology and Medicine)
-description: >-
-  Free tandem club: 30 min Ukrainian practice, then 30 min Persian/Hindi/English, for foreign
-  medical students and Ukrainian students.
+name:
+  uk: Language Exchange Club (Інститут біології та медицини КНУ)
+  en: Language Exchange Club (KNU Institute of Biology and Medicine)
+description:
+  uk: >-
+    Безплатний тандем-клуб: 30 хв практики української, потім 30 хв перської/гінді/англійської для
+    іноземних студентів-медиків та українських студентів.
+  en: >-
+    Free tandem club: 30 min Ukrainian practice, then 30 min Persian/Hindi/English, for foreign
+    medical students and Ukrainian students.
 languages:
   - uk
   - en
@@ -12,10 +18,18 @@ levels:
   - any
 format: offline
 location:
-  venue: ННЦ «Інститут біології та медицини» КНУ
-  address: вул. Васильківська, 98
-  metro: Васильківська
-  note: 4 поверх, ауд. 77
+  venue:
+    uk: ННЦ «Інститут біології та медицини» КНУ
+    en: KNU Educational and Research Center "Institute of Biology and Medicine"
+  address:
+    uk: вул. Васильківська, 98
+    en: 98 Vasylkivska St
+  metro:
+    uk: Васильківська
+    en: Vasylkivska
+  note:
+    uk: 4 поверх, ауд. 77
+    en: 4th floor, room 77
   lat: 50.384516
   lon: 30.477964
   geocoded: true
@@ -28,7 +42,9 @@ schedule:
     time: "14:50"
     duration_min: 95
     frequency: weekly
-schedule_note: Every Monday 15:40-17:15 and every Thursday 14:50-16:25
+schedule_note:
+  uk: Щопонеділка 15:40-17:15 та щочетверга 14:50-16:25
+  en: Every Monday 15:40-17:15 and every Thursday 14:50-16:25
 price:
   free: true
 organizer: Project coordinator Maryna Kapas-Romaniuk (KNU)
@@ -37,23 +53,3 @@ first_seen: "2019-03-13"
 last_seen: "2019-03-13"
 sources:
   - https://biomed.knu.ua/medicine/bulletin-board/1420-meeting-of-language-exchange-club.html
-i18n:
-  en:
-    location.address: 98 Vasylkivska St
-    location.metro: Vasylkivska
-    location.venue: KNU Educational and Research Center "Institute of Biology and Medicine"
-    location.note: 4th floor, room 77
-  uk:
-    name: Language Exchange Club (Інститут біології та медицини КНУ)
-    description: >-
-      Безплатний тандем-клуб: 30 хв практики української, потім 30 хв перської/гінді/англійської для
-      іноземних студентів-медиків та українських студентів.
-    schedule_note: Щопонеділка 15:40-17:15 та щочетверга 14:50-16:25
-i18n_src:
-  location.address: 7f266443
-  location.metro: 73a7d02f
-  name: d44dab95
-  description: efaea3e9
-  schedule_note: 2cb065dc
-  location.venue: 364f8e3c
-  location.note: d6194654

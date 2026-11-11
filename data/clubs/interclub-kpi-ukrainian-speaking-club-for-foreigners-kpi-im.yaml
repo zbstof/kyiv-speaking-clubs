@@ -1,19 +1,34 @@
 id: interclub-kpi-ukrainian-speaking-club-for-foreigners-kpi-im
-name: Interclub KPI / Ukrainian Speaking Club for foreigners (КПІ ім. Ігоря Сікорського)
-description: >-
-  Student support club for foreign students at Igor Sikorsky Kyiv Polytechnic Institute: weekly
-  meetings to learn about Ukrainian language and culture; the Students' Social Service of KPI
-  described free group sessions for foreigners on Thursdays as a «Ukrainian Speaking Club».
+name:
+  uk: Interclub KPI / Розмовний клуб української мови для іноземців (КПІ ім. Ігоря Сікорського)
+  en: Interclub KPI / Ukrainian Speaking Club for foreigners (Igor Sikorsky KPI)
+description:
+  uk: >-
+    Клуб підтримки іноземних студентів у КПІ ім. Ігоря Сікорського: щотижневі зустрічі для вивчення
+    української мови та культури; Студентська соціальна служба КПІ описувала безкоштовні групові
+    заняття для іноземців щочетверга як «розмовний клуб української мови».
+  en: >-
+    Student support club for foreign students at Igor Sikorsky Kyiv Polytechnic Institute: weekly
+    meetings to learn about Ukrainian language and culture; the Students' Social Service of KPI
+    described free group sessions for foreigners on Thursdays as a «Ukrainian Speaking Club».
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: КПІ ім. Ігоря Сікорського
-  address: вул. Металістів, 7а, Київ 03056
-  metro: Політехнічний інститут
-  note: Корпус № 31, кімн. 2-09 (конференц-зал)
+  venue:
+    uk: КПІ ім. Ігоря Сікорського
+    en: Igor Sikorsky KPI
+  address:
+    uk: вул. Металістів, 7а, Київ 03056
+    en: 7a Metalistiv St, Kyiv 03056
+  metro:
+    uk: Політехнічний інститут
+    en: Politekhnichnyi Instytut
+  note:
+    uk: Корпус № 31, кімн. 2-09 (конференц-зал)
+    en: Building No. 31, room 2-09 (conference hall)
   lat: 50.450793
   lon: 30.466127
   geocoded: true
@@ -22,7 +37,9 @@ schedule:
   - day: thu
     time: "16:00"
     frequency: weekly
-schedule_note: «at 16-00 on Thursdays every week» (kpi.ua/en/interclub).
+schedule_note:
+  uk: «о 16-00 щочетверга» (kpi.ua/en/interclub).
+  en: «at 16-00 on Thursdays every week» (kpi.ua/en/interclub).
 price:
   free: true
 contacts:
@@ -33,33 +50,11 @@ status: unknown
 sources:
   - https://kpi.ua/en/interclub
   - https://vpi.kpi.ua/index.php/en/239-ukrainian-speaking-club.html
-notes: >-
-  The vpi.kpi.ua page about the «Ukrainian speaking club» now returns 404; its content is known only
-  from a search snippet. Neither page shows a date. Metro and district inferred.
-i18n:
-  en:
-    location.metro: Politekhnichnyi Instytut
-    name: Interclub KPI / Ukrainian Speaking Club for foreigners (Igor Sikorsky KPI)
-    location.venue: Igor Sikorsky KPI
-    location.address: 7a Metalistiv St, Kyiv 03056
-    location.note: Building No. 31, room 2-09 (conference hall)
-  uk:
-    name: Interclub KPI / Розмовний клуб української мови для іноземців (КПІ ім. Ігоря Сікорського)
-    description: >-
-      Клуб підтримки іноземних студентів у КПІ ім. Ігоря Сікорського: щотижневі зустрічі для
-      вивчення української мови та культури; Студентська соціальна служба КПІ описувала безкоштовні
-      групові заняття для іноземців щочетверга як «розмовний клуб української мови».
-    schedule_note: «о 16-00 щочетверга» (kpi.ua/en/interclub).
-    notes: >-
-      Сторінка vpi.kpi.ua про «розмовний клуб української мови» зараз повертає помилку 404; її зміст
-      відомий лише з фрагмента в результатах пошуку. На жодній зі сторінок немає дати. Станцію метро
-      та район визначено орієнтовно.
-i18n_src:
-  location.metro: 5638ae83
-  name: 2dceaaa7
-  description: 97f8b20e
-  schedule_note: 93a90001
-  notes: 1c9b95a2
-  location.venue: e6ac624e
-  location.address: abb024c3
-  location.note: 2b911d76
+notes:
+  uk: >-
+    Сторінка vpi.kpi.ua про «розмовний клуб української мови» зараз повертає помилку 404; її зміст
+    відомий лише з фрагмента в результатах пошуку. На жодній зі сторінок немає дати. Станцію метро
+    та район визначено орієнтовно.
+  en: >-
+    The vpi.kpi.ua page about the «Ukrainian speaking club» now returns 404; its content is known
+    only from a search snippet. Neither page shows a date. Metro and district inferred.

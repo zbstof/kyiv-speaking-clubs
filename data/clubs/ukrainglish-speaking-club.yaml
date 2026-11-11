@@ -1,8 +1,14 @@
 id: ukrainglish-speaking-club
-name: Ukraïnglish Speaking Club
-description: >-
-  Small, relaxed English–Ukrainian conversation meetup, switching between the two languages; themed
-  sessions (movies, books, storytelling).
+name:
+  uk: Ukraïnglish Speaking Club
+  en: Ukraïnglish Speaking Club
+description:
+  uk: >-
+    Невеликі невимушені англо-українські розмовні зустрічі з переходом між двома мовами; тематичні
+    сесії (фільми, книжки, розповіді).
+  en: >-
+    Small, relaxed English–Ukrainian conversation meetup, switching between the two languages;
+    themed sessions (movies, books, storytelling).
 languages:
   - en
   - uk
@@ -13,7 +19,9 @@ schedule:
   - day: sun
     time: "20:00"
     frequency: weekly
-schedule_note: Sundays 8 pm Kyiv time (Google Meet); one session at 4 pm
+schedule_note:
+  uk: Щонеділі о 8 pm за київським часом (Google Meet); одна зустріч о 4 pm
+  en: Sundays 8 pm Kyiv time (Google Meet); one session at 4 pm
 registration: optional
 contacts:
   - type: meetup
@@ -23,23 +31,13 @@ status: active
 last_seen: "2026"
 sources:
   - https://www.meetup.com/ukrainglish-networking-club/
-notes: >-
-  Meetup city is Kyiv; 54 members. Next event 'Sunday, Jun 28' fits 2026. Kyiv base of organizer not
-  verified. Meetup group listed under Kyiv, 54 members; events Apr 12, May 3, May 17, Oct 18,
-  upcoming Sun June 28 — years not shown (June 28 is a Sunday in 2026).
-i18n:
-  uk:
-    description: >-
-      Невеликі невимушені англо-українські розмовні зустрічі з переходом між двома мовами; тематичні
-      сесії (фільми, книжки, розповіді).
-    schedule_note: Щонеділі о 8 pm за київським часом (Google Meet); одна зустріч о 4 pm
-    notes: >-
-      Місто зустрічей — Київ; 54 учасники. Дата наступної події «Sunday, Jun 28» відповідає 2026
-      року. Не підтверджено, що організатор перебуває в Києві. Група на Meetup вказана як київська,
-      має 54 учасників; події Apr 12, May 3, May 17, Oct 18, найближча — Sun June 28. Роки не
-      вказані (June 28 припадає на неділю у 2026 році).
-i18n_src:
-  name: e7dc84e7
-  description: 020ad1fc
-  schedule_note: 27413ddd
-  notes: "66837153"
+notes:
+  uk: >-
+    Місто зустрічей — Київ; 54 учасники. Дата наступної події «Sunday, Jun 28» відповідає 2026 року.
+    Не підтверджено, що організатор перебуває в Києві. Група на Meetup вказана як київська, має 54
+    учасників; події Apr 12, May 3, May 17, Oct 18, найближча — Sun June 28. Роки не вказані (June
+    28 припадає на неділю у 2026 році).
+  en: >-
+    Meetup city is Kyiv; 54 members. Next event 'Sunday, Jun 28' fits 2026. Kyiv base of organizer
+    not verified. Meetup group listed under Kyiv, 54 members; events Apr 12, May 3, May 17, Oct 18,
+    upcoming Sun June 28 — years not shown (June 28 is a Sunday in 2026).

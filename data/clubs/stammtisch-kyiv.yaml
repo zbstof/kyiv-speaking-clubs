@@ -1,8 +1,14 @@
 id: stammtisch-kyiv
-name: Stammtisch (German-speaking club, Dom Bergonie)
-description: >-
-  Weekly free German-language meetup of Ukrainians and Germans: news talk, knowledge sharing.
-  Members need to follow a German conversation, fluency not required.
+name:
+  uk: Stammtisch (німецькомовний клуб, Дім Бергоньє)
+  en: Stammtisch (German-speaking club, Dom Bergonie)
+description:
+  uk: >-
+    Щотижневі безкоштовні німецькомовні зустрічі українців і німців: обговорення новин, обмін
+    знаннями. Учасники мають розуміти розмову німецькою, вільне володіння мовою не обов’язкове.
+  en: >-
+    Weekly free German-language meetup of Ukrainians and Germans: news talk, knowledge sharing.
+    Members need to follow a German conversation, fluency not required.
 languages:
   - de
 levels:
@@ -12,9 +18,15 @@ levels:
   - C2
 format: offline
 location:
-  venue: Dom Bergonie art café
-  address: вул. Пушкінська, 17
-  metro: Театральна
+  venue:
+    uk: Арткафе «Дім Бергоньє»
+    en: Dom Bergonie art café
+  address:
+    uk: вул. Пушкінська, 17
+    en: 17 Pushkinska St
+  metro:
+    uk: Театральна
+    en: Teatralna
   lat: 50.512333
   lon: 30.238567
   geocoded: true
@@ -22,7 +34,9 @@ schedule:
   - day: wed
     time: "19:00"
     frequency: weekly
-schedule_note: Wednesday, 7 p.m.
+schedule_note:
+  uk: Середа, 7 p.m.
+  en: Wednesday, 7 p.m.
 price:
   free: true
 registration: none
@@ -35,38 +49,20 @@ first_seen: "1997"
 last_seen: "2017-09-29"
 sources:
   - https://www.kyivpost.com/lifestyle/language-unites-ukrainians-germans-meet-weekly.html
-notes: >-
-  Kyiv Post (2017-09-29) says the club has met since at least 1997; Facebook group (now named
-  'Deutscher Mittwochs-Stammtisch Kyjiw', public, 608 members when fetched 2026-11) had over 200
-  members in 2017; about 15 people per meeting. A Telegram handle @stammtisch_kyiv exists but its
-  link to this group is not verified. Levels are a guess from 'must follow conversations'. Meetings
-  documented since at least 1997. Earlier venue: Muka restaurant on Khreshchatyk (closed fall 2016).
-  200+ FB group members, ~15 per meeting.
-i18n:
-  en:
-    location.address: 17 Pushkinska St
-    location.metro: Teatralna
-  uk:
-    name: Stammtisch (німецькомовний клуб, Дім Бергоньє)
-    description: >-
-      Щотижневі безкоштовні німецькомовні зустрічі українців і німців: обговорення новин, обмін
-      знаннями. Учасники мають розуміти розмову німецькою, вільне володіння мовою не обов’язкове.
-    schedule_note: Середа, 7 p.m.
-    notes: >-
-      За даними Kyiv Post (2017-09-29), клуб проводить зустрічі щонайменше з 1997 року; група у
-      Facebook (нині має назву «Deutscher Mittwochs-Stammtisch Kyjiw», відкрита, 608 учасників на
-      момент перевірки 2026-11) у 2017 році налічувала понад 200 учасників; на кожну зустріч
-      приходить близько 15 людей. Існує Telegram-акаунт @stammtisch_kyiv, але його зв’язок із цією
-      групою не підтверджено. Рівні володіння мовою визначено приблизно на основі вимоги «потрібно
-      розуміти розмови». Зустрічі задокументовані щонайменше з 1997 року. Попереднє місце зустрічей:
-      ресторан Muka на Хрещатику (закрився восени 2016 року). 200+ учасників групи у Facebook, ~15
-      на кожній зустрічі.
-    location.venue: Арткафе «Дім Бергоньє»
-i18n_src:
-  location.address: c7c40d47
-  location.metro: a3cccf71
-  name: 4095e1a1
-  description: "419551e9"
-  schedule_note: 430fd63d
-  notes: "94712653"
-  location.venue: 1050a047
+notes:
+  uk: >-
+    За даними Kyiv Post (2017-09-29), клуб проводить зустрічі щонайменше з 1997 року; група у
+    Facebook (нині має назву «Deutscher Mittwochs-Stammtisch Kyjiw», відкрита, 608 учасників на
+    момент перевірки 2026-11) у 2017 році налічувала понад 200 учасників; на кожну зустріч приходить
+    близько 15 людей. Існує Telegram-акаунт @stammtisch_kyiv, але його зв’язок із цією групою не
+    підтверджено. Рівні володіння мовою визначено приблизно на основі вимоги «потрібно розуміти
+    розмови». Зустрічі задокументовані щонайменше з 1997 року. Попереднє місце зустрічей: ресторан
+    Muka на Хрещатику (закрився восени 2016 року). 200+ учасників групи у Facebook, ~15 на кожній
+    зустрічі.
+  en: >-
+    Kyiv Post (2017-09-29) says the club has met since at least 1997; Facebook group (now named
+    'Deutscher Mittwochs-Stammtisch Kyjiw', public, 608 members when fetched 2026-11) had over 200
+    members in 2017; about 15 people per meeting. A Telegram handle @stammtisch_kyiv exists but its
+    link to this group is not verified. Levels are a guess from 'must follow conversations'.
+    Meetings documented since at least 1997. Earlier venue: Muka restaurant on Khreshchatyk (closed
+    fall 2016). 200+ FB group members, ~15 per meeting.

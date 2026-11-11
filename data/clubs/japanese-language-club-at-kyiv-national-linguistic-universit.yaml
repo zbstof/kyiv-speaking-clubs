@@ -1,16 +1,26 @@
 id: japanese-language-club-at-kyiv-national-linguistic-universit
-name: Japanese Language Club at Kyiv National Linguistic University
-description: >-
-  Monthly Japanese club for KNLU students of years 1-5 who want more speaking practice; Japanese
-  exchange students join; songs and games in Japanese.
+name:
+  uk: Розмовний клуб японської мови в Київському національному лінгвістичному університеті
+  en: Japanese Language Club at Kyiv National Linguistic University
+description:
+  uk: >-
+    Щомісячний клуб японської мови для студентів 1–5 курсів КНЛУ, які хочуть більше розмовної
+    практики; долучаються японські студенти за обміном; пісні та ігри японською.
+  en: >-
+    Monthly Japanese club for KNLU students of years 1-5 who want more speaking practice; Japanese
+    exchange students join; songs and games in Japanese.
 languages:
   - ja
 levels:
   - any
 format: offline
 location:
-  venue: Kyiv National Linguistic University
-schedule_note: Once a month (2017 report)
+  venue:
+    uk: Київський національний лінгвістичний університет
+    en: Kyiv National Linguistic University
+schedule_note:
+  uk: Раз на місяць (за даними 2017 року)
+  en: Once a month (2017 report)
 price:
   free: true
 organizer: >-
@@ -21,19 +31,6 @@ first_seen: "2017"
 last_seen: 2017-09
 sources:
   - https://www.jpf.go.jp/e/project/japanese/teach/dispatch/voice/assistant/report/2017_09.html
-notes: University-internal club for KNLU students.
-i18n:
-  uk:
-    name: Розмовний клуб японської мови в Київському національному лінгвістичному університеті
-    description: >-
-      Щомісячний клуб японської мови для студентів 1–5 курсів КНЛУ, які хочуть більше розмовної
-      практики; долучаються японські студенти за обміном; пісні та ігри японською.
-    schedule_note: Раз на місяць (за даними 2017 року)
-    notes: Внутрішній університетський клуб для студентів КНЛУ.
-    location.venue: Київський національний лінгвістичний університет
-i18n_src:
-  name: d3c2a171
-  description: 95acaeca
-  schedule_note: 9d109a46
-  notes: 06bc4244
-  location.venue: 7f2b5ba7
+notes:
+  uk: Внутрішній університетський клуб для студентів КНЛУ.
+  en: University-internal club for KNLU students.

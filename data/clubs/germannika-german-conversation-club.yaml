@@ -1,12 +1,20 @@
 id: germannika-german-conversation-club
-name: "Germannika: German conversation club"
-description: Paid language school in Kyiv that lists a German conversation club among its courses.
+name:
+  uk: "Germannika: розмовний клуб німецької мови"
+  en: "Germannika: German conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+  en: Paid language school in Kyiv that lists a German conversation club among its courses.
 languages:
   - de
 format: offline
 location:
-  venue: Germannika
-  address: просп. Миколи Бажана, 16, офіс 229
+  venue:
+    uk: Germannika
+    en: Germannika
+  address:
+    uk: просп. Миколи Бажана, 16, офіс 229
+    en: 16 Mykoly Bazhana Ave, office 229
   lat: 50.395677
   lon: 30.625214
   geocoded: true
@@ -19,24 +27,10 @@ first_seen: "2025-01-28"
 last_seen: "2025-01-28"
 sources:
   - https://osvita.ua/languages/courses/37045/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  28.01.2025). No schedule or format given. Phones on card: (099) 493-65-70.
-i18n:
-  uk:
-    name: "Germannika: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
-    notes: >-
-      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      28.01.2025). Розклад і формат не вказані. Телефони в картці: (099) 493-65-70.
-  en:
-    notes: >-
-      Listed only as a course item "Speaking club" in the school's osvita.ua catalog card (card
-      updated 28.01.2025). No schedule or format given. Phones on card: (099) 493-65-70.
-    location.address: 16 Mykoly Bazhana Ave, office 229
-i18n_src:
-  name: c0ac3f83
-  description: 69ecb131
-  notes: 9fc3aa83
-  location.venue: bfbee696
-  location.address: 841e384d
+notes:
+  uk: >-
+    Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    28.01.2025). Розклад і формат не вказані. Телефони в картці: (099) 493-65-70.
+  en: >-
+    Listed only as a course item "Speaking club" in the school's osvita.ua catalog card (card
+    updated 28.01.2025). No schedule or format given. Phones on card: (099) 493-65-70.

@@ -1,6 +1,10 @@
 id: free-english-german-conversation-club-druzhby-narodiv
-name: Free English/German conversation club (Druzhby Narodiv)
-description: Free English and German conversation club open to everyone.
+name:
+  uk: Безкоштовний розмовний клуб англійської та німецької мов (Дружби Народів)
+  en: Free English/German conversation club (Druzhby Narodiv)
+description:
+  uk: Безкоштовний розмовний клуб англійської та німецької мов, відкритий для всіх.
+  en: Free English and German conversation club open to everyone.
 languages:
   - en
   - de
@@ -8,15 +12,21 @@ levels:
   - any
 format: offline
 location:
-  address: бульв. Дружби Народів, 18/7, офіс 3
-  metro: Дружби народів
+  address:
+    uk: бульв. Дружби Народів, 18/7, офіс 3
+    en: 18/7 Druzhby Narodiv Blvd, office 3
+  metro:
+    uk: Дружби народів
+    en: Zvirynetska
   lat: 50.415168
   lon: 30.540139
   geocoded: true
 schedule:
   - day: sun
     frequency: weekly
-schedule_note: Sundays (2010)
+schedule_note:
+  uk: Щонеділі (2010)
+  en: Sundays (2010)
 price:
   free: true
 status: unknown
@@ -24,24 +34,10 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: >-
-  Phone in source: 529-75-77 (Kyiv landline). Listed in Kyiv Post 'Community listings' bulletin
-  board, 2010-04-08.
-i18n:
-  en:
-    location.metro: Zvirynetska
-    location.address: 18/7 Druzhby Narodiv Blvd, office 3
-  uk:
-    name: Безкоштовний розмовний клуб англійської та німецької мов (Дружби Народів)
-    description: Безкоштовний розмовний клуб англійської та німецької мов, відкритий для всіх.
-    schedule_note: Щонеділі (2010)
-    notes: >-
-      Телефон у джерелі: 529-75-77 (київський стаціонарний). Зазначено на дошці оголошень «Community
-      listings» у Kyiv Post, 2010-04-08.
-i18n_src:
-  location.metro: b53c80ce
-  name: 4ab194ed
-  description: d146a255
-  schedule_note: c618029c
-  notes: 99880a7f
-  location.address: 2f901787
+notes:
+  uk: >-
+    Телефон у джерелі: 529-75-77 (київський стаціонарний). Зазначено на дошці оголошень «Community
+    listings» у Kyiv Post, 2010-04-08.
+  en: >-
+    Phone in source: 529-75-77 (Kyiv landline). Listed in Kyiv Post 'Community listings' bulletin
+    board, 2010-04-08.

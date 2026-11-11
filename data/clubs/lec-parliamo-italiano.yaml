@@ -1,18 +1,32 @@
 id: lec-parliamo-italiano
-name: Parliamo italiano
-description: Розмовні зустрічі італійською мережі LEC.
+name:
+  uk: Parliamo italiano
+  en: Parliamo italiano
+description:
+  uk: Розмовні зустрічі італійською мережі LEC.
+  en: Italian conversation meetups in the LEC network.
 languages:
   - it
 format: offline
 location:
-  venue: ТРЦ «Гуллівер», фудкорт
-  address: Спортивна площа, 1а
-  metro: Палац спорту
-  note: 5 поверх
+  venue:
+    uk: ТРЦ «Гуллівер», фудкорт
+    en: "\"Gulliver\" shopping mall, food court"
+  address:
+    uk: Спортивна площа, 1а
+    en: 1A Sportyvna Sq
+  metro:
+    uk: Палац спорту
+    en: Palats Sportu
+  note:
+    uk: 5 поверх
+    en: 5th floor
   lat: 50.438698
   lon: 30.523171
   geocoded: true
-schedule_note: 16:00–19:00.
+schedule_note:
+  uk: 16:00–19:00.
+  en: 16:00–19:00.
 price:
   free: true
 contacts:
@@ -21,20 +35,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 1A Sportyvna Sq
-    location.metro: Palats Sportu
-    description: Italian conversation meetups in the LEC network.
-    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
-    location.venue: "\"Gulliver\" shopping mall, food court"
-    location.note: 5th floor
-i18n_src:
-  location.address: ad99c7ad
-  location.metro: 3dbc4bb5
-  name: 4eb85627
-  description: 6b345736
-  notes: 158955cd
-  location.venue: 62df18f6
-  location.note: 8d811b69
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.

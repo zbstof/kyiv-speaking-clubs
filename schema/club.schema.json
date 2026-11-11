@@ -4,101 +4,373 @@
   "title": "Speaking club",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "languages", "status"],
+  "required": [
+    "id",
+    "name",
+    "languages",
+    "status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80 },
-    "name": { "type": "string", "minLength": 2, "maxLength": 150 },
-    "description": { "type": "string", "maxLength": 2000 },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "name": {
+      "$ref": "#/definitions/text150"
+    },
+    "description": {
+      "$ref": "#/definitions/text2000"
+    },
     "languages": {
-      "type": "array", "minItems": 1, "uniqueItems": true,
-      "items": { "type": "string", "pattern": "^[a-z]{2,3}$" }
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}$"
+      }
     },
     "levels": {
-      "type": "array", "uniqueItems": true,
-      "items": { "enum": ["any", "A1", "A2", "B1", "B2", "C1", "C2"] }
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "any",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      }
     },
-    "format": { "enum": ["offline", "online", "hybrid"] },
+    "format": {
+      "enum": [
+        "offline",
+        "online",
+        "hybrid"
+      ]
+    },
     "location": {
-      "type": "object", "additionalProperties": false,
-      "dependencies": { "lat": ["lon"], "lon": ["lat"] },
+      "type": "object",
+      "additionalProperties": false,
+      "dependencies": {
+        "lat": [
+          "lon"
+        ],
+        "lon": [
+          "lat"
+        ]
+      },
       "properties": {
-        "venue": { "type": "string", "maxLength": 200 },
-        "address": { "type": "string", "maxLength": 300 },
-        "metro": { "type": "string", "maxLength": 100 },
-        "note": {
-          "description": "How to find the club inside the venue: floor, room, entrance, sign to look for.",
-          "type": "string", "maxLength": 300
+        "venue": {
+          "$ref": "#/definitions/text200"
         },
-        "lat": { "description": "Latitude, WGS84. Kyiv area only.", "type": "number", "minimum": 49.9, "maximum": 50.9 },
-        "lon": { "description": "Longitude, WGS84. Kyiv area only.", "type": "number", "minimum": 29.8, "maximum": 31.3 },
-        "near_metro": { "description": "true when lat/lon are the position of the named metro station, because the exact place is unknown.", "type": "boolean" },
-        "geocoded": { "description": "true when lat/lon were looked up automatically from the address and nobody checked them on a map.", "type": "boolean" },
-        "map_url": { "description": "Link to the place on Google Maps (or another map). Optional: the site builds a link from lat/lon or the address.", "type": "string", "pattern": "^https://", "maxLength": 500 }
+        "address": {
+          "$ref": "#/definitions/text300"
+        },
+        "metro": {
+          "$ref": "#/definitions/text100"
+        },
+        "note": {
+          "$ref": "#/definitions/text300"
+        },
+        "lat": {
+          "description": "Latitude, WGS84. Kyiv area only.",
+          "type": "number",
+          "minimum": 49.9,
+          "maximum": 50.9
+        },
+        "lon": {
+          "description": "Longitude, WGS84. Kyiv area only.",
+          "type": "number",
+          "minimum": 29.8,
+          "maximum": 31.3
+        },
+        "near_metro": {
+          "description": "true when lat/lon are the position of the named metro station, because the exact place is unknown.",
+          "type": "boolean"
+        },
+        "geocoded": {
+          "description": "true when lat/lon were looked up automatically from the address and nobody checked them on a map.",
+          "type": "boolean"
+        },
+        "map_url": {
+          "description": "Link to the place on Google Maps (or another map). Optional: the site builds a link from lat/lon or the address.",
+          "type": "string",
+          "pattern": "^https://",
+          "maxLength": 500
+        }
       }
     },
     "schedule": {
       "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["day"],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "day"
+        ],
         "properties": {
-          "day": { "enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"] },
-          "time": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" },
-          "duration_min": { "type": "integer", "minimum": 10, "maximum": 600 },
-          "frequency": { "enum": ["weekly", "biweekly", "monthly", "irregular"] },
-          "format": { "description": "For a hybrid club: whether this slot is online or in person. Omit when it matches the club's format.", "enum": ["offline", "online"] }
+          "day": {
+            "enum": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri",
+              "sat",
+              "sun"
+            ]
+          },
+          "time": {
+            "type": "string",
+            "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$"
+          },
+          "duration_min": {
+            "type": "integer",
+            "minimum": 10,
+            "maximum": 600
+          },
+          "frequency": {
+            "enum": [
+              "weekly",
+              "biweekly",
+              "monthly",
+              "irregular"
+            ]
+          },
+          "format": {
+            "description": "For a hybrid club: whether this slot is online or in person. Omit when it matches the club's format.",
+            "enum": [
+              "offline",
+              "online"
+            ]
+          }
         }
       }
     },
-    "schedule_note": { "type": "string", "maxLength": 500 },
+    "schedule_note": {
+      "$ref": "#/definitions/text500"
+    },
     "price": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "free": { "type": "boolean" },
-        "amount": { "type": "string", "maxLength": 100 }
+        "free": {
+          "type": "boolean"
+        },
+        "amount": {
+          "$ref": "#/definitions/text100"
+        }
       }
     },
-    "registration": { "enum": ["required", "optional", "none"] },
+    "registration": {
+      "enum": [
+        "required",
+        "optional",
+        "none"
+      ]
+    },
     "contacts": {
       "type": "array",
       "items": {
-        "type": "object", "additionalProperties": false,
-        "required": ["type"],
-        "anyOf": [{ "required": ["url"] }, { "required": ["note"] }],
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type"
+        ],
+        "anyOf": [
+          {
+            "required": [
+              "url"
+            ]
+          },
+          {
+            "required": [
+              "note"
+            ]
+          }
+        ],
         "properties": {
-          "type": { "enum": ["telegram", "instagram", "facebook", "website", "meetup", "email", "phone", "youtube", "whatsapp", "viber", "discord", "other"] },
-          "url": { "type": "string", "minLength": 3, "maxLength": 500 },
+          "type": {
+            "enum": [
+              "telegram",
+              "instagram",
+              "facebook",
+              "website",
+              "meetup",
+              "email",
+              "phone",
+              "youtube",
+              "whatsapp",
+              "viber",
+              "discord",
+              "other"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 500
+          },
           "access": {
             "description": "public: open link (default). invite: a private invite link that the admins agreed to publish. on_request: closed group; no link is published, 'note' says how to get in.",
-            "enum": ["public", "invite", "on_request"]
+            "enum": [
+              "public",
+              "invite",
+              "on_request"
+            ]
           },
-          "note": { "type": "string", "maxLength": 300 },
-          "members": { "description": "Members or subscribers of this group/channel.", "type": "integer", "minimum": 0 },
-          "members_checked": { "description": "When the member count was read.", "$ref": "#/definitions/partialDate" }
+          "note": {
+            "$ref": "#/definitions/text300"
+          },
+          "members": {
+            "description": "Members or subscribers of this group/channel.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "members_checked": {
+            "description": "When the member count was read.",
+            "$ref": "#/definitions/partialDate"
+          }
         }
       }
     },
-    "organizer": { "type": "string", "maxLength": 200 },
-    "status": { "enum": ["active", "paused", "closed", "unknown"] },
-    "first_seen": { "$ref": "#/definitions/partialDate" },
-    "last_seen": { "$ref": "#/definitions/partialDate" },
-    "last_checked": { "$ref": "#/definitions/partialDate" },
-    "sources": { "type": "array", "items": { "type": "string", "maxLength": 500 } },
-    "notes": { "type": "string", "maxLength": 2000 },
-    "i18n": {
-      "description": "Translations of text fields into the language they are not written in, keyed by field path (name, description, location.note, contacts.0.note, ...).",
-      "type": "object", "additionalProperties": false,
-      "properties": {
-        "uk": { "type": "object", "additionalProperties": { "type": "string", "maxLength": 2000 } },
-        "en": { "type": "object", "additionalProperties": { "type": "string", "maxLength": 2000 } }
+    "organizer": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "status": {
+      "enum": [
+        "active",
+        "paused",
+        "closed",
+        "unknown"
+      ]
+    },
+    "first_seen": {
+      "$ref": "#/definitions/partialDate"
+    },
+    "last_seen": {
+      "$ref": "#/definitions/partialDate"
+    },
+    "last_checked": {
+      "$ref": "#/definitions/partialDate"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 500
       }
     },
-    "i18n_src": {
-      "description": "Hash of the source text each translation was made from; a mismatch means the source changed.",
-      "type": "object", "additionalProperties": { "type": "string", "pattern": "^[0-9a-f]{8}$" }
+    "notes": {
+      "$ref": "#/definitions/text2000"
     }
   },
   "definitions": {
-    "partialDate": { "type": "string", "pattern": "^[0-9]{4}(-[01][0-9](-[0-3][0-9])?)?$" }
+    "partialDate": {
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[01][0-9](-[0-3][0-9])?)?$"
+    },
+    "text100": {
+      "description": "Text in Ukrainian and English, side by side (at most 100 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 100
+        }
+      }
+    },
+    "text150": {
+      "description": "Text in Ukrainian and English, side by side (at most 150 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 150
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 150
+        }
+      }
+    },
+    "text200": {
+      "description": "Text in Ukrainian and English, side by side (at most 200 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 200
+        }
+      }
+    },
+    "text300": {
+      "description": "Text in Ukrainian and English, side by side (at most 300 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 300
+        }
+      }
+    },
+    "text500": {
+      "description": "Text in Ukrainian and English, side by side (at most 500 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 500
+        }
+      }
+    },
+    "text2000": {
+      "description": "Text in Ukrainian and English, side by side (at most 2000 characters each).",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "uk": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "en": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      }
+    }
   }
 }

@@ -1,12 +1,20 @@
 id: rozmovnyi-klub-iedyni-vcentri-hub-holosiivskyi
-name: Розмовний клуб «Єдині» — Vcentri HUB Голосіївський
-description: Free Ukrainian conversation club of the «Єдині» project at Vcentri HUB Holosiivskyi.
+name:
+  uk: Розмовний клуб «Єдині» — Vcentri HUB Голосіївський
+  en: "\"Yedyni\" conversation club — Vcentri HUB Holosiivskyi"
+description:
+  uk: Безкоштовний розмовний клуб української мови проєкту «Єдині» у Vcentri HUB Голосіївський.
+  en: Free Ukrainian conversation club of the "Yedyni" project at Vcentri HUB Holosiivskyi.
 languages:
   - uk
 format: offline
 location:
-  venue: Громадський простір Vcentri HUB Голосіївський
-  address: вул. Велика Китаївська, 83
+  venue:
+    uk: Громадський простір Vcentri HUB Голосіївський
+    en: Vcentri HUB Holosiivskyi community space
+  address:
+    uk: вул. Велика Китаївська, 83
+    en: 83 Velyka Kytaivska St
   lat: 50.39906
   lon: 30.531803
   geocoded: true
@@ -19,7 +27,9 @@ schedule:
     time: "11:00"
     duration_min: 120
     frequency: irregular
-schedule_note: Sun 5 Mar 2023 14:00-15:30; Sat 13 May 2023 11:00-13:00.
+schedule_note:
+  uk: Sun 5 Mar 2023 14:00-15:30; Sat 13 May 2023 11:00-13:00.
+  en: Sun 5 Mar 2023 14:00-15:30; Sat 13 May 2023 11:00-13:00.
 price:
   free: true
 registration: required
@@ -39,27 +49,13 @@ sources:
     https://kyivcity.gov.ua/news/Vcentri_HUB_iz_8_do_14_travnya_zaproshuye_na_navchannya_z_taktichno_meditsini_shashkovi_trenuvannya_rozmovni_klubi_ta_tvorchi_zakhodi/
   - >-
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
-notes: >-
-  Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
-  libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on 2023-09-20).
-  The list gives no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 83 Velyka Kytaivska St
-    name: "\"Yedyni\" conversation club — Vcentri HUB Holosiivskyi"
-    description: Free Ukrainian conversation club of the "Yedyni" project at Vcentri HUB Holosiivskyi.
-    location.venue: Vcentri HUB Holosiivskyi community space
-  uk:
-    description: Безкоштовний розмовний клуб української мови проєкту «Єдині» у Vcentri HUB Голосіївський.
-    notes: >-
-      Внесений до переліку розмовних клубів і курсів української мови в міських бібліотеках,
-      опублікованого Департаментом культури Києва 2023-08-17 (50 позицій; КМДА повідомила про «50
-      клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за
-      адресою, але не перевірено.
-i18n_src:
-  location.address: 71a4f62d
-  name: a44ef12b
-  description: 9b65c781
-  schedule_note: ea0e9e8a
-  notes: b4ead5ba
-  location.venue: c77f793d
+notes:
+  uk: >-
+    Внесений до переліку розмовних клубів і курсів української мови в міських бібліотеках,
+    опублікованого Департаментом культури Києва 2023-08-17 (50 позицій; КМДА повідомила про «50
+    клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за адресою,
+    але не перевірено.
+  en: >-
+    Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
+    libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on
+    2023-09-20). The list gives no meeting times. District inferred from the address, not verified.

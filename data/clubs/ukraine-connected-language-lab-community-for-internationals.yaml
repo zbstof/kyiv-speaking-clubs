@@ -1,17 +1,28 @@
 id: ukraine-connected-language-lab-community-for-internationals
-name: Ukraine Connected (Language Lab community for internationals)
-description: >-
-  Community for foreigners and Ukrainians launched by the Kyiv school Language Lab at its 10th
-  anniversary; events in person in Kyiv (moved to shelters or online during air-raid alerts).
+name:
+  uk: Ukraine Connected (спільнота Language Lab для іноземців)
+  en: Ukraine Connected (Language Lab community for internationals)
+description:
+  uk: >-
+    Спільнота для іноземців та українців, яку київська школа Language Lab започаткувала до свого
+    10-річчя; заходи наживо в Києві (під час повітряних тривог їх переносять в укриття або онлайн).
+  en: >-
+    Community for foreigners and Ukrainians launched by the Kyiv school Language Lab at its 10th
+    anniversary; events in person in Kyiv (moved to shelters or online during air-raid alerts).
 languages:
   - uk
   - en
 levels:
   - any
 format: hybrid
-schedule_note: >-
-  Розкладу немає. Це спільнота, а не розмовний клуб: чати за темами, невеликі зустрічі, велика
-  зустріч щонайменше раз на пів року. Вступ через форму, учасників відбирають координатори.
+schedule_note:
+  uk: >-
+    Розкладу немає. Це спільнота, а не розмовний клуб: чати за темами, невеликі зустрічі, велика
+    зустріч щонайменше раз на пів року. Вступ через форму, учасників відбирають координатори.
+  en: >-
+    There is no schedule. This is a community, not a speaking club: topic-based chats, small
+    meetups, and a large gathering at least once every six months. Join via a form; coordinators
+    select participants.
 contacts:
   - type: other
     url: https://forms.gle/nM3NYdPBrCLcGZTB8
@@ -25,26 +36,10 @@ sources:
   - https://www.kyivpost.com/post/87435
   - https://www.kyivpost.com/topic/language-lab
   - https://www.kyivpost.com/post/85262
-notes: >-
-  A community, not strictly a speaking club; launched at the anniversary event about 3 Oct 2026.
-  Kyiv Post partnership content.
-i18n:
-  uk:
-    name: Ukraine Connected (спільнота Language Lab для іноземців)
-    description: >-
-      Спільнота для іноземців та українців, яку київська школа Language Lab започаткувала до свого
-      10-річчя; заходи наживо в Києві (під час повітряних тривог їх переносять в укриття або
-      онлайн).
-    notes: >-
-      Спільнота, а не суто розмовний клуб; започаткована на ювілейному заході приблизно 3 Oct 2026.
-      Партнерський матеріал Kyiv Post.
-  en:
-    schedule_note: >-
-      There is no schedule. This is a community, not a speaking club: topic-based chats, small
-      meetups, and a large gathering at least once every six months. Join via a form; coordinators
-      select participants.
-i18n_src:
-  name: db4f9e42
-  description: 4d24d08d
-  schedule_note: 634bfe0d
-  notes: c5865112
+notes:
+  uk: >-
+    Спільнота, а не суто розмовний клуб; започаткована на ювілейному заході приблизно 3 Oct 2026.
+    Партнерський матеріал Kyiv Post.
+  en: >-
+    A community, not strictly a speaking club; launched at the anniversary event about 3 Oct 2026.
+    Kyiv Post partnership content.

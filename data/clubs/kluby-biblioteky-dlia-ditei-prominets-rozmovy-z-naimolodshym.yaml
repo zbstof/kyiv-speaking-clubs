@@ -1,14 +1,26 @@
 id: kluby-biblioteky-dlia-ditei-prominets-rozmovy-z-naimolodshym
-name: Клуби бібліотеки для дітей «Промінець» («Розмови з наймолодшими про літературу» / «Казковий клуб»)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: >-
+    Клуби бібліотеки для дітей «Промінець» («Розмови з наймолодшими про літературу» / «Казковий
+    клуб»)
+  en: >-
+    Clubs at the Prominets Children's Library ("Talking with the Youngest about Literature" / "Fairy
+    Tale Club")
+description:
+  uk: Безкоштовний клуб української мови та спілкування нею для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека для дітей «Промінець»
-  address: вул. Гетьмана Кирила Розумовського, 10-12
+  venue:
+    uk: Бібліотека для дітей «Промінець»
+    en: Prominets Children's Library
+  address:
+    uk: вул. Гетьмана Кирила Розумовського, 10-12
+    en: 10-12 Hetmana Kyryla Rozumovskoho St
 price:
   free: true
 contacts:
@@ -24,33 +36,14 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: language club «Розмови з
-  наймолодшими про літературу» (Розумовського, 12); 2025: literary «Казковий клуб» (Розумовського,
-  10).
-i18n:
-  en:
-    location.address: 10-12 Hetmana Kyryla Rozumovskoho St
-    name: >-
-      Clubs at the Prominets Children's Library ("Talking with the Youngest about Literature" /
-      "Fairy Tale Club")
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: language club
-      "Talking with the Youngest about Literature" (12 Rozumovskoho St); 2025: literary "Fairy Tale
-      Club" (10 Rozumovskoho St).
-    location.venue: Prominets Children's Library
-  uk:
-    description: Безкоштовний клуб української мови та спілкування нею для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
-      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023: мовний
-      клуб «Розмови з наймолодшими про літературу» (вул. Розумовського, 12); 2025: літературний
-      «Казковий клуб» (вул. Розумовського, 10).
-i18n_src:
-  location.address: 8aea26c5
-  name: 4e5ba8e9
-  description: 0402dd7e
-  notes: 1c0fca74
-  location.venue: 643655a6
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023: мовний
+    клуб «Розмови з наймолодшими про літературу» (вул. Розумовського, 12); 2025: літературний
+    «Казковий клуб» (вул. Розумовського, 10).
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: language club "Talking
+    with the Youngest about Literature" (12 Rozumovskoho St); 2025: literary "Fairy Tale Club" (10
+    Rozumovskoho St).

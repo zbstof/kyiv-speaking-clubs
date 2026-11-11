@@ -1,6 +1,10 @@
 id: fayna-speaking-club
-name: Fayna Speaking Club (Thepeach.eng)
-description: Клуб для тих, хто тільки починає говорити англійською (A2–B1), з викладачем.
+name:
+  uk: Fayna Speaking Club (Thepeach.eng)
+  en: Fayna Speaking Club (Thepeach.eng)
+description:
+  uk: Клуб для тих, хто тільки починає говорити англійською (A2–B1), з викладачем.
+  en: A club for those just starting to speak English (A2–B1), with a teacher.
 languages:
   - en
 levels:
@@ -8,37 +12,31 @@ levels:
   - B1
 format: offline
 location:
-  venue: Кавʼярня «Cactus»
+  venue:
+    uk: Кавʼярня «Cactus»
+    en: "\"Cactus\" cafe"
 schedule:
   - day: sat
     time: "18:00"
     frequency: irregular
     format: offline
-schedule_note: Окремі зустрічі в суботу о 18:00 (листопад 2025).
+schedule_note:
+  uk: Окремі зустрічі в суботу о 18:00 (листопад 2025).
+  en: Selected Saturday meetings at 18:00 (November 2025).
 price:
   free: false
-  amount: Донат 400 грн на допомогу пораненим
+  amount:
+    uk: Донат 400 грн на допомогу пораненим
+    en: A donation of 400 UAH to help the wounded
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група
+    note:
+      uk: Закрита група
+      en: Private group
 status: unknown
 first_seen: 2025-10
 last_seen: "2025-11-22"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    description: A club for those just starting to speak English (A2–B1), with a teacher.
-    schedule_note: Selected Saturday meetings at 18:00 (November 2025).
-    notes: Based on the chat history of Kyiv clubs’ Telegram groups (read on 10.11.2026).
-    location.venue: "\"Cactus\" cafe"
-    price.amount: A donation of 400 UAH to help the wounded
-    contacts.0.note: Private group
-i18n_src:
-  name: 09308fd1
-  description: aee2024c
-  schedule_note: fe8f395f
-  notes: dd841777
-  location.venue: 728c0b10
-  price.amount: "66797136"
-  contacts.0.note: 8da26f35
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat history of Kyiv clubs’ Telegram groups (read on 10.11.2026).

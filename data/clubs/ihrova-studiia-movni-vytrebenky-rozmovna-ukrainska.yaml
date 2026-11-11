@@ -1,14 +1,22 @@
 id: ihrova-studiia-movni-vytrebenky-rozmovna-ukrainska
-name: Ігрова студія «Мовні витребеньки» (розмовна українська)
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Ігрова студія «Мовні витребеньки» (розмовна українська)
+  en: Play studio "Movni Vytrebenky" (conversational Ukrainian)
+description:
+  uk: Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека № 119 для дітей
-  address: вул. Кубанської України, 22
+  venue:
+    uk: Бібліотека № 119 для дітей
+    en: Children's Library No. 119
+  address:
+    uk: вул. Кубанської України, 22
+    en: 22 Kubanskoi Ukrainy St
   lat: 50.484749
   lon: 30.633349
   geocoded: true
@@ -27,24 +35,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 22 Kubanskoi Ukrainy St
-    name: Play studio "Movni Vytrebenky" (conversational Ukrainian)
-    location.venue: Children's Library No. 119
-  uk:
-    description: >-
-      Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці
-      Києва.
-    notes: >-
-      Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: e9e4b8f6
-  name: e8393083
-  description: 0402dd7e
-  notes: 35f55f76
-  location.venue: 994173d2
+notes:
+  uk: >-
+    Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). У
+    переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

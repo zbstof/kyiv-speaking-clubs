@@ -1,13 +1,23 @@
 id: lec-ein-deutsches-mittwoch-treffen
-name: Ein Deutsches Mittwoch Treffen
-description: Німецькомовні зустрічі по середах.
+name:
+  uk: Ein Deutsches Mittwoch Treffen
+  en: Ein Deutsches Mittwoch Treffen
+description:
+  uk: Німецькомовні зустрічі по середах.
+  en: German-speaking meetups on Wednesdays.
 languages:
   - de
 format: offline
 location:
-  venue: Кафе «Місто Лева»
-  address: вул. Спаська, 5
-  metro: Контрактова площа
+  venue:
+    uk: Кафе «Місто Лева»
+    en: Cafe "Misto Leva"
+  address:
+    uk: вул. Спаська, 5
+    en: 5 Spaska St
+  metro:
+    uk: Контрактова площа
+    en: Kontraktova Ploshcha
   lat: 50.465304
   lon: 30.516335
   geocoded: true
@@ -17,7 +27,9 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Середа 19:00–22:00.
+schedule_note:
+  uk: Середа 19:00–22:00.
+  en: Wednesday 19:00–22:00.
 price:
   free: true
 contacts:
@@ -26,20 +38,6 @@ contacts:
 status: unknown
 sources:
   - https://lec.link/
-notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
-i18n:
-  en:
-    location.address: 5 Spaska St
-    location.metro: Kontraktova Ploshcha
-    description: German-speaking meetups on Wednesdays.
-    schedule_note: Wednesday 19:00–22:00.
-    notes: Listed in the Language Exchange Club network directory (lec.link); listing date unknown.
-    location.venue: Cafe "Misto Leva"
-i18n_src:
-  location.address: 0eced0ca
-  location.metro: 377d7953
-  name: 6c8aa168
-  description: a2cdb0c9
-  schedule_note: 9c0185f2
-  notes: 158955cd
-  location.venue: 3a91acdb
+notes:
+  uk: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+  en: Listed in the Language Exchange Club network directory (lec.link); listing date unknown.

@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-spilno
-name: Розмовний клуб «Спільно»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Спільно»
+  en: "\"Spilno\" conversation club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Публічна бібліотека ім. С. Вургуна
-  address: вул. Олександра Архипенка, 3
+  venue:
+    uk: Публічна бібліотека ім. С. Вургуна
+    en: S. Vurhun Public Library
+  address:
+    uk: вул. Олександра Архипенка, 3
+    en: 3 Oleksandra Arkhypenka St
   lat: 50.494884
   lon: 30.518937
   geocoded: true
@@ -20,24 +30,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 3 Oleksandra Arkhypenka St
-    name: "\"Spilno\" conversation club"
-    location.venue: S. Vurhun Public Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках
-      не вказано час зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: fcf49747
-  name: 29d85752
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: 4dc8a4a8
+notes:
+  uk: >-
+    Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+    вказано час зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

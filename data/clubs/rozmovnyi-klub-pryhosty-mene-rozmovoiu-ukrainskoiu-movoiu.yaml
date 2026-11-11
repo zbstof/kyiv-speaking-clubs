@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-pryhosty-mene-rozmovoiu-ukrainskoiu-movoiu
-name: Розмовний клуб «Пригости мене розмовою – українською мовою!»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Пригости мене розмовою – українською мовою!»
+  en: Speaking club "Pryhosty mene rozmovoiu – ukrainskoiu movoiu!"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Публічна бібліотека імені Лесі Українки для дорослих
-  address: вул. Олександра Кониського (кол. Тургенєвська), 83/85
+  venue:
+    uk: Публічна бібліотека імені Лесі Українки для дорослих
+    en: Lesya Ukrainka Public Library for Adults
+  address:
+    uk: вул. Олександра Кониського (кол. Тургенєвська), 83/85
+    en: 83/85 Oleksandra Konyskoho (kol. Turhenievska) St
   lat: 50.45601
   lon: 30.488999
   geocoded: true
@@ -23,32 +33,12 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified. Not in
-  the Dec 2025 list (the library's club is now «НУМО» at the Vynnychenka branch).
-i18n:
-  en:
-    location.address: 83/85 Oleksandra Konyskoho (kol. Turhenievska) St
-    name: Speaking club "Pryhosty mene rozmovoiu – ukrainskoiu movoiu!"
-    notes: >-
-      Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the
-      2025-12-01 list. The lists give no meeting times. District inferred from the address, not
-      verified. Not in the Dec 2025 list (the library's club is now "NUMO" at the Vynnychenka
-      branch).
-    location.venue: Lesya Ukrainka Public Library for Adults
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку
-      від 2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою,
-      але не перевірено. Немає в переліку за Dec 2025 (тепер клуб бібліотеки — «НУМО» у філії на
-      Винниченка).
-i18n_src:
-  location.address: e79d76fa
-  name: 67d9eced
-  description: d15e99c9
-  notes: 935f387a
-  location.venue: 242a6210
+notes:
+  uk: >-
+    Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+    перевірено. Немає в переліку за Dec 2025 (тепер клуб бібліотеки — «НУМО» у філії на Винниченка).
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified. Not in
+    the Dec 2025 list (the library's club is now "NUMO" at the Vynnychenka branch).

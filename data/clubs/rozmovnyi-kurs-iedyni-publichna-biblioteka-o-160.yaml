@@ -1,14 +1,24 @@
 id: rozmovnyi-kurs-iedyni-publichna-biblioteka-o-160
-name: Розмовний курс «Єдині» — Публічна бібліотека № 160
-description: >-
-  Free Ukrainian conversation course/club of the «Єдині» movement (initiative «Навчай українською»)
-  at a Kyiv public library.
+name:
+  uk: Розмовний курс «Єдині» — Публічна бібліотека № 160
+  en: "\"Yedyni\" conversation course — Public Library No. 160"
+description:
+  uk: >-
+    Безоплатний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+    українською») у публічній бібліотеці Києва.
+  en: >-
+    Free Ukrainian conversation course/club run by the "Yedyni" movement ("Navchai ukrainskoiu"
+    initiative) at a Kyiv public library.
 languages:
   - uk
 format: offline
 location:
-  venue: Публічна бібліотека № 160 сімейного читання
-  address: проспект Петра Григоренка, 22/20
+  venue:
+    uk: Публічна бібліотека № 160 сімейного читання
+    en: Public Library No. 160 for Family Reading
+  address:
+    uk: проспект Петра Григоренка, 22/20
+    en: 22/20 Petra Hryhorenka Ave
   lat: 50.409076
   lon: 30.626737
   geocoded: true
@@ -26,28 +36,11 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 22/20 Petra Hryhorenka Ave
-    name: "\"Yedyni\" conversation course — Public Library No. 160"
-    description: >-
-      Free Ukrainian conversation course/club run by the "Yedyni" movement ("Navchai ukrainskoiu"
-      initiative) at a Kyiv public library.
-    location.venue: Public Library No. 160 for Family Reading
-  uk:
-    description: >-
-      Безоплатний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
-      українською») у публічній бібліотеці Києва.
-    notes: >-
-      Зазначено лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
-      2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
-      перевірено.
-i18n_src:
-  location.address: c1ed3a65
-  name: 740b7eba
-  description: 519a53f7
-  notes: 52736ebd
-  location.venue: 6b993e6c
+notes:
+  uk: >-
+    Зазначено лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+    перевірено.
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified.

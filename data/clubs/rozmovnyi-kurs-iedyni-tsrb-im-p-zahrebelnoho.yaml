@@ -1,14 +1,24 @@
 id: rozmovnyi-kurs-iedyni-tsrb-im-p-zahrebelnoho
-name: Розмовний курс «Єдині» — ЦРБ ім. П. Загребельного
-description: >-
-  Free Ukrainian conversation course/club of the «Єдині» movement (initiative «Навчай українською»)
-  at a Kyiv public library.
+name:
+  uk: Розмовний курс «Єдині» — ЦРБ ім. П. Загребельного
+  en: Conversation course "Yedyni" — P. Zahrebelnyi Central District Library
+description:
+  uk: >-
+    Безкоштовний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+    українською») у публічній бібліотеці Києва.
+  en: >-
+    Free Ukrainian conversation course/club of the "Yedyni" movement ("Navchai ukrainskoiu"
+    initiative) at a Kyiv public library.
 languages:
   - uk
 format: offline
 location:
-  venue: Центральна районна бібліотека ім. П. Загребельного (Деснянський р-н)
-  address: вул. Рональда Рейгана (кол. Теодора Драйзера), 6
+  venue:
+    uk: Центральна районна бібліотека ім. П. Загребельного (Деснянський р-н)
+    en: P. Zahrebelnyi Central District Library (Desnianskyi District)
+  address:
+    uk: вул. Рональда Рейгана (кол. Теодора Драйзера), 6
+    en: 6 Ronalda Reihana (kol. Teodora Draizera) St
   lat: 50.50205
   lon: 30.605572
   geocoded: true
@@ -29,27 +39,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 6 Ronalda Reihana (kol. Teodora Draizera) St
-    name: Conversation course "Yedyni" — P. Zahrebelnyi Central District Library
-    description: >-
-      Free Ukrainian conversation course/club of the "Yedyni" movement ("Navchai ukrainskoiu"
-      initiative) at a Kyiv public library.
-    location.venue: P. Zahrebelnyi Central District Library (Desnianskyi District)
-  uk:
-    description: >-
-      Безкоштовний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
-      українською») у публічній бібліотеці Києва.
-    notes: >-
-      Зазначено в обох переліках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: 0774b36c
-  name: 360367be
-  description: 519a53f7
-  notes: 35f55f76
-  location.venue: b171f17e
+notes:
+  uk: >-
+    Зазначено в обох переліках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+    переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

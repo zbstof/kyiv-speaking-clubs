@@ -1,14 +1,24 @@
 id: movoznavchyi-klub-rozmovliai-ukrainskoiu
-name: Мовознавчий клуб «Розмовляй українською»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Мовознавчий клуб «Розмовляй українською»
+  en: Linguistics club "Rozmovliai ukrainskoiu"
+description:
+  uk: >-
+    Безкоштовний клуб вивчення української мови та спілкування для дітей у публічній бібліотеці
+    Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека № 115 для дітей
-  address: вул. Оноре де Бальзака, 28
+  venue:
+    uk: Бібліотека № 115 для дітей
+    en: Children's Library No. 115
+  address:
+    uk: вул. Оноре де Бальзака, 28
+    en: 28 Onore De Balzaka St
   lat: 50.509226
   lon: 30.59261
   geocoded: true
@@ -24,30 +34,12 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. In 2023 listed as «Мовознавчий
-  гурток «Розмовляю українською»».
-i18n:
-  en:
-    location.address: 28 Onore De Balzaka St
-    name: Linguistics club "Rozmovliai ukrainskoiu"
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. In 2023 listed as
-      "Linguistics study group "Rozmovliaiu ukrainskoiu"".
-    location.venue: Children's Library No. 115
-  uk:
-    description: >-
-      Безкоштовний клуб вивчення української мови та спілкування для дітей у публічній бібліотеці
-      Києва.
-    notes: >-
-      Зазначено в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
-      Час зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. У 2023
-      році зазначено як «Мовознавчий гурток «Розмовляю українською»».
-i18n_src:
-  location.address: 60c39b76
-  name: 5ab416e9
-  description: 0402dd7e
-  notes: 4425b99c
-  location.venue: 43a05ee6
+notes:
+  uk: >-
+    Зазначено в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. У 2023 році
+    зазначено як «Мовознавчий гурток «Розмовляю українською»».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. In 2023 listed as
+    "Linguistics study group "Rozmovliaiu ukrainskoiu"".

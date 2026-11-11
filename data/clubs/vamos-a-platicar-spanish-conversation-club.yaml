@@ -1,6 +1,10 @@
 id: vamos-a-platicar-spanish-conversation-club
-name: Vamos a platicar (Spanish Conversation Club)
-description: "Spanish conversation club on Meetup: stories, experiences, opinions, games, in Spanish."
+name:
+  uk: Vamos a platicar (Розмовний клуб іспанської)
+  en: Vamos a platicar (Spanish Conversation Club)
+description:
+  uk: "Розмовний клуб іспанської на Meetup: історії, досвід, думки, ігри — іспанською."
+  en: "Spanish conversation club on Meetup: stories, experiences, opinions, games, in Spanish."
 languages:
   - es
 format: offline
@@ -11,15 +15,8 @@ organizer: Jesús Rosas (Meetup organizer)
 status: unknown
 sources:
   - https://www.meetup.com/Vamos-a-platicar/
-notes: Meetup group, city Kyiv, 41 members (2026-11); no upcoming or dated past events visible.
-i18n:
-  uk:
-    name: Vamos a platicar (Розмовний клуб іспанської)
-    description: "Розмовний клуб іспанської на Meetup: історії, досвід, думки, ігри — іспанською."
-    notes: >-
-      Група на Meetup, місто Київ, 41 учасник (2026-11); майбутніх подій або минулих подій із датами
-      не видно.
-i18n_src:
-  name: 5df618b4
-  description: 1d5cbcaa
-  notes: ed0b12b2
+notes:
+  uk: >-
+    Група на Meetup, місто Київ, 41 учасник (2026-11); майбутніх подій або минулих подій із датами
+    не видно.
+  en: Meetup group, city Kyiv, 41 members (2026-11); no upcoming or dated past events visible.

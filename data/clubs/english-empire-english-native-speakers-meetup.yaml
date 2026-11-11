@@ -1,15 +1,27 @@
 id: english-empire-english-native-speakers-meetup
-name: English Empire — English native speakers MeetUp
-description: Speaking clubs and lessons with a CELTA teacher from the UK and a programmer from the US.
+name:
+  uk: English Empire — зустріч із носіями англійської мови
+  en: English Empire — English native speakers MeetUp
+description:
+  uk: >-
+    Розмовні клуби та заняття з викладачем із Великої Британії із сертифікатом CELTA та програмістом
+    зі США.
+  en: Speaking clubs and lessons with a CELTA teacher from the UK and a programmer from the US.
 languages:
   - en
 format: offline
 location:
-  address: вул. Миколи Гоголя (Голего), 7В
-schedule_note: 2019-03-22 (no regular schedule given)
+  address:
+    uk: вул. Миколи Гоголя (Голего), 7В
+    en: 7V Mykoly Hoholia (Holeho) St
+schedule_note:
+  uk: 2019-03-22 (регулярний розклад не вказано)
+  en: 2019-03-22 (no regular schedule given)
 price:
   free: false
-  amount: $10 per session; first free after site registration
+  amount:
+    uk: $10 за заняття; перше безкоштовне після реєстрації на сайті
+    en: $10 per session; first free after site registration
 registration: required
 contacts:
   - type: website
@@ -20,19 +32,3 @@ first_seen: "2019-03-22"
 last_seen: "2019-03-22"
 sources:
   - https://dou.ua/calendar/25590/
-i18n:
-  en:
-    location.address: 7V Mykoly Hoholia (Holeho) St
-  uk:
-    name: English Empire — зустріч із носіями англійської мови
-    description: >-
-      Розмовні клуби та заняття з викладачем із Великої Британії із сертифікатом CELTA та
-      програмістом зі США.
-    schedule_note: 2019-03-22 (регулярний розклад не вказано)
-    price.amount: $10 за заняття; перше безкоштовне після реєстрації на сайті
-i18n_src:
-  location.address: d95bed82
-  name: d2fce402
-  description: ab9f7e02
-  schedule_note: c622cbd4
-  price.amount: 8bfd28cc

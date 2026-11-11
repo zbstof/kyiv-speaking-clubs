@@ -1,13 +1,23 @@
 id: chinese-speaking-club-khreshchatyk
-name: Офлайн-клуб китайської мови
-description: Безкоштовний розмовний клуб китайської (中文口语俱乐部).
+name:
+  uk: Офлайн-клуб китайської мови
+  en: In-person Chinese language club
+description:
+  uk: Безкоштовний розмовний клуб китайської (中文口语俱乐部).
+  en: Free Chinese speaking club (中文口语俱乐部).
 languages:
   - zh
 format: offline
 location:
-  venue: Пузата Хата
-  address: вул. Хрещатик, 15/4-А
-  metro: Хрещатик
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Хрещатик, 15/4-А
+    en: 15/4-A Khreshchatyk St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.447379
   lon: 30.525838
   geocoded: true
@@ -16,33 +26,20 @@ schedule:
     time: "13:00"
     frequency: irregular
     format: offline
-schedule_note: Зустрічі в суботу об 13:00 (грудень 2023); пізніше — за анонсами в групі.
+schedule_note:
+  uk: Зустрічі в суботу об 13:00 (грудень 2023); пізніше — за анонсами в групі.
+  en: Meetings on Saturdays at 13:00 (December 2023); after that, as announced in the group.
 price:
   free: true
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в організаторки
+    note:
+      uk: Закрита група; запрошення в організаторки
+      en: Private group; ask the organizer for an invitation
 status: unknown
 first_seen: 2023-12
 last_seen: 2025-01
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.address: 15/4-A Khreshchatyk St
-    location.metro: Khreshchatyk
-    name: In-person Chinese language club
-    description: Free Chinese speaking club (中文口语俱乐部).
-    schedule_note: Meetings on Saturdays at 13:00 (December 2023); after that, as announced in the group.
-    notes: Based on the chat histories of Kyiv clubs’ Telegram groups (read on 10.11.2026).
-    location.venue: Puzata Khata
-    contacts.0.note: Private group; ask the organizer for an invitation
-i18n_src:
-  location.address: 74b8437e
-  location.metro: 9f2c4b77
-  name: 574aab01
-  description: feb1d816
-  schedule_note: f6a58ad7
-  notes: dd841777
-  location.venue: be30a852
-  contacts.0.note: f428c83c
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat histories of Kyiv clubs’ Telegram groups (read on 10.11.2026).

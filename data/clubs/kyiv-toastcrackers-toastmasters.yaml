@@ -1,13 +1,23 @@
 id: kyiv-toastcrackers-toastmasters
-name: Kyiv Toastcrackers (Toastmasters)
-description: Toastmasters International club meeting at the House of Scientists.
+name:
+  uk: Kyiv Toastcrackers (Toastmasters)
+  en: Kyiv Toastcrackers (Toastmasters)
+description:
+  uk: Зустріч клубу Toastmasters International у Будинку вчених.
+  en: Toastmasters International club meeting at the House of Scientists.
 languages:
   - en
 format: offline
 location:
-  venue: Будинок вчених
-  address: вул. Володимирська, 45а
-  metro: Золоті ворота
+  venue:
+    uk: Будинок вчених
+    en: House of Scientists
+  address:
+    uk: вул. Володимирська, 45а
+    en: 45A Volodymyrska St
+  metro:
+    uk: Золоті ворота
+    en: Zoloti Vorota
   lat: 50.447971
   lon: 30.515502
   geocoded: true
@@ -15,7 +25,9 @@ schedule:
   - day: wed
     time: "19:00"
     frequency: weekly
-schedule_note: Wednesdays 7 p.m. (2010)
+schedule_note:
+  uk: Щосереди о 7 p.m. (2010)
+  en: Wednesdays 7 p.m. (2010)
 contacts:
   - type: website
     url: http://toastcrackers.kiev.ua
@@ -25,21 +37,6 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  en:
-    location.address: 45A Volodymyrska St
-    location.metro: Zoloti Vorota
-    location.venue: House of Scientists
-  uk:
-    description: Зустріч клубу Toastmasters International у Будинку вчених.
-    schedule_note: Щосереди о 7 p.m. (2010)
-    notes: Зазначено на дошці оголошень «Оголошення спільноти» в Kyiv Post, 2010-04-08.
-i18n_src:
-  location.address: 90c792e0
-  location.metro: e4cb2047
-  name: 4ccfc534
-  description: 7263b238
-  schedule_note: 62dea850
-  notes: 0150c68c
-  location.venue: c783f2c7
+notes:
+  uk: Зазначено на дошці оголошень «Оголошення спільноти» в Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

@@ -1,8 +1,16 @@
 id: english-speaking-librarians-club
-name: English-Speaking Librarians' Club
-description: >-
-  Club for library staff to practise English; part of the Ukrainian Library Association, under the
-  U.S. Embassy Information Resource Center. Started by Peace Corps volunteer librarian Donna Usher.
+name:
+  uk: Клуб англомовних бібліотекарів
+  en: English-Speaking Librarians' Club
+description:
+  uk: >-
+    Клуб для працівників бібліотек, де практикують англійську; діє в межах Української бібліотечної
+    асоціації під егідою Інформаційно-ресурсного центру Посольства США. Заснований бібліотекаркою
+    Донною Ашер, волонтеркою Корпусу миру.
+  en: >-
+    Club for library staff to practise English; part of the Ukrainian Library Association, under the
+    U.S. Embassy Information Resource Center. Started by Peace Corps volunteer librarian Donna
+    Usher.
 languages:
   - en
 format: offline
@@ -11,20 +19,10 @@ status: unknown
 first_seen: "1997"
 sources:
   - https://southernlibrarianship.icaap.org/content/v03n01/Barrett_g01.htm
-notes: >-
-  About 30 members from different libraries (source c. 2002). Only for librarians. No evidence of
-  activity after 2010 found.
-i18n:
-  uk:
-    name: Клуб англомовних бібліотекарів
-    description: >-
-      Клуб для працівників бібліотек, де практикують англійську; діє в межах Української
-      бібліотечної асоціації під егідою Інформаційно-ресурсного центру Посольства США. Заснований
-      бібліотекаркою Донною Ашер, волонтеркою Корпусу миру.
-    notes: >-
-      Близько 30 учасників із різних бібліотек (за джерелом приблизно 2002 року). Лише для
-      бібліотекарів. Відомостей про діяльність після 2010 року не знайдено.
-i18n_src:
-  name: 6ed8e8e6
-  description: 7ef653cd
-  notes: 34ef22e4
+notes:
+  uk: >-
+    Близько 30 учасників із різних бібліотек (за джерелом приблизно 2002 року). Лише для
+    бібліотекарів. Відомостей про діяльність після 2010 року не знайдено.
+  en: >-
+    About 30 members from different libraries (source c. 2002). Only for librarians. No evidence of
+    activity after 2010 found.

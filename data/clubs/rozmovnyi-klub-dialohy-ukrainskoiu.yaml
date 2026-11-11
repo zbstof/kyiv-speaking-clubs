@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-dialohy-ukrainskoiu
-name: Розмовний клуб «Діалоги українською»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Діалоги українською»
+  en: "\"Dialohy ukrainskoiu\" conversation club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. Марка Вовчка
-  address: проспект Науки, 63
+  venue:
+    uk: Бібліотека ім. Марка Вовчка
+    en: Marko Vovchok Library
+  address:
+    uk: проспект Науки, 63
+    en: 63 Nauky Ave
   lat: 50.376825
   lon: 30.538639
   geocoded: true
@@ -26,26 +36,12 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified. Not in
-  the Dec 2025 list.
-i18n:
-  en:
-    location.address: 63 Nauky Ave
-    name: "\"Dialohy ukrainskoiu\" conversation club"
-    location.venue: Marko Vovchok Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку
-      від 2025-12-01 відсутній. У переліках не вказано часу зустрічей. Район визначено за адресою,
-      але не перевірено. Немає в переліку за Dec 2025.
-i18n_src:
-  location.address: e36bf868
-  name: 9d85dd13
-  description: d15e99c9
-  notes: 8e6d1c21
-  location.venue: 3a7de18a
+notes:
+  uk: >-
+    Зазначений лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. У переліках не вказано часу зустрічей. Район визначено за адресою, але не
+    перевірено. Немає в переліку за Dec 2025.
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified. Not in
+    the Dec 2025 list.

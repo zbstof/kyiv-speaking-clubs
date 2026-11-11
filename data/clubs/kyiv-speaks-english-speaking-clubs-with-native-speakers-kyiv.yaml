@@ -1,15 +1,27 @@
 id: kyiv-speaks-english-speaking-clubs-with-native-speakers-kyiv
-name: Kyiv Speaks English — speaking clubs with native speakers (Kyiv City / Lingva.Skills)
-description: >-
-  City programme: free English speaking clubs with native speakers for 4,000 civil servants, plus
-  clubs at Kyiv City Hall open to all Kyivans; also clubs in schools.
+name:
+  uk: Kyiv Speaks English — розмовні клуби з носіями мови (місто Київ / Lingva.Skills)
+  en: Kyiv Speaks English — speaking clubs with native speakers (Kyiv City / Lingva.Skills)
+description:
+  uk: >-
+    Міська програма: безкоштовні розмовні клуби англійської з носіями мови для 4 000 держслужбовців,
+    а також клуби в Київській міській раді, відкриті для всіх киян; є й клуби у школах.
+  en: >-
+    City programme: free English speaking clubs with native speakers for 4,000 civil servants, plus
+    clubs at Kyiv City Hall open to all Kyivans; also clubs in schools.
 languages:
   - en
 format: offline
 location:
-  venue: Kyiv City State Administration building
-  address: вул. Хрещатик, 36
-  metro: Хрещатик
+  venue:
+    uk: Будівля Київської міської державної адміністрації
+    en: Kyiv City State Administration building
+  address:
+    uk: вул. Хрещатик, 36
+    en: 36 Khreshchatyk St
+  metro:
+    uk: Хрещатик
+    en: Khreshchatyk
   lat: 50.446247
   lon: 30.520873
   geocoded: true
@@ -23,27 +35,10 @@ last_seen: "2018"
 sources:
   - >-
     https://kyivcity.gov.ua/news/u_rozmovnikh_klubakh_iz_nosiyami_angliysko_movi_vizmut_uchast_4000_derzhavnikh_sluzhbovtsiv/
-notes: >-
-  Page returned 403; details from search snippets. Date (June 2018) from a search summary, not
-  verified on the page.
-i18n:
-  en:
-    location.address: 36 Khreshchatyk St
-    location.metro: Khreshchatyk
-  uk:
-    name: Kyiv Speaks English — розмовні клуби з носіями мови (місто Київ / Lingva.Skills)
-    description: >-
-      Міська програма: безкоштовні розмовні клуби англійської з носіями мови для 4 000
-      держслужбовців, а також клуби в Київській міській раді, відкриті для всіх киян; є й клуби у
-      школах.
-    notes: >-
-      Сторінка повернула помилку 403; подробиці взято з фрагментів пошукової видачі. Дата (June
-      2018) — з пошукового опису, на сторінці її не перевірено.
-    location.venue: Будівля Київської міської державної адміністрації
-i18n_src:
-  location.address: 77b9d767
-  location.metro: 9f2c4b77
-  name: 379038ee
-  description: 3addeb45
-  notes: 38fc3672
-  location.venue: 9c4bfbba
+notes:
+  uk: >-
+    Сторінка повернула помилку 403; подробиці взято з фрагментів пошукової видачі. Дата (June 2018)
+    — з пошукового опису, на сторінці її не перевірено.
+  en: >-
+    Page returned 403; details from search snippets. Date (June 2018) from a search summary, not
+    verified on the page.

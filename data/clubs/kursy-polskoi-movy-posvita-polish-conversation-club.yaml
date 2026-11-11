@@ -1,18 +1,28 @@
 id: kursy-polskoi-movy-posvita-polish-conversation-club
-name: "Курси польської мови Posvita: Polish conversation club"
-description: Paid language school in Kyiv that lists a Polish conversation club among its courses.
+name:
+  uk: "Курси польської мови Posvita: розмовний клуб польської мови"
+  en: "Posvita Polish language courses: Polish conversation club"
+description:
+  uk: Платна мовна школа в Києві, яка серед своїх курсів пропонує розмовний клуб польської мови.
+  en: Paid language school in Kyiv that lists a Polish conversation club among its courses.
 languages:
   - pl
 format: offline
 location:
-  venue: Курси польської мови Posvita
-  address: вул. Богдана Хмельницького, 17/52
+  venue:
+    uk: Курси польської мови Posvita
+    en: Posvita Polish language courses
+  address:
+    uk: вул. Богдана Хмельницького, 17/52
+    en: 17/52 Bohdana Khmelnytskoho St
   lat: 50.445607
   lon: 30.512736
   geocoded: true
 price:
   free: false
-  amount: від 89 грн/год (курси)
+  amount:
+    uk: від 89 грн/год (курси)
+    en: from 89 UAH/hour (courses)
 contacts:
   - type: website
     url: https://posvita.com.ua/
@@ -20,34 +30,14 @@ organizer: Курси польської мови Posvita
 status: unknown
 sources:
   - https://osvita.ua/languages/courses/36609/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  ). No schedule or format given. Phones on card: (097) 528-02-02. Club includes conversations,
-  role-play and themed seminars. Course price from 89 UAH/hour (club price not separate). Card has
-  no update date.
-i18n:
-  en:
-    location.address: 17/52 Bohdana Khmelnytskoho St
-    name: "Posvita Polish language courses: Polish conversation club"
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated ). No schedule or format given. Phones on card: (097) 528-02-02. Club includes
-      conversations, role-play and themed seminars. Course price from 89 UAH/hour (club price not
-      separate). Card has no update date.
-    location.venue: Posvita Polish language courses
-    price.amount: from 89 UAH/hour (courses)
-  uk:
-    name: "Курси польської мови Posvita: розмовний клуб польської мови"
-    description: Платна мовна школа в Києві, яка серед своїх курсів пропонує розмовний клуб польської мови.
-    notes: >-
-      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      ). Розклад і формат не вказані. Телефони в картці: (097) 528-02-02. Клуб передбачає бесіди,
-      рольові ігри й тематичні семінари. Вартість курсів — від 89 грн/год (окрему вартість клубу не
-      вказано). У картці немає дати оновлення.
-i18n_src:
-  location.address: b67fed93
-  name: 16f9ecbe
-  description: 583c7a10
-  notes: 70f36c74
-  location.venue: 7537ab08
-  price.amount: a4598400
+notes:
+  uk: >-
+    Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено ).
+    Розклад і формат не вказані. Телефони в картці: (097) 528-02-02. Клуб передбачає бесіди, рольові
+    ігри й тематичні семінари. Вартість курсів — від 89 грн/год (окрему вартість клубу не вказано).
+    У картці немає дати оновлення.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated ). No schedule or format given. Phones on card: (097) 528-02-02. Club includes
+    conversations, role-play and themed seminars. Course price from 89 UAH/hour (club price not
+    separate). Card has no update date.

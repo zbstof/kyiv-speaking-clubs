@@ -1,15 +1,27 @@
 id: darnytsia-language-exchange-club
-name: Darnytsia Language Exchange Club
-description: >-
-  Офлайн-клуб англійської біля метро «Дарниця». Зміни розкладу публікують у закріпленому
-  повідомленні групи.
+name:
+  uk: Клуб мовного обміну на Дарниці
+  en: Darnytsia Language Exchange Club
+description:
+  uk: >-
+    Офлайн-клуб англійської біля метро «Дарниця». Зміни розкладу публікують у закріпленому
+    повідомленні групи.
+  en: >-
+    An in-person English club near "Darnytsia" metro station. Schedule changes are posted in the
+    group's pinned message.
 languages:
   - en
 format: offline
 location:
-  venue: Пузата Хата
-  address: вул. Будівельників, 40
-  metro: Дарниця
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Будівельників, 40
+    en: 40 Budivelnykiv St
+  metro:
+    uk: Дарниця
+    en: Darnytsia
   lat: 50.454593
   lon: 30.611029
   geocoded: true
@@ -19,7 +31,9 @@ schedule:
     duration_min: 120
     frequency: weekly
     format: offline
-schedule_note: Зазвичай щочетверга о 19:00; зміни — у закріпленому повідомленні групи.
+schedule_note:
+  uk: Зазвичай щочетверга о 19:00; зміни — у закріпленому повідомленні групи.
+  en: Usually every Thursday at 19:00; changes are posted in the group's pinned message.
 price:
   free: true
 contacts:
@@ -33,30 +47,12 @@ last_seen: 2026-11
 sources:
   - https://t.me/Darnitsa_English
   - https://lec.link/
-notes: >-
-  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026. Публічна група, понад 380 учасників. У 2020–2021 частина зустрічей онлайн.
-  Клуб мережі LEC («English in Darnytsia»).
-i18n:
-  en:
-    location.address: 40 Budivelnykiv St
-    location.metro: Darnytsia
-    description: >-
-      An in-person English club near "Darnytsia" metro station. Schedule changes are posted in the
-      group's pinned message.
-    schedule_note: Usually every Thursday at 19:00; changes are posted in the group's pinned message.
-    notes: >-
-      Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
-      announcements; accessed 10.11.2026. Public group with over 380 members. In 2020–2021, some
-      meetings were held online. Part of the LEC network ("English in Darnytsia").
-    location.venue: Puzata Khata
-  uk:
-    name: Клуб мовного обміну на Дарниці
-i18n_src:
-  location.address: "93501251"
-  location.metro: cdb07720
-  name: 5ecd6d17
-  description: 6fd073ed
-  schedule_note: 06e561f6
-  notes: 0f7cc3b8
-  location.venue: be30a852
+notes:
+  uk: >-
+    Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+    прочитано 10.11.2026. Публічна група, понад 380 учасників. У 2020–2021 частина зустрічей онлайн.
+    Клуб мережі LEC («English in Darnytsia»).
+  en: >-
+    Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
+    announcements; accessed 10.11.2026. Public group with over 380 members. In 2020–2021, some
+    meetings were held online. Part of the LEC network ("English in Darnytsia").

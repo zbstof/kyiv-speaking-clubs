@@ -1,6 +1,10 @@
 id: wave-language-school-free-english-speaking-clubs
-name: Wave Language School free English speaking clubs
-description: Free English speaking clubs at weekends by Wave Language School.
+name:
+  uk: Безкоштовні розмовні клуби англійської від Wave Language School
+  en: Wave Language School free English speaking clubs
+description:
+  uk: Безкоштовні розмовні клуби англійської на вихідних від Wave Language School.
+  en: Free English speaking clubs at weekends by Wave Language School.
 languages:
   - en
 format: offline
@@ -21,7 +25,9 @@ schedule:
     time: "16:00"
     duration_min: 120
     frequency: weekly
-schedule_note: Saturdays 4–6 p.m. or 7–9 p.m.; Sundays 1–3 p.m. or 4–6 p.m. (2010)
+schedule_note:
+  uk: Щосуботи 4–6 p.m. або 7–9 p.m.; щонеділі 1–3 p.m. або 4–6 p.m. (2010)
+  en: Saturdays 4–6 p.m. or 7–9 p.m.; Sundays 1–3 p.m. or 4–6 p.m. (2010)
 price:
   free: true
 organizer: Wave Language School
@@ -30,15 +36,6 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Безкоштовні розмовні клуби англійської від Wave Language School
-    description: Безкоштовні розмовні клуби англійської на вихідних від Wave Language School.
-    schedule_note: Щосуботи 4–6 p.m. або 7–9 p.m.; щонеділі 1–3 p.m. або 4–6 p.m. (2010)
-    notes: Опубліковано на дошці оголошень «Оголошення громади» в Kyiv Post, 2010-04-08.
-i18n_src:
-  name: c5e8e67b
-  description: ddff16bb
-  schedule_note: 855d076d
-  notes: 0150c68c
+notes:
+  uk: Опубліковано на дошці оголошень «Оголошення громади» в Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

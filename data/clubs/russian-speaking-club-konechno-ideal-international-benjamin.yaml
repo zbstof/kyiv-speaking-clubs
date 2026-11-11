@@ -1,6 +1,12 @@
 id: russian-speaking-club-konechno-ideal-international-benjamin
-name: Russian speaking club 'Конечно'! (Ideal International / Benjamin Z Miller's Kyiv Group)
-description: Russian speaking club for expats, posted on a Kyiv Meetup group for expats and Ukrainians.
+name:
+  uk: Розмовний клуб російської мови «Конечно»! (Ideal International / Benjamin Z Miller's Kyiv Group)
+  en: Russian speaking club "Konechno"! (Ideal International / Benjamin Z Miller's Kyiv Group)
+description:
+  uk: >-
+    Розмовний клуб російської мови для експатів, опублікований у київській Meetup-групі для експатів
+    та українців.
+  en: Russian speaking club for expats, posted on a Kyiv Meetup group for expats and Ukrainians.
 languages:
   - ru
 schedule:
@@ -8,9 +14,15 @@ schedule:
     time: "16:00"
     duration_min: 60
     frequency: weekly
-schedule_note: >-
-  Щосереди о 16:00, 1 година. Місце бачать лише учасники Meetup-групи, тому не перевірено, наживо це
-  чи онлайн. На всіх подіях у Meetup записаний лише ведучий, тож чи збираються люди, не перевірено.
+schedule_note:
+  uk: >-
+    Щосереди о 16:00, 1 година. Місце бачать лише учасники Meetup-групи, тому не перевірено, наживо
+    це чи онлайн. На всіх подіях у Meetup записаний лише ведучий, тож чи збираються люди, не
+    перевірено.
+  en: >-
+    Every Wednesday at 16:00, 1 hour. The location is visible only to Meetup group members, so it
+    has not been verified whether this is in person or online. Only the host is signed up for all
+    events on Meetup, so whether people actually meet has not been verified.
 registration: required
 contacts:
   - type: meetup
@@ -24,28 +36,10 @@ sources:
   - https://www.meetup.com/find/ua--kyiv/networking/
   - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
   - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
-notes: >-
-  Meetup lists it as 'Every Wed'. Location 'visible to members', not tagged online, so probably in
-  person. Price not stated.
-i18n:
-  uk:
-    name: >-
-      Розмовний клуб російської мови «Конечно»! (Ideal International / Benjamin Z Miller's Kyiv
-      Group)
-    description: >-
-      Розмовний клуб російської мови для експатів, опублікований у київській Meetup-групі для
-      експатів та українців.
-    notes: >-
-      У Meetup зазначено «Щосереди». Місце «видиме учасникам», позначки «онлайн» немає, тож,
-      імовірно, зустрічі наживо. Ціну не вказано.
-  en:
-    name: Russian speaking club "Konechno"! (Ideal International / Benjamin Z Miller's Kyiv Group)
-    schedule_note: >-
-      Every Wednesday at 16:00, 1 hour. The location is visible only to Meetup group members, so it
-      has not been verified whether this is in person or online. Only the host is signed up for all
-      events on Meetup, so whether people actually meet has not been verified.
-i18n_src:
-  name: ab0f1cba
-  description: 972325fb
-  schedule_note: 8c0472c3
-  notes: eda38137
+notes:
+  uk: >-
+    У Meetup зазначено «Щосереди». Місце «видиме учасникам», позначки «онлайн» немає, тож, імовірно,
+    зустрічі наживо. Ціну не вказано.
+  en: >-
+    Meetup lists it as 'Every Wed'. Location 'visible to members', not tagged online, so probably in
+    person. Price not stated.

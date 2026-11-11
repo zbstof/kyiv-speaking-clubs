@@ -1,13 +1,23 @@
 id: european-business-association-toastmasters
-name: European Business Association Toastmasters
-description: Toastmasters club linked to the European Business Association.
+name:
+  uk: European Business Association Toastmasters
+  en: European Business Association Toastmasters
+description:
+  uk: Клуб Toastmasters, пов’язаний із Європейською Бізнес Асоціацією.
+  en: Toastmasters club linked to the European Business Association.
 languages:
   - en
 format: offline
 location:
-  venue: American Councils
-  address: вул. Мельникова, 63
-  metro: Лук'янівська
+  venue:
+    uk: American Councils
+    en: American Councils
+  address:
+    uk: вул. Мельникова, 63
+    en: 63 Melnykova St
+  metro:
+    uk: Лук'янівська
+    en: Lukianivska
   lat: 50.466251
   lon: 30.473878
   geocoded: true
@@ -15,7 +25,9 @@ schedule:
   - day: mon
     time: "19:30"
     frequency: weekly
-schedule_note: Mondays 7:30 p.m. (2010)
+schedule_note:
+  uk: Щопонеділка о 7:30 p.m. (2010)
+  en: Mondays 7:30 p.m. (2010)
 organizer: European Business Association
 status: unknown
 first_seen: "2008-09-24"
@@ -23,22 +35,10 @@ last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
   - https://dengi.ua/articles/1793524-yazykovye-razgovornye-klubyhtml
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Also quoted in dengi.ua 2008.
-i18n:
-  en:
-    location.address: 63 Melnykova St
-    location.metro: Lukianivska
-  uk:
-    description: Клуб Toastmasters, пов’язаний із Європейською Бізнес Асоціацією.
-    schedule_note: Щопонеділка о 7:30 p.m. (2010)
-    notes: >-
-      Зазначений у розділі оголошень «Оголошення громади» газети Kyiv Post від 2010-04-08. Також
-      згадувався на dengi.ua у 2008 році.
-i18n_src:
-  location.address: d91f56c5
-  location.metro: a1fa9b4c
-  name: f70fd685
-  description: 079efb60
-  schedule_note: 1c778d95
-  notes: a6f9b4e5
-  location.venue: f822d6b5
+notes:
+  uk: >-
+    Зазначений у розділі оголошень «Оголошення громади» газети Kyiv Post від 2010-04-08. Також
+    згадувався на dengi.ua у 2008 році.
+  en: >-
+    Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Also quoted in dengi.ua
+    2008.

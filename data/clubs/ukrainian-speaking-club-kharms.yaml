@@ -1,13 +1,23 @@
 id: ukrainian-speaking-club-kharms
-name: Розмовний клуб української мови
-description: Простір для практики розмовної української для всіх охочих.
+name:
+  uk: Розмовний клуб української мови
+  en: Ukrainian speaking club
+description:
+  uk: Простір для практики розмовної української для всіх охочих.
+  en: A space for anyone to practice conversational Ukrainian.
 languages:
   - uk
 format: offline
 location:
-  venue: Хармс
-  address: вул. Володимирська, 45А
-  metro: Золоті ворота
+  venue:
+    uk: Хармс
+    en: Kharms
+  address:
+    uk: вул. Володимирська, 45А
+    en: 45A Volodymyrska St
+  metro:
+    uk: Золоті ворота
+    en: Zoloti Vorota
   lat: 50.447971
   lon: 30.515502
   geocoded: true
@@ -16,7 +26,9 @@ schedule:
     time: "15:00"
     frequency: weekly
     format: offline
-schedule_note: Щонеділі о 15:00. Перша зустріч — у «Циферблаті» (серпень 2023).
+schedule_note:
+  uk: Щонеділі о 15:00. Перша зустріч — у «Циферблаті» (серпень 2023).
+  en: Every Sunday at 15:00. The first meeting was at "Tsyferblat" (August 2023).
 contacts:
   - type: telegram
     url: https://t.me/Ukrainian_speakingclub
@@ -25,21 +37,6 @@ contacts:
 status: unknown
 first_seen: 2023-08
 last_seen: "2025-04-02"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.address: 45A Volodymyrska St
-    location.metro: Zoloti Vorota
-    name: Ukrainian speaking club
-    description: A space for anyone to practice conversational Ukrainian.
-    schedule_note: Every Sunday at 15:00. The first meeting was at "Tsyferblat" (August 2023).
-    notes: Based on the chat history of Kyiv clubs' Telegram groups (accessed 10.11.2026).
-    location.venue: Kharms
-i18n_src:
-  location.address: 70c76080
-  location.metro: e4cb2047
-  name: d70ca86f
-  description: 52e9df5e
-  schedule_note: 0f4b5c96
-  notes: dd841777
-  location.venue: 2d8c146d
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat history of Kyiv clubs' Telegram groups (accessed 10.11.2026).

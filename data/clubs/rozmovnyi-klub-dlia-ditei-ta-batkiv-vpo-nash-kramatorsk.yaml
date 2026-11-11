@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-dlia-ditei-ta-batkiv-vpo-nash-kramatorsk
-name: Розмовний клуб для дітей та батьків ВПО «Наш Краматорськ»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб для дітей та батьків ВПО «Наш Краматорськ»
+  en: "\"Nash Kramatorsk\" speaking club for internally displaced children and parents"
+description:
+  uk: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека ім. Г. Квітки-Основ'яненка
-  address: вул. Завальна, 1-в
+  venue:
+    uk: Бібліотека ім. Г. Квітки-Основ'яненка
+    en: H. Kvitka-Osnovianenko Library
+  address:
+    uk: вул. Завальна, 1-в
+    en: 1-V Zavalna St
 price:
   free: true
 organizer: Бібліотека ім. Г. Квітки-Основ'яненка
@@ -20,30 +28,14 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified. For
-  displaced children and parents, with volunteers of the humanitarian aid centre «Наш Краматорськ».
-i18n:
-  en:
-    location.address: 1-V Zavalna St
-    name: "\"Nash Kramatorsk\" speaking club for internally displaced children and parents"
-    notes: >-
-      Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the
-      2025-12-01 list. The lists give no meeting times. District inferred from the address, not
-      verified. For displaced children and parents, with volunteers of the humanitarian aid centre
-      "Nash Kramatorsk".
-    location.venue: H. Kvitka-Osnovianenko Library
-  uk:
-    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці Києва.
-    notes: >-
-      Зазначений лише в переліку бібліотек департаменту культури Києва від 2023-08-17; у переліку
-      від 2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою,
-      але не перевірено. Для дітей і батьків із числа ВПО, за участю волонтерів центру гуманітарної
-      допомоги «Наш Краматорськ».
-i18n_src:
-  location.address: 8ad8d908
-  name: c5641831
-  description: 0402dd7e
-  notes: 777dd9c9
-  location.venue: e4a263e0
+notes:
+  uk: >-
+    Зазначений лише в переліку бібліотек департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+    перевірено. Для дітей і батьків із числа ВПО, за участю волонтерів центру гуманітарної допомоги
+    «Наш Краматорськ».
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified. For
+    displaced children and parents, with volunteers of the humanitarian aid centre "Nash
+    Kramatorsk".

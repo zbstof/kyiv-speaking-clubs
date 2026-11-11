@@ -1,16 +1,28 @@
 id: lec-philosophy-club
-name: LEC Philosophy Club
-description: >-
-  An English-language philosophy club. In-person meetings every Sunday: the topic of the week is
-  announced in advance.
+name:
+  uk: LEC Philosophy Club
+  en: LEC Philosophy Club
+description:
+  uk: "Англомовний філософський клуб. Очні зустрічі щонеділі: тему тижня оголошують заздалегідь."
+  en: >-
+    An English-language philosophy club. In-person meetings every Sunday: the topic of the week is
+    announced in advance.
 languages:
   - en
 format: offline
 location:
-  venue: Puzata Khata
-  address: 1/2 Baseina Street
-  metro: Ploshcha Ukrainskykh Heroiv
-  note: 2 поверх, зала без бару
+  venue:
+    uk: Пузата Хата
+    en: Puzata Khata
+  address:
+    uk: вул. Басейна, 1/2
+    en: 1/2 Baseina Street
+  metro:
+    uk: Площа Українських Героїв
+    en: Ploshcha Ukrainskykh Heroiv
+  note:
+    uk: 2 поверх, зала без бару
+    en: 2nd floor, room without a bar
   lat: 50.44203
   lon: 30.522755
   geocoded: true
@@ -20,19 +32,25 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Every Sunday 18:00–21:00. The topic of the week is posted in the group and channel.
+schedule_note:
+  uk: Щонеділі 18:00–21:00. Тему тижня публікують у групі та каналі.
+  en: Every Sunday 18:00–21:00. The topic of the week is posted in the group and channel.
 price:
   free: true
 registration: none
 contacts:
   - type: telegram
     url: https://t.me/lec_philosophy
-    note: "канал: анонси, теми й опитування"
+    note:
+      uk: "канал: анонси, теми й опитування"
+      en: "channel: announcements, topics and polls"
     members: 51
     members_checked: "2026-11-10"
   - type: telegram
     url: https://t.me/LEC_Philosophy_club
-    note: чат клубу
+    note:
+      uk: чат клубу
+      en: club chat
     members: 884
     members_checked: "2026-11-10"
 organizer: https://t.me/zbstof
@@ -43,27 +61,6 @@ last_checked: "2026-11-10"
 sources:
   - https://lec.link/
   - https://t.me/lec_philosophy
-notes: "Part of the Language Exchange Club (LEC) network: \"Philosophy Meeting in English\"."
-i18n:
-  uk:
-    location.metro: Площа Українських Героїв
-    location.venue: Пузата Хата
-    location.address: вул. Басейна, 1/2
-    description: "Англомовний філософський клуб. Очні зустрічі щонеділі: тему тижня оголошують заздалегідь."
-    schedule_note: Щонеділі 18:00–21:00. Тему тижня публікують у групі та каналі.
-    notes: "Частина мережі Language Exchange Club (LEC): «Philosophy Meeting in English»."
-  en:
-    location.note: 2nd floor, room without a bar
-    contacts.0.note: "channel: announcements, topics and polls"
-    contacts.1.note: club chat
-i18n_src:
-  location.metro: a79e299c
-  name: 76fb43f6
-  description: 3a416db4
-  schedule_note: fc304449
-  location.venue: 3609d5b5
-  location.address: ade6ee8f
-  location.note: b465797b
-  contacts.0.note: 4c066ce0
-  contacts.1.note: d58feb56
-  notes: 4bcf5f73
+notes:
+  uk: "Частина мережі Language Exchange Club (LEC): «Philosophy Meeting in English»."
+  en: "Part of the Language Exchange Club (LEC) network: \"Philosophy Meeting in English\"."

@@ -1,16 +1,26 @@
 id: movnyi-klub-spilkuiemos-ukrainskoiu-vcentri-hub-holosiiv
-name: Мовний клуб «Спілкуємось українською» (Vcentri HUB Голосіїв)
-description: >-
-  Free Ukrainian language club for internally displaced people and Kyiv residents at the city
-  community space Vcentri HUB.
+name:
+  uk: Мовний клуб «Спілкуємось українською» (Vcentri HUB Голосіїв)
+  en: "\"Spilkuiemos ukrainskoiu\" language club (Vcentri HUB Holosiiv)"
+description:
+  uk: >-
+    Безкоштовний клуб української мови для внутрішньо переміщених осіб і киян у міському
+    громадському просторі Vcentri HUB.
+  en: >-
+    Free Ukrainian language club for internally displaced people and Kyiv residents at the city
+    community space Vcentri HUB.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: "Громадський простір Vcentri HUB: Голосіїв"
-  address: вул. Велика Китаївська, 83
+  venue:
+    uk: "Громадський простір Vcentri HUB: Голосіїв"
+    en: "Vcentri HUB community space: Holosiiv"
+  address:
+    uk: вул. Велика Китаївська, 83
+    en: 83 Velyka Kytaivska St
   lat: 50.39906
   lon: 30.531803
   geocoded: true
@@ -20,9 +30,14 @@ schedule:
     duration_min: 90
     frequency: weekly
     format: offline
-schedule_note: >-
-  Влітку 2026 щосереди 13:30–15:00 (8 липня – 2 вересня), навесні — по вівторках. З вересня 2026
-  клубу немає в тижневих анонсах. Реєстрація за телефоном 093 549 69 85.
+schedule_note:
+  uk: >-
+    Влітку 2026 щосереди 13:30–15:00 (8 липня – 2 вересня), навесні — по вівторках. З вересня 2026
+    клубу немає в тижневих анонсах. Реєстрація за телефоном 093 549 69 85.
+  en: >-
+    In summer 2026, every Wednesday 13:30–15:00 (8 July – 2 September); in spring, on Tuesdays.
+    Since September 2026, the club has not appeared in weekly announcements. Register by phone: 093
+    549 69 85.
 price:
   free: true
 registration: required
@@ -56,29 +71,10 @@ sources:
   - https://t.me/vcentri/18663
   - https://t.me/vcentri/19599
   - https://t.me/vcentri/20781
-notes: >-
-  Seen in KMDA weekly Vcentri HUB digests; weekly frequency inferred from repeated Tuesday slots.
-  Not verified after May 2026.
-i18n:
-  en:
-    location.address: 83 Velyka Kytaivska St
-    name: "\"Spilkuiemos ukrainskoiu\" language club (Vcentri HUB Holosiiv)"
-    schedule_note: >-
-      In summer 2026, every Wednesday 13:30–15:00 (8 July – 2 September); in spring, on Tuesdays.
-      Since September 2026, the club has not appeared in weekly announcements. Register by phone:
-      093 549 69 85.
-    location.venue: "Vcentri HUB community space: Holosiiv"
-  uk:
-    description: >-
-      Безкоштовний клуб української мови для внутрішньо переміщених осіб і киян у міському
-      громадському просторі Vcentri HUB.
-    notes: >-
-      Згадується в щотижневих дайджестах КМДА про Vcentri HUB; щотижневу періодичність визначено за
-      повторюваними зустрічами по вівторках. Після травня 2026 не перевірено.
-i18n_src:
-  location.address: 71a4f62d
-  name: 5d57e599
-  description: a9cc3023
-  schedule_note: 082898d6
-  notes: 2bd5cbef
-  location.venue: 73603b3d
+notes:
+  uk: >-
+    Згадується в щотижневих дайджестах КМДА про Vcentri HUB; щотижневу періодичність визначено за
+    повторюваними зустрічами по вівторках. Після травня 2026 не перевірено.
+  en: >-
+    Seen in KMDA weekly Vcentri HUB digests; weekly frequency inferred from repeated Tuesday slots.
+    Not verified after May 2026.

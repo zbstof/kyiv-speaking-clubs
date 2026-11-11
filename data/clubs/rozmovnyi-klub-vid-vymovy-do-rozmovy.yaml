@@ -1,14 +1,22 @@
 id: rozmovnyi-klub-vid-vymovy-do-rozmovy
-name: Розмовний клуб «Від вимови до розмови»
-description: Free Ukrainian language/conversation club for children at a Kyiv public library.
+name:
+  uk: Розмовний клуб «Від вимови до розмови»
+  en: Speaking club "Vid vymovy do rozmovy"
+description:
+  uk: Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці Києва.
+  en: Free Ukrainian language/conversation club for children at a Kyiv public library.
 languages:
   - uk
 levels:
   - any
 format: offline
 location:
-  venue: Бібліотека ім. А. Костецького для дітей
-  address: Артилерійський провулок, 1-а
+  venue:
+    uk: Бібліотека ім. А. Костецького для дітей
+    en: A. Kostetskyi Children's Library
+  address:
+    uk: Артилерійський провулок, 1-а
+    en: 1-A Artyleriiskyi Ln
   lat: 50.46003
   lon: 30.421182
   geocoded: true
@@ -27,24 +35,10 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 1-A Artyleriiskyi Ln
-    name: Speaking club "Vid vymovy do rozmovy"
-    location.venue: A. Kostetskyi Children's Library
-  uk:
-    description: >-
-      Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці
-      Києва.
-    notes: >-
-      Зазначений в обох переліках бібліотек київського департаменту культури (2023-08-17 та
-      2025-12-01). Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: ac93ec71
-  name: deb4f549
-  description: 0402dd7e
-  notes: 35f55f76
-  location.venue: 4e53232b
+notes:
+  uk: >-
+    Зазначений в обох переліках бібліотек київського департаменту культури (2023-08-17 та
+    2025-12-01). Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified.

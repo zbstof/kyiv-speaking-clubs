@@ -1,12 +1,20 @@
 id: deutsches-sprachzentrum-german-conversation-club
-name: "Deutsches Sprachzentrum: German conversation club"
-description: Paid language school in Kyiv that lists a German conversation club among its courses.
+name:
+  uk: "Deutsches Sprachzentrum: розмовний клуб німецької мови"
+  en: "Deutsches Sprachzentrum: German conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+  en: Paid language school in Kyiv that lists a German conversation club among its courses.
 languages:
   - de
 format: offline
 location:
-  venue: Deutsches Sprachzentrum
-  address: вул. Лютеранська, 5, оф. 312; вул. Кропивницького, 6, офіс 9
+  venue:
+    uk: Deutsches Sprachzentrum
+    en: Deutsches Sprachzentrum
+  address:
+    uk: вул. Лютеранська, 5, оф. 312; вул. Кропивницького, 6, офіс 9
+    en: 5 Liuteranska St, office 312; 6 Kropyvnytskoho St, office 9
 contacts:
   - type: website
     url: https://dszentrum.com.ua/
@@ -17,27 +25,12 @@ last_seen: "2019-07-04"
 sources:
   - https://osvita.ua/languages/courses/37089/
   - https://osvita.ua/languages/courses/37142/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  04.07.2019). No schedule or format given. Phones on card: (044) 383-45-00. Second card with the
-  Kropyvnytskoho address: https://osvita.ua/languages/courses/37142/.
-i18n:
-  uk:
-    name: "Deutsches Sprachzentrum: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
-    notes: >-
-      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      04.07.2019). Розклад і формат не вказані. Телефони в картці: (044) 383-45-00. Друга картка з
-      адресою на вул. Кропивницького: https://osvita.ua/languages/courses/37142/.
-  en:
-    notes: >-
-      Listed only as a course item "Speaking club" in the school's osvita.ua catalog card (card
-      updated 04.07.2019). No schedule or format given. Phones on card: (044) 383-45-00. Second card
-      with the Kropyvnytskoho address: https://osvita.ua/languages/courses/37142/.
-    location.address: 5 Liuteranska St, office 312; 6 Kropyvnytskoho St, office 9
-i18n_src:
-  name: 082d61d0
-  description: 69ecb131
-  notes: 40efa70f
-  location.venue: "15536995"
-  location.address: d17c0d7e
+notes:
+  uk: >-
+    Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    04.07.2019). Розклад і формат не вказані. Телефони в картці: (044) 383-45-00. Друга картка з
+    адресою на вул. Кропивницького: https://osvita.ua/languages/courses/37142/.
+  en: >-
+    Listed only as a course item "Speaking club" in the school's osvita.ua catalog card (card
+    updated 04.07.2019). No schedule or format given. Phones on card: (044) 383-45-00. Second card
+    with the Kropyvnytskoho address: https://osvita.ua/languages/courses/37142/.

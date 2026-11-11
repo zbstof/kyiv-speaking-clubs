@@ -1,14 +1,26 @@
 id: rozmovnyi-klub-movosvit-movnyi-prostir-movosvit-na-osvity-ts
-name: Розмовний клуб «Мовосвіт» / мовний простір «МовоСвіт на Освіти» (ЦРБ ім. Г. Сковороди)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Мовосвіт» / мовний простір «МовоСвіт на Освіти» (ЦРБ ім. Г. Сковороди)
+  en: >-
+    Speaking club "Movosvit" / language space "MovoSvit na Osvity" (H. Skovoroda Central District
+    Library)
+description:
+  uk: >-
+    Безплатний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто переходить
+    на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Центральна районна бібліотека ім. Г. Сковороди (ЦБС Солом'янського району)
-  address: вул. Освіти, 14а
+  venue:
+    uk: Центральна районна бібліотека ім. Г. Сковороди (ЦБС Солом'янського району)
+    en: H. Skovoroda Central District Library (Solomianskyi District Centralized Library System)
+  address:
+    uk: вул. Освіти, 14а
+    en: 14A Osvity St
   lat: 50.424222
   lon: 30.466434
   geocoded: true
@@ -33,39 +45,17 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: «Розмовний клуб для
-  дорослих «У суботу о 12-тій»» plus group and individual lessons. 2025: club «Мовосвіт» in
-  partnership with «Єдині»; advanced and basic Ukrainian courses for adults, teen courses, NMT prep
-  online, children's groups in speaking-club format. Telegram channel @movosvit.
-i18n:
-  en:
-    location.address: 14A Osvity St
-    name: >-
-      Speaking club "Movosvit" / language space "MovoSvit na Osvity" (H. Skovoroda Central District
-      Library)
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: "Speaking club
-      for adults \"U subotu o 12-tii\"" plus group and individual lessons. 2025: club "Movosvit" in
-      partnership with "Yedyni"; advanced and basic Ukrainian courses for adults, teen courses, NMT
-      prep online, children's groups in speaking-club format. Telegram channel @movosvit.
-    location.venue: H. Skovoroda Central District Library (Solomianskyi District Centralized Library System)
-  uk:
-    description: >-
-      Безплатний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений в обох бібліотечних переліках Департаменту культури Києва (2023-08-17 і
-      2025-12-01). Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
-      2023: «Розмовний клуб для дорослих «У суботу о 12-тій»», а також групові та індивідуальні
-      заняття. 2025: клуб «Мовосвіт» у партнерстві з «Єдині»; поглиблені та базові курси української
-      для дорослих, курси для підлітків, підготовка до НМТ онлайн, дитячі групи у форматі розмовного
-      клубу. Телеграм-канал @movosvit.
-i18n_src:
-  location.address: 4c49c9ef
-  name: fb110e34
-  description: d15e99c9
-  notes: 214c033d
-  location.venue: 3a1dda4f
+notes:
+  uk: >-
+    Зазначений в обох бібліотечних переліках Департаменту культури Києва (2023-08-17 і 2025-12-01).
+    Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023:
+    «Розмовний клуб для дорослих «У суботу о 12-тій»», а також групові та індивідуальні заняття.
+    2025: клуб «Мовосвіт» у партнерстві з «Єдині»; поглиблені та базові курси української для
+    дорослих, курси для підлітків, підготовка до НМТ онлайн, дитячі групи у форматі розмовного
+    клубу. Телеграм-канал @movosvit.
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: "Speaking club for
+    adults \"U subotu o 12-tii\"" plus group and individual lessons. 2025: club "Movosvit" in
+    partnership with "Yedyni"; advanced and basic Ukrainian courses for adults, teen courses, NMT
+    prep online, children's groups in speaking-club format. Telegram channel @movosvit.

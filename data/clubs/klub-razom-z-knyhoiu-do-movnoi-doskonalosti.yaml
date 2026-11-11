@@ -1,14 +1,24 @@
 id: klub-razom-z-knyhoiu-do-movnoi-doskonalosti
-name: Клуб «Разом з книгою до мовної досконалості»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Разом з книгою до мовної досконалості»
+  en: Club "Razom z knyhoiu do movnoi doskonalosti"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. А. Малишка
-  address: вул. Миропільська, 19
+  venue:
+    uk: Бібліотека ім. А. Малишка
+    en: A. Malyshko Library
+  address:
+    uk: вул. Миропільська, 19
+    en: 19 Myropilska St
   lat: 50.467339
   lon: 30.62427
   geocoded: true
@@ -23,24 +33,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 19 Myropilska St
-    name: Club "Razom z knyhoiu do movnoi doskonalosti"
-    location.venue: A. Malyshko Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений у переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках
-      немає часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: 79b28b6a
-  name: 25f2f493
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: "40132779"
+notes:
+  uk: >-
+    Зазначений у переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках
+    немає часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

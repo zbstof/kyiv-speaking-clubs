@@ -1,29 +1,26 @@
 id: english-speaking-club-at-pizzeria-mozaika
-name: English Speaking Club at pizzeria Mozaika
-description: English speaking club at a pizzeria, meeting at a convenient time.
+name:
+  uk: Розмовний клуб англійської в піцерії «Мозаїка»
+  en: English Speaking Club at pizzeria Mozaika
+description:
+  uk: Розмовний клуб англійської в піцерії, зустрічі у зручний час.
+  en: English speaking club at a pizzeria, meeting at a convenient time.
 languages:
   - en
 format: offline
 location:
-  venue: Pizzeria Mozaika
-schedule_note: Any convenient time (2010)
+  venue:
+    uk: Піцерія «Мозаїка»
+    en: Pizzeria Mozaika
+schedule_note:
+  uk: Будь-який зручний час (2010)
+  en: Any convenient time (2010)
 organizer: Tanya (as listed)
 status: unknown
 first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  uk:
-    name: Розмовний клуб англійської в піцерії «Мозаїка»
-    description: Розмовний клуб англійської в піцерії, зустрічі у зручний час.
-    schedule_note: Будь-який зручний час (2010)
-    notes: Оголошення розміщено на дошці «Оголошення громади» видання Kyiv Post, 2010-04-08.
-    location.venue: Піцерія «Мозаїка»
-i18n_src:
-  name: c509f618
-  description: 4cf6ff00
-  schedule_note: d27668ff
-  notes: 0150c68c
-  location.venue: 62b419f3
+notes:
+  uk: Оголошення розміщено на дошці «Оголошення громади» видання Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

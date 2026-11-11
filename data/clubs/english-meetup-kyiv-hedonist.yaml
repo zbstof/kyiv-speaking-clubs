@@ -1,8 +1,14 @@
 id: english-meetup-kyiv-hedonist
-name: English Meetup in Kyiv
-description: >-
-  Платний англомовний нетворкінг: 8 раундів по 10 хвилин з різними співрозмовниками, далі вільне
-  спілкування. Рівень intermediate і вище.
+name:
+  uk: Англомовна зустріч у Києві
+  en: English Meetup in Kyiv
+description:
+  uk: >-
+    Платний англомовний нетворкінг: 8 раундів по 10 хвилин з різними співрозмовниками, далі вільне
+    спілкування. Середній рівень і вище.
+  en: >-
+    Paid networking in English: 8 rounds of 10 minutes with different conversation partners,
+    followed by informal conversation. Intermediate level and above.
 languages:
   - en
 levels:
@@ -12,9 +18,15 @@ levels:
   - C2
 format: offline
 location:
-  venue: Hedonist Bar
-  address: вул. Антоновича, 45
-  note: Бар-укриття
+  venue:
+    uk: Hedonist Bar
+    en: Hedonist Bar
+  address:
+    uk: вул. Антоновича, 45
+    en: 45 Antonovycha St
+  note:
+    uk: Бар-укриття
+    en: Shelter bar
   lat: 50.432598
   lon: 30.514024
   geocoded: true
@@ -24,41 +36,23 @@ schedule:
     duration_min: 90
     frequency: irregular
     format: offline
-schedule_note: Окремі івенти, приблизно раз на місяць; останній — 28.10.2026, реєстрація з 18:30.
+schedule_note:
+  uk: Окремі івенти, приблизно раз на місяць; останній — 28.10.2026, реєстрація з 18:30.
+  en: >-
+    Individual events, about once a month; the latest was on 28.10.2026, with registration from
+    18:30.
 price:
   free: false
-  amount: 400 грн (ранній квиток; включає напій)
+  amount:
+    uk: 400 грн (ранній квиток; включає напій)
+    en: 400 UAH (early-bird ticket; includes a drink)
 registration: required
 status: active
 last_seen: "2026-10-28"
-notes: >-
-  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026.
-i18n:
-  en:
-    location.address: 45 Antonovycha St
-    description: >-
-      Paid networking in English: 8 rounds of 10 minutes with different conversation partners,
-      followed by informal conversation. Intermediate level and above.
-    schedule_note: >-
-      Individual events, about once a month; the latest was on 28.10.2026, with registration from
-      18:30.
-    notes: >-
-      Mentioned in the Speaking Event Club chat (Telegram), where members of different clubs share
-      event announcements; read on 10.11.2026.
-    location.note: Shelter bar
-    price.amount: 400 UAH (early-bird ticket; includes a drink)
-  uk:
-    name: Англомовна зустріч у Києві
-    description: >-
-      Платний англомовний нетворкінг: 8 раундів по 10 хвилин з різними співрозмовниками, далі вільне
-      спілкування. Середній рівень і вище.
-i18n_src:
-  location.address: af46e36a
-  name: f751e571
-  description: 2e5a0506
-  schedule_note: a6610603
-  notes: 06a4e503
-  location.venue: 3b268880
-  location.note: 4707ec79
-  price.amount: e663c9c7
+notes:
+  uk: >-
+    Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+    прочитано 10.11.2026.
+  en: >-
+    Mentioned in the Speaking Event Club chat (Telegram), where members of different clubs share
+    event announcements; read on 10.11.2026.

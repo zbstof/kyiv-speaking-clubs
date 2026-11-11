@@ -1,14 +1,24 @@
 id: biblioteka-im-ie-kravchenka-dlia-iunatstva-promova-knyzhkovy
-name: "Бібліотека ім. Є. Кравченка для юнацтва: «ПроМова» / «Книжковий клуб поряд із домом»"
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: "Бібліотека ім. Є. Кравченка для юнацтва: «ПроМова» / «Книжковий клуб поряд із домом»"
+  en: "Ye. Kravchenko Youth Library: \"ProMova\" / \"Book Club Near Home\""
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. Є. Кравченка для юнацтва
-  address: вул. Ентузіастів, 51/24
+  venue:
+    uk: Бібліотека ім. Є. Кравченка для юнацтва
+    en: Ye. Kravchenko Youth Library
+  address:
+    uk: вул. Ентузіастів, 51/24
+    en: 51/24 Entuziastiv St
   lat: 50.445186
   lon: 30.592209
   geocoded: true
@@ -27,30 +37,12 @@ sources:
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023: «Проєкт з опанування
-  розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
-i18n:
-  en:
-    location.address: 51/24 Entuziastiv St
-    name: "Ye. Kravchenko Youth Library: \"ProMova\" / \"Book Club Near Home\""
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023: "ProMova
-      conversational Ukrainian learning project"; 2025: "Book Club Near Home".
-    location.venue: Ye. Kravchenko Youth Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
-      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023: «Проєкт
-      з опанування розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
-i18n_src:
-  location.address: f3157a82
-  name: a6c20dca
-  description: d15e99c9
-  notes: d5b47ea0
-  location.venue: 3c8c2f09
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023: «Проєкт з
+    опанування розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023: "ProMova
+    conversational Ukrainian learning project"; 2025: "Book Club Near Home".

@@ -1,14 +1,23 @@
 id: vadym-stolar-foundation-language-club
-name: Vadim Stolar Foundation Language Club (Ukrainian Language Course project)
-description: >-
-  Language club inside the charity project «Курс української мови» for people who want to speak
-  Ukrainian freely but fear mistakes; announced with online and offline (Kyiv) meetings.
+name:
+  uk: Мовний клуб Фонду Вадима Столара (проєкт «Курс української мови»)
+  en: Vadim Stolar Foundation Language Club (Ukrainian Language Course project)
+description:
+  uk: >-
+    Мовний клуб у межах благодійного проєкту «Курс української мови» для людей, які хочуть вільно
+    говорити українською, але бояться помилок; анонсовано онлайн- та офлайн-зустрічі (Київ).
+  en: >-
+    Language club within the charity project "Ukrainian Language Course" for people who want to
+    speak Ukrainian freely but fear making mistakes; online and offline (Kyiv) meetings were
+    announced.
 languages:
   - uk
 levels:
   - any
 format: hybrid
-schedule_note: Announced 18 Feb 2026; meeting dates to be announced on the foundation's pages.
+schedule_note:
+  uk: Анонсовано 18 Feb 2026; дати зустрічей повідомлять на сторінках фонду.
+  en: Announced 18 Feb 2026; meeting dates to be announced on the foundation's pages.
 contacts:
   - type: telegram
     url: https://t.me/ukrainemova
@@ -29,28 +38,12 @@ last_seen: "2026-02-18"
 sources:
   - >-
     https://stolarfund.com/en/news/we-are-preparing-to-launch-a-language-club-within-the-ukrainian-language-course-project
-notes: >-
-  Announced as in preparation in Feb 2026; launch not verified. Telegram channel t.me/ukrainemova
-  had 2,756 members (Nov 2026); the public web preview showed no club posts. Price not stated; the
-  course project is charitable.
-i18n:
-  uk:
-    name: Мовний клуб Фонду Вадима Столара (проєкт «Курс української мови»)
-    description: >-
-      Мовний клуб у межах благодійного проєкту «Курс української мови» для людей, які хочуть вільно
-      говорити українською, але бояться помилок; анонсовано онлайн- та офлайн-зустрічі (Київ).
-    schedule_note: Анонсовано 18 Feb 2026; дати зустрічей повідомлять на сторінках фонду.
-    notes: >-
-      У Feb 2026 повідомлялося про підготовку клубу; запуск не підтверджено. Telegram-канал
-      t.me/ukrainemova мав 2,756 учасників (Nov 2026); у відкритому вебперегляді дописів про клуб не
-      було. Вартість не вказано; проєкт курсу є благодійним.
-  en:
-    description: >-
-      Language club within the charity project "Ukrainian Language Course" for people who want to
-      speak Ukrainian freely but fear making mistakes; online and offline (Kyiv) meetings were
-      announced.
-i18n_src:
-  name: c6c000f3
-  description: 484a38bc
-  schedule_note: 45022f17
-  notes: d356a74f
+notes:
+  uk: >-
+    У Feb 2026 повідомлялося про підготовку клубу; запуск не підтверджено. Telegram-канал
+    t.me/ukrainemova мав 2,756 учасників (Nov 2026); у відкритому вебперегляді дописів про клуб не
+    було. Вартість не вказано; проєкт курсу є благодійним.
+  en: >-
+    Announced as in preparation in Feb 2026; launch not verified. Telegram channel t.me/ukrainemova
+    had 2,756 members (Nov 2026); the public web preview showed no club posts. Price not stated; the
+    course project is charitable.

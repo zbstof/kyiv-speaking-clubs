@@ -1,14 +1,24 @@
 id: hearth-of-svitoria-english-club
-name: Off the Page | English Conversation in Kyiv
-description: >-
-  Безкоштовний англомовний клуб: розмови, фільми, прогулянки, без уроків і тестів. Організатори
-  також залучають волонтерів-носіїв мови.
+name:
+  uk: Off the Page | Спілкування англійською в Києві
+  en: Off the Page | English Conversation in Kyiv
+description:
+  uk: >-
+    Безкоштовний англомовний клуб: розмови, фільми, прогулянки, без уроків і тестів. Організатори
+    також залучають волонтерів-носіїв мови.
+  en: >-
+    A free English-speaking club: conversations, films, walks, no lessons or tests. The organizers
+    also involve native-speaker volunteers.
 languages:
   - en
 format: offline
 location:
-  venue: Hearth of Svitoria
-  address: бульв. Тараса Шевченка, 37/122
+  venue:
+    uk: Hearth of Svitoria
+    en: Hearth of Svitoria
+  address:
+    uk: бульв. Тараса Шевченка, 37/122
+    en: 37/122 Tarasa Shevchenka Blvd
   lat: 50.445953
   lon: 30.495167
   geocoded: true
@@ -18,40 +28,27 @@ schedule:
     duration_min: 180
     frequency: weekly
     format: offline
-schedule_note: Щосуботи 18:00–21:00. Перша зустріч — 10.10.2026.
+schedule_note:
+  uk: Щосуботи 18:00–21:00. Перша зустріч — 10.10.2026.
+  en: Every Saturday 18:00–21:00. First meeting — 10.10.2026.
 price:
   free: true
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення в учасників
+    note:
+      uk: Закрита група; запрошення в учасників
+      en: Private group; invitations available from members
     members: 164
     members_checked: "2026-11-10"
 status: active
 first_seen: 2025-12
 last_seen: "2026-11-07"
-notes: >-
-  Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
-  прочитано 10.11.2026. Чат із грудня 2025; постійне місце з вересня 2026.
-i18n:
-  en:
-    location.address: 37/122 Tarasa Shevchenka Blvd
-    description: >-
-      A free English-speaking club: conversations, films, walks, no lessons or tests. The organizers
-      also involve native-speaker volunteers.
-    schedule_note: Every Saturday 18:00–21:00. First meeting — 10.10.2026.
-    notes: >-
-      Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
-      announcements; read on 10.11.2026. Chat active since December 2025; regular venue since
-      September 2026.
-    contacts.0.note: Private group; invitations available from members
-  uk:
-    name: Off the Page | Спілкування англійською в Києві
-i18n_src:
-  location.address: b9f6da7c
-  name: dbcf8d19
-  description: e606490e
-  schedule_note: "47740471"
-  notes: 3f61d88c
-  location.venue: ebfef719
-  contacts.0.note: 836a931f
+notes:
+  uk: >-
+    Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
+    прочитано 10.11.2026. Чат із грудня 2025; постійне місце з вересня 2026.
+  en: >-
+    Mentioned in the Speaking Event Club chat (Telegram), where members of various clubs share
+    announcements; read on 10.11.2026. Chat active since December 2025; regular venue since
+    September 2026.

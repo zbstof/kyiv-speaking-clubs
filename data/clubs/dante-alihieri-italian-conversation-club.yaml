@@ -1,12 +1,20 @@
 id: dante-alihieri-italian-conversation-club
-name: "Данте Аліг'єрі: Italian conversation club"
-description: Paid language school in Kyiv that lists a Italian conversation club among its courses.
+name:
+  uk: "Данте Аліг'єрі: розмовний клуб італійської мови"
+  en: "Dante Alighieri: Italian conversation club"
+description:
+  uk: Платна мовна школа в Києві, яка пропонує серед своїх курсів розмовний клуб італійської мови.
+  en: Paid language school in Kyiv that lists a Italian conversation club among its courses.
 languages:
   - it
 format: offline
 location:
-  venue: Данте Аліг'єрі
-  address: вул. Червоноармійська (Велика Васильківська), 71
+  venue:
+    uk: Данте Аліг'єрі
+    en: Dante Alighieri
+  address:
+    uk: вул. Червоноармійська (Велика Васильківська), 71
+    en: 71 Chervonoarmiiska (Velyka Vasylkivska) St
   lat: 50.428348
   lon: 30.516483
   geocoded: true
@@ -19,27 +27,10 @@ first_seen: "2013-08-29"
 last_seen: "2013-08-29"
 sources:
   - https://osvita.ua/languages/courses/18007/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  29.08.2013). No schedule or format given. Phones on card: (044) 221-42-12.
-i18n:
-  en:
-    location.address: 71 Chervonoarmiiska (Velyka Vasylkivska) St
-    name: "Dante Alighieri: Italian conversation club"
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 29.08.2013). No schedule or format given. Phone on card: (044) 221-42-12.
-    location.venue: Dante Alighieri
-  uk:
-    name: "Данте Аліг'єрі: розмовний клуб італійської мови"
-    description: Платна мовна школа в Києві, яка пропонує серед своїх курсів розмовний клуб італійської мови.
-    notes: >-
-      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
-      osvita.ua (картку оновлено 29.08.2013). Розклад і формат не вказані. Телефон у картці: (044)
-      221-42-12.
-i18n_src:
-  location.address: 2dbc2895
-  name: 5ea11ae8
-  description: 8705198f
-  notes: 539f73fc
-  location.venue: 6ce67a69
+notes:
+  uk: >-
+    Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі osvita.ua
+    (картку оновлено 29.08.2013). Розклад і формат не вказані. Телефон у картці: (044) 221-42-12.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 29.08.2013). No schedule or format given. Phone on card: (044) 221-42-12.

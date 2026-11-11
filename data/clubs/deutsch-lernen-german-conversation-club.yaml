@@ -1,12 +1,20 @@
 id: deutsch-lernen-german-conversation-club
-name: "Deutsch lernen: German conversation club"
-description: Paid language school in Kyiv that lists a German conversation club among its courses.
+name:
+  uk: "Deutsch lernen: розмовний клуб німецької мови"
+  en: "Deutsch lernen: German conversation club"
+description:
+  uk: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+  en: Paid language school in Kyiv that lists a German conversation club among its courses.
 languages:
   - de
 format: offline
 location:
-  venue: Deutsch lernen
-  address: вул. Метрологічна, 44
+  venue:
+    uk: Deutsch lernen
+    en: Deutsch lernen
+  address:
+    uk: вул. Метрологічна, 44
+    en: 44 Metrolohichna St
   lat: 50.348967
   lon: 30.476445
   geocoded: true
@@ -19,27 +27,12 @@ first_seen: "2020-05-25"
 last_seen: "2020-05-25"
 sources:
   - https://osvita.ua/languages/courses/37227/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says anyone can
-  attend the club and the school's events.
-i18n:
-  en:
-    location.address: 44 Metrolohichna St
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says
-      anyone can attend the club and the school's events.
-  uk:
-    name: "Deutsch lernen: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
-    notes: >-
-      Згаданий лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      25.05.2020). Розклад і формат не вказані. Телефон у картці: (050) 966-30-73. У картці
-      зазначено, що відвідувати клуб і заходи школи можуть усі охочі.
-i18n_src:
-  location.address: 8334fd11
-  name: 2586c048
-  description: 69ecb131
-  notes: ae8b4728
-  location.venue: 2e3534dd
+notes:
+  uk: >-
+    Згаданий лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    25.05.2020). Розклад і формат не вказані. Телефон у картці: (050) 966-30-73. У картці зазначено,
+    що відвідувати клуб і заходи школи можуть усі охочі.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says
+    anyone can attend the club and the school's events.

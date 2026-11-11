@@ -1,12 +1,20 @@
 id: walk-n-talk-mondays
-name: Walk ’n’ Talk Mondays
-description: Розмови англійською на прогулянці просто неба.
+name:
+  uk: Walk ’n’ Talk Mondays
+  en: Walk ’n’ Talk Mondays
+description:
+  uk: Розмови англійською на прогулянці просто неба.
+  en: Conversations in English on an outdoor walk.
 languages:
   - en
 format: offline
 location:
-  venue: Парк Шевченка
-  metro: Університет
+  venue:
+    uk: Парк Шевченка
+    en: Shevchenko Park
+  metro:
+    uk: Університет
+    en: Universytet
   lat: 50.441908
   lon: 30.513242
   geocoded: true
@@ -15,24 +23,14 @@ schedule:
     time: "18:30"
     frequency: weekly
     format: offline
-schedule_note: Понеділок 18:30, у теплу пору року (травень–вересень 2025).
+schedule_note:
+  uk: Понеділок 18:30, у теплу пору року (травень–вересень 2025).
+  en: Monday 18:30, during the warmer months (May–September 2025).
 price:
   free: true
 status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-15"
-notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-i18n:
-  en:
-    location.metro: Universytet
-    description: Conversations in English on an outdoor walk.
-    schedule_note: Monday 18:30, during the warmer months (May–September 2025).
-    notes: Based on the chat history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
-    location.venue: Shevchenko Park
-i18n_src:
-  location.metro: ffe28511
-  name: ede39ff1
-  description: 02f63919
-  schedule_note: d97c3665
-  notes: dd841777
-  location.venue: 3a70ec56
+notes:
+  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+  en: Based on the chat history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).

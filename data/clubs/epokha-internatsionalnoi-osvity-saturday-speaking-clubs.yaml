@@ -1,8 +1,14 @@
 id: epokha-internatsionalnoi-osvity-saturday-speaking-clubs
-name: Epokha Internatsionalnoi Osvity Saturday speaking clubs
-description: >-
-  Saturday conversation clubs led by Ukrainian teachers and native speakers in German, French,
-  Italian, English, and Russian/Ukrainian for foreigners. 2-hour sessions.
+name:
+  uk: Суботні розмовні клуби «Епоха Інтернаціональної Освіти»
+  en: Epokha Internatsionalnoi Osvity Saturday speaking clubs
+description:
+  uk: >-
+    Суботні розмовні клуби з українськими викладачами та носіями мови: німецька, французька,
+    італійська, англійська та російська/українська для іноземців. Заняття тривають 2 години.
+  en: >-
+    Saturday conversation clubs led by Ukrainian teachers and native speakers in German, French,
+    Italian, English, and Russian/Ukrainian for foreigners. 2-hour sessions.
 languages:
   - en
   - de
@@ -13,15 +19,21 @@ languages:
   - es
 format: offline
 location:
-  venue: Епоха Інтернаціональної Освіти
+  venue:
+    uk: Епоха Інтернаціональної Освіти
+    en: Epokha Internatsionalnoi Osvity
 schedule:
   - day: sat
     duration_min: 120
     frequency: weekly
-schedule_note: Every Saturday; English club 14:00-16:00 (2010). Two hours. Register by Friday.
+schedule_note:
+  uk: Щосуботи; англійський клуб 14:00-16:00 (2010). Дві години. Реєстрація до п’ятниці.
+  en: Every Saturday; English club 14:00-16:00 (2010). Two hours. Register by Friday.
 price:
   free: false
-  amount: 50 грн (Ukrainian trainer) / 70 грн (native speaker), 2010
+  amount:
+    uk: 50 грн (український викладач) / 70 грн (носій мови), 2010
+    en: 50 UAH (Ukrainian trainer) / 70 UAH (native speaker), 2010
 registration: required
 contacts:
   - type: phone
@@ -43,29 +55,12 @@ sources:
   - https://osvita.ua/languages/speak_club/7181/
   - https://osvita.ua/languages/15211/
   - https://osvita.ua/languages/25557/
-notes: >-
-  French, Italian and German clubs launched March 2011. Price not stated. Phones are the company's
-  public numbers. Spanish club announced as newly opened on 2011-12-02. Address not given in
-  sources. Price not stated.
-i18n:
-  uk:
-    name: Суботні розмовні клуби «Епоха Інтернаціональної Освіти»
-    description: >-
-      Суботні розмовні клуби з українськими викладачами та носіями мови: німецька, французька,
-      італійська, англійська та російська/українська для іноземців. Заняття тривають 2 години.
-    schedule_note: Щосуботи; англійський клуб 14:00-16:00 (2010). Дві години. Реєстрація до п’ятниці.
-    notes: >-
-      Клуби французької, італійської та німецької мов запрацювали в березні 2011 року. Вартість не
-      вказана. Телефони — загальнодоступні номери компанії. 2011-12-02 оголошено про відкриття
-      іспанського клубу. Адресу в джерелах не наведено. Вартість не вказана.
-    price.amount: 50 грн (український викладач) / 70 грн (носій мови), 2010
-  en:
-    location.venue: Epokha Internatsionalnoi Osvity
-    price.amount: 50 UAH (Ukrainian trainer) / 70 UAH (native speaker), 2010
-i18n_src:
-  name: 09f33ed6
-  description: 410361d8
-  schedule_note: 94cf5b79
-  notes: 4cb4588c
-  location.venue: 2df7f4c8
-  price.amount: 636fbfec
+notes:
+  uk: >-
+    Клуби французької, італійської та німецької мов запрацювали в березні 2011 року. Вартість не
+    вказана. Телефони — загальнодоступні номери компанії. 2011-12-02 оголошено про відкриття
+    іспанського клубу. Адресу в джерелах не наведено. Вартість не вказана.
+  en: >-
+    French, Italian and German clubs launched March 2011. Price not stated. Phones are the company's
+    public numbers. Spanish club announced as newly opened on 2011-12-02. Address not given in
+    sources. Price not stated.

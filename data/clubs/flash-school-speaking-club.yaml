@@ -1,8 +1,14 @@
 id: flash-school-speaking-club
-name: FLASH school Speaking Club
-description: >-
-  Conversation club over tea at FLASH English school; topic chosen by students in advance;
-  native-speaker guests.
+name:
+  uk: FLASH school Speaking Club
+  en: FLASH school Speaking Club
+description:
+  uk: >-
+    Розмовний клуб за чаєм у школі англійської FLASH; тему заздалегідь обирають учні; гості — носії
+    мови.
+  en: >-
+    Conversation club over tea at FLASH English school; topic chosen by students in advance;
+    native-speaker guests.
 languages:
   - en
 levels:
@@ -13,10 +19,14 @@ schedule:
     time: "13:00"
     duration_min: 60
     frequency: irregular
-schedule_note: e.g. Sat 2015-10-17 13:00, 1 hour
+schedule_note:
+  uk: напр., сб 2015-10-17 13:00, 1 година
+  en: e.g. Sat 2015-10-17 13:00, 1 hour
 price:
   free: false
-  amount: 50 грн
+  amount:
+    uk: 50 грн
+    en: 50 UAH
 registration: required
 organizer: FLASH, школа англійської мови
 status: unknown
@@ -24,19 +34,6 @@ first_seen: "2015-10-17"
 last_seen: "2015-10-17"
 sources:
   - https://www.education.ua/blog/20446/
-notes: City inferred from 044 phone codes (not stated on page).
-i18n:
-  uk:
-    description: >-
-      Розмовний клуб за чаєм у школі англійської FLASH; тему заздалегідь обирають учні; гості —
-      носії мови.
-    schedule_note: напр., сб 2015-10-17 13:00, 1 година
-    notes: Місто визначено за телефонним кодом 044 (на сторінці не вказано).
-  en:
-    price.amount: 50 UAH
-i18n_src:
-  name: 9da5f9f5
-  description: ed607a7c
-  schedule_note: d1967a01
-  notes: de1a70ca
-  price.amount: 159cd30f
+notes:
+  uk: Місто визначено за телефонним кодом 044 (на сторінці не вказано).
+  en: City inferred from 044 phone codes (not stated on page).

@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-zhyva
-name: Розмовний клуб «Жива»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Жива»
+  en: "\"Zhyva\" conversation club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Публічна бібліотека «Сузір'я»
-  address: вул. Казанська, 20
+  venue:
+    uk: Публічна бібліотека «Сузір'я»
+    en: "\"Suziria\" Public Library"
+  address:
+    uk: вул. Казанська, 20
+    en: 20 Kazanska St
   lat: 50.498437
   lon: 30.457515
   geocoded: true
@@ -20,24 +30,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 20 Kazanska St
-    name: "\"Zhyva\" conversation club"
-    location.venue: "\"Suziria\" Public Library"
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, але не перевірено.
-i18n_src:
-  location.address: f29c1bff
-  name: 8d568ace
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: 0f5db068
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, але не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

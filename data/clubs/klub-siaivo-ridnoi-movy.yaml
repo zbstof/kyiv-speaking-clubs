@@ -1,14 +1,24 @@
 id: klub-siaivo-ridnoi-movy
-name: Клуб «Сяйво рідної мови»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Сяйво рідної мови»
+  en: "\"Siaivo ridnoi movy\" Club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. М. Дубова
-  address: вул. Рене Декарта, 14
+  venue:
+    uk: Бібліотека ім. М. Дубова
+    en: M. Dubov Library
+  address:
+    uk: вул. Рене Декарта, 14
+    en: 14 Rene Dekarta St
   lat: 50.454263
   lon: 30.399525
   geocoded: true
@@ -20,24 +30,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 14 Rene Dekarta St
-    name: "\"Siaivo ridnoi movy\" Club"
-    location.venue: M. Dubov Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
-      вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: c6b39d2b
-  name: a837d752
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: d8f9dbc8
+notes:
+  uk: >-
+    Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не вказано
+    часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

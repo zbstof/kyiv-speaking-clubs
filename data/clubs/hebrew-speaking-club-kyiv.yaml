@@ -1,23 +1,37 @@
 id: hebrew-speaking-club-kyiv
-name: Hebrew Speaking Club "What's about to talk?!" / "А поговорить?!" (Kyiv)
-description: >-
-  Conversation club for Hebrew learners as a follow-up to ulpan study. Each meeting is a
-  conversation on a topic set in advance, often about Jewish tradition and holidays; native-speaker
-  guests are invited. Kyiv was the first city; branches later opened in Chernivtsi, Melitopol,
-  Vinnytsia, Kropyvnytskyi, Lviv, Kharkiv.
+name:
+  uk: Розмовний клуб івриту «What's about to talk?!» / «А поговорить?!» (Київ)
+  en: Hebrew Speaking Club "What's about to talk?!" / "A pogovorit?!" (Kyiv)
+description:
+  uk: >-
+    Розмовний клуб для тих, хто вивчає іврит, як продовження навчання в ульпані. Кожна зустріч — це
+    розмова на заздалегідь визначену тему, часто про єврейські традиції та свята; запрошують гостей
+    — носіїв мови. Першим містом став Київ; згодом осередки відкрилися в Чернівцях, Мелітополі,
+    Вінниці, Кропивницькому, Львові та Харкові.
+  en: >-
+    Conversation club for Hebrew learners as a follow-up to ulpan study. Each meeting is a
+    conversation on a topic set in advance, often about Jewish tradition and holidays;
+    native-speaker guests are invited. Kyiv was the first city; branches later opened in Chernivtsi,
+    Melitopol, Vinnytsia, Kropyvnytskyi, Lviv, Kharkiv.
 languages:
   - he
 levels:
   - any
 format: hybrid
 location:
-  venue: Cafe KAFFA (season 5 opening, 2020-09-02); online on Zoom from March 2020
+  venue:
+    uk: Кафе KAFFA (відкриття 5-го сезону, 2020-09-02); онлайн у Zoom з березня 2020
+    en: Cafe KAFFA (season 5 opening, 2020-09-02); online on Zoom from March 2020
   lat: 50.465839
   lon: 30.520084
   geocoded: true
-schedule_note: >-
-  Seasons run from September; meetings in class/cafe, online since March 2020. Exact day and time
-  not published in the sources found.
+schedule_note:
+  uk: >-
+    Сезони починаються у вересні; зустрічі проходять в аудиторії чи кафе, з березня 2020 — онлайн.
+    Точні день і час у знайдених джерелах не вказані.
+  en: >-
+    Seasons run from September; meetings in class/cafe, online since March 2020. Exact day and time
+    not published in the sources found.
 contacts:
   - type: facebook
     url: https://www.facebook.com/Hebrewspeakingclub
@@ -41,32 +55,13 @@ sources:
   - http://www.vaadua.org/klub-razgovornogo-ivrita-sfu
   - >-
     https://vaadua.org/sites/default/files/files/%D0%BE%D1%82%D1%87%D0%B5%D1%82%20%D1%81%D1%84%D1%83%202018%20-03-19%20ENG-site%2004-04-19.pdf
-notes: >-
-  The Vaad program page says the club 'will continue its work in 2022'; no later evidence found.
-  Methodological guidelines approved by Taurida National V.I. Vernadsky University on 2019-08-28.
-  ZFU 2018 report also lists Skype HebrewKlubua and a phone number (not copied).
-i18n:
-  uk:
-    name: Розмовний клуб івриту «What's about to talk?!» / «А поговорить?!» (Київ)
-    description: >-
-      Розмовний клуб для тих, хто вивчає іврит, як продовження навчання в ульпані. Кожна зустріч —
-      це розмова на заздалегідь визначену тему, часто про єврейські традиції та свята; запрошують
-      гостей — носіїв мови. Першим містом став Київ; згодом осередки відкрилися в Чернівцях,
-      Мелітополі, Вінниці, Кропивницькому, Львові та Харкові.
-    schedule_note: >-
-      Сезони починаються у вересні; зустрічі проходять в аудиторії чи кафе, з березня 2020 — онлайн.
-      Точні день і час у знайдених джерелах не вказані.
-    notes: >-
-      На сторінці програми ВААД зазначено, що клуб «продовжить роботу у 2022»; пізніших підтверджень
-      не знайдено. Методичні рекомендації затверджені Таврійським національним університетом імені
-      В. І. Вернадського 2019-08-28. У звіті ZFU за 2018 також вказано Skype HebrewKlubua та номер
-      телефону (не скопійовано).
-    location.venue: Кафе KAFFA (відкриття 5-го сезону, 2020-09-02); онлайн у Zoom з березня 2020
-  en:
-    name: Hebrew Speaking Club "What's about to talk?!" / "A pogovorit?!" (Kyiv)
-i18n_src:
-  name: 6264aede
-  description: 390a36c8
-  schedule_note: 5ada799b
-  notes: bcbf0f5b
-  location.venue: 6d68f376
+notes:
+  uk: >-
+    На сторінці програми ВААД зазначено, що клуб «продовжить роботу у 2022»; пізніших підтверджень
+    не знайдено. Методичні рекомендації затверджені Таврійським національним університетом імені В.
+    І. Вернадського 2019-08-28. У звіті ZFU за 2018 також вказано Skype HebrewKlubua та номер
+    телефону (не скопійовано).
+  en: >-
+    The Vaad program page says the club 'will continue its work in 2022'; no later evidence found.
+    Methodological guidelines approved by Taurida National V.I. Vernadsky University on 2019-08-28.
+    ZFU 2018 report also lists Skype HebrewKlubua and a phone number (not copied).

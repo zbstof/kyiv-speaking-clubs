@@ -1,12 +1,20 @@
 id: english-conversation-club-irpenska-st-english-in-ua
-name: English conversation club, Irpenska St. (english.in.ua)
-description: Friday English conversation club with native speakers.
+name:
+  uk: Розмовний клуб англійської, вул. Ірпінська (english.in.ua)
+  en: English conversation club, Irpenska St. (english.in.ua)
+description:
+  uk: П’ятничний розмовний клуб англійської з носіями мови.
+  en: Friday English conversation club with native speakers.
 languages:
   - en
 format: offline
 location:
-  address: вул. Ірпінська, 76, оф. 31
-  metro: Академмістечко
+  address:
+    uk: вул. Ірпінська, 76, оф. 31
+    en: 76 Irpinska St, office 31
+  metro:
+    uk: Академмістечко
+    en: Akademmistechko
   lat: 50.46031
   lon: 30.348265
   geocoded: true
@@ -14,7 +22,9 @@ schedule:
   - day: fri
     time: "19:00"
     frequency: weekly
-schedule_note: Fridays 7 p.m.
+schedule_note:
+  uk: Щоп’ятниці о 7 p.m.
+  en: Fridays 7 p.m.
 contacts:
   - type: website
     url: http://english.in.ua
@@ -23,24 +33,10 @@ first_seen: "2010-04-08"
 last_seen: "2010-04-08"
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: >-
-  Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. May be the same organizer as
-  'English Language Center free international conversation club'.
-i18n:
-  en:
-    location.metro: Akademmistechko
-    location.address: 76 Irpinska St, office 31
-  uk:
-    name: Розмовний клуб англійської, вул. Ірпінська (english.in.ua)
-    description: П’ятничний розмовний клуб англійської з носіями мови.
-    schedule_note: Щоп’ятниці о 7 p.m.
-    notes: >-
-      Згадується в рубриці оголошень «Community listings» газети Kyiv Post, 2010-04-08. Можливо,
-      організатор той самий, що й у «English Language Center free international conversation club».
-i18n_src:
-  location.metro: cc6835c9
-  name: 99b260f4
-  description: 031ee1b4
-  schedule_note: "05407897"
-  notes: 122d9722
-  location.address: 38e83c47
+notes:
+  uk: >-
+    Згадується в рубриці оголошень «Community listings» газети Kyiv Post, 2010-04-08. Можливо,
+    організатор той самий, що й у «English Language Center free international conversation club».
+  en: >-
+    Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. May be the same organizer
+    as 'English Language Center free international conversation club'.

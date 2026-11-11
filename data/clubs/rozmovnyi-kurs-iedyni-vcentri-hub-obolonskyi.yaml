@@ -1,12 +1,20 @@
 id: rozmovnyi-kurs-iedyni-vcentri-hub-obolonskyi
-name: Розмовний курс «Єдині» — Vcentri HUB Оболонський
-description: «Єдині» conversation course location at Vcentri HUB Obolonskyi.
+name:
+  uk: Розмовний курс «Єдині» — Vcentri HUB Оболонський
+  en: "\"Yedyni\" conversation course — Vcentri HUB Obolonskyi"
+description:
+  uk: Місце проведення розмовного курсу «Єдині» — Vcentri HUB Оболонський.
+  en: "\"Yedyni\" conversation course location at Vcentri HUB Obolonskyi."
 languages:
   - uk
 format: offline
 location:
-  venue: Громадський простір Vcentri HUB Оболонський
-  address: Оболонський проспект, 22-А
+  venue:
+    uk: Громадський простір Vcentri HUB Оболонський
+    en: Vcentri HUB Obolonskyi community space
+  address:
+    uk: Оболонський проспект, 22-А
+    en: 22-A Obolonskyi Ave
   lat: 50.510347
   lon: 30.502027
   geocoded: true
@@ -26,26 +34,13 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
-  libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on 2023-09-20).
-  The list gives no meeting times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 22-A Obolonskyi Ave
-    name: "\"Yedyni\" conversation course — Vcentri HUB Obolonskyi"
-    description: "\"Yedyni\" conversation course location at Vcentri HUB Obolonskyi."
-    location.venue: Vcentri HUB Obolonskyi community space
-  uk:
-    description: Місце проведення розмовного курсу «Єдині» — Vcentri HUB Оболонський.
-    notes: >-
-      Включено до переліку розмовних клубів і курсів української мови в міських бібліотеках від
-      Департаменту культури Києва, опублікованого 2023-08-17 (50 позицій; КМДА повідомила про «50
-      клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за
-      адресою, але не перевірено.
-i18n_src:
-  location.address: ed344ca6
-  name: 8d201f2e
-  description: 3b8ea3d8
-  notes: b4ead5ba
-  location.venue: d85c23c9
+notes:
+  uk: >-
+    Включено до переліку розмовних клубів і курсів української мови в міських бібліотеках від
+    Департаменту культури Києва, опублікованого 2023-08-17 (50 позицій; КМДА повідомила про «50
+    клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за адресою,
+    але не перевірено.
+  en: >-
+    Listed in the Kyiv culture department list of Ukrainian conversation clubs and courses in city
+    libraries, published 2023-08-17 (50 entries; KMDA reported '50 clubs and courses' on
+    2023-09-20). The list gives no meeting times. District inferred from the address, not verified.

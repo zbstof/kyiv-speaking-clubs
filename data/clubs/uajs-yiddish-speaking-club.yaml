@@ -1,17 +1,32 @@
 id: uajs-yiddish-speaking-club
-name: UAJS Yiddish Speaking Club
-description: >-
-  Yiddish speaking club of the UAJS Yiddish Project, run with the Omeljan Pritsak Research Center
-  for Oriental Studies at NaUKMA and the Jewish Theological Seminary of America, alongside academic
-  Yiddish courses. Aimed at learners who already know some Yiddish.
+name:
+  uk: Розмовний клуб їдишу UAJS
+  en: UAJS Yiddish Speaking Club
+description:
+  uk: >-
+    Розмовний клуб їдишу в межах їдиш-проєкту UAJS, організований спільно з Науково-дослідним
+    центром орієнталістики імені Омеляна Пріцака при НаУКМА та Єврейською теологічною семінарією
+    Америки паралельно з академічними курсами їдишу. Для тих, хто вже має певні знання їдишу.
+  en: >-
+    Yiddish speaking club of the UAJS Yiddish Project, run with the Omeljan Pritsak Research Center
+    for Oriental Studies at NaUKMA and the Jewish Theological Seminary of America, alongside
+    academic Yiddish courses. Aimed at learners who already know some Yiddish.
 languages:
   - yi
 format: online
 location:
-  venue: National University of Kyiv-Mohyla Academy (partner); meetings online during the pandemic
-schedule_note: >-
-  Registration each academic year (announcements 2020-11-05 and October 2021 for 2021-2022).
-  Schedule not published in sources found.
+  venue:
+    uk: >-
+      Національний університет «Києво-Могилянська академія» (партнер); зустрічі онлайн під час
+      пандемії
+    en: National University of Kyiv-Mohyla Academy (partner); meetings online during the pandemic
+schedule_note:
+  uk: >-
+    Реєстрація щороку на навчальний рік (оголошення від 2020-11-05 та October 2021 на 2021-2022). У
+    знайдених джерелах розклад не опубліковано.
+  en: >-
+    Registration each academic year (announcements 2020-11-05 and October 2021 for 2021-2022).
+    Schedule not published in sources found.
 price:
   free: true
 registration: required
@@ -28,28 +43,10 @@ sources:
   - https://uajs.org.ua/en/taxonomy/term/668
   - https://uajs.org.ua/en/node/671
   - https://uajs.org.ua/en/node/812
-notes: >-
-  Format of the club itself is not stated explicitly; it is listed next to online courses. Free
-  participation per search snippet of UAJS page.
-i18n:
-  uk:
-    name: Розмовний клуб їдишу UAJS
-    description: >-
-      Розмовний клуб їдишу в межах їдиш-проєкту UAJS, організований спільно з Науково-дослідним
-      центром орієнталістики імені Омеляна Пріцака при НаУКМА та Єврейською теологічною семінарією
-      Америки паралельно з академічними курсами їдишу. Для тих, хто вже має певні знання їдишу.
-    schedule_note: >-
-      Реєстрація щороку на навчальний рік (оголошення від 2020-11-05 та October 2021 на 2021-2022).
-      У знайдених джерелах розклад не опубліковано.
-    notes: >-
-      Формат самого клубу прямо не зазначено; його вказано поруч з онлайн-курсами. Участь
-      безкоштовна згідно з фрагментом сторінки UAJS у результатах пошуку.
-    location.venue: >-
-      Національний університет «Києво-Могилянська академія» (партнер); зустрічі онлайн під час
-      пандемії
-i18n_src:
-  name: f6ff26a0
-  description: 7bc5ebb0
-  schedule_note: 3c5793e9
-  notes: 571b380e
-  location.venue: 1ee69500
+notes:
+  uk: >-
+    Формат самого клубу прямо не зазначено; його вказано поруч з онлайн-курсами. Участь безкоштовна
+    згідно з фрагментом сторінки UAJS у результатах пошуку.
+  en: >-
+    Format of the club itself is not stated explicitly; it is listed next to online courses. Free
+    participation per search snippet of UAJS page.

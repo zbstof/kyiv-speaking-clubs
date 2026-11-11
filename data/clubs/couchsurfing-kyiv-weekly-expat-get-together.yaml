@@ -1,11 +1,19 @@
 id: couchsurfing-kyiv-weekly-expat-get-together
-name: Couchsurfing Kyiv weekly expat get-together
-description: Weekly Couchsurfing get-together of expats and locals; Couchsurfing app sends notifications.
+name:
+  uk: Щотижнева зустріч експатів Couchsurfing у Києві
+  en: Couchsurfing Kyiv weekly expat get-together
+description:
+  uk: >-
+    Щотижнева зустріч експатів і місцевих жителів Couchsurfing; застосунок Couchsurfing надсилає
+    сповіщення.
+  en: Weekly Couchsurfing get-together of expats and locals; Couchsurfing app sends notifications.
 languages:
   - en
 format: offline
 location:
-  venue: Sao Miguel (near St. Michael's)
+  venue:
+    uk: Sao Miguel (біля Михайлівського собору)
+    en: Sao Miguel (near St. Michael's)
   lat: 50.455772
   lon: 30.522897
   geocoded: true
@@ -13,7 +21,9 @@ schedule:
   - day: wed
     frequency: weekly
     format: offline
-schedule_note: Щосереди зустріч Couchsurfing; час і місце — у групі.
+schedule_note:
+  uk: Щосереди зустріч Couchsurfing; час і місце — у групі.
+  en: Couchsurfing meetup every Wednesday; time and place are in the group.
 price:
   free: true
 contacts:
@@ -26,32 +36,14 @@ last_seen: "2026-11-09"
 sources:
   - https://reddit.sentinel-team.org/posts/1t53th1/snapshots/2026-05-09T02%3A17%3A47.694395Z
   - https://archive.kyivpost.com/lifestyle/meet-ukraines-ambassadors-at-couchsurfingcom-79067.html
-notes: >-
-  Single Reddit comment (2026 snapshot) says it 'used to' meet at Sao Miguel; not verified; a social
-  meetup with language exchange as a side activity. 2010 Kyiv Post: Couchsurfing/Hospitality Club
-  hosts offered coffee and language exchange. Публічна група, понад 800 учасників.
-i18n:
-  uk:
-    name: Щотижнева зустріч експатів Couchsurfing у Києві
-    description: >-
-      Щотижнева зустріч експатів і місцевих жителів Couchsurfing; застосунок Couchsurfing надсилає
-      сповіщення.
-    notes: >-
-      В одному коментарі на Reddit (знімок за 2026) сказано, що зустрічі «раніше» проходили в Sao
-      Miguel; не перевірено; це зустріч для спілкування, де мовний обмін — додаткова активність.
-      Kyiv Post, 2010: учасники Couchsurfing/Hospitality Club, які приймали гостей, пропонували каву
-      та мовний обмін. Публічна група, понад 800 учасників.
-    location.venue: Sao Miguel (біля Михайлівського собору)
-  en:
-    schedule_note: Couchsurfing meetup every Wednesday; time and place are in the group.
-    notes: >-
-      Single Reddit comment (2026 snapshot) says it "used to" meet at Sao Miguel; not verified; a
-      social meetup with language exchange as a side activity. 2010 Kyiv Post:
-      Couchsurfing/Hospitality Club hosts offered coffee and language exchange. Public group, over
-      800 members.
-i18n_src:
-  name: 1a42070c
-  description: b57b307d
-  schedule_note: 154936bc
-  notes: e312338c
-  location.venue: f223a3c6
+notes:
+  uk: >-
+    В одному коментарі на Reddit (знімок за 2026) сказано, що зустрічі «раніше» проходили в Sao
+    Miguel; не перевірено; це зустріч для спілкування, де мовний обмін — додаткова активність. Kyiv
+    Post, 2010: учасники Couchsurfing/Hospitality Club, які приймали гостей, пропонували каву та
+    мовний обмін. Публічна група, понад 800 учасників.
+  en: >-
+    Single Reddit comment (2026 snapshot) says it "used to" meet at Sao Miguel; not verified; a
+    social meetup with language exchange as a side activity. 2010 Kyiv Post:
+    Couchsurfing/Hospitality Club hosts offered coffee and language exchange. Public group, over 800
+    members.

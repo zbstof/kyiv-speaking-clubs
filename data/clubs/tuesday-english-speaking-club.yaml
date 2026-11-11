@@ -1,8 +1,14 @@
 id: tuesday-english-speaking-club
-name: Tuesday English Speaking Club
-description: >-
-  Онлайн-клуб англійської з ведучою з Києва. Щотижня хтось готує 5–10-хвилинний виступ на обрану
-  разом тему, далі — обговорення. Лише англійською, без запису.
+name:
+  uk: Розмовний клуб англійської щовівторка
+  en: Tuesday English Speaking Club
+description:
+  uk: >-
+    Онлайн-клуб англійської з ведучою з Києва. Щотижня хтось готує 5–10-хвилинний виступ на обрану
+    разом тему, далі — обговорення. Лише англійською, без запису.
+  en: >-
+    An online English club with a host from Kyiv. Each week, someone prepares a 5–10-minute talk on
+    a topic chosen together, followed by a discussion. English only, no recording.
 languages:
   - en
 format: online
@@ -11,35 +17,25 @@ schedule:
     time: "20:00"
     frequency: weekly
     format: online
-schedule_note: "Щовівторка о 20:00 за Києвом у Zoom. До 6 учасників плюс ведуча: напишіть у групі, що прийдете."
+schedule_note:
+  uk: "Щовівторка о 20:00 за Києвом у Zoom. До 6 учасників плюс ведуча: напишіть у групі, що прийдете."
+  en: >-
+    Every Tuesday at 20:00 Kyiv time on Zoom. Up to 6 participants plus the host: post in the group
+    to say you're coming.
 price:
   free: true
 registration: required
 contacts:
   - type: telegram
     access: on_request
-    note: Закрита група; запрошення через учасників або ведучу
+    note:
+      uk: Закрита група; запрошення через учасників або ведучу
+      en: Private group; invitations through members or the host
     members: 95
     members_checked: "2026-11-10"
 status: active
 first_seen: 2026-03
 last_seen: "2026-11-10"
-notes: Telegram-група клубу, прочитано 10.11.2026.
-i18n:
-  uk:
-    name: Розмовний клуб англійської щовівторка
-  en:
-    description: >-
-      An online English club with a host from Kyiv. Each week, someone prepares a 5–10-minute talk
-      on a topic chosen together, followed by a discussion. English only, no recording.
-    schedule_note: >-
-      Every Tuesday at 20:00 Kyiv time on Zoom. Up to 6 participants plus the host: post in the
-      group to say you're coming.
-    contacts.0.note: Private group; invitations through members or the host
-    notes: Club Telegram group, accessed 10.11.2026.
-i18n_src:
-  name: 8c4f1cc2
-  description: f803c238
-  schedule_note: ab0f6ce0
-  contacts.0.note: f3947463
-  notes: 9dfd9e69
+notes:
+  uk: Telegram-група клубу, прочитано 10.11.2026.
+  en: Club Telegram group, accessed 10.11.2026.

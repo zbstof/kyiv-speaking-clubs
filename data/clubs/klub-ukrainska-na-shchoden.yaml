@@ -1,14 +1,24 @@
 id: klub-ukrainska-na-shchoden
-name: Клуб «Українська на щодень»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Клуб «Українська на щодень»
+  en: "\"Ukrainska na shchoden\" Club"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. В. Яна
-  address: проспект Миру, 13
+  venue:
+    uk: Бібліотека ім. В. Яна
+    en: V. Yan Library
+  address:
+    uk: проспект Миру, 13
+    en: 13 Myru Ave
   lat: 50.444683
   lon: 30.615942
   geocoded: true
@@ -23,24 +33,10 @@ first_seen: 2025-12
 last_seen: "2025-12-01"
 sources:
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
-notes: >-
-  Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-  times. District inferred from the address, not verified.
-i18n:
-  en:
-    location.address: 13 Myru Ave
-    name: "\"Ukrainska na shchoden\" Club"
-    location.venue: V. Yan Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Зазначений у переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках
-      не вказано часу зустрічей. Район визначено за адресою, не перевірено.
-i18n_src:
-  location.address: ecb0c35b
-  name: e9315d97
-  description: d15e99c9
-  notes: "80762585"
-  location.venue: 43a5e30b
+notes:
+  uk: >-
+    Зазначений у переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках не
+    вказано часу зустрічей. Район визначено за адресою, не перевірено.
+  en: >-
+    Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
+    times. District inferred from the address, not verified.

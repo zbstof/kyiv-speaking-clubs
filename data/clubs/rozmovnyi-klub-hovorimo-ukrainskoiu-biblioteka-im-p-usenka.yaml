@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-hovorimo-ukrainskoiu-biblioteka-im-p-usenka
-name: Розмовний клуб «Говорімо українською» (бібліотека ім. П. Усенка)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Говорімо українською» (бібліотека ім. П. Усенка)
+  en: Conversation club "Hovorimo ukrainskoiu" (P. Usenko Library)
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. П. Усенка для дітей
-  address: вул. Івана Миколайчука, 7
+  venue:
+    uk: Бібліотека ім. П. Усенка для дітей
+    en: P. Usenko Children's Library
+  address:
+    uk: вул. Івана Миколайчука, 7
+    en: 7 Ivana Mykolaichuka St
   lat: 50.431421
   lon: 30.598045
   geocoded: true
@@ -28,36 +38,16 @@ sources:
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
   - https://dk.kyivcity.gov.ua/news/hovory-ukrainskoiu
   - https://fs05.vseosvita.ua/o/0500xgo3-ad40.pdf
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. For children and adults.
-  Organiser and moderator: Olha Maksymenko (sociologist, Institute of Sociology NASU), per her Sept
-  2023 conference paper; each session has a published lesson plan; topics include Crimean Tatar
-  history. Also runs practicum «Наша мова — українська».
-i18n:
-  en:
-    location.address: 7 Ivana Mykolaichuka St
-    name: Conversation club "Hovorimo ukrainskoiu" (P. Usenko Library)
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. For children and
-      adults. Organiser and moderator: Olha Maksymenko (sociologist, Institute of Sociology NASU),
-      per her Sept 2023 conference paper; each session has a published lesson plan; topics include
-      Crimean Tatar history. Also runs practicum "Nasha mova — ukrainska".
-    location.venue: P. Usenko Children's Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 та 2025-12-01). Час
-      зустрічей у переліках не зазначено. Район визначено за адресою, але не перевірено. Для дітей і
-      дорослих. Організаторка й модераторка — Ольга Максименко (соціологиня, Інститут соціології НАН
-      України), за її доповіддю на конференції (Sept 2023); для кожного заняття опубліковано план;
-      серед тем — історія кримських татар. Також проводить практикум «Наша мова — українська».
-i18n_src:
-  location.address: 19268d5a
-  name: fe07a722
-  description: d15e99c9
-  notes: 21e4aee1
-  location.venue: f6b4f7c4
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 та 2025-12-01). Час
+    зустрічей у переліках не зазначено. Район визначено за адресою, але не перевірено. Для дітей і
+    дорослих. Організаторка й модераторка — Ольга Максименко (соціологиня, Інститут соціології НАН
+    України), за її доповіддю на конференції (Sept 2023); для кожного заняття опубліковано план;
+    серед тем — історія кримських татар. Також проводить практикум «Наша мова — українська».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. For children and adults.
+    Organiser and moderator: Olha Maksymenko (sociologist, Institute of Sociology NASU), per her
+    Sept 2023 conference paper; each session has a published lesson plan; topics include Crimean
+    Tatar history. Also runs practicum "Nasha mova — ukrainska".

@@ -1,15 +1,27 @@
 id: in-english-community-mafia-in-english-alias-in-english
-name: In English community — Mafia In English / Alias In English
-description: >-
-  English-only social game nights (Mafia, Alias) for practising spoken English; native speakers play
-  free.
+name:
+  uk: Спільнота In English — Mafia In English / Alias In English
+  en: In English community — Mafia In English / Alias In English
+description:
+  uk: >-
+    Вечори ігор («Мафія», Alias) лише англійською для розмовної практики; носії мови грають
+    безкоштовно.
+  en: >-
+    English-only social game nights (Mafia, Alias) for practising spoken English; native speakers
+    play free.
 languages:
   - en
 format: offline
 location:
-  venue: L'Kafa Cafe (Mafia); Циферблат (Alias)
-  address: бульв. Лесі Українки, 2 (L'Kafa); вул. Володимирська, 49А (Циферблат)
-  metro: Кловська
+  venue:
+    uk: L'Kafa Cafe («Мафія»); Циферблат (Alias)
+    en: L'Kafa Cafe (Mafia); Tsyferblat (Alias)
+  address:
+    uk: бульв. Лесі Українки, 2 (L'Kafa); вул. Володимирська, 49А (Циферблат)
+    en: 2 Lesi Ukrainky Blvd (L'Kafa); 49A Volodymyrska St (Tsyferblat)
+  metro:
+    uk: Кловська
+    en: Klovska
   lat: 50.438018
   lon: 30.525347
   geocoded: true
@@ -17,12 +29,18 @@ schedule:
   - day: fri
     time: "19:00"
     frequency: weekly
-schedule_note: >-
-  Mafia In English: Fridays from 19:00 'till the last survivor' (2016); Alias In English: Tue
-  2017-11-14 19:00–22:30
+schedule_note:
+  uk: >-
+    Mafia In English: щоп’ятниці з 19:00 «до останнього вцілілого» (2016); Alias In English: вт
+    2017-11-14 19:00–22:30
+  en: >-
+    Mafia In English: Fridays from 19:00 'till the last survivor' (2016); Alias In English: Tue
+    2017-11-14 19:00–22:30
 price:
   free: false
-  amount: 20–30 грн per game, 50–70 грн per evening; Alias 50 грн + venue fee
+  amount:
+    uk: 20–30 грн за гру, 50–70 грн за вечір; Alias — 50 грн + плата за перебування в закладі
+    en: 20–30 UAH per game, 50–70 UAH per evening; Alias 50 UAH + venue fee
 registration: none
 contacts:
   - type: telegram
@@ -39,30 +57,6 @@ sources:
   - https://dou.ua/calendar/13147/
   - https://dou.ua/calendar/18562/
   - https://dou.ua/calendar/18747/
-notes: Game format rather than a classic speaking club.
-i18n:
-  en:
-    location.metro: Klovska
-    location.venue: L'Kafa Cafe (Mafia); Tsyferblat (Alias)
-    location.address: 2 Lesi Ukrainky Blvd (L'Kafa); 49A Volodymyrska St (Tsyferblat)
-    price.amount: 20–30 UAH per game, 50–70 UAH per evening; Alias 50 UAH + venue fee
-  uk:
-    name: Спільнота In English — Mafia In English / Alias In English
-    description: >-
-      Вечори ігор («Мафія», Alias) лише англійською для розмовної практики; носії мови грають
-      безкоштовно.
-    schedule_note: >-
-      Mafia In English: щоп’ятниці з 19:00 «до останнього вцілілого» (2016); Alias In English: вт
-      2017-11-14 19:00–22:30
-    notes: Ігровий формат, а не класичний розмовний клуб.
-    location.venue: L'Kafa Cafe («Мафія»); Циферблат (Alias)
-    price.amount: 20–30 грн за гру, 50–70 грн за вечір; Alias — 50 грн + плата за перебування в закладі
-i18n_src:
-  location.metro: d36a1d0b
-  name: fa644492
-  description: b5a35e88
-  schedule_note: 93ec1a91
-  notes: 880ea264
-  location.venue: 143b80c7
-  location.address: f74b7b9e
-  price.amount: 6471c055
+notes:
+  uk: Ігровий формат, а не класичний розмовний клуб.
+  en: Game format rather than a classic speaking club.

@@ -1,14 +1,26 @@
 id: cyberbionic-systematics-it-english-speaking-club
-name: CyberBionic Systematics IT English speaking club
-description: English speaking club for IT specialists; moderator introduces new vocabulary each session.
+name:
+  uk: Розмовний клуб англійської для ІТ-фахівців CyberBionic Systematics
+  en: CyberBionic Systematics IT English speaking club
+description:
+  uk: Розмовний клуб англійської для ІТ-фахівців; модератор щоразу знайомить із новою лексикою.
+  en: English speaking club for IT specialists; moderator introduces new vocabulary each session.
 languages:
   - en
 format: offline
 location:
-  venue: CyberBionic Systematics
-  address: вул. Марини Раскової, 19
-  metro: Лівобережна
-  note: Кімната 502
+  venue:
+    uk: CyberBionic Systematics
+    en: CyberBionic Systematics
+  address:
+    uk: вул. Марини Раскової, 19
+    en: 19 Maryny Raskovoi St
+  metro:
+    uk: Лівобережна
+    en: Livoberezhna
+  note:
+    uk: Кімната 502
+    en: Room 502
   lat: 50.448542
   lon: 30.602889
   geocoded: true
@@ -17,10 +29,14 @@ schedule:
     time: "14:00"
     duration_min: 120
     frequency: irregular
-schedule_note: "Saturdays 14:00, 2 hours: 2015-07-04, 07-18, 07-25"
+schedule_note:
+  uk: "Щосуботи о 14:00, 2 години: 2015-07-04, 07-18, 07-25"
+  en: "Saturdays 14:00, 2 hours: 2015-07-04, 07-18, 07-25"
 price:
   free: false
-  amount: 50 грн
+  amount:
+    uk: 50 грн
+    en: 50 UAH
 registration: required
 organizer: CyberBionic Systematics (moderator Sofia Ermolaeva)
 status: unknown
@@ -28,22 +44,3 @@ first_seen: "2015-07-04"
 last_seen: "2015-07-25"
 sources:
   - https://www.education.ua/blog/18825/
-i18n:
-  en:
-    location.address: 19 Maryny Raskovoi St
-    location.metro: Livoberezhna
-    location.note: Room 502
-    price.amount: 50 UAH
-  uk:
-    name: Розмовний клуб англійської для ІТ-фахівців CyberBionic Systematics
-    description: Розмовний клуб англійської для ІТ-фахівців; модератор щоразу знайомить із новою лексикою.
-    schedule_note: "Щосуботи о 14:00, 2 години: 2015-07-04, 07-18, 07-25"
-i18n_src:
-  location.address: "49977636"
-  location.metro: a7ee73f8
-  name: 2f576532
-  description: f1b8c974
-  schedule_note: dd1f9f9e
-  location.venue: e00c5577
-  location.note: "34579355"
-  price.amount: 159cd30f

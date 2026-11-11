@@ -1,13 +1,23 @@
 id: english-language-center-free-international-conversation-club
-name: English Language Center free international conversation club
-description: Free conversation club with native English speakers, two venues.
+name:
+  uk: Безкоштовний міжнародний розмовний клуб English Language Center
+  en: English Language Center free international conversation club
+description:
+  uk: Безкоштовний розмовний клуб із носіями англійської мови у двох локаціях.
+  en: Free conversation club with native English speakers, two venues.
 languages:
   - en
 format: offline
 location:
-  venue: English Language Center
-  address: вул. Ірпінська, 76, офіс 31; вул. Микільсько-Слобідська, 2Б, офіс 277
-  metro: Академмістечко
+  venue:
+    uk: English Language Center
+    en: English Language Center
+  address:
+    uk: вул. Ірпінська, 76, офіс 31; вул. Микільсько-Слобідська, 2Б, офіс 277
+    en: 76 Irpinska St, office 31; 2B Mykilsko-Slobidska St, office 277
+  metro:
+    uk: Академмістечко
+    en: Akademmistechko
   lat: 50.46031
   lon: 30.348265
   geocoded: true
@@ -15,7 +25,9 @@ schedule:
   - day: fri
     time: "19:00"
     frequency: weekly
-schedule_note: Fridays 7 p.m. (2010)
+schedule_note:
+  uk: Щоп’ятниці о 7 p.m. (2010)
+  en: Fridays 7 p.m. (2010)
 price:
   free: true
 contacts:
@@ -27,21 +39,6 @@ first_seen: "2010-04-08"
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
-notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
-i18n:
-  en:
-    location.metro: Akademmistechko
-    location.address: 76 Irpinska St, office 31; 2B Mykilsko-Slobidska St, office 277
-  uk:
-    name: Безкоштовний міжнародний розмовний клуб English Language Center
-    description: Безкоштовний розмовний клуб із носіями англійської мови у двох локаціях.
-    schedule_note: Щоп’ятниці о 7 p.m. (2010)
-    notes: Зазначено на дошці оголошень «Оголошення спільноти» в Kyiv Post, 2010-04-08.
-i18n_src:
-  location.metro: cc6835c9
-  name: 78a7f94f
-  description: "31331753"
-  schedule_note: 33f8f0bf
-  notes: 0150c68c
-  location.venue: 9dba8f14
-  location.address: d59729a1
+notes:
+  uk: Зазначено на дошці оголошень «Оголошення спільноти» в Kyiv Post, 2010-04-08.
+  en: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.

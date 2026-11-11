@@ -1,12 +1,20 @@
 id: shkola-ispanskoi-movy-novamova-spanish-conversation-club
-name: "Школа іспанської мови NovaMova: Spanish conversation club"
-description: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
+name:
+  uk: "Школа іспанської мови NovaMova: розмовний клуб іспанської"
+  en: "NovaMova Spanish language school: Spanish conversation club"
+description:
+  uk: Мовна школа з платним навчанням у Києві, серед курсів якої є розмовний клуб іспанської.
+  en: Paid language school in Kyiv that lists a Spanish conversation club among its courses.
 languages:
   - es
 format: offline
 location:
-  venue: Школа іспанської мови NovaMova
-  address: вул. Ярославів Вал, 14В, офіс 28
+  venue:
+    uk: Школа іспанської мови NovaMova
+    en: NovaMova Spanish language school
+  address:
+    uk: вул. Ярославів Вал, 14В, офіс 28
+    en: 14V Yaroslaviv Val St, office 28
   lat: 50.450611
   lon: 30.511475
   geocoded: true
@@ -19,26 +27,10 @@ first_seen: "2020-02-06"
 last_seen: "2020-02-06"
 sources:
   - https://osvita.ua/languages/courses/37194/
-notes: >-
-  Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
-  06.02.2020). No schedule or format given. Phones on card: (044) 238-28-30.
-i18n:
-  uk:
-    name: "Школа іспанської мови NovaMova: розмовний клуб іспанської"
-    description: Мовна школа з платним навчанням у Києві, серед курсів якої є розмовний клуб іспанської.
-    notes: >-
-      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
-      06.02.2020). Розклад і формат не вказані. Телефон у картці: (044) 238-28-30.
-  en:
-    name: "NovaMova Spanish language school: Spanish conversation club"
-    notes: >-
-      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 06.02.2020). No schedule or format given. Phones on card: (044) 238-28-30.
-    location.venue: NovaMova Spanish language school
-    location.address: 14V Yaroslaviv Val St, office 28
-i18n_src:
-  name: db2516a2
-  description: 579e5f8f
-  notes: "52883101"
-  location.venue: 12106e6f
-  location.address: 6dca483e
+notes:
+  uk: >-
+    Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+    06.02.2020). Розклад і формат не вказані. Телефон у картці: (044) 238-28-30.
+  en: >-
+    Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+    updated 06.02.2020). No schedule or format given. Phones on card: (044) 238-28-30.

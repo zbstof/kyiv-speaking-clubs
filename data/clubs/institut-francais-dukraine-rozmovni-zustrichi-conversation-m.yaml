@@ -1,18 +1,31 @@
 id: institut-francais-dukraine-rozmovni-zustrichi-conversation-m
-name: "Institut français d'Ukraine: Розмовні зустрічі (conversation meetings)"
-description: >-
-  Weekly French conversation meetings at the IFU médiathèque, led by native-speaking teachers, for
-  course students and library readers: news, society, cinema, music, everyday life.
+name:
+  uk: "Institut français d'Ukraine: розмовні зустрічі"
+  en: "Institut français d'Ukraine: Conversation meetings"
+description:
+  uk: >-
+    Щотижневі розмовні зустрічі французькою в медіатеці IFU під керівництвом викладачів — носіїв
+    мови, для слухачів курсів і читачів бібліотеки: новини, суспільство, кіно, музика, повсякденне
+    життя.
+  en: >-
+    Weekly French conversation meetings at the IFU médiathèque, led by native-speaking teachers, for
+    course students and library readers: news, society, cinema, music, everyday life.
 languages:
   - fr
 format: offline
 location:
-  venue: Institut français d'Ukraine, Медіатека
-  address: вул. Олеся Гончара, 84
+  venue:
+    uk: Institut français d'Ukraine, медіатека
+    en: Institut français d'Ukraine, Media Library
+  address:
+    uk: вул. Олеся Гончара, 84
+    en: 84 Olesia Honchara St
   lat: 50.44837
   lon: 30.496979
   geocoded: true
-schedule_note: Weekly; day not given
+schedule_note:
+  uk: Щотижня; день не вказано
+  en: Weekly; day not given
 contacts:
   - type: website
     url: https://institutfrancais-ukraine.com/mediatheque/activites
@@ -26,36 +39,13 @@ sources:
   - https://institutfrancais-ukraine.com/mediatheque/activites
   - https://institutfrancais-ukraine.com/
   - https://institutfrancais-ukraine.com/uploads/files/kalendar_vesna_Leto 2018.pdf
-notes: >-
-  Page marks the activity 'Тимчасово недоступно' (temporarily unavailable) as of 2026-11. Same page
-  lists literary meetings 1-2 times a month on Friday evenings, also suspended. A 2018 IFU calendar
-  listed a 'Club de conversation' for ages 11-13 (sign-up 21.05-20.06.2018).
-i18n:
-  en:
-    location.address: 84 Olesia Honchara St
-    name: "Institut français d'Ukraine: Conversation meetings"
-    notes: >-
-      The page marks the activity as "Temporarily unavailable" as of 2026-11. The same page lists
-      literary meetings 1-2 times a month on Friday evenings, also suspended. A 2018 IFU calendar
-      listed a "Club de conversation" for ages 11-13 (sign-up 21.05-20.06.2018).
-    location.venue: Institut français d'Ukraine, Media Library
-  uk:
-    name: "Institut français d'Ukraine: розмовні зустрічі"
-    description: >-
-      Щотижневі розмовні зустрічі французькою в медіатеці IFU під керівництвом викладачів — носіїв
-      мови, для слухачів курсів і читачів бібліотеки: новини, суспільство, кіно, музика, повсякденне
-      життя.
-    schedule_note: Щотижня; день не вказано
-    notes: >-
-      Станом на 2026-11 на сторінці заняття позначено як «Тимчасово недоступно». На цій же сторінці
-      зазначено літературні зустрічі 1-2 рази на місяць у п’ятницю ввечері, які також призупинено. У
-      календарі IFU за 2018 рік було зазначено «Club de conversation» для дітей віком 11-13 років
-      (реєстрація 21.05-20.06.2018).
-    location.venue: Institut français d'Ukraine, медіатека
-i18n_src:
-  location.address: 4e0537cb
-  name: add91dcd
-  description: 346bb591
-  schedule_note: 4486b1e5
-  notes: f3edcd16
-  location.venue: 0825d05d
+notes:
+  uk: >-
+    Станом на 2026-11 на сторінці заняття позначено як «Тимчасово недоступно». На цій же сторінці
+    зазначено літературні зустрічі 1-2 рази на місяць у п’ятницю ввечері, які також призупинено. У
+    календарі IFU за 2018 рік було зазначено «Club de conversation» для дітей віком 11-13 років
+    (реєстрація 21.05-20.06.2018).
+  en: >-
+    The page marks the activity as "Temporarily unavailable" as of 2026-11. The same page lists
+    literary meetings 1-2 times a month on Friday evenings, also suspended. A 2018 IFU calendar
+    listed a "Club de conversation" for ages 11-13 (sign-up 21.05-20.06.2018).

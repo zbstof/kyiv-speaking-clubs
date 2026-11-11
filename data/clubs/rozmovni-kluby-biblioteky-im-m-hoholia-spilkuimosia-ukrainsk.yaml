@@ -1,17 +1,31 @@
 id: rozmovni-kluby-biblioteky-im-m-hoholia-spilkuimosia-ukrainsk
-name: >-
-  Розмовні клуби бібліотеки ім. М. Гоголя: «Спілкуймося українською» (Юрій Баланчук), клуб
-  українського гумору, «Єдині»
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: >-
+    Розмовні клуби бібліотеки ім. М. Гоголя: «Спілкуймося українською» (Юрій Баланчук), клуб
+    українського гумору, «Єдині»
+  en: >-
+    Conversation clubs at the M. Hohol Library: "Spilkuimosia ukrainskoiu" (Yurii Balanchuk), a
+    Ukrainian humour club, "Yedyni"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Бібліотека ім. М. В. Гоголя
-  address: вул. Велика Васильківська, 136
-  metro: Либідська
+  venue:
+    uk: Бібліотека ім. М. В. Гоголя
+    en: M. V. Hohol Library
+  address:
+    uk: вул. Велика Васильківська, 136
+    en: 136 Velyka Vasylkivska St
+  metro:
+    uk: Либідська
+    en: Lybidska
   lat: 50.413825
   lon: 30.523068
   geocoded: true
@@ -19,10 +33,15 @@ schedule:
   - day: fri
     frequency: weekly
     format: offline
-schedule_note: >-
-  Клуб «Спілкуймося українською» щоп'ятниці в бібліотеці, веде поет Юрій Баланчук. Час у дописах не
-  вказано, уточнюйте за телефоном (044) 529-14-73. Субота в бібліотеці вихідний. Остання зустріч у
-  блозі — вівторок 4 серпня 2026.
+schedule_note:
+  uk: >-
+    Клуб «Спілкуймося українською» щоп'ятниці в бібліотеці, веде поет Юрій Баланчук. Час у дописах
+    не вказано, уточнюйте за телефоном (044) 529-14-73. Субота в бібліотеці вихідний. Остання
+    зустріч у блозі — вівторок 4 серпня 2026.
+  en: >-
+    The "Spilkuimosia ukrainskoiu" club meets every Friday at the library, led by poet Yurii
+    Balanchuk. Meeting times are not given in the posts; call (044) 529-14-73 to confirm. The
+    library is closed on Saturdays. The latest meeting listed on the blog is Tuesday, 4 August 2026.
 price:
   free: true
 contacts:
@@ -49,40 +68,12 @@ sources:
   - https://gogolbibl.blogspot.com/2026/05/blog-post_8.html
   - https://gogolbibl.blogspot.com/2026/06/blog-post_05.html
   - https://gogolbibl.blogspot.com/2026/09/blog-post_235.html
-notes: >-
-  Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
-  no meeting times. District inferred from the address, not verified. 2023 name: «Розмовний клуб
-  «Все буде Україна!»».
-i18n:
-  en:
-    location.address: 136 Velyka Vasylkivska St
-    location.metro: Lybidska
-    name: >-
-      Conversation clubs at the M. Hohol Library: "Spilkuimosia ukrainskoiu" (Yurii Balanchuk), a
-      Ukrainian humour club, "Yedyni"
-    schedule_note: >-
-      The "Spilkuimosia ukrainskoiu" club meets every Friday at the library, led by poet Yurii
-      Balanchuk. Meeting times are not given in the posts; call (044) 529-14-73 to confirm. The
-      library is closed on Saturdays. The latest meeting listed on the blog is Tuesday, 4 August
-      2026.
-    notes: >-
-      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. 2023 name:
-      "Conversation club "Vse bude Ukraina!"".
-    location.venue: M. V. Hohol Library
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
-      зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. Назва у 2023
-      році: «Розмовний клуб «Все буде Україна!»».
-i18n_src:
-  location.address: 7c6d4812
-  location.metro: 16c7cec9
-  name: c720ea95
-  description: d15e99c9
-  schedule_note: 66fa7aca
-  notes: 94cb09ea
-  location.venue: 11f466b6
+notes:
+  uk: >-
+    Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+    зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. Назва у 2023 році:
+    «Розмовний клуб «Все буде Україна!»».
+  en: >-
+    Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
+    no meeting times. District inferred from the address, not verified. 2023 name: "Conversation
+    club "Vse bude Ukraina!"".

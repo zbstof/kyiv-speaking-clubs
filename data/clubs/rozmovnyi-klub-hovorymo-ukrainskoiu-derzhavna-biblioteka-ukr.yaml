@@ -1,14 +1,24 @@
 id: rozmovnyi-klub-hovorymo-ukrainskoiu-derzhavna-biblioteka-ukr
-name: Розмовний клуб «Говоримо українською» (Державна бібліотека України для юнацтва)
-description: >-
-  Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
-  improving it.
+name:
+  uk: Розмовний клуб «Говоримо українською» (Державна бібліотека України для юнацтва)
+  en: "\"Hovorymo ukrainskoiu\" conversation club (State Library of Ukraine for Youth)"
+description:
+  uk: >-
+    Безкоштовний розмовний клуб української мови при публічній бібліотеці Києва для тих, хто
+    переходить на українську або вдосконалює її.
+  en: >-
+    Free Ukrainian conversation club at a Kyiv public library, for people switching to Ukrainian or
+    improving it.
 languages:
   - uk
 format: offline
 location:
-  venue: Державна бібліотека України для юнацтва
-  address: Голосіївський проспект, 122
+  venue:
+    uk: Державна бібліотека України для юнацтва
+    en: State Library of Ukraine for Youth
+  address:
+    uk: Голосіївський проспект, 122
+    en: 122 Holosiivskyi Ave
   lat: 50.38424
   lon: 30.483725
   geocoded: true
@@ -23,27 +33,13 @@ sources:
     https://dk.kyivcity.gov.ua/news/perelik-rozmovnikh-klubiv-ta-kursiv-ukrainskoi-movi-v-bibliotekakh-kieva
   - >-
     https://kyivcity.gov.ua/oholoshennia/pro_robotu_rozmovnikh_klubiv_ta_kursiv_ukransko_movi_v_bibliotekakh_m_kiyeva/
-notes: >-
-  Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
-  list. The lists give no meeting times. District inferred from the address, not verified. State
-  (not municipal) library; not in the Dec 2025 municipal list.
-i18n:
-  en:
-    location.address: 122 Holosiivskyi Ave
-    name: "\"Hovorymo ukrainskoiu\" conversation club (State Library of Ukraine for Youth)"
-    location.venue: State Library of Ukraine for Youth
-  uk:
-    description: >-
-      Безкоштовний розмовний клуб української мови при публічній бібліотеці Києва для тих, хто
-      переходить на українську або вдосконалює її.
-    notes: >-
-      Згаданий лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
-      2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
-      перевірено. Бібліотека державна, а не комунальна; у переліку комунальних бібліотек за грудень
-      2025 року її немає.
-i18n_src:
-  location.address: bd51e992
-  name: 7d44dc51
-  description: d15e99c9
-  notes: 313ef848
-  location.venue: 540dc92f
+notes:
+  uk: >-
+    Згаданий лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+    2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+    перевірено. Бібліотека державна, а не комунальна; у переліку комунальних бібліотек за грудень
+    2025 року її немає.
+  en: >-
+    Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
+    list. The lists give no meeting times. District inferred from the address, not verified. State
+    (not municipal) library; not in the Dec 2025 municipal list.

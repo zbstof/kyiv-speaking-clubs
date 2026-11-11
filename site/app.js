@@ -58,7 +58,7 @@
       mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
       legend: { uk: "українська", en: "англійська", de: "німецька", other: "інші мови" },
       loadFailed: "Не вдалося завантажити список клубів. Оновіть сторінку.",
-      ariaFilters: "Фільтри", ariaLang: "Мова клубу", ariaDay: "День тижня", ariaFormat: "Формат", ariaClose: "Закрити", ariaSwitch: "Switch to English",
+      ariaFilters: "Фільтри", ariaLang: "Мова клубу", ariaDay: "День тижня", ariaFormat: "Формат", ariaClose: "Закрити",
       ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Сайт", meetup: "Meetup", email: "Пошта", phone: "Телефон", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Інше" },
       errors: {
         rate_limit: "Забагато запитів. Спробуйте за хвилину.",
@@ -134,7 +134,7 @@
       mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
       legend: { uk: "Ukrainian", en: "English", de: "German", other: "other languages" },
       loadFailed: "Could not load the list of clubs. Reload the page.",
-      ariaFilters: "Filters", ariaLang: "Club language", ariaDay: "Day of week", ariaFormat: "Format", ariaClose: "Close", ariaSwitch: "Перейти на українську",
+      ariaFilters: "Filters", ariaLang: "Club language", ariaDay: "Day of week", ariaFormat: "Format", ariaClose: "Close",
       ctype: { telegram: "Telegram", instagram: "Instagram", facebook: "Facebook", website: "Website", meetup: "Meetup", email: "Email", phone: "Phone", youtube: "YouTube", whatsapp: "WhatsApp", viber: "Viber", discord: "Discord", other: "Other" },
       errors: {
         rate_limit: "Too many requests. Try again in a minute.",
@@ -319,7 +319,7 @@
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t()[el.dataset.i18nPh]; });
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t()[el.dataset.i18nAria]); });
     $(".foot p").innerHTML = t().footer(esc(CFG.repo || ""));
-    $("#ui-lang").textContent = ui === "uk" ? "EN" : "UA";
+    document.querySelectorAll(".lang-switch [data-ui]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.ui === ui)));
   }
 
   function render() {
@@ -757,8 +757,10 @@
   function bind() {
     ["#q", "#f-lang", "#f-day", "#f-format", "#f-free", "#f-old"].forEach((s) => $(s).addEventListener("input", render));
     $("#add-club").addEventListener("click", () => openDialog("add", null));
-    $("#ui-lang").addEventListener("click", () => {
-      ui = ui === "uk" ? "en" : "uk";
+    document.querySelector(".lang-switch").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-ui]");
+      if (!b || b.dataset.ui === ui) return;
+      ui = b.dataset.ui;
       try { localStorage.setItem("sc-ui", ui); } catch { /* ignore */ }
       applyTexts(); fillFilters(); render();
     });

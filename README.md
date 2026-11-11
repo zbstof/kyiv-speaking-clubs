@@ -122,7 +122,7 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 - **The original stays as written:** each club keeps its text in the language it was written in.
 - **Where translations live:** `i18n.uk` and `i18n.en`, keyed by field path (`description`, `location.note`, `contacts.0.note`, …). The page shows the stored translation for the chosen interface language when there is one, otherwise the original.
 - **How changes are noticed:** `i18n_src` keeps a hash of each source text. When the source changes, the field gets translated again.
-- **Bulk translation:** `node scripts/translate.mjs [--force] [id...]` fills missing or outdated translations with the OpenAI API (`OPENAI_API_KEY` and `OPENAI_MODEL` from `.env`, default `gpt-5-mini`). Proper names stay as they are; into English, Ukrainian names and addresses are transliterated.
+- **Bulk translation:** `node scripts/translate.mjs [--force] [id...]` fills missing or outdated translations with the OpenAI API (`OPENAI_API_KEY` and `OPENAI_MODEL` from `.env`, default `gpt-6.1-sol`; metro names and plain Ukrainian street addresses are transliterated by fixed rules (2010 national system), not by the model). Proper names stay as they are; into English, Ukrainian names and addresses are transliterated.
 - **New suggestions:** if the Worker has an `OPENAI_API_KEY` secret, it translates new and changed fields before opening the pull request. Without the secret, run the script after merging.
 
 ## Member counts

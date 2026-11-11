@@ -70,7 +70,12 @@ button:disabled { opacity: .5; cursor: default; }
 .top-row { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding-top: 16px; padding-bottom: 16px; flex-wrap: wrap; }
 h1 { margin: 0; font-size: 26px; line-height: 1.2; }
 .sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
-.top-actions { display: flex; gap: 8px; }
+.top-actions { display: flex; gap: 8px; align-items: center; }
+/* Language switch: both languages visible, the current one highlighted. */
+.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.lang-switch button { border: 0; border-radius: 0; padding: 8px 12px; background: var(--surface); color: var(--muted); font-weight: 600; }
+.lang-switch button + button { border-left: 1px solid var(--line); }
+.lang-switch button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); }
 
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; align-items: center; }
 .filters input[type=search] { flex: 1 1 260px; min-width: 0; }
@@ -145,7 +150,11 @@ legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 .tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
 
 /* map */
-#map { height: min(70vh, 640px); border: 1px solid var(--line); border-radius: var(--radius); background: var(--chip); }
+/* Background = the tiles' land colour (OSM #f2efe9, and its dark-filtered equivalent), so any pixel left
+   between tiles at fractional zoom blends in instead of drawing a line. */
+#map { height: min(70vh, 640px); border: 1px solid var(--line); border-radius: var(--radius); background: #f2efe9; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) #map { background: #2a2a28; } }
+:root[data-theme="dark"] #map { background: #2a2a28; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 4px; font-size: 14px; }
 .leg { display: inline-flex; align-items: center; gap: 6px; }
 .pin-wrap { background: none; border: 0; }
@@ -167,10 +176,12 @@ legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 .pop-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; color: var(--muted); }
 .pop-approx { color: var(--muted); font-size: 13px; }
 .pop-links { display: flex; gap: 10px; align-items: center; margin-top: 4px; }
+/* Dark map: invert each tile, not the whole tile pane. A filter on the pane plus fractional browser
+   zoom left hairline seams between tiles; per tile they disappear. */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
+  :root:not([data-theme="light"]) #map .leaflet-tile-container img.leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
 }
-:root[data-theme="dark"] .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
+:root[data-theme="dark"] #map .leaflet-tile-container img.leaflet-tile { filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9); }
 
 /* card highlighted after "Details" on the map */
 @keyframes flash { from { box-shadow: 0 0 0 3px var(--accent); } to { box-shadow: 0 0 0 3px transparent; } }

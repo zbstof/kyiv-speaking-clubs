@@ -18,7 +18,10 @@
         <p class="sub" id="summary"></p>
       </div>
       <div class="top-actions">
-        <button type="button" id="ui-lang" class="ghost" data-i18n-aria="ariaSwitch" aria-label="Switch to English">EN</button>
+        <div class="lang-switch" role="group" aria-label="Мова / Language">
+          <button type="button" data-ui="uk" aria-pressed="true" lang="uk">UA</button>
+          <button type="button" data-ui="en" aria-pressed="false" lang="en">EN</button>
+        </div>
         <button type="button" id="add-club" class="primary" data-i18n="addClub">+ Додати клуб</button>
       </div>
     </div>

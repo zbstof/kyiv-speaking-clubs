@@ -7,7 +7,7 @@ import yaml from "js-yaml";
 import { clubToYaml, slugify } from "../../lib/club.mjs";
 import { extraChecks } from "../../lib/rules.mjs";
 import { geocode, coordsFromMapUrl, resolveShortMapUrl } from "../../lib/geo.mjs";
-import { translateClub } from "../../lib/i18n.mjs";
+import { translateClub, DEFAULT_MODEL } from "../../lib/i18n.mjs";
 
 const MAX_BODY = 30_000;
 const ACTIONS = new Set(["add", "edit", "confirm", "close"]);
@@ -103,7 +103,7 @@ async function handle(p, env) {
     if (old?.i18n) club.i18n = structuredClone(old.i18n);
     if (old?.i18n_src) club.i18n_src = { ...old.i18n_src };
     if (env.OPENAI_API_KEY) {
-      try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || "gpt-5-mini" }); }
+      try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || DEFAULT_MODEL }); }
       catch { /* left for scripts/translate.mjs */ }
     }
   }

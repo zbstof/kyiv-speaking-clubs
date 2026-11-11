@@ -6,13 +6,13 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
 import { clubToYaml } from "../lib/club.mjs";
-import { translateClub, pending } from "../lib/i18n.mjs";
+import { translateClub, pending, DEFAULT_MODEL } from "../lib/i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 if (existsSync(join(root, ".env"))) for (const line of readFileSync(join(root, ".env"), "utf8").split("\n")) {
   const m = line.match(/^([A-Z_]+)=(.*)$/); if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, "");
 }
-const apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL || "gpt-5-mini";
+const apiKey = process.env.OPENAI_API_KEY, model = process.env.OPENAI_MODEL || DEFAULT_MODEL;
 if (!apiKey) { console.error("OPENAI_API_KEY is not set"); process.exit(1); }
 
 const dir = join(root, "data", "clubs");

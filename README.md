@@ -1,6 +1,6 @@
 # Kyiv Speaking Clubs
 
-A list of language speaking clubs in Kyiv, current and historic. Visitors suggest changes on the site, and each suggestion becomes a pull request. Merging the pull request publishes the change.
+A list of language speaking clubs in Kyiv, current and historic, at **https://speaking-clubs.zbstof.me**. Visitors suggest changes on the site, and each suggestion becomes a pull request. Merging the pull request publishes the change.
 
 ## How it fits together
 
@@ -83,7 +83,7 @@ Admins of private Telegram, WhatsApp, Viber or Discord groups often do not want 
 
 1. Create the GitHub repo `zbstof/kyiv-speaking-clubs` and push. In Settings → Pages, set the source to "GitHub Actions". Create the label `suggestion`.
 2. Create a fine-grained GitHub token limited to this one repo, with read/write access to Contents, Pull requests and Issues.
-3. Create a Turnstile widget in the Cloudflare dashboard for `zbstof.github.io`. Note the site key and the secret.
+3. Create a Turnstile widget in the Cloudflare dashboard for `speaking-clubs.zbstof.me`. Note the site key and the secret.
 4. Deploy the Worker:
    ```sh
    cd worker
@@ -94,6 +94,13 @@ Admins of private Telegram, WhatsApp, Viber or Discord groups often do not want 
 5. Put the Worker URL and the Turnstile site key into `site/config.js`, then push.
 
 Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fallback needs the visitor to have a GitHub account.
+
+### Domain
+
+- **Address:** the site is served at `speaking-clubs.zbstof.me`.
+- **DNS:** a CNAME to `zbstof.github.io`, set to DNS only. The record lives in the `zbstof.me-infra` repo (`dns.tf`); change it only there.
+- **Pages settings:** the custom domain is set there, and GitHub redirects the old `zbstof.github.io/kyiv-speaking-clubs` address to it.
+- **Moving domains:** add the new origin to `ALLOWED_ORIGINS` in `worker/wrangler.toml` and redeploy the Worker. Otherwise the suggestion form is rejected.
 
 ## Moderating
 

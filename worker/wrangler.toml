@@ -6,7 +6,7 @@ compatibility_date = "2025-10-01"
 REPO = "zbstof/kyiv-speaking-clubs"
 BASE_BRANCH = "main"
 # Comma-separated list of site origins allowed to call the worker.
-ALLOWED_ORIGINS = "https://zbstof.github.io,http://localhost:8080"
+ALLOWED_ORIGINS = "https://speaking-clubs.zbstof.me,https://zbstof.github.io,http://localhost:8080"
 OPENAI_MODEL = "gpt-6.1-sol"
 
 # At most 5 suggestions per minute from one IP address.

@@ -31,8 +31,9 @@ price:
 registration: required
 contacts:
   - type: telegram
-    access: on_request
-    note: Закрита група English Psychology & Art Club
+    url: https://t.me/+N785EKQkn7dmYmEy
+    access: invite
+    note: Група English Psychology & Art Club; організатор погодився на публікацію посилання
     members: 450
     members_checked: "2026-11-10"
 organizer: https://t.me/liohaa
@@ -61,7 +62,7 @@ i18n:
       Entrance by the side exit of "Zoloti Vorota" metro station, near the capsule hotel. The floor,
       room and door code are provided after registration.
     price.amount: 300 ₴, advance payment confirms your place
-    contacts.0.note: Private English Psychology & Art Club group
+    contacts.0.note: English Psychology & Art Club group; the organizer agreed to the publication of the link
   uk:
     name: Розмовний клуб про психологію
     notes: >-
@@ -77,4 +78,4 @@ i18n_src:
   location.venue: fc260668
   location.note: 13d7c42e
   price.amount: 1a805b91
-  contacts.0.note: 7e26d677
+  contacts.0.note: 6bb0f29e

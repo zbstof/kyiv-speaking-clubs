@@ -30,8 +30,11 @@ price:
 registration: required
 contacts:
   - type: telegram
-    access: on_request
-    note: Закрита група
+    url: https://t.me/+BOFaYf4B-tkxMTUy
+    access: invite
+    note: >-
+      Група Game Nights Club (ігри по середах і Мафія по неділях); організатор погодився на
+      публікацію посилання
     members: 356
     members_checked: "2026-11-10"
 organizer: "@liohaa"
@@ -56,7 +59,13 @@ i18n:
     location.note: >-
       Entrance by the side exit of "Zoloti Vorota" metro station, near the capsule hotel. The room
       and door code are shared after you sign up.
-    contacts.0.note: Private group
+    contacts.0.note: >-
+      Game Nights Club group (games on Wednesdays and Mafia on Sundays); the organizer agreed to
+      share the link publicly
+  uk:
+    contacts.0.note: >-
+      Група Game Nights Club (ігри щосереди та Мафія щонеділі); організатор погодився на публікацію
+      посилання
 i18n_src:
   location.address: 87dd5365
   location.metro: e4cb2047
@@ -66,4 +75,4 @@ i18n_src:
   notes: 0f390250
   location.venue: 402caa26
   location.note: d0ff0339
-  contacts.0.note: 8da26f35
+  contacts.0.note: 0cf01741

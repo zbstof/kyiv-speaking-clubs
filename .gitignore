@@ -7,3 +7,6 @@ site/clubs.json
 .dev.vars
 .playwright-mcp/
 site/en/
+site/clubs/
+site/sitemap.xml
+site/robots.txt

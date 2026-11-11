@@ -206,3 +206,12 @@ legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 #map .leaflet-bar { border-color: var(--line); }
 #map .leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 85%, transparent); color: var(--muted); }
 #map .leaflet-control-attribution a { color: var(--accent); }
+
+/* Focused club (its own address): outlined; the rest of the list stays visible. */
+.card { cursor: pointer; }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card.focused { box-shadow: 0 0 0 3px var(--accent); }
+.linkbtn { display: inline-flex; align-items: center; padding: 4px 10px; font-size: 14px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); text-decoration: none; background: var(--surface); }
+/* Server-rendered summary on club pages, for search engines; replaced once the script runs. */
+.prerender { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 0 0 16px; }
+.prerender h2 { margin: 0 0 8px; }

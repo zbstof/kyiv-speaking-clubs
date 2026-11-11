@@ -52,7 +52,7 @@
       legendShared: "число: кілька клубів за однією адресою",
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
-      onMap: "На мапі",
+      onMap: "На мапі", link: "Посилання", copied: "Скопійовано",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
       mapFailed: "Не вдалося завантажити мапу. Перевірте інтернет.",
       mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
@@ -129,7 +129,7 @@
       legendShared: "number: several clubs at one address",
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
-      onMap: "On the map",
+      onMap: "On the map", link: "Link", copied: "Copied",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
       mapFailed: "Could not load the map. Check your connection.",
       mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
@@ -202,7 +202,11 @@
   // point to a specific version.
   const LANG_PATHS = { uk: "/", en: "/en/" };
   const langFromPath = () => (/^\/en(\/|$)/.test(location.pathname) ? "en" : "uk");
+  // A focused club has its own address: /clubs/<id>/ or /en/clubs/<id>/ (static pages made by the build).
+  const clubFromPath = () => location.pathname.match(/^(?:\/en)?\/clubs\/([a-z0-9-]+)\/?$/)?.[1] || null;
+  const pathFor = (lang, id) => LANG_PATHS[lang] + (id ? `clubs/${id}/` : "");
   let ui = langFromPath();
+  let focused = clubFromPath();
   let clubs = [];
   const $ = (s, el = document) => el.querySelector(s);
   const t = () => T[ui];
@@ -326,9 +330,9 @@
     $(".foot p").innerHTML = t().footer(esc(CFG.repo || ""));
     document.querySelectorAll(".lang-switch [data-ui]").forEach((a) => {
       if (a.dataset.ui === ui) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
-      a.href = LANG_PATHS[a.dataset.ui] + location.search + location.hash;   // keep filters and #map
+      a.href = pathFor(a.dataset.ui, focused) + location.search + location.hash;   // keep the club, filters and #map
     });
-    document.querySelector('link[rel="canonical"]')?.setAttribute("href", "https://speaking-clubs.zbstof.me" + LANG_PATHS[ui]);
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", "https://speaking-clubs.zbstof.me" + pathFor(ui, focused));
   }
 
   function render() {
@@ -337,6 +341,7 @@
     const freeOnly = $("#f-free").checked, showOld = $("#f-old").checked;
 
     const list = clubs.filter((c) => {
+      if (c.id === focused) return true;   // a linked club is shown even if the filters would hide it
       if (!showOld && isOld(c)) return false;
       if (lang && !c.languages.includes(lang)) return false;
       if (day && !(c.schedule || []).some((s) => s.day === day)) return false;
@@ -390,7 +395,7 @@
     }).join("");
     const sources = (c.sources || []).filter((s) => /^https?:\/\//.test(s));
 
-    return `<li class="card${isOld(c) ? " old" : ""}" data-id="${esc(c.id)}">
+    return `<li class="card${isOld(c) ? " old" : ""}${c.id === focused ? " focused" : ""}" data-id="${esc(c.id)}" tabindex="0">
       <div class="row"><span class="badge ${st}">${esc(L.status[st])}</span>${c.languages.map((l) => `<span class="chip">${esc(langName(l))}</span>`).join("")}${c.format ? `<span class="chip">${esc(L.format[c.format])}</span>` : ""}</div>
       <h3>${esc(tx(c, "name", c.name))}</h3>
       ${c.description ? `<p class="desc">${esc(tx(c, "description", c.description))}</p>` : ""}
@@ -402,6 +407,7 @@
       ${dates ? `<p class="meta">${esc(dates)}</p>` : ""}
       ${sources.length || c.notes ? `<details class="src"><summary>${esc(sources.length ? `${L.sources} (${sources.length})` : L.notesOnly)}${sources.length && c.notes ? esc(L.andNotes) : ""}</summary>${c.notes ? `<p>${esc(tx(c, "notes", c.notes))}</p>` : ""}${sources.length ? `<ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul>` : ""}</details>` : ""}
       <div class="card-actions">
+        <a class="small linkbtn" href="${esc(pathFor(ui, c.id))}" data-act="link">🔗 ${esc(L.link)}</a>
         <button type="button" class="small" data-act="edit">${esc(L.edit)}</button>
         ${c.status !== "closed" ? `<button type="button" class="small" data-act="confirm">${esc(L.confirm)}</button><button type="button" class="small" data-act="close">${esc(L.close)}</button>` : ""}
       </div>
@@ -768,8 +774,20 @@
     $("#map-view").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  // Focus a club: highlight its card and put its address in the URL bar (the link to share).
+  function focusClub(id, { push = true, scroll = true } = {}) {
+    focused = id;
+    if (push) history.pushState(null, "", pathFor(ui, id) + location.search + (view === "map" ? "#map" : ""));
+    applyTexts();
+    const c = clubs.find((x) => x.id === id);
+    document.title = c ? `${tx(c, "name", c.name)} — ${t().title}` : t().title;
+    render();
+    if (id && scroll) document.querySelector(`.card[data-id="${CSS.escape(id)}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
   function gotoCard(id) {
     setView("list");
+    focusClub(id, { scroll: false });
     const el = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
     if (!el) return;
     el.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -786,12 +804,27 @@
       e.preventDefault();
       if (b.dataset.ui === ui) return;
       ui = b.dataset.ui;
-      history.pushState(null, "", LANG_PATHS[ui] + location.search + location.hash);
-      applyTexts(); fillFilters(); render();
+      history.pushState(null, "", pathFor(ui, focused) + location.search + location.hash);
+      fillFilters(); focusClub(focused, { push: false, scroll: false });   // also sets the title for a focused club
     });
     $("#list").addEventListener("click", (e) => {
       const onmap = e.target.closest("a[data-onmap]");
       if (onmap) { e.preventDefault(); gotoMap(onmap.dataset.onmap); return; }
+      const link = e.target.closest("a[data-act=link]");
+      if (link) {
+        if (e.metaKey || e.ctrlKey || e.shiftKey) return;   // open in a new tab as usual
+        e.preventDefault();
+        const id = link.closest(".card").dataset.id;
+        if (focused !== id) focusClub(id, { scroll: false });
+        navigator.clipboard?.writeText(location.origin + pathFor(ui, id)).then(() => { link.textContent = "✓ " + t().copied; setTimeout(() => render(), 1500); }, () => {});
+        return;
+      }
+      // A click on the card itself (not on its links, buttons or text being selected) focuses it; again unfocuses.
+      const card = e.target.closest(".card");
+      if (card && !e.target.closest("a, button, summary, details") && !String(window.getSelection())) {
+        focusClub(focused === card.dataset.id ? null : card.dataset.id, { scroll: false });
+        return;
+      }
       const btn = e.target.closest("button[data-act]");
       if (!btn) return;
       const club = clubs.find((c) => c.id === btn.closest(".card").dataset.id);
@@ -814,6 +847,10 @@
     });
     $("#club-form").addEventListener("submit", submit);
     $("#v-list").addEventListener("click", () => setView("list"));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && focused && !$("#dlg").open) focusClub(null);
+      if (e.key === "Enter" && e.target.classList?.contains("card")) focusClub(e.target.dataset.id, { scroll: false });
+    });
     $("#v-map").addEventListener("click", () => setView("map"));
     $("#map").addEventListener("click", (e) => {
       const b = e.target.closest("[data-goto]");
@@ -822,9 +859,10 @@
   }
 
   window.addEventListener("popstate", () => {
-    if (langFromPath() === ui) return;
+    const langChanged = langFromPath() !== ui;
     ui = langFromPath();
-    applyTexts(); fillFilters(); render();
+    if (langChanged) fillFilters();
+    focusClub(clubFromPath(), { push: false });
   });
 
   async function init() {
@@ -837,8 +875,9 @@
       $("#summary").textContent = t().loadFailed;
       return;
     }
+    document.getElementById("prerender")?.remove();   // the page's own summary for crawlers; the list replaces it
     fillFilters();
-    render();
+    focusClub(focused, { push: false, scroll: true });
     setView(view);
   }
   init();

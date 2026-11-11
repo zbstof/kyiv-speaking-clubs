@@ -124,6 +124,13 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
   - **Station fallback:** when neither address nor venue gives a match, the dot goes on the metro station from `metro`, marked `near_metro: true`. The map draws it with a dashed outline and says the exact place is unknown. Stations come from `lib/metro.mjs`: 53 Kyiv stations from OpenStreetMap, with Ukrainian, English, Russian and old names, so «Дружби народів» finds Звіринецька.
 - **New suggestions:** the Worker reads coordinates from a pasted map link (it also follows `maps.app.goo.gl` short links). Without a link, it geocodes the address.
 
+## Addresses, club pages and sitemap
+
+- **Language:** `/` is Ukrainian and `/en/` is English.
+- **Club pages:** each club has its own page in both languages: `/clubs/<id>/` and `/en/clubs/<id>/`. Clicking a card focuses it and puts that address in the URL bar; «Посилання / Link» copies it.
+- **What the build generates:** `npm run build` writes these pages from `site/index.html`. Each page has the club's title and description, `canonical` and `hreflang` links, Open Graph tags, schema.org data (`Organization` with place and coordinates) and a short summary in the HTML. The script replaces the summary with the full list once it runs.
+- **Sitemap:** the build also writes `sitemap.xml`, with every page and its other-language version, and `robots.txt`. Submit the sitemap in Google Search Console.
+
 ## Ukrainian and English
 
 - **The original stays as written:** each club keeps its text in the language it was written in.

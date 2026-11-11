@@ -1,0 +1,7 @@
+id: testovyi-klub-perekladu-2
+name: Тестовий клуб перекладу 2
+description: Розмовний клуб для перевірки перекладу.
+languages:
+  - uk
+status: active
+last_checked: "2026-11-11"

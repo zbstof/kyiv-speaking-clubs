@@ -427,27 +427,34 @@
       <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
     </div>`;
   }
-  function contactRow(ct = {}) {
+  function contactRow(ct = {}, i) {
     const F = t().f;
+    // Existing contacts show their note in the interface language; readForm puts the original back if unchanged.
+    const shownNote = i === undefined || !current ? ct.note || "" : tx(current, `contacts.${i}.note`, ct.note);
     return `<div class="rep-row" data-rep="contacts">
       ${mini(F.contactType, `<select name="c_type">${CONTACT_TYPES.map((x) => opt(x, t().ctype[x], (ct.type || "telegram") === x)).join("")}</select>`)}
       ${mini(F.access, `<select name="c_access">${["public", "on_request", "invite"].map((x) => opt(x, F.accessOpt[x], (ct.access || "public") === x)).join("")}</select>`)}
       <button type="button" class="ghost small del" data-del aria-label="${esc(F.remove)}">✕</button>
       ${mini(F.url, `<input name="c_url" value="${esc(ct.url || "")}">`, true)}
-      ${mini(F.contactNote, `<input name="c_note" value="${esc(ct.note || "")}">`, true)}
+      ${mini(F.contactNote, `<input name="c_note" value="${esc(shownNote)}" data-shown="${esc(shownNote)}" data-orig="${esc(ct.note || "")}">`, true)}
     </div>`;
   }
 
+  // Text fields the form shows in the interface language: path -> { shown, original }.
+  let formShown = {};
+
   function buildForm(c) {
     const F = t().f, L = t();
+    formShown = {};
+    const lf = (path, value) => { const shown = tx(c, path, value); formShown[path] = { shown: (shown || "").trim(), original: value || "" }; return shown || ""; };
     const loc = c.location || {};
     const known = new Set(FORM_LANGS);
     const other = (c.languages || []).filter((l) => !known.has(l)).join(", ");
     return [
-      field("name", F.name + " *", `<input name="name" required maxlength="150" value="${esc(c.name || "")}">`),
+      field("name", F.name + " *", `<input name="name" required maxlength="150" value="${esc(lf("name", c.name))}">`),
       `<fieldset><legend>${esc(F.languages)} *</legend><div class="checks">${FORM_LANGS.map((l) => `<label class="check"><input type="checkbox" name="lang" value="${l}"${(c.languages || []).includes(l) ? " checked" : ""}> ${esc(langName(l))}</label>`).join("")}</div>
         ${field("otherLangs", F.otherLangs, `<input name="otherLangs" value="${esc(other)}">`)}</fieldset>`,
-      field("description", F.description, `<textarea name="description" maxlength="2000">${esc(c.description || "")}</textarea>`),
+      field("description", F.description, `<textarea name="description" maxlength="2000">${esc(lf("description", c.description))}</textarea>`),
       `<div class="grid2">
         ${field("format", F.format, `<select name="format">${opt("", F.none, !c.format)}${["offline", "online", "hybrid"].map((x) => opt(x, L.format[x], c.format === x)).join("")}</select>`)}
         ${field("status", F.status, `<select name="status">${["active", "paused", "closed", "unknown"].map((x) => opt(x, L.status[x], (c.status || "active") === x)).join("")}</select>`)}
@@ -455,25 +462,25 @@
       `<fieldset><legend>${esc(F.levels)}</legend><div class="checks">${LEVELS.map((l) => `<label class="check"><input type="checkbox" name="level" value="${l}"${(c.levels || []).includes(l) ? " checked" : ""}> ${l === "any" ? (ui === "uk" ? "будь-який" : "any") : l}</label>`).join("")}</div></fieldset>`,
       `<fieldset><legend>${esc(F.schedule)}</legend><div class="rep" id="rep-schedule">${(c.schedule || []).map(scheduleRow).join("")}</div>
         <button type="button" class="ghost small" data-add="schedule">${esc(F.addRow)}</button>
-        ${field("schedule_note", F.scheduleNote, `<input name="schedule_note" maxlength="500" value="${esc(c.schedule_note || "")}">`)}</fieldset>`,
+        ${field("schedule_note", F.scheduleNote, `<input name="schedule_note" maxlength="500" value="${esc(lf("schedule_note", c.schedule_note))}">`)}</fieldset>`,
       `<div class="grid2">
-        ${field("venue", F.venue, `<input name="venue" maxlength="200" value="${esc(loc.venue || "")}">`)}
-        ${field("address", F.address, `<input name="address" maxlength="300" value="${esc(loc.address || "")}">`)}
-        ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(loc.metro || "")}">`)}
+        ${field("venue", F.venue, `<input name="venue" maxlength="200" value="${esc(lf("location.venue", loc.venue))}">`)}
+        ${field("address", F.address, `<input name="address" maxlength="300" value="${esc(lf("location.address", loc.address))}">`)}
+        ${field("metro", F.metro, `<input name="metro" maxlength="100" value="${esc(lf("location.metro", loc.metro))}">`)}
       </div>`,
-      field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(loc.note || "")}">`, F.locNoteHint),
+      field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(lf("location.note", loc.note))}">`, F.locNoteHint),
       field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint),
       `<div class="grid2">
         <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
         ${field("amount", F.amount, c.price?.free
           ? `<input name="amount" maxlength="100" value="" disabled>`
-          : `<input name="amount" maxlength="100" value="${esc(c.price?.amount || "")}">`)}
+          : `<input name="amount" maxlength="100" value="${esc(lf("price.amount", c.price?.amount))}">`)}
         ${field("registration", F.registration, `<select name="registration">${opt("", F.none, !c.registration)}${["required", "optional", "none"].map((x) => opt(x, L.reg[x], c.registration === x)).join("")}</select>`)}
       </div>`,
       `<fieldset><legend>${esc(F.contacts)}</legend><div class="rep" id="rep-contacts">${(c.contacts?.length ? c.contacts : [{}]).map(contactRow).join("")}</div>
         <button type="button" class="ghost small" data-add="contacts">${esc(F.addRow)}</button></fieldset>`,
       field("organizer", F.organizer, `<input name="organizer" maxlength="200" value="${esc(c.organizer || "")}">`),
-      field("notes", F.notes, `<textarea name="notes" maxlength="2000">${esc(c.notes || "")}</textarea>`),
+      field("notes", F.notes, `<textarea name="notes" maxlength="2000">${esc(lf("notes", c.notes))}</textarea>`),
       field("comment", F.comment, `<textarea name="comment" maxlength="1000"></textarea>`, F.commentHint),
     ].join("");
   }
@@ -481,11 +488,14 @@
   function readForm(form) {
     const v = (n) => (form.elements[n]?.value || "").trim();
     const c = { ...(current || {}) };
-    c.name = v("name");
+    // A field left as shown keeps its original (any language); an edited field becomes the new original,
+    // and the worker translates it into the other language.
+    const keep = (path, val) => (formShown[path] && val === formShown[path].shown ? formShown[path].original : val);
+    c.name = keep("name", v("name"));
     const otherLangs = v("otherLangs").toLowerCase().split(/[\s,;]+/).filter((x) => /^[a-z]{2,3}$/.test(x));
     c.languages = [...new Set([...[...form.querySelectorAll("input[name=lang]:checked")].map((x) => x.value), ...otherLangs])];
     c.levels = [...form.querySelectorAll("input[name=level]:checked")].map((x) => x.value);
-    c.description = v("description");
+    c.description = keep("description", v("description"));
     c.format = v("format");
     c.status = v("status") || "active";
     c.schedule = [...form.querySelectorAll("[data-rep=schedule]")].map((r) => {
@@ -496,25 +506,28 @@
       const sf = r.querySelector("[name=s_format]").value; if (sf) s.format = sf;
       return s;
     });
-    c.schedule_note = v("schedule_note");
+    c.schedule_note = keep("schedule_note", v("schedule_note"));
     // Visitors never type coordinates. They come from a full map link; otherwise the saved point is kept
     // while venue, address and link are unchanged; otherwise the worker finds the place from the link or address.
     const prev = current?.location || {};
-    const samePlace = prev.lat !== undefined && v("venue") === (prev.venue || "") && v("address") === (prev.address || "") && v("metro") === (prev.metro || "") && v("mapUrl") === (prev.map_url || "");
+    const venue = keep("location.venue", v("venue")), address = keep("location.address", v("address")), metro = keep("location.metro", v("metro"));
+    const samePlace = prev.lat !== undefined && venue === (prev.venue || "") && address === (prev.address || "") && metro === (prev.metro || "") && v("mapUrl") === (prev.map_url || "");
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
-    c.location = { venue: v("venue"), address: v("address"), metro: v("metro"), note: v("locNote"),
+    c.location = { venue, address, metro, note: keep("location.note", v("locNote")),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
     const free = form.elements.free.checked;
-    c.price = { free, amount: free ? "" : v("amount") }; // a free club never sends a leftover price
+    c.price = { free, amount: free ? "" : keep("price.amount", v("amount")) }; // a free club never sends a leftover price
     c.registration = v("registration");
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
-      const ct = { type: r.querySelector("[name=c_type]").value, url: r.querySelector("[name=c_url]").value.trim(), access: r.querySelector("[name=c_access]").value, note: r.querySelector("[name=c_note]").value.trim() };
+      const noteEl = r.querySelector("[name=c_note]"), note = noteEl.value.trim();
+      const ct = { type: r.querySelector("[name=c_type]").value, url: r.querySelector("[name=c_url]").value.trim(), access: r.querySelector("[name=c_access]").value,
+        note: noteEl.dataset.shown !== undefined && note === noteEl.dataset.shown.trim() ? noteEl.dataset.orig : note };
       if (ct.access === "public") delete ct.access;
       // A closed group never publishes a link; submit() stops with a message instead of dropping it silently.
       return ct;
     }).filter((x) => x.url || x.note);
     c.organizer = v("organizer");
-    c.notes = v("notes");
+    c.notes = keep("notes", v("notes"));
     return { club: prune(c), comment: v("comment") };
   }
 

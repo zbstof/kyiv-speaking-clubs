@@ -27,3 +27,27 @@ notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified. Not in
   the Dec 2025 list (the library's club is now «НУМО» at the Vynnychenka branch).
+i18n:
+  en:
+    name: Conversation club "Treat me to a conversation – in Ukrainian!"
+    location.venue: Lesya Ukrainka Public Library for Adults
+    notes: >-
+      Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the
+      2025-12-01 list. The lists give no meeting times. District inferred from the address, not
+      verified. Not in the Dec 2025 list (the library's club is now "NUMO" at the Vynnychenka
+      branch).
+    location.address: 83/85 Oleksandra Konyskoho St (formerly Turgenevska)
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб українською мовою у київській публічній бібліотеці для людей, які
+      переходять на українську або вдосконалюють її.
+    notes: >-
+      Зазначено лише у списку бібліотек Київського управління культури від 2023-08-17; відсутній у
+      списку від 2025-12-01. У списках не вказані часи зустрічей. Район визначено за адресою, не
+      перевірено. У списку Dec 2025 відсутній (клуб бібліотеки тепер «НУМО» у філії Винниченка).
+i18n_src:
+  name: 67d9eced
+  description: d15e99c9
+  location.venue: 242a6210
+  notes: 935f387a
+  location.address: e79d76fa

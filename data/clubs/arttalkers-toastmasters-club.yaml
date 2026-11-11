@@ -58,3 +58,38 @@ notes: >-
   (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday matches
   2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct 31 (2026 by
   weekday). У 2023 зустрічалися в просторі Vrebro.
+i18n:
+  uk:
+    description: >-
+      Клуб Toastmasters (#00891042) для розвитку навичок публічних виступів, комунікації,
+      англійської та творчих здібностей.
+    notes: >-
+      Англомовна група (Meetup). Дата заснування 2006-11-17 за витягом пошуку зі сторінки
+      Toastmasters (не підтверджено). Meetup: 116 учасників, 65 минулих подій; останнє зафіксовано
+      Sat Oct 31 (день тижня відповідає 2026). Згадано в списках спільнот Kyiv Post 2010-04-08.
+      Остання подія на Meetup — Sat Oct 31 (2026 за днем тижня). У 2023 зустрічалися в просторі
+      Vrebro.
+  en:
+    schedule_note: >-
+      Every Saturday 12:00–14:00 in person, after 14:00 those who wish stay for lunch. Free for
+      guests, no registration required. Not all meetings are posted on Meetup; announcements are in
+      the Telegram chat.
+    location.note: 2nd floor
+    price.amount: Free for guests; membership $60 for 6 months + $25 joining fee
+    notes: >-
+      English-speaking (Meetup). Charter date 2006-11-17 from a search snippet of the Toastmasters
+      page (not verified). Meetup: 116 members, 65 past events; latest seen Sat Oct 31 (weekday
+      matches 2026). Listed in Kyiv Post community listings 2010-04-08. Latest Meetup event Sat Oct
+      31 (2026 by weekday). In 2023 they met in the Vrebro space.
+    location.address: 31 Petra Sahaidachnoho St
+    location.metro: Poshtova Square
+i18n_src:
+  description: 0c6bb59f
+  schedule_note: fecd6347
+  location.note: a5c75482
+  price.amount: "94536026"
+  name: 4c233f52
+  location.venue: c2ac423c
+  notes: 93d2c0da
+  location.address: 2ba9f8b7
+  location.metro: "12217794"

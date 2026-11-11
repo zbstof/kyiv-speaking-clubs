@@ -11,3 +11,12 @@ first_seen: 2010-04
 last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
+i18n:
+  uk:
+    name: Розмовний клуб англійської (Вадим)
+    description: Тематичні дискусії англійською на вихідних.
+    schedule_note: Вихідні (2010)
+i18n_src:
+  name: e741ff85
+  description: e24fa09c
+  schedule_note: ab26d893

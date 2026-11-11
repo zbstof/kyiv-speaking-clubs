@@ -36,3 +36,25 @@ sources:
 notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "The Ukrainian Word Calls to You"
+    location.venue: Library No. 152 for Family Reading
+    location.address: 20-A Zabolotnoho St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в київській публічній бібліотеці для людей, які
+      переходять на українську або вдосконалюють її.
+    schedule_note: >-
+      Публікація в блозі 29 Apr 2026: сесія розмовного клубу про твори Олеся Гончара. Регулярний час
+      не опубліковано.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано часу зустрічей. Район визначено з адреси, не перевірено.
+i18n_src:
+  name: 6341b628
+  description: d15e99c9
+  schedule_note: f928d2a5
+  notes: 35f55f76
+  location.venue: 1afc0e06
+  location.address: "27e62963"

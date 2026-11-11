@@ -17,3 +17,16 @@ sources:
 notes: >-
   Listed in Kyiv Post community listings, 2010-04-08. Day is Saturday or Sunday. Listed in Kyiv Post
   'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Французькомовний клуб (Світлана)
+    description: Розмовна практика французької та перегляди фільмів, раз на тиждень у вихідний день.
+    schedule_note: Раз на тиждень, у суботу або неділю
+    notes: >-
+      Зазначено в рубриці Community listings газети Kyiv Post, 2010-04-08. День — субота або неділя.
+      Зазначено в рубриці 'Community listings' на дошці оголошень Kyiv Post, 2010-04-08.
+i18n_src:
+  name: 017e587b
+  description: 36fd712b
+  schedule_note: 1d3ecfaf
+  notes: e01d897e

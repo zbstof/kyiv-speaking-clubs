@@ -23,3 +23,23 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.
+i18n:
+  uk:
+    name: "Priority Language School: Іспанський розмовний клуб"
+    description: Платна мовна школа в Києві, у якій серед курсів є іспанський розмовний клуб.
+    notes: >-
+      Зазначено лише як курс «Розмовний клуб» у картці школи на osvita.ua (картка оновлена
+      15.10.2019). Розклад і формат не вказані. Телефони в картці: (068) 265-46-55.
+  en:
+    notes: >-
+      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+      updated 15.10.2019). No schedule or format given. Phones on card: (068) 265-46-55.
+    location.address: 42B Velyka Vasylkivska St
+    location.metro: Leo Tolstoy Square
+i18n_src:
+  name: c887b93e
+  description: 579e5f8f
+  location.venue: cecdaa13
+  notes: 59235acf
+  location.address: b1a019ed
+  location.metro: 631376ee

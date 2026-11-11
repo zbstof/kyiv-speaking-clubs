@@ -39,3 +39,30 @@ notes: >-
   Founded May 2009 by the Language Exchange Club community, which coordinated many speaking clubs
   around Kyiv. У довіднику LEC: «German near Besarabka» і «Der deutsche Sprachklub!», 19:00–21:00,
   Велика Васильківська 40, 2 поверх, зала з каміном.
+i18n:
+  uk:
+    name: Розмовний клуб німецької (Language Exchange Club, Puzata Hata)
+    description: >-
+      Безкоштовний розмовний клуб німецької для початківців і тих, кому соромно говорити з носіями
+      мови; частина спільноти Language Exchange Club.
+    schedule_note: Середа, 7 p.m.
+    notes: >-
+      Засновано у травні 2009 року спільнотою Language Exchange Club, яка координувала багато
+      розмовних клубів по всьому Києву. У довіднику LEC: "German near Besarabka" і "Der deutsche
+      Sprachklub!", 19:00–21:00, Велика Васильківська, 40, 2 поверх, зала з каміном.
+    location.venue: Ресторан Puzata Hata
+  en:
+    notes: >-
+      Founded May 2009 by the Language Exchange Club community, which coordinated many speaking
+      clubs around Kyiv. In the LEC directory: "German near Besarabka" and "Der deutsche
+      Sprachklub!", 19:00–21:00, 40 Velyka Vasylkivska St, 2nd floor, room with a fireplace.
+    location.address: 40 Velyka Vasylkivska St
+    location.metro: Palace of Sports / Leo Tolstoy Square
+i18n_src:
+  name: a9a4b9f2
+  description: 777dd604
+  schedule_note: 430fd63d
+  location.venue: 59382eb3
+  notes: 20fd34c5
+  location.address: 174e47a4
+  location.metro: 8331df67

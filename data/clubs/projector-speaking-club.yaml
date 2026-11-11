@@ -35,3 +35,23 @@ last_seen: "2015-09-12"
 sources:
   - https://dou.ua/calendar/8012/
   - https://dou.ua/calendar/8249/
+i18n:
+  uk:
+    name: Розмовний клуб для дизайнерів та IT-спеціалістів (Projector)
+    description: >-
+      Англомовний розмовний клуб для дизайнерів та IT-спеціалістів у дизайн-школі Projector, який
+      веде викладач курсу "English for Designers".
+    schedule_note: Серія сесій; одна — у Tue 2015-08-18, попередня — у суботу
+    location.venue: дизайн-простір Projector
+    price.amount: 55 грн (вхід у простір)
+  en:
+    location.address: 22 Verkhnii Val St
+    location.metro: Kontraktova Square
+i18n_src:
+  name: f3ba8aa1
+  description: b57ecac9
+  schedule_note: ebe65f05
+  location.venue: "8e307499"
+  location.address: 8f9df768
+  location.metro: 377d7953
+  price.amount: fa0835bf

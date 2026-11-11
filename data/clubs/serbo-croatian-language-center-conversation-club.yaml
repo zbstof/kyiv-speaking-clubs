@@ -16,3 +16,16 @@ last_seen: "2010-04-08"
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Сербсько-хорватський мовний центр
+    description: >-
+      Розмовний клуб при Сербсько-хорватському мовному центрі, який також пропонує курси та має
+      відео- й книжкову бібліотеку.
+    notes: Зазначено в розділі "Community listings" газети Kyiv Post, 2010-04-08.
+    location.venue: Сербсько-хорватський мовний центр
+i18n_src:
+  name: 8f63cec6
+  description: b47d966f
+  notes: 0150c68c
+  location.venue: c18ed37f

@@ -25,3 +25,19 @@ last_seen: "2015-10-17"
 sources:
   - https://www.education.ua/blog/20446/
 notes: City inferred from 044 phone codes (not stated on page).
+i18n:
+  uk:
+    name: FLASH school розмовний клуб
+    description: >-
+      Розмовний клуб за чашкою чаю у FLASH English school; тему обирають студенти наперед; гості —
+      носії мови.
+    schedule_note: "Наприклад: Sat 2015-10-17 13:00, 1 hour"
+    notes: Місто визначено за телефонним кодом 044 (на сторінці не вказано).
+  en:
+    price.amount: 50 UAH
+i18n_src:
+  name: 9da5f9f5
+  description: ed607a7c
+  schedule_note: d1967a01
+  notes: de1a70ca
+  price.amount: 159cd30f

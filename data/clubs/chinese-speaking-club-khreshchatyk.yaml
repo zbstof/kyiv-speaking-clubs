@@ -8,10 +8,9 @@ location:
   venue: Пузата Хата
   address: вул. Хрещатик, 15/4-А
   metro: Хрещатик
-  lat: 50.447187
-  lon: 30.522946
+  lat: 50.447379
+  lon: 30.525838
   geocoded: true
-  near_metro: true
 schedule:
   - day: sat
     time: "13:00"
@@ -28,3 +27,22 @@ status: unknown
 first_seen: 2023-12
 last_seen: 2025-01
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  en:
+    name: In-person Chinese language club
+    description: Free Chinese conversation club (中文口语俱乐部).
+    schedule_note: Meetings on Saturday at 13:00 (грудень 2023); later — see announcements in the group.
+    notes: See the Telegram group history of Kyiv clubs (viewed 10.11.2026).
+    location.venue: Puzata Khata
+    contacts.0.note: Closed group; invitation from the organizer
+    location.address: 15/4-A Khreshchatyk St
+    location.metro: Khreshchatyk
+i18n_src:
+  name: 574aab01
+  description: feb1d816
+  schedule_note: f6a58ad7
+  notes: dd841777
+  location.venue: be30a852
+  contacts.0.note: f428c83c
+  location.address: 74b8437e
+  location.metro: 9f2c4b77

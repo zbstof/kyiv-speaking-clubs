@@ -84,7 +84,19 @@
     "last_seen": { "$ref": "#/definitions/partialDate" },
     "last_checked": { "$ref": "#/definitions/partialDate" },
     "sources": { "type": "array", "items": { "type": "string", "maxLength": 500 } },
-    "notes": { "type": "string", "maxLength": 2000 }
+    "notes": { "type": "string", "maxLength": 2000 },
+    "i18n": {
+      "description": "Translations of text fields into the language they are not written in, keyed by field path (name, description, location.note, contacts.0.note, ...).",
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "uk": { "type": "object", "additionalProperties": { "type": "string", "maxLength": 2000 } },
+        "en": { "type": "object", "additionalProperties": { "type": "string", "maxLength": 2000 } }
+      }
+    },
+    "i18n_src": {
+      "description": "Hash of the source text each translation was made from; a mismatch means the source changed.",
+      "type": "object", "additionalProperties": { "type": "string", "pattern": "^[0-9a-f]{8}$" }
+    }
   },
   "definitions": {
     "partialDate": { "type": "string", "pattern": "^[0-9]{4}(-[01][0-9](-[0-3][0-9])?)?$" }

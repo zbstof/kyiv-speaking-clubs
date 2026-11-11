@@ -42,3 +42,25 @@ sources:
   - >-
     https://archive.kyivpost.com/article/guide/about-kyiv/three-english-language-libraries-to-visit-in-kyiv-406415.html
 notes: No age restriction.
+i18n:
+  uk:
+    name: American Library Kyiv — розмовний клуб англійської мови
+    description: >-
+      Безкоштовний щотижневий розмовний клуб англійської мови в American Library (відділ бібліотеки
+      НаУКМА); теми — від мистецтва та дебатів до стосунків.
+    schedule_note: По п'ятницях 17:00–19:00 (2016–2017); по четвергах 16:30 (2014)
+    notes: Вікових обмежень немає.
+    location.venue: Американська бібліотека, NaUKMA
+  en:
+    location.note: Building 4, room 116
+    location.address: 8/5 Voloska St
+    location.metro: Kontraktova Square
+i18n_src:
+  name: d87a286f
+  description: 8e7630d1
+  schedule_note: 3f8bdc99
+  notes: 763d5f2b
+  location.note: 9ea6c362
+  location.venue: b8f9fe57
+  location.address: a277352a
+  location.metro: 377d7953

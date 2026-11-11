@@ -22,3 +22,22 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   31.07.2013). No schedule or format given. Phones on card: (044) 239-24-18.
+i18n:
+  en:
+    name: "CHISPA (Center for Spanish Language and Culture \"CHISPA\"): Spanish conversation club"
+    location.venue: CHISPA (Center for Spanish Language and Culture "CHISPA")
+    notes: >-
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 31.07.2013). No schedule or format given. Phones on card: (044) 239-24-18.
+    location.address: 7 Obolonska St
+  uk:
+    description: Платна школа мов у Києві, яка в переліку своїх курсів має розмовний клуб іспанської.
+    notes: >-
+      У картці каталогу школи на osvita.ua вказано лише як курс «Розмовний клуб» (картка оновлена
+      31.07.2013). Розклад і формат не вказані. Телефони в картці: (044) 239-24-18.
+i18n_src:
+  name: 406cc6cf
+  description: 579e5f8f
+  location.venue: 3f8bbd88
+  notes: 912d04cf
+  location.address: 62a2598f

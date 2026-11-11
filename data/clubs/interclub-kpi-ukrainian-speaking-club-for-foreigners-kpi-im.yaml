@@ -36,3 +36,32 @@ sources:
 notes: >-
   The vpi.kpi.ua page about the «Ukrainian speaking club» now returns 404; its content is known only
   from a search snippet. Neither page shows a date. Metro and district inferred.
+i18n:
+  uk:
+    name: Interclub KPI / Розмовний клуб української мови для іноземців (КПІ ім. Ігоря Сікорського)
+    description: >-
+      Студентський клуб підтримки іноземних студентів при КПІ ім. Ігоря Сікорського: щотижневі
+      зустрічі для вивчення української мови та культури; Студентська соціальна служба КПІ описала
+      безкоштовні групові заняття для іноземців у четвер як «Ukrainian Speaking Club».
+    schedule_note: «у четвер щотижня о 16-00» (kpi.ua/en/interclub).
+    notes: >-
+      Сторінка vpi.kpi.ua про «Ukrainian speaking club» зараз повертає помилку 404; її вміст відомий
+      лише зі фрагмента в результатах пошуку. Жодна зі сторінок не вказує дату. Метро та район
+      встановлено за припущенням.
+  en:
+    location.venue: Igor Sikorsky Kyiv Polytechnic Institute
+    location.note: Building 31, room 2-09 (conference hall)
+    name: >-
+      Interclub KPI / Ukrainian speaking club for foreigners (Igor Sikorsky Kyiv Polytechnic
+      Institute)
+    location.address: 7a Metalistiv St, Kyiv 03056
+    location.metro: Polytechnic Institute
+i18n_src:
+  description: 97f8b20e
+  schedule_note: 93a90001
+  notes: 1c9b95a2
+  location.venue: e6ac624e
+  location.note: 2b911d76
+  name: 2dceaaa7
+  location.address: abb024c3
+  location.metro: 5638ae83

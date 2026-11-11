@@ -26,3 +26,25 @@ sources:
 notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation course "Yedyni" — Adam Mickiewicz Library
+    location.venue: Adam Mickiewicz Library
+    description: >-
+      Free Ukrainian conversation course/club of the "Yedini" movement (initiative "Navchay
+      ukrayinskoyu") at a Kyiv public library.
+    location.address: 16/2 Ivan Franko St
+  uk:
+    description: >-
+      Безкоштовний розмовний курс/клуб української мови руху "Єдині" (ініціатива "Навчай
+      українською") у публічній бібліотеці Києва.
+    notes: >-
+      Зазначено лише в списку бібліотек департаменту культури Києва від 2023-08-17; відсутнє у
+      списку від 2025-12-01. У списках не вказано часу зустрічей. Район визначено за адресою, не
+      перевірено.
+i18n_src:
+  name: 9868f070
+  notes: 52736ebd
+  location.venue: 56b91090
+  description: 519a53f7
+  location.address: dee21b03

@@ -25,3 +25,18 @@ sources:
 notes: >-
   Year not stated on news item; also an undated session 'Connecting Sports and Personal Growth',
   Monday 16:00.
+i18n:
+  uk:
+    description: >-
+      Розмовний клуб, який проводить студентська ініціатива MohyLingo при Києво-Могилянській
+      академії; анонс у Американській бібліотеці.
+    schedule_note: Наприклад 21 May, 18:00, тема 'Міграція. Усі аспекти' (рік, ймовірно, 2023)
+    notes: >-
+      У новині не вказано рік; також зазначена недатована сесія 'Поєднання спорту та особистісного
+      зростання', понеділок, 16:00.
+    name: MohyLingo розмовний клуб (NaUKMA)
+i18n_src:
+  description: 827e76e9
+  schedule_note: dcb951f8
+  notes: "70672e29"
+  name: "15403e89"

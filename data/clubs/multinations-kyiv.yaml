@@ -14,3 +14,13 @@ last_seen: "2017-01-13"
 sources:
   - https://destinations.ua/travel/best-places-to-meet-expats-in-kyiv
 notes: Social mixer; language practice not stated explicitly.
+i18n:
+  uk:
+    description: Майже щотижневі неформальні зустрічі для експатів і місцевих у Києві.
+    schedule_note: Майже щотижня
+    notes: Соціальний міксер; мовна практика прямо не вказана.
+i18n_src:
+  description: 1a53d1ea
+  schedule_note: 81fac698
+  notes: df020242
+  name: 379d0121

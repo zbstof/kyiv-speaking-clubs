@@ -27,3 +27,21 @@ status: unknown
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  uk:
+    name: Німецька зустріч у середу
+  en:
+    description: German-speaking meetings on Wednesdays.
+    schedule_note: Wednesday 19:00–22:00.
+    notes: In the directory of the Language Exchange Club network (lec.link); date of listing unknown.
+    location.venue: Cafe "Misto Leva"
+    location.address: 5 Spaska St
+    location.metro: Kontraktova Square
+i18n_src:
+  name: 6c8aa168
+  description: a2cdb0c9
+  schedule_note: 9c0185f2
+  notes: 158955cd
+  location.venue: 3a91acdb
+  location.address: 0eced0ca
+  location.metro: 377d7953

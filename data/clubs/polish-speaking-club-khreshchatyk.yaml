@@ -8,10 +8,9 @@ location:
   venue: Пузата Хата
   address: вул. Хрещатик, 15/4-А
   metro: Хрещатик
-  lat: 50.447187
-  lon: 30.522946
+  lat: 50.447379
+  lon: 30.525838
   geocoded: true
-  near_metro: true
 schedule:
   - day: fri
     time: "19:00"
@@ -29,3 +28,22 @@ status: unknown
 first_seen: 2025-06
 last_seen: "2025-06-23"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  en:
+    name: Polish speaking club
+    description: Free Polish language club.
+    schedule_note: Friday 19:00–21:00 (за анонсом червня 2025).
+    notes: Based on the history of Telegram groups of Kyiv clubs (read 10.11.2026).
+    location.venue: Puzata Khata
+    contacts.0.note: Closed group; invitations from participants
+    location.address: 15/4-A Khreshchatyk St
+    location.metro: Khreshchatyk
+i18n_src:
+  name: 7118a626
+  description: 93aaf0a4
+  schedule_note: fa08f263
+  notes: dd841777
+  location.venue: be30a852
+  contacts.0.note: 836a931f
+  location.address: 74b8437e
+  location.metro: 9f2c4b77

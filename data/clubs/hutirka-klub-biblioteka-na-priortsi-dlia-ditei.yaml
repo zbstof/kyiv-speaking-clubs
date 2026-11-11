@@ -23,3 +23,19 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: "\"Hutirka - club\" (children's library in Priorka)"
+    location.venue: Children's library in Priorka
+    location.address: 38 Vyshhorodska St
+  uk:
+    description: Безкоштовний розмовний клуб українською для дітей у київській публічній бібліотеці.
+    notes: >-
+      Зазначено в переліку бібліотек Київського управління культури станом на 2025-12-01. У
+      переліках не вказані часи зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 5c5afb10
+  description: 0402dd7e
+  notes: "80762585"
+  location.venue: 53fb4122
+  location.address: e50699c1

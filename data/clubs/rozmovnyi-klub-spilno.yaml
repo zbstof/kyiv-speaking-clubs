@@ -23,3 +23,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "Spilno"
+    location.venue: S. Vurgun Public Library
+    location.address: 3 Oleksandra Arkhypenka St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб українською у київській публічній бібліотеці для людей, які
+      переходять на українську або вдосконалюють її.
+    notes: >-
+      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. Переліки не
+      містять часу зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 29d85752
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: 4dc8a4a8
+  location.address: fcf49747

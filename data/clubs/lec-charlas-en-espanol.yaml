@@ -22,3 +22,23 @@ status: unknown
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  uk:
+    name: Розмови іспанською
+  en:
+    description: Spanish conversation meetings of the LEC network.
+    schedule_note: 17:30–20:30; irregular in summer.
+    notes: In the directory of the Language Exchange Club network (lec.link); date of entry unknown.
+    location.venue: Gulliver Mall, food court
+    location.note: 5th floor, opposite the bowling alley
+    location.address: 1a Sportyvna Square
+    location.metro: Palace of Sports
+i18n_src:
+  name: 725b2206
+  description: dd2ad43c
+  schedule_note: fff8fc08
+  notes: 158955cd
+  location.venue: 62df18f6
+  location.note: c5515ed2
+  location.address: ad99c7ad
+  location.metro: 3dbc4bb5

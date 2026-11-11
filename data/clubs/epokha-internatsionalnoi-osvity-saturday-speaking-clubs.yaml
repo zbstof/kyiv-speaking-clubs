@@ -47,3 +47,25 @@ notes: >-
   French, Italian and German clubs launched March 2011. Price not stated. Phones are the company's
   public numbers. Spanish club announced as newly opened on 2011-12-02. Address not given in
   sources. Price not stated.
+i18n:
+  uk:
+    name: Епоха Інтернаціональної Освіти — суботні розмовні клуби
+    description: >-
+      Суботні розмовні клуби для іноземців під керівництвом українських викладачів та носіїв мови:
+      німецька, французька, італійська, англійська та російська/українська. Двогодинні заняття.
+    schedule_note: Щосуботи; англійський клуб 14:00-16:00 (2010). Двогодинне заняття. Реєстрація до п'ятниці.
+    notes: >-
+      Французький, італійський та німецький клуби були запущені в березні 2011 року. Ціна не
+      вказана. Телефони — публічні номери компанії. Іспанський клуб оголошено як новий, відкритий
+      2011-12-02. Адреса не вказана у джерелах. Ціна не вказана.
+    price.amount: 50 грн (український тренер) / 70 грн (носій мови), 2010
+  en:
+    location.venue: Epokha Internatsionalnoi Osvity
+    price.amount: 50 UAH (Ukrainian trainer) / 70 UAH (native speaker), 2010
+i18n_src:
+  name: 09f33ed6
+  description: 410361d8
+  schedule_note: 94cf5b79
+  notes: 4cb4588c
+  location.venue: 2df7f4c8
+  price.amount: 636fbfec

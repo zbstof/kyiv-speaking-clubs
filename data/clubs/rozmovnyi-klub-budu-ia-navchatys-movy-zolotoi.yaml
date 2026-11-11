@@ -27,3 +27,20 @@ notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified. Not in
   the Dec 2025 list.
+i18n:
+  en:
+    name: Conversation club "I Will Learn the Golden Language"
+    location.venue: M. Trublaini Children's Library
+    location.address: 7 Maria Prymachenko Blvd
+  uk:
+    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці Києва.
+    notes: >-
+      Зазначено лише в переліку бібліотек управління культури Києва від 2023-08-17; відсутнє в
+      списку від 2025-12-01. У списках не вказано часу зустрічей. Район визначено за адресою, не
+      підтверджено. Не в списку Dec 2025.
+i18n_src:
+  name: 86afa331
+  description: 0402dd7e
+  notes: 8e6d1c21
+  location.venue: a7831715
+  location.address: 30a7cd39

@@ -29,3 +29,18 @@ sources:
   - https://www.meetup.com/find/ua--kyiv/networking/
   - https://www.meetup.com/kiev-social-for-international-expatriates-and-ukrainians/
   - https://www.meetup.com/find/?location=ua--Kyiv&source=EVENTS&keywords=language%20exchange
+i18n:
+  uk:
+    name: Курс української мови та розмовний клуб (Ideal International / Benjamin Z Miller's Kyiv Group)
+    description: >-
+      Курс української мови та розмовний клуб для експатів, оголошення розміщено в Meetup-групі
+      Києва.
+  en:
+    schedule_note: >-
+      Wednesdays and Saturdays at 18:30, 1 hour. The location is visible only to Meetup group
+      members, so it wasn't verified whether it's in-person or online. On all Meetup events only the
+      host is listed, so whether people actually gather is not verified.
+i18n_src:
+  name: 8b21ca71
+  description: 60f2fcb1
+  schedule_note: 7a216df5

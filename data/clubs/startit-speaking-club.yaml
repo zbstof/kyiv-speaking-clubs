@@ -42,3 +42,26 @@ sources:
   - https://dou.ua/calendar/15977/
   - https://dou.ua/calendar/16626/
   - https://dou.ua/calendar/17422/
+i18n:
+  uk:
+    name: StartIT. Розмовний клуб
+    description: >-
+      Розмовні вечори англійською для IT-фахівців у тренінговому центрі StartIT; теми визначаються
+      заздалегідь, команди чергуються; модерує ментор.
+    schedule_note: >-
+      Нумеровані зустрічі №1–№10, приблизно щомісяця; наприклад Fri 2016-07-01 19:00–21:00, Wed
+      2017-04-26 19:00
+    location.venue: Тренінговий центр StartIT
+    price.amount: 100 грн (2016), 50–70 грн (2017); безкоштовно для студентів StartIT
+  en:
+    location.address: 40/10 Shota Rustaveli St
+    location.metro: Palats Sportu
+    price.amount: 100 UAH (2016), 50–70 UAH (2017); free for StartIT students
+i18n_src:
+  name: 86c06a7e
+  description: df83904a
+  schedule_note: f6135ea7
+  location.venue: 81b7acbd
+  location.address: 9f0532df
+  location.metro: 118fc088
+  price.amount: 77744f25

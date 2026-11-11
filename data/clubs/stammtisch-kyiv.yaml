@@ -42,3 +42,31 @@ notes: >-
   link to this group is not verified. Levels are a guess from 'must follow conversations'. Meetings
   documented since at least 1997. Earlier venue: Muka restaurant on Khreshchatyk (closed fall 2016).
   200+ FB group members, ~15 per meeting.
+i18n:
+  uk:
+    name: Stammtisch (німецькомовний клуб, Dom Bergonie)
+    description: >-
+      Щотижневі безкоштовні німецькомовні зустрічі українців і німців: обговорення новин, обмін
+      знаннями. Учасники мають вміти слідкувати за розмовою німецькою; вільна розмовна навичка не
+      обов'язкова.
+    schedule_note: Середа, 7 p.m.
+    notes: >-
+      Kyiv Post (2017-09-29) пише, що клуб збирається щонайменше з 1997 року; Facebook‑група (зараз
+      називається 'Deutscher Mittwochs-Stammtisch Kyjiw', відкрита, 608 учасників на момент вибірки
+      2026-11) мала понад 200 учасників у 2017 році; близько 15 осіб на зустріч. Існує
+      Telegram-акаунт @stammtisch_kyiv, але його зв'язок із цією групою не підтверджено. Рівні — це
+      припущення з формулювання 'must follow conversations'. Зустрічі документуються щонайменше з
+      1997 року. Раніше місце: ресторан Muka на Хрещатику (closed fall 2016). 200+ учасників у
+      FB‑групі, ~15 на зустріч.
+    location.venue: Dom Bergonie арт-кафе
+  en:
+    location.address: 17 Pushkinska St
+    location.metro: Teatralna
+i18n_src:
+  name: 4095e1a1
+  description: "419551e9"
+  schedule_note: 430fd63d
+  notes: "94712653"
+  location.venue: 1050a047
+  location.address: c7c40d47
+  location.metro: a3cccf71

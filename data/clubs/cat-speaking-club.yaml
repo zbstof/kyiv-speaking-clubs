@@ -25,3 +25,21 @@ status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-14"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  uk:
+    name: Розмовний клуб "CAT" (Приходь і поговори)
+  en:
+    description: English speaking club at the library on the Left Bank.
+    schedule_note: Once every two weeks on Sunday; from September 2025 — irregularly.
+    notes: From the history of the Telegram group of Kyiv clubs (read 10.11.2026).
+    location.venue: Mykola Kulish Library
+    location.address: 4B Borysa Martosa St
+    location.metro: Livoberezhna
+i18n_src:
+  name: "8e660486"
+  description: 97a3cfce
+  schedule_note: a3908c86
+  notes: dd841777
+  location.venue: 9a6cd831
+  location.address: 94651c7f
+  location.metro: a7ee73f8

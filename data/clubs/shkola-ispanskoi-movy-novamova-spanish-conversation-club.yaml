@@ -22,3 +22,23 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   06.02.2020). No schedule or format given. Phones on card: (044) 238-28-30.
+i18n:
+  uk:
+    name: "Школа іспанської мови NovaMova: Іспанський розмовний клуб"
+    description: Платна мовна школа в Києві, яка у списку курсів зазначає розмовний клуб іспанської мови.
+    notes: >-
+      Зазначено лише як курс 'Розмовний клуб' у картці школи на osvita.ua (картка оновлена
+      06.02.2020). Розклад або формат не вказано. Телефони в картці: (044) 238-28-30.
+  en:
+    location.venue: NovaMova Spanish Language School
+    name: "NovaMova Spanish School: Spanish conversation club"
+    notes: >-
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 06.02.2020). No schedule or format given. Phones on card: (044) 238-28-30.
+    location.address: 14V Yaroslaviv Val St, office 28
+i18n_src:
+  description: 579e5f8f
+  location.venue: 12106e6f
+  name: db2516a2
+  notes: "52883101"
+  location.address: 6dca483e

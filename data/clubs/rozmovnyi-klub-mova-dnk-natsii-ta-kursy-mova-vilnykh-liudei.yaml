@@ -32,3 +32,30 @@ notes: >-
   no meeting times. District inferred from the address, not verified. Courses «Мова вільних людей»
   run in partnership with charity foundation «Рокада». 2023: a «Єдині» conversation course at this
   library.
+i18n:
+  en:
+    name: >-
+      Conversation club "Mova. DNA of the Nation" and the courses "Mova of Free People" (I. Shamo
+      Library)
+    location.venue: I. Shamo Family Reading Library
+    notes: >-
+      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. Courses "Mova vilnykh
+      lyudey" run in partnership with charity foundation "Rokada". 2023: a "Yedyni" conversation
+      course at this library.
+    location.address: 22 Heroiv Sevastopolya St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в київській публічній бібліотеці для людей, які
+      переходять на українську або хочуть її вдосконалити.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано часів зустрічей. Район визначено за адресою, не перевірено. Курси "Мова
+      вільних людей" проводяться у партнерстві з благодійним фондом "Рокада". У 2023 році в цій
+      бібліотеці відбувся розмовний курс "Єдині".
+i18n_src:
+  name: c5661b57
+  description: d15e99c9
+  location.venue: a297e75d
+  notes: 5be35d9d
+  location.address: eac075d2

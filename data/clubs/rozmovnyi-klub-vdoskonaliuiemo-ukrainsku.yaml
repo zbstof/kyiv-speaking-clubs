@@ -26,3 +26,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "Improving Ukrainian"
+    location.venue: Y. Smolych Library
+    location.address: 3a Zdolbunivska St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в київській публічній бібліотеці для тих, хто
+      переходить на українську або хоче її вдосконалити.
+    notes: >-
+      Зазначено в переліку бібліотек управління культури Києва станом на 2025-12-01. Переліки не
+      містять розкладу зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 3d770e9d
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: 4013c9c9
+  location.address: ecbccc3b

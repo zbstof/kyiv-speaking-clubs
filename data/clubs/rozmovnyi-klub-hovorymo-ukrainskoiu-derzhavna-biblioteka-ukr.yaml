@@ -27,3 +27,23 @@ notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified. State
   (not municipal) library; not in the Dec 2025 municipal list.
+i18n:
+  en:
+    name: Conversation club "Let's Speak Ukrainian" (State Library of Ukraine for Youth)
+    location.venue: State Library of Ukraine for Youth
+    location.address: 122 Holosiivskyi Avenue
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови у київській публічній бібліотеці для людей, які
+      переходять на українську або прагнуть її вдосконалити.
+    notes: >-
+      Згадується лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; відсутній у
+      переліку від 2025-12-01. У списках не вказано часів зустрічей. Район визначено за адресою, не
+      перевірено. Це державна (не муніципальна) бібліотека; не входить у муніципальний перелік Dec
+      2025.
+i18n_src:
+  name: 7d44dc51
+  description: d15e99c9
+  notes: 313ef848
+  location.venue: 540dc92f
+  location.address: bd51e992

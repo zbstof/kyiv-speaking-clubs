@@ -30,3 +30,22 @@ notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified. Not in
   the Dec 2025 list.
+i18n:
+  en:
+    name: Conversation club "Dialogues in Ukrainian"
+    location.venue: Marko Vovchok Library
+    location.address: 63 Nauky Ave
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови у публічній бібліотеці Києва для людей, які
+      переходять на українську або хочуть її вдосконалити.
+    notes: >-
+      Зазначено лише в переліку бібліотек департаменту культури Києва від 2023-08-17; відсутній у
+      переліку від 2025-12-01. У переліках не вказано часу зустрічей. Район визначено за адресою, не
+      перевірено. Не присутній у переліку Dec 2025.
+i18n_src:
+  name: 9d85dd13
+  description: d15e99c9
+  notes: 8e6d1c21
+  location.venue: 3a7de18a
+  location.address: e36bf868

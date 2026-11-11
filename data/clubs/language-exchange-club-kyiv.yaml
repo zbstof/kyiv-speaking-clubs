@@ -53,3 +53,47 @@ notes: >-
   2018–2021 та книжковий клуб LEC (2019–2024). Сайт мережі lec.link перелічує клуби англійської,
   німецької, французької, іспанської, італійської й української; багато з них є в цьому списку
   окремо.
+i18n:
+  uk:
+    name: Київський клуб мовного обміну
+    description: >-
+      Безкоштовна мережа мовних груп, що зустрічаються в недорогих ресторанах; окремі групи для
+      кожної мови (англійська, російська, українська, німецька, французька та інші), приблизно 2
+      години на зустріч.
+    schedule_note: >-
+      Приблизно 2 години на зустріч; повідомлення FRI Kyiv каже, що зустрічі відбуваються щоденно,
+      мова варіюється.
+    notes: >-
+      Об'єднання для багатьох клубів. У блозі (оновлення 2016) зазначено, що російські та українські
+      клуби були "в принципі мертві" у січні 2016 і шукали нових організаторів; німецька група все
+      ще згадувалася Kyiv Post у 2017. Учасники платять лише за свою їжу. Сесії тривають близько 2
+      годин. Блог (оновлення 2016) каже, що російські та українські групи були "в принципі мертві"
+      до січня 2016; німецька група для початківців усе ще працювала у вересні 2017 (Kyiv Post).
+      Типовий вік учасників 20–28. Ціну 'free' виведено: учасники купують лише свою їжу. Оновлення
+      блогу 2016 року каже, що російські та українські групи були "в принципі мертві". Дата
+      публікації Kyiv Post (FRI) невідома. Ймовірно, також охоплено іншими дослідниками (європейські
+      мови). Продовження: "Sunday conversation club" LEC у "Циферблаті" 2018–2021 та книжковий клуб
+      LEC (2019–2024). Сайт мережі lec.link перелічує клуби англійської, німецької, французької,
+      іспанської, італійської й української; багато з них є в цьому списку окремо.
+    location.venue: Puzata Khata (більшість зустрічей)
+  en:
+    notes: >-
+      Umbrella for many clubs. The blog's 2016 update says the Russian and Ukrainian clubs were
+      'basically dead' in January 2016 and looking for new organizers; the German group was still
+      listed by Kyiv Post in 2017. Attendees pay only for their own food. Sessions about 2 hours.
+      Blog (2016 update) says the Russian and Ukrainian groups were 'basically dead' by Jan 2016;
+      the German beginners group was still running in Sept 2017 (Kyiv Post). Typical attendee age
+      20–28. Price 'free' is inferred: participants only buy their own food. 2016 blog update says
+      Russian and Ukrainian groups were 'basically dead'. FRI Kyiv Post date unknown. Likely also
+      covered by other researchers (European languages). Continued: "Sunday conversation club" LEC
+      at Cyferblat 2018–2021 and the LEC book club (2019–2024). The network site lec.link lists
+      English, German, French, Spanish, Italian and Ukrainian clubs; many of them are listed
+      separately in this list.
+    location.metro: Kontraktova Square
+i18n_src:
+  name: a40804b7
+  description: 3d9cac1a
+  schedule_note: eaa94a05
+  location.venue: 7dc619eb
+  notes: de24670e
+  location.metro: 377d7953

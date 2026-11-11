@@ -26,3 +26,21 @@ status: unknown
 first_seen: 2025-10
 last_seen: "2025-11-22"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  en:
+    description: Club for those who are just starting to speak English (A2–B1), with a teacher.
+    schedule_note: Occasional meetings on Saturdays at 18:00 (November 2025).
+    notes: For the history of the Telegram group of Kyiv clubs (read 10.11.2026).
+    location.venue: "\"Cactus\" Cafe"
+    price.amount: Donation 400 грн to help the wounded
+    contacts.0.note: Closed group
+  uk:
+    name: Розмовний клуб Fayna (Thepeach.eng)
+i18n_src:
+  description: aee2024c
+  schedule_note: fe8f395f
+  notes: dd841777
+  location.venue: 728c0b10
+  price.amount: "66797136"
+  contacts.0.note: 8da26f35
+  name: 09308fd1

@@ -28,3 +28,21 @@ status: unknown
 first_seen: 2024-04
 last_seen: "2024-05-12"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  uk:
+    name: Розмовний клуб турецької
+  en:
+    description: Turkish speaking club for level A1 and above.
+    schedule_note: Weekly topics (April–May 2024).
+    notes: According to the history of the Telegram groups of Kyiv clubs (read 10.11.2026).
+    location.venue: Café "Krendel"
+    location.address: Khreshchatyk St
+    location.metro: Khreshchatyk
+i18n_src:
+  name: 8ff2e4d9
+  description: da24130b
+  schedule_note: a091b13c
+  notes: dd841777
+  location.venue: b5ffa07c
+  location.address: 34faea66
+  location.metro: 9f2c4b77

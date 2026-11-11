@@ -30,3 +30,22 @@ notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified. Not in
   the Dec 2025 list.
+i18n:
+  en:
+    name: Conversation club "Nadiya Ye"
+    location.venue: Library No. 13
+    location.address: 14/45 Vidradnyi Ave
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови у публічній бібліотеці Києва для людей, які
+      переходять на українську або хочуть її вдосконалити.
+    notes: >-
+      Зазначено лише в бібліотечному списку Київського департаменту культури від 2023-08-17;
+      відсутній у списку від 2025-12-01. Списки не вказують часів зустрічей. Район визначено за
+      адресою, не перевірено. Не включено до списку Dec 2025.
+i18n_src:
+  name: 649dc93d
+  description: d15e99c9
+  notes: 8e6d1c21
+  location.venue: 2f5102a0
+  location.address: ad59d453

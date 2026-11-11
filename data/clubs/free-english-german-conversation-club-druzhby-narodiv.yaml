@@ -27,3 +27,21 @@ sources:
 notes: >-
   Phone in source: 529-75-77 (Kyiv landline). Listed in Kyiv Post 'Community listings' bulletin
   board, 2010-04-08.
+i18n:
+  uk:
+    name: Безкоштовний розмовний клуб англійської/німецької (Дружби Народів)
+    description: Безкоштовний розмовний клуб англійської та німецької, відкритий для всіх.
+    schedule_note: Щонеділі (2010)
+    notes: >-
+      Телефон у джерелі: 529-75-77 (київський міський). Зазначено в рубриці "Community listings"
+      газети Kyiv Post, 2010-04-08.
+  en:
+    location.address: 18/7 Druzhby Narodiv Blvd, office 3
+    location.metro: Druzhby Narodiv
+i18n_src:
+  name: 4ab194ed
+  description: d146a255
+  schedule_note: c618029c
+  notes: 99880a7f
+  location.address: 2f901787
+  location.metro: b53c80ce

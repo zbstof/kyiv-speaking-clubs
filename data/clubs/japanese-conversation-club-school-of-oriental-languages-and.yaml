@@ -40,3 +40,37 @@ sources:
 notes: >-
   School works in Kyiv since 2010 per osvita.ua. 2026-07-31 is the osvita.ua listing update date,
   not proof that the club meets. Clubs may exist for other Eastern languages too (not confirmed).
+i18n:
+  uk:
+    name: Розмовний клуб японської мови, Школа східних мов та культури (ШСМК)
+    description: >-
+      Приватна школа, що викладає 8 східних мов (японська, китайська, корейська, арабська, турецька,
+      фарсі, хінді, індонезійська). У переліку — розмовний клуб з японської; на сайті школи також
+      згадуються розмовні клуби й майстер-класи загалом.
+    notes: >-
+      Школа працює в Києві з 2010 року згідно з osvita.ua. Дата оновлення запису на osvita.ua —
+      2026-07-31; це не підтвердження того, що клуб справді проводить зустрічі. Можуть існувати
+      клуби й для інших східних мов (не підтверджено).
+  en:
+    schedule_note: >-
+      Schedule not published. A free conversation club with a native speaker is included in the
+      Japanese course (for students of the school). Details — contact the administrator: Mon–Fri
+      12:00–19:30, Sat 10:00–17:30.
+    location.venue: School of Oriental Languages and Culture
+    location.note: Entrance through the arch
+    price.amount: Free for students of the course.
+    name: >-
+      Japanese conversation club, School of Oriental Languages and Culture (Shkola skhidnykh mov ta
+      kultury, ShSMK)
+    location.address: 1-B Taras Shevchenko Blvd, office 12-A
+    location.metro: Teatralna / Ukrainian Heroes Square
+i18n_src:
+  description: f77ccd2a
+  schedule_note: 2b87caae
+  notes: 8242f1b5
+  location.venue: 220ba00b
+  location.note: a9383525
+  price.amount: adca151f
+  name: a30c4782
+  location.address: 92056cc3
+  location.metro: ac047789

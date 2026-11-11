@@ -41,3 +41,29 @@ last_seen: "2026-11-10"
 notes: >-
   Той самий простір, що й Psychology & Art Club; по неділях там же — Мафія українською
   (15:30–20:00).
+i18n:
+  en:
+    description: >-
+      Board game evenings in English and Ukrainian: Alias, Dixit, Codenames, Catan, Monopoly and
+      more. Small groups; spots are limited.
+    schedule_note: Wednesdays 18:00–21:30. Sign up in the group; spots often fill up in advance.
+    notes: Same space as Psychology & Art Club; on Sundays there — Mafia in Ukrainian (15:30–20:00).
+    location.venue: Art space near Zoloti Vorota.
+    location.note: >-
+      Entrance from the side exit of Zoloti Vorota metro station, near the capsule hotel. The room
+      and door code are provided after signing up.
+    contacts.0.note: Closed group
+    location.address: 42 Volodymyrska St
+    location.metro: Zoloti Vorota
+  uk:
+    name: Клуб ігрових вечорів 🎲
+i18n_src:
+  description: 6ebd729c
+  schedule_note: f0e4e28a
+  notes: 0f390250
+  location.venue: 402caa26
+  location.note: d0ff0339
+  contacts.0.note: 8da26f35
+  name: aa752aef
+  location.address: 87dd5365
+  location.metro: e4cb2047

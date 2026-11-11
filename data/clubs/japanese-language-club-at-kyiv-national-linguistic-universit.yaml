@@ -22,3 +22,18 @@ last_seen: 2017-09
 sources:
   - https://www.jpf.go.jp/e/project/japanese/teach/dispatch/voice/assistant/report/2017_09.html
 notes: University-internal club for KNLU students.
+i18n:
+  uk:
+    name: Клуб японської мови при Київському національному лінгвістичному університеті
+    description: >-
+      Щомісячний клуб японської мови для студентів КНЛУ 1–5 курсів, які хочуть більше розмовної
+      практики; долучаються японські студенти за програмою обміну; пісні та ігри японською.
+    schedule_note: Раз на місяць (звіт 2017)
+    notes: Внутрішній університетський клуб для студентів КНЛУ.
+    location.venue: Київський національний лінгвістичний університет
+i18n_src:
+  name: d3c2a171
+  description: 95acaeca
+  schedule_note: 9d109a46
+  notes: 06bc4244
+  location.venue: 7f2b5ba7

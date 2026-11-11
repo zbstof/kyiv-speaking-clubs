@@ -40,7 +40,7 @@
       closeText: "Клуб більше не збирається? Модератор позначить його як закритий. Клуб залишиться в архіві.",
       cancel: "Скасувати", send: "Надіслати на перевірку", sending: "Надсилаємо…",
       closeBtn: "Закрити", trackPr: "Стежити за перевіркою на GitHub",
-      slotFormat: { offline: "наживо", online: "онлайн" },
+      slotFormat: { offline: "наживо", online: "онлайн" }, metro: "м.",
       members: (n) => {
         const r = roughCount(n);
         if (r >= 1000) return `≈ ${(r / 1000).toLocaleString("uk-UA", { maximumFractionDigits: 1 })} тис. учасників`;
@@ -52,6 +52,7 @@
       legendShared: "число: кілька клубів за однією адресою",
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
+      onMap: "На мапі",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
       mapFailed: "Не вдалося завантажити мапу. Перевірте інтернет.",
       mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
@@ -117,7 +118,7 @@
       closeText: "The club no longer meets? The moderator will mark it closed. It stays in the archive.",
       cancel: "Cancel", send: "Send for review", sending: "Sending…",
       closeBtn: "Close", trackPr: "Follow the review on GitHub",
-      slotFormat: { offline: "in person", online: "online" },
+      slotFormat: { offline: "in person", online: "online" }, metro: "metro",
       members: (n) => {
         const r = roughCount(n);
         return r >= 1000 ? `≈ ${(r / 1000).toLocaleString("en-GB", { maximumFractionDigits: 1 })}k members` : `≈ ${r} ${r === 1 ? "member" : "members"}`;
@@ -127,6 +128,7 @@
       legendShared: "number: several clubs at one address",
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
+      onMap: "On the map",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
       mapFailed: "Could not load the map. Check your connection.",
       mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
@@ -252,6 +254,21 @@
     for (const p of pats) { const m = url.match(p); if (m) return { lat: +m[1], lon: +m[2] }; }
     return null;
   }
+  // Copy of detectLang in lib/i18n.mjs: "uk", "ru", "en" or null.
+  function detectLang(text) {
+    const cyr = (text.match(/[\u0400-\u04FF]/g) || []).length;
+    const lat = (text.match(/[A-Za-z]/g) || []).length;
+    if (!cyr && !lat) return null;
+    if (cyr >= lat) return /[ыэъё]/i.test(text) && !/[іїєґ]/i.test(text) ? "ru" : "uk";
+    return "en";
+  }
+  // A club text field in the interface language: the stored translation if there is one (translations
+  // are stored only when they differ from the original), otherwise the original.
+  function tx(c, path, value) {
+    if (!value) return value || "";
+    return c.i18n?.[ui]?.[path] || value;
+  }
+
   // Link to the place: the stored map link, else a Google Maps pin from coordinates, else a search by address.
   function mapHref(loc) {
     if (!loc) return null;
@@ -317,13 +334,14 @@
       if (fmt && c.format !== fmt && !(c.format === "hybrid" && fmt !== "hybrid")) return false;
       if (freeOnly && !(c.price && c.price.free)) return false;
       if (q) {
-        const hay = [c.name, c.description, c.organizer, c.notes, c.schedule_note, c.location && Object.values(c.location).join(" "), c.languages.map(langName).join(" ")].join(" ").toLowerCase();
+        const hay = [c.name, c.description, c.organizer, c.notes, c.schedule_note, c.location && Object.values(c.location).join(" "), c.languages.map(langName).join(" "),
+          ...Object.values(c.i18n || {}).flatMap((m) => Object.values(m))].join(" ").toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
     }).sort((a, b) => {
       const order = { active: 0, stale: 1, unknown: 2, paused: 3, closed: 4 };
-      return order[shownStatus(a)] - order[shownStatus(b)] || (freshest(b) || 0) - (freshest(a) || 0) || a.name.localeCompare(b.name);
+      return order[shownStatus(a)] - order[shownStatus(b)] || (freshest(b) || 0) - (freshest(a) || 0) || tx(a, "name", a.name).localeCompare(tx(b, "name", b.name));
     });
 
     shown = list;
@@ -339,18 +357,19 @@
     const sched = (c.schedule || []).map((s) =>
       `${L.days[s.day]}${s.time ? " " + s.time : ""}${s.format ? " " + L.slotFormat[s.format] : ""}${s.duration_min ? ` (${s.duration_min} ${L.min})` : ""}${s.frequency && s.frequency !== "weekly" ? ", " + L.freq[s.frequency] : ""}`).join("; ");
     const loc = c.location || {};
-    const place = [loc.venue, loc.address, loc.metro && "м. " + loc.metro]
+    const place = [tx(c, "location.venue", loc.venue), tx(c, "location.address", loc.address), loc.metro && L.metro + " " + tx(c, "location.metro", loc.metro)]
       .filter(Boolean)
       .filter((part, i, all) => !all.slice(0, i).some((prev) => prev.includes(part))) // address already inside venue text
       .join(", ");
-    const price = c.price ? (c.price.free ? L.free : (c.price.amount || L.paid)) : "";
+    const price = c.price ? (c.price.free ? L.free : (tx(c, "price.amount", c.price.amount) || L.paid)) : "";
     const dates = [
       c.last_checked && `${L.checked}: ${fmtDate(c.last_checked)}`,
       c.last_seen && `${L.lastSeen}: ${fmtDate(c.last_seen)}`,
       c.first_seen && `${L.since} ${fmtDate(c.first_seen)}`,
     ].filter(Boolean).join(" · ");
     const typeName = (ct) => L.ctype[ct.type] || ct.type;
-    const contacts = (c.contacts || []).map((ct) => {
+    const contacts = (c.contacts || []).map((ct0, i) => {
+      const ct = { ...ct0, note: tx(c, `contacts.${i}.note`, ct0.note) };
       const size = ct.members !== undefined ? `<span class="members" title="${esc(L.membersAsOf(ct.members_checked))}">${esc(L.members(ct.members))}</span>` : "";
       if (ct.access === "on_request" || !ct.url) {
         return `<span>🔒 ${esc(typeName(ct))} (${esc(L.closedGroup)})${size ? " " + size : ""}${ct.note ? ": " + esc(ct.note) : ""}</span>`;
@@ -364,15 +383,15 @@
 
     return `<li class="card${isOld(c) ? " old" : ""}" data-id="${esc(c.id)}">
       <div class="row"><span class="badge ${st}">${esc(L.status[st])}</span>${c.languages.map((l) => `<span class="chip">${esc(langName(l))}</span>`).join("")}${c.format ? `<span class="chip">${esc(L.format[c.format])}</span>` : ""}</div>
-      <h3>${esc(c.name)}</h3>
-      ${c.description ? `<p class="desc">${esc(c.description)}</p>` : ""}
-      ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(c.schedule_note || "")}</p>` : ""}
-      ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${mapHref(loc) ? ` · <a href="${esc(mapHref(loc))}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(loc.note)}` : ""}</p>` : ""}
+      <h3>${esc(tx(c, "name", c.name))}</h3>
+      ${c.description ? `<p class="desc">${esc(tx(c, "description", c.description))}</p>` : ""}
+      ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(tx(c, "schedule_note", c.schedule_note))}</p>` : ""}
+      ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${mapHref(loc) ? ` · <a href="${esc(mapHref(loc))}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}${loc.lat !== undefined && c.format !== "online" ? ` · <a href="#map" data-onmap="${esc(c.id)}">${esc(L.onMap)}</a>` : ""}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(tx(c, "location.note", loc.note))}` : ""}</p>` : ""}
       ${price || c.registration || c.levels?.length ? `<p class="meta">${[price && `<span class="ico">💳</span>${esc(price)}`, c.registration && esc(L.reg[c.registration]), c.levels?.length && esc(L.levels + ": " + c.levels.map((l) => (l === "any" ? L.anyLevel : l)).join(", "))].filter(Boolean).join(" · ")}</p>` : ""}
       ${c.organizer ? `<p class="meta">${esc(L.organizer)}: ${linkify(c.organizer)}</p>` : ""}
       ${contacts ? `<div class="contacts">${contacts}</div>` : ""}
       ${dates ? `<p class="meta">${esc(dates)}</p>` : ""}
-      ${sources.length || c.notes ? `<details class="src"><summary>${esc(sources.length ? `${L.sources} (${sources.length})` : L.notesOnly)}${sources.length && c.notes ? esc(L.andNotes) : ""}</summary>${c.notes ? `<p>${esc(c.notes)}</p>` : ""}${sources.length ? `<ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul>` : ""}</details>` : ""}
+      ${sources.length || c.notes ? `<details class="src"><summary>${esc(sources.length ? `${L.sources} (${sources.length})` : L.notesOnly)}${sources.length && c.notes ? esc(L.andNotes) : ""}</summary>${c.notes ? `<p>${esc(tx(c, "notes", c.notes))}</p>` : ""}${sources.length ? `<ul>${sources.map((s) => `<li><a href="${esc(s)}" target="_blank" rel="noopener nofollow">${esc(s.length > 70 ? s.slice(0, 68) + "…" : s)}</a></li>`).join("")}</ul>` : ""}</details>` : ""}
       <div class="card-actions">
         <button type="button" class="small" data-act="edit">${esc(L.edit)}</button>
         ${c.status !== "closed" ? `<button type="button" class="small" data-act="confirm">${esc(L.confirm)}</button><button type="button" class="small" data-act="close">${esc(L.close)}</button>` : ""}
@@ -602,6 +621,7 @@
   let view = location.hash === "#map" ? "map" : "list";
   let shown = [];
   let map = null, markers = null, leafletPromise = null;
+  const markerById = new Map();   // club id -> Leaflet marker, rebuilt on every draw
 
   function loadLeaflet() {
     if (window.L) return Promise.resolve();
@@ -631,11 +651,11 @@
     const sched = (c.schedule || []).filter((s) => s.format !== "online").map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
     const href = mapHref(loc);
     return `<div class="pop${inGroup ? " pop-item" : ""}">
-      <b>${esc(c.name)}</b>
+      <b>${esc(tx(c, "name", c.name))}</b>
       <div class="pop-meta"><span class="badge ${st}">${esc(L.status[st])}</span> ${esc(c.languages.map(langName).join(", "))}</div>
       ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
-      <div>📍 ${esc([loc.venue, loc.address].filter(Boolean).join(", "))}</div>
-      ${loc.note ? `<div>🧭 ${esc(loc.note)}</div>` : ""}
+      <div>📍 ${esc([tx(c, "location.venue", loc.venue), tx(c, "location.address", loc.address)].filter(Boolean).join(", "))}</div>
+      ${loc.note ? `<div>🧭 ${esc(tx(c, "location.note", loc.note))}</div>` : ""}
       ${loc.near_metro ? `<div class="pop-approx">${esc(L.approxMetro(loc.metro))}</div>` : loc.geocoded ? `<div class="pop-approx">${esc(L.approx)}</div>` : ""}
       <div class="pop-links">${href ? `<a href="${esc(href)}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}
         <button type="button" class="small" data-goto="${esc(c.id)}">${esc(L.more)}</button></div>
@@ -655,6 +675,7 @@
     snapMap();
     map.invalidateSize();
     markers.clearLayers();
+    markerById.clear();
 
     const placed = shown.filter((c) => c.location?.lat !== undefined && c.format !== "online");
     // Clubs within ~10 m of each other share one marker that shows how many clubs are there.
@@ -673,13 +694,14 @@
         // Ring split into equal parts, one per club, in that club's language colour.
         const step = 100 / group.length;
         const ring = group.map((c, i) => `var(--lang-${pinKey(c)}) ${i * step}% ${(i + 1) * step}%`).join(", ");
-        html = `<span class="pin pin-multi${group.every(isOld) ? " old" : ""}" style="--ring: conic-gradient(${ring})" title="${esc(group.map((c) => c.name).join(" · "))}">${group.length}</span>`;
+        html = `<span class="pin pin-multi${group.every(isOld) ? " old" : ""}" style="--ring: conic-gradient(${ring})" title="${esc(group.map((c) => tx(c, "name", c.name)).join(" · "))}">${group.length}</span>`;
         popup = () => popupGroupHtml(group);
       }
       const icon = L.divIcon({ className: "pin-wrap", html, iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14] });
-      L.marker([first.location.lat, first.location.lon], { icon, title: group.map((c) => c.name).join(" · "), alt: group.map((c) => c.name).join(" · ") })
+      const marker = L.marker([first.location.lat, first.location.lon], { icon, title: group.map((c) => tx(c, "name", c.name)).join(" · "), alt: group.map((c) => tx(c, "name", c.name)).join(" · ") })
         .bindPopup(popup, { maxWidth: 300, maxHeight: 360 })
         .addTo(markers);
+      group.forEach((c) => markerById.set(c.id, marker));
     }
     if (fit && placed.length) map.fitBounds(L.latLngBounds(placed.map((c) => [c.location.lat, c.location.lon])), { padding: [30, 30], maxZoom: 15 });
 
@@ -701,7 +723,7 @@
   }
   window.addEventListener("resize", () => { if (view === "map" && map) snapMap(); });
 
-  function setView(v) {
+  function setView(v, draw = true) {
     view = v;
     $("#v-list").setAttribute("aria-selected", v === "list");
     $("#v-map").setAttribute("aria-selected", v === "map");
@@ -709,7 +731,18 @@
     $("#map-view").hidden = v !== "map";
     $("#empty").hidden = v === "map" || shown.length > 0;
     history.replaceState(null, "", v === "map" ? "#map" : location.pathname + location.search);
-    if (v === "map") drawMap(true);
+    if (v === "map" && draw) drawMap(true);
+  }
+
+  // From a card: show the map, zoom to the club and open its popup.
+  async function gotoMap(id) {
+    setView("map", false);   // drawing here, without fitting all pins, so the zoom below is not overridden
+    await drawMap(false);
+    const m = markerById.get(id);
+    if (!m) return;
+    map.setView(m.getLatLng(), 16);
+    m.openPopup();
+    $("#map-view").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function gotoCard(id) {
@@ -730,6 +763,8 @@
       applyTexts(); fillFilters(); render();
     });
     $("#list").addEventListener("click", (e) => {
+      const onmap = e.target.closest("a[data-onmap]");
+      if (onmap) { e.preventDefault(); gotoMap(onmap.dataset.onmap); return; }
       const btn = e.target.closest("button[data-act]");
       if (!btn) return;
       const club = clubs.find((c) => c.id === btn.closest(".card").dataset.id);

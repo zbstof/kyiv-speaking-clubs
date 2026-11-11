@@ -8,12 +8,12 @@ languages:
 format: offline
 location:
   venue: Пузата Хата, ТРЦ «Оазис»
+  address: Оболонський просп., 47/42
   metro: Героїв Дніпра
   note: 3–4 поверх, Пузата Хата
   lat: 50.52267
   lon: 30.498899
   geocoded: true
-  near_metro: true
 schedule:
   - day: wed
     time: "18:30"
@@ -46,3 +46,29 @@ notes: >-
   Публічна Telegram-група, понад 500 учасників. Активність: 30–50 повідомлень на місяць улітку 2026,
   5–11 з жовтня. Найактивніший у 2022 році (~2700 повідомлень), далі щороку менше. Клуб мережі LEC
   (Wednesday і Friday English@Obolon).
+i18n:
+  uk:
+    name: Англомовний розмовний клуб на Оболоні
+  en:
+    description: English speaking club in Obolon. Meetings take place when at least three people sign up.
+    schedule_note: >-
+      According to the group's description — Wednesday and Friday 18:30–20:00. In reality meetings
+      take place only if at least three people have confirmed participation; invitations have been
+      infrequent recently.
+    notes: >-
+      Public Telegram group, over 500 members. Activity: 30–50 messages per month in summer 2026,
+      5–11 since October. Most active in 2022 (~2700 messages), then fewer each year. Club of the
+      LEC network (Wednesday and Friday English@Obolon).
+    location.venue: Puzata Khata, Oasis Mall
+    location.note: 3rd–4th floors, Puzata Khata
+    location.address: 47/42 Obolonskyi Ave.
+    location.metro: Heroiv Dnipra
+i18n_src:
+  name: f3dc1a10
+  description: cab56516
+  schedule_note: 5de4d9b3
+  notes: "1e997921"
+  location.venue: 7896393f
+  location.note: e4d56b41
+  location.address: 062415c7
+  location.metro: 915b87ba

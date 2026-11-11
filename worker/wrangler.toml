@@ -7,6 +7,7 @@ REPO = "zbstof/kyiv-speaking-clubs"
 BASE_BRANCH = "main"
 # Comma-separated list of site origins allowed to call the worker.
 ALLOWED_ORIGINS = "https://zbstof.github.io,http://localhost:8080"
+OPENAI_MODEL = "gpt-5-mini"
 
 # At most 5 suggestions per minute from one IP address.
 [[ratelimits]]
@@ -19,3 +20,4 @@ namespace_id = "1001"
 # Secrets, set with:
 #   npx wrangler secret put GITHUB_TOKEN      # fine-grained token: this repo only; Contents + Pull requests + Issues: read/write
 #   npx wrangler secret put TURNSTILE_SECRET
+#   npx wrangler secret put OPENAI_API_KEY    # optional: translates suggestions into the missing language

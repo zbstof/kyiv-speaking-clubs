@@ -37,3 +37,30 @@ notes: >-
   прочитано 10.11.2026. Публічне посилання @english_shuliavka більше не існує, але закрита група
   діє. Клуб мережі LEC; у червні 2023 — у переліку клубів міста. Опис групи підтверджує розклад;
   історію повідомлень новим учасникам не видно. Telegram-група клубу, прочитано 10.11.2026.
+i18n:
+  uk:
+    name: Англомовний клуб у Шулявці.
+  en:
+    description: English speaking club at Puzata Khata near Shuliavska metro station.
+    schedule_note: Every Tuesday 19:00–21:00.
+    notes: >-
+      Mentioned in the Speaking Event Club chat (Telegram), where participants of different clubs
+      share announcements; read 10.11.2026. The public link @english_shuliavka no longer exists, but
+      a closed group is active. The club is part of the LEC network; in June 2023 it was listed
+      among the city’s clubs. The group's description confirms the schedule; message history is not
+      visible to new members. Club's Telegram group, read 10.11.2026.
+    location.venue: Puzata Khata
+    location.note: 3rd floor, long table by the entrance
+    contacts.0.note: Closed group; invitations from members
+    location.address: 1V Oleksandra Dovzhenka St
+    location.metro: Shuliavska
+i18n_src:
+  name: d6d80ef0
+  description: a274d07e
+  schedule_note: a1a96c59
+  notes: 720c5b90
+  location.venue: be30a852
+  location.note: 2522f651
+  contacts.0.note: 836a931f
+  location.address: 5c18bfc3
+  location.metro: 025c1683

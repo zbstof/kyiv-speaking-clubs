@@ -12,3 +12,14 @@ status: unknown
 sources:
   - https://www.meetup.com/Vamos-a-platicar/
 notes: Meetup group, city Kyiv, 41 members (2026-11); no upcoming or dated past events visible.
+i18n:
+  uk:
+    name: Vamos a platicar (Іспанський розмовний клуб)
+    description: "Розмовний клуб іспанської на Meetup: історії, враження, думки, ігри іспанською."
+    notes: >-
+      Група на Meetup, місто Київ, 41 учасник (2026-11); немає майбутніх або датованих минулих
+      подій.
+i18n_src:
+  name: 5df618b4
+  description: 1d5cbcaa
+  notes: ed0b12b2

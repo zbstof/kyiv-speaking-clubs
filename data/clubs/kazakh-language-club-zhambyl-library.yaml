@@ -21,3 +21,20 @@ notes: >-
   weekly Kazakh classes at the 'Dostyk' cultural centre in central Kyiv:
   https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Closer to a course than
   a speaking club.
+i18n:
+  uk:
+    name: Клуб казахської мови при Публічній бібліотеці імені Жамбила Жабаєва
+    description: >-
+      Клуб для вивчення казахської мови для казахської діаспори в Україні: граматика та словниковий
+      запас, твори казахських мислителів, лекції з історії Казахстану, економіки та сучасного життя.
+    notes: >-
+      Скоріше навчальний клуб, ніж суто розмовний. Окрема стаття на inform.kz (403, не читано)
+      згадує про щотижневі заняття з казахської мови в культурному центрі 'Dostyk' у центрі Києва:
+      https://www.inform.kz/en/kazakh-language-open-lesson-held-in-kyiv_a3595221 Ближче до курсу,
+      ніж до розмовного клубу.
+    location.venue: Київська публічна бібліотека імені Жамбила Жабаєва
+i18n_src:
+  name: 3e48be28
+  description: e8210527
+  notes: a2b11495
+  location.venue: b5da6754

@@ -19,3 +19,22 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.
+i18n:
+  en:
+    name: "Linhvatus Francophone Center: French conversation club"
+    location.venue: Linhvatus Francophone Center
+    notes: >-
+      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+      updated 31.05.2013). No schedule or format given. Phones on card: (044) 246-77-76.
+    location.address: 15A Shota Rustaveli St, office 3
+  uk:
+    description: Платна мовна школа в Києві, яка у переліку курсів має розмовний клуб із французької.
+    notes: >-
+      Зазначено лише як курс під назвою "Розмовний клуб" у картці школи на osvita.ua (картка
+      оновлена 31.05.2013). Розклад або формат не вказано. Телефони в картці: (044) 246-77-76.
+i18n_src:
+  name: 5d1e5028
+  description: "02267447"
+  location.venue: 0e60d12b
+  notes: 87554eeb
+  location.address: ec3dd808

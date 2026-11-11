@@ -20,3 +20,17 @@ first_seen: "2019-03-22"
 last_seen: "2019-03-22"
 sources:
   - https://dou.ua/calendar/25590/
+i18n:
+  uk:
+    description: Розмовні клуби та заняття з викладачем CELTA з Великої Британії та програмістом зі США.
+    schedule_note: 2019-03-22 (регулярний розклад не вказано)
+    price.amount: $10 за сесію; перше безкоштовне після реєстрації на сайті
+    name: English Empire — MeetUp для носіїв англійської мови
+  en:
+    location.address: 7V Mykoly Hoholya (Holeho) St
+i18n_src:
+  description: ab9f7e02
+  schedule_note: c622cbd4
+  price.amount: 8bfd28cc
+  name: d2fce402
+  location.address: d95bed82

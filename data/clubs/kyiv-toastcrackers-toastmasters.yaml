@@ -26,3 +26,20 @@ last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    description: Зустріч клубу Toastmasters International у Будинку вчених.
+    schedule_note: Щосереди о 7 p.m. (2010)
+    notes: Зазначено в рубриці "Community listings" видання Kyiv Post, 2010-04-08.
+  en:
+    location.venue: House of Scientists
+    location.address: 45a Volodymyrska St
+    location.metro: Zoloti Vorota
+i18n_src:
+  description: 7263b238
+  schedule_note: 62dea850
+  notes: 0150c68c
+  location.venue: c783f2c7
+  name: 4ccfc534
+  location.address: 90c792e0
+  location.metro: e4cb2047

@@ -22,3 +22,23 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   11.12.2017). No schedule or format given. Phones on card: +38 (073) 044-88-58.
+i18n:
+  uk:
+    name: "Курси польської мови PO POLSKU!: Розмовний клуб польської мови"
+    description: Платна мовна школа в Києві, у списку курсів якої зазначено польський розмовний клуб.
+    notes: >-
+      Вказано лише як курс "Розмовний клуб" у картці школи на osvita.ua (картка оновлена
+      11.12.2017). Розклад або формат не вказано. Телефони в картці: +38 (073) 044-88-58.
+  en:
+    location.venue: Polish language courses PO POLSKU!
+    name: "PO POLSKU! Polish language courses: Polish conversation club"
+    notes: >-
+      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+      updated 11.12.2017). No schedule or format given. Phones on card: +38 (073) 044-88-58.
+    location.address: 14-B Antonovycha St
+i18n_src:
+  description: 583c7a10
+  location.venue: 443ab57e
+  name: f90ac5d8
+  notes: ce0ef8bf
+  location.address: 8ca1f91c

@@ -26,3 +26,23 @@ sources:
 notes: >-
   708 members. Looks like a city-branded group of a global online service, not a Kyiv organizer; low
   relevance.
+i18n:
+  uk:
+    name: Київський безкоштовний онлайн-розмовний клуб англійської мови (Langclub)
+    description: >-
+      Безкоштовна онлайн-практика розмовної англійської, бронювання на langclub.live; Meetup-група,
+      названа на честь Києва.
+    notes: >-
+      708 учасників. Схоже на групу глобального онлайн‑сервісу з міським брендуванням, а не на
+      київського організатора; низька релевантність.
+  en:
+    schedule_note: >-
+      Online on Zoom, several sessions daily, registration required at langclub.live/sessions (RSVP
+      on Meetup does not count). Kyiv time 10–16.11.2026: daily at 15:00, in the evening at
+      19:00–21:00 and at night at 03:00, on weekends also at 14:00. The Meetup group has not posted
+      events since 19.09.2026.
+i18n_src:
+  name: ab5b0c70
+  description: 865e757c
+  schedule_note: 889e4afc
+  notes: 2a4e82bd

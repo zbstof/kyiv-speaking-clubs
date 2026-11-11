@@ -14,3 +14,15 @@ last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Розмовний клуб англійської мови у pizzeria Mozaika
+    description: Розмовний клуб англійської мови в піцерії, зустріч у зручний час.
+    schedule_note: У будь-який зручний час (2010)
+    notes: Зазначено в рубриці 'Community listings' у Kyiv Post, 2010-04-08.
+i18n_src:
+  name: c509f618
+  description: 4cf6ff00
+  schedule_note: d27668ff
+  notes: 0150c68c
+  location.venue: 62b419f3

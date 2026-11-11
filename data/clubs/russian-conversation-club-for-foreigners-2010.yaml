@@ -14,3 +14,14 @@ sources:
 notes: >-
   Only an email contact (hidden on the archive page). Listed in Kyiv Post 'Community listings'
   bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Розмовний клуб російської мови для іноземців (оголошення на Kyiv Post)
+    description: Розмовний клуб російської мови для іноземців, з окремими групами за рівнем володіння мовою.
+    notes: >-
+      Лише контакт електронною поштою (прихований на сторінці архіву). Розміщено в рубриці
+      "Community listings" на Kyiv Post, 2010-04-08.
+i18n_src:
+  name: ab97d95a
+  description: 921f33ae
+  notes: 17204e9f

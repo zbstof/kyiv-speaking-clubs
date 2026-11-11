@@ -24,3 +24,26 @@ notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified. For people with disabilities from the
   Kyiv city centre «Трамплін».
+i18n:
+  en:
+    name: Ukrainian conversation club "Malvy" for people with disabilities
+    location.venue: Ethno-library
+    notes: >-
+      Listed in the Kyiv culture department library list as of 2025-12-01. The lists give no meeting
+      times. District inferred from the address, not verified. For people with disabilities from the
+      Kyiv city centre "Tramplin".
+    location.address: 15/1 Svobody Ave
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови у публічній бібліотеці Києва для людей, які
+      переходять на українську або хочуть її вдосконалити.
+    notes: >-
+      Зазначено у переліку бібліотек департаменту культури міста Києва станом на 2025-12-01. У
+      списках не вказано часів зустрічей. Район визначено за адресою, не перевірено. Для осіб з
+      інвалідністю з Київського міського центру «Трамплін».
+i18n_src:
+  name: e782f13b
+  description: d15e99c9
+  location.venue: 27d342f1
+  notes: 6e6a83a4
+  location.address: f8ee459e

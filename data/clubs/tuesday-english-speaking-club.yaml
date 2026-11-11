@@ -25,3 +25,21 @@ status: active
 first_seen: 2026-03
 last_seen: "2026-11-10"
 notes: Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026.
+i18n:
+  uk:
+    name: Вівторковий розмовний клуб англійської
+  en:
+    description: >-
+      Online English club led by a host from Kyiv. Each week someone prepares a 5–10-minute talk on
+      a jointly chosen topic, followed by discussion. English only, no recording.
+    schedule_note: >-
+      Every Tuesday at 20:00 Kyiv time on Zoom. Up to 6 participants plus the host: write in the
+      group that you'll attend.
+    notes: Telegram group of the club (folder "🗣️Kyiv"), read on 10.11.2026.
+    contacts.0.note: Closed group; invitations through members or the host.
+i18n_src:
+  name: 8c4f1cc2
+  description: f803c238
+  schedule_note: ab0f6ce0
+  notes: a6eabb45
+  contacts.0.note: f3947463

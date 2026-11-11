@@ -16,3 +16,15 @@ sources:
   - https://destinations.ua/travel/best-places-to-meet-expats-in-kyiv
   - https://destinations.ua/travel/connecting-expats-in-ukraine
 notes: Networking events, not a structured language club; venues announced on LinkedIn/Facebook.
+i18n:
+  uk:
+    description: >-
+      Безкоштовна спільнота для нетворкінгу експатів і місцевих у барах/готелях у центрі; учасники
+      практикують мови поряд із діловим і соціальним спілкуванням.
+    notes: >-
+      Заходи для нетворкінгу, а не структурований розмовний клуб; місця проведення оголошуються на
+      LinkedIn/Facebook.
+i18n_src:
+  description: 1f3d7fcd
+  notes: 76e22ffd
+  name: d9332b9d

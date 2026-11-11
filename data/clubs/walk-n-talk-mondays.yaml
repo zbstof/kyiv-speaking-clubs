@@ -22,3 +22,19 @@ status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-15"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  en:
+    description: English conversations on an outdoor walk.
+    schedule_note: Monday 18:30, during the warm season (May–September 2025).
+    notes: According to the history of the Telegram group of Kyiv clubs (read 10.11.2026).
+    location.venue: Shevchenko Park
+    location.metro: University
+  uk:
+    name: Прогулянки й розмови по понеділках
+i18n_src:
+  description: 02f63919
+  schedule_note: d97c3665
+  notes: dd841777
+  location.venue: 3a70ec56
+  name: ede39ff1
+  location.metro: ffe28511

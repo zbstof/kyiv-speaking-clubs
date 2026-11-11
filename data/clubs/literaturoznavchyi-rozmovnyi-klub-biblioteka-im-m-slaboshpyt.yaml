@@ -30,3 +30,21 @@ sources:
 notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Literary studies conversation club (M. Slaboshpytskyi Library)
+    location.venue: M. Slaboshpytskyi Library
+    location.address: 5 Novhorodsko-Siverska St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва — для людей, які
+      переходять на українську або хочуть її покращити.
+    notes: >-
+      Зазначено в обох списках бібліотек Департаменту культури Києва (2023-08-17 та 2025-12-01). У
+      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 8533619e
+  description: d15e99c9
+  notes: 35f55f76
+  location.venue: "13853e29"
+  location.address: feda355a

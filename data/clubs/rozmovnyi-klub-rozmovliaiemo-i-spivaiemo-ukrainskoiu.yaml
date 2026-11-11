@@ -27,3 +27,21 @@ sources:
 notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "We Speak and Sing in Ukrainian"
+    location.venue: M. Rudenko Library
+    location.address: 6 Revutskoho St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 та 2025-12-01). У
+      списках не вказано часу зустрічей. Район визначено за адресою, але не підтверджено.
+i18n_src:
+  name: d836a7b7
+  description: d15e99c9
+  notes: 35f55f76
+  location.venue: d5135a75
+  location.address: 507f45e6

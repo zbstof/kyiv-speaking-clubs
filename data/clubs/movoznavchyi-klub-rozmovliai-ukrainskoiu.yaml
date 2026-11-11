@@ -28,3 +28,24 @@ notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified. In 2023 listed as «Мовознавчий
   гурток «Розмовляю українською»».
+i18n:
+  en:
+    name: Language club "Speak Ukrainian"
+    location.venue: Children's Library No. 115
+    notes: >-
+      Listed in both Kyiv culture department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. In 2023 listed as the
+      linguistic circle called "I Speak Ukrainian".
+    location.address: 28 Honore de Balzac St
+  uk:
+    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці в Києві.
+    notes: >-
+      Згадується в обох списках бібліотек міського управління культури Києва (2023-08-17 і
+      2025-12-01). У списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. У
+      2023 році вказано «Мовознавчий гурток «Розмовляю українською»».
+i18n_src:
+  name: 5ab416e9
+  description: 0402dd7e
+  location.venue: 43a05ee6
+  notes: 4425b99c
+  location.address: 60c39b76

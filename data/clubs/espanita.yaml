@@ -28,3 +28,30 @@ notes: >-
   clubs, themed meetings, film screenings; Spanish A1 course 3490 грн/міс. Listed only as a course
   item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated 09.09.2013). No
   schedule or format given. Phones on card: (044) 287-21-16.
+i18n:
+  uk:
+    name: "Espanita: розмовні клуби з іспанської та італійської"
+    description: Платна мовна школа в Києві, у переліку курсів якої є розмовний клуб з іспанської.
+    notes: >-
+      Зазначено лише як позиція курсу «Розмовний клуб» у картці школи на osvita.ua (картка оновлена
+      09.09.2013). Розклад чи формат не вказані. Телефони на картці: (063) 812-12-12. Картка на
+      education.ua (оновлено 2024-03-05, https://www.education.ua/courses/company/5087/) досі
+      містить розмовні клуби, тематичні зустрічі, кінопокази; курс іспанської A1 3490 грн/міс.
+      Зазначено лише як позиція курсу «Розмовний клуб» у картці школи на osvita.ua (картка оновлена
+      09.09.2013). Розклад чи формат не вказані. Телефони на картці: (044) 287-21-16.
+    location.address: вул. Басейна, 1/2, оф. 40 (2024); раніше вул. Саксаганського, 29, офіс 5
+  en:
+    notes: >-
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 09.09.2013). No schedule or format given. Phones on card: (063) 812-12-12.
+      education.ua card (updated 2024-03-05, https://www.education.ua/courses/company/5087/) still
+      lists conversation clubs, themed meetings, film screenings; Spanish A1 course 3490 UAH/month.
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 09.09.2013). No schedule or format given. Phones on card: (044) 287-21-16.
+    location.address: 1/2 Baseina St, office 40 (2024); earlier 29 Saksahanskoho St, office 5
+i18n_src:
+  name: e3022bdf
+  description: 579e5f8f
+  location.venue: 43b4c2a4
+  notes: ca1ebcb1
+  location.address: 4c2dc6a3

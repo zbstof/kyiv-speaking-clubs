@@ -21,3 +21,15 @@ status: unknown
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  uk:
+    name: "LEC: Зустріч українською (онлайн)"
+  en:
+    description: Online meeting to practice Ukrainian (with English as an auxiliary language).
+    notes: In the directory of the Language Exchange Club network (lec.link); date of listing unknown.
+    schedule_note: Tuesday 20:00–21:00, Google Meet.
+i18n_src:
+  name: ea9dcbba
+  description: 43b4134c
+  notes: 158955cd
+  schedule_note: 5bb37f5e

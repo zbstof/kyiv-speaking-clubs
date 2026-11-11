@@ -28,3 +28,21 @@ sources:
 notes: >-
   Charter 2013-07-08 per search snippet; the Toastmasters page now says 'couldn't find the club', so
   it is probably closed. Language not verified.
+i18n:
+  uk:
+    description: Toastmasters club (#03084412) у Києві; назва ('Своя сорочка') натякає на україномовний клуб.
+    notes: >-
+      Чартер 2013-07-08 згідно з фрагментом пошуку; на сторінці Toastmasters зараз написано
+      'couldn't find the club', тож, ймовірно, клуб закритий. Мова не підтверджена.
+  en:
+    schedule_note: Every Monday at 19:00. Public speaking club in Ukrainian.
+    location.venue: Ukrainian-Danish House
+    description: >-
+      Toastmasters club (#03084412) in Kyiv; the name ('Svoya sorochka') suggests a
+      Ukrainian-language club.
+i18n_src:
+  schedule_note: d733d3c0
+  notes: b663d49b
+  location.venue: 1ad6ab46
+  name: 602dbe9d
+  description: 59bd4522

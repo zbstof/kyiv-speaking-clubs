@@ -32,3 +32,22 @@ sources:
 notes: >-
   Meetup lists it as 'Every Sun'. Event details members-only. A search snippet showed the same event
   on Sun Sep 14 (2025). Group has 773 members. Price not stated.
+i18n:
+  uk:
+    name: Онлайн-клуб іспанської "Vamos"! (Київська група Бенджаміна З. Міллера)
+    description: >-
+      Онлайн-розмовний клуб іспанської, який проводить київська Meetup-група для експатів та
+      українців.
+    notes: >-
+      Meetup зазначає 'Every Sun'. Деталі події — лише для учасників. Фрагмент пошуку показував ту
+      саму подію на Sun Sep 14 (2025). У групі 773 учасники. Ціна не вказана.
+  en:
+    schedule_note: >-
+      Every Sunday at 17:00, 1 hour, online. Registration on Meetup; description and links are
+      visible only to group members. On all Meetup events only the host is listed, so whether people
+      actually meet is unverified.
+i18n_src:
+  name: d86874f7
+  description: 45cfdae4
+  schedule_note: a00fd600
+  notes: 7f6f32c1

@@ -23,3 +23,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Club "Moya Mova"
+    location.venue: Volodymyr Sosiura Library
+    location.address: 13 Kharkivske Highway
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови у публічній бібліотеці в Києві для людей, які
+      переходять на українську або прагнуть її покращити.
+    notes: >-
+      Перелічено у списку бібліотек управління культури міста Києва станом на 2025-12-01. У списках
+      не вказано часу зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 2bca0591
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: b6810ab4
+  location.address: 144db278

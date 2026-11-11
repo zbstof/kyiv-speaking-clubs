@@ -27,3 +27,19 @@ status: unknown
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  uk:
+    name: Англійська в темряві (вечірня прогулянка на відкритому повітрі)
+  en:
+    description: Evening walk with conversations in English.
+    schedule_note: Thursday 18:50–21:00, start at the main entrance of VDNH.
+    notes: In the directory of the Language Exchange Club network (lec.link); date of listing unknown.
+    location.venue: Main entrance of VDNH (National Expocenter)
+    location.metro: Exhibition Center
+i18n_src:
+  name: 611ae1ae
+  description: fe66258a
+  schedule_note: d71d829c
+  notes: 158955cd
+  location.venue: a993c0b8
+  location.metro: ad9faf4e

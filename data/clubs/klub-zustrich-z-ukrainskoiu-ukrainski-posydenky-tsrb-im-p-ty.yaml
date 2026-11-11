@@ -33,3 +33,30 @@ notes: >-
   no meeting times. District inferred from the address, not verified. 2023 list: «Розмовний клуб
   української мови». A Sept 2023 conference paper names the club «Українські посиденьки», founded by
   poet and volunteer Olena Tatianchenko. Dec 2025 list: «Зустріч з українською».
+i18n:
+  en:
+    name: Club "Meeting with Ukrainian" / "Ukrainian Gatherings" (P. Tychyna Central District Library)
+    location.venue: P. Tychyna Central District Library
+    notes: >-
+      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. 2023 list: "Ukrainian
+      language conversation club". A Sept 2023 conference paper names the club "Ukrainski
+      Posydenky", founded by poet and volunteer Olena Tatianchenko. Dec 2025 list: "Meeting with
+      Ukrainian".
+    location.address: 24 Metropolitan Andrey Sheptytsky St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
+      переходять на українську або вдосконалюють її.
+    notes: >-
+      Перераховано в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. Список 2023
+      року: «Розмовний клуб української мови». У доповіді конференції Sept 2023 клуб названо
+      «Українські посиденьки», заснований поетесою і волонтеркою Olena Tatianchenko. Список Dec
+      2025: «Зустріч з українською».
+i18n_src:
+  name: 033d8219
+  description: d15e99c9
+  location.venue: fa268cb2
+  notes: 779b19bc
+  location.address: ddb602e0

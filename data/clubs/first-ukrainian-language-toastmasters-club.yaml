@@ -24,3 +24,21 @@ last_seen: "2012-12-05"
 sources:
   - https://texty.org.ua/articles/41578/U_Kyjevi_je_klub_de_zbyrajutsa_aby-41578/
 notes: Possibly the same club later listed as KOMA (not verified).
+i18n:
+  uk:
+    name: Перший україномовний клуб Toastmasters (First Ukrainian-speaking Toastmasters club)
+    description: >-
+      Перший україномовний клуб Toastmasters в Україні (інші переважно англійською). Підготовлені
+      промови, експромтні виступи, хронометристи та оцінювачі.
+    schedule_note: Зустріч відбулася Thu 2012-10-18; регулярний графік не вказано
+    notes: Можливо, це той самий клуб, пізніше вказаний як KOMA (не підтверджено).
+    location.venue: Особняк Уварової (Терещенко), Фонд української культури імені Бориса Олійника
+  en:
+    name: First Ukrainian-speaking Toastmasters club
+    location.venue: Uvarova (Tereshchenko) Mansion, Borys Oliynyk Ukrainian Culture Fund
+i18n_src:
+  description: aa060033
+  schedule_note: b9ea82b5
+  notes: f9bccb06
+  name: 386eca48
+  location.venue: 14b4eb69

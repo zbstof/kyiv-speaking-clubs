@@ -46,3 +46,40 @@ notes: >-
   for adults by level, video clubs, guide-interpreter club. The centre now trades as Deutsches
   Haus-Kyjiw (education.ua card updated 2026-08-26 lists courses, no club). Phone is the centre's
   public office line.
+i18n:
+  uk:
+    name: Розмовні клуби Німецького культурного центру Widerstrahl (ЦНК «Widerstrahl»)
+    description: >-
+      Культурний центр київських етнічних німців; проводить німецькі розмовні клуби для дітей,
+      дискусійний клуб для дорослих за рівнями, відеоклуби, клуб гідів-перекладачів; під
+      керівництвом носіїв мови. Має також навчальний німецький клуб 'August'.
+    notes: >-
+      На сайті (перевірено 2026-11) зазначено «клуб розмовної практики для дітей, підлітків,
+      дорослих»; остання новина на сайті 2026-10-23. Розкладу клубів на сайті немає. Друга картка на
+      osvita.ua (оновлено 2013-08-21, https://osvita.ua/languages/courses/8863/) містить: клуб
+      розмов для дітей, дискусійний клуб для дорослих за рівнями, відеоклуби, клуб гіда-перекладача.
+      Центр тепер працює під назвою Deutsches Haus-Kyjiw (картка на education.ua оновлена
+      2026-08-26, містить курси, без згадки про клуби). Телефон — це загальна лінія публічного офісу
+      центру.
+  en:
+    schedule_note: >-
+      The club schedule is not published. The website mentions a conversation practice club for
+      children, teenagers and adults without dates. Details — contact the administration: (097)
+      346-10-43.
+    location.venue: German House Kyiv — CNK "Widerstrahl"
+    name: Widerstrahl German Culture Centre speaking clubs (TsNK "Widerstrahl")
+    notes: >-
+      Website (checked 2026-11) lists "conversation practice club for children, teenagers, adults";
+      latest site news 2026-10-23. No club schedule on site. Second osvita card (updated 2013-08-21,
+      https://osvita.ua/languages/courses/8863/) lists: conversation club for children, discussion
+      club for adults by level, video clubs, guide-interpreter club. The centre now trades as
+      Deutsches Haus-Kyjiw (education.ua card updated 2026-08-26 lists courses, no club). Phone is
+      the centre's public office line.
+    location.address: 37 Volodymyrska St
+i18n_src:
+  description: 6cd53835
+  schedule_note: b5fb731e
+  location.venue: 9d3aa673
+  name: "9933e233"
+  notes: 5d785023
+  location.address: 82cc0265

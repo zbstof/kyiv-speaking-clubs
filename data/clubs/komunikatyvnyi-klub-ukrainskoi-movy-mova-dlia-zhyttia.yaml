@@ -33,3 +33,26 @@ notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified. 2023: also a «Єдині» course at
   this library.
+i18n:
+  en:
+    name: Communicative Ukrainian language club "Mova dlia zhyttia"
+    location.venue: M. Kostomarov Library
+    notes: >-
+      Listed in both Kyiv Department of Culture library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. 2023: also a "Yedini"
+      course at this library.
+    location.address: 51-v Danyla Shcherbakivskoho St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва, для людей, які
+      переходять на українську або хочуть її покращити.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01).
+      Списки не вказують часу зустрічей. Район визначено за адресою, не перевірено. 2023: також курс
+      "Єдині" у цій бібліотеці.
+i18n_src:
+  name: 1ed290a4
+  description: d15e99c9
+  location.venue: 043ba7b1
+  notes: de9ccd7a
+  location.address: f57698a2

@@ -30,3 +30,24 @@ last_seen: "2026-10-02"
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
   прочитано 10.11.2026.
+i18n:
+  en:
+    name: English-speaking club with native speakers near "Khreshchatyk" metro station
+    description: >-
+      English-speaking meetups at Puzata Khata near "Khreshchatyk" metro; native speakers from the
+      United States and England attend.
+    schedule_note: Wednesday 18:00–21:00. You can just come.
+    notes: >-
+      Mentioned in the Speaking Event Club chat (Telegram), where participants from different clubs
+      share announcements; read on 10.11.2026.
+    location.venue: Puzata Khata
+    contacts.0.note: "Viber group: added by phone number; ask at the meeting."
+    location.metro: Khreshchatyk
+i18n_src:
+  name: cce05be9
+  description: 14ca3488
+  schedule_note: 88ba39fe
+  notes: 06a4e503
+  location.venue: be30a852
+  contacts.0.note: 40709a50
+  location.metro: 9f2c4b77

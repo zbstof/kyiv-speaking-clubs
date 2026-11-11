@@ -34,3 +34,26 @@ last_seen: "2026-10-28"
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
   прочитано 10.11.2026.
+i18n:
+  uk:
+    name: Англомовна зустріч у Києві
+  en:
+    description: >-
+      Paid English networking: 8 rounds of 10 minutes with different conversation partners, then
+      free conversation. Level: intermediate and above.
+    schedule_note: Standalone events, roughly once a month; the last one — 28.10.2026, registration from 18:30.
+    notes: >-
+      Mentioned in the Speaking Event Club (Telegram) chat, where participants from different clubs
+      share announcements; read on 10.11.2026.
+    location.note: Bar-shelter
+    price.amount: 400 грн (early ticket; includes a drink)
+    location.address: 45 Antonovycha St
+i18n_src:
+  name: f751e571
+  description: 2e5a0506
+  schedule_note: a6610603
+  notes: 06a4e503
+  location.note: 4707ec79
+  price.amount: e663c9c7
+  location.venue: 3b268880
+  location.address: af46e36a

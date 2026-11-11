@@ -24,3 +24,22 @@ sources:
 notes: >-
   Dates are the osvita.ua listing update date (03.02.2022). Probably for the school's students. On
   2026-11-10 the school's domain easternarts.net did not resolve (DNS ENOTFOUND).
+i18n:
+  uk:
+    name: Розмовний клуб китайської мови, Мистецька школа «Східні мистецтва»
+    description: >-
+      Приватна школа китайської мови; серед її переваг — розмовний клуб з китайської та безкоштовна
+      розмовна практика.
+    notes: >-
+      Дати — дата оновлення оголошення на osvita.ua (03.02.2022). Можливо, для студентів школи.
+      Станом на 2026-11-10 домен школи easternarts.net не відповідав (DNS ENOTFOUND).
+  en:
+    location.venue: Eastern Arts School
+    name: Chinese conversation club, Eastern Arts School
+    location.address: 13 Vyacheslava Lypynskoho St
+i18n_src:
+  description: 224036b0
+  notes: 4474b65b
+  location.venue: 76bb838d
+  name: 67fe4b78
+  location.address: 171057b8

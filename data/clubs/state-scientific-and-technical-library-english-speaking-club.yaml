@@ -29,3 +29,27 @@ sources:
 notes: >-
   Post of 2023-12-28 says the library 'continues' the club, so it started earlier. Open to anyone,
   aimed at researchers.
+i18n:
+  uk:
+    name: Державна науково-технічна бібліотека — розмовний клуб англійської мови для науковців
+    description: >-
+      Безкоштовний онлайн-розмовний клуб англійської мови для дослідників, який проводить ДНТБ
+      України.
+    schedule_note: Понеділки 15:00–16:00, сесії вказані з 2024-01-02 по 2024-02-26
+    notes: >-
+      Пост від 2023-12-28 каже, що бібліотека «продовжує» клуб, тож він почався раніше. Відкрито для
+      всіх, орієнтовано на дослідників.
+    location.venue: ДНТБ України (онлайн через Google Meet)
+  en:
+    description: Free online English conversation club aimed at researchers, run by DNTB of Ukraine.
+    location.venue: DNTB of Ukraine (online via Google Meet)
+    location.address: 180 Antonovycha St
+    location.metro: Demiivska
+i18n_src:
+  name: c998ddb0
+  schedule_note: d94d6418
+  notes: 6b110428
+  description: "98897990"
+  location.venue: "892e9274"
+  location.address: 0158c95c
+  location.metro: 66cf73fa

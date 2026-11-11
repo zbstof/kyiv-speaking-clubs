@@ -45,3 +45,28 @@ notes: >-
   The Vaad program page says the club 'will continue its work in 2022'; no later evidence found.
   Methodological guidelines approved by Taurida National V.I. Vernadsky University on 2019-08-28.
   ZFU 2018 report also lists Skype HebrewKlubua and a phone number (not copied).
+i18n:
+  uk:
+    name: Розмовний клуб івриту "А поговорити?!" (Київ)
+    description: >-
+      Розмовний клуб для вивчаючих іврит як продовження занять в ульпані. Кожна зустріч — це розмова
+      на заздалегідь визначену тему, часто про єврейські традиції й свята; запрошують носіїв мови.
+      Першим містом був Київ; пізніше філії відкрилися в Чернівцях, Мелітополі, Вінниці,
+      Кропивницькому, Львові, Харкові.
+    schedule_note: >-
+      Сезони тривають із вересня; зустрічі в аудиторії/кафе, онлайн з March 2020. Точний день і час
+      не опубліковані у знайдених джерелах.
+    notes: >-
+      На сторінці програми Vaad зазначено, що клуб 'will continue its work in 2022'; пізніших
+      свідчень не знайдено. Методичні рекомендації затверджені Таврійським національним
+      університетом імені В. І. Вернадського 2019-08-28. У звіті ZFU 2018 також згадується Skype
+      HebrewKlubua і телефонний номер (не копіювали).
+    location.venue: Кафе KAFFA (відкриття сезону 5, 2020-09-02); онлайн у Zoom з March 2020
+  en:
+    name: Hebrew Speaking Club "What's about to talk?!" / "A pogovorit?!" (Kyiv)
+i18n_src:
+  description: 390a36c8
+  schedule_note: 5ada799b
+  notes: bcbf0f5b
+  location.venue: 6d68f376
+  name: 6264aede

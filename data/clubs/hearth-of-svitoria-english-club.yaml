@@ -33,3 +33,25 @@ last_seen: "2026-11-07"
 notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
   прочитано 10.11.2026. Чат із грудня 2025; постійне місце з вересня 2026.
+i18n:
+  uk:
+    name: Off the Page | Розмови англійською в Києві
+  en:
+    description: >-
+      Free English-speaking club: conversations, films, walks — no lessons or tests. Organizers also
+      involve volunteer native speakers.
+    schedule_note: Every Saturday 18:00–21:00. First meeting — 10.10.2026.
+    notes: >-
+      Mentioned in the Speaking Event Club (Telegram) chat, where participants of various clubs
+      share announcements; read on 10.11.2026. Chat since December 2025; permanent venue since
+      September 2026.
+    contacts.0.note: Closed group; invitations from members.
+    location.address: 37/122 Taras Shevchenko Blvd
+i18n_src:
+  name: dbcf8d19
+  description: e606490e
+  schedule_note: "47740471"
+  notes: 3f61d88c
+  contacts.0.note: 836a931f
+  location.venue: ebfef719
+  location.address: b9f6da7c

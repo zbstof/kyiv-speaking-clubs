@@ -23,3 +23,21 @@ sources:
 notes: >-
   For university students. Running since 13 January 2021 per the report of the Linguistic Centre of
   Germanic Languages (report undated, about 2021-2022).
+i18n:
+  uk:
+    name: Гурток «Mit Deutschland im Herzen» (Київський міський університет імені Бориса Грінченка)
+    description: >-
+      Студентський гурток з німецьких регіональних студій: дискусії, доповіді та круглі столи
+      німецькою для розвитку комунікативних навичок; німецька як друга іноземна.
+    schedule_note: Друга середа місяця, у Zoom
+    notes: >-
+      Для студентів університету. Проводиться з 13 січня 2021 року за звітом Мовного центру
+      германських мов (звіт без дати, орієнтовно 2021–2022).
+  en:
+    name: Club "Mit Deutschland im Herzen" (Borys Grinchenko Kyiv Metropolitan University)
+i18n_src:
+  description: "19300899"
+  schedule_note: b6f88333
+  notes: 4b8255ff
+  location.venue: "62399752"
+  name: aa69fde0

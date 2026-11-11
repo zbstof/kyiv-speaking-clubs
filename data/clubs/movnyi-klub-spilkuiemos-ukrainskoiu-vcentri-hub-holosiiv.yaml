@@ -59,3 +59,26 @@ sources:
 notes: >-
   Seen in KMDA weekly Vcentri HUB digests; weekly frequency inferred from repeated Tuesday slots.
   Not verified after May 2026.
+i18n:
+  en:
+    name: Language club "Let's speak Ukrainian" (Vcentri HUB Holosiiv)
+    schedule_note: >-
+      In summer 2026, every Wednesday 13:30–15:00 (8 July – 2 September), in spring — on Tuesdays.
+      Since September 2026 the club is not included in weekly announcements. Registration by phone
+      093 549 69 85.
+    location.venue: "Vcentri HUB community space: Holosiiv"
+    location.address: 83 Velyka Kytaivska St
+  uk:
+    description: >-
+      Безкоштовний клуб української мови для внутрішньо переміщених осіб і мешканців Києва у
+      міському громадському просторі Vcentri HUB.
+    notes: >-
+      Помічено в щотижневих дайджестах Vcentri HUB KMDA; тижневу частоту зроблено висновком із
+      повторюваних вівторкових слотів. Після травня 2026 не перевірено.
+i18n_src:
+  name: 5d57e599
+  description: a9cc3023
+  schedule_note: 082898d6
+  notes: 2bd5cbef
+  location.venue: 73603b3d
+  location.address: 71a4f62d

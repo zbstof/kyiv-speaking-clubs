@@ -37,3 +37,30 @@ notes: >-
   Згадано в чаті Speaking Event Club (Telegram), де учасники різних клубів діляться анонсами;
   прочитано 10.11.2026. Telegram-група клубу, прочитано 10.11.2026. Звіти про зустрічі публікує
   бібліотека на своїй сторінці у Facebook.
+i18n:
+  en:
+    name: English speaking club at Lesya Ukrainka Public Library (Rusanivka)
+    description: >-
+      Saturday English-language club in the public library's Department of Literature in Foreign
+      Languages. The topic is announced in advance; the library also has a film club.
+    schedule_note: >-
+      Every Saturday 11:00–12:00. The meeting topic is posted in the group on Thursday. Film club —
+      every Monday at 14:00; the department's book club — once a month (registration at the library,
+      (044) 295-16-09).
+    notes: >-
+      Mentioned in the Speaking Event Club chat (Telegram), where participants of various clubs
+      share announcements; read 10.11.2026. The club's Telegram group, read 10.11.2026. Reports
+      about meetings are published by the library on its Facebook page.
+    location.venue: Lesya Ukrainka Public Library, Department of Literature in Foreign Languages
+    contacts.0.note: Closed group "Speaking Club"; invitations from participants
+    location.address: 2/7 Ihor Shamo Blvd
+    location.metro: Livoberezhna
+i18n_src:
+  name: 24e9c8a0
+  description: b486a060
+  schedule_note: 6deef61e
+  notes: 34efc4a3
+  location.venue: c7d602a3
+  contacts.0.note: a15cebcf
+  location.address: 461b0cc8
+  location.metro: a7ee73f8

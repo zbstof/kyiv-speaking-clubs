@@ -23,3 +23,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "Perehuk"
+    location.venue: Universal Public Library No. 11
+    location.address: 20-a Ivana Vyhovskoho St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в київській публічній бібліотеці для людей, які
+      переходять на українську або вдосконалюють її.
+    notes: >-
+      Зазначено в переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках
+      відсутні часи зустрічей. Район вказано за адресою, не перевірено.
+i18n_src:
+  name: c4f96da1
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: 9137d3c1
+  location.address: e8c22f3b

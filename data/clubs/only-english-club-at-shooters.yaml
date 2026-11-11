@@ -24,3 +24,21 @@ last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Клуб "Only English" у Shooters
+    description: Щомісячний вечір лише англійською в барі Shooters, організований NAI Pickard.
+    schedule_note: Перший четвер кожного місяця, 8–10 p.m. (2010)
+    notes: Зазначено в Kyiv Post у рубриці "Community listings", 2010-04-08.
+    location.address: вул. Московська (тепер — Князів Острозьких), 22
+  en:
+    location.address: 22 Moskovska St (now Knyaziv Ostrozkykh St)
+    location.metro: Arsenalna
+i18n_src:
+  name: 5835bf83
+  description: aedb3d90
+  schedule_note: 3f0a4ade
+  notes: 0150c68c
+  location.venue: e9b6c57c
+  location.address: 4adf3ddd
+  location.metro: 11812dd1

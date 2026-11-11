@@ -7,6 +7,7 @@ import yaml from "js-yaml";
 import { clubToYaml, slugify } from "../../lib/club.mjs";
 import { extraChecks } from "../../lib/rules.mjs";
 import { geocode, coordsFromMapUrl, resolveShortMapUrl } from "../../lib/geo.mjs";
+import { translateClub } from "../../lib/i18n.mjs";
 
 const MAX_BODY = 30_000;
 const ACTIONS = new Set(["add", "edit", "confirm", "close"]);
@@ -96,7 +97,16 @@ async function handle(p, env) {
   } else {
     club = { ...old, status: "closed" };
   }
-  if (p.action === "add" || p.action === "edit") await locate(club, old);
+  if (p.action === "add" || p.action === "edit") {
+    await locate(club, old);
+    // Keep existing translations; translate only new or changed fields. Failure never blocks the suggestion.
+    if (old?.i18n) club.i18n = structuredClone(old.i18n);
+    if (old?.i18n_src) club.i18n_src = { ...old.i18n_src };
+    if (env.OPENAI_API_KEY) {
+      try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || "gpt-5-mini" }); }
+      catch { /* left for scripts/translate.mjs */ }
+    }
+  }
   if (!club.name || club.name.length < 2) throw new UserError("name is required", "name_required");
   if (!club.languages?.length) throw new UserError("at least one language is required", "lang_required");
   const problems = extraChecks(club);

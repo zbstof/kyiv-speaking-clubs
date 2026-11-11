@@ -27,3 +27,23 @@ sources:
 notes: >-
   Meetup lists it as 'Every Wed'. Location 'visible to members', not tagged online, so probably in
   person. Price not stated.
+i18n:
+  uk:
+    name: Розмовний клуб російською «Конечно»! (Ideal International / Benjamin Z Miller's Kyiv Group)
+    description: >-
+      Російський розмовний клуб для експатів, опублікований у київській Meetup-групі для експатів та
+      українців.
+    notes: >-
+      Meetup зазначає 'Every Wed'. Місце видно лише учасникам, не позначене як онлайн, тож,
+      ймовірно, наживо. Ціна не вказана.
+  en:
+    schedule_note: >-
+      Every Wednesday at 16:00, 1 hour. Location visible to members of the Meetup group only, so not
+      verified whether it's in person or online. On all Meetup events only the host is listed, so
+      whether people actually meet is not verified.
+    name: Russian-speaking club "Konechno"! (Ideal International / Benjamin Z Miller's Kyiv Group)
+i18n_src:
+  description: 972325fb
+  schedule_note: 8c0472c3
+  notes: eda38137
+  name: ab0f1cba

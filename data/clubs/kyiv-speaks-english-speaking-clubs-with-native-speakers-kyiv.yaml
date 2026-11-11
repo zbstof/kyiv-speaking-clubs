@@ -26,3 +26,23 @@ sources:
 notes: >-
   Page returned 403; details from search snippets. Date (June 2018) from a search summary, not
   verified on the page.
+i18n:
+  uk:
+    name: Kyiv Speaks English — розмовні клуби з носіями англійської мови (Kyiv City / Lingva.Skills)
+    description: >-
+      Міська програма: безкоштовні розмовні клуби з носіями англійської мови для 4,000 державних
+      службовців, плюс клуби у Київській міській раді, відкриті для всіх киян, а також у школах.
+    notes: >-
+      Сторінка повернула 403; деталі взято з уривків у результатах пошуку. Дата (June 2018) із
+      резюме пошуку, на сторінці не перевірено.
+    location.venue: Будівля Київської міської державної адміністрації
+  en:
+    location.address: 36 Khreshchatyk St
+    location.metro: Khreshchatyk
+i18n_src:
+  name: 379038ee
+  description: 3addeb45
+  notes: 38fc3672
+  location.venue: 9c4bfbba
+  location.address: 77b9d767
+  location.metro: 9f2c4b77

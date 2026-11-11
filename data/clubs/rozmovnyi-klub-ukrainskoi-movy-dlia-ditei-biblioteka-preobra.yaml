@@ -26,3 +26,19 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Ukrainian language speaking club for children (Preobrazhenska Library)
+    location.venue: Preobrazhenska Library
+    location.address: 19 Maksima Kryvonosa St
+  uk:
+    description: Безкоштовний розмовний клуб української мови для дітей у Київській публічній бібліотеці.
+    notes: >-
+      Зазначено в переліку бібліотек управління культури Києва станом на 2025-12-01. У списках не
+      вказано часу зустрічей. Район визначено за адресою, не підтверджено.
+i18n_src:
+  name: 43cdf0f6
+  description: 0402dd7e
+  notes: "80762585"
+  location.venue: 3c9282a8
+  location.address: 6e98eb8a

@@ -21,3 +21,19 @@ sources:
   - https://osvita.ua/languages/courses/36630/
   - https://www.education.ua/trainings/companies/11956/
 notes: Mainly for enrolled students (not verified whether open to public).
+i18n:
+  uk:
+    name: Speak Up щотижневі розмовні клуби
+    description: >-
+      Мережа шкіл Speak Up (близько 11 філій у Києві) перелічує щотижневі розмовні клуби з носієм
+      мови.
+    schedule_note: Щотижня
+    notes: Переважно для зареєстрованих студентів (не підтверджено, чи відкрито для загалу).
+  en:
+    location.venue: Speak Up branches, e.g. 26 Lesi Ukrainky Blvd
+i18n_src:
+  name: 77fa3c38
+  description: 249b62bb
+  schedule_note: 417cc4ce
+  notes: c7363c2e
+  location.venue: 7f0f8667

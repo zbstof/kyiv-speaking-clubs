@@ -16,3 +16,15 @@ last_seen: "2026-11-05"
 sources:
   - https://t.me/cinevibe_en
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
+i18n:
+  en:
+    description: >-
+      English film club: they watch films together and discuss them in English. There is an online
+      version.
+    schedule_note: Schedule and location — in the group's announcements.
+    notes: From the history of the Telegram group of Kyiv clubs (accessed 10.11.2026).
+i18n_src:
+  description: 61229ee6
+  schedule_note: cb52221a
+  notes: dd841777
+  name: 88e6cb64

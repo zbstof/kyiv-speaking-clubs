@@ -40,3 +40,33 @@ notes: >-
   інших мов і онлайн. Історія: 2018–2024 — антикафе «Циферблат» (у 2023 також Fontaine на
   Арсенальній, пн–сб), 2020–2021 переважно онлайн, з 2025 — «Дирижабль»/Arcanum. У довіднику LEC —
   «English in Ziferblat», субота 15:00–17:00, Володимирська 49А.
+i18n:
+  uk:
+    name: "Розмовний клуб (Київ): англійська в Arcanum"
+  en:
+    description: >-
+      English-speaking club in an anticafé with no moderators or set topics: come and speak, all
+      levels welcome.
+    schedule_note: "Every Saturday 15:00–18:00. You can arrive later: look for the English conversation."
+    notes: >-
+      Mentioned in the Speaking Event Club (Telegram) chat, where participants from different clubs
+      share announcements; read on 10.11.2026. The group "Conversation club (Kyiv)" has over 1900
+      members and also announces clubs in other languages and online. History: 2018–2024 — anticafé
+      "Ziferblat" (in 2023 also Fontaine at Arsenalna, Mon–Sat), 2020–2021 mainly online, since 2025
+      — "Dyrizhabl"/Arcanum. In the LEC directory — "English in Ziferblat", Saturday 15:00–17:00,
+      49A Volodymyrska St.
+    location.venue: Anticafé Arcanum (former "Dyrizhabl")
+    location.note: Shelter; backup power and internet available.
+    price.amount: The club is free; anticafé 100 ₴/год, максимум 400 ₴ за день
+    location.address: 30A Verkhnii Val St
+    location.metro: Kontraktova Square
+i18n_src:
+  name: 2555237e
+  description: f8112f61
+  schedule_note: c1e2286f
+  notes: a170c421
+  location.venue: 3e75f124
+  location.note: f1e242e6
+  price.amount: e327a60c
+  location.address: 2ede54cf
+  location.metro: 377d7953

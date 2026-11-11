@@ -22,3 +22,22 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   31.01.2017). No schedule or format given. Phones on card: (044) 592-50-94.
+i18n:
+  uk:
+    name: "Akademia Języka Polskiego: Розмовний клуб польської мови"
+    description: Платна мовна школа в Києві, яка в переліку курсів має польський розмовний клуб.
+    notes: >-
+      Зазначено лише як курс 'Розмовний клуб' у картці школи на osvita.ua (картка оновлена
+      31.01.2017). Розклад і формат не вказані. Телефони в картці: (044) 592-50-94.
+    location.venue: Академія польської мови
+  en:
+    notes: >-
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 31.01.2017). No schedule or format given. Phones on card: (044) 592-50-94.
+    location.address: 90 Velyka Vasylkivska St, office 14
+i18n_src:
+  name: bcb88f9b
+  description: 583c7a10
+  location.venue: 609b113d
+  notes: eb3da3ac
+  location.address: 89afd97c

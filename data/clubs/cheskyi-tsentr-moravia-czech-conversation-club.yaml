@@ -19,3 +19,23 @@ sources:
 notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   02.06.2017). No schedule or format given. Phones on card: (097) 768-34-12.
+i18n:
+  uk:
+    name: "Чеський центр Moravia: розмовний клуб з чеської мови"
+    description: Платна мовна школа в Києві, яка в переліку курсів має розмовний клуб з чеської.
+    notes: >-
+      У картці закладу на osvita.ua він зазначений лише як курс під назвою 'Розмовний клуб' (картка
+      оновлена 02.06.2017). Розкладу чи формату не вказано. Телефони на картці: (097) 768-34-12.
+  en:
+    location.venue: Czech Centre Moravia
+    name: "Czech Center Moravia: Czech conversation club"
+    notes: >-
+      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      updated 02.06.2017). No schedule or format given. Phones on card: (097) 768-34-12.
+    location.address: 8/2 M. Krasnova St
+i18n_src:
+  description: c713fb4e
+  location.venue: 6405a575
+  name: 1d73d0ab
+  notes: 5f0df804
+  location.address: 72dc9ae5

@@ -23,3 +23,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Zhyva Conversation Club
+    location.venue: Suzirya Public Library
+    location.address: 20 Kazanska St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
+      переходять на українську або хочуть її покращити.
+    notes: >-
+      Зазначено в переліку бібліотек Департаменту культури міста Києва станом на 2025-12-01. У
+      списку не вказано часу зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: 8d568ace
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: 0f5db068
+  location.address: f29c1bff

@@ -27,3 +27,28 @@ notes: >-
   26.05.2013). No schedule or format given. Phones on card: (044) 361-37-69. Second card
   (https://osvita.ua/languages/courses/36764/, updated 25.05.2017) also lists the club; near metro
   Театральна; native-speaker individual lessons 150 грн/год.
+i18n:
+  en:
+    name: "Rive Gauche French Language and Culture Center: French conversation club"
+    location.venue: Rive Gauche French Language and Culture Center
+    notes: >-
+      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
+      updated 26.05.2013). No schedule or format given. Phones on card: (044) 361-37-69. A second
+      card (https://osvita.ua/languages/courses/36764/, updated 25.05.2017) also lists the club;
+      near Teatralna metro station; native-speaker individual lessons 150 грн/год.
+    location.address: 16-22 Bohdana Khmelnytskoho St, bldg. A, office 203-a
+    location.metro: Teatralna
+  uk:
+    description: Платна мовна школа в Києві, яка в переліку курсів зазначає розмовний клуб з французької.
+    notes: >-
+      Зазначено лише як курс "Розмовний клуб" у картці школи на osvita.ua (оновлено 26.05.2013).
+      Розклад і формат не вказані. Телефони на картці: (044) 361-37-69. Друга картка
+      (https://osvita.ua/languages/courses/36764/, оновлено 25.05.2017) також містить клуб; поруч
+      метро Театральна; індивідуальні заняття з носієм мови 150 грн/год.
+i18n_src:
+  name: e3200194
+  description: "02267447"
+  location.venue: 77499fc7
+  notes: aa585915
+  location.address: c7c02507
+  location.metro: a3cccf71

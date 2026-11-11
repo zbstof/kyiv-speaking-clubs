@@ -30,3 +30,19 @@ sources:
 notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Play studio "Movni Vytrebenky" (conversational Ukrainian)
+    location.venue: Children's Library No. 119
+    location.address: 22 Kubanskoi Ukrainy St
+  uk:
+    description: Безкоштовний дитячий розмовний клуб української мови в публічній бібліотеці Києва.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано часів зустрічей. Район визначено за адресою, не підтверджено.
+i18n_src:
+  name: e8393083
+  description: 0402dd7e
+  notes: 35f55f76
+  location.venue: 994173d2
+  location.address: e9e4b8f6

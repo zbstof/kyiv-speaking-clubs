@@ -35,3 +35,33 @@ notes: >-
   «Єдині» club with 10 locations. KMDA (1 Sep 2023): 17th course starts 4 Sep 2023; clubs in 28
   cities. Individual Kyiv locations are listed as separate records. The yedyni.org site (checked Nov
   2026) lists no Kyiv club addresses; its last listed past event is 19 Dec 2024.
+i18n:
+  en:
+    name: "\"Yedyni\" — conversation clubs in Kyiv (network)"
+    description: >-
+      Umbrella record for the "Yedyni" movement: free 28-day online courses for switching to
+      Ukrainian plus offline conversation clubs. In July 2022 the language ombudsman listed 10 Kyiv
+      locations of the "Yedyni" club of NGO "Navchay Ukrainskoyu". Partners included the Kyiv
+      Department of Youth and Sport and the support centre "Ya – Mariupol".
+    notes: >-
+      Life.pravda (28 Jul 2022, from ombudsman Taras Kremin's list): Kyiv had only 3 entries -
+      Duolingo-based course for English speakers (European University), Avramenko video lessons, and
+      the "Yedyni" club with 10 locations. KMDA (1 Sep 2023): 17th course starts 4 Sep 2023; clubs
+      in 28 cities. Individual Kyiv locations are listed as separate records. The yedyni.org site
+      (checked Nov 2026) lists no Kyiv club addresses; its last listed past event is 19 Dec 2024.
+  uk:
+    description: >-
+      Загальний запис руху «Єдині»: безкоштовні 28-денні онлайн‑курси для переходу на українську та
+      офлайн-розмовні клуби. У July 2022 мовний омбудсмен у списку вказав 10 київських локацій клубу
+      «Єдині» ГО «Навчай українською». Партнерами були Київський департамент молоді та спорту та
+      центр підтримки «Я – Маріуполь».
+    notes: >-
+      Life.pravda (28 Jul 2022, за списком омбудсмена Тараса Креміна): у Києві було лише 3 записи —
+      курс на базі Duolingo для англомовних (European University), відеоуроки Авраменка та клуб
+      «Єдині» з 10 локаціями. KMDA (1 Sep 2023): 17-й курс починається 4 Sep 2023; клуби в 28
+      містах. Окремі київські локації наведено як окремі записи. Сайт yedyni.org (перевірено Nov
+      2026) не містить адрес київських клубів; остання вказана минула подія — 19 Dec 2024.
+i18n_src:
+  name: 76d21585
+  description: 5e79e17e
+  notes: 28c4831b

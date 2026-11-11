@@ -25,3 +25,20 @@ notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified. Book club included in the city list of
   Ukrainian language clubs.
+i18n:
+  en:
+    name: Book club "Alegoriya"
+    location.venue: O. Oles Library
+    location.address: 19/30 Leonida Kadenyuka Ave
+  uk:
+    description: Книжковий клуб зазначено серед клубів української мови у публічній бібліотеці Києва.
+    notes: >-
+      Зазначено у бібліотечному списку департаменту культури Києва станом на 2025-12-01. Списки не
+      містять часу зустрічей. Район визначено за адресою, не перевірено. Книжковий клуб включено до
+      міського переліку клубів української мови.
+i18n_src:
+  name: c6f2b288
+  description: a641d7ff
+  notes: 86a20439
+  location.venue: 707aaf77
+  location.address: a4d27a47

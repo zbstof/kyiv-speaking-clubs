@@ -62,3 +62,23 @@ notes: >-
   щотижня. Канал також анонсує вівторкові офлайн-зустрічі Poznіaky English Speaking Club. За даними
   Idealist, понад 250 онлайн-зустрічей, 15–35 учасників на зустрічі. Перша онлайн-зустріч — листопад
   2023 (допис каналу «три роки» від 07.11.2026).
+i18n:
+  en:
+    description: >-
+      Free online English club run by volunteers: three meetings on Zoom each week. Cameras are on,
+      everyone speaks. The channel also announces offline meetings of Poznіaky English Speaking
+      Club.
+    schedule_note: >-
+      Online: Zoom links are posted in the Telegram channel a day before the meeting. Sometimes
+      there are additional meetings on Monday. Offline meetings on Tuesdays are a separate club,
+      Poznіaky English Speaking Club.
+    notes: >-
+      Schedule verified by 7 weeks of posts in the Telegram channel (22.09–10.11.2026): online on
+      Wed, Fri, Sun every week. The channel also announces Tuesday offline meetings of Poznіaky
+      English Speaking Club. According to Idealist, over 250 online meetings, 15–35 participants per
+      meeting. First online meeting — November 2023 (channel post "three years" from 07.11.2026).
+i18n_src:
+  description: e7060743
+  schedule_note: c30559d8
+  notes: 2d4545af
+  name: 65716a7b

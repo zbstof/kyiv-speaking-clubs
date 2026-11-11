@@ -24,3 +24,22 @@ notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified. Studio of public speaking, stage speech
   and improving Ukrainian.
+i18n:
+  en:
+    name: Creative Studio "Svitanok" (public speaking and Ukrainian language improvement)
+    location.venue: Ethnographic library
+    location.address: 15/1 Svobody Ave
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб українською у публічній бібліотеці Києва для людей, які переходять
+      на українську або вдосконалюють її.
+    notes: >-
+      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У списках не
+      вказані часи зустрічей. Район визначено за адресою, не перевірено. Студія ораторського
+      мистецтва, сценічної мови та вдосконалення української.
+i18n_src:
+  name: d346dcb1
+  description: d15e99c9
+  notes: b9b6a817
+  location.venue: 27d342f1
+  location.address: f8ee459e

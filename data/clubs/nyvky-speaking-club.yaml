@@ -26,3 +26,23 @@ sources:
 notes: >-
   За історією Telegram-груп київських клубів (прочитано 10.11.2026). Клуб мережі LEC. Адреса в
   переліку 2023 року — Щербаківського, 5.
+i18n:
+  uk:
+    name: Розмовний клуб на Нивках
+  en:
+    description: English speaking club in Nivky.
+    schedule_note: Friday 18:00–20:00 (LEC directory); in the 2023 listing — 17:00.
+    notes: >-
+      According to the history of the Telegram group of Kyiv clubs (accessed 10.11.2026). Club of
+      the LEC network. Address in the 2023 listing — 5 Shcherbakivskoho St.
+    location.venue: Nivky Mall, cafeteria on the 1st floor
+    location.address: 58 Danyla Shcherbakivskoho St
+    location.metro: Nyvky
+i18n_src:
+  name: 7dd59860
+  description: 7054044c
+  schedule_note: d89a0f19
+  notes: 01f099bf
+  location.venue: 8b49f7a3
+  location.address: b0159c5e
+  location.metro: 8250ce9e

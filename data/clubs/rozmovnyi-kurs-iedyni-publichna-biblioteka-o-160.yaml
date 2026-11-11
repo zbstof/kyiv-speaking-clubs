@@ -29,3 +29,25 @@ sources:
 notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation course "Yedyni" — Public Library No. 160
+    location.venue: Public Library No. 160 for Family Reading
+    description: >-
+      Free Ukrainian conversation course/club of the "Yedyni" movement (initiative "Navchay
+      ukrayins'koyu") at a Kyiv public library.
+    location.address: 22/20 Petra Hryhorenka Ave
+  uk:
+    description: >-
+      Безкоштовний розмовний курс/клуб української мови руху «Єдині» (ініціатива «Навчай
+      українською») у публічній бібліотеці Києва.
+    notes: >-
+      Зазначено лише в переліку бібліотек управління культури Києва від 2023-08-17; відсутній у
+      переліку від 2025-12-01. У переліках не вказано часів зустрічей. Район визначено за адресою,
+      не перевірено.
+i18n_src:
+  name: 740b7eba
+  notes: 52736ebd
+  location.venue: 6b993e6c
+  description: 519a53f7
+  location.address: c1ed3a65

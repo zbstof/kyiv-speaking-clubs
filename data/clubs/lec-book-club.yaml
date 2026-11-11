@@ -31,3 +31,15 @@ last_seen: 2024-10
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  en:
+    description: "English-language book club of the LEC network: the book of the month is chosen by vote."
+    schedule_note: Once a month on Sunday 14:00–16:00.
+    notes: In the directory of the Language Exchange Club network (lec.link); date of entry unknown.
+    location.address: 24 Metropolitan Andrey Sheptytsky St
+i18n_src:
+  description: e00a07c5
+  schedule_note: 4a244aae
+  notes: 158955cd
+  name: 401af160
+  location.address: ddb602e0

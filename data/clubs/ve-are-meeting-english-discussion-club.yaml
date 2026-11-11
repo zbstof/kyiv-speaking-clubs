@@ -21,3 +21,16 @@ first_seen: "2017-02-01"
 last_seen: "2017-02-01"
 sources:
   - https://dou.ua/calendar/13730/
+i18n:
+  uk:
+    name: Ve aRe meeting — дискусійний клуб англійської мови
+    description: >-
+      Щотижневий англомовний дискусійно-брейнсторм-клуб з теми віртуальної реальності для технічних
+      студентів (KPI, KNU, NaUKMA) та інших; вхід за співбесідою в Skype.
+    schedule_note: Щотижня, March–June 2017
+    location.venue: Приміщення узгоджено з адміністрацією KNU (попередньо)
+i18n_src:
+  name: "09929265"
+  description: 7524ebda
+  schedule_note: 2406229a
+  location.venue: 870bc919

@@ -23,3 +23,21 @@ sources:
 notes: >-
   Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
   times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: RozMova Club (Ivan Franko Central District Library)
+    location.venue: Ivan Franko Central District Library (Podilskyi District)
+    location.address: 117 Kyrylivska St
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в київській публічній бібліотеці для людей, які
+      переходять на українську або хочуть її покращити.
+    notes: >-
+      Зазначено в переліку бібліотек управління культури Києва станом на 2025-12-01. У списках не
+      вказано часу проведення. Район припущено за адресою, не перевірено.
+i18n_src:
+  name: b89a0735
+  description: d15e99c9
+  notes: "80762585"
+  location.venue: 365795d0
+  location.address: 3704b2d1

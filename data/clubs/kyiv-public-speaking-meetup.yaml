@@ -29,3 +29,23 @@ sources:
   - https://www.meetup.com/topics/esl/ua
   - https://meetup.com/topics/esl/ua
 notes: 155 members ('Polyglot speakers').
+i18n:
+  uk:
+    name: Київський клуб публічних виступів
+    description: >-
+      Безкоштовні тренінги з публічних виступів ('анти-лекції') англійською або українською для тих,
+      хто вивчає мови й хоче подолати страх сцени.
+    schedule_note: >-
+      Нерегулярні вечори 18:00–19:00; 9 заходів, наприклад 2015-07-07, 2015-10-09, 2015-11-03,
+      2015-11-25
+    notes: 155 учасників ('Polyglot speakers').
+    location.venue: Конференц-зал 'Answer'; Kyiv School of Economics
+  en:
+    location.address: 49-A Volodymyrska St; 1 Ivana Mazepy St
+i18n_src:
+  name: 24be2383
+  description: be78b695
+  schedule_note: ac905488
+  notes: 4796fc04
+  location.venue: 51f55cb9
+  location.address: 973cafa0

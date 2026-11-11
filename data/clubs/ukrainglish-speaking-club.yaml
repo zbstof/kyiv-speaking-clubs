@@ -27,3 +27,19 @@ notes: >-
   Meetup city is Kyiv; 54 members. Next event 'Sunday, Jun 28' fits 2026. Kyiv base of organizer not
   verified. Meetup group listed under Kyiv, 54 members; events Apr 12, May 3, May 17, Oct 18,
   upcoming Sun June 28 — years not shown (June 28 is a Sunday in 2026).
+i18n:
+  uk:
+    description: >-
+      Невелика, невимушена розмовна зустріч англійською та українською з переходом між мовами;
+      тематичні сесії (фільми, книги, розповідання історій).
+    schedule_note: Щонеділі 8 pm за київським часом (Google Meet); одна сесія о 4 pm
+    notes: >-
+      Місто Meetup — Київ; 54 учасники. Наступна подія 'Sunday, Jun 28' припадає на 2026 рік.
+      Наявність бази організатора в Києві не підтверджена. Група на Meetup вказана як Київ, 54
+      учасники; події Apr 12, May 3, May 17, Oct 18, upcoming Sun June 28 — роки не вказані (June 28
+      — неділя 2026 року).
+i18n_src:
+  description: 020ad1fc
+  schedule_note: 27413ddd
+  notes: "66837153"
+  name: e7dc84e7

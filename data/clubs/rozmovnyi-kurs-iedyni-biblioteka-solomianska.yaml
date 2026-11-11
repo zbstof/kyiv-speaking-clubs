@@ -29,3 +29,25 @@ sources:
 notes: >-
   Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the 2025-12-01
   list. The lists give no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation course "Yedyni" — Solomianska Library
+    location.venue: Solomianska Library
+    description: >-
+      Free Ukrainian conversation course/club of the Yedyni movement (initiative "Teach in
+      Ukrainian") at a Kyiv public library.
+    location.address: 7 Kavkazka St
+  uk:
+    description: >-
+      Безкоштовний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+      українською») у київській публічній бібліотеці.
+    notes: >-
+      Зазначено лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; відсутнє у
+      переліку від 2025-12-01. У переліках не вказано часу зустрічей. Район визначено за адресою, не
+      перевірено.
+i18n_src:
+  name: 88263c2f
+  notes: 52736ebd
+  location.venue: 38f5892f
+  description: 519a53f7
+  location.address: 136093a5

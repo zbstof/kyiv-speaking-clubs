@@ -47,3 +47,24 @@ sources:
   - https://www.education.ua/blog/48918/
   - https://osvita.ua/languages/courses/17966/
   - https://www.vidhuk.ua/green-forest/review-1750983
+i18n:
+  uk:
+    name: Розмовні клуби Green Forest та офлайн English Meetup у Києві
+    description: >-
+      Мовна школа Green Forest проводить розмовні клуби для студентів і публічні заходи: офлайн
+      «English Meetup» для нетворкінгу в Києві, безкоштовні онлайн‑клуби «Sharing is Caring» і
+      «English Sunday».
+    location.venue: Філії Green Forest (Позняки, Поділ, історично — Шота Руставелі)
+    price.amount: Meetup англійською офлайн — 250 грн; онлайн-клуби — безкоштовні
+  en:
+    schedule_note: >-
+      English Sunday Online: every Sunday on Zoom at 11:00, 13:00 and 15:00, free, ages 16+. Also
+      Book Talk and offline meetings.
+    location.venue: Green Forest branches (Pozniaky, Podil, Shota Rustaveli historically)
+    price.amount: English Meetup offline 250 грн; online clubs free
+i18n_src:
+  name: e06cf3b8
+  description: "85810493"
+  schedule_note: 1eb5db98
+  location.venue: 9121b0d8
+  price.amount: b36e3083

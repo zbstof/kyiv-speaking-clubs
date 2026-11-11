@@ -30,3 +30,18 @@ sources:
   - https://osvita.ua/languages/35912/
   - https://osvita.ua/languages/41186/
 notes: A paid summer course with a speaking-club part, not a standing club. 2013 was the 3rd year.
+i18n:
+  uk:
+    description: >-
+      Шеститижнева літня мовна програма з викладачами-носіями; включала розмовні клуби,
+      майстер-класи та кінопокази.
+    schedule_note: "Літо, 6 тижнів (2013: 3 Jun-15 Jul; 2014: from June)"
+    notes: Платний літній курс із розмовною частиною, а не постійний клуб. 2013 рік був третім.
+    price.amount: "2013: 470-580 грн; 2014: 350-450 грн за курс"
+    name: AIESEC Київська мовна школа
+i18n_src:
+  description: 125fc44b
+  schedule_note: d80caaec
+  notes: c10e3b9f
+  name: 9c37b4f8
+  price.amount: ac5395e0

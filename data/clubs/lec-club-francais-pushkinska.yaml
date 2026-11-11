@@ -22,3 +22,22 @@ status: unknown
 sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
+i18n:
+  uk:
+    name: Французький розмовний клуб (Пушкінська)
+  en:
+    description: Francophone conversation club at a cafe.
+    schedule_note: 16:00–18:00; irregular in summer.
+    notes: In the directory of the Language Exchange Club network (lec.link); date of entry unknown.
+    location.venue: CityCafe "Videnski bulochky"
+    name: French conversation club (Pushkinska)
+    location.address: 1-3/5 Pushkinska St
+    location.metro: Khreshchatyk
+i18n_src:
+  description: dfd6a1e8
+  schedule_note: 0089d52c
+  notes: 158955cd
+  location.venue: b3baf80e
+  name: 6cef6f23
+  location.address: d4fc3de6
+  location.metro: 9f2c4b77

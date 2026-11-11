@@ -16,3 +16,16 @@ sources:
 notes: >-
   Sign-up form for 'Say More #1 – The First Meetup'; date and venue not announced when read. Sign-up
   form only; launch not verified; date of form unknown.
+i18n:
+  uk:
+    name: Say More — англомовна зустріч
+    description: Неформальний англомовний захід у Києві, який проводять носії англійської, відкритий для всіх.
+    schedule_note: Перша зустріч — скоро; дата і місце не оголошені.
+    notes: >-
+      Форма реєстрації на 'Say More #1 – The First Meetup'; на момент перегляду дата й місце не
+      оголошені. Лише форма реєстрації; запуск не підтверджено; дата створення форми невідома.
+i18n_src:
+  name: 2c5aad8f
+  description: a99bc2dc
+  schedule_note: 1223e6f2
+  notes: 2746cb4a

@@ -36,3 +36,30 @@ notes: >-
   no meeting times. District inferred from the address, not verified. 2023: course «Спілкуймося
   українською впевнено!». Dec 2025: grammar course, literary conversation club «Спілкуймося
   українською впевнено!» and a conversation club of the «Єдині» platform.
+i18n:
+  en:
+    name: >-
+      Youth Library: "Let's Speak Ukrainian Confidently!", course "What a Beautiful Native Word",
+      club "Yedini"
+    location.venue: Specialized Youth Library of Kyiv
+    notes: >-
+      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. 2023: course "Let's
+      speak Ukrainian confidently!". Dec 2025: grammar course, literary conversation club "Let's
+      speak Ukrainian confidently!" and a conversation club of the "Yedini" platform.
+    location.address: 10 Povitrianykh Syl Ave (formerly Povitroflotskyi)
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб українською в публічній бібліотеці Києва для людей, які переходять
+      на українську або хочуть її покращити.
+    notes: >-
+      Зазначено в обох списках бібліотек управління культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано часу зустрічей. Район визначено за адресою, не підтверджено. 2023: курс
+      «Спілкуймося українською впевнено!». Dec 2025: курс з граматики, літературний розмовний клуб
+      «Спілкуймося українською впевнено!» та розмовний клуб платформи «Єдині».
+i18n_src:
+  name: 6e7064f2
+  description: d15e99c9
+  location.venue: 503aa947
+  notes: 6869d9ea
+  location.address: 748e0dc1

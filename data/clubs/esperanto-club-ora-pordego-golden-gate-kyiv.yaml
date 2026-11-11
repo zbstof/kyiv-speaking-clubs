@@ -19,3 +19,18 @@ notes: >-
   Bulletins (March 2005, November 2008) say 'several E-collectives work in the city, the most famous
   being E-club Ora pordego'. 2008 issue also mentions the charitable fund 'Espero' named after V.
   Eroshenko (pres. E. Kovtoniuk). No meeting place or schedule found.
+i18n:
+  uk:
+    name: Есперанто-клуб "Ora Pordego" (Золоті Ворота), Київ
+    description: >-
+      Найвідоміший із кількох есперанто-груп у Києві в 2000s, за бюлетенем Esperanto Society of
+      Chicago.
+    notes: >-
+      Бюлетені (March 2005, November 2008) повідомляють: 'у місті працюють кілька
+      есперанто-колективів, найвідоміший — есперанто-клуб Ora pordego'. Випуск 2008 року також
+      згадує благодійний фонд 'Espero', названий на честь В. Ерошенка (голова — Е. Ковтонюк). Місце
+      зустрічей і розклад не знайдені.
+i18n_src:
+  name: 504f845a
+  description: e6a2adc1
+  notes: 711852f8

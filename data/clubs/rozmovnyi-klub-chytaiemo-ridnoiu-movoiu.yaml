@@ -30,3 +30,21 @@ sources:
 notes: >-
   Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists give
   no meeting times. District inferred from the address, not verified.
+i18n:
+  en:
+    name: Conversation club "We Read in Our Native Language"
+    location.venue: Aesthetic Education Library
+    location.address: 32 Mykola Mikhnovsky Boulevard
+  uk:
+    description: >-
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
+      переходять на українську або вдосконалюють її.
+    notes: >-
+      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 та 2025-12-01). У
+      списках не вказано часів зустрічей. Район визначено за адресою, не перевірено.
+i18n_src:
+  name: b162552a
+  description: d15e99c9
+  notes: 35f55f76
+  location.venue: 2cf0f1f0
+  location.address: f241be29

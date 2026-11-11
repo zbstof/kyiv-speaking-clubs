@@ -19,3 +19,14 @@ last_seen: 2010-04
 sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
+i18n:
+  uk:
+    name: Майстер-класи Business-English Center
+    description: Майстер-класи з навичок ділової англійської щонеділі.
+    schedule_note: Щонеділі о 3 p.m. (2010)
+    notes: Розміщено в рубриці "Community listings" газети Kyiv Post, 2010-04-08.
+i18n_src:
+  name: 8fe88cf9
+  description: e37ff90f
+  schedule_note: f3944f4e
+  notes: 0150c68c

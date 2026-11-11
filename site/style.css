@@ -175,3 +175,23 @@ legend { font-size: 14px; font-weight: 600; padding: 0 4px; }
 /* card highlighted after "Details" on the map */
 @keyframes flash { from { box-shadow: 0 0 0 3px var(--accent); } to { box-shadow: 0 0 0 3px transparent; } }
 .card.flash { animation: flash 2s ease-out; }
+
+/* Several clubs at one place: number in the middle, ring split by each club's language colour. */
+.pin-multi { background: var(--surface); color: var(--text); border: 0; position: relative; font-size: 13px; }
+.pin-multi::before { content: ""; position: absolute; inset: -1px; border-radius: 50%; padding: 4px; background: var(--ring);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+.pin-sm.pin-multi::before { padding: 3px; }
+.pop-group { display: grid; gap: 8px; }
+.pop-group > b { font-size: 13px; color: var(--muted); font-weight: 600; }
+.pop-item { padding-top: 8px; border-top: 1px solid var(--line); }
+
+/* Leaflet adds its own stylesheet after ours; #map raises specificity so these win in both themes. */
+#map .leaflet-popup-content-wrapper, #map .leaflet-popup-tip { background: var(--surface); color: var(--text); }
+#map .leaflet-popup-close-button { color: var(--muted); }
+#map .leaflet-popup-close-button:hover { color: var(--text); }
+#map .pop button { background: var(--surface); color: var(--text); border: 1px solid var(--line); }
+#map .leaflet-bar a { background: var(--surface); color: var(--text); border-bottom-color: var(--line); }
+#map .leaflet-bar a:hover { background: var(--chip); }
+#map .leaflet-bar { border-color: var(--line); }
+#map .leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 85%, transparent); color: var(--muted); }
+#map .leaflet-control-attribution a { color: var(--accent); }

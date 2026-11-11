@@ -48,6 +48,8 @@
         return `≈ ${r} ${form}`;
       },
       membersAsOf: (d) => (d ? `станом на ${d}` : ""),
+      sharedPlace: (n) => `${n} ${new Intl.PluralRules("uk").select(n) === "few" ? "клуби" : "клубів"} за цією адресою`,
+      legendShared: "число: кілька клубів за однією адресою",
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
@@ -121,6 +123,8 @@
         return r >= 1000 ? `≈ ${(r / 1000).toLocaleString("en-GB", { maximumFractionDigits: 1 })}k members` : `≈ ${r} ${r === 1 ? "member" : "members"}`;
       },
       membersAsOf: (d) => (d ? `as of ${d}` : ""),
+      sharedPlace: (n) => `${n} clubs at this address`,
+      legendShared: "number: several clubs at one address",
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
@@ -614,13 +618,19 @@
   }
 
   const pinKey = (c) => (MAP_LANGS.includes(c.languages[0]) ? c.languages[0] : "other");
+  // Pin labels: language codes, except Ukrainian, which people know as UA.
+  const pinCode = (code) => (code === "uk" ? "UA" : code.toUpperCase());
 
-  function popupHtml(c) {
+  function popupGroupHtml(group) {
+    return `<div class="pop-group"><b>${esc(t().sharedPlace(group.length))}</b>${group.map((c) => popupHtml(c, true)).join("")}</div>`;
+  }
+
+  function popupHtml(c, inGroup) {
     const L = t(), loc = c.location, st = shownStatus(c);
     // Only slots that happen at this place: online slots of a hybrid club are not at the dot.
     const sched = (c.schedule || []).filter((s) => s.format !== "online").map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
     const href = mapHref(loc);
-    return `<div class="pop">
+    return `<div class="pop${inGroup ? " pop-item" : ""}">
       <b>${esc(c.name)}</b>
       <div class="pop-meta"><span class="badge ${st}">${esc(L.status[st])}</span> ${esc(c.languages.map(langName).join(", "))}</div>
       ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
@@ -647,31 +657,36 @@
     markers.clearLayers();
 
     const placed = shown.filter((c) => c.location?.lat !== undefined && c.format !== "online");
-    // Clubs at the same address would hide each other: spread them on a small circle (~25 m).
+    // Clubs within ~10 m of each other share one marker that shows how many clubs are there.
     const byPoint = {};
-    placed.forEach((c) => { (byPoint[`${c.location.lat},${c.location.lon}`] ||= []).push(c); });
+    placed.forEach((c) => { (byPoint[`${c.location.lat.toFixed(4)},${c.location.lon.toFixed(4)}`] ||= []).push(c); });
     const counts = { uk: 0, en: 0, de: 0, other: 0 };
     for (const group of Object.values(byPoint)) {
-      group.forEach((c, i) => {
-        const a = (2 * Math.PI * i) / group.length, r = group.length > 1 ? 0.00025 : 0;
-        const key = pinKey(c);
-        counts[key]++;
-        const code = c.languages[0].toUpperCase() + (c.languages.length > 1 ? "+" : "");
-        const icon = L.divIcon({
-          className: "pin-wrap",
-          html: `<span class="pin pin-${key}${isOld(c) ? " old" : ""}${c.location.near_metro ? " approx" : ""}" title="${esc(c.languages.map(langName).join(", "))}">${esc(code)}</span>`,
-          iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14],
-        });
-        L.marker([c.location.lat + r * Math.sin(a), c.location.lon + r * Math.cos(a) * 1.5], { icon, title: c.name, alt: c.name })
-          .bindPopup(() => popupHtml(c), { maxWidth: 280 })
-          .addTo(markers);
-      });
+      group.forEach((c) => counts[pinKey(c)]++);
+      const first = group[0];
+      let html, popup;
+      if (group.length === 1) {
+        const code = pinCode(first.languages[0]) + (first.languages.length > 1 ? "+" : "");
+        html = `<span class="pin pin-${pinKey(first)}${isOld(first) ? " old" : ""}${first.location.near_metro ? " approx" : ""}" title="${esc(first.languages.map(langName).join(", "))}">${esc(code)}</span>`;
+        popup = () => popupHtml(first);
+      } else {
+        // Ring split into equal parts, one per club, in that club's language colour.
+        const step = 100 / group.length;
+        const ring = group.map((c, i) => `var(--lang-${pinKey(c)}) ${i * step}% ${(i + 1) * step}%`).join(", ");
+        html = `<span class="pin pin-multi${group.every(isOld) ? " old" : ""}" style="--ring: conic-gradient(${ring})" title="${esc(group.map((c) => c.name).join(" · "))}">${group.length}</span>`;
+        popup = () => popupGroupHtml(group);
+      }
+      const icon = L.divIcon({ className: "pin-wrap", html, iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14] });
+      L.marker([first.location.lat, first.location.lon], { icon, title: group.map((c) => c.name).join(" · "), alt: group.map((c) => c.name).join(" · ") })
+        .bindPopup(popup, { maxWidth: 300, maxHeight: 360 })
+        .addTo(markers);
     }
     if (fit && placed.length) map.fitBounds(L.latLngBounds(placed.map((c) => [c.location.lat, c.location.lon])), { padding: [30, 30], maxZoom: 15 });
 
     $("#map-legend").innerHTML = ["uk", "en", "de", "other"].map((k) =>
       `<span class="leg"><span class="pin pin-${k} pin-sm"></span>${esc(T_.legend[k])} (${counts[k]})</span>`).join("") +
-      (placed.some((c) => c.location.near_metro) ? `<span class="leg"><span class="pin pin-other pin-sm approx"></span>${esc(T_.legendApprox)}</span>` : "");
+      (placed.some((c) => c.location.near_metro) ? `<span class="leg"><span class="pin pin-other pin-sm approx"></span>${esc(T_.legendApprox)}</span>` : "") +
+      (Object.values(byPoint).some((g) => g.length > 1) ? `<span class="leg"><span class="pin pin-multi pin-sm" style="--ring: conic-gradient(var(--lang-uk) 0 50%, var(--lang-en) 50% 100%)"></span>${esc(T_.legendShared)}</span>` : "");
     $("#map-note").textContent = T_.mapNote(placed.length, shown.length);
   }
 

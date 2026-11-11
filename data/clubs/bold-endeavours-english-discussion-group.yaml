@@ -24,12 +24,12 @@ sources:
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
 i18n:
   uk:
-    description: "Щомісячний розмовний клуб англійської (тема в 2010: інтернет-маркетинг)."
+    name: Англомовна дискусійна група Bold Endeavours
+    description: "Щомісячна англомовна дискусійна група (тема у 2010 році: інтернет-маркетинг)."
     schedule_note: Перша субота кожного місяця, опівдні (2010)
-    notes: Зазначено на дошці оголошень "Community listings" у Kyiv Post, 2010-04-08.
-    name: Bold Endeavours — дискусійна група англійською
+    notes: Зазначено в рубриці «Оголошення спільноти» газети Kyiv Post, 2010-04-08.
 i18n_src:
+  name: 4c9dec31
   description: 36cc451e
   schedule_note: 49f69150
   notes: 0150c68c
-  name: 4c9dec31

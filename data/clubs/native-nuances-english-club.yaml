@@ -55,29 +55,31 @@ notes: >-
   weekdays: Jun–Jul and Nov dates match 2025, Apr–Jun dates (Sat 18 Apr … Sat 6 Jun) match 2026.
   Post dates show only weekday+day; 'Sunday 24 May' and 'Saturday 06 June' fit 2026 (not verified).
 i18n:
+  en:
+    location.address: 33 Voloska St
+    location.metro: Kontraktova Ploshcha
+    schedule_note: >-
+      Seasonal: in spring 2026, every Saturday (18 April – 30 May), with times varying from 13:00 to
+      17:00; in 2025, on Sundays 14:00–16:00. The meeting on 6 June 2026 was cancelled, and there
+      have been no new announcements since. To attend, reply with "+" under the announcement in the
+      chat.
   uk:
     description: >-
-      Модерований розмовний клуб англійської у кав'ярні, який веде тренер-носій англійської; усі по
-      черзі відповідають на запитання за темою дня.
+      Модерований розмовний клуб англійської в кав’ярні, який веде тренер з англійської — носій
+      мови; усі по черзі відповідають на запитання за темою дня.
     notes: >-
-      Щоб зареєструватися, відповісти "+" у чаті. Попередній перегляд у Telegram не показує років;
-      роки визначаються за днями тижня: Jun–Jul і Nov дати відповідають 2025, Apr–Jun дати (Sat 18
-      Apr … Sat 6 Jun) відповідають 2026. У постах дати показані лише як weekday+day; 'Sunday 24
-      May' і 'Saturday 06 June' підходять для 2026 (не перевірено).
-    price.amount: безкоштовно; потрібно замовити щонайменше напій або закуску
-  en:
-    schedule_note: >-
-      Seasonal: in spring 2026 every Saturday (18 April – 30 May), time varied from 13:00 to 17:00;
-      in 2025 — on Sundays 14:00–16:00. The meeting on 6 June 2026 was canceled, and there have been
-      no new announcements since. To attend, write "+" under the announcement in the chat.
-    location.address: 33 Voloska St
-    location.metro: Kontraktova Square
+      Щоб зареєструватися, напишіть «+» у відповідь у чаті. У попередньому перегляді Telegram роки
+      не відображаються; їх визначено за днями тижня: дати за червень–липень і листопад відповідають
+      2025 року, а за квітень–червень (сб 18 квітня … сб 6 червня) — 2026 року. У датах дописів
+      зазначено лише день тижня й число; «неділя 24 травня» та «субота 06 червня» відповідають 2026
+      року (не перевірено).
+    price.amount: безкоштовно; замовте принаймні напій або перекус
 i18n_src:
+  location.address: 13f58e98
+  location.metro: 377d7953
+  name: 7150cff3
   description: acb8d43d
   schedule_note: 05aea85a
   notes: c693eaac
-  price.amount: 3d1c7cc8
-  name: 7150cff3
   location.venue: 4b75f9ae
-  location.address: 13f58e98
-  location.metro: 377d7953
+  price.amount: 3d1c7cc8

@@ -27,20 +27,20 @@ notes: >-
   Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. May be the same organizer as
   'English Language Center free international conversation club'.
 i18n:
-  uk:
-    name: Розмовний клуб англійської, вул. Ірпенська (english.in.ua)
-    description: П'ятничний розмовний клуб англійської з носіями мови.
-    schedule_note: Щоп'ятниці о 7 p.m.
-    notes: >-
-      Зазначено в Kyiv Post на дошці оголошень "Community listings", 2010-04-08. Може бути тим самим
-      організатором, що й "English Language Center free international conversation club".
   en:
-    location.address: 76 Irpinska St, office 31
     location.metro: Akademmistechko
+    location.address: 76 Irpinska St, office 31
+  uk:
+    name: Розмовний клуб англійської, вул. Ірпінська (english.in.ua)
+    description: П’ятничний розмовний клуб англійської з носіями мови.
+    schedule_note: Щоп’ятниці о 7 p.m.
+    notes: >-
+      Згадується в рубриці оголошень «Community listings» газети Kyiv Post, 2010-04-08. Можливо,
+      організатор той самий, що й у «English Language Center free international conversation club».
 i18n_src:
+  location.metro: cc6835c9
   name: 99b260f4
   description: 031ee1b4
   schedule_note: "05407897"
   notes: 122d9722
   location.address: 38e83c47
-  location.metro: cc6835c9

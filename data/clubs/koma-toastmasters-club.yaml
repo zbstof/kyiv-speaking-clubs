@@ -38,25 +38,28 @@ sources:
   - https://www.toastmasters.org/Find-a-Club/00005715-koma
 notes: Charter date 2003-02-12. 'last_seen' is the date the live listing was read, not a dated meeting.
 i18n:
+  en:
+    location.address: 39 Naberezhno-Khreshchatytska St
+    location.metro: Poshtova Ploshcha
+    schedule_note: Every Thursday at 19:00. A Ukrainian-language public speaking club.
+    location.venue: >-
+      Art Village Cafe (current listing); previously the Center of Ukrainian Culture and Arts, 19B
+      Khoryva St
   uk:
     description: >-
-      Клуб Toastmasters (#00005715); у його записі є посилання на сторінку Facebook 'Toastmasters
-      Ukrainian', тому ймовірно, що мовою є українська.
+      Клуб Toastmasters (#00005715); у його оголошенні є посилання на сторінку «Toastmasters
+      Ukrainian» у Facebook, тож він, імовірно, україномовний.
     notes: >-
-      Дата чартеру 2003-02-12. 'last_seen' — це дата, коли було переглянуто онлайн-оголошення, а не
+      Дата заснування — 2003-02-12. «last_seen» — це дата перегляду актуального оголошення, а не
       дата зустрічі.
-  en:
-    schedule_note: Every Thursday at 19:00. Public speaking club in Ukrainian.
     location.venue: >-
-      Art Village Cafe (current listing); earlier Center of Ukrainian Culture and Arts, 19B Khoryva
-      St
-    location.address: 39 Naberezhno-Khreshchatytska St
-    location.metro: Poshtova Square
+      Art Village Cafe (актуальне оголошення); раніше — Центр української культури та мистецтва,
+      вул. Хорива, 19Б
 i18n_src:
+  location.address: e02f01c1
+  location.metro: "12217794"
+  name: 5fbac057
   description: d3162cc8
   schedule_note: 6bf3734a
   notes: dac1a204
   location.venue: f21f14be
-  name: 5fbac057
-  location.address: e02f01c1
-  location.metro: "12217794"

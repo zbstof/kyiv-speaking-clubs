@@ -24,20 +24,20 @@ sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
 i18n:
-  uk:
-    name: Англомовна розмовна група Amnesty International
-    description: Групу англійської мови організовують прихильники Amnesty International.
-    schedule_note: Раз на два тижні по вівторках о 7 p.m. (2010)
-    notes: Зазначено в Kyiv Post у рубриці "Community listings", 2010-04-08.
-    location.venue: Німецька лютеранська церква (лютеранська церква святої Катерини)
   en:
-    location.address: 22 Luteranska St
+    location.address: 22 Liuteranska St
     location.metro: Khreshchatyk
+  uk:
+    name: Розмовна група англійської мови Amnesty International
+    description: Розмовна група англійської мови, яку організовують прихильники Amnesty International.
+    schedule_note: Раз на два тижні у вівторок о 7 p.m. (2010)
+    notes: Зазначено в рубриці оголошень «Оголошення громади» газети Kyiv Post, 2010-04-08.
+    location.venue: Німецька лютеранська церква (лютеранська церква Святої Катерини)
 i18n_src:
+  location.address: 21efd709
+  location.metro: 9f2c4b77
   name: f2bca2b5
   description: 6bb22588
   schedule_note: "5e390295"
   notes: 0150c68c
   location.venue: 9d7d23e9
-  location.address: 21efd709
-  location.metro: 9f2c4b77

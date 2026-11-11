@@ -35,23 +35,22 @@ notes: >-
   course project is charitable.
 i18n:
   uk:
-    name: Мовний клуб Vadim Stolar Foundation (проект «Курс української мови»)
+    name: Мовний клуб Фонду Вадима Столара (проєкт «Курс української мови»)
     description: >-
-      Розмовний клуб у межах благодійного проєкту «Курс української мови» для людей, які хочуть
-      вільно говорити українською, але бояться помилок; проводяться онлайн- та офлайн-зустрічі
-      (Київ).
-    schedule_note: Анонсовано 18 Feb 2026; дати зустрічей будуть оголошені на сторінках фонду.
+      Мовний клуб у межах благодійного проєкту «Курс української мови» для людей, які хочуть вільно
+      говорити українською, але бояться помилок; анонсовано онлайн- та офлайн-зустрічі (Київ).
+    schedule_note: Анонсовано 18 Feb 2026; дати зустрічей повідомлять на сторінках фонду.
     notes: >-
-      Анонсовано у статусі підготовки в Feb 2026; запуск не підтверджено. Telegram-канал
-      t.me/ukrainemova налічував 2,756 учасників (Nov 2026); публічний веб-прев'ю не показав постів
-      клубу. Ціна не вказана; проєкт курсу є благодійним.
+      У Feb 2026 повідомлялося про підготовку клубу; запуск не підтверджено. Telegram-канал
+      t.me/ukrainemova мав 2,756 учасників (Nov 2026); у відкритому вебперегляді дописів про клуб не
+      було. Вартість не вказано; проєкт курсу є благодійним.
   en:
     description: >-
       Language club within the charity project "Ukrainian Language Course" for people who want to
-      speak Ukrainian freely but fear making mistakes; online and offline (Kyiv) meetings are
+      speak Ukrainian freely but fear making mistakes; online and offline (Kyiv) meetings were
       announced.
 i18n_src:
   name: c6c000f3
+  description: 484a38bc
   schedule_note: 45022f17
   notes: d356a74f
-  description: 484a38bc

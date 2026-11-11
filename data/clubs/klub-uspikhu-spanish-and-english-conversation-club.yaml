@@ -26,22 +26,25 @@ notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   22.08.2017). No schedule or format given. Phones on card: (068) 523-92-86.
 i18n:
-  uk:
-    name: "Клуб Успіху: розмовний клуб іспанської та англійської"
-    description: Платна мовна школа в Києві, яка серед курсів має розмовний клуб іспанської (і англійської).
-    notes: >-
-      Зазначено лише як пункт курсу 'Розмовний клуб' у картці школи на osvita.ua (картка оновлена
-      22.08.2017). Розклад і формат не вказані. Телефони в картці: (068) 523-92-86.
   en:
-    location.venue: Success Club
+    location.address: 12 Boryspilska St
     name: "Klub Uspikhu: Spanish (and English) conversation club"
     notes: >-
-      Listed only as a course item 'Conversation club' in the school's osvita.ua catalog card (card
+      Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
       updated 22.08.2017). No schedule or format given. Phones on card: (068) 523-92-86.
-    location.address: 12 Boryspilska St
+    location.venue: Klub Uspikhu
+  uk:
+    name: "Клуб Успіху: розмовний клуб іспанської (та англійської) мови"
+    description: >-
+      Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської (та англійської)
+      мови.
+    notes: >-
+      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
+      osvita.ua (картку оновлено 22.08.2017). Розклад і формат не вказані. Телефони в картці: (068)
+      523-92-86.
 i18n_src:
-  description: b467893f
-  location.venue: 325804cc
-  name: 2d76a47b
-  notes: 12fde878
   location.address: 8dc9e406
+  name: 2d76a47b
+  description: b467893f
+  notes: 12fde878
+  location.venue: 325804cc

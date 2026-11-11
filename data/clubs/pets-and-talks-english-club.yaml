@@ -24,20 +24,18 @@ first_seen: 2024-11
 last_seen: "2024-11-28"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
-  uk:
-    name: Pets and Talks — розмовний клуб англійської
   en:
-    description: English speaking club at Patron Center with animals nearby.
-    schedule_note: Every Sunday at 15:00 (as announced in November 2024).
-    notes: According to the history of the Telegram group of Kyiv clubs (read 10.11.2026).
-    price.amount: Donation, recommended 100 UAH
-    location.venue: Patron Center
     location.address: 1 Akademika Hlushkova Ave
+    description: English speaking club at the Patron center with animals nearby.
+    schedule_note: Every Sunday at 15:00 (according to the November 2024 announcement).
+    notes: Based on the chat history of Kyiv clubs’ Telegram groups (read on 10.11.2026).
+    location.venue: Patron Center
+    price.amount: "Donation, suggested amount: 100 UAH"
 i18n_src:
+  location.address: a47d881c
   name: c90bc0c3
   description: 1e9b3816
   schedule_note: 468f13c0
   notes: dd841777
-  price.amount: ea68f526
   location.venue: f7217a07
-  location.address: a47d881c
+  price.amount: ea68f526

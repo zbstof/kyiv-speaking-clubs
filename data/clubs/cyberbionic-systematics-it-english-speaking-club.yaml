@@ -29,22 +29,21 @@ last_seen: "2015-07-25"
 sources:
   - https://www.education.ua/blog/18825/
 i18n:
-  uk:
-    name: CyberBionic Systematics — розмовний клуб англійської для IT-спеціалістів
-    description: >-
-      Розмовний клуб англійської для IT-спеціалістів; модератор знайомить із новою лексикою на
-      кожному занятті.
-    schedule_note: "Щосуботи 14:00, 2 години: 2015-07-04, 07-18, 07-25"
   en:
-    location.note: Room 502
     location.address: 19 Maryny Raskovoi St
     location.metro: Livoberezhna
+    location.note: Room 502
+    price.amount: 50 UAH
+  uk:
+    name: Розмовний клуб англійської для ІТ-фахівців CyberBionic Systematics
+    description: Розмовний клуб англійської для ІТ-фахівців; модератор щоразу знайомить із новою лексикою.
+    schedule_note: "Щосуботи о 14:00, 2 години: 2015-07-04, 07-18, 07-25"
 i18n_src:
+  location.address: "49977636"
+  location.metro: a7ee73f8
   name: 2f576532
   description: f1b8c974
   schedule_note: dd1f9f9e
-  location.note: "34579355"
   location.venue: e00c5577
+  location.note: "34579355"
   price.amount: 159cd30f
-  location.address: "49977636"
-  location.metro: a7ee73f8

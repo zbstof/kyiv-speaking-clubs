@@ -39,29 +39,34 @@ notes: >-
   заміна розмовного клубу America House, коли та призупинила роботу; задум — розмови українців і
   американців.
 i18n:
-  uk:
-    name: У розмові з
   en:
-    description: "English speaking club: casual conversations every Wednesday."
-    schedule_note: Wednesdays at 19:00. Announcements and the evening's topics are posted in the group.
-    notes: >-
-      Telegram group of the club (folder "🗣️Kyiv"), read on 10.11.2026. At this location since
-      mid-October 2026; previously the venue changed. The organizer on 08.11.2026 indicated the
-      address 17 Zolotovoritska St (previously announced as 15). In summer 2026 the venue changed,
-      including Arcanum. It started in February–March 2025 as a replacement for the America House
-      conversation club when it suspended operations; the idea was conversations between Ukrainians
-      and Americans.
-    location.note: Basement stand-up club opposite the Golden Gate, serves as a shelter.
-    contacts.0.note: Closed group; invitations via the organizer @pytor_alexievich
     location.address: 17 Zolotovoritska St
     location.metro: Zoloti Vorota
+    description: "English speaking club: relaxed conversations every Wednesday."
+    schedule_note: Every Wednesday at 19:00. Announcements and evening topics are posted in the group.
+    notes: >-
+      The club’s Telegram group ("🗣️Kyiv" folder), read on 10.11.2026. At this location since
+      mid-October 2026; the venue previously varied. On 08.11.2026, the organizer gave the address
+      as 17 Zolotovoritska St (previously listed as 15 in announcements). In summer 2026, the venue
+      varied, including Arcanum. The club started in February–March 2025 as a replacement for the
+      America House speaking club when it paused its activities; the idea is conversations between
+      Ukrainians and Americans.
+    location.note: Basement stand-up club opposite the Golden Gate, also serves as a shelter
+    contacts.0.note: Private group; ask the organizer @pytor_alexievich for an invitation
+  uk:
+    notes: >-
+      Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. На цьому місці із середини
+      жовтня 2026, раніше місце змінювалося. Організатор 08.11.2026 вказав адресу: вул.
+      Золотоворітська, 17 (раніше в анонсах — 15). Улітку 2026 місце змінювалося, зокрема зустрічі
+      проходили в Arcanum. Клуб започаткували в лютому–березні 2025 як заміну розмовному клубу
+      America House, коли той призупинив роботу; задум — розмови українців і американців.
 i18n_src:
+  location.address: c2c2e29d
+  location.metro: e4cb2047
   name: 154a7b63
   description: 92f0cedd
   schedule_note: 74f0b73b
   notes: 1f193071
+  location.venue: 8d3c516c
   location.note: 44ba91e4
   contacts.0.note: a386b4eb
-  location.venue: 8d3c516c
-  location.address: c2c2e29d
-  location.metro: e4cb2047

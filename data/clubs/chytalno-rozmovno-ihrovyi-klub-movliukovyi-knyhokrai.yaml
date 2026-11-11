@@ -33,20 +33,18 @@ notes: >-
   parents; in 2025 listed as a summer club.
 i18n:
   en:
-    name: Reading, conversation and play club "Movliukovyi Knyhokray"
-    location.venue: Children's Library No. 9
     location.address: 34 Biloruska St
+    name: Reading, conversation and games club "Movliukovyi knyhokrai"
+    location.venue: Children's Library No. 9
   uk:
-    description: >-
-      Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці
-      Києва.
+    description: Безкоштовний мовно-розмовний клуб української мови для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 and 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. Для дітей віком
-      5-8 років із батьками; у 2025 зазначено як літній клуб.
+      Зазначений в обох бібліотечних списках Департаменту культури Києва (2023-08-17 і 2025-12-01).
+      У списках не вказано часу зустрічей. Район визначено за адресою, але не перевірено. Для дітей
+      віком 5-8 років із батьками; у 2025 році зазначений як літній клуб.
 i18n_src:
+  location.address: 91f921e4
   name: 19c6e55a
   description: 0402dd7e
   notes: f8456176
   location.venue: b2f8e018
-  location.address: 91f921e4

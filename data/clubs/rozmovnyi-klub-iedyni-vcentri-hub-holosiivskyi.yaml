@@ -45,21 +45,21 @@ notes: >-
   The list gives no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation club "Yedyni" — Vcentri HUB Holosiivskyi
-    location.venue: Community space Vcentri HUB Holosiivskyi
-    description: Free Ukrainian conversation club of the "Yedyni" project at Vcentri HUB Holosiivskyi.
     location.address: 83 Velyka Kytaivska St
+    name: "\"Yedyni\" conversation club — Vcentri HUB Holosiivskyi"
+    description: Free Ukrainian conversation club of the "Yedyni" project at Vcentri HUB Holosiivskyi.
+    location.venue: Vcentri HUB Holosiivskyi community space
   uk:
-    description: Безкоштовний розмовний клуб української мови проєкту «Єдині» у Vcentri HUB Holosiivskyi.
+    description: Безкоштовний розмовний клуб української мови проєкту «Єдині» у Vcentri HUB Голосіївський.
     notes: >-
-      Зазначено в переліку Департаменту культури Києва «Українські розмовні клуби та курси у міських
-      бібліотеках», опублікованому 2023-08-17 (50 записів; КМДА повідомила «50 клубів і курсів»
-      2023-09-20). Перелік не містить розкладу зустрічей. Район визначено за адресою, не перевірено.
-    schedule_note: Неділя 5 березня 2023 14:00-15:30; Субота 13 травня 2023 11:00-13:00.
+      Внесений до переліку розмовних клубів і курсів української мови в міських бібліотеках,
+      опублікованого Департаментом культури Києва 2023-08-17 (50 позицій; КМДА повідомила про «50
+      клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за
+      адресою, але не перевірено.
 i18n_src:
+  location.address: 71a4f62d
   name: a44ef12b
+  description: 9b65c781
+  schedule_note: ea0e9e8a
   notes: b4ead5ba
   location.venue: c77f793d
-  schedule_note: ea0e9e8a
-  description: 9b65c781
-  location.address: 71a4f62d

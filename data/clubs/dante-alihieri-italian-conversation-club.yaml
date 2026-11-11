@@ -23,22 +23,23 @@ notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   29.08.2013). No schedule or format given. Phones on card: (044) 221-42-12.
 i18n:
-  uk:
-    name: "Данте Аліг'єрі: розмовний клуб італійської"
-    description: Платна мовна школа в Києві, яка в переліку курсів пропонує італійський розмовний клуб.
-    notes: >-
-      Зазначено лише як курс «Розмовний клуб» у картці школи на osvita.ua (картку оновлено
-      29.08.2013). Розклад і формат не вказані. Телефон у картці: (044) 221-42-12.
   en:
-    location.venue: Dante Alighieri
+    location.address: 71 Chervonoarmiiska (Velyka Vasylkivska) St
     name: "Dante Alighieri: Italian conversation club"
     notes: >-
       Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
       updated 29.08.2013). No schedule or format given. Phone on card: (044) 221-42-12.
-    location.address: 71 Chervonoarmiyska St (Velyka Vasylkivska)
+    location.venue: Dante Alighieri
+  uk:
+    name: "Данте Аліг'єрі: розмовний клуб італійської мови"
+    description: Платна мовна школа в Києві, яка пропонує серед своїх курсів розмовний клуб італійської мови.
+    notes: >-
+      Зазначений лише як пункт «Розмовний клуб» у переліку курсів у картці школи в каталозі
+      osvita.ua (картку оновлено 29.08.2013). Розклад і формат не вказані. Телефон у картці: (044)
+      221-42-12.
 i18n_src:
-  description: 8705198f
-  location.venue: 6ce67a69
-  name: 5ea11ae8
-  notes: 539f73fc
   location.address: 2dbc2895
+  name: 5ea11ae8
+  description: 8705198f
+  notes: 539f73fc
+  location.venue: 6ce67a69

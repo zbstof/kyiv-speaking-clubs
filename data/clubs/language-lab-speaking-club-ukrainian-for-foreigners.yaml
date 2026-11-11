@@ -39,28 +39,29 @@ notes: >-
   language practice for all levels'; school near Golden Gate. Free online Independence Day edition
   Sun 2026-08-23 19:00 (Zoom). Kyiv Post 'More on Language Lab' dated 2026-08-20.
 i18n:
-  uk:
-    name: Language Lab Speaking Club (Українська для іноземців)
-    description: >-
-      Безкоштовні онлайн-сесії розмовного клубу української в Zoom від київської школи Language Lab,
-      які ведуть носії мови; поєднання української та англійської. Партнерський матеріал Kyiv Post.
-    notes: >-
-      Language Lab навчає іноземців української онлайн і офлайн у Києві; заснована 2016 року як
-      школа англійської. Регулярний розклад клубів не підтверджено. Сайт: "Розмовні клуби: онлайн і
-      офлайн — практика мови для всіх рівнів"; школа біля Золотих Воріт. Безкоштовна онлайн-версія
-      до Дня Незалежності — неділя 2026-08-23 19:00 (Zoom). Матеріал Kyiv Post "More on Language
-      Lab" від 2026-08-20.
-    location.venue: Онлайн (Zoom); Language Lab
   en:
-    schedule_note: >-
-      There is no regular schedule; clubs are announced separately. Last meeting — 23.08.2026,
-      Sunday, 19:00, on Zoom (for Independence Day). Registration via the form on the website; the
-      link is sent by email.
     location.address: 11 Yaroslaviv Val St
+    schedule_note: >-
+      There is no regular schedule; club sessions are announced individually. The latest meeting was
+      on 23.08.2026, Sunday, at 19:00 on Zoom (for Independence Day). Register via the form on the
+      website; the link is sent by email.
+  uk:
+    name: Language Lab Speaking Club (українська для іноземців)
+    description: >-
+      Безкоштовні онлайн-зустрічі розмовного клубу української мови в Zoom від київської школи
+      Language Lab із модераторами — носіями мови; спілкування українською та англійською.
+      Партнерський матеріал Kyiv Post.
+    notes: >-
+      Language Lab навчає іноземців української онлайн та очно в Києві; школа почала працювати у
+      2016 році як школа англійської. Регулярний розклад клубу не підтверджено. На сайті: «Розмовні
+      клуби: мовна практика онлайн та очно для всіх рівнів»; школа біля Золотих воріт. Безкоштовна
+      онлайн-зустріч до Дня Незалежності — неділя, 2026-08-23, 19:00 (Zoom). Матеріал Kyiv Post
+      «Більше про Language Lab» від 2026-08-20.
+    location.venue: Онлайн (Zoom); Language Lab
 i18n_src:
+  location.address: 34de9867
   name: 25aada38
   description: a7186787
   schedule_note: f5475f10
   notes: fd0589e2
   location.venue: 0598718e
-  location.address: 34de9867

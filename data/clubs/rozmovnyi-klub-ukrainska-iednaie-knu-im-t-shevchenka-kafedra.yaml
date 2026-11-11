@@ -33,36 +33,34 @@ notes: >-
 i18n:
   en:
     name: >-
-      Conversation club "Ukrainian Unites" (Taras Shevchenko National University of Kyiv, Department
-      of Ukrainian Philology for Foreign Citizens)
-    location.venue: >-
-      Online (Zoom); Educational and Scientific Institute of Philology, Taras Shevchenko National
-      University of Kyiv
+      "Ukrainska yednaie" speaking club (Taras Shevchenko National University of Kyiv, Department of
+      Ukrainian Philology for Foreign Citizens)
     notes: >-
-      Source: S. Derba, O. Kasianova, "Taras Shevchenko: Ukrainian as a Foreign Language
-      Conversation Club", KNU Journal 2026 no. 1(29). The paper states that Ukrainian conversation
-      clubs for foreigners are rare in Ukraine. The institute address is general knowledge and is
-      not taken from the source.
-    location.address: 14 Taras Shevchenko Boulevard (institute building)
+      Source: S. Derba, O. Kasianova, "Taras Shevchenko: a speaking club for Ukrainian as a foreign
+      language", KNU journal 2026 no. 1(29). The paper says Ukrainian speaking clubs for foreigners
+      are rare in Ukraine. Institute address is general knowledge, not from the source.
+    location.venue: Online (Zoom); Educational and Scientific Institute of Philology, KNU
+    location.address: 14 Tarasa Shevchenka Blvd (institute building)
   uk:
     description: >-
-      Онлайн-розмовний клуб українською для іноземних студентів (A2-B1) Інституту філології KNU; у
-      задокументованій сесії 31 травня 2023 року в Zoom брали участь 9 китайських студентів KNU та 4
-      студенти University of Washington; використовували групову роботу, Take Turns, імпровізаційні
-      ігри та Kahoot.
+      Онлайн-розмовний клуб української мови для іноземних студентів (A2-B1) Інституту філології
+      КНУ; у задокументованій зустрічі 31 May 2023 у Zoom взяли участь 9 китайських студентів КНУ та
+      4 студенти Вашингтонського університету. Використовували групову роботу, почергові
+      висловлювання, імпровізаційні ігри та Kahoot.
     schedule_note: >-
-      Задокументована сесія: 31 травня 2023, 06:00 київського часу. Регулярного розкладу не
+      Задокументована зустріч: 31 May 2023, 06:00 за київським часом. Регулярного розкладу не
       опубліковано.
     notes: >-
-      Джерело: S. Derba, O. Kasianova, «Тарас Шевченко: розмовний клуб української мови як
-      іноземної», журнал KNU, 2026 № 1(29). У статті зазначається, що розмовні клуби української
-      мови для іноземців в Україні трапляються рідко. Адреса інституту є загальною інформацією і не
-      наведена в цьому джерелі.
-    location.address: бульвар Тараса Шевченка, 14 (будівля інституту)
+      Джерело: С. Дерба, О. Касьянова, «Тарас Шевченко: розмовний клуб української мови як
+      іноземної», журнал КНУ, 2026, № 1(29). У статті зазначено, що розмовні клуби української мови
+      для іноземців — рідкість в Україні. Адресу інституту наведено із загальновідомих відомостей, а
+      не з джерела.
+    location.venue: Онлайн (Zoom); Навчально-науковий інститут філології КНУ
+    location.address: бульв. Тараса Шевченка, 14 (будівля інституту)
 i18n_src:
   name: 16bf21f9
   description: afc0bad7
   schedule_note: c47a924b
-  location.venue: "87373385"
   notes: e062796d
+  location.venue: "87373385"
   location.address: f0e9ed98

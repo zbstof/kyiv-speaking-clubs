@@ -29,19 +29,19 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation club "Ukrainian — it's cool!"
-    location.venue: Svitohliad Library
-    location.address: 12/2/3 Horodetskoho / Franka / Stanislavskoho Sts
+    location.address: 12/2/3 Horodetskoho / Franka / Stanislavskoho St
+    name: Conversation club "Ukrainska – tse kruto!"
+    location.venue: "\"Svitohliad\" Library"
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
-      переходять на українську або покращують її.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох списках бібліотек управління культури Києва (2023-08-17 і 2025-12-01). У
-      списках немає часу проведення зустрічей. Район визначено за адресою, не перевірено.
+      Зазначений в обох переліках бібліотек київського департаменту культури (2023-08-17 і
+      2025-12-01). У переліках немає часу зустрічей. Район визначено за адресою, але не перевірено.
 i18n_src:
+  location.address: 33e94d41
   name: "11e62464"
   description: d15e99c9
   notes: 35f55f76
   location.venue: 9bb665d7
-  location.address: 33e94d41

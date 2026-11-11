@@ -25,24 +25,23 @@ notes: >-
   the clubs; for learners with enough Polish.
 i18n:
   en:
-    name: "Linguistic Center \"Zhako\": Polish conversation club"
-    location.venue: Linguistic Center "Zhako"
+    location.address: 166 Horkoho (Antonovycha) St
+    name: "Zhako Linguistic Center: Polish conversation club"
     notes: >-
       Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
-      updated 25.05.2013). No schedule or format given. Phones on the card: (044) 531-95-17. Native
-      speakers lead the clubs; for learners with sufficient Polish.
-    location.address: 166 Antonovycha St
+      updated 25.05.2013). No schedule or format given. Phones on card: (044) 531-95-17. Native
+      speakers lead the clubs; for learners with enough Polish.
+    location.venue: Zhako Linguistic Center
   uk:
-    description: >-
-      Платна школа іноземних мов у Києві, яка в переліку курсів зазначає розмовний клуб польської
-      мови.
+    name: "Лінгвістичний центр «Жако»: розмовний клуб польської мови"
+    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб польської мови.
     notes: >-
-      Перераховано лише як курс "Розмовний клуб" у картці школи на osvita.ua (картка оновлена
-      25.05.2013). Розклад чи формат не вказано. Телефони на картці: (044) 531-95-17. Клуби ведуть
-      носії мови; для учнів із достатнім рівнем польської.
+      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+      25.05.2013). Розклад і формат не вказані. Телефони в картці: (044) 531-95-17. Клуби ведуть
+      носії мови; для тих, хто достатньо володіє польською.
 i18n_src:
+  location.address: "9e005977"
   name: 3e13298a
   description: 583c7a10
-  location.venue: 8ee4162c
   notes: 9f6d4200
-  location.address: "9e005977"
+  location.venue: 8ee4162c

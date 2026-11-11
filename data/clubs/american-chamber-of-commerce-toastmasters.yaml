@@ -28,22 +28,21 @@ sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
 i18n:
-  uk:
-    description: Клуб Toastmasters для англомовних професіоналів.
-    schedule_note: Щосереди о 7:30 p.m.
-    notes: Зазначено в Kyiv Post у рубриці 'Community listings', 2010-04-08.
-    location.venue: Офіс Microsoft Ukraine
-    name: Toastmasters Американської торговельної палати
   en:
-    location.note: 4th floor
     location.address: 75 Zhylianska St
     location.metro: Vokzalna
+    location.note: 4th floor
+  uk:
+    description: Клуб Toastmasters для англомовних фахівців.
+    schedule_note: Щосереди о 7:30 p.m.
+    notes: Зазначено в рубриці «Оголошення громади» газети Kyiv Post, 2010-04-08.
+    location.venue: Офіс Microsoft в Україні
 i18n_src:
+  location.address: b301f809
+  location.metro: ede8c3f1
+  name: 4a5588f5
   description: 98ec53ab
   schedule_note: 67bebb37
   notes: 0150c68c
   location.venue: f8010f02
   location.note: dcce9ac0
-  name: 4a5588f5
-  location.address: b301f809
-  location.metro: ede8c3f1

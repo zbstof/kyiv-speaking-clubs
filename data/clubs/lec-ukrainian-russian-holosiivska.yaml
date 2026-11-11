@@ -24,20 +24,20 @@ sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
 i18n:
+  en:
+    location.metro: Holosiivska
+    description: Ukrainian and Russian conversation meetups for foreigners.
+    schedule_note: Evenings 18:30–20:30; not every week in summer.
+    notes: Listed in the Language Exchange Club network directory (lec.link); listing date unknown.
+    location.venue: "\"Dovzhenko Knyhy.kava.kino\" bookstore (Dovzhenko Centre)"
+    location.note: 50 m from Holosiivska metro station
   uk:
     name: "LEC: українська/російська на Голосіївській"
-  en:
-    description: Conversation sessions in Ukrainian and Russian for foreigners.
-    schedule_note: Evening 18:30–20:30; in summer not every week.
-    notes: Listed in the Language Exchange Club directory (lec.link); date of listing unknown.
-    location.venue: Dovzhenko Bookshop "Dovzhenko Books.coffee.cinema" (Dovzhenko Center)
-    location.note: 50 m from Holosiivska metro station
-    location.metro: Holosiivska
 i18n_src:
+  location.metro: 5dac3b3b
   name: fb89b27a
   description: 6e6d09d2
   schedule_note: 2fb6583a
   notes: 158955cd
   location.venue: cfcc874c
   location.note: afc52632
-  location.metro: 5dac3b3b

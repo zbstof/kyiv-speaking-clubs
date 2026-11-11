@@ -28,17 +28,17 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Club "ProMOVA" (H. Tiutiunnyk Library)
-    location.venue: H. Tiutiunnyk Library for Children
-    location.address: 4b Borysa Martosa St
+    location.address: 4B Borysa Martosa St
+    name: "\"ProMOVA\" Club (H. Tiutiunnyk Library)"
+    location.venue: H. Tiutiunnyk Children's Library
   uk:
-    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці Києва.
+    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в списку бібліотек департаменту культури Києва станом на 2025-12-01. У списку не
-      вказано часів зустрічей. Район визначено за адресою, але не перевірено.
+      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках
+      не вказано часу зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: 7464ea1f
   name: 178e6e98
   description: 0402dd7e
   notes: "80762585"
   location.venue: 2467a88e
-  location.address: 7464ea1f

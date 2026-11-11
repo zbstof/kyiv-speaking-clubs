@@ -25,19 +25,19 @@ notes: >-
   Germanic Languages (report undated, about 2021-2022).
 i18n:
   uk:
-    name: Гурток «Mit Deutschland im Herzen» (Київський міський університет імені Бориса Грінченка)
+    name: Гурток «Mit Deutschland im Herzen» (Київський столичний університет імені Бориса Грінченка)
     description: >-
-      Студентський гурток з німецьких регіональних студій: дискусії, доповіді та круглі столи
-      німецькою для розвитку комунікативних навичок; німецька як друга іноземна.
+      Студентський гурток німецького країнознавства: дискусії, бесіди та круглі столи німецькою для
+      розвитку комунікативних навичок; німецька як друга іноземна мова.
     schedule_note: Друга середа місяця, у Zoom
     notes: >-
-      Для студентів університету. Проводиться з 13 січня 2021 року за звітом Мовного центру
-      германських мов (звіт без дати, орієнтовно 2021–2022).
+      Для студентів університету. Працює з 13 January 2021 за звітом Лінгвістичного центру
+      германських мов (звіт без дати, орієнтовно за 2021-2022).
   en:
-    name: Club "Mit Deutschland im Herzen" (Borys Grinchenko Kyiv Metropolitan University)
+    name: "\"Mit Deutschland im Herzen\" circle (Borys Grinchenko Kyiv Metropolitan University)"
 i18n_src:
+  name: aa69fde0
   description: "19300899"
   schedule_note: b6f88333
   notes: 4b8255ff
   location.venue: "62399752"
-  name: aa69fde0

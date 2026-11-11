@@ -39,25 +39,22 @@ notes: >-
   Лівобережній щонайменше з 2021 року. Клуб мережі LEC («English small talks»).
 i18n:
   en:
+    location.address: 3 Raisy Okipnoi St
+    location.metro: Livoberezhna
     description: >-
-      English-speaking conversation club on the Left Bank: free conversation practice to feel
+      An English speaking club on the Left Bank: free-flowing conversation practice to feel
       confident with native speakers.
     schedule_note: Every Monday 19:00–21:00.
     notes: >-
-      Mentioned in the Speaking Event Club (Telegram) chat, where participants from various clubs
-      share announcements; read on 10.11.2026. Public group, over 470 members. Meets every Monday at
-      Puzata Khata at Livoberezhna since at least 2021. Part of the LEC network ("English small
-      talks").
+      Mentioned in the Speaking Event Club chat (Telegram), where members of different clubs share
+      announcements; read on 10.11.2026. Public group, over 470 members. Every Monday at Puzata
+      Khata in Livoberezhna since at least 2021. Part of the LEC network ("English small talks").
     location.venue: Puzata Khata
-    location.address: 3 Raisy Okipnoyi St
-    location.metro: Livoberezhna
-  uk:
-    name: Small Talk — розмовний клуб англійської мови
 i18n_src:
+  location.address: 63e8c09e
+  location.metro: a7ee73f8
+  name: 696fdec0
   description: 9f1fd34d
   schedule_note: 4b8651b7
   notes: 50bab0f6
   location.venue: be30a852
-  name: 696fdec0
-  location.address: 63e8c09e
-  location.metro: a7ee73f8

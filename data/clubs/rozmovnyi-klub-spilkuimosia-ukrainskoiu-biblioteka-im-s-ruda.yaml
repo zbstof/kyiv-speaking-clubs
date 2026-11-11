@@ -25,19 +25,19 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation club "Let's speak Ukrainian!" (S. Rudanskyi Library)
-    location.venue: S. Rudanskyi Library
     location.address: 12 Pryvokzalna St
+    name: "\"Spilkuimosia ukrainskoiu!\" conversation club (S. Rudanskyi Library)"
+    location.venue: S. Rudanskyi Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
-      переходять на українську або прагнуть її вдосконалити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено у списку бібліотек Департаменту культури Києва станом на 2025-12-01. У списках не
+      Клуб є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
       вказано часу зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: 4ffd21f7
   name: 5d2e8b73
   description: d15e99c9
   notes: "80762585"
   location.venue: 4e4e39a7
-  location.address: 4ffd21f7

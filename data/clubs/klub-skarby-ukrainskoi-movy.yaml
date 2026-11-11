@@ -28,17 +28,17 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Club "Treasures of the Ukrainian Language"
-    location.venue: Children's Library No. 118
-    location.address: 25/1 Andriy Malyshko St
+    location.address: 25/1 Andriia Malyshka St
+    name: Club "Skarby ukrainskoi movy"
+    location.venue: Library No. 118 for Children
   uk:
-    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці в Києві.
+    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в переліку бібліотек управління культури Києва станом на 2025-12-01. У списках не
-      вказано часу проведення зустрічей. Район визначено за адресою, не перевірено.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано час зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: 1cd94ecc
   name: 0611f515
   description: 0402dd7e
   notes: "80762585"
   location.venue: 8b486ce5
-  location.address: 1cd94ecc

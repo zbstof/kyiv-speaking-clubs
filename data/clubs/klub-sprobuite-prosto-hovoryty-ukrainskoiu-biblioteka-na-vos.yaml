@@ -33,24 +33,24 @@ notes: >-
   зустрічей з українською»».
 i18n:
   en:
-    name: Club "Try just speaking Ukrainian" (library in Voskresenka)
-    location.venue: Library in Voskresenka
+    location.address: 9 Oleksandra Dashkevycha St
+    name: "\"Just Try Speaking Ukrainian\" Club (library in Voskresenka)"
     notes: >-
       Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
       give no meeting times. District inferred from the address, not verified. 2023: "Conversation
-      club '25 Meetings in Ukrainian'."
-    location.address: 9 Oleksandra Dashkevych St
+      club "25 Meetings with Ukrainian"".
+    location.venue: Library in Voskresenka
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у публічній бібліотеці Києва, для тих, хто
-      переходить на українську або хоче її вдосконалити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох переліках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01).
-      Переліки не вказують часу зустрічей. Район визначено за адресою, не перевірено. 2023:
-      "Розмовний клуб '25 зустрічей з українською'."
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023:
+      «Розмовний клуб «25 зустрічей з українською»».
 i18n_src:
+  location.address: 5b0f12b3
   name: c60cfc79
   description: d15e99c9
-  location.venue: 0fca2b6d
   notes: ce5c9cfe
-  location.address: 5b0f12b3
+  location.venue: 0fca2b6d

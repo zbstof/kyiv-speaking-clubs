@@ -24,23 +24,22 @@ notes: >-
   25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says anyone can
   attend the club and the school's events.
 i18n:
-  uk:
-    name: "Deutsch lernen: розмовний клуб з німецької"
-    description: Платна мовна школа в Києві, в якій серед курсів є розмовний клуб з німецької.
-    notes: >-
-      У картці школи на osvita.ua курс зазначено лише як «Розмовний клуб» (картка оновлена
-      25.05.2020). Розклад і формат не вказані. Телефон у картці: (050) 966-30-73. Зазначено, що до
-      клубу й заходів школи може долучитися будь-хто.
-    location.venue: Вивчення німецької
   en:
+    location.address: 44 Metrolohichna St
     notes: >-
       Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
       updated 25.05.2020). No schedule or format given. Phones on card: (050) 966-30-73. Card says
       anyone can attend the club and the school's events.
-    location.address: 44 Metrologichna St
+  uk:
+    name: "Deutsch lernen: розмовний клуб німецької мови"
+    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+    notes: >-
+      Згаданий лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+      25.05.2020). Розклад і формат не вказані. Телефон у картці: (050) 966-30-73. У картці
+      зазначено, що відвідувати клуб і заходи школи можуть усі охочі.
 i18n_src:
+  location.address: 8334fd11
   name: 2586c048
   description: 69ecb131
-  location.venue: 2e3534dd
   notes: ae8b4728
-  location.address: 8334fd11
+  location.venue: 2e3534dd

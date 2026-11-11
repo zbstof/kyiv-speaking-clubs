@@ -32,19 +32,20 @@ notes: >-
   The list gives no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation course "Yedini" — Vcentri HUB Obolonskyi
-    location.venue: Community space Vcentri HUB Obolonskyi
-    description: "\"Yedyni\" conversation course location at Vcentri HUB Obolonskyi."
     location.address: 22-A Obolonskyi Ave
+    name: "\"Yedyni\" conversation course — Vcentri HUB Obolonskyi"
+    description: "\"Yedyni\" conversation course location at Vcentri HUB Obolonskyi."
+    location.venue: Vcentri HUB Obolonskyi community space
   uk:
-    description: Локація курсу розмовної англійської «Єдині» у Vcentri HUB Оболонський.
+    description: Місце проведення розмовного курсу «Єдині» — Vcentri HUB Оболонський.
     notes: >-
-      Зазначено в переліку департаменту культури Києва розмовних клубів і курсів у міських
-      бібліотеках, опублікованому 2023-08-17 (50 записів; КМДА повідомила '50 клубів і курсів'
-      2023-09-20). У списку не вказано часів зустрічей. Район визначено за адресою, не перевірено.
+      Включено до переліку розмовних клубів і курсів української мови в міських бібліотеках від
+      Департаменту культури Києва, опублікованого 2023-08-17 (50 позицій; КМДА повідомила про «50
+      клубів і курсів» 2023-09-20). У переліку не вказано часу зустрічей. Район визначено за
+      адресою, але не перевірено.
 i18n_src:
+  location.address: ed344ca6
   name: 8d201f2e
+  description: 3b8ea3d8
   notes: b4ead5ba
   location.venue: d85c23c9
-  description: 3b8ea3d8
-  location.address: ed344ca6

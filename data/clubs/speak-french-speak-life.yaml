@@ -29,19 +29,17 @@ sources:
   - https://t.me/SFrenchSLife
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
-  uk:
-    name: Говори французькою, живи
   en:
-    description: "French-speaking community: conversation evenings, karaoke in French and other events."
-    schedule_note: Events are announced in the group; recently — on Thursdays at 18:00 in X Lounge.
-    notes: According to the history of the Telegram group of Kyiv clubs (read 10.11.2026).
     location.address: 31 Petra Sahaidachnoho St
-    location.metro: Poshtova Square
+    location.metro: Poshtova Ploshcha
+    description: "A French-speaking community: conversation evenings, karaoke in French and other events."
+    schedule_note: Events are announced in the group; lately, on Thursdays from 18:00 at X Lounge.
+    notes: Based on the Telegram group histories of Kyiv clubs (accessed 10.11.2026).
 i18n_src:
+  location.address: 2ba9f8b7
+  location.metro: "12217794"
   name: 6ebe65df
   description: 75b9af8a
   schedule_note: 35f224e1
   notes: dd841777
   location.venue: 5e4b45a7
-  location.address: 2ba9f8b7
-  location.metro: "12217794"

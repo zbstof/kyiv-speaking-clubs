@@ -72,21 +72,23 @@ i18n:
     schedule_note: >-
       Online, 1 hour, up to 10 people, with native speakers. Dates are announced in the Telegram
       channel once a month. English — Sat 12:00 or 13:00 (14 and 28.11), Polish — Sat 11:00 (28.11),
-      German — Sun 10:00 (25.10). Registration — @osnovy_edu.
-    price.amount: 250 грн (in March–July 2026)
-    contacts.1.note: Registration for clubs
-    location.address: European Union Ave, 41-ye; Rodyny Kristeriv St, 18/6; Vyshhorodska St, 12
+      German — Sun 10:00 (25.10). Sign up — @osnovy_edu.
+    location.address: 41-ye Yevropeiskoho Soiuzu Ave; 18/6 Rodyny Kristeriv St; 12 Vyshhorodska St
+    price.amount: 250 UAH (in March–July 2026)
+    contacts.1.note: sign up for clubs
   uk:
     description: >-
-      Мовна школа в Києві (англійська, німецька, польська, іспанська, португальська), яка надає
-      студентам своїх курсів безкоштовні онлайн-розмовні клуби з носіями мови.
-    notes: Клуб — бонус для платних студентів; розклад не оприлюднено. Не вказано, для яких мов є клуби.
+      Київська мовна школа (англійська, німецька, польська, іспанська, португальська), яка пропонує
+      слухачам своїх курсів безкоштовні онлайн-розмовні клуби з носіями мови.
+    notes: >-
+      Клуб — бонус для студентів, які оплачують навчання; розклад не опубліковано. Не вказано, для
+      яких саме мов є клуби.
 i18n_src:
   name: 14c66871
   description: 6bf6e2e3
   schedule_note: aa3f9f02
   notes: de63a58f
-  price.amount: 8e7fec5c
-  contacts.1.note: bd46fe1a
   location.venue: 099f7067
   location.address: 858c2144
+  price.amount: 8e7fec5c
+  contacts.1.note: bd46fe1a

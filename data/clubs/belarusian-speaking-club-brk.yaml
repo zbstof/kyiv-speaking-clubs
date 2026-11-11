@@ -41,37 +41,37 @@ notes: >-
   Studies, vol. 2, 2018, published 2019-02-15). Dates are the publication date, not club activity
   dates.
 i18n:
-  uk:
-    name: Білоруський розмовний клуб у Києві (Беларускі размоўны клуб, БРК)
-    description: >-
-      Білоруський мовний розмовний клуб у Києві; досліджувався в академічній статті 2019 року як
-      модель організації розмовних клубів; Hromadske Radio висвітлювало його у 2017 році як місце,
-      де можна побачити подібності та відмінності між білорусами й українцями.
-    schedule_note: Що другий вівторок
-    notes: >-
-      Стаття: Staravojtava & Teadarovich, "Беларуская мова як замежная" 2/2018. Також цитовано:
-      матеріал Hromadske Radio 2017-05-04 "Клуб білоруської мови в Києві". Статтю написали Nadzieja
-      Staravojtava і Artsyom Teadarovich (IJBG, опубліковано 2019-02-15). Сторінка Hromadske Radio
-      (2017) тепер повертає 404. Автори статті: Nadzieja Staravojtava, Artsyom Teadarovich
-      (International Journal of Belarusian Studies, vol. 2, 2018, опубліковано 2019-02-15). Дати —
-      це дата публікації, а не дати діяльності клубу.
-    location.venue: >-
-      Антикафе поруч із Києво-Могилянською академією (перший рік: Центр білоруської мови та
-      культури, Інститут філології, KNU)
   en:
-    name: Belarusian Speaking Club in Kyiv (Belaruski razmovny klub, BRK)
+    location.metro: Kontraktova Ploshcha
+    name: Belarusian Speaking Club in Kyiv (Belaruski razmouny klub, BRK)
     notes: >-
       Article: Staravojtava & Teadarovich, "Belarusian as a Foreign Language" 2/2018. Also cited:
-      Hromadske Radio piece 2017-05-04 "Belarusian language club in Kyiv". Article by Nadzieja
+      Hromadske Radio piece 2017-05-04 "Belarusian Language Club in Kyiv". Article by Nadzieja
       Staravojtava and Artsyom Teadarovich (IJBG, published 2019-02-15). Hromadske Radio page (2017)
       now returns 404. Article authors: Nadzieja Staravojtava, Artsyom Teadarovich (International
       Journal of Belarusian Studies, vol. 2, 2018, published 2019-02-15). Dates are the publication
       date, not club activity dates.
-    location.metro: Kontraktova Square
+  uk:
+    name: Білоруський розмовний клуб у Києві (Білоруський розмовний клуб, БРК)
+    description: >-
+      Розмовний клуб білоруської мови в Києві; у науковій статті 2019 року його досліджували як
+      модель організації розмовних клубів; у 2017 році Громадське радіо розповідало про нього як про
+      місце, де можна побачити спільне й відмінне між білорусами та українцями.
+    schedule_note: Раз на два тижні у вівторок
+    notes: >-
+      Стаття: Старавойтава та Теадорович, «Білоруська мова як іноземна», 2/2018. Також згадано:
+      матеріал Громадського радіо від 2017-05-04 «Клуб білоруської мови в Києві». Стаття Надзеї
+      Старавойтавої та Артема Теадоровича (IJBG, опубліковано 2019-02-15). Сторінка Громадського
+      радіо (2017) тепер повертає помилку 404. Автори статті: Надзея Старавойтава, Артем Теадорович
+      (Міжнародний журнал білоруських студій, том 2, 2018, опубліковано 2019-02-15). Дати стосуються
+      публікацій, а не діяльності клубу.
+    location.venue: >-
+      Антикафе поруч із Києво-Могилянською академією (перший рік: Центр білоруської мови та
+      культури, Інститут філології КНУ)
 i18n_src:
+  location.metro: 377d7953
+  name: 8561c778
   description: 7bef814d
   schedule_note: a3fbca29
-  location.venue: 34651f6a
-  name: 8561c778
   notes: 89d5ed35
-  location.metro: 377d7953
+  location.venue: 34651f6a

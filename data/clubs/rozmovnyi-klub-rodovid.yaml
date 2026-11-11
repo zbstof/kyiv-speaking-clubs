@@ -29,22 +29,22 @@ notes: >-
   2023 city list; not in the Dec 2025 library list (which covers libraries only).
 i18n:
   en:
-    name: Conversation club "Rodovid"
-    location.venue: Bookshop "Rodovid"
     location.address: 7/11 Khreshchatyk St
     location.metro: Maidan Nezalezhnosti
+    name: "\"Rodovid\" conversation club"
+    location.venue: "\"Rodovid\" bookshop"
   uk:
     description: Розмовний клуб української мови у книгарні «Родовід».
     notes: >-
-      Зазначено в переліку департаменту культури КМДА «Українські розмовні клуби та курси в міських
-      бібліотеках», опублікованому 2023-08-17 (50 записів; КМДА повідомила '50 клубів і курсів'
-      2023-09-20). Перелік не містить розкладу зустрічей. Район визначено за адресою, не перевірено.
-      Зазначено в міському переліку 2023 року; відсутнє в бібліотечному списку грудня 2025 року
+      Є в переліку розмовних клубів і курсів української мови в міських бібліотеках від Департаменту
+      культури Києва, опублікованому 2023-08-17 (50 позицій; КМДА повідомила про «50 клубів і
+      курсів» 2023-09-20). Час зустрічей у переліку не вказано. Район визначено за адресою, не
+      перевірено. Є в міському переліку за 2023 рік; немає в бібліотечному переліку за Dec 2025
       (який охоплює лише бібліотеки).
 i18n_src:
+  location.address: cd86a47e
+  location.metro: 81a8b171
   name: e6b1e763
   description: 5889829a
   notes: c991e990
   location.venue: 7f483490
-  location.address: cd86a47e
-  location.metro: 81a8b171

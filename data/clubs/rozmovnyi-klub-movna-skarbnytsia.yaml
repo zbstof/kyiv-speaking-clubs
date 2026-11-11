@@ -32,19 +32,19 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation club "Movna Skarbnytsia"
-    location.venue: Pecherska Central District Library
-    location.address: 7 Lesya Ukrainka Boulevard
+    location.address: 7 Lesi Ukrainky Blvd
+    name: "\"Movna skarbnytsia\" speaking club"
+    location.venue: "\"Pecherska\" Central District Library"
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
-      переходять на українську або хочуть її покращити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      списках немає часу проведення зустрічей. Район визначено за адресою, не перевірено.
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено.
 i18n_src:
+  location.address: 2b8d1f74
   name: 78ae104b
   description: d15e99c9
   notes: 35f55f76
   location.venue: 0c10c018
-  location.address: 2b8d1f74

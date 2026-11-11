@@ -29,20 +29,19 @@ sources:
   - https://archive.kyivpost.com/article/guide/about-kyiv/community-listings-7-63476.html
 notes: Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08.
 i18n:
-  uk:
-    name: English Language Center — безкоштовний міжнародний розмовний клуб
-    description: Безкоштовний розмовний клуб з носіями англійської мови, дві локації.
-    schedule_note: Щоп'ятниці о 7 p.m. (2010)
-    notes: Зазначено в Kyiv Post у рубриці "Community listings" на дошці оголошень, 2010-04-08.
-    location.venue: Центр англійської мови
   en:
-    location.address: 76 Irpinska St, office 31; 2B Mykilsko-Slobidska St, office 277
     location.metro: Akademmistechko
+    location.address: 76 Irpinska St, office 31; 2B Mykilsko-Slobidska St, office 277
+  uk:
+    name: Безкоштовний міжнародний розмовний клуб English Language Center
+    description: Безкоштовний розмовний клуб із носіями англійської мови у двох локаціях.
+    schedule_note: Щоп’ятниці о 7 p.m. (2010)
+    notes: Зазначено на дошці оголошень «Оголошення спільноти» в Kyiv Post, 2010-04-08.
 i18n_src:
+  location.metro: cc6835c9
   name: 78a7f94f
   description: "31331753"
   schedule_note: 33f8f0bf
   notes: 0150c68c
   location.venue: 9dba8f14
   location.address: d59729a1
-  location.metro: cc6835c9

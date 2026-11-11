@@ -33,18 +33,18 @@ notes: >-
   primary-school children.
 i18n:
   en:
-    name: Conversation club "Pro tsikave i korysne kalynovoyu zvuchyt" (I. Svitlychnyi Library)
+    location.address: 12 Povitrianykh Syl (kol. Povitroflotskyi) Ave
+    name: Speaking club "Pro tsikave i korysne kalynovoiu zvuchyt" (I. Svitlychnyi Library)
     location.venue: I. Svitlychnyi Children's Library
-    location.address: 12 Air Forces Avenue (formerly Povitroflotskyi)
   uk:
-    description: Безкоштовний розмовний клуб українською для дітей у київській публічній бібліотеці.
+    description: Безкоштовний мовний/розмовний клуб української мови для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. Для дошкільнят
-      та учнів початкової школи.
+      Зазначений в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
+      Час зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. Для
+      дошкільнят і дітей молодшого шкільного віку.
 i18n_src:
+  location.address: 728e0a9b
   name: dd6e0212
   description: 0402dd7e
   notes: a4f40ee9
   location.venue: c42196ba
-  location.address: 728e0a9b

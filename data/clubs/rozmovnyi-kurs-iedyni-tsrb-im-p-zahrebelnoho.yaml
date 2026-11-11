@@ -34,22 +34,22 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation course "Yedini" — Central District Library named after P. Zahrebelnyi
-    location.venue: Central District Library named after P. Zahrebelnyi (Desnianskyi District)
+    location.address: 6 Ronalda Reihana (kol. Teodora Draizera) St
+    name: Conversation course "Yedyni" — P. Zahrebelnyi Central District Library
     description: >-
-      Free Ukrainian conversation course/club of the "Yedini" movement (initiative "Navchay
-      ukrainskoyu") at a Kyiv public library.
-    location.address: 6 Ronald Reagan St (formerly Theodore Dreiser St)
+      Free Ukrainian conversation course/club of the "Yedyni" movement ("Navchai ukrainskoiu"
+      initiative) at a Kyiv public library.
+    location.venue: P. Zahrebelnyi Central District Library (Desnianskyi District)
   uk:
     description: >-
-      Безкоштовний курс/розмовний клуб української мови руху «Єдині» (ініціатива «Навчай
-      українською») у київській публічній бібліотеці.
+      Безкоштовний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+      українською») у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 та 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено.
+      Зазначено в обох переліках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      переліках не вказано часу зустрічей. Район визначено за адресою, але не перевірено.
 i18n_src:
+  location.address: 0774b36c
   name: 360367be
+  description: 519a53f7
   notes: 35f55f76
   location.venue: b171f17e
-  description: 519a53f7
-  location.address: 0774b36c

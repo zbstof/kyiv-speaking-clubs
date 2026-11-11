@@ -29,21 +29,21 @@ notes: >-
   (not municipal) library; not in the Dec 2025 municipal list.
 i18n:
   en:
-    name: Conversation club "Let's Speak Ukrainian" (State Library of Ukraine for Youth)
+    location.address: 122 Holosiivskyi Ave
+    name: "\"Hovorymo ukrainskoiu\" conversation club (State Library of Ukraine for Youth)"
     location.venue: State Library of Ukraine for Youth
-    location.address: 122 Holosiivskyi Avenue
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у київській публічній бібліотеці для людей, які
-      переходять на українську або прагнуть її вдосконалити.
+      Безкоштовний розмовний клуб української мови при публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Згадується лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; відсутній у
-      переліку від 2025-12-01. У списках не вказано часів зустрічей. Район визначено за адресою, не
-      перевірено. Це державна (не муніципальна) бібліотека; не входить у муніципальний перелік Dec
-      2025.
+      Згаданий лише в переліку бібліотек Департаменту культури Києва від 2023-08-17; у переліку від
+      2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою, але не
+      перевірено. Бібліотека державна, а не комунальна; у переліку комунальних бібліотек за грудень
+      2025 року її немає.
 i18n_src:
+  location.address: bd51e992
   name: 7d44dc51
   description: d15e99c9
   notes: 313ef848
   location.venue: 540dc92f
-  location.address: bd51e992

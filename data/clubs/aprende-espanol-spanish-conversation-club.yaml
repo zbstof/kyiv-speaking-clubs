@@ -21,13 +21,11 @@ notes: >-
   08.12.2017). No schedule or format given. Phones on card: (099) 402-13-94.
 i18n:
   uk:
-    name: "Aprende Español: розмовний клуб іспанської мови"
-    description: Платна мовна школа в Києві, яка у переліку курсів має розмовний клуб іспанської мови.
+    name: "Aprende Español: розмовний клуб іспанської"
+    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб іспанської.
     notes: >-
-      У картці навчального закладу на osvita.ua у переліку курсів зазначено лише "Розмовний клуб"
-      (картка оновлена 08.12.2017). Розклад та формат не вказано. Телефони в картці: (099)
-      402-13-94.
-    location.venue: Вивчай іспанську
+      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+      08.12.2017). Розклад і формат не вказані. Телефони в картці: (099) 402-13-94.
   en:
     notes: >-
       Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
@@ -36,6 +34,6 @@ i18n:
 i18n_src:
   name: 6a3ef6a5
   description: 579e5f8f
-  location.venue: "57357882"
   notes: be494099
+  location.venue: "57357882"
   location.address: b128c488

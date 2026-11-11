@@ -29,22 +29,23 @@ sources:
   - https://dou.ua/calendar/36262/
   - https://dou.ua/calendar/36469/
 i18n:
+  en:
+    location.address: 6-Z Vatslava Havela Blvd
+    location.venue: InnoHub (Innovecs office)
+    location.note: 13th floor
+    price.amount: from 50 UAH (charity donation)
   uk:
-    name: Lean Coffee Speaking Club для IT-фахівців (Innovecs & Happy Paw)
+    name: Lean Coffee Speaking Club для ІТ-фахівців (Innovecs & Happy Paw)
     description: >-
-      Щотижневий розмовний клуб англійською для IT-фахівців в InnoHub; внесок йде до благодійної
-      організації для тварин Happy Paw.
+      Щотижневий англійський розмовний клуб для ІТ-фахівців в InnoHub; внески йдуть на допомогу
+      тваринам через благодійний фонд Happy Paw.
     schedule_note: Щопонеділка 19:30
     price.amount: від 50 грн (благодійний внесок)
-  en:
-    location.note: 13th floor
-    location.venue: InnoHub (Innovecs office)
-    location.address: 6-z Vaclav Havel Blvd
 i18n_src:
+  location.address: "81099309"
   name: 7a4ae4f8
   description: 934bf29b
   schedule_note: 1a955bf3
-  location.note: 8a63cb1a
   location.venue: 2b30fa20
-  location.address: "81099309"
+  location.note: 8a63cb1a
   price.amount: 0e6316c2

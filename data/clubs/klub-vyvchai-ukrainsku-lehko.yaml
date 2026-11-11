@@ -25,19 +25,19 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Club "Learn Ukrainian Easily"
-    location.venue: Makhtumkuli Library
     location.address: 6 Zodchykh St
+    name: "\"Vyvchai ukrainsku lehko\" Club"
+    location.venue: Magtymguly Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у публічній бібліотеці в Києві для людей, які
-      переходять на українську або вдосконалюють її.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено у списку бібліотек департаменту культури Києва станом на 2025-12-01. У списках не
-      вказано часів зустрічей. Район визначено за адресою, не перевірено.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано час зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: bd647825
   name: 8f8dbb34
   description: d15e99c9
   notes: "80762585"
   location.venue: f7272a08
-  location.address: bd647825

@@ -60,38 +60,42 @@ notes: >-
   заміну виник клуб «In Conversation With». З вересня 2026 середи знову проходять онлайн у Zoom.
 i18n:
   uk:
-    name: America House Kyiv — Wednesday English (Спілкування з американцями / Англійська з Charlie)
     description: >-
       Щотижневий безкоштовний розмовний клуб англійської в America House Kyiv: практикуйте
-      англійську з американцями та командою AHK, обговорюйте життя в США. У 2024–2025 роках ведучий
-      — English Language Resident Charlie.
+      англійську з американцями та командою AHK, обговорюйте життя в Америці. У 2024–2025 клуб вів
+      резидент програми англійської мови Чарлі.
+    schedule_note: >-
+      Щосереди 19:00–20:30, онлайн у Zoom. Реєстрація через форму на сторінці події до 12:00 того ж
+      дня, посилання на Zoom надходить на пошту в день зустрічі. Ведучий — Чарлі, з 11.11.2026 —
+      Патріс.
     notes: >-
-      Реєстрація через Google Form, при вході потрібен документ, що засвідчує особу. Назви з часом:
-      "Wednesday English @America House" (WE@AH, 2016–2018), "Conversation Club" (2022–весна 2023),
-      "Wednesday English: Chat with Americans" (2023–2024), "Wednesday English with Charlie"
-      (2024–2026). Сесії зафіксовано щотижня вересень–листопад 2026. AHK також проводив American Lit
-      Club, American Studies Club і читальний клуб "Between the Lines", а також приймав 2016-05-28
-      захід розмовного клубу "largest English lesson in the world". У лютому 2025 America House у
-      Києві закрився, і зустрічі наживо, зокрема розмовний клуб, припинилися; замість нього виник
-      клуб "In Conversation With". З вересня 2026 середи знову проходять онлайн у Zoom.
+      Реєстрація через Google Форму, на вході потрібен документ, що посвідчує особу. Назви в різні
+      періоди: «Wednesday English @America House» (WE@AH, 2016–2018), «Conversation Club»
+      (2022–spring 2023), «Wednesday English: Chat with Americans» (2023–2024), «Wednesday English
+      with Charlie» (2024–2026). Зафіксовано щотижневі зустрічі протягом Sep–Nov 2026. AHK також
+      проводив American Lit Club, American Studies Club і книжковий клуб «Between the Lines», а
+      2016-05-28 організував захід розмовного клубу «найбільший урок англійської у світі». У лютому
+      2025 America House у Києві закрився, і зустрічі наживо, зокрема розмовний клуб, припинилися;
+      натомість виник клуб «In Conversation With». З вересня 2026 зустрічі щосереди знову проходять
+      онлайн у Zoom.
   en:
     schedule_note: >-
-      Wednesdays 19:00–20:30, online on Zoom. Registration via the form on the event page by 12:00
-      the same day; the Zoom link is sent by email on the day of the meeting. Host — Charlie; from
-      11.11.2026 — Patrice.
-    location.venue: Zoom (organizer — America House Kyiv)
+      Every Wednesday 19:00–20:30, online via Zoom. Register using the form on the event page by
+      12:00 the same day; the Zoom link is emailed on the day of the meeting. Hosted by Charlie, and
+      from 11.11.2026 by Patrice.
     notes: >-
       Registration via Google Form, ID needed at entry. Names over time: "Wednesday English @America
       House" (WE@AH, 2016–2018), "Conversation Club" (2022–spring 2023), "Wednesday English: Chat
       with Americans" (2023–2024), "Wednesday English with Charlie" (2024–2026). Sessions seen
       weekly Sep–Nov 2026. AHK also ran an American Lit Club, American Studies Club and "Between the
       Lines" book club, and hosted the 2016-05-28 "largest English lesson in the world"
-      conversation-club event. In February 2025 America House in Kyiv closed, and in-person
-      meetings, including the conversation club, stopped; in its place the club "In Conversation
-      With" emerged. Since September 2026 Wednesdays are again held online on Zoom.
+      conversation-club event. In February 2025, America House in Kyiv closed, and in-person
+      meetings, including the conversation club, stopped; the "In Conversation With" club emerged as
+      a replacement. Since September 2026, Wednesday sessions have been held online via Zoom again.
+    location.venue: Zoom (organizer — America House Kyiv)
 i18n_src:
   name: 64bd8695
   description: e821dd26
   schedule_note: 12d12476
-  location.venue: 8c98db3d
   notes: f157fa52
+  location.venue: 8c98db3d

@@ -26,26 +26,24 @@ notes: >-
   displaced children and parents, with volunteers of the humanitarian aid centre «Наш Краматорськ».
 i18n:
   en:
-    name: >-
-      Conversation club for children and parents who are internally displaced persons (IDPs), "Nash
-      Kramatorsk"
-    location.venue: Hnat Kvitka-Osnovianenko Library
+    location.address: 1-V Zavalna St
+    name: "\"Nash Kramatorsk\" speaking club for internally displaced children and parents"
     notes: >-
-      Listed only in the Kyiv Culture Department library list of 2023-08-17; missing from the
+      Listed only in the 2023-08-17 Kyiv culture-department library list; missing from the
       2025-12-01 list. The lists give no meeting times. District inferred from the address, not
       verified. For displaced children and parents, with volunteers of the humanitarian aid centre
       "Nash Kramatorsk".
-    location.address: 1-v Zavalna St
+    location.venue: H. Kvitka-Osnovianenko Library
   uk:
     description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено лише в списку бібліотек Департаменту культури Києва від 2023-08-17; відсутнє в
-      списку від 2025-12-01. У списках не вказано часу зустрічей. Район визначено за адресою, не
-      перевірено. Для внутрішньо переміщених дітей та батьків, за участі волонтерів гуманітарного
-      центру «Наш Краматорськ».
+      Зазначений лише в переліку бібліотек департаменту культури Києва від 2023-08-17; у переліку
+      від 2025-12-01 відсутній. Час зустрічей у переліках не вказано. Район визначено за адресою,
+      але не перевірено. Для дітей і батьків із числа ВПО, за участю волонтерів центру гуманітарної
+      допомоги «Наш Краматорськ».
 i18n_src:
+  location.address: 8ad8d908
   name: c5641831
   description: 0402dd7e
-  location.venue: e4a263e0
   notes: 777dd9c9
-  location.address: 8ad8d908
+  location.venue: e4a263e0

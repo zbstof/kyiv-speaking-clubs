@@ -32,19 +32,19 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Ukrainian speaking club "Slovo do slova"
-    location.venue: I. Kotliarevsky Library
     location.address: 4 Berlinskoho St
+    name: Ukrainian conversation club "Slovo do slova"
+    location.venue: I. Kotliarevskyi Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у київській публічній бібліотеці, для людей, які
-      переходять на українську або хочуть її покращити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох списках департаменту культури Києва (2023-08-17 та 2025-12-01). У списках
-      немає розкладу зустрічей. Район визначено за адресою, не підтверджено.
+      Зазначений в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
+      списках не вказано час зустрічей. Район визначено за адресою, але не перевірено.
 i18n_src:
+  location.address: 74535bac
   name: 3885dc84
   description: d15e99c9
   notes: 35f55f76
   location.venue: 7c5f9b1b
-  location.address: 74535bac

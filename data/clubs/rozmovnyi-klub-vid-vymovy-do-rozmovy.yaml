@@ -32,17 +32,19 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation club "From Pronunciation to Conversation"
+    location.address: 1-A Artyleriiskyi Ln
+    name: Speaking club "Vid vymovy do rozmovy"
     location.venue: A. Kostetskyi Children's Library
-    location.address: 1-a Artileriyskyi Lane
   uk:
-    description: Безкоштовний український мовний/розмовний клуб для дітей у київській публічній бібліотеці.
+    description: >-
+      Безкоштовний клуб української мови та розмовної практики для дітей у публічній бібліотеці
+      Києва.
     notes: >-
-      Зазначено у списках бібліотек управління культури Києва (2023-08-17 і 2025-12-01). У списках
-      не вказано часу зустрічей. Район визначено за адресою, не підтверджено.
+      Зазначений в обох переліках бібліотек київського департаменту культури (2023-08-17 та
+      2025-12-01). Час зустрічей у переліках не вказано. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: ac93ec71
   name: deb4f549
   description: 0402dd7e
   notes: 35f55f76
   location.venue: 4e53232b
-  location.address: ac93ec71

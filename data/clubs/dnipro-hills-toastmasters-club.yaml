@@ -59,37 +59,37 @@ notes: >-
   Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193 Meetup members.
   Upcoming events listed to Sun Dec 6 (2026). У 2023 — онлайн/гібрид/наживо у Vrebro.
 i18n:
-  uk:
-    description: >-
-      Англомовний клуб публічних виступів і лідерства, частина Toastmasters International;
-      заснований August 2002.
-    notes: >-
-      Зареєстровано 2002-08 (Meetup: засновано в серпні 2002). Meetup: 1,193 учасників, 387 минулих
-      подій, наступні неділі Nov 15 – Dec 6 2026. Також у списках спільноти Kyiv Post 2010-04-08.
-      1193 учасників Meetup. Наступні події зазначені до Sun Dec 6 (2026). У 2023 —
-      онлайн/гібрид/наживо у Vrebro.
   en:
+    location.address: 31 Petra Sahaidachnoho St
+    location.metro: Poshtova Ploshcha
     schedule_note: >-
-      Every Sunday at 12:00–14:00, followed by informal socialising. Usually in person at the
-      X-Lounge restaurant; according to the club, about once a month the meeting is online or hybrid
-      (Zoom). Free for guests; the club asks that guests order a drink or food at the restaurant.
-    price.amount: "Free for guests; membership: $25 joining fee + $72 and $15 club fees for 6 months."
-    contacts.3.note: Invitation from the organizer
-    location.venue: X-Lounge (formerly TIKE)
+      Every Sunday at 12:00–14:00, followed by informal socializing. Usually in person at X-Lounge
+      restaurant; according to the club, about once a month the meeting is online or hybrid (Zoom).
+      Free for guests; the club asks attendees to order a drink or food at the restaurant.
     notes: >-
       Chartered 2002-08 (Meetup: founded August 2002). Meetup: 1,193 members, 387 past events,
       upcoming Sundays Nov 15 – Dec 6 2026. Also in Kyiv Post community listings 2010-04-08. 1193
-      Meetup members. Upcoming events listed to Sun Dec 6 (2026). In 2023 — online/hybrid/in-person
+      Meetup members. Upcoming events listed to Sun Dec 6 (2026). In 2023 — online/hybrid/in person
       at Vrebro.
-    location.address: 31 Petra Sahaidachnoho St
-    location.metro: Poshtova Square
+    location.venue: X-Lounge (formerly TIKE)
+    price.amount: "free for guests; membership: $25 joining fee + $72 and a $15 club fee per 6 months."
+    contacts.3.note: Invitation available from the organizer
+  uk:
+    description: >-
+      Англомовний клуб ораторського мистецтва та лідерства, що входить до Toastmasters
+      International; дата заснування — August 2002.
+    notes: >-
+      Офіційно зареєстровано 2002-08 (Meetup: дата заснування — August 2002). Meetup: 1,193
+      учасники, 387 минулих подій, майбутні зустрічі щонеділі Nov 15 – Dec 6 2026. Також у переліку
+      спільнот Kyiv Post від 2010-04-08. 1193 учасники Meetup. Майбутні події вказані до неділі Dec
+      6 (2026). У 2023 — онлайн/гібрид/наживо у Vrebro.
 i18n_src:
-  description: 4ec6bb19
-  schedule_note: 63b1f2cf
-  price.amount: 1425aebc
-  contacts.3.note: b666f239
-  name: acff3d3b
-  location.venue: 52eef4c5
-  notes: bf88a8a4
   location.address: 2ba9f8b7
   location.metro: "12217794"
+  name: acff3d3b
+  description: 4ec6bb19
+  schedule_note: 63b1f2cf
+  notes: bf88a8a4
+  location.venue: 52eef4c5
+  price.amount: 1425aebc
+  contacts.3.note: b666f239

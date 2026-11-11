@@ -28,26 +28,26 @@ notes: >-
   KNU has had a Crimean Tatar language and literature programme since 2014 (courses, not clubs).
 i18n:
   en:
-    name: Sunday school of Crimean Tatar language of NGO "Alem" / children's studio "Fidan"
-    location.venue: Taurida National V. I. Vernadsky University (in Kyiv)
+    name: Crimean Tatar language Sunday school run by the NGO "Alem" / children's studio "Fidan"
     description: >-
-      Sunday school in Kyiv for children to learn the Crimean Tatar language, history and culture
+      Sunday school in Kyiv for children to learn Crimean Tatar language, history and culture
       (studio "Fidan"); interactive lessons and excursions. Closest Crimean Tatar language-practice
       group found in Kyiv; not a speaking club for adults.
+    location.venue: V. I. Vernadsky Taurida National University (in Kyiv)
   uk:
     description: >-
-      Неді́льна школа в Києві для дітей з вивчення кримськотатарської мови, історії й культури
-      (студія «Фідан»); інтерактивні уроки та екскурсії. Найближча група для практики
-      кримськотатарської мови в Києві; не є розмовним клубом для дорослих.
-    schedule_note: Щонеділі; новий навчальний рік відкрився Oct 2019.
+      Недільна школа в Києві, де діти вивчають кримськотатарську мову, історію та культуру (студія
+      «Фідан»); інтерактивні заняття та екскурсії. Найближчий знайдений у Києві варіант групи для
+      практики кримськотатарської мови; не розмовний клуб для дорослих.
+    schedule_note: Щонеділі; початок нового навчального року — Oct 2019.
     notes: >-
-      Кодовий позначник мови crh = кримськотатарська (ISO 639-3; немає коду ISO 639-1). Не знайдено
-      розмовного клубу кримськотатарської мови для дорослих у Києві. Супутнє: NaUKMA пропонує
-      кримськотатарську як вибірну дисципліну з 2025/26; KNU має програму кримськотатарської мови та
-      літератури з 2014 року (курси, не клуби).
+      Код мови crh = кримськотатарська (ISO 639-3; коду ISO 639-1 немає). Розмовного клубу
+      кримськотатарської мови для дорослих у Києві не знайдено. Також: НаУКМА пропонує
+      кримськотатарську як вибіркову дисципліну з 2025/26; у КНУ з 2014 є освітня програма з
+      кримськотатарської мови та літератури (навчальні курси, не клуби).
 i18n_src:
   name: a2e02418
+  description: 3fd1609b
   schedule_note: "46311992"
   notes: ee862468
   location.venue: 33fedcfc
-  description: 3fd1609b

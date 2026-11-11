@@ -48,28 +48,29 @@ sources:
   - https://dou.ua/calendar/53703/
 notes: "Level: Intermediate+ (2017), B1+/B2 (2025)."
 i18n:
-  uk:
-    name: Career English IT-клуб / Розмовний клуб англійської для техспільноти
-    description: >-
-      Розмовний клуб Career English School для IT-фахівців. Офлайн "IT English Meetup" у Києві в
-      2017 році з носієм мови як ведучим; з 2024 року — онлайн-клуб у сезонах по чотири щотижневі
-      сесії.
-    schedule_note: >-
-      2017: субота, 11:00 — зустрічі в офісі; 2024–2025: вівторки, 18:00 за київським часом —
-      онлайн, 1 година
-    notes: "Рівень: Intermediate+ (2017), B1+/B2 (2025)."
-    price.amount: 150 грн (2017); 370 грн (2024); 270 грн за заняття (2025)
   en:
-    location.note: Office 405
     location.address: 7A Sobornosti Ave
     location.metro: Livoberezhna
+    location.note: Office 405
+    price.amount: 150 UAH (2017); 370 UAH (2024); 270 UAH per session (2025)
+  uk:
+    name: Career English IT club / Розмовний клуб англійської для ІТ-спільноти
+    description: >-
+      Розмовний клуб школи Career English для ІТ-фахівців. У 2017 році — офлайн-зустрічі «IT English
+      Meetup» у Києві з ведучим — носієм мови; з 2024 року — онлайн-клуб із сезонами по чотири
+      щотижневі заняття.
+    schedule_note: >-
+      2017: зустрічі в офісі щосуботи об 11:00; 2024–2025: онлайн щовівторка о 18:00 за київським
+      часом, 1 година
+    notes: "Рівень: середній і вище (2017), B1+/B2 (2025)."
+    price.amount: 150 грн (2017); 370 грн (2024); 270 грн за заняття (2025)
 i18n_src:
+  location.address: 5f8ca02d
+  location.metro: a7ee73f8
   name: 0803586d
   description: 609af435
   schedule_note: "270968e6"
   notes: 02a8db83
-  location.note: 5c6db1d8
   location.venue: e20b78d1
-  location.address: 5f8ca02d
-  location.metro: a7ee73f8
+  location.note: 5c6db1d8
   price.amount: b084470c

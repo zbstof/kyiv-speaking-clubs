@@ -30,22 +30,24 @@ notes: >-
   гурток «Розмовляю українською»».
 i18n:
   en:
-    name: Language club "Speak Ukrainian"
+    location.address: 28 Onore De Balzaka St
+    name: Linguistics club "Rozmovliai ukrainskoiu"
+    notes: >-
+      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. In 2023 listed as
+      "Linguistics study group "Rozmovliaiu ukrainskoiu"".
     location.venue: Children's Library No. 115
-    notes: >-
-      Listed in both Kyiv culture department library lists (2023-08-17 and 2025-12-01). The lists
-      give no meeting times. District inferred from the address, not verified. In 2023 listed as the
-      linguistic circle called "I Speak Ukrainian".
-    location.address: 28 Honore de Balzac St
   uk:
-    description: Безкоштовний розмовний клуб української мови для дітей у публічній бібліотеці в Києві.
+    description: >-
+      Безкоштовний клуб вивчення української мови та спілкування для дітей у публічній бібліотеці
+      Києва.
     notes: >-
-      Згадується в обох списках бібліотек міського управління культури Києва (2023-08-17 і
-      2025-12-01). У списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. У
-      2023 році вказано «Мовознавчий гурток «Розмовляю українською»».
+      Зазначено в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
+      Час зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. У 2023
+      році зазначено як «Мовознавчий гурток «Розмовляю українською»».
 i18n_src:
+  location.address: 60c39b76
   name: 5ab416e9
   description: 0402dd7e
-  location.venue: 43a05ee6
   notes: 4425b99c
-  location.address: 60c39b76
+  location.venue: 43a05ee6

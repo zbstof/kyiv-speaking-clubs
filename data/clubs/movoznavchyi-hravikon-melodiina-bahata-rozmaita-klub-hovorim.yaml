@@ -32,24 +32,25 @@ notes: >-
   українською» club moderated by Olha Maksymenko also meets here.
 i18n:
   en:
+    location.address: 4A Shumskoho St
     name: >-
-      Linguistic Hravikon "Melodious, rich, diverse" / club "Let's Speak Ukrainian" (I. Serhiienko
-      Library)
-    location.venue: I. Serhiienko Children's Library
+      Linguistic game event "Melodiina, bahata, rozmaita" / "Hovorimo ukrainskoiu" club (I.
+      Serhiienko Library)
     notes: >-
       Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
-      times. District inferred from the address, not verified. A Sept 2023 paper says the "Hovorymo
-      ukrayins'koyu" club moderated by Olha Maksymenko also meets here.
-    location.address: 4a Shumskoho St
+      times. District inferred from the address, not verified. A Sept 2023 paper says the "Hovorimo
+      ukrainskoiu" club moderated by Olha Maksymenko also meets here.
+    location.venue: I. Serhiienko Children's Library
   uk:
-    description: Безкоштовний розмовний клуб української мови для дітей у київській публічній бібліотеці.
+    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в переліку бібліотек управління культури м. Києва станом на 2025-12-01. У списках не
-      вказано часів зустрічей. Район визначено за адресою, не перевірено. У статті за Sept 2023
-      зазначено, що клуб «Говорімо українською», модераторка Ольга Максименко, також тут збирається.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано часу зустрічей. Район визначено за адресою, але не перевірено. У публікації за Sept
+      2023 зазначено, що клуб «Говорімо українською», який модерує Ольга Максименко, також
+      збирається тут.
 i18n_src:
+  location.address: d72706e4
   name: fe838a0f
   description: 0402dd7e
-  location.venue: 1e5e1b19
   notes: b5d6013f
-  location.address: d72706e4
+  location.venue: 1e5e1b19

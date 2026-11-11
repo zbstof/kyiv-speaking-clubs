@@ -34,23 +34,24 @@ sources:
   - https://dou.ua/calendar/12653/
 notes: Game format rather than a classic speaking club.
 i18n:
-  uk:
-    name: English Mafia з International Mafia Club
-    description: Щотижня вечори ігор Mafia англійською.
-    schedule_note: Щонеділі 18:00–23:00 (2016)
-    notes: Формат гри, а не класичного розмовного клубу.
-    location.venue: Поруч із супермаркетом FORA; також школа "Petit Paris" біля Мінської
-    price.amount: 30 грн за гру або 70 грн за вечір
   en:
-    location.venue: Near FORA supermarket; also "Petit Paris" school near Minska
     location.address: 19 Tymoshenka St
     location.metro: Minska
+    location.venue: Near FORA supermarket; also at "Petit Paris" school near Minska
+    price.amount: 30 UAH per game or 70 UAH per evening
+  uk:
+    name: «Мафія» англійською з International Mafia Club
+    description: Щотижневі вечори гри в «Мафію» англійською.
+    schedule_note: Щонеділі 18:00–23:00 (2016)
+    notes: Ігровий формат, а не класичний розмовний клуб.
+    location.venue: Біля супермаркету «Фора»; також у школі «Petit Paris» біля «Мінської»
+    price.amount: 30 грн за гру або 70 грн за вечір
 i18n_src:
+  location.address: d0503401
+  location.metro: 4ed22f78
   name: 2dc12f67
   description: 87cd77d0
   schedule_note: 4a98943f
   notes: 880ea264
   location.venue: 65d1a9e8
-  location.address: d0503401
-  location.metro: 4ed22f78
   price.amount: e6282a60

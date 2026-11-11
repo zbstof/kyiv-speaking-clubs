@@ -26,20 +26,20 @@ notes: >-
   and improving Ukrainian.
 i18n:
   en:
-    name: Creative Studio "Svitanok" (public speaking and Ukrainian language improvement)
-    location.venue: Ethnographic library
     location.address: 15/1 Svobody Ave
+    name: Creative studio "Svitanok" (public speaking and improving Ukrainian)
+    location.venue: Ethno Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб українською у публічній бібліотеці Києва для людей, які переходять
-      на українську або вдосконалюють її.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У списках не
-      вказані часи зустрічей. Район визначено за адресою, не перевірено. Студія ораторського
-      мистецтва, сценічної мови та вдосконалення української.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано часу зустрічей. Район визначено за адресою, не перевірено. Студія ораторського
+      мистецтва, сценічного мовлення та вдосконалення української мови.
 i18n_src:
+  location.address: f8ee459e
   name: d346dcb1
   description: d15e99c9
   notes: b9b6a817
   location.venue: 27d342f1
-  location.address: f8ee459e

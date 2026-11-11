@@ -23,12 +23,13 @@ sources:
 notes: Mainly for enrolled students (not verified whether open to public).
 i18n:
   uk:
-    name: Speak Up щотижневі розмовні клуби
+    name: Щотижневі розмовні клуби Speak Up
     description: >-
-      Мережа шкіл Speak Up (близько 11 філій у Києві) перелічує щотижневі розмовні клуби з носієм
-      мови.
+      Мережа шкіл англійської мови Speak Up (близько 11 філій у Києві) пропонує щотижневі розмовні
+      клуби з носієм мови.
     schedule_note: Щотижня
-    notes: Переважно для зареєстрованих студентів (не підтверджено, чи відкрито для загалу).
+    notes: Переважно для учнів школи (чи відкриті для всіх охочих — не перевірено).
+    location.venue: Філії Speak Up, наприклад, бульв. Лесі Українки, 26
   en:
     location.venue: Speak Up branches, e.g. 26 Lesi Ukrainky Blvd
 i18n_src:

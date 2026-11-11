@@ -41,26 +41,28 @@ sources:
   - https://dou.ua/calendar/18747/
 notes: Game format rather than a classic speaking club.
 i18n:
-  uk:
-    name: Англомовна спільнота — Mafia англійською / Alias англійською
-    description: >-
-      Соціальні ігрові вечори тільки англійською (Mafia, Alias) для практики розмовної англійської;
-      носії мови грають безкоштовно.
-    schedule_note: >-
-      Mafia англійською: п'ятниці з 19:00 «до останнього вижившого» (2016); Alias англійською: вт
-      2017-11-14 19:00–22:30
-    notes: Формат гри, а не класичний розмовний клуб.
-    price.amount: 20–30 грн за гру, 50–70 грн за вечір; Alias 50 грн + плата за приміщення
   en:
+    location.metro: Klovska
     location.venue: L'Kafa Cafe (Mafia); Tsyferblat (Alias)
     location.address: 2 Lesi Ukrainky Blvd (L'Kafa); 49A Volodymyrska St (Tsyferblat)
-    location.metro: Klovska
+    price.amount: 20–30 UAH per game, 50–70 UAH per evening; Alias 50 UAH + venue fee
+  uk:
+    name: Спільнота In English — Mafia In English / Alias In English
+    description: >-
+      Вечори ігор («Мафія», Alias) лише англійською для розмовної практики; носії мови грають
+      безкоштовно.
+    schedule_note: >-
+      Mafia In English: щоп’ятниці з 19:00 «до останнього вцілілого» (2016); Alias In English: вт
+      2017-11-14 19:00–22:30
+    notes: Ігровий формат, а не класичний розмовний клуб.
+    location.venue: L'Kafa Cafe («Мафія»); Циферблат (Alias)
+    price.amount: 20–30 грн за гру, 50–70 грн за вечір; Alias — 50 грн + плата за перебування в закладі
 i18n_src:
+  location.metro: d36a1d0b
   name: fa644492
   description: b5a35e88
   schedule_note: 93ec1a91
   notes: 880ea264
   location.venue: 143b80c7
   location.address: f74b7b9e
-  location.metro: d36a1d0b
   price.amount: 6471c055

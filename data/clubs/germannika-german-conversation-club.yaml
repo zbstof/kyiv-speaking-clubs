@@ -25,18 +25,18 @@ notes: >-
 i18n:
   uk:
     name: "Germannika: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, яка в переліку курсів має розмовний клуб з німецької мови.
+    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
     notes: >-
-      Зазначено тільки як курс 'Розмовний клуб' у картці школи на osvita.ua (картка оновлена
-      28.01.2025). Розклад та формат не вказані. Телефони на картці: (099) 493-65-70.
+      Зазначений лише як курс «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+      28.01.2025). Розклад і формат не вказані. Телефони в картці: (099) 493-65-70.
   en:
     notes: >-
-      Listed only as a course item "Conversation Club" in the school's osvita.ua catalog card (card
+      Listed only as a course item "Speaking club" in the school's osvita.ua catalog card (card
       updated 28.01.2025). No schedule or format given. Phones on card: (099) 493-65-70.
-    location.address: 16 Mykola Bazhan Ave, office 229
+    location.address: 16 Mykoly Bazhana Ave, office 229
 i18n_src:
   name: c0ac3f83
   description: 69ecb131
-  location.venue: bfbee696
   notes: 9fc3aa83
+  location.venue: bfbee696
   location.address: 841e384d

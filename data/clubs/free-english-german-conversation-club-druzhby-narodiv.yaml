@@ -28,20 +28,20 @@ notes: >-
   Phone in source: 529-75-77 (Kyiv landline). Listed in Kyiv Post 'Community listings' bulletin
   board, 2010-04-08.
 i18n:
+  en:
+    location.metro: Zvirynetska
+    location.address: 18/7 Druzhby Narodiv Blvd, office 3
   uk:
-    name: Безкоштовний розмовний клуб англійської/німецької (Дружби Народів)
-    description: Безкоштовний розмовний клуб англійської та німецької, відкритий для всіх.
+    name: Безкоштовний розмовний клуб англійської та німецької мов (Дружби Народів)
+    description: Безкоштовний розмовний клуб англійської та німецької мов, відкритий для всіх.
     schedule_note: Щонеділі (2010)
     notes: >-
-      Телефон у джерелі: 529-75-77 (київський міський). Зазначено в рубриці "Community listings"
-      газети Kyiv Post, 2010-04-08.
-  en:
-    location.address: 18/7 Druzhby Narodiv Blvd, office 3
-    location.metro: Druzhby Narodiv
+      Телефон у джерелі: 529-75-77 (київський стаціонарний). Зазначено на дошці оголошень «Community
+      listings» у Kyiv Post, 2010-04-08.
 i18n_src:
+  location.metro: b53c80ce
   name: 4ab194ed
   description: d146a255
   schedule_note: c618029c
   notes: 99880a7f
   location.address: 2f901787
-  location.metro: b53c80ce

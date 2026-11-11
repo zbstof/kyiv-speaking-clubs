@@ -28,14 +28,16 @@ sources:
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
   en:
-    description: English discussion groups and events with native speakers.
-    schedule_note: Tuesday 18:45 (evening topic — in the channel). There are other programs and events.
-    notes: About the history of Telegram groups of Kyiv clubs (read 10.11.2026).
     location.metro: Lukianivska
+    description: English-language discussion groups and events with native speakers.
+    schedule_note: >-
+      Tuesday 18:45 (the evening’s topic is in the channel). Other programs and events are also
+      held.
+    notes: Based on the message history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
 i18n_src:
+  location.metro: 3010b2a8
+  name: 492788d3
   description: 1c3663cf
   schedule_note: 7496307d
   notes: dd841777
-  name: 492788d3
   location.venue: 3f5d4f76
-  location.metro: 3010b2a8

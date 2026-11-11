@@ -35,28 +35,27 @@ notes: >-
   poet and volunteer Olena Tatianchenko. Dec 2025 list: «Зустріч з українською».
 i18n:
   en:
-    name: Club "Meeting with Ukrainian" / "Ukrainian Gatherings" (P. Tychyna Central District Library)
-    location.venue: P. Tychyna Central District Library
+    location.address: 24 Mytropolyta Andreia Sheptytskoho St
+    name: "\"Zustrich z ukrainskoiu\" / \"Ukrainski posydenky\" club (P. Tychyna Central District Library)"
     notes: >-
       Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
       give no meeting times. District inferred from the address, not verified. 2023 list: "Ukrainian
-      language conversation club". A Sept 2023 conference paper names the club "Ukrainski
-      Posydenky", founded by poet and volunteer Olena Tatianchenko. Dec 2025 list: "Meeting with
-      Ukrainian".
-    location.address: 24 Metropolitan Andrey Sheptytsky St
+      conversation club". A Sept 2023 conference paper names the club "Ukrainski posydenky", founded
+      by poet and volunteer Olena Tatianchenko. Dec 2025 list: "Zustrich z ukrainskoiu".
+    location.venue: P. Tychyna Central District Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для людей, які
-      переходять на українську або вдосконалюють її.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Перераховано в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. Список 2023
-      року: «Розмовний клуб української мови». У доповіді конференції Sept 2023 клуб названо
-      «Українські посиденьки», заснований поетесою і волонтеркою Olena Tatianchenko. Список Dec
-      2025: «Зустріч з українською».
+      Згадується в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01).
+      Час зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. Перелік
+      2023 року: «Розмовний клуб української мови». У конференційній статті за вересень 2023 року
+      клуб названо «Українські посиденьки»; його заснувала поетеса й волонтерка Олена Татянченко.
+      Перелік за грудень 2025 року: «Зустріч з українською».
 i18n_src:
+  location.address: ddb602e0
   name: 033d8219
   description: d15e99c9
-  location.venue: fa268cb2
   notes: 779b19bc
-  location.address: ddb602e0
+  location.venue: fa268cb2

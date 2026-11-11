@@ -19,12 +19,12 @@ notes: За історією Telegram-груп київських клубів (
 i18n:
   en:
     description: >-
-      English film club: they watch films together and discuss them in English. There is an online
-      version.
-    schedule_note: Schedule and location — in the group's announcements.
-    notes: From the history of the Telegram group of Kyiv clubs (accessed 10.11.2026).
+      English-language film club: watch films together and discuss them in English. An online
+      version is available.
+    schedule_note: Schedule and location are in the group's announcements.
+    notes: Based on the chat history of Kyiv clubs' Telegram groups (read on 10.11.2026).
 i18n_src:
+  name: 88e6cb64
   description: 61229ee6
   schedule_note: cb52221a
   notes: dd841777
-  name: 88e6cb64

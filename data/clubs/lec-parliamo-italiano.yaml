@@ -23,20 +23,18 @@ sources:
   - https://lec.link/
 notes: У довіднику мережі Language Exchange Club (lec.link); дата запису невідома.
 i18n:
-  uk:
-    name: Поговоримо італійською
   en:
-    description: Italian-speaking meetings of the LEC network.
-    notes: In the directory of the Language Exchange Club network (lec.link); date of entry unknown.
-    location.venue: Gulliver Mall, food court
+    location.address: 1A Sportyvna Sq
+    location.metro: Palats Sportu
+    description: Italian conversation meetups in the LEC network.
+    notes: Listed in the Language Exchange Club network directory (lec.link); entry date unknown.
+    location.venue: "\"Gulliver\" shopping mall, food court"
     location.note: 5th floor
-    location.address: 1a Sportyvna Square
-    location.metro: Palace of Sports
 i18n_src:
+  location.address: ad99c7ad
+  location.metro: 3dbc4bb5
   name: 4eb85627
   description: 6b345736
   notes: 158955cd
   location.venue: 62df18f6
   location.note: 8d811b69
-  location.address: ad99c7ad
-  location.metro: 3dbc4bb5

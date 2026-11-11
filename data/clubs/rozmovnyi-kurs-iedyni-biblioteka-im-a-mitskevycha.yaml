@@ -28,23 +28,23 @@ notes: >-
   list. The lists give no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Conversation course "Yedyni" — Adam Mickiewicz Library
-    location.venue: Adam Mickiewicz Library
+    location.address: 16/2 Ivana Franka St
+    name: Conversation course "Yedyni" — A. Mickiewicz Library
     description: >-
-      Free Ukrainian conversation course/club of the "Yedini" movement (initiative "Navchay
-      ukrayinskoyu") at a Kyiv public library.
-    location.address: 16/2 Ivan Franko St
+      Free Ukrainian conversation course/club of the "Yedyni" movement (initiative "Navchai
+      ukrainskoiu") at a Kyiv public library.
+    location.venue: A. Mickiewicz Library
   uk:
     description: >-
-      Безкоштовний розмовний курс/клуб української мови руху "Єдині" (ініціатива "Навчай
-      українською") у публічній бібліотеці Києва.
+      Безплатний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
+      українською») у публічній бібліотеці Києва.
     notes: >-
-      Зазначено лише в списку бібліотек департаменту культури Києва від 2023-08-17; відсутнє у
-      списку від 2025-12-01. У списках не вказано часу зустрічей. Район визначено за адресою, не
-      перевірено.
+      Згадується лише в переліку бібліотек київського департаменту культури від 2023-08-17; у
+      переліку від 2025-12-01 відсутній. У переліках не вказано часу зустрічей. Район визначено за
+      адресою, але не перевірено.
 i18n_src:
+  location.address: dee21b03
   name: 9868f070
+  description: 519a53f7
   notes: 52736ebd
   location.venue: 56b91090
-  description: 519a53f7
-  location.address: dee21b03

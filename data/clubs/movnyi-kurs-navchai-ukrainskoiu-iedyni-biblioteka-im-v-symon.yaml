@@ -45,31 +45,31 @@ notes: >-
   no meeting times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Language course "Navchay ukrayinskoyu" ("Yedini") — V. Symonenko Library
-    location.venue: V. A. Symonenko Children's Library
-    description: >-
-      Free Ukrainian conversation course/club of the Yedyni movement (initiative "Navchay
-      ukrayins'koyu") at a Kyiv public library.
-    schedule_note: >-
-      Blog: "Conversation club "Yedini": as many as two groups in the library" (10 Sep 2022);
-      sessions 29 Jul 2023 (Sat), 11 May 2024 (Sat, moderator Marharyta Samoiliuk). Listed again in
-      Dec 2025 city list.
     location.address: 25 Antonovycha St
+    name: Language course "Navchai ukrainskoiu" ("Yedyni") — V. Symonenko Library
+    description: >-
+      Free Ukrainian conversation course/club run by the "Yedyni" movement ("Navchai ukrainskoiu"
+      initiative) at a Kyiv public library.
+    schedule_note: >-
+      Blog: "Yedyni speaking club: two whole groups at the library" (10 Sep 2022); sessions 29 Jul
+      2023 (Sat), 11 May 2024 (Sat, moderator Marharyta Samoiliuk). Listed again in Dec 2025 city
+      list.
+    location.venue: V. A. Symonenko Children's Library
   uk:
     description: >-
-      Безкоштовний розмовний курс/клуб української мови руху «Єдині» (ініціатива «Навчай
+      Безкоштовний розмовний курс/клуб української мови від руху «Єдині» (ініціатива «Навчай
       українською») у публічній бібліотеці Києва.
     schedule_note: >-
-      Блог: «Розмовний клуб «Єдині»: аж дві групи в бібліотеці» (10 Sep 2022); заняття 29 Jul 2023
-      (Sat), 11 May 2024 (Sat, модератор Marharyta Samoiliuk). Повторно внесено в міський список у
+      Блог: «Розмовний клуб «Єдині»: аж дві групи в бібліотеці» (10 Sep 2022); зустрічі 29 Jul 2023
+      (сб), 11 May 2024 (сб, модераторка Маргарита Самойлюк). Знову включено до міського переліку за
       Dec 2025.
     notes: >-
-      Зазначено в обох списках бібліотек департаменту культури Києва (2023-08-17 і 2025-12-01).
-      Списки не містять часу зустрічей. Район виведено з адреси, не перевірено.
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено.
 i18n_src:
+  location.address: ab55e7a8
   name: 0dc40a7d
-  notes: 35f55f76
-  location.venue: b761eb10
   description: 519a53f7
   schedule_note: f22eb4d7
-  location.address: ab55e7a8
+  notes: 35f55f76
+  location.venue: b761eb10

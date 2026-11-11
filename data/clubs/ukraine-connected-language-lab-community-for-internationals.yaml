@@ -32,17 +32,17 @@ i18n:
   uk:
     name: Ukraine Connected (спільнота Language Lab для іноземців)
     description: >-
-      Спільнота для іноземців і українців, створена київською школою Language Lab з нагоди її
-      10‑річчя; зустрічі наживо в Києві (переносилися в укриття або в онлайн під час повітряних
-      тривог).
+      Спільнота для іноземців та українців, яку київська школа Language Lab започаткувала до свого
+      10-річчя; заходи наживо в Києві (під час повітряних тривог їх переносять в укриття або
+      онлайн).
     notes: >-
-      Спільнота, а не суто розмовний клуб; запущена на ювілейному заході близько 3 Oct 2026. Контент
-      у партнерстві з Kyiv Post.
+      Спільнота, а не суто розмовний клуб; започаткована на ювілейному заході приблизно 3 Oct 2026.
+      Партнерський матеріал Kyiv Post.
   en:
     schedule_note: >-
-      There is no schedule. It’s a community, not a speaking club: topic chats, small meetups, a
-      large meeting at least once every six months. Admission via a form; participants are selected
-      by coordinators.
+      There is no schedule. This is a community, not a speaking club: topic-based chats, small
+      meetups, and a large gathering at least once every six months. Join via a form; coordinators
+      select participants.
 i18n_src:
   name: db4f9e42
   description: 4d24d08d

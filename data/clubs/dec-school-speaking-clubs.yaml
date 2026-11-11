@@ -36,28 +36,28 @@ notes: >-
   osvita page; DEC school is a Kyiv language school (assumption, not verified on page). Language
   assumed English.
 i18n:
+  en:
+    location.metro: Osokorky
+    location.venue: DEC school (Osokorky branch and others)
+    location.address: Dniprovska Naberezhna
   uk:
     name: Тематичні розмовні клуби DEC school
     description: >-
-      Щотижневі тематичні суботні розмовні клуби в мовній школі DEC school; безкоштовно для
-      студентів DEC school, платно для інших.
-    schedule_note: Раз на тиждень по суботах; теми на рік — на dec-school.com.
+      Щотижневі тематичні розмовні клуби щосуботи в мовній школі DEC school; безкоштовно для учнів
+      DEC, платно для інших.
+    schedule_note: Раз на тиждень щосуботи; теми на рік — на dec-school.com
     notes: >-
-      Доступно лише для студентів (не перевірено, чи може приєднатися публіка). На сторінці osvita
-      не зазначено місто та мову; DEC school — київська мовна школа (припущення, не підтверджено на
-      сторінці). Мова припускається — англійська.
+      Лише для учнів (чи можуть долучитися інші — не перевірено). Місто та мову на сторінці osvita
+      не вказано; DEC school — київська мовна школа (припущення, не підтверджене на сторінці).
+      Імовірна мова — англійська.
     location.venue: DEC school (філія на Осокорках та інші)
-    price.amount: Безкоштовно для студентів DEC school
-  en:
-    location.venue: DEC school (Osokorky branch and others)
-    location.address: Dnipro Embankment
-    location.metro: Osokorky
+    price.amount: безкоштовно для учнів DEC school
 i18n_src:
+  location.metro: 820f2c78
   name: b5f35813
   description: 4db5622a
   schedule_note: 977eabc1
   notes: 17421f13
-  price.amount: 75a6dec8
   location.venue: 379b6257
   location.address: 54427d84
-  location.metro: 820f2c78
+  price.amount: 75a6dec8

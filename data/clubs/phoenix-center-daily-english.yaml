@@ -27,25 +27,24 @@ notes: >-
   Listed in Kyiv Post 'Community listings' bulletin board, 2010-04-08. Likely a church-linked
   ministry (not verified).
 i18n:
+  en:
+    location.address: 2 Nemyrovycha-Danchenka St
+    location.metro: Pecherska
+    location.note: 3rd floor
   uk:
     description: >-
-      Безкоштовні розмовні заняття з англійської мови за участі американських та британських носіїв;
-      також обмін книжками й DVD.
-    schedule_note: "У будні; обмін книжками: пн–пт 18:00–19:30, сб 12:00–13:30 (2010)"
+      Безкоштовні розмовні заняття з англійської з носіями мови зі США та Великої Британії; також
+      обмін книжками та DVD.
+    schedule_note: У будні; обмін книжками пн–пт 18:00–19:30, сб 12:00–13:30 (2010)
     notes: >-
-      Згадано в Kyiv Post у рубриці "Community listings", 2010-04-08. Ймовірно пов'язано з церковним
-      служінням (не перевірено).
-    name: Phoenix Center — щоденна англійська
-  en:
-    location.note: 3rd floor
-    location.address: 2 Nemirovycha-Danchenka St
-    location.metro: Pecherska
+      Зазначено на дошці оголошень «Community listings» у Kyiv Post, 2010-04-08. Імовірно, служіння,
+      пов’язане з церквою (не підтверджено).
 i18n_src:
+  location.address: a475bc65
+  location.metro: 139a4a38
+  name: e7049a0c
   description: 7828d1ed
   schedule_note: 3567c1f9
   notes: 3e722c1d
-  location.note: 6c1e1693
-  name: e7049a0c
   location.venue: 8c36d6cd
-  location.address: a475bc65
-  location.metro: 139a4a38
+  location.note: 6c1e1693

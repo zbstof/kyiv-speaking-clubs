@@ -26,23 +26,23 @@ notes: >-
   'Фламенко' (3rd Thursday 15:00) that is not a speaking club.
 i18n:
   uk:
-    name: Клуб французькомовного кіно (Borys Grinchenko Kyiv Metropolitan University)
+    name: Клуб франкомовного кіно (Київський столичний університет імені Бориса Грінченка)
     description: >-
-      Студентський франкомовний кіноклуб: перегляд франкомовних фільмів і їхнє обговорення в
+      Студентський клуб франкомовного кіно: перегляд франкомовних фільмів та їх обговорення в
       дискусійному клубі, написання коротких рецензій.
     schedule_note: 3-й четвер місяця, 15:00
     notes: >-
-      Для студентів університету; 20 учасників у 2023-2024. У тому ж списку є клуб іспанської
-      культури «Фламенко» (3rd Thursday 15:00), який не є розмовним клубом.
+      Для студентів університету; 20 учасників у 2023-2024. У цьому ж списку є клуб іспанської
+      культури «Фламенко» (3-й четвер 15:00), який не є розмовним клубом.
   en:
-    location.venue: Borys Grinchenko Kyiv Metropolitan University, Faculty of Romance and Germanic Philology
     name: French-language film club (Borys Grinchenko Kyiv Metropolitan University)
     notes: >-
-      For university students; 20 participants in 2023-2024. Same list has a Spanish culture club
-      "Flamenco" (3rd Thursday 15:00) that is not a speaking club.
+      For university students; 20 participants in 2023-2024. The same list has a Spanish culture
+      club "Flamenko" (3rd Thursday 15:00) that is not a speaking club.
+    location.venue: Borys Grinchenko Kyiv Metropolitan University, Faculty of Romance and Germanic Philology
 i18n_src:
+  name: d6c5c54f
   description: d3be3cf4
   schedule_note: 8e833c5a
-  location.venue: 6ebf018e
-  name: d6c5c54f
   notes: 4348d101
+  location.venue: 6ebf018e

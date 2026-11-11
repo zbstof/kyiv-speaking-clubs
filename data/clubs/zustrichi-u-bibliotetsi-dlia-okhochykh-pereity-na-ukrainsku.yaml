@@ -32,24 +32,24 @@ notes: >-
   no meeting times. District inferred from the address, not verified. 2023: «Розмовний клуб».
 i18n:
   en:
-    name: Meetings at the library for people wishing to switch to Ukrainian (N. Rybak Library)
-    location.venue: N. Rybak Library
+    location.address: 5/9 Petrytskoho St
+    name: Library meetings for those wishing to switch to Ukrainian (N. Rybak Library)
     notes: >-
       Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
       give no meeting times. District inferred from the address, not verified. 2023: "Conversation
-      Club".
-    location.address: 5/9 Petrytskoho St
+      club".
+    location.venue: N. Rybak Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у київській публічній бібліотеці для людей, які
-      переходять на українську або хочуть її покращити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох переліках бібліотек департаменту культури міста Києва (2023-08-17 та
-      2025-12-01). У списках не вказано часів зустрічей. Район визначено за адресою, не перевірено.
-      2023: «Розмовний клуб».
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. 2023: «Розмовний
+      клуб».
 i18n_src:
+  location.address: ae74ec14
   name: 5c6a31bd
   description: d15e99c9
-  location.venue: e522d269
   notes: 13d2737a
-  location.address: ae74ec14
+  location.venue: e522d269

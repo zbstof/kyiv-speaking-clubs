@@ -25,17 +25,17 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: "\"Hutirka - club\" (children's library in Priorka)"
-    location.venue: Children's library in Priorka
     location.address: 38 Vyshhorodska St
+    name: "\"Hutirka - klub\" (Children's Library in Priorka)"
+    location.venue: Children's Library in Priorka
   uk:
-    description: Безкоштовний розмовний клуб українською для дітей у київській публічній бібліотеці.
+    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено в переліку бібліотек Київського управління культури станом на 2025-12-01. У
-      переліках не вказані часи зустрічей. Район визначено за адресою, не перевірено.
+      Зазначений у переліку бібліотек департаменту культури Києва станом на 2025-12-01. У переліках
+      не вказано часу зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: e50699c1
   name: 5c5afb10
   description: 0402dd7e
   notes: "80762585"
   location.venue: 53fb4122
-  location.address: e50699c1

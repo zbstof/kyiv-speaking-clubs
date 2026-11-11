@@ -17,12 +17,10 @@ first_seen: 2023-06
 last_seen: "2023-06-30"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
-  uk:
-    name: Міжнародний кіноклуб
   en:
-    description: Film club in English.
-    schedule_note: Tuesday 19:00 (per the list of clubs, June 2023).
-    notes: According to the Telegram groups' history of Kyiv clubs (accessed 10.11.2026).
+    description: English-language film club.
+    schedule_note: Tuesday 19:00 (according to the club list, June 2023).
+    notes: Based on the history of Kyiv clubs’ Telegram groups (accessed 10.11.2026).
 i18n_src:
   name: e626e7f9
   description: a414e476

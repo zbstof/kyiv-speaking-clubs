@@ -33,19 +33,23 @@ notes: >-
   New friends», субота 15:00, кафе на Костянтинівській, 20.
 i18n:
   en:
-    name: Meetup group 🌍 (international meetings)
+    name: Meetup group 🌍 (international meetups)
     description: >-
-      Social group of foreigners and Ukrainians in Kyiv: Saturday meetings in English at cafés, each
-      time in a different one (Pervak, Chornomorka, 74 urbanfood, Breakfast Club and others).
+      A social group for foreigners and Ukrainians in Kyiv: Saturday meetups in English at a
+      different café each time (Pervak, Chornomorka, 74 urbanfood, Breakfast Club and others).
     schedule_note: >-
-      In 2023–2025 — approximately every two weeks on Saturdays at 15:00; cafés were announced in
-      the group. After April 2025 there were no meetings of their own, only announcements of other
-      events.
+      In 2023–2025, roughly every other Saturday at 15:00; the café was announced in the group.
+      After April 2025, there were no meetups of their own, only announcements of other events.
     notes: >-
-      Telegram group (folder "🗣️Kyiv"), read 10.11.2026: 39 announcements of their own meetings,
-      September 2023 — April 2025, in 35 different venues. In 2023 in the list of clubs: "Kyiv
-      Meetup in English. New friends", Saturday 15:00, café at 20 Kostyantynivska St.
-    contacts.0.note: Closed group; invitations from members.
+      Telegram group (folder "🗣️Kyiv"), accessed 10.11.2026: 39 announcements of their own meetups,
+      September 2023 — April 2025, at 35 different venues. In a 2023 club listing: "Kyiv Meetup in
+      English. New friends", Saturday 15:00, a café at 20 Kostiantynivska St.
+    contacts.0.note: Private group; invitations available from members
+  uk:
+    notes: >-
+      Telegram-група (папка «🗣️Київ»), прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень
+      2023 — квітень 2025, у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in
+      English. New friends», субота 15:00, кафе на вул. Костянтинівській, 20.
 i18n_src:
   name: dd5690b7
   description: 1ce5ad87

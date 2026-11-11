@@ -33,24 +33,24 @@ notes: >-
   2023: a «Єдині» conversation course at this branch.
 i18n:
   en:
-    name: Language club "NUMO" (Lesya Ukrainka Public Library, Local History Department)
-    location.venue: Lesya Ukrainka Public Library for Adults - Local History Literature Department
+    location.address: 16 Volodymyra Vynnychenka St
+    name: "\"NUMO\" language club (Lesya Ukrainka Public Library, local history department)"
     notes: >-
       Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
       give no meeting times. District inferred from the address, not verified. Hybrid: in person
       plus Zoom. 2023: a "Yedyni" conversation course at this branch.
-    location.address: 16 Volodymyr Vynnychenko St
+    location.venue: Lesya Ukrainka Public Library for Adults - Local History Literature Department
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у публічній бібліотеці Києва для людей, які
-      переходять на українську або хочуть її вдосконалити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох списках бібліотек управління культури Києва (2023-08-17 і 2025-12-01). У
-      списках немає розкладу зустрічей. Район визначено за адресою, не підтверджено. Формат: очно та
-      Zoom. 2023: розмовний курс "Єдині" у цьому філіалі.
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 та 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, не перевірено. Гібридний формат:
+      очно та в Zoom. 2023: розмовний курс «Єдині» в цьому відділі.
 i18n_src:
+  location.address: 7d2088a1
   name: 9e08c9e9
   description: d15e99c9
-  location.venue: e9490df3
   notes: 80ad2fa0
-  location.address: 7d2088a1
+  location.venue: e9490df3

@@ -16,11 +16,11 @@ sources:
 notes: Social mixer; language practice not stated explicitly.
 i18n:
   uk:
-    description: Майже щотижневі неформальні зустрічі для експатів і місцевих у Києві.
+    description: Майже щотижневі зустрічі для спілкування іноземців і місцевих жителів у Києві.
     schedule_note: Майже щотижня
-    notes: Соціальний міксер; мовна практика прямо не вказана.
+    notes: Зустріч для знайомств і спілкування; мовну практику прямо не зазначено.
 i18n_src:
+  name: 379d0121
   description: 1a53d1ea
   schedule_note: 81fac698
   notes: df020242
-  name: 379d0121

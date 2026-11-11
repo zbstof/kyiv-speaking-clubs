@@ -30,27 +30,27 @@ notes: >-
   street was renamed, so it is probably the same library - not verified.
 i18n:
   en:
-    name: Club "Poetyka" (library on Hetman Kyrylo Rozumovskyi St)
-    location.venue: Library on Hetman Kyrylo Rozumovskyi St (formerly Krasnova St)
+    location.address: 12 Hetmana Kyryla Rozumovskoho (kol. Krasnova) St
+    name: "\"Poetyka\" Club (library on Hetmana Kyryla Rozumovskoho St)"
     notes: >-
       Listed in the Kyiv culture-department library list as of 2025-12-01. The lists give no meeting
       times. District inferred from the address, not verified. Popularises Ukrainian ethnic culture.
-      The 2023 list had a "Conversation club" at "library at 10 Krasnova St" (tel. (044) 424-33-07);
-      the street was renamed, so it is probably the same library - not verified.
-    location.address: 12 Hetman Kyrylo Rozumovskyi St (formerly Krasnova St)
+      The 2023 list had a "Conversation club" at the "library at 10 Krasnova St" (tel. (044)
+      424-33-07); the street was renamed, so it is probably the same library - not verified.
+    location.venue: Library on Hetmana Kyryla Rozumovskoho St (formerly Krasnova St)
   uk:
     description: >-
-      Безкоштовний розмовний клуб українською у київській публічній бібліотеці для людей, які
-      переходять на українську або хочуть її вдосконалити.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено у списку бібліотек департаменту культури Києва станом на 2025-12-01. У списках не
-      вказані часи зустрічей. Район визначено за адресою, не підтверджено. Популяризує українську
-      етнокультуру. У списку 2023 року був "Розмовний клуб" у "бібліотеці на вул. Краснова, 10"
-      (тел. (044) 424-33-07); вулицю перейменували, тож це ймовірно та сама бібліотека - не
-      підтверджено.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано часу зустрічей. Район визначено за адресою, не перевірено. Популяризує українську
+      етнічну культуру. У переліку за 2023 рік був «Розмовний клуб» у «бібліотеці на вул. Краснова,
+      10» (тел. (044) 424-33-07); вулицю перейменували, тож, імовірно, це та сама бібліотека — не
+      перевірено.
 i18n_src:
+  location.address: 914e0be5
   name: d152b1b4
   description: d15e99c9
-  location.venue: "99506e72"
   notes: f55f6923
-  location.address: 914e0be5
+  location.venue: "99506e72"

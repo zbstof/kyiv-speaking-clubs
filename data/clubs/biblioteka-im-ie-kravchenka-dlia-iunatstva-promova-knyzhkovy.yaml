@@ -33,19 +33,24 @@ notes: >-
   розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
 i18n:
   en:
-    name: "Ye. Kravchenko Library for Youth: \"ProMova\" / \"Book Club Near Home\""
-    location.venue: Ye. Kravchenko Library for Youth
     location.address: 51/24 Entuziastiv St
+    name: "Ye. Kravchenko Youth Library: \"ProMova\" / \"Book Club Near Home\""
+    notes: >-
+      Listed in both Kyiv culture-department library lists (2023-08-17 and 2025-12-01). The lists
+      give no meeting times. District inferred from the address, not verified. 2023: "ProMova
+      conversational Ukrainian learning project"; 2025: "Book Club Near Home".
+    location.venue: Ye. Kravchenko Youth Library
   uk:
     description: >-
-      Безкоштовний розмовний клуб української мови у київській публічній бібліотеці для людей, які
-      переходять на українську або вдосконалюють її.
+      Безкоштовний розмовний клуб української мови в публічній бібліотеці Києва для тих, хто
+      переходить на українську або вдосконалює її.
     notes: >-
-      Зазначено в обох переліках бібліотек управління культури Києва (2023-08-17 і 2025-12-01). У
-      списках не вказано часу зустрічей. Район визначено за адресою, не перевірено. 2023: «Проєкт з
-      опанування розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
+      Є в обох переліках бібліотек Департаменту культури Києва (2023-08-17 і 2025-12-01). Час
+      зустрічей у переліках не вказано. Район визначено за адресою, але не перевірено. 2023: «Проєкт
+      з опанування розмовної української мови «ПроМова»»; 2025: «Книжковий клуб поряд із домом».
 i18n_src:
+  location.address: f3157a82
   name: a6c20dca
   description: d15e99c9
+  notes: d5b47ea0
   location.venue: 3c8c2f09
-  location.address: f3157a82

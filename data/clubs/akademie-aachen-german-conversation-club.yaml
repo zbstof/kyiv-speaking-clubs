@@ -21,22 +21,22 @@ notes: >-
   Listed only as a course item 'Розмовний клуб' in the school's osvita.ua catalog card (card updated
   ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update date.
 i18n:
-  uk:
-    name: "Akademie Aachen: розмовний клуб німецької мови"
-    description: Платна мовна школа в Києві, яка серед своїх курсів вказує розмовний клуб німецької мови.
-    notes: >-
-      У картці каталогу школи на osvita.ua зазначено лише як пункт курсу "Розмовний клуб" (card
-      updated ). Розклад або формат не вказано. Телефони в картці: (098) 923-78-03. Дата оновлення в
-      картці не вказана.
   en:
+    location.address: 3 Ivana Kozlovskoho Ln
     notes: >-
       Listed only as a course item "Conversation club" in the school's osvita.ua catalog card (card
       updated ). No schedule or format given. Phones on card: (098) 923-78-03. Card has no update
       date.
-    location.address: 3 Ivana Kozlovskoho Ln
+  uk:
+    name: "Akademie Aachen: розмовний клуб німецької мови"
+    description: Платна мовна школа в Києві, серед курсів якої є розмовний клуб німецької мови.
+    notes: >-
+      Зазначений лише як пункт «Розмовний клуб» у картці школи в каталозі osvita.ua (картку оновлено
+      ). Розклад і формат не вказані. Телефони в картці: (098) 923-78-03. У картці немає дати
+      оновлення.
 i18n_src:
+  location.address: cac51ba1
   name: 9f728b2f
   description: 69ecb131
-  location.venue: 555a2b9a
   notes: 2fb728e8
-  location.address: cac51ba1
+  location.venue: 555a2b9a

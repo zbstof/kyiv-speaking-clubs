@@ -29,20 +29,20 @@ last_seen: 2025-01
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
   en:
-    name: In-person Chinese language club
-    description: Free Chinese conversation club (中文口语俱乐部).
-    schedule_note: Meetings on Saturday at 13:00 (грудень 2023); later — see announcements in the group.
-    notes: See the Telegram group history of Kyiv clubs (viewed 10.11.2026).
-    location.venue: Puzata Khata
-    contacts.0.note: Closed group; invitation from the organizer
     location.address: 15/4-A Khreshchatyk St
     location.metro: Khreshchatyk
+    name: In-person Chinese language club
+    description: Free Chinese speaking club (中文口语俱乐部).
+    schedule_note: Meetings on Saturdays at 13:00 (December 2023); after that, as announced in the group.
+    notes: Based on the chat histories of Kyiv clubs’ Telegram groups (read on 10.11.2026).
+    location.venue: Puzata Khata
+    contacts.0.note: Private group; ask the organizer for an invitation
 i18n_src:
+  location.address: 74b8437e
+  location.metro: 9f2c4b77
   name: 574aab01
   description: feb1d816
   schedule_note: f6a58ad7
   notes: dd841777
   location.venue: be30a852
   contacts.0.note: f428c83c
-  location.address: 74b8437e
-  location.metro: 9f2c4b77

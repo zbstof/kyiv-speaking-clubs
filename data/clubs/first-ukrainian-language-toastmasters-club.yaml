@@ -26,19 +26,19 @@ sources:
 notes: Possibly the same club later listed as KOMA (not verified).
 i18n:
   uk:
-    name: Перший україномовний клуб Toastmasters (First Ukrainian-speaking Toastmasters club)
+    name: Перший україномовний клуб Toastmasters (Перший україномовний клуб Toastmasters)
     description: >-
-      Перший україномовний клуб Toastmasters в Україні (інші переважно англійською). Підготовлені
-      промови, експромтні виступи, хронометристи та оцінювачі.
-    schedule_note: Зустріч відбулася Thu 2012-10-18; регулярний графік не вказано
-    notes: Можливо, це той самий клуб, пізніше вказаний як KOMA (не підтверджено).
-    location.venue: Особняк Уварової (Терещенко), Фонд української культури імені Бориса Олійника
+      Перший україномовний клуб Toastmasters в Україні (інші переважно англомовні). Підготовлені
+      промови, виступи експромтом, хронометристи та оцінювачі.
+    schedule_note: Відвідано зустріч у чт 2012-10-18; регулярний розклад не вказано
+    notes: Можливо, це той самий клуб, який пізніше зазначали як KOMA (не перевірено).
+    location.venue: Особняк Уварової (Терещенко), Український фонд культури імені Бориса Олійника
   en:
-    name: First Ukrainian-speaking Toastmasters club
-    location.venue: Uvarova (Tereshchenko) Mansion, Borys Oliynyk Ukrainian Culture Fund
+    name: First Ukrainian-speaking Toastmasters club (First Ukrainian-speaking Toastmasters club)
+    location.venue: Uvarova (Tereshchenko) mansion, Borys Oliinyk Ukrainian Culture Fund
 i18n_src:
+  name: 386eca48
   description: aa060033
   schedule_note: b9ea82b5
   notes: f9bccb06
-  name: 386eca48
   location.venue: 14b4eb69

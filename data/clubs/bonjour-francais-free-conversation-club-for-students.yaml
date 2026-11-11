@@ -20,20 +20,19 @@ last_seen: "2018-10-05"
 sources:
   - https://dengi.ua/amp-page/career/1817098-francuzskij-kak-vtoroj-inostrannyj-jazyk
 i18n:
-  uk:
-    name: "Bonjour Français: безкоштовний розмовний клуб для студентів"
-    description: >-
-      Безкоштовний французький розмовний клуб для учнів школи: познайомтеся з іншими та говоріть на
-      будь-яку тему.
-    price.amount: Безкоштовно для учнів школи
-    location.venue: Добрий день, французи
   en:
+    location.address: 28-A Esplanadna St
     location.note: 3rd floor
-    location.address: 28-a Esplanadna St
+  uk:
+    name: "Bonjour Français: безкоштовний розмовний клуб французької для учнів"
+    description: >-
+      Безкоштовний розмовний клуб французької для учнів школи: знайомтеся з іншими учнями та
+      спілкуйтеся на будь-які теми.
+    price.amount: безкоштовно для учнів школи
 i18n_src:
+  location.address: 71a9e896
   name: f902ab62
   description: 3680b80c
+  location.venue: e7705df8
   location.note: 6c1e1693
   price.amount: d863ddd0
-  location.venue: e7705df8
-  location.address: 71a9e896

@@ -48,28 +48,32 @@ notes: >-
   1/2. Частина мережі Language Exchange Club (LEC): «Philosophy Meeting in English».
 i18n:
   uk:
-    name: LEC Філософський клуб
-    location.address: 1/2 вул. Басейна
     location.metro: Площа Українських Героїв
+    notes: >-
+      Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. У 2023 — неділя 17:00, теж вул.
+      Басейна, 1/2. Частина мережі Language Exchange Club (LEC): «Philosophy Meeting in English».
+    location.venue: Пузата Хата
+    location.address: вул. Басейна, 1/2
   en:
     description: >-
-      English-language philosophy club. In-person meeting every Sunday: the topic of the week is
+      An English-language philosophy club. In-person meetings every Sunday: the topic of the week is
       announced in advance with a short introduction.
-    schedule_note: Sundays 18:00–21:00. The topic of the week is posted in the group.
+    schedule_note: Every Sunday 18:00–21:00. The topic of the week is posted in the group.
     notes: >-
-      Club Telegram group (folder "🗣️Kyiv"), read 10.11.2026. In 2023 — Sunday 17:00, also at 1/2
-      Baseyna St. Part of the Language Exchange Club (LEC): "Philosophy Meeting in English".
-    location.note: 2nd floor, hall without a bar.
+      Club Telegram group ("🗣️Kyiv" folder), read on 10.11.2026. In 2023 — Sunday 17:00, also at
+      1/2 Baseina St. Part of the Language Exchange Club (LEC) network: "Philosophy Meeting in
+      English".
+    location.note: 2nd floor, room without a bar
     contacts.0.note: "channel: announcements, topics and polls"
     contacts.1.note: club chat
 i18n_src:
+  location.metro: a79e299c
   name: 76fb43f6
   description: 0674ce51
   schedule_note: 53f9f042
   notes: 6fbef911
+  location.venue: 3609d5b5
+  location.address: ade6ee8f
   location.note: b465797b
   contacts.0.note: 4c066ce0
   contacts.1.note: d58feb56
-  location.venue: 3609d5b5
-  location.address: ade6ee8f
-  location.metro: a79e299c

@@ -28,18 +28,18 @@ last_seen: "2025-04-02"
 notes: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
 i18n:
   en:
-    name: Ukrainian speaking club
-    description: A space for practicing spoken Ukrainian for anyone interested.
-    schedule_note: Sundays at 15:00. First meeting — at "Tsiferblat" (серпень 2023).
-    notes: According to the history of the Telegram group of Kyiv clubs (read 10.11.2026).
-    location.venue: Kharms
     location.address: 45A Volodymyrska St
     location.metro: Zoloti Vorota
+    name: Ukrainian speaking club
+    description: A space for anyone to practice conversational Ukrainian.
+    schedule_note: Every Sunday at 15:00. The first meeting was at "Tsyferblat" (August 2023).
+    notes: Based on the chat history of Kyiv clubs' Telegram groups (accessed 10.11.2026).
+    location.venue: Kharms
 i18n_src:
+  location.address: 70c76080
+  location.metro: e4cb2047
   name: d70ca86f
   description: 52e9df5e
   schedule_note: 0f4b5c96
   notes: dd841777
   location.venue: 2d8c146d
-  location.address: 70c76080
-  location.metro: e4cb2047

@@ -28,17 +28,17 @@ notes: >-
   times. District inferred from the address, not verified.
 i18n:
   en:
-    name: Club "Reading with Pochitaiko in Ukrainian"
-    location.venue: P. Buyko Children's Library
     location.address: 15 Voskresenskyi Ave
+    name: "\"Reading in Ukrainian with Pochytaiko\" club"
+    location.venue: P. Buiko Library for Children
   uk:
-    description: Безкоштовний гурток української мови/розмовний клуб для дітей у публічній бібліотеці в Києві.
+    description: Безкоштовний клуб української мови та спілкування для дітей у публічній бібліотеці Києва.
     notes: >-
-      Зазначено у списку бібліотек Департаменту культури Києва станом на 2025-12-01. У списках не
-      вказані часи зустрічей. Район визначено за адресою, не перевірено.
+      Є в переліку бібліотек Департаменту культури Києва станом на 2025-12-01. У переліках не
+      вказано часу зустрічей. Район визначено за адресою, не перевірено.
 i18n_src:
+  location.address: f5240f38
   name: cdd9e767
   description: 0402dd7e
   notes: "80762585"
   location.venue: e7e6659b
-  location.address: f5240f38

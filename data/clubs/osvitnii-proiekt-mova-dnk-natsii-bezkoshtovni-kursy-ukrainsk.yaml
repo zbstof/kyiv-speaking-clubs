@@ -24,20 +24,22 @@ notes: >-
   Героїв Севастополя, 22); a link between the two is not verified.
 i18n:
   en:
-    name: Educational project "Mova — DNA of the Nation" (free Ukrainian language courses, Kyiv)
+    name: Educational project "Mova — DNK natsii" (free Ukrainian language courses, Kyiv)
     notes: >-
       A course rather than a club; details from a search snippet, the gazeta.ua page returned 403.
-      The Dec 2025 city library list has a conversation club "Mova. DNA of the Nation" at the I.
-      Shamo Library (22 Heroiv Sevastopolia St); a link between the two is not verified.
+      The Dec 2025 city library list has a speaking club, "Mova. DNK natsii", at the I. Shamo
+      Library (22 Heroiv Sevastopolia St); a link between the two is not verified.
   uk:
     description: >-
-      Безкоштовні курси української мови в Києві та онлайн; за статтею 2020 року навчання тривало
-      5-6 місяців, раз на тиждень по 2 години і описувалося як перший такий проєкт в Україні.
+      Безкоштовні курси української мови в Києві та онлайн; за статтею 2020 року, навчання тривало
+      5-6 місяців, заняття відбувалися раз на тиждень по 2 години, а проєкт називали першим таким в
+      Україні.
     schedule_note: Раз на тиждень, 2 години, 5-6 місяців (станом на Feb 2020).
     notes: >-
-      Курс радше, ніж клуб; деталі зі фрагмента пошукової видачі, сторінка gazeta.ua повернула 403.
-      У списку міських бібліотек Dec 2025 є розмовний клуб "Мова. ДНК нації" у бібліотеці ім. І.
-      Шамо (вул. Героїв Севастополя, 22); зв'язок між двома джерелами не підтверджено.
+      Це радше курс, ніж клуб; подробиці взято з уривка в результатах пошуку, сторінка gazeta.ua
+      повертала помилку 403. У списку міських бібліотек за Dec 2025 є розмовний клуб «Мова. ДНК
+      нації» в бібліотеці ім. І. Шамо (вул. Героїв Севастополя, 22); зв’язок між ними не
+      підтверджено.
 i18n_src:
   name: c867f16c
   description: ad667ebe

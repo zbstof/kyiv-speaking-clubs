@@ -51,16 +51,18 @@ i18n:
   uk:
     name: Розмовний клуб української мови (Український інститут)
     description: >-
-      Безкоштовний онлайн-розмовний клуб української мови для іноземних слухачів рівня B1+;
-      щотижневі 90-хвилинні сесії в Zoom, дати оголошують заздалегідь.
-    notes: Запуск оголошено 14 Jul 2026. Для іноземних слухачів; організатор базується в Києві.
+      Безкоштовний онлайн-клуб розмовної української для іноземців із рівнем B1+; щотижневі
+      90-хвилинні зустрічі в Zoom, дати оголошують заздалегідь.
+    notes: >-
+      Про запуск оголошено 14 Jul 2026. Для іноземців, які вивчають українську; організатор
+      базується в Києві.
     location.venue: Онлайн (Zoom); Український інститут, Київ
     location.address: вул. Велика Житомирська, 2 (офіс організатора)
   en:
     schedule_note: >-
-      Weekly, online on Zoom, 20:00–21:30, days vary. Next sessions: 12.11 (Thu), 21.11 (Sat), 26.11
-      (Thu). Dates and topics are in the registration form; participation is confirmed within 3
-      days.
+      Once a week, online via Zoom, 20:00–21:30, on varying days. Upcoming: 12.11 (Thu), 21.11
+      (Sat), 26.11 (Thu). Dates and topics are in the registration form; participation is confirmed
+      within 3 days.
     location.address: 2 Velyka Zhytomyrska St (office of the organizer)
 i18n_src:
   name: 729982f7

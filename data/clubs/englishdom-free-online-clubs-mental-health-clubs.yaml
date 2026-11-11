@@ -23,12 +23,12 @@ sources:
 notes: Online only; Englishdom is a Kyiv-founded online school.
 i18n:
   uk:
-    name: Englishdom — безкоштовні онлайн-клуби (клуби психічного здоров'я)
+    name: Безкоштовні онлайн-клуби Englishdom (клуби ментального здоров’я)
     description: >-
-      Безкоштовні онлайн-клуби розмовної англійської від Englishdom у Zoom з викладачем; тема
-      обирається голосуванням в Instagram.
-    schedule_note: Щосереди о 19:00
-    notes: Тільки онлайн; Englishdom — онлайн-школа, заснована в Києві.
+      Безкоштовні розмовні клуби англійської від Englishdom у Zoom із викладачем; тему обирають
+      голосуванням в Instagram.
+    schedule_note: Щосереди 19:00
+    notes: Лише онлайн; Englishdom — онлайн-школа, заснована в Києві.
 i18n_src:
   name: 5338871e
   description: db88ac03

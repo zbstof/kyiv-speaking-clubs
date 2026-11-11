@@ -319,6 +319,7 @@
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t()[el.dataset.i18nPh]; });
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t()[el.dataset.i18nAria]); });
     $(".foot p").innerHTML = t().footer(esc(CFG.repo || ""));
+    $("#home").href = LANG_PATHS[ui];
     document.querySelectorAll(".lang-switch [data-ui]").forEach((a) => {
       if (a.dataset.ui === ui) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
       a.href = pathFor(a.dataset.ui, focused) + location.search + location.hash;   // keep the club, filters and #map
@@ -848,6 +849,18 @@
     });
     $("#club-form").addEventListener("submit", submit);
     $("#v-list").addEventListener("click", () => setView("list"));
+    // The title goes home: clears the search, every filter and the focused club; keeps list or map.
+    $("#home").addEventListener("click", (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault();
+      $("#q").value = "";
+      ["#f-lang", "#f-day", "#f-format"].forEach((s) => { $(s).value = ""; });
+      ["#f-free", "#f-old"].forEach((s) => { $(s).checked = false; });
+      map?.closePopup();
+      history.pushState(null, "", LANG_PATHS[ui] + (view === "map" ? "#map" : ""));
+      focusClub(null, { push: false });
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && focused && !$("#dlg").open) focusClub(null);
       if (e.key === "Enter" && e.target.classList?.contains("card")) focusClub(e.target.dataset.id, { scroll: false });

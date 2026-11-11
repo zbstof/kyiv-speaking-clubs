@@ -94,7 +94,7 @@ function writePages(clubs) {
       + `\n  <meta property="og:type" content="website">\n  <meta property="og:title" content="${esc(title)}">\n  <meta property="og:description" content="${esc(desc)}">`
       + `\n  <meta property="og:url" content="${BASE}${path(lang, id)}">\n  <meta property="og:locale" content="${lang === "en" ? "en_GB" : "uk_UA"}">`
       + (club ? `\n  <script type="application/ld+json">${JSON.stringify(jsonLd(club, lang)).replace(/</g, "\\u003c")}</script>` : ""));
-    swap('<h1 data-i18n="title">Розмовні клуби Києва</h1>', `<h1 data-i18n="title">${esc(L.site)}</h1>`);
+    swap('<h1><a href="/" id="home" data-i18n="title">Розмовні клуби Києва</a></h1>', `<h1><a href="${path(lang)}" id="home" data-i18n="title">${esc(L.site)}</a></h1>`);
     swap('<a href="/" data-ui="uk" hreflang="uk" lang="uk" aria-current="true">UA</a>',
       `<a href="${path("uk", id)}" data-ui="uk" hreflang="uk" lang="uk"${lang === "uk" ? ' aria-current="true"' : ""}>UA</a>`);
     swap('<a href="/en/" data-ui="en" hreflang="en" lang="en">EN</a>',

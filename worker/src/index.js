@@ -104,7 +104,7 @@ async function handle(p, env) {
     if (old?.i18n_src) club.i18n_src = { ...old.i18n_src };
     if (env.OPENAI_API_KEY) {
       try { await translateClub(club, { apiKey: env.OPENAI_API_KEY, model: env.OPENAI_MODEL || DEFAULT_MODEL }); }
-      catch { /* left for scripts/translate.mjs */ }
+      catch (e) { console.error("translate failed:", e.message); /* left for scripts/translate.mjs */ }
     }
   }
   if (!club.name || club.name.length < 2) throw new UserError("name is required", "name_required");

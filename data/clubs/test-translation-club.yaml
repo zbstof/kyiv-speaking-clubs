@@ -1,0 +1,18 @@
+id: test-translation-club
+name: Test translation club
+description: Weekly English conversation over coffee; beginners welcome.
+languages:
+  - en
+format: online
+schedule_note: Every Thursday at 19:00 on Zoom.
+status: active
+last_checked: "2026-11-11"
+i18n:
+  uk:
+    name: Тестовий перекладацький клуб
+    description: Щотижневі розмови англійською за кавою; раді початківцям.
+    schedule_note: Щочетверга о 19:00 у Zoom.
+i18n_src:
+  name: ff09085e
+  description: 02a4bf83
+  schedule_note: 01135e5f

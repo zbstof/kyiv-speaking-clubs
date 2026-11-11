@@ -24,7 +24,7 @@ contacts:
 status: active
 first_seen: 2026-03
 last_seen: "2026-11-10"
-notes: Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026.
+notes: Telegram-група клубу, прочитано 10.11.2026.
 i18n:
   uk:
     name: Розмовний клуб англійської щовівторка
@@ -35,11 +35,11 @@ i18n:
     schedule_note: >-
       Every Tuesday at 20:00 Kyiv time on Zoom. Up to 6 participants plus the host: post in the
       group to say you're coming.
-    notes: The club's Telegram group ("🗣️Kyiv" folder), read on 10.11.2026.
     contacts.0.note: Private group; invitations through members or the host
+    notes: Club Telegram group, accessed 10.11.2026.
 i18n_src:
   name: 8c4f1cc2
   description: f803c238
   schedule_note: ab0f6ce0
-  notes: a6eabb45
   contacts.0.note: f3947463
+  notes: 9dfd9e69

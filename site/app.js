@@ -77,6 +77,7 @@
       needName: "Вкажіть назву.", needLang: "Оберіть хоча б одну мову.", needCaptcha: "Пройдіть перевірку «я не робот».",
       inviteWarn: "Це посилання-запрошення до закритої групи. Оберіть «закрита група» і напишіть у примітці, як потрапити (напр. «напишіть @адмін»). Обирайте «запрошення», лише якщо адміни погодились його опублікувати.",
       closedGroup: "закрита група", inviteLink: "запрошення",
+      closedWithLink: "Посилання на закриту групу не публікується. Щоб опублікувати його, оберіть доступ «запрошення (адміни дозволили)». Або приберіть посилання й напишіть у примітці, як потрапити до групи.",
       f: {
         name: "Назва", description: "Опис", languages: "Мови", otherLangs: "Інші мови (коди ISO через кому, напр. ka, hy)",
         levels: "Рівні", format: "Формат", venue: "Місце (заклад)", address: "Адреса", metro: "Метро",
@@ -153,6 +154,7 @@
       needName: "Enter a name.", needLang: "Pick at least one language.", needCaptcha: "Complete the \"I am human\" check.",
       inviteWarn: "This is an invite link to a private group. Choose \"closed group\" and write in the note how to get in (e.g. \"message @admin\"). Choose \"invite\" only if the admins agreed to publish the link.",
       closedGroup: "closed group", inviteLink: "invite",
+      closedWithLink: "A closed group's link is not published. To publish it, set access to \"invite (admins allowed)\". Or remove the link and write in the note how to join.",
       f: {
         name: "Name", description: "Description", languages: "Languages", otherLangs: "Other languages (ISO codes, comma separated, e.g. ka, hy)",
         levels: "Levels", format: "Format", venue: "Venue", address: "Address", metro: "Metro",
@@ -501,7 +503,7 @@
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
       const ct = { type: r.querySelector("[name=c_type]").value, url: r.querySelector("[name=c_url]").value.trim(), access: r.querySelector("[name=c_access]").value, note: r.querySelector("[name=c_note]").value.trim() };
       if (ct.access === "public") delete ct.access;
-      if (ct.access === "on_request") delete ct.url; // never publish a link for a closed group
+      // A closed group never publishes a link; submit() stops with a message instead of dropping it silently.
       return ct;
     }).filter((x) => x.url || x.note);
     c.organizer = v("organizer");
@@ -560,6 +562,7 @@
       const { club, comment } = readForm(form);
       if (!club.name) return showMsg(L.needName, true);
       if (!club.languages?.length) return showMsg(L.needLang, true);
+      if ((club.contacts || []).some((ct) => ct.access === "on_request" && ct.url)) return showMsg(L.closedWithLink, true);
       if ((club.contacts || []).some((ct) => ct.url && INVITE_RE.test(ct.url) && ct.access !== "invite")) return showMsg(L.inviteWarn, true);
       payload = { action: mode, id: current?.id, club, comment };
     } else {

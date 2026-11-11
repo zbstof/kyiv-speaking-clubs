@@ -28,9 +28,9 @@ status: unknown
 first_seen: 2023-04
 last_seen: "2025-04-26"
 notes: >-
-  Telegram-група (папка «🗣️Київ»), прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень
-  2023 — квітень 2025, у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in English.
-  New friends», субота 15:00, кафе на Костянтинівській, 20.
+  Telegram-група, прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень 2023 — квітень 2025,
+  у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in English. New friends», субота
+  15:00, кафе на Костянтинівській, 20.
 i18n:
   en:
     name: Meetup group 🌍 (international meetups)
@@ -40,19 +40,14 @@ i18n:
     schedule_note: >-
       In 2023–2025, roughly every other Saturday at 15:00; the café was announced in the group.
       After April 2025, there were no meetups of their own, only announcements of other events.
-    notes: >-
-      Telegram group (folder "🗣️Kyiv"), accessed 10.11.2026: 39 announcements of their own meetups,
-      September 2023 — April 2025, at 35 different venues. In a 2023 club listing: "Kyiv Meetup in
-      English. New friends", Saturday 15:00, a café at 20 Kostiantynivska St.
     contacts.0.note: Private group; invitations available from members
-  uk:
     notes: >-
-      Telegram-група (папка «🗣️Київ»), прочитано 10.11.2026: 39 анонсів власних зустрічей, вересень
-      2023 — квітень 2025, у 35 різних закладах. У 2023 році в переліку клубів: «Kyiv Meetup in
-      English. New friends», субота 15:00, кафе на вул. Костянтинівській, 20.
+      Telegram group, read on 10.11.2026: 39 announcements of its own meetups, September 2023 —
+      April 2025, at 35 different venues. In the 2023 club listings: "Kyiv Meetup in English. New
+      friends", Saturday 15:00, a cafe at 20 Kostiantynivska St.
 i18n_src:
   name: dd5690b7
   description: 1ce5ad87
   schedule_note: 11a48548
-  notes: 40efcfc9
   contacts.0.note: 836a931f
+  notes: "1e691945"

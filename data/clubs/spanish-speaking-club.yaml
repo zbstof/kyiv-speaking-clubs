@@ -40,9 +40,8 @@ status: active
 first_seen: 2023-10
 last_seen: "2026-11-10"
 notes: >-
-  Telegram-група клубу (папка «🗣️Київ»), прочитано 10.11.2026. Розклад перевірено за анонсами
-  жовтня–листопада 2026. Від початку — переважно Пузата Хата; у 2023–2024 також «Циферблат» і Buena
-  Vista.
+  Telegram-група клубу, прочитано 10.11.2026. Розклад перевірено за анонсами жовтня–листопада 2026.
+  Від початку — переважно Пузата Хата; у 2023–2024 також «Циферблат» і Buena Vista.
 i18n:
   en:
     location.address: 15/4-A Khreshchatyk St
@@ -54,13 +53,13 @@ i18n:
       Tuesday 19:00 — Puzata Khata on Khreshchatyk. Saturday 19:00 — the venue varies (recently
       "Rumi", 9 Bessarabska Square, or Hearth of Svitoria); check the announcement in the group.
       Sunday at Buena Vista — only by arrangement in the chat.
-    notes: >-
-      The club's Telegram group ("🗣️Kyiv" folder), read on 10.11.2026. Schedule checked against
-      October–November 2026 announcements. From the start — mostly Puzata Khata; in 2023–2024 also
-      "Tsyferblat" and Buena Vista.
     location.venue: Puzata Khata
     location.note: Near "Khreshchatyk" metro station
     contacts.0.note: Private group; invitations available from members
+    notes: >-
+      Club Telegram group, read on 10.11.2026. Schedule checked against October–November 2026
+      announcements. From the start — mostly Puzata Khata; in 2023–2024 also "Tsyferblat" and Buena
+      Vista.
   uk:
     name: Розмовний клуб іспанської
 i18n_src:
@@ -69,7 +68,7 @@ i18n_src:
   name: 235893d9
   description: 3cc8318e
   schedule_note: e548b367
-  notes: 007bd6b4
   location.venue: be30a852
   location.note: 953aee76
   contacts.0.note: 836a931f
+  notes: d97f2c80

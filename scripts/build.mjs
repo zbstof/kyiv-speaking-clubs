@@ -1,6 +1,6 @@
 // Reads data/clubs/*.yaml, checks each file against schema/club.schema.json,
 // and writes site/clubs.json. With --check it only validates.
-import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, rmSync, copyFileSync, existsSync } from "node:fs";
 import { join, basename, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
@@ -46,6 +46,17 @@ for (const file of files) {
   clubs.push(club);
 }
 
+// Club images: data/images/<club id>.jpg, 256 px at most. Not in the YAML, so suggestions cannot change them.
+const imagesDir = join(root, "data", "images");
+const images = existsSync(imagesDir) ? readdirSync(imagesDir).filter((f) => !f.startsWith(".")) : [];
+const ids = new Set(clubs.map((c) => c.id));
+for (const f of images) {
+  const id = basename(f, ".jpg");
+  if (!f.endsWith(".jpg")) errors.push(`data/images/${f}: must be a .jpg file`);
+  else if (!ids.has(id)) errors.push(`data/images/${f}: no club with id "${id}"`);
+  else clubs.find((c) => c.id === id).image = `/img/clubs/${f}`;
+}
+
 if (errors.length) {
   console.error(`${errors.length} problem(s):\n` + errors.map((e) => "  " + e).join("\n"));
   process.exit(1);
@@ -56,6 +67,12 @@ if (!checkOnly) {
   const out = { generated: new Date().toISOString(), clubs };
   writeFileSync(join(root, "site", "clubs.json"), JSON.stringify(out));
   console.log("wrote site/clubs.json");
+
+  const imgOut = join(root, "site", "img", "clubs");
+  rmSync(imgOut, { recursive: true, force: true });
+  mkdirSync(imgOut, { recursive: true });
+  for (const c of clubs) if (c.image) copyFileSync(join(imagesDir, `${c.id}.jpg`), join(imgOut, `${c.id}.jpg`));
+  console.log(`copied ${clubs.filter((c) => c.image).length} club images`);
 
   writePages(clubs);
 }
@@ -92,6 +109,7 @@ function writePages(clubs) {
     swap('<link rel="alternate" hreflang="en" href="https://speaking-clubs.zbstof.me/en/">', `<link rel="alternate" hreflang="en" href="${BASE}${path("en", id)}">`);
     swap('<link rel="alternate" hreflang="x-default" href="https://speaking-clubs.zbstof.me/">', `<link rel="alternate" hreflang="x-default" href="${BASE}${path("uk", id)}">`
       + `\n  <meta property="og:type" content="website">\n  <meta property="og:title" content="${esc(title)}">\n  <meta property="og:description" content="${esc(desc)}">`
+      + (club?.image ? `\n  <meta property="og:image" content="${BASE}${club.image}">\n  <meta property="og:image:width" content="256">\n  <meta property="og:image:height" content="256">` : "")
       + `\n  <meta property="og:url" content="${BASE}${path(lang, id)}">\n  <meta property="og:locale" content="${lang === "en" ? "en_GB" : "uk_UA"}">`
       + (club ? `\n  <script type="application/ld+json">${JSON.stringify(jsonLd(club, lang)).replace(/</g, "\\u003c")}</script>` : ""));
     swap('<h1><a href="/" id="home" data-i18n="title">Розмовні клуби Києва</a></h1>', `<h1><a href="${path(lang)}" id="home" data-i18n="title">${esc(L.site)}</a></h1>`);
@@ -127,6 +145,7 @@ function writePages(clubs) {
       "@context": "https://schema.org", "@type": "Organization",
       name: tx(c, lang, "name", c.name), url: BASE + path(lang, c.id),
       ...(c.description ? { description: tx(c, lang, "description", c.description) } : {}),
+      ...(c.image ? { logo: BASE + c.image } : {}),
       ...(sameAs.length ? { sameAs } : {}),
       knowsLanguage: c.languages,
       ...(loc.address || loc.lat !== undefined ? { location: { "@type": "Place",

@@ -133,6 +133,20 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 - **What the build generates:** `npm run build` writes these pages from `site/index.html`. Each page has the club's title and description, `canonical` and `hreflang` links, Open Graph tags, schema.org data (`Organization` with place and coordinates) and a short summary in the HTML. The script replaces the summary with the full list once it runs.
 - **Sitemap:** the build also writes `sitemap.xml`, with every page and its other-language version, and `robots.txt`. Submit the sitemap in Google Search Console.
 
+## Club images
+
+- **Where:** `data/images/<club id>.jpg`. The build checks that each file name matches a club, copies the files to `site/img/clubs/`, and adds `image` to `clubs.json`.
+- **Where they show:** next to the name on the card (48 px) and in the map popup (32 px). The club page also uses the image as `og:image` for link previews and as `logo` in its schema.org data.
+- **What to add:** the club's logo or chat avatar. No photos of people: small clubs often use the organizer's own photo. No images from closed groups unless the organizer agreed to publish the group.
+- **Format:** square, 256 px. Pad a wide logo with its own background color, so the rounded corners do not cut it:
+
+  ```bash
+  magick in.png -background white -alpha remove -alpha off -resize 236x236 \
+    -gravity center -extent 256x256 -strip -quality 82 data/images/<club id>.jpg
+  ```
+
+- **Suggestions:** the form cannot add or change images. Send a new image in an issue or a PR.
+
 ## Ukrainian and English
 
 - **Every text field holds both languages side by side:**

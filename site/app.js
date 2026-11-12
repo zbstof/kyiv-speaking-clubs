@@ -402,7 +402,7 @@
 
     return `<li class="card${isOld(c) ? " old" : ""}${c.id === focused ? " focused" : ""}" data-id="${esc(c.id)}" tabindex="0">
       <div class="row"><span class="badge ${st}">${esc(L.status[st])}</span>${c.languages.map((l) => `<span class="chip">${esc(langName(l))}</span>`).join("")}${c.format ? `<span class="chip">${esc(L.format[c.format])}</span>` : ""}</div>
-      <h3>${esc(tx(c, "name", c.name))}</h3>
+      <div class="title">${c.image ? `<img class="avatar" src="${esc(c.image)}" alt="" width="48" height="48" loading="lazy" decoding="async">` : ""}<h3>${esc(tx(c, "name", c.name))}</h3></div>
       ${c.description ? `<p class="desc">${esc(tx(c, "description", c.description))}</p>` : ""}
       ${sched || c.schedule_note ? `<p class="meta"><span class="ico">🗓</span><b>${esc(sched)}</b>${sched && c.schedule_note ? " — " : ""}${esc(tx(c, "schedule_note", c.schedule_note))}</p>` : ""}
       ${place || loc.note ? `<p class="meta"><span class="ico">📍</span>${esc(place)}${mapHref(loc) ? ` · <a href="${esc(mapHref(loc))}" target="_blank" rel="noopener nofollow">Google Maps</a>` : ""}${loc.lat !== undefined && c.format !== "online" ? ` · <a href="#map" data-onmap="${esc(c.id)}">${esc(L.onMap)}</a>` : ""}${loc.note ? `${place ? "<br>" : ""}<span class="ico">🧭</span>${esc(tx(c, "location.note", loc.note))}` : ""}</p>` : ""}
@@ -695,7 +695,7 @@
     const sched = (c.schedule || []).filter((s) => s.format !== "online").map((s) => `${L.days[s.day]}${s.time ? " " + s.time : ""}`).join(", ");
     const href = mapHref(loc);
     return `<div class="pop${inGroup ? " pop-item" : ""}">
-      <b>${esc(tx(c, "name", c.name))}</b>
+      <div class="pop-title">${c.image ? `<img class="avatar" src="${esc(c.image)}" alt="" width="32" height="32" loading="lazy">` : ""}<b>${esc(tx(c, "name", c.name))}</b></div>
       <div class="pop-meta"><span class="badge ${st}">${esc(L.status[st])}</span> ${esc(c.languages.map(langName).join(", "))}</div>
       ${sched ? `<div>🗓 ${esc(sched)}</div>` : ""}
       <div>📍 ${esc([tx(c, "location.venue", loc.venue), tx(c, "location.address", loc.address)].filter(Boolean).join(", "))}</div>

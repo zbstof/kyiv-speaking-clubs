@@ -26,7 +26,7 @@ schedule_note:
     In 2023–2025, roughly every other Saturday at 15:00; the café was announced in the group. After
     April 2025, there were no meetups of their own, only announcements of other events.
 price:
-  free: true
+  kind: free
 registration: optional
 contacts:
   - type: telegram

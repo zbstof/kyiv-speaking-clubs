@@ -23,7 +23,7 @@ location:
   lon: 30.785008
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 253-15-48

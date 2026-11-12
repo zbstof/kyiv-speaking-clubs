@@ -43,7 +43,7 @@ schedule_note:
     Balanchuk. Meeting times are not given in the posts; call (044) 529-14-73 to confirm. The
     library is closed on Saturdays. The latest meeting listed on the blog is Tuesday, 4 August 2026.
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 529-14-73

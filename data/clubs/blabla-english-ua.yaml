@@ -43,7 +43,7 @@ schedule_note:
     sometimes extra meetings on Mondays. In-person meetings on Tuesdays are a separate club,
     Pozniaky English Speaking Club.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: telegram

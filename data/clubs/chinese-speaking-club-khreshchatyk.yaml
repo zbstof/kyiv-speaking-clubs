@@ -30,7 +30,7 @@ schedule_note:
   uk: Зустрічі в суботу об 13:00 (грудень 2023); пізніше — за анонсами в групі.
   en: Meetings on Saturdays at 13:00 (December 2023); after that, as announced in the group.
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     access: on_request

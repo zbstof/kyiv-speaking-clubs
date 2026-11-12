@@ -33,10 +33,10 @@ schedule_note:
   uk: Раз на тиждень щосуботи; теми на рік — на dec-school.com
   en: Once a week on Saturdays; topics for the year on dec-school.com
 price:
-  free: true
+  kind: paid
   amount:
-    uk: безкоштовно для учнів DEC school
-    en: free for DEC school students
+    uk: безкоштовно лише для учнів школи (курси платні)
+    en: free only for the school’s students (courses are paid)
 contacts:
   - type: website
     url: https://dec-school.com

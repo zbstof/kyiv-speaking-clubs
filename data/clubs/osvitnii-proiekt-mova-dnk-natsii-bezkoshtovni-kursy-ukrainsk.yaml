@@ -19,7 +19,7 @@ schedule_note:
   uk: Раз на тиждень, 2 години, 5-6 місяців (станом на Feb 2020).
   en: Once a week, 2 hours, 5-6 months (as of Feb 2020).
 price:
-  free: true
+  kind: free
 organizer: Освітній проєкт «Мова — ДНК нації»
 status: unknown
 first_seen: "2020-02-25"

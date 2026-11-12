@@ -23,7 +23,7 @@ location:
   lon: 30.446181
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 245-71-17

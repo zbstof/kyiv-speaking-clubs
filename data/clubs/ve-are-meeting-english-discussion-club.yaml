@@ -21,7 +21,7 @@ schedule_note:
   uk: Щотижня, March–June 2017
   en: Weekly, March–June 2017
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: other

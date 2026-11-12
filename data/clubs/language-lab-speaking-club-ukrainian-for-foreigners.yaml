@@ -32,7 +32,7 @@ schedule_note:
     on 23.08.2026, Sunday, at 19:00 on Zoom (for Independence Day). Register via the form on the
     website; the link is sent by email.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

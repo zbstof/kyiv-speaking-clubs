@@ -32,7 +32,7 @@ schedule_note:
   uk: Щопонеділка 19:30
   en: Every Monday 19:30
 price:
-  free: false
+  kind: paid
   amount:
     uk: від 50 грн (благодійний внесок)
     en: from 50 UAH (charity donation)

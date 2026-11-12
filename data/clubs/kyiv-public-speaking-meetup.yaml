@@ -29,7 +29,7 @@ schedule_note:
     2015-11-25
   en: Irregular evenings 18:00–19:00; 9 events, e.g. 2015-07-07, 2015-10-09, 2015-11-03, 2015-11-25
 price:
-  free: true
+  kind: free
 registration: optional
 contacts:
   - type: meetup

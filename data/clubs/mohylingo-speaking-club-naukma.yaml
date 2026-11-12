@@ -16,7 +16,7 @@ schedule_note:
   uk: Наприклад, 21 May, 18:00, тема «Міграція. Усі аспекти» (імовірно, 2023 рік)
   en: e.g. 21 May, 18:00, topic 'Migration. All aspects' (year likely 2023)
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

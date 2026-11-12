@@ -34,7 +34,7 @@ schedule_note:
   uk: Серія зустрічей; одна — у вівторок 2015-08-18, попередня — у суботу
   en: Series of sessions; one on Tue 2015-08-18, previous one on a Saturday
 price:
-  free: false
+  kind: paid
   amount:
     uk: 55 грн (вхід до простору)
     en: 55 UAH (space entry)

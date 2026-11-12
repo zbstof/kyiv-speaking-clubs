@@ -28,7 +28,7 @@ schedule_note:
   uk: Щонеділі (2010)
   en: Sundays (2010)
 price:
-  free: true
+  kind: free
 status: unknown
 first_seen: "2010-04-08"
 last_seen: 2010-04

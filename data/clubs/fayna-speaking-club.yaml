@@ -24,7 +24,7 @@ schedule_note:
   uk: Окремі зустрічі в суботу о 18:00 (листопад 2025).
   en: Selected Saturday meetings at 18:00 (November 2025).
 price:
-  free: false
+  kind: paid
   amount:
     uk: Донат 400 грн на допомогу пораненим
     en: A donation of 400 UAH to help the wounded

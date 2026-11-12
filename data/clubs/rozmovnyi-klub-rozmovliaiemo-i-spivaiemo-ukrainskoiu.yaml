@@ -23,7 +23,7 @@ location:
   lon: 30.642784
   geocoded: true
 price:
-  free: true
+  kind: free
 organizer: Бібліотека ім. М. Руденка
 status: unknown
 first_seen: 2023-08

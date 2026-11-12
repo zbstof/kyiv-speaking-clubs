@@ -31,7 +31,7 @@ schedule_note:
   uk: Середа 19:00–22:00.
   en: Wednesday 19:00–22:00.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

@@ -18,7 +18,7 @@ location:
     uk: вул. Завальна, 1-в
     en: 1-V Zavalna St
 price:
-  free: true
+  kind: free
 organizer: Бібліотека ім. Г. Квітки-Основ'яненка
 status: unknown
 first_seen: 2023-08

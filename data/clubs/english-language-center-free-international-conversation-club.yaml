@@ -29,7 +29,7 @@ schedule_note:
   uk: Щоп’ятниці о 7 p.m. (2010)
   en: Fridays 7 p.m. (2010)
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: http://english.in.ua

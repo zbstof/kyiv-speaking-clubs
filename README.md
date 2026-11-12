@@ -47,8 +47,10 @@ schedule:
     frequency: weekly           # weekly | biweekly | monthly | irregular
 schedule_note: Every Saturday, sometimes skipped in summer
 price:
-  free: true
-  amount: "150 грн"
+  kind: partly                  # free | partly | paid. partly: free with a condition (guests only, donation, venue charges)
+  amount:
+    uk: Гостям вхід вільний, але лише знайомство й Table Topics
+    en: Guests attend free, but only for introductions and Table Topics
 registration: required          # required | optional | none
 contacts:
   - type: telegram

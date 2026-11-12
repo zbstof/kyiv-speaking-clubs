@@ -21,7 +21,7 @@ schedule_note:
     and overnight at 03:00, plus 14:00 on weekends. The Meetup group has not posted events since
     19.09.2026.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

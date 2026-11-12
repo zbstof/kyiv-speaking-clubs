@@ -36,7 +36,7 @@ schedule_note:
   uk: "Щосуботи 15:00–18:00. Можна прийти пізніше: шукайте розмову англійською."
   en: "Every Saturday 15:00–18:00. You can arrive later: look for people speaking English."
 price:
-  free: false
+  kind: partly
   amount:
     uk: Клуб безкоштовний; антикафе 100 ₴/год, максимум 400 ₴ за день
     en: The club is free; the anti-cafe costs 100 ₴/hour, maximum 400 ₴ per day

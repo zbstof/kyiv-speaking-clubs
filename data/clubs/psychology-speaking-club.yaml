@@ -46,7 +46,7 @@ schedule_note:
     Weekly, usually on Saturday (sometimes Sunday), starting at 17:00–18:00. The exact time and
     topic are posted in the group a few days in advance.
 price:
-  free: false
+  kind: paid
   amount:
     uk: 300 ₴, оплата наперед підтверджує місце
     en: 300 ₴, advance payment confirms your place

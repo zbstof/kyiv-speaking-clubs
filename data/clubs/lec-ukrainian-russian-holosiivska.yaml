@@ -27,7 +27,7 @@ schedule_note:
   uk: Вечір 18:30–20:30; улітку не щотижня.
   en: Evenings 18:30–20:30; not every week in summer.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

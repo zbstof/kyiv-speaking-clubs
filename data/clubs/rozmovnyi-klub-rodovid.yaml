@@ -22,7 +22,7 @@ location:
   lon: 30.526018
   geocoded: true
 price:
-  free: true
+  kind: free
 organizer: Книгарня «Родовід»
 status: unknown
 first_seen: 2023-08

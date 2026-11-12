@@ -43,7 +43,7 @@ schedule_note:
   uk: Щосереди 18:00–21:30. Запис у групі; місця часто закінчуються заздалегідь.
   en: Every Wednesday 18:00–21:30. Sign up in the group; places often fill up in advance.
 price:
-  free: false
+  kind: paid
   amount:
     uk: 300 ₴
     en: 300 ₴

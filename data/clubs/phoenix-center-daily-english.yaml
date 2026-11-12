@@ -32,7 +32,7 @@ schedule_note:
   uk: У будні; обмін книжками пн–пт 18:00–19:30, сб 12:00–13:30 (2010)
   en: Weekdays; book exchange Mon–Fri 18:00–19:30, Sat 12:00–13:30 (2010)
 price:
-  free: true
+  kind: free
 organizer: Phoenix Center
 status: unknown
 first_seen: "2010-04-08"

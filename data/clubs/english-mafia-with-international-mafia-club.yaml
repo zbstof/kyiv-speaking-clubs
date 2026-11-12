@@ -31,7 +31,7 @@ schedule_note:
   uk: Щонеділі 18:00–23:00 (2016)
   en: Sundays 18:00–23:00 (2016)
 price:
-  free: false
+  kind: paid
   amount:
     uk: 30 грн за гру або 70 грн за вечір
     en: 30 UAH per game or 70 UAH per evening

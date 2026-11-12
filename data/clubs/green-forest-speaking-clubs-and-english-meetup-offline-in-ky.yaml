@@ -42,7 +42,7 @@ schedule_note:
     English Sunday Online: every Sunday on Zoom at 11:00, 13:00 and 15:00, free, ages 16 and up.
     Also Book Talk and offline meetups.
 price:
-  free: false
+  kind: partly
   amount:
     uk: English Meetup Offline — 250 грн; онлайн-клуби безкоштовні
     en: English Meetup Offline 250 UAH; online clubs free

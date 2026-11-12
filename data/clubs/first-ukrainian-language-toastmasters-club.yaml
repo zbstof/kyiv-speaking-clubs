@@ -25,7 +25,7 @@ schedule_note:
   uk: Відвідано зустріч у чт 2012-10-18; регулярний розклад не вказано
   en: Meeting attended Thu 2012-10-18; regular schedule not stated
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

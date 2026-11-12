@@ -19,7 +19,7 @@
       title: "Розмовні клуби Києва",
       addClub: "+ Додати клуб",
       searchPh: "Пошук: назва, місце, організатор",
-      freeOnly: "Лише безкоштовні",
+      
       showOld: "Показати старі й закриті",
       empty: "Нічого не знайдено. Змініть фільтри або додайте клуб.",
       allLangs: "Усі мови", anyDay: "Будь-який день", anyFormat: "Будь-який формат",
@@ -53,6 +53,8 @@
       approxMetro: (m) => `Точне місце невідоме. Точка стоїть на станції метро «${m}».`,
       legendApprox: "пунктир: точка на станції метро, точне місце невідоме",
       onMap: "На мапі", link: "Посилання", copied: "Скопійовано",
+      priceKind: { free: "Безкоштовно", partly: "Частково безкоштовно", paid: "Платно" },
+      priceFilter: { any: "Будь-яка ціна", free: "Безкоштовно", free_partly: "Безкоштовно або частково" }, ariaPrice: "Ціна",
       viewList: "Список", viewMap: "Мапа", more: "Детальніше", approx: "Місце визначено автоматично за адресою, може бути неточним.",
       mapFailed: "Не вдалося завантажити мапу. Перевірте інтернет.",
       mapNote: (n, total) => `На мапі ${n} з ${total} клубів. Решта онлайн або без точної адреси: їх видно у списку.`,
@@ -86,7 +88,7 @@
         locNote: "Як знайти на місці", locNoteHint: "Поверх, кімната, вхід, вивіска. Напр. «2 поверх, зала 116, вхід з двору».",
         schedule: "Розклад", addRow: "+ рядок", day: "День", time: "Час", duration: "Тривалість, хв", frequency: "Частота",
         scheduleNote: "Розклад текстом (якщо складний)", free: "Безкоштовно", amount: "Ціна (текстом)",
-        registration: "Реєстрація", contacts: "Контакти", url: "Посилання / @нік / телефон",
+        registration: "Реєстрація", contacts: "Контакти", url: "Посилання / @нік / телефон", priceKind: "Вартість",
         access: "Доступ", contactNote: "Як потрапити (для закритих груп)",
         accessOpt: { public: "відкрите", on_request: "закрита група", invite: "запрошення (адміни дозволили)" },
         organizer: "Організатор (публічне імʼя або організація)", status: "Статус", notes: "Примітки",
@@ -98,7 +100,7 @@
       title: "Kyiv Speaking Clubs",
       addClub: "+ Add a club",
       searchPh: "Search: name, place, organizer",
-      freeOnly: "Free only",
+      
       showOld: "Show old and closed",
       empty: "Nothing found. Change the filters or add a club.",
       allLangs: "All languages", anyDay: "Any day", anyFormat: "Any format",
@@ -130,6 +132,8 @@
       approxMetro: (m) => `Exact place unknown. The dot marks the "${m}" metro station.`,
       legendApprox: "dashed: dot at the metro station, exact place unknown",
       onMap: "On the map", link: "Link", copied: "Copied",
+      priceKind: { free: "Free", partly: "Partly free", paid: "Paid" },
+      priceFilter: { any: "Any price", free: "Free", free_partly: "Free or partly free" }, ariaPrice: "Price",
       viewList: "List", viewMap: "Map", more: "Details", approx: "Place found automatically from the address; it may be off.",
       mapFailed: "Could not load the map. Check your connection.",
       mapNote: (n, total) => `${n} of ${total} clubs are on the map. The rest are online or have no exact address; see the list.`,
@@ -163,7 +167,7 @@
         locNote: "How to find it there", locNoteHint: "Floor, room, entrance, sign. E.g. \"2nd floor, room 116, entrance from the yard\".",
         schedule: "Schedule", addRow: "+ row", day: "Day", time: "Time", duration: "Length, min", frequency: "Frequency",
         scheduleNote: "Schedule as text (if complex)", free: "Free", amount: "Price (text)",
-        registration: "Registration", contacts: "Contacts", url: "Link / @handle / phone",
+        registration: "Registration", contacts: "Contacts", url: "Link / @handle / phone", priceKind: "Cost",
         access: "Access", contactNote: "How to get in (for closed groups)",
         accessOpt: { public: "open", on_request: "closed group", invite: "invite (admins allowed)" },
         organizer: "Organizer (public name or organization)", status: "Status", notes: "Notes",
@@ -309,6 +313,9 @@
         .map((l) => `<option value="${esc(l)}">${esc(langName(l))} (${langCounts[l]})</option>`).join("");
     daySel.innerHTML = `<option value="">${esc(t().anyDay)}</option>` + DAYS.map((d) => `<option value="${d}">${esc(t().daysLong[d])}</option>`).join("");
     fmtSel.innerHTML = `<option value="">${esc(t().anyFormat)}</option>` + ["offline", "online", "hybrid"].map((f) => `<option value="${f}">${esc(t().format[f])}</option>`).join("");
+    const priceSel = $("#f-price"), keepPrice = priceSel.value;
+    priceSel.innerHTML = ["", "free", "free_partly"].map((v) => `<option value="${v}">${esc(t().priceFilter[v || "any"])}</option>`).join("");
+    priceSel.value = keepPrice;
     [langSel.value, daySel.value, fmtSel.value] = keep;
   }
 
@@ -330,7 +337,7 @@
   function render() {
     const q = $("#q").value.trim().toLowerCase();
     const lang = $("#f-lang").value, day = $("#f-day").value, fmt = $("#f-format").value;
-    const freeOnly = $("#f-free").checked, showOld = $("#f-old").checked;
+    const priceWant = $("#f-price").value, showOld = $("#f-old").checked;
 
     const list = clubs.filter((c) => {
       if (c.id === focused) return true;   // a linked club is shown even if the filters would hide it
@@ -338,7 +345,9 @@
       if (lang && !c.languages.includes(lang)) return false;
       if (day && !(c.schedule || []).some((s) => s.day === day)) return false;
       if (fmt && c.format !== fmt && !(c.format === "hybrid" && fmt !== "hybrid")) return false;
-      if (freeOnly && !(c.price && c.price.free)) return false;
+      const kind = c.price?.kind;
+      if (priceWant === "free" && kind !== "free") return false;
+      if (priceWant === "free_partly" && kind !== "free" && kind !== "partly") return false;
       if (q) {
         const hay = [c.name, c.description, c.organizer, c.notes, c.schedule_note, ...Object.values(c.location || {}), ...(c.contacts || []).map((x) => x.note)]
           .map(allText).concat(c.languages.map((l) => LANGS[l] ? LANGS[l].join(" ") : l)).join(" ").toLowerCase();
@@ -368,7 +377,10 @@
       .filter((part, i, all) => !all.slice(0, i).some((prev) => prev.includes(part))) // address already inside venue text
       .join(", ");
     // The price text, when there is one, says more than the free/paid flag (e.g. Toastmasters: guests free, members pay).
-    const price = c.price ? (tx(c, "price.amount", c.price.amount) || (c.price.free ? L.free : L.paid)) : "";
+    // Kind label, then the price text when there is one: "Частково безкоштовно — гостям вхід вільний…".
+    const amount = c.price ? tx(c, "price.amount", c.price.amount) : "";
+    const kindLabel = c.price?.kind ? L.priceKind[c.price.kind] : "";
+    const price = [kindLabel, amount].filter(Boolean).join(" — ");   // label and its text together, for every kind
     const dates = [
       c.last_checked && `${L.checked}: ${fmtDate(c.last_checked)}`,
       c.last_seen && `${L.lastSeen}: ${fmtDate(c.last_seen)}`,
@@ -470,8 +482,8 @@
       field("locNote", F.locNote, `<input name="locNote" maxlength="300" value="${esc(lf("location.note", loc.note))}">`, F.locNoteHint),
       field("mapUrl", F.mapUrl, `<input name="mapUrl" type="url" inputmode="url" maxlength="500" value="${esc(loc.map_url || "")}">`, F.mapUrlHint),
       `<div class="grid2">
-        <label class="check"><input type="checkbox" name="free"${c.price?.free ? " checked" : ""}> ${esc(F.free)}</label>
-        ${field("amount", F.amount, c.price?.free
+        ${field("priceKind", F.priceKind, `<select name="priceKind">${opt("", F.none, !c.price?.kind)}${["free", "partly", "paid"].map((k) => opt(k, L.priceKind[k], c.price?.kind === k)).join("")}</select>`)}
+        ${field("amount", F.amount, c.price?.kind === "free"
           ? `<input name="amount" maxlength="300" value="" disabled>`
           : `<input name="amount" maxlength="300" value="${esc(lf("price.amount", c.price?.amount))}">`)}
         ${field("registration", F.registration, `<select name="registration">${opt("", F.none, !c.registration)}${["required", "optional", "none"].map((x) => opt(x, L.reg[x], c.registration === x)).join("")}</select>`)}
@@ -522,8 +534,8 @@
     const ll = coordsFromMapUrl(v("mapUrl")) || (samePlace ? { lat: prev.lat, lon: prev.lon } : null);
     c.location = { venue, address, metro, note: keep("location.note", v("locNote")),
       map_url: /^https:\/\//.test(v("mapUrl")) ? v("mapUrl") : "", ...(ll ? { lat: ll.lat, lon: ll.lon } : {}) };
-    const free = form.elements.free.checked;
-    c.price = { free, amount: free ? "" : keep("price.amount", v("amount")) }; // a free club never sends a leftover price
+    const kind = v("priceKind");
+    c.price = { kind, amount: kind === "free" ? "" : keep("price.amount", v("amount")) }; // a free club never sends a leftover price text
     c.registration = v("registration");
     c.contacts = [...form.querySelectorAll("[data-rep=contacts]")].map((r) => {
       const noteEl = r.querySelector("[name=c_note]"), note = noteEl.value.trim();
@@ -799,7 +811,7 @@
 
   // ---------- events ----------
   function bind() {
-    ["#q", "#f-lang", "#f-day", "#f-format", "#f-free", "#f-old"].forEach((s) => $(s).addEventListener("input", render));
+    ["#q", "#f-lang", "#f-day", "#f-format", "#f-price", "#f-old"].forEach((s) => $(s).addEventListener("input", render));
     $("#add-club").addEventListener("click", () => openDialog("add", null));
     document.querySelector(".lang-switch").addEventListener("click", (e) => {
       const b = e.target.closest("[data-ui]");
@@ -834,12 +846,12 @@
       openDialog(btn.dataset.act, club);
     });
     const dlg = $("#dlg");
-    // "Безкоштовно" clears the price and locks the field; unticking unlocks it, still empty.
+    // "Безкоштовно" clears the price text and locks the field; another kind unlocks it, still empty.
     dlg.addEventListener("change", (e) => {
-      if (e.target.name !== "free") return;
+      if (e.target.name !== "priceKind") return;
       const amount = e.target.form.elements.amount;
-      amount.value = "";
-      amount.disabled = e.target.checked;
+      if (e.target.value === "free") amount.value = "";
+      amount.disabled = e.target.value === "free";
     });
     dlg.addEventListener("click", (e) => {
       if (e.target.closest("[data-close]")) dlg.close();
@@ -855,8 +867,8 @@
       if (e.metaKey || e.ctrlKey || e.shiftKey) return;
       e.preventDefault();
       $("#q").value = "";
-      ["#f-lang", "#f-day", "#f-format"].forEach((s) => { $(s).value = ""; });
-      ["#f-free", "#f-old"].forEach((s) => { $(s).checked = false; });
+      ["#f-lang", "#f-day", "#f-format", "#f-price"].forEach((s) => { $(s).value = ""; });
+      $("#f-old").checked = false;
       map?.closePopup();
       history.pushState(null, "", LANG_PATHS[ui] + (view === "map" ? "#map" : ""));
       focusClub(null, { push: false });

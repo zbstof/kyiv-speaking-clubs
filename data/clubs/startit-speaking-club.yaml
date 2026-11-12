@@ -37,7 +37,7 @@ schedule_note:
     2017-04-26 19:00
   en: "Numbered meetups #1–#10, roughly monthly; e.g. Fri 2016-07-01 19:00–21:00, Wed 2017-04-26 19:00"
 price:
-  free: false
+  kind: paid
   amount:
     uk: 100 грн (2016), 50–70 грн (2017); безкоштовно для студентів StartIT
     en: 100 UAH (2016), 50–70 UAH (2017); free for StartIT students

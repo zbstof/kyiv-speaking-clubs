@@ -25,7 +25,7 @@ schedule_note:
   uk: Раз на місяць у неділю 14:00–16:00.
   en: Once a month on Sunday, 14:00–16:00.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

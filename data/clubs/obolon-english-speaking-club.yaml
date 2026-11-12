@@ -48,7 +48,7 @@ schedule_note:
     take place if at least three people in the group confirm attendance; recent invitations have
     been infrequent.
 price:
-  free: true
+  kind: free
 registration: optional
 contacts:
   - type: telegram

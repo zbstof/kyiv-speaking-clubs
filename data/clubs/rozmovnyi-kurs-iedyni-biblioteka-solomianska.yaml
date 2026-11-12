@@ -23,7 +23,7 @@ location:
   lon: 30.480872
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 248-61-56

@@ -30,7 +30,7 @@ schedule_note:
   uk: Щосуботи; англійський клуб 14:00-16:00 (2010). Дві години. Реєстрація до п’ятниці.
   en: Every Saturday; English club 14:00-16:00 (2010). Two hours. Register by Friday.
 price:
-  free: false
+  kind: paid
   amount:
     uk: 50 грн (український викладач) / 70 грн (носій мови), 2010
     en: 50 UAH (Ukrainian trainer) / 70 UAH (native speaker), 2010

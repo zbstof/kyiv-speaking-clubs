@@ -23,7 +23,7 @@ location:
   lon: 30.407327
   geocoded: true
 price:
-  free: true
+  kind: free
 organizer: Універсальна публічна бібліотека № 11
 status: unknown
 first_seen: 2025-12

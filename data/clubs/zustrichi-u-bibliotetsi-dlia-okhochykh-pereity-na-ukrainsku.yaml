@@ -23,7 +23,7 @@ location:
   lon: 30.379835
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 450-81-00

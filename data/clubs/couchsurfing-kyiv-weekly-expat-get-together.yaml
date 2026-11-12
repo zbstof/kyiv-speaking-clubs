@@ -25,7 +25,7 @@ schedule_note:
   uk: Щосереди зустріч Couchsurfing; час і місце — у групі.
   en: Couchsurfing meetup every Wednesday; time and place are in the group.
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     url: https://t.me/CouchsurfingKyiv

@@ -43,7 +43,7 @@ schedule_note:
   uk: Щовівторка 19:00–22:00. Ведучий бронює стіл; у групі пишуть, за яким столом.
   en: Every Tuesday, 19:00–22:00. The host reserves a table; the group chat specifies which table.
 price:
-  free: true
+  kind: free
 registration: optional
 contacts:
   - type: telegram

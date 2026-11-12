@@ -32,7 +32,7 @@ schedule_note:
   uk: Щосуботи 18:00–21:00. Перша зустріч — 10.10.2026.
   en: Every Saturday 18:00–21:00. First meeting — 10.10.2026.
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     access: on_request

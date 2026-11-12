@@ -19,7 +19,7 @@ schedule_note:
   uk: Вівторок 20:00–21:00, Google Meet.
   en: Tuesday 20:00–21:00, Google Meet.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

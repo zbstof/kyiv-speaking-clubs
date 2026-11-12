@@ -43,7 +43,7 @@ schedule_note:
     Roughly weekly, weekends or weekday evenings; e.g. Sun 2016-01-17 11:30, Tue 2016-09-20 19:00,
     Sun 2017-04-02 18:00–21:00, Sat 2018-01-27 18:00
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: facebook

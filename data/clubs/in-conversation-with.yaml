@@ -33,7 +33,7 @@ schedule_note:
   uk: Щосереди о 19:00. Анонси й теми вечора публікують у групі.
   en: Every Wednesday at 19:00. Announcements and evening topics are posted in the group.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: telegram

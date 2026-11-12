@@ -44,7 +44,7 @@ schedule_note:
     26.11 (Thu). Dates and topics are in the registration form; participation is confirmed within 3
     days.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

@@ -23,7 +23,7 @@ schedule_note:
   uk: напр., сб 2015-10-17 13:00, 1 година
   en: e.g. Sat 2015-10-17 13:00, 1 hour
 price:
-  free: false
+  kind: paid
   amount:
     uk: 50 грн
     en: 50 UAH

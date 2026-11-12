@@ -23,7 +23,7 @@ schedule_note:
   uk: Друга середа місяця, у Zoom
   en: 2nd Wednesday of the month, on Zoom
 price:
-  free: true
+  kind: free
 organizer: Кафедра германської філології КСУ ім. Бориса Грінченка (керівник Попова С.Г.)
 status: unknown
 first_seen: "2021-01-13"

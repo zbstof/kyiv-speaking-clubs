@@ -36,7 +36,7 @@ schedule_note:
     опубліковано.
   en: "Documented session: 31 May 2023, 06:00 Kyiv time. No regular schedule published."
 price:
-  free: true
+  kind: free
 organizer: >-
   Кафедра української філології для іноземних громадян, ННІ філології КНУ ім. Т. Шевченка
   (moderators O. Kasianova, S. Fedzhora)

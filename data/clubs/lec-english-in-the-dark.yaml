@@ -29,7 +29,7 @@ schedule_note:
   uk: Четвер 18:50–21:00, старт біля головного входу ВДНГ.
   en: Thursday 18:50–21:00, starting at the main entrance to VDNH.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

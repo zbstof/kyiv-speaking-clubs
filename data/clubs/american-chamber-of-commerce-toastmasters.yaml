@@ -32,7 +32,7 @@ schedule_note:
   uk: Щосереди о 7:30 p.m.
   en: Wednesdays 7:30 p.m.
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

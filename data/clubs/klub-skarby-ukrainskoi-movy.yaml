@@ -21,7 +21,7 @@ location:
   lon: 30.623336
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 513-61-54

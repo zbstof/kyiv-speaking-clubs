@@ -47,7 +47,7 @@ schedule_note:
     "Rumi", 9 Bessarabska Square, or Hearth of Svitoria); check the announcement in the group.
     Sunday at Buena Vista — only by arrangement in the chat.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: telegram

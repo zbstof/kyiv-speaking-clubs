@@ -23,7 +23,7 @@ location:
   lon: 30.434436
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 404-63-31

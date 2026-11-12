@@ -39,16 +39,14 @@ schedule_note:
   uk: >-
     Сезонно: навесні 2026 щосуботи (18 квітня – 30 травня), час змінювався від 13:00 до 17:00; у
     2025 — по неділях 14:00–16:00. Зустріч 6 червня 2026 скасували, відтоді нових анонсів немає. Щоб
-    прийти, напишіть «+» під анонсом у чаті.
+    прийти, напишіть «+» під анонсом у чаті. Вхід вільний; замовте принаймні напій або перекус.
   en: >-
     Seasonal: in spring 2026, every Saturday (18 April – 30 May), with times varying from 13:00 to
     17:00; in 2025, on Sundays 14:00–16:00. The meeting on 6 June 2026 was cancelled, and there have
     been no new announcements since. To attend, reply with "+" under the announcement in the chat.
+    Free entry; order at least a drink or a snack.
 price:
-  free: true
-  amount:
-    uk: безкоштовно; замовте принаймні напій або перекус
-    en: free; order at least a drink or snack
+  kind: free
 registration: required
 contacts:
   - type: telegram

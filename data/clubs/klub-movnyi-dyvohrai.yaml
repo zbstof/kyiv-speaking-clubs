@@ -23,7 +23,7 @@ location:
   lon: 30.679804
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 568-99-74

@@ -20,7 +20,7 @@ schedule_note:
   uk: "Літо, 6 тижнів (2013: 3 Jun-15 Jul; 2014: з червня)"
   en: "Summer, 6 weeks (2013: 3 Jun-15 Jul; 2014: from June)"
 price:
-  free: false
+  kind: paid
   amount:
     uk: "2013: 470-580 грн; 2014: 350-450 грн за курс"
     en: "2013: 470-580 UAH; 2014: 350-450 UAH per course"

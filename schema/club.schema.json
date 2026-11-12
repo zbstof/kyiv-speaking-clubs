@@ -159,8 +159,13 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "free": {
-          "type": "boolean"
+        "kind": {
+          "description": "free: no cost. partly: free with a condition or limit (guests only, a donation, the venue charges, some formats paid). paid: costs money.",
+          "enum": [
+            "free",
+            "partly",
+            "paid"
+          ]
         },
         "amount": {
           "$ref": "#/definitions/text300"

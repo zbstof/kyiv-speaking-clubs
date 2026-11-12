@@ -26,7 +26,7 @@ location:
   lon: 30.520873
   geocoded: true
 price:
-  free: true
+  kind: free
 registration: required
 organizer: Kyiv City State Administration with Lingva.Skills (initiative «Київ заговорить англійською»)
 status: unknown

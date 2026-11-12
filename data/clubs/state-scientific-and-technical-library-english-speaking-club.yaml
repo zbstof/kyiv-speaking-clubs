@@ -29,7 +29,7 @@ schedule_note:
   uk: Щопонеділка 15:00–16:00, зазначені зустрічі з 2024-01-02 до 2024-02-26
   en: Mondays 15:00–16:00, sessions listed 2024-01-02 to 2024-02-26
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: email

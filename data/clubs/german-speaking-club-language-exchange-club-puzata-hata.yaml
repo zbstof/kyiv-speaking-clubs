@@ -37,7 +37,7 @@ schedule_note:
   uk: Середа, 7 p.m.
   en: Wednesday, 7 p.m.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: facebook

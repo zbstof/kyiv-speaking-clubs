@@ -37,7 +37,7 @@ schedule_note:
     щоразу інша.
   en: About 2 hours per meeting; FRI Kyiv post says meetings happen daily, language varies.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: website

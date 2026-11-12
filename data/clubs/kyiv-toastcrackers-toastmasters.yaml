@@ -29,7 +29,7 @@ schedule_note:
   uk: Щосереди о 7 p.m. (2010)
   en: Wednesdays 7 p.m. (2010)
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

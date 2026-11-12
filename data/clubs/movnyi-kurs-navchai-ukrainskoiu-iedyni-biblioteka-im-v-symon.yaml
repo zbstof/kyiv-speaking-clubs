@@ -35,7 +35,7 @@ schedule_note:
     2023 (Sat), 11 May 2024 (Sat, moderator Marharyta Samoiliuk). Listed again in Dec 2025 city
     list.
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 287-10-02

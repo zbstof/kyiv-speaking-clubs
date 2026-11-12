@@ -28,7 +28,7 @@ schedule_note:
   uk: 17:30–20:30; улітку нерегулярно.
   en: 17:30–20:30; irregularly in summer.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

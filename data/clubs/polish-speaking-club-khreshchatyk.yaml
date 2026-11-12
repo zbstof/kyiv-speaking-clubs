@@ -31,7 +31,7 @@ schedule_note:
   uk: Пʼятниця 19:00–21:00 (за анонсом червня 2025).
   en: Friday 19:00–21:00 (according to the June 2025 announcement).
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     access: on_request

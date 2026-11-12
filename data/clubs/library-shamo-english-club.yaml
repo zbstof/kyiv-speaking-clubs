@@ -40,7 +40,7 @@ schedule_note:
     every Monday at 14:00; the department’s book club — once a month (sign up at the library, (044)
     295-16-09).
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     access: on_request

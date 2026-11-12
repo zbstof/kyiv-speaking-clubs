@@ -23,7 +23,7 @@ location:
   lon: 30.531264
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 234-25-22

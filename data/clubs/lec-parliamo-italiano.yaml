@@ -28,7 +28,7 @@ schedule_note:
   uk: 16:00–19:00.
   en: 16:00–19:00.
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://lec.link/

@@ -37,7 +37,7 @@ schedule_note:
     Mafia In English: Fridays from 19:00 'till the last survivor' (2016); Alias In English: Tue
     2017-11-14 19:00–22:30
 price:
-  free: false
+  kind: paid
   amount:
     uk: 20–30 грн за гру, 50–70 грн за вечір; Alias — 50 грн + плата за перебування в закладі
     en: 20–30 UAH per game, 50–70 UAH per evening; Alias 50 UAH + venue fee

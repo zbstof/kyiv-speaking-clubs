@@ -27,7 +27,7 @@ schedule_note:
   uk: Щонеділі о 15:00 (за анонсом листопада 2024).
   en: Every Sunday at 15:00 (according to the November 2024 announcement).
 price:
-  free: false
+  kind: partly
   amount:
     uk: Донат, рекомендовано 100 грн
     en: "Donation, suggested amount: 100 UAH"

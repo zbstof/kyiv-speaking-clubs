@@ -33,7 +33,7 @@ schedule_note:
     the same day; the Zoom link is emailed on the day of the meeting. Hosted by Charlie, and from
     11.11.2026 by Patrice.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

@@ -23,7 +23,7 @@ location:
   lon: 30.399525
   geocoded: true
 price:
-  free: true
+  kind: free
 organizer: Бібліотека ім. М. Дубова
 status: unknown
 first_seen: 2025-12

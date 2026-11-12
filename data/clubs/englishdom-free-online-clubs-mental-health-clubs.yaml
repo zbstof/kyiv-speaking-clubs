@@ -20,7 +20,7 @@ schedule_note:
   uk: Щосереди 19:00
   en: Wednesdays 19:00
 price:
-  free: true
+  kind: free
 registration: required
 organizer: Englishdom
 status: unknown

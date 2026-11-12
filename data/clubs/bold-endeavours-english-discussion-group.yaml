@@ -16,7 +16,7 @@ schedule_note:
   uk: Перша субота кожного місяця, опівдні (2010)
   en: First Saturday of each month, noon (2010)
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

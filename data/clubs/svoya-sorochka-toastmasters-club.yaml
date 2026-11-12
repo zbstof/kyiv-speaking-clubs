@@ -25,7 +25,7 @@ schedule_note:
   uk: Щопонеділка о 19:00. Клуб ораторської майстерності українською.
   en: Every Monday at 19:00. A Ukrainian-language public speaking club.
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

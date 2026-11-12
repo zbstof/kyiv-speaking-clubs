@@ -41,7 +41,7 @@ schedule_note:
     guests, no registration required. Not all meetings are posted on Meetup; announcements are in
     the Telegram chat.
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

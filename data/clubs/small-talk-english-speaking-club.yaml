@@ -35,7 +35,7 @@ schedule_note:
   uk: Щопонеділка 19:00–21:00.
   en: Every Monday 19:00–21:00.
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     url: https://t.me/SmalTalkLevoberezhna

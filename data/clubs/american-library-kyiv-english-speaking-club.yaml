@@ -39,7 +39,7 @@ schedule_note:
   uk: Щоп’ятниці 17:00–19:00 (2016–2017); щочетверга 16:30 (2014)
   en: Fridays 17:00–19:00 (2016–2017); Thursdays 16:30 (2014)
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: website

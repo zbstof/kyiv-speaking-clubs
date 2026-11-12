@@ -23,7 +23,7 @@ location:
   lon: 30.401863
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 400-26-80

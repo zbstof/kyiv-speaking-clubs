@@ -22,7 +22,7 @@ location:
     uk: вул. Гетьмана Кирила Розумовського, 10-12
     en: 10-12 Hetmana Kyryla Rozumovskoho St
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 450-56-14

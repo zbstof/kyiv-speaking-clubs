@@ -23,7 +23,7 @@ location:
   lon: 30.416561
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 455-21-41

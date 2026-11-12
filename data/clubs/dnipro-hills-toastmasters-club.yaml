@@ -41,7 +41,7 @@ schedule_note:
     restaurant; according to the club, about once a month the meeting is online or hybrid (Zoom).
     Free for guests; the club asks attendees to order a drink or food at the restaurant.
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

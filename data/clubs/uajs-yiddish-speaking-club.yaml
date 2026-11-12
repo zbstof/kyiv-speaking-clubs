@@ -28,7 +28,7 @@ schedule_note:
     Registration each academic year (announcements 2020-11-05 and October 2021 for 2021-2022).
     Schedule not published in sources found.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

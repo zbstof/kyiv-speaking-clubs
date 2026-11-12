@@ -25,7 +25,7 @@ location:
   lon: 30.601099
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 294-14-99

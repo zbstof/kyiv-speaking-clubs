@@ -19,7 +19,7 @@ levels:
   - any
 format: hybrid
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

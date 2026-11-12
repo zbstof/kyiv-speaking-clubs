@@ -36,7 +36,7 @@ schedule_note:
   uk: Щонеділі 18:00–21:00. Тему тижня публікують у групі та каналі.
   en: Every Sunday 18:00–21:00. The topic of the week is posted in the group and channel.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: telegram

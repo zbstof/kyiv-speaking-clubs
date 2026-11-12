@@ -19,7 +19,7 @@ location:
   lon: 30.512736
   geocoded: true
 price:
-  free: false
+  kind: paid
   amount:
     uk: від 89 грн/год (курси)
     en: from 89 UAH/hour (courses)

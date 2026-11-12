@@ -27,7 +27,7 @@ schedule_note:
   uk: Понеділок 18:30, у теплу пору року (травень–вересень 2025).
   en: Monday 18:30, during the warmer months (May–September 2025).
 price:
-  free: true
+  kind: free
 status: unknown
 first_seen: 2025-05
 last_seen: "2025-09-15"

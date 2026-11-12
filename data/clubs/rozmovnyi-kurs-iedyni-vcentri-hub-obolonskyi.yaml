@@ -19,7 +19,7 @@ location:
   lon: 30.502027
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: website
     url: https://yedyni.org/

@@ -23,7 +23,7 @@ location:
   lon: 30.385652
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 403-01-04

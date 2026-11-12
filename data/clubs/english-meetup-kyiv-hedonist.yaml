@@ -42,7 +42,7 @@ schedule_note:
     Individual events, about once a month; the latest was on 28.10.2026, with registration from
     18:30.
 price:
-  free: false
+  kind: paid
   amount:
     uk: 400 грн (ранній квиток; включає напій)
     en: 400 UAH (early-bird ticket; includes a drink)

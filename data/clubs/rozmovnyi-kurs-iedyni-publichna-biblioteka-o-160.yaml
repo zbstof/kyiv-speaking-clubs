@@ -23,7 +23,7 @@ location:
   lon: 30.626737
   geocoded: true
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 575-35-11

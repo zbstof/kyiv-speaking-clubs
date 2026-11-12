@@ -44,7 +44,7 @@ schedule_note:
     часом, 1 година
   en: "2017: Saturday 11:00 meetups in office; 2024–2025: Tuesdays 18:00 Kyiv time online, 1 hour"
 price:
-  free: false
+  kind: paid
   amount:
     uk: 150 грн (2017); 370 грн (2024); 270 грн за заняття (2025)
     en: 150 UAH (2017); 370 UAH (2024); 270 UAH per session (2025)

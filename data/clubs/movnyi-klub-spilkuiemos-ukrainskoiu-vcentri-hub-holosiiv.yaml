@@ -39,7 +39,7 @@ schedule_note:
     Since September 2026, the club has not appeared in weekly announcements. Register by phone: 093
     549 69 85.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: phone

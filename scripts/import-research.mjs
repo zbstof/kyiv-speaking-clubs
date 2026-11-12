@@ -79,7 +79,7 @@ function mapRecord(r) {
     location: { venue: s(loc.venue), address: s(loc.address), metro: s(loc.metro), note: s(loc.note)?.slice(0, 300) },
     schedule,
     schedule_note: s(r.schedule_note)?.slice(0, 500),
-    price: r.price ? { free: typeof r.price.free === "boolean" ? r.price.free : undefined, amount: s(r.price.amount)?.slice(0, 100) } : undefined,
+    price: r.price ? { kind: r.price.free === true ? "free" : r.price.free === false ? "paid" : undefined, amount: s(r.price.amount)?.slice(0, 300) } : undefined,
     registration: ["required", "optional", "none"].includes(r.registration) ? r.registration : undefined,
     contacts,
     organizer: s(r.organizer)?.slice(0, 200),

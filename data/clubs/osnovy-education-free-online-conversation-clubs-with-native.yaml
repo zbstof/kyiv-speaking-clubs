@@ -55,7 +55,7 @@ schedule_note:
     channel once a month. English — Sat 12:00 or 13:00 (14 and 28.11), Polish — Sat 11:00 (28.11),
     German — Sun 10:00 (25.10). Sign up — @osnovy_edu.
 price:
-  free: false
+  kind: paid
   amount:
     uk: 250 грн (у березні–липні 2026)
     en: 250 UAH (in March–July 2026)

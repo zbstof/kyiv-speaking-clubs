@@ -41,7 +41,7 @@ schedule_note:
   uk: «о 16-00 щочетверга» (kpi.ua/en/interclub).
   en: «at 16-00 on Thursdays every week» (kpi.ua/en/interclub).
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 453-36-58

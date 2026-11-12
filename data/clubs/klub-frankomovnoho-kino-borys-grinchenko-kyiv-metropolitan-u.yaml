@@ -24,7 +24,7 @@ schedule_note:
   uk: 3-й четвер місяця, 15:00
   en: 3rd Thursday of the month, 15:00
 price:
-  free: true
+  kind: free
 organizer: Кафедра романської філології та порівняльно-типологічного мовознавства (керівник Лягіна І.А.)
 status: unknown
 first_seen: "2024-02-23"

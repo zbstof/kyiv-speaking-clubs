@@ -31,7 +31,7 @@ schedule_note:
   uk: Sun 5 Mar 2023 14:00-15:30; Sat 13 May 2023 11:00-13:00.
   en: Sun 5 Mar 2023 14:00-15:30; Sat 13 May 2023 11:00-13:00.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: website

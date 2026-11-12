@@ -30,7 +30,7 @@ schedule_note:
   uk: Щосереди о 7:15 p.m. (за даними каталогу Toastmasters); щосереди о 7:30 p.m. у 2010 році
   en: Wednesdays 7:15 p.m. (Toastmasters listing); Wednesdays 7:30 p.m. in 2010
 price:
-  free: false
+  kind: partly
   amount:
     uk: >-
       Гостям вхід вільний, але лише знайомство й Table Topics (імпровізовані виступи); повна участь

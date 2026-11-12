@@ -31,7 +31,7 @@ schedule_note:
   uk: Середа 18:00–21:00. Можна просто прийти.
   en: Wednesday 18:00–21:00. Just turn up.
 price:
-  free: true
+  kind: free
 registration: none
 contacts:
   - type: viber

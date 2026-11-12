@@ -23,7 +23,7 @@ schedule_note:
     Every Tuesday at 20:00 Kyiv time on Zoom. Up to 6 participants plus the host: post in the group
     to say you're coming.
 price:
-  free: true
+  kind: free
 registration: required
 contacts:
   - type: telegram

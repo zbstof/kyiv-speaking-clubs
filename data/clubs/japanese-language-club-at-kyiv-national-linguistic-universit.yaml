@@ -22,7 +22,7 @@ schedule_note:
   uk: Раз на місяць (за даними 2017 року)
   en: Once a month (2017 report)
 price:
-  free: true
+  kind: free
 organizer: >-
   SAITO Chika, Japanese-Language Assistant dispatched by the Japan Foundation (as described in her
   report)

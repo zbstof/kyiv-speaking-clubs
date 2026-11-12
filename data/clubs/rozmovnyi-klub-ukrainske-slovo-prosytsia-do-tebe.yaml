@@ -30,7 +30,7 @@ schedule_note:
     Blog post 29 Apr 2026: conversation club session on the works of Oles Honchar. No regular time
     published.
 price:
-  free: true
+  kind: free
 contacts:
   - type: phone
     url: (044) 526-22-56

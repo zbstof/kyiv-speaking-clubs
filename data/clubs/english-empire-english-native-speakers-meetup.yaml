@@ -18,7 +18,7 @@ schedule_note:
   uk: 2019-03-22 (регулярний розклад не вказано)
   en: 2019-03-22 (no regular schedule given)
 price:
-  free: false
+  kind: paid
   amount:
     uk: $10 за заняття; перше безкоштовне після реєстрації на сайті
     en: $10 per session; first free after site registration

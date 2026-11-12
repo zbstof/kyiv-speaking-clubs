@@ -34,7 +34,7 @@ schedule_note:
   uk: Щовівторка 19:00–21:00.
   en: Every Tuesday 19:00–21:00.
 price:
-  free: true
+  kind: free
 contacts:
   - type: telegram
     access: on_request

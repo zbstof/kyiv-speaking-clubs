@@ -23,7 +23,7 @@ location:
   lon: 30.466492
   geocoded: true
 price:
-  free: true
+  kind: free
 organizer: Центральна районна бібліотека ім. І. Франка (Подільський р-н)
 status: unknown
 first_seen: 2025-12

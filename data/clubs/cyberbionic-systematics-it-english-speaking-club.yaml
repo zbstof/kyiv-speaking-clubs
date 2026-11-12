@@ -33,7 +33,7 @@ schedule_note:
   uk: "Щосуботи о 14:00, 2 години: 2015-07-04, 07-18, 07-25"
   en: "Saturdays 14:00, 2 hours: 2015-07-04, 07-18, 07-25"
 price:
-  free: false
+  kind: paid
   amount:
     uk: 50 грн
     en: 50 UAH

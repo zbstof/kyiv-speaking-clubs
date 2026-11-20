@@ -1,0 +1,63 @@
+id: atelier-de-conversation-francais
+name:
+  uk: Atelier de Conversation Français
+  en: Atelier de Conversation Français
+description:
+  uk: >-
+    Щотижневі розмовні зустрічі французькою в київських кафе: вільна розмова, іноді на тему вечора.
+    Приходять франкомовні іноземці, які живуть у Києві, і ті, хто вчить мову. Влітку бували й
+    велопрогулянки.
+  en: >-
+    Weekly French conversation meetings in Kyiv cafés: free conversation, sometimes on a topic of
+    the evening. French speakers living in Kyiv come along with learners. In summer there were bike
+    rides too.
+languages:
+  - fr
+format: offline
+location:
+  venue:
+    uk: Кав'ярня Turka
+    en: Turka café
+  address:
+    uk: вул. Шота Руставелі, 19
+    en: 19 Shota Rustaveli St
+  note:
+    uk: >-
+      Місце змінюється: також ресторан RUMI (Бессарабська пл., 9) і перуанський ресторан в укритті.
+      Адреса — в анонсі в групі.
+    en: >-
+      The venue changes: also RUMI restaurant (9 Bessarabska Sq) and a Peruvian restaurant in a
+      shelter. The address is in the group's announcement.
+  lat: 50.438273
+  lon: 30.519754
+  geocoded: true
+schedule:
+  - day: thu
+    time: "18:30"
+    frequency: weekly
+    format: offline
+schedule_note:
+  uk: >-
+    Щотижня о 18:30, здебільшого в четвер; день іноді змінюється (20.11.2026 — п'ятниця), тож
+    дивіться анонс у групі. Влітку 2026 зустрічі були по суботах о 18:00.
+  en: >-
+    Weekly at 18:30, mostly on Thursdays; the day sometimes changes (Friday on 20.11.2026), so check
+    the group's announcement. In summer 2026 the meetings were on Saturdays at 18:00.
+contacts:
+  - type: telegram
+    access: on_request
+    note:
+      uk: Закрита група; запрошення в учасників
+      en: Private group; invitations available from members
+    members: 98
+    members_checked: "2026-11-20"
+status: active
+first_seen: 2026-06
+last_seen: "2026-11-20"
+notes:
+  uk: >-
+    Telegram-група клубу, прочитано 20.11.2026; група з червня 2026. Адміністратор анонсував клуб у
+    публічному чаті LEC Philosophy Club 19.11.2026.
+  en: >-
+    The club's Telegram group, read on 20.11.2026; the group dates from June 2026. An admin
+    announced the club in the public LEC Philosophy Club chat on 19.11.2026.

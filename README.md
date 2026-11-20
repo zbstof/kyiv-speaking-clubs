@@ -137,7 +137,7 @@ Until step 5 is done, the form opens a pre-filled GitHub issue instead. That fal
 
 - **Where:** `data/images/<club id>.jpg`. The build checks that each file name matches a club, copies the files to `site/img/clubs/`, and adds `image` to `clubs.json`.
 - **Where they show:** next to the name on the card (48 px) and in the map popup (32 px). The club page also uses the image as `og:image` for link previews and as `logo` in its schema.org data.
-- **What to add:** the club's logo or chat avatar. No photos of people: small clubs often use the organizer's own photo. No images from closed groups unless the organizer agreed to publish the group.
+- **What to add:** the club's logo or chat avatar. No photos of people: small clubs often use the organizer's own photo. Closed groups' avatars are fine: an avatar does not let anyone in, unlike an invite link, which still needs the organizer's consent.
 - **Format:** square, 256 px. Pad a wide logo with its own background color, so the rounded corners do not cut it:
 
   ```bash

@@ -3,42 +3,66 @@ name:
   uk: Speak french, speak life
   en: Speak french, speak life
 description:
-  uk: "Франкомовна спільнота: розмовні вечори, караоке французькою та інші події."
-  en: "A French-speaking community: conversation evenings, karaoke in French and other events."
+  uk: >-
+    Франкомовний розмовний клуб: зустрічі в кафе, часто з темою вечора (вдячність, правда,
+    рівновага). Приходять франкомовні іноземці, які живуть у Києві, і ті, хто вчить мову.
+  en: >-
+    A French conversation club: meetings in a café, often with a topic of the evening (gratitude,
+    truth, balance). French speakers living in Kyiv come along with learners.
 languages:
   - fr
 format: offline
 location:
   venue:
-    uk: X Lounge
-    en: X Lounge
+    uk: Кав'ярня Turka
+    en: Turka café
   address:
-    uk: вул. Петра Сагайдачного, 31
-    en: 31 Petra Sahaidachnoho St
-  metro:
-    uk: Поштова площа
-    en: Poshtova Ploshcha
-  lat: 50.461318
-  lon: 30.520958
+    uk: вул. Шота Руставелі, 19
+    en: 19 Shota Rustaveli St
+  note:
+    uk: >-
+      Іноді зустрічаються в іншому місці, наприклад у ресторані RUMI (Бессарабська пл., 9). Адреса —
+      в анонсі в групі.
+    en: >-
+      Sometimes the meeting is elsewhere, for example at RUMI restaurant (9 Bessarabska Sq). The
+      address is in the group's announcement.
+  lat: 50.438273
+  lon: 30.519754
   geocoded: true
 schedule:
   - day: thu
+    time: "18:30"
+    duration_min: 120
+    frequency: weekly
+    format: offline
+  - day: sat
     time: "18:00"
-    frequency: irregular
+    frequency: monthly
     format: offline
 schedule_note:
-  uk: Події анонсують у групі; останнім часом — у четвер з 18:00 в X Lounge.
-  en: Events are announced in the group; lately, on Thursdays from 18:00 at X Lounge.
+  uk: >-
+    Четвер 18:30–20:30 у 1-й, 2-й і 4-й тиждень місяця; у 3-й тиждень замість четверга — субота.
+    День і місце іноді змінюються, тож дивіться анонс у групі.
+  en: >-
+    Thursday 18:30–20:30 in the 1st, 2nd and 4th weeks of the month; in the 3rd week, Saturday
+    instead of Thursday. The day and venue sometimes change, so check the group's announcement.
 contacts:
   - type: telegram
     url: https://t.me/SFrenchSLife
-    members: 60
-    members_checked: "2026-11-10"
+    members: 63
+    members_checked: "2026-11-20"
+organizer: Raimana tcharles (@Kofeinan)
 status: active
 first_seen: 2025-11
-last_seen: "2026-11-10"
+last_seen: "2026-11-18"
 sources:
   - https://t.me/SFrenchSLife
 notes:
-  uk: За історією Telegram-груп київських клубів (прочитано 10.11.2026).
-  en: Based on the Telegram group histories of Kyiv clubs (accessed 10.11.2026).
+  uk: >-
+    Telegram-група клубу, прочитано 20.11.2026. Частина учасників і анонсів спільна з клубом Atelier
+    de Conversation Français. Караоке французькою в X Lounge по четвергах проводить інша група,
+    Formidable.
+  en: >-
+    The club's Telegram group, read on 20.11.2026. Some members and announcements are shared with
+    the Atelier de Conversation Français club. The French karaoke nights at X Lounge on Thursdays
+    are run by another group, Formidable.
